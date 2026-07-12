@@ -9,6 +9,21 @@ def _p(seed):
 def motion(name):
     n=(name or "").lower()
     def h(*k): return any(x in n for x in k)
+    # --- precise per-name routing (wins over the generic families below) ---
+    if h("geq","freqwave","freqmap","freqmatrix","freqpixels","noisemeter"): return "geq"  # audio equalizer bars
+    if h("plasma ball"): return "plasmaball"   # electric plasma globe
+    if h("spray"): return "spray"              # particle spray from a nozzle
+    if h("springy","spring"): return "spring"  # spring-connected bob
+    if h("solid pattern"): return "pattern"    # on/off striped pattern
+    if h("pixelwave"): return "ripple"         # pixels rippling from centre
+    if h("pixels"): return "twinkle"           # random pixel twinkles
+    if h("starburst"): return "fireworks"      # exploding star fragments
+    if h("metaball"): return "plasma"          # merging blobs
+    if h("hiphotic"): return "plasma"          # moving plasma
+    if h("attractor"): return "blackhole"      # particles round a black hole
+    if h("slow transition"): return "fade"     # very slow colour fade
+    if h("shimmer"): return "glitter"          # shimmering sparkle
+    if h("fill noise"): return "sparkle"       # noise fill
     if h("glitter"): return "glitter"
     if h("chunchun"): return "birds"           # flock of birds
     if h("dna"): return "dna"                  # double helix (before matrix/galaxy)
@@ -528,6 +543,37 @@ def anim(ph,m,seed=0):
             for j in range(5):
                 t=a+j/5.0*6.283; pts.append("%.0f,%.0f"%(72+M.cos(t)*rr,72+M.sin(t)*rr))
             o+='<polygon points="%s" fill="none" stroke="%s" stroke-width="3"/>'%(" ".join(pts),_rgb(0.6-k*0.06,0.5,0.85))
+        return o
+    if m=="geq":                                    # GEQ / Freq*: an audio equalizer, bars bouncing
+        o=""
+        for i in range(8):
+            hh=18+abs(M.sin(p*0.5+i*0.7))*92
+            o+='<rect x="%d" y="%.0f" width="13" height="%.0f" rx="2" fill="%s"/>'%(12+i*16,124-hh,hh,_rgb(0.55-i*0.03,sat,0.85))
+        return o
+    if m=="spray":                                  # PS Spray: particles sprayed from a nozzle
+        o='<rect x="12" y="62" width="22" height="18" rx="3" fill="#8b93a1"/>'
+        for k in range(10):
+            d=(k*13+int(ph*8*spd))%116; x=34+d; y=72+M.sin(p*0.6+k)*(6+d*0.2)
+            o+='<circle cx="%.0f" cy="%.0f" r="%.1f" fill="%s"/>'%(x,y,max(2,5-d*0.03),_rgb(h0,sat,0.85))
+        return o
+    if m=="spring":                                 # PS Springy: a coil spring with a bouncing bob
+        cy=48+abs(M.sin(p*0.9))*40; o=""
+        for i in range(6):
+            y1=18+i*(cy-18)/6.0; y2=18+(i+1)*(cy-18)/6.0
+            o+='<line x1="%d" y1="%.0f" x2="%d" y2="%.0f" stroke="%s" stroke-width="4"/>'%(58 if i%2 else 86,y1,86 if i%2 else 58,y2,_rgb(h0,0.4,0.8))
+        o+='<circle cx="72" cy="%.0f" r="16" fill="%s"/>'%(cy+16,_rgb(h0,sat,0.85))
+        return o
+    if m=="plasmaball":                             # Plasma Ball: a globe with electric tendrils
+        o='<circle cx="72" cy="72" r="46" fill="#130a20"/><circle cx="72" cy="72" r="46" fill="none" stroke="%s" stroke-width="2"/>'%_rgb(0.75,0.4,0.7)
+        for k in range(5):
+            a=p*0.4+k*1.257; mx=72+M.cos(a)*24+M.sin(p+k)*8; my=72+M.sin(a)*24
+            o+='<path d="M72 72 L%.0f %.0f L%.0f %.0f" fill="none" stroke="%s" stroke-width="2.5"/>'%(mx,my,72+M.cos(a)*44,72+M.sin(a)*44,_rgb(0.74,0.5,0.95))
+        o+='<circle cx="72" cy="72" r="9" fill="%s"/>'%_rgb(0.78,0.55,0.95)
+        return o
+    if m=="pattern":                                # Solid Pattern: on/off stripes scrolling
+        o=""; off=int(ph*3*spd)%36
+        for x in range(-off,144,36):
+            o+='<rect x="%d" y="30" width="18" height="84" rx="4" fill="%s"/>'%(x,_rgb(h0,sat,0.85))
         return o
     if m=="strobe":
         c=_rgb(h0,sat,1) if ph%2==0 else "#272c36"

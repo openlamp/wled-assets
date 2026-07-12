@@ -77,7 +77,7 @@
 | <img src="../../images/effects/fire-2012.gif" width="64"> | `Fire 2012` | Fire 2012 | 불꽃이 일렁이며 오른다. |
 | <img src="../../images/effects/colorwaves.gif" width="64"> | `Colorwaves` | Colorwaves | 여러 색의 띠. |
 | <img src="../../images/effects/bpm.gif" width="64"> | `Bpm` | Bpm | 박자마다 맥동한다. |
-| <img src="../../images/effects/fill-noise.gif" width="64"> | `Fill Noise` | Fill Noise | 단색의 고정 색상. |
+| <img src="../../images/effects/fill-noise.gif" width="64"> | `Fill Noise` | Fill Noise | 무작위로 반짝인다. |
 | <img src="../../images/effects/noise-1.gif" width="64"> | `Noise 1` | Noise 1 | 무작위로 반짝인다. |
 | <img src="../../images/effects/noise-2.gif" width="64"> | `Noise 2` | Noise 2 | 무작위로 반짝인다. |
 | <img src="../../images/effects/noise-3.gif" width="64"> | `Noise 3` | Noise 3 | 무작위로 반짝인다. |
@@ -91,8 +91,8 @@
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | 별이 반짝인다. |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | 별이 반짝인다. |
 | <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | 어둠 속에서 한 쌍의 눈이 깜빡인다. |
-| <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | 단색의 고정 색상. |
-| <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | 단색의 고정 색상. |
+| <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | 줄무늬 패턴이 흐른다. |
+| <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | 줄무늬 패턴이 흐른다. |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | 반점이 나타났다 사라진다. |
 | <img src="../../images/effects/spots-fade.gif" width="64"> | `Spots Fade` | Spots Fade | 반점이 나타났다 사라진다. |
 | <img src="../../images/effects/glitter.gif" width="64"> | `Glitter` | Glitter | 색 위로 반짝이가 빛난다. |
@@ -136,20 +136,20 @@
 | <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Soap | 비눗방울이 떠다닌다. |
 | <img src="../../images/effects/octopus.gif" width="64"> | `Octopus` | Octopus | 문어가 촉수를 흔든다. |
 | <img src="../../images/effects/waving-cell.gif" width="64"> | `Waving Cell` | Waving Cell | 색의 파도가 스트립을 따라 흐른다. |
-| <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | 매트릭스처럼 코드가 쏟아진다. |
-| <img src="../../images/effects/pixelwave.gif" width="64"> | `Pixelwave` | Pixelwave | 매트릭스처럼 코드가 쏟아진다. |
+| <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | 별이 반짝인다. |
+| <img src="../../images/effects/pixelwave.gif" width="64"> | `Pixelwave` | Pixelwave | 물결이 퍼진다. |
 | <img src="../../images/effects/juggles.gif" width="64"> | `Juggles` | Juggles | 공이 튀어 오른다. |
 | <img src="../../images/effects/matripix.gif" width="64"> | `Matripix` | Matripix | 매트릭스처럼 코드가 쏟아진다. |
 | <img src="../../images/effects/gravimeter.gif" width="64"> | `Gravimeter` | Gravimeter | 공이 튀어 오른다. |
 | <img src="../../images/effects/plasmoid.gif" width="64"> | `Plasmoid` | Plasmoid | 색 덩어리가 일렁인다. |
 | <img src="../../images/effects/puddles.gif" width="64"> | `Puddles` | Puddles | 비가 내린다. |
 | <img src="../../images/effects/midnoise.gif" width="64"> | `Midnoise` | Midnoise | 무작위로 반짝인다. |
-| <img src="../../images/effects/noisemeter.gif" width="64"> | `Noisemeter` | Noisemeter | 무작위로 반짝인다. |
-| <img src="../../images/effects/freqwave.gif" width="64"> | `Freqwave` | Freqwave | 물결이 퍼진다. |
-| <img src="../../images/effects/freqmatrix.gif" width="64"> | `Freqmatrix` | Freqmatrix | 매트릭스처럼 코드가 쏟아진다. |
-| <img src="../../images/effects/geq.gif" width="64"> | `GEQ` | GEQ | 물결이 퍼진다. |
+| <img src="../../images/effects/noisemeter.gif" width="64"> | `Noisemeter` | Noisemeter | 소리에 맞춰 튀는 오디오 이퀄라이저. |
+| <img src="../../images/effects/freqwave.gif" width="64"> | `Freqwave` | Freqwave | 소리에 맞춰 튀는 오디오 이퀄라이저. |
+| <img src="../../images/effects/freqmatrix.gif" width="64"> | `Freqmatrix` | Freqmatrix | 소리에 맞춰 튀는 오디오 이퀄라이저. |
+| <img src="../../images/effects/geq.gif" width="64"> | `GEQ` | GEQ | 소리에 맞춰 튀는 오디오 이퀄라이저. |
 | <img src="../../images/effects/waterfall.gif" width="64"> | `Waterfall` | Waterfall | 비가 내린다. |
-| <img src="../../images/effects/freqpixels.gif" width="64"> | `Freqpixels` | Freqpixels | 매트릭스처럼 코드가 쏟아진다. |
+| <img src="../../images/effects/freqpixels.gif" width="64"> | `Freqpixels` | Freqpixels | 소리에 맞춰 튀는 오디오 이퀄라이저. |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | 색의 파도가 스트립을 따라 흐른다. |
 | <img src="../../images/effects/noisefire.gif" width="64"> | `Noisefire` | Noisefire | 불꽃이 일렁이며 오른다. |
 | <img src="../../images/effects/puddlepeak.gif" width="64"> | `Puddlepeak` | Puddlepeak | 비가 내린다. |
@@ -162,14 +162,14 @@
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | 팩맨이 갉아먹으며 나아간다. |
 | <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | 두 가닥이 이중 나선을 이룬다. |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrix | 매트릭스처럼 코드가 쏟아진다. |
-| <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | 공이 튀어 오른다. |
-| <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | 물결이 퍼진다. |
+| <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | 색 덩어리가 일렁인다. |
+| <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | 소리에 맞춰 튀는 오디오 이퀄라이저. |
 | <img src="../../images/effects/gravcenter.gif" width="64"> | `Gravcenter` | Gravcenter | 공이 튀어 오른다. |
 | <img src="../../images/effects/gravcentric.gif" width="64"> | `Gravcentric` | Gravcentric | 공이 튀어 오른다. |
 | <img src="../../images/effects/gravfreq.gif" width="64"> | `Gravfreq` | Gravfreq | 공이 튀어 오른다. |
 | <img src="../../images/effects/dj-light.gif" width="64"> | `DJ Light` | DJ Light | 턴테이블이 돈다. |
 | <img src="../../images/effects/funky-plank.gif" width="64"> | `Funky Plank` | Funky Plank | 색의 파도가 스트립을 따라 흐른다. |
-| <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | 색의 파도가 스트립을 따라 흐른다. |
+| <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | 색 위로 반짝이가 빛난다. |
 | <img src="../../images/effects/pulser.gif" width="64"> | `Pulser` | Pulser | 밝기가 부풀었다 잦아든다. |
 | <img src="../../images/effects/blurz.gif" width="64"> | `Blurz` | Blurz | 색의 파도가 스트립을 따라 흐른다. |
 | <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Drift | 소용돌이가 바깥으로 감긴다. |
@@ -186,9 +186,9 @@
 | <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Swirl | 소용돌이가 바깥으로 감긴다. |
 | <img src="../../images/effects/lissajous.gif" width="64"> | `Lissajous` | Lissajous | 리사주 곡선이 변형된다. |
 | <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | 회전하는 기하학 무늬. |
-| <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | 공이 튀어 오른다. |
+| <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | 플라스마 볼 속 전기 줄기. |
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | 입자가 흘러간다. |
-| <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | 색의 파도가 스트립을 따라 흐른다. |
+| <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | 색 덩어리가 일렁인다. |
 | <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | 소용돌이가 바깥으로 감긴다. |
 | <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | 두 가닥이 이중 나선을 이룬다. |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | 고리가 어두운 핵으로 붕괴한다. |
@@ -202,12 +202,12 @@
 | <img src="../../images/effects/ps-fuzzy-noise.gif" width="64"> | `PS Fuzzy Noise` | PS Fuzzy Noise | 무작위로 반짝인다. |
 | <img src="../../images/effects/ps-ballpit.gif" width="64"> | `PS Ballpit` | PS Ballpit | 공이 튀어 오른다. |
 | <img src="../../images/effects/ps-box.gif" width="64"> | `PS Box` | PS Box | 색의 파도가 스트립을 따라 흐른다. |
-| <img src="../../images/effects/ps-attractor.gif" width="64"> | `PS Attractor` | PS Attractor | 색의 파도가 스트립을 따라 흐른다. |
+| <img src="../../images/effects/ps-attractor.gif" width="64"> | `PS Attractor` | PS Attractor | 고리가 어두운 핵으로 붕괴한다. |
 | <img src="../../images/effects/ps-impact.gif" width="64"> | `PS Impact` | PS Impact | 충격파 고리가 퍼진다. |
 | <img src="../../images/effects/ps-waterfall.gif" width="64"> | `PS Waterfall` | PS Waterfall | 비가 내린다. |
-| <img src="../../images/effects/ps-spray.gif" width="64"> | `PS Spray` | PS Spray | 색의 파도가 스트립을 따라 흐른다. |
-| <img src="../../images/effects/ps-geq-2d.gif" width="64"> | `PS GEQ 2D` | PS GEQ 2D | 물결이 퍼진다. |
-| <img src="../../images/effects/ps-geq-nova.gif" width="64"> | `PS GEQ Nova` | PS GEQ Nova | 물결이 퍼진다. |
+| <img src="../../images/effects/ps-spray.gif" width="64"> | `PS Spray` | PS Spray | 노즐에서 입자가 뿜어져 나온다. |
+| <img src="../../images/effects/ps-geq-2d.gif" width="64"> | `PS GEQ 2D` | PS GEQ 2D | 소리에 맞춰 튀는 오디오 이퀄라이저. |
+| <img src="../../images/effects/ps-geq-nova.gif" width="64"> | `PS GEQ Nova` | PS GEQ Nova | 소리에 맞춰 튀는 오디오 이퀄라이저. |
 | <img src="../../images/effects/ps-ghost-rider.gif" width="64"> | `PS Ghost Rider` | PS Ghost Rider | 유령이 떠다닌다. |
 | <img src="../../images/effects/ps-blobs.gif" width="64"> | `PS Blobs` | PS Blobs | 색 덩어리가 일렁인다. |
 | <img src="../../images/effects/ps-dripdrop.gif" width="64"> | `PS DripDrop` | PS DripDrop | 물방울이 하나씩 떨어진다. |
@@ -216,15 +216,15 @@
 | <img src="../../images/effects/ps-fireworks-1d.gif" width="64"> | `PS Fireworks 1D` | PS Fireworks 1D | 불꽃놀이가 터진다. |
 | <img src="../../images/effects/ps-sparkler.gif" width="64"> | `PS Sparkler` | PS Sparkler | 무작위로 반짝인다. |
 | <img src="../../images/effects/ps-hourglass.gif" width="64"> | `PS Hourglass` | PS Hourglass | 모래시계의 모래가 떨어진다. |
-| <img src="../../images/effects/ps-spray-1d.gif" width="64"> | `PS Spray 1D` | PS Spray 1D | 색의 파도가 스트립을 따라 흐른다. |
+| <img src="../../images/effects/ps-spray-1d.gif" width="64"> | `PS Spray 1D` | PS Spray 1D | 노즐에서 입자가 뿜어져 나온다. |
 | <img src="../../images/effects/ps-1d-balance.gif" width="64"> | `PS 1D Balance` | PS 1D Balance | 색의 파도가 스트립을 따라 흐른다. |
 | <img src="../../images/effects/ps-chase.gif" width="64"> | `PS Chase` | PS Chase | 밝은 점이 꼬리를 끌며 지나간다. |
-| <img src="../../images/effects/ps-starburst.gif" width="64"> | `PS Starburst` | PS Starburst | 별이 반짝인다. |
-| <img src="../../images/effects/ps-geq-1d.gif" width="64"> | `PS GEQ 1D` | PS GEQ 1D | 물결이 퍼진다. |
+| <img src="../../images/effects/ps-starburst.gif" width="64"> | `PS Starburst` | PS Starburst | 불꽃놀이가 터진다. |
+| <img src="../../images/effects/ps-geq-1d.gif" width="64"> | `PS GEQ 1D` | PS GEQ 1D | 소리에 맞춰 튀는 오디오 이퀄라이저. |
 | <img src="../../images/effects/ps-fire-1d.gif" width="64"> | `PS Fire 1D` | PS Fire 1D | 불꽃이 일렁이며 오른다. |
 | <img src="../../images/effects/ps-sonic-stream.gif" width="64"> | `PS Sonic Stream` | PS Sonic Stream | 입자가 흘러간다. |
 | <img src="../../images/effects/ps-sonic-boom.gif" width="64"> | `PS Sonic Boom` | PS Sonic Boom | 충격파 고리가 퍼진다. |
-| <img src="../../images/effects/ps-springy.gif" width="64"> | `PS Springy` | PS Springy | 색의 파도가 스트립을 따라 흐른다. |
+| <img src="../../images/effects/ps-springy.gif" width="64"> | `PS Springy` | PS Springy | 용수철이 추를 튕긴다. |
 | <img src="../../images/effects/ps-galaxy.gif" width="64"> | `PS Galaxy` | PS Galaxy | 별이 나선으로 돈다. |
 | <img src="../../images/effects/color-clouds.gif" width="64"> | `Color Clouds` | Color Clouds | 색 덩어리가 일렁인다. |
-| <img src="../../images/effects/slow-transition.gif" width="64"> | `Slow Transition` | Slow Transition | 색의 파도가 스트립을 따라 흐른다. |
+| <img src="../../images/effects/slow-transition.gif" width="64"> | `Slow Transition` | Slow Transition | 색이 나타났다 사라진다. |

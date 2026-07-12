@@ -77,7 +77,7 @@
 | <img src="../../images/effects/fire-2012.gif" width="64"> | `Fire 2012` | Fire 2012 | 火焰摇曳升腾。 |
 | <img src="../../images/effects/colorwaves.gif" width="64"> | `Colorwaves` | Colorwaves | 多彩的色带。 |
 | <img src="../../images/effects/bpm.gif" width="64"> | `Bpm` | Bpm | 随每一拍脉动。 |
-| <img src="../../images/effects/fill-noise.gif" width="64"> | `Fill Noise` | Fill Noise | 单一稳定的颜色。 |
+| <img src="../../images/effects/fill-noise.gif" width="64"> | `Fill Noise` | Fill Noise | 随机闪光。 |
 | <img src="../../images/effects/noise-1.gif" width="64"> | `Noise 1` | Noise 1 | 随机闪光。 |
 | <img src="../../images/effects/noise-2.gif" width="64"> | `Noise 2` | Noise 2 | 随机闪光。 |
 | <img src="../../images/effects/noise-3.gif" width="64"> | `Noise 3` | Noise 3 | 随机闪光。 |
@@ -91,8 +91,8 @@
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | 星星闪烁。 |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | 星星闪烁。 |
 | <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | 黑暗中一双眼睛眨动。 |
-| <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | 单一稳定的颜色。 |
-| <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | 单一稳定的颜色。 |
+| <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | 条纹图案滚动。 |
+| <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | 条纹图案滚动。 |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | 光斑忽隐忽现。 |
 | <img src="../../images/effects/spots-fade.gif" width="64"> | `Spots Fade` | Spots Fade | 光斑忽隐忽现。 |
 | <img src="../../images/effects/glitter.gif" width="64"> | `Glitter` | Glitter | 色彩上闪着亮片。 |
@@ -136,20 +136,20 @@
 | <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Soap | 肥皂泡漂浮。 |
 | <img src="../../images/effects/octopus.gif" width="64"> | `Octopus` | Octopus | 章鱼舞动触手。 |
 | <img src="../../images/effects/waving-cell.gif" width="64"> | `Waving Cell` | Waving Cell | 色波沿灯带流动。 |
-| <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | 代码如《黑客帝国》般落下。 |
-| <img src="../../images/effects/pixelwave.gif" width="64"> | `Pixelwave` | Pixelwave | 代码如《黑客帝国》般落下。 |
+| <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | 星星闪烁。 |
+| <img src="../../images/effects/pixelwave.gif" width="64"> | `Pixelwave` | Pixelwave | 水面涟漪扩散。 |
 | <img src="../../images/effects/juggles.gif" width="64"> | `Juggles` | Juggles | 小球上下弹跳。 |
 | <img src="../../images/effects/matripix.gif" width="64"> | `Matripix` | Matripix | 代码如《黑客帝国》般落下。 |
 | <img src="../../images/effects/gravimeter.gif" width="64"> | `Gravimeter` | Gravimeter | 小球上下弹跳。 |
 | <img src="../../images/effects/plasmoid.gif" width="64"> | `Plasmoid` | Plasmoid | 色团流变漂移。 |
 | <img src="../../images/effects/puddles.gif" width="64"> | `Puddles` | Puddles | 雨落下。 |
 | <img src="../../images/effects/midnoise.gif" width="64"> | `Midnoise` | Midnoise | 随机闪光。 |
-| <img src="../../images/effects/noisemeter.gif" width="64"> | `Noisemeter` | Noisemeter | 随机闪光。 |
-| <img src="../../images/effects/freqwave.gif" width="64"> | `Freqwave` | Freqwave | 水面涟漪扩散。 |
-| <img src="../../images/effects/freqmatrix.gif" width="64"> | `Freqmatrix` | Freqmatrix | 代码如《黑客帝国》般落下。 |
-| <img src="../../images/effects/geq.gif" width="64"> | `GEQ` | GEQ | 水面涟漪扩散。 |
+| <img src="../../images/effects/noisemeter.gif" width="64"> | `Noisemeter` | Noisemeter | 随声跳动的音频均衡器。 |
+| <img src="../../images/effects/freqwave.gif" width="64"> | `Freqwave` | Freqwave | 随声跳动的音频均衡器。 |
+| <img src="../../images/effects/freqmatrix.gif" width="64"> | `Freqmatrix` | Freqmatrix | 随声跳动的音频均衡器。 |
+| <img src="../../images/effects/geq.gif" width="64"> | `GEQ` | GEQ | 随声跳动的音频均衡器。 |
 | <img src="../../images/effects/waterfall.gif" width="64"> | `Waterfall` | Waterfall | 雨落下。 |
-| <img src="../../images/effects/freqpixels.gif" width="64"> | `Freqpixels` | Freqpixels | 代码如《黑客帝国》般落下。 |
+| <img src="../../images/effects/freqpixels.gif" width="64"> | `Freqpixels` | Freqpixels | 随声跳动的音频均衡器。 |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | 色波沿灯带流动。 |
 | <img src="../../images/effects/noisefire.gif" width="64"> | `Noisefire` | Noisefire | 火焰摇曳升腾。 |
 | <img src="../../images/effects/puddlepeak.gif" width="64"> | `Puddlepeak` | Puddlepeak | 雨落下。 |
@@ -162,14 +162,14 @@
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | 吃豆人一路吞食。 |
 | <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | 两条链交织成双螺旋。 |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrix | 代码如《黑客帝国》般落下。 |
-| <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | 小球上下弹跳。 |
-| <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | 水面涟漪扩散。 |
+| <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | 色团流变漂移。 |
+| <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | 随声跳动的音频均衡器。 |
 | <img src="../../images/effects/gravcenter.gif" width="64"> | `Gravcenter` | Gravcenter | 小球上下弹跳。 |
 | <img src="../../images/effects/gravcentric.gif" width="64"> | `Gravcentric` | Gravcentric | 小球上下弹跳。 |
 | <img src="../../images/effects/gravfreq.gif" width="64"> | `Gravfreq` | Gravfreq | 小球上下弹跳。 |
 | <img src="../../images/effects/dj-light.gif" width="64"> | `DJ Light` | DJ Light | 唱盘旋转。 |
 | <img src="../../images/effects/funky-plank.gif" width="64"> | `Funky Plank` | Funky Plank | 色波沿灯带流动。 |
-| <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | 色波沿灯带流动。 |
+| <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | 色彩上闪着亮片。 |
 | <img src="../../images/effects/pulser.gif" width="64"> | `Pulser` | Pulser | 亮度渐强又渐弱。 |
 | <img src="../../images/effects/blurz.gif" width="64"> | `Blurz` | Blurz | 色波沿灯带流动。 |
 | <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Drift | 漩涡向外旋卷。 |
@@ -186,9 +186,9 @@
 | <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Swirl | 漩涡向外旋卷。 |
 | <img src="../../images/effects/lissajous.gif" width="64"> | `Lissajous` | Lissajous | 李萨如曲线变形。 |
 | <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | 旋转的几何图案。 |
-| <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | 小球上下弹跳。 |
+| <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | 等离子球中的电弧。 |
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | 粒子流动而过。 |
-| <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | 色波沿灯带流动。 |
+| <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | 色团流变漂移。 |
 | <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | 漩涡向外旋卷。 |
 | <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | 两条链交织成双螺旋。 |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | 光环塌缩入黑暗核心。 |
@@ -202,12 +202,12 @@
 | <img src="../../images/effects/ps-fuzzy-noise.gif" width="64"> | `PS Fuzzy Noise` | PS Fuzzy Noise | 随机闪光。 |
 | <img src="../../images/effects/ps-ballpit.gif" width="64"> | `PS Ballpit` | PS Ballpit | 小球上下弹跳。 |
 | <img src="../../images/effects/ps-box.gif" width="64"> | `PS Box` | PS Box | 色波沿灯带流动。 |
-| <img src="../../images/effects/ps-attractor.gif" width="64"> | `PS Attractor` | PS Attractor | 色波沿灯带流动。 |
+| <img src="../../images/effects/ps-attractor.gif" width="64"> | `PS Attractor` | PS Attractor | 光环塌缩入黑暗核心。 |
 | <img src="../../images/effects/ps-impact.gif" width="64"> | `PS Impact` | PS Impact | 冲击波环扩散。 |
 | <img src="../../images/effects/ps-waterfall.gif" width="64"> | `PS Waterfall` | PS Waterfall | 雨落下。 |
-| <img src="../../images/effects/ps-spray.gif" width="64"> | `PS Spray` | PS Spray | 色波沿灯带流动。 |
-| <img src="../../images/effects/ps-geq-2d.gif" width="64"> | `PS GEQ 2D` | PS GEQ 2D | 水面涟漪扩散。 |
-| <img src="../../images/effects/ps-geq-nova.gif" width="64"> | `PS GEQ Nova` | PS GEQ Nova | 水面涟漪扩散。 |
+| <img src="../../images/effects/ps-spray.gif" width="64"> | `PS Spray` | PS Spray | 粒子从喷嘴喷出。 |
+| <img src="../../images/effects/ps-geq-2d.gif" width="64"> | `PS GEQ 2D` | PS GEQ 2D | 随声跳动的音频均衡器。 |
+| <img src="../../images/effects/ps-geq-nova.gif" width="64"> | `PS GEQ Nova` | PS GEQ Nova | 随声跳动的音频均衡器。 |
 | <img src="../../images/effects/ps-ghost-rider.gif" width="64"> | `PS Ghost Rider` | PS Ghost Rider | 幽灵飘过。 |
 | <img src="../../images/effects/ps-blobs.gif" width="64"> | `PS Blobs` | PS Blobs | 色团流变漂移。 |
 | <img src="../../images/effects/ps-dripdrop.gif" width="64"> | `PS DripDrop` | PS DripDrop | 水滴逐一落下。 |
@@ -216,15 +216,15 @@
 | <img src="../../images/effects/ps-fireworks-1d.gif" width="64"> | `PS Fireworks 1D` | PS Fireworks 1D | 烟花绽放。 |
 | <img src="../../images/effects/ps-sparkler.gif" width="64"> | `PS Sparkler` | PS Sparkler | 随机闪光。 |
 | <img src="../../images/effects/ps-hourglass.gif" width="64"> | `PS Hourglass` | PS Hourglass | 沙漏中沙粒落下。 |
-| <img src="../../images/effects/ps-spray-1d.gif" width="64"> | `PS Spray 1D` | PS Spray 1D | 色波沿灯带流动。 |
+| <img src="../../images/effects/ps-spray-1d.gif" width="64"> | `PS Spray 1D` | PS Spray 1D | 粒子从喷嘴喷出。 |
 | <img src="../../images/effects/ps-1d-balance.gif" width="64"> | `PS 1D Balance` | PS 1D Balance | 色波沿灯带流动。 |
 | <img src="../../images/effects/ps-chase.gif" width="64"> | `PS Chase` | PS Chase | 亮点拖着尾巴掠过。 |
-| <img src="../../images/effects/ps-starburst.gif" width="64"> | `PS Starburst` | PS Starburst | 星星闪烁。 |
-| <img src="../../images/effects/ps-geq-1d.gif" width="64"> | `PS GEQ 1D` | PS GEQ 1D | 水面涟漪扩散。 |
+| <img src="../../images/effects/ps-starburst.gif" width="64"> | `PS Starburst` | PS Starburst | 烟花绽放。 |
+| <img src="../../images/effects/ps-geq-1d.gif" width="64"> | `PS GEQ 1D` | PS GEQ 1D | 随声跳动的音频均衡器。 |
 | <img src="../../images/effects/ps-fire-1d.gif" width="64"> | `PS Fire 1D` | PS Fire 1D | 火焰摇曳升腾。 |
 | <img src="../../images/effects/ps-sonic-stream.gif" width="64"> | `PS Sonic Stream` | PS Sonic Stream | 粒子流动而过。 |
 | <img src="../../images/effects/ps-sonic-boom.gif" width="64"> | `PS Sonic Boom` | PS Sonic Boom | 冲击波环扩散。 |
-| <img src="../../images/effects/ps-springy.gif" width="64"> | `PS Springy` | PS Springy | 色波沿灯带流动。 |
+| <img src="../../images/effects/ps-springy.gif" width="64"> | `PS Springy` | PS Springy | 弹簧使重物弹跳。 |
 | <img src="../../images/effects/ps-galaxy.gif" width="64"> | `PS Galaxy` | PS Galaxy | 星辰旋涡外扩。 |
 | <img src="../../images/effects/color-clouds.gif" width="64"> | `Color Clouds` | Color Clouds | 色团流变漂移。 |
-| <img src="../../images/effects/slow-transition.gif" width="64"> | `Slow Transition` | Slow Transition | 色波沿灯带流动。 |
+| <img src="../../images/effects/slow-transition.gif" width="64"> | `Slow Transition` | Slow Transition | 颜色渐显渐隐。 |

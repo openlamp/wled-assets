@@ -77,7 +77,7 @@
 | <img src="../../images/effects/fire-2012.gif" width="64"> | `Fire 2012` | Fire 2012 | 炎が揺らめき立ち上る。 |
 | <img src="../../images/effects/colorwaves.gif" width="64"> | `Colorwaves` | Colorwaves | 多彩な色の帯。 |
 | <img src="../../images/effects/bpm.gif" width="64"> | `Bpm` | Bpm | 拍ごとに脈打つ。 |
-| <img src="../../images/effects/fill-noise.gif" width="64"> | `Fill Noise` | Fill Noise | 単一の安定した色。 |
+| <img src="../../images/effects/fill-noise.gif" width="64"> | `Fill Noise` | Fill Noise | ランダムにきらめく。 |
 | <img src="../../images/effects/noise-1.gif" width="64"> | `Noise 1` | Noise 1 | ランダムにきらめく。 |
 | <img src="../../images/effects/noise-2.gif" width="64"> | `Noise 2` | Noise 2 | ランダムにきらめく。 |
 | <img src="../../images/effects/noise-3.gif" width="64"> | `Noise 3` | Noise 3 | ランダムにきらめく。 |
@@ -91,8 +91,8 @@
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | 星がまたたく。 |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | 星がまたたく。 |
 | <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | 暗闇で一対の目がまばたく。 |
-| <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | 単一の安定した色。 |
-| <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | 単一の安定した色。 |
+| <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | 縞模様が流れる。 |
+| <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | 縞模様が流れる。 |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | 斑点が現れては消える。 |
 | <img src="../../images/effects/spots-fade.gif" width="64"> | `Spots Fade` | Spots Fade | 斑点が現れては消える。 |
 | <img src="../../images/effects/glitter.gif" width="64"> | `Glitter` | Glitter | 色の上にグリッターが輝く。 |
@@ -136,20 +136,20 @@
 | <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Soap | シャボン玉が漂う。 |
 | <img src="../../images/effects/octopus.gif" width="64"> | `Octopus` | Octopus | タコが触手を振る。 |
 | <img src="../../images/effects/waving-cell.gif" width="64"> | `Waving Cell` | Waving Cell | 色の波がストリップを進む。 |
-| <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | マトリックス風にコードが降る。 |
-| <img src="../../images/effects/pixelwave.gif" width="64"> | `Pixelwave` | Pixelwave | マトリックス風にコードが降る。 |
+| <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | 星がまたたく。 |
+| <img src="../../images/effects/pixelwave.gif" width="64"> | `Pixelwave` | Pixelwave | 水面に波紋が広がる。 |
 | <img src="../../images/effects/juggles.gif" width="64"> | `Juggles` | Juggles | ボールが跳ね回る。 |
 | <img src="../../images/effects/matripix.gif" width="64"> | `Matripix` | Matripix | マトリックス風にコードが降る。 |
 | <img src="../../images/effects/gravimeter.gif" width="64"> | `Gravimeter` | Gravimeter | ボールが跳ね回る。 |
 | <img src="../../images/effects/plasmoid.gif" width="64"> | `Plasmoid` | Plasmoid | 色の塊が形を変える。 |
 | <img src="../../images/effects/puddles.gif" width="64"> | `Puddles` | Puddles | 雨が降る。 |
 | <img src="../../images/effects/midnoise.gif" width="64"> | `Midnoise` | Midnoise | ランダムにきらめく。 |
-| <img src="../../images/effects/noisemeter.gif" width="64"> | `Noisemeter` | Noisemeter | ランダムにきらめく。 |
-| <img src="../../images/effects/freqwave.gif" width="64"> | `Freqwave` | Freqwave | 水面に波紋が広がる。 |
-| <img src="../../images/effects/freqmatrix.gif" width="64"> | `Freqmatrix` | Freqmatrix | マトリックス風にコードが降る。 |
-| <img src="../../images/effects/geq.gif" width="64"> | `GEQ` | GEQ | 水面に波紋が広がる。 |
+| <img src="../../images/effects/noisemeter.gif" width="64"> | `Noisemeter` | Noisemeter | 音に合わせて跳ねるオーディオイコライザー。 |
+| <img src="../../images/effects/freqwave.gif" width="64"> | `Freqwave` | Freqwave | 音に合わせて跳ねるオーディオイコライザー。 |
+| <img src="../../images/effects/freqmatrix.gif" width="64"> | `Freqmatrix` | Freqmatrix | 音に合わせて跳ねるオーディオイコライザー。 |
+| <img src="../../images/effects/geq.gif" width="64"> | `GEQ` | GEQ | 音に合わせて跳ねるオーディオイコライザー。 |
 | <img src="../../images/effects/waterfall.gif" width="64"> | `Waterfall` | Waterfall | 雨が降る。 |
-| <img src="../../images/effects/freqpixels.gif" width="64"> | `Freqpixels` | Freqpixels | マトリックス風にコードが降る。 |
+| <img src="../../images/effects/freqpixels.gif" width="64"> | `Freqpixels` | Freqpixels | 音に合わせて跳ねるオーディオイコライザー。 |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | 色の波がストリップを進む。 |
 | <img src="../../images/effects/noisefire.gif" width="64"> | `Noisefire` | Noisefire | 炎が揺らめき立ち上る。 |
 | <img src="../../images/effects/puddlepeak.gif" width="64"> | `Puddlepeak` | Puddlepeak | 雨が降る。 |
@@ -162,14 +162,14 @@
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | パックマンが食べ進む。 |
 | <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | 2本の鎖が二重らせんになる。 |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrix | マトリックス風にコードが降る。 |
-| <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | ボールが跳ね回る。 |
-| <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | 水面に波紋が広がる。 |
+| <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | 色の塊が形を変える。 |
+| <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | 音に合わせて跳ねるオーディオイコライザー。 |
 | <img src="../../images/effects/gravcenter.gif" width="64"> | `Gravcenter` | Gravcenter | ボールが跳ね回る。 |
 | <img src="../../images/effects/gravcentric.gif" width="64"> | `Gravcentric` | Gravcentric | ボールが跳ね回る。 |
 | <img src="../../images/effects/gravfreq.gif" width="64"> | `Gravfreq` | Gravfreq | ボールが跳ね回る。 |
 | <img src="../../images/effects/dj-light.gif" width="64"> | `DJ Light` | DJ Light | ターンテーブルが回る。 |
 | <img src="../../images/effects/funky-plank.gif" width="64"> | `Funky Plank` | Funky Plank | 色の波がストリップを進む。 |
-| <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | 色の波がストリップを進む。 |
+| <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | 色の上にグリッターが輝く。 |
 | <img src="../../images/effects/pulser.gif" width="64"> | `Pulser` | Pulser | 明るさが膨らんでは沈む。 |
 | <img src="../../images/effects/blurz.gif" width="64"> | `Blurz` | Blurz | 色の波がストリップを進む。 |
 | <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Drift | 渦が外へと巻いていく。 |
@@ -186,9 +186,9 @@
 | <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Swirl | 渦が外へと巻いていく。 |
 | <img src="../../images/effects/lissajous.gif" width="64"> | `Lissajous` | Lissajous | リサージュ曲線が変形する。 |
 | <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | 回転する幾何学模様。 |
-| <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | ボールが跳ね回る。 |
+| <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | プラズマボール内の電気の筋。 |
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | 粒子が流れていく。 |
-| <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | 色の波がストリップを進む。 |
+| <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | 色の塊が形を変える。 |
 | <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | 渦が外へと巻いていく。 |
 | <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | 2本の鎖が二重らせんになる。 |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | 輪が暗い核へと崩れ落ちる。 |
@@ -202,12 +202,12 @@
 | <img src="../../images/effects/ps-fuzzy-noise.gif" width="64"> | `PS Fuzzy Noise` | PS Fuzzy Noise | ランダムにきらめく。 |
 | <img src="../../images/effects/ps-ballpit.gif" width="64"> | `PS Ballpit` | PS Ballpit | ボールが跳ね回る。 |
 | <img src="../../images/effects/ps-box.gif" width="64"> | `PS Box` | PS Box | 色の波がストリップを進む。 |
-| <img src="../../images/effects/ps-attractor.gif" width="64"> | `PS Attractor` | PS Attractor | 色の波がストリップを進む。 |
+| <img src="../../images/effects/ps-attractor.gif" width="64"> | `PS Attractor` | PS Attractor | 輪が暗い核へと崩れ落ちる。 |
 | <img src="../../images/effects/ps-impact.gif" width="64"> | `PS Impact` | PS Impact | 衝撃波の輪が広がる。 |
 | <img src="../../images/effects/ps-waterfall.gif" width="64"> | `PS Waterfall` | PS Waterfall | 雨が降る。 |
-| <img src="../../images/effects/ps-spray.gif" width="64"> | `PS Spray` | PS Spray | 色の波がストリップを進む。 |
-| <img src="../../images/effects/ps-geq-2d.gif" width="64"> | `PS GEQ 2D` | PS GEQ 2D | 水面に波紋が広がる。 |
-| <img src="../../images/effects/ps-geq-nova.gif" width="64"> | `PS GEQ Nova` | PS GEQ Nova | 水面に波紋が広がる。 |
+| <img src="../../images/effects/ps-spray.gif" width="64"> | `PS Spray` | PS Spray | ノズルから粒子が噴き出す。 |
+| <img src="../../images/effects/ps-geq-2d.gif" width="64"> | `PS GEQ 2D` | PS GEQ 2D | 音に合わせて跳ねるオーディオイコライザー。 |
+| <img src="../../images/effects/ps-geq-nova.gif" width="64"> | `PS GEQ Nova` | PS GEQ Nova | 音に合わせて跳ねるオーディオイコライザー。 |
 | <img src="../../images/effects/ps-ghost-rider.gif" width="64"> | `PS Ghost Rider` | PS Ghost Rider | 幽霊が漂う。 |
 | <img src="../../images/effects/ps-blobs.gif" width="64"> | `PS Blobs` | PS Blobs | 色の塊が形を変える。 |
 | <img src="../../images/effects/ps-dripdrop.gif" width="64"> | `PS DripDrop` | PS DripDrop | しずくが一つずつ落ちる。 |
@@ -216,15 +216,15 @@
 | <img src="../../images/effects/ps-fireworks-1d.gif" width="64"> | `PS Fireworks 1D` | PS Fireworks 1D | 花火が打ち上がる。 |
 | <img src="../../images/effects/ps-sparkler.gif" width="64"> | `PS Sparkler` | PS Sparkler | ランダムにきらめく。 |
 | <img src="../../images/effects/ps-hourglass.gif" width="64"> | `PS Hourglass` | PS Hourglass | 砂時計の砂が落ちる。 |
-| <img src="../../images/effects/ps-spray-1d.gif" width="64"> | `PS Spray 1D` | PS Spray 1D | 色の波がストリップを進む。 |
+| <img src="../../images/effects/ps-spray-1d.gif" width="64"> | `PS Spray 1D` | PS Spray 1D | ノズルから粒子が噴き出す。 |
 | <img src="../../images/effects/ps-1d-balance.gif" width="64"> | `PS 1D Balance` | PS 1D Balance | 色の波がストリップを進む。 |
 | <img src="../../images/effects/ps-chase.gif" width="64"> | `PS Chase` | PS Chase | 光点が尾を引いて走る。 |
-| <img src="../../images/effects/ps-starburst.gif" width="64"> | `PS Starburst` | PS Starburst | 星がまたたく。 |
-| <img src="../../images/effects/ps-geq-1d.gif" width="64"> | `PS GEQ 1D` | PS GEQ 1D | 水面に波紋が広がる。 |
+| <img src="../../images/effects/ps-starburst.gif" width="64"> | `PS Starburst` | PS Starburst | 花火が打ち上がる。 |
+| <img src="../../images/effects/ps-geq-1d.gif" width="64"> | `PS GEQ 1D` | PS GEQ 1D | 音に合わせて跳ねるオーディオイコライザー。 |
 | <img src="../../images/effects/ps-fire-1d.gif" width="64"> | `PS Fire 1D` | PS Fire 1D | 炎が揺らめき立ち上る。 |
 | <img src="../../images/effects/ps-sonic-stream.gif" width="64"> | `PS Sonic Stream` | PS Sonic Stream | 粒子が流れていく。 |
 | <img src="../../images/effects/ps-sonic-boom.gif" width="64"> | `PS Sonic Boom` | PS Sonic Boom | 衝撃波の輪が広がる。 |
-| <img src="../../images/effects/ps-springy.gif" width="64"> | `PS Springy` | PS Springy | 色の波がストリップを進む。 |
+| <img src="../../images/effects/ps-springy.gif" width="64"> | `PS Springy` | PS Springy | バネがおもりを弾ませる。 |
 | <img src="../../images/effects/ps-galaxy.gif" width="64"> | `PS Galaxy` | PS Galaxy | 星が渦を巻く。 |
 | <img src="../../images/effects/color-clouds.gif" width="64"> | `Color Clouds` | Color Clouds | 色の塊が形を変える。 |
-| <img src="../../images/effects/slow-transition.gif" width="64"> | `Slow Transition` | Slow Transition | 色の波がストリップを進む。 |
+| <img src="../../images/effects/slow-transition.gif" width="64"> | `Slow Transition` | Slow Transition | 色が現れては消える。 |

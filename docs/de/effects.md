@@ -77,7 +77,7 @@
 | <img src="../../images/effects/fire-2012.gif" width="64"> | `Fire 2012` | Fire 2012 | Flammen flackern und steigen. |
 | <img src="../../images/effects/colorwaves.gif" width="64"> | `Colorwaves` | Colorwaves | Bänder in vielen Farben. |
 | <img src="../../images/effects/bpm.gif" width="64"> | `Bpm` | Bpm | Ein Puls schlägt im Takt. |
-| <img src="../../images/effects/fill-noise.gif" width="64"> | `Fill Noise` | Fill Noise | Eine einzelne, ruhige Farbe. |
+| <img src="../../images/effects/fill-noise.gif" width="64"> | `Fill Noise` | Fill Noise | Zufällige Funken blitzen. |
 | <img src="../../images/effects/noise-1.gif" width="64"> | `Noise 1` | Noise 1 | Zufällige Funken blitzen. |
 | <img src="../../images/effects/noise-2.gif" width="64"> | `Noise 2` | Noise 2 | Zufällige Funken blitzen. |
 | <img src="../../images/effects/noise-3.gif" width="64"> | `Noise 3` | Noise 3 | Zufällige Funken blitzen. |
@@ -91,8 +91,8 @@
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | Sterne funkeln. |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | Sterne funkeln. |
 | <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | Ein Augenpaar blinzelt im Dunkeln. |
-| <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | Eine einzelne, ruhige Farbe. |
-| <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | Eine einzelne, ruhige Farbe. |
+| <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | Ein Muster aus Streifen scrollt. |
+| <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | Ein Muster aus Streifen scrollt. |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | Flecken blenden ein und aus. |
 | <img src="../../images/effects/spots-fade.gif" width="64"> | `Spots Fade` | Spots Fade | Flecken blenden ein und aus. |
 | <img src="../../images/effects/glitter.gif" width="64"> | `Glitter` | Glitzer | Glitzer funkelt über der Farbe. |
@@ -136,20 +136,20 @@
 | <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Soap | Seifenblasen schweben umher. |
 | <img src="../../images/effects/octopus.gif" width="64"> | `Octopus` | Octopus | Ein Oktopus schwenkt seine Tentakel. |
 | <img src="../../images/effects/waving-cell.gif" width="64"> | `Waving Cell` | Waving Cell | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | Code regnet herab, Matrix-Stil. |
-| <img src="../../images/effects/pixelwave.gif" width="64"> | `Pixelwave` | Pixelwave | Code regnet herab, Matrix-Stil. |
+| <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | Sterne funkeln. |
+| <img src="../../images/effects/pixelwave.gif" width="64"> | `Pixelwave` | Pixelwave | Wellen breiten sich über Wasser aus. |
 | <img src="../../images/effects/juggles.gif" width="64"> | `Juggles` | Juggles | Bälle springen auf und ab. |
 | <img src="../../images/effects/matripix.gif" width="64"> | `Matripix` | Matripix | Code regnet herab, Matrix-Stil. |
 | <img src="../../images/effects/gravimeter.gif" width="64"> | `Gravimeter` | Gravimeter | Bälle springen auf und ab. |
 | <img src="../../images/effects/plasmoid.gif" width="64"> | `Plasmoid` | Plasmoid | Farbblasen wandeln sich. |
 | <img src="../../images/effects/puddles.gif" width="64"> | `Puddles` | Puddles | Regen fällt. |
 | <img src="../../images/effects/midnoise.gif" width="64"> | `Midnoise` | Midnoise | Zufällige Funken blitzen. |
-| <img src="../../images/effects/noisemeter.gif" width="64"> | `Noisemeter` | Noisemeter | Zufällige Funken blitzen. |
-| <img src="../../images/effects/freqwave.gif" width="64"> | `Freqwave` | Freqwave | Wellen breiten sich über Wasser aus. |
-| <img src="../../images/effects/freqmatrix.gif" width="64"> | `Freqmatrix` | Freqmatrix | Code regnet herab, Matrix-Stil. |
-| <img src="../../images/effects/geq.gif" width="64"> | `GEQ` | GEQ | Wellen breiten sich über Wasser aus. |
+| <img src="../../images/effects/noisemeter.gif" width="64"> | `Noisemeter` | Noisemeter | Ein Audio-Equalizer, Balken tanzen zum Klang. |
+| <img src="../../images/effects/freqwave.gif" width="64"> | `Freqwave` | Freqwave | Ein Audio-Equalizer, Balken tanzen zum Klang. |
+| <img src="../../images/effects/freqmatrix.gif" width="64"> | `Freqmatrix` | Freqmatrix | Ein Audio-Equalizer, Balken tanzen zum Klang. |
+| <img src="../../images/effects/geq.gif" width="64"> | `GEQ` | GEQ | Ein Audio-Equalizer, Balken tanzen zum Klang. |
 | <img src="../../images/effects/waterfall.gif" width="64"> | `Waterfall` | Wasserfall | Regen fällt. |
-| <img src="../../images/effects/freqpixels.gif" width="64"> | `Freqpixels` | Freqpixels | Code regnet herab, Matrix-Stil. |
+| <img src="../../images/effects/freqpixels.gif" width="64"> | `Freqpixels` | Freqpixels | Ein Audio-Equalizer, Balken tanzen zum Klang. |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/noisefire.gif" width="64"> | `Noisefire` | Noisefire | Flammen flackern und steigen. |
 | <img src="../../images/effects/puddlepeak.gif" width="64"> | `Puddlepeak` | Puddlepeak | Regen fällt. |
@@ -162,14 +162,14 @@
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | Pac-Man knabbert sich vorwärts. |
 | <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | Zwei Stränge bilden eine Doppelhelix. |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrix | Code regnet herab, Matrix-Stil. |
-| <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | Bälle springen auf und ab. |
-| <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | Wellen breiten sich über Wasser aus. |
+| <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | Farbblasen wandeln sich. |
+| <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | Ein Audio-Equalizer, Balken tanzen zum Klang. |
 | <img src="../../images/effects/gravcenter.gif" width="64"> | `Gravcenter` | Gravcenter | Bälle springen auf und ab. |
 | <img src="../../images/effects/gravcentric.gif" width="64"> | `Gravcentric` | Gravcentric | Bälle springen auf und ab. |
 | <img src="../../images/effects/gravfreq.gif" width="64"> | `Gravfreq` | Gravfreq | Bälle springen auf und ab. |
 | <img src="../../images/effects/dj-light.gif" width="64"> | `DJ Light` | DJ Light | Ein Plattenteller dreht sich. |
 | <img src="../../images/effects/funky-plank.gif" width="64"> | `Funky Plank` | Funky Plank | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | Glitzer funkelt über der Farbe. |
 | <img src="../../images/effects/pulser.gif" width="64"> | `Pulser` | Pulser | Die Helligkeit schwillt an und ab. |
 | <img src="../../images/effects/blurz.gif" width="64"> | `Blurz` | Blurz | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Drift | Ein Wirbel windet sich nach außen. |
@@ -186,9 +186,9 @@
 | <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Swirl | Ein Wirbel windet sich nach außen. |
 | <img src="../../images/effects/lissajous.gif" width="64"> | `Lissajous` | Lissajous | Eine Lissajous-Kurve wandelt sich. |
 | <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | Rotierende geometrische Muster. |
-| <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | Bälle springen auf und ab. |
+| <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | Elektrische Ranken in einer Plasmakugel. |
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | Teilchen strömen vorbei. |
-| <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | Farbblasen wandeln sich. |
 | <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | Ein Wirbel windet sich nach außen. |
 | <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | Zwei Stränge bilden eine Doppelhelix. |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | Ringe stürzen in einen dunklen Kern. |
@@ -202,12 +202,12 @@
 | <img src="../../images/effects/ps-fuzzy-noise.gif" width="64"> | `PS Fuzzy Noise` | PS Fuzzy Noise | Zufällige Funken blitzen. |
 | <img src="../../images/effects/ps-ballpit.gif" width="64"> | `PS Ballpit` | PS Ballpit | Bälle springen auf und ab. |
 | <img src="../../images/effects/ps-box.gif" width="64"> | `PS Box` | PS Box | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/ps-attractor.gif" width="64"> | `PS Attractor` | PS Attractor | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/ps-attractor.gif" width="64"> | `PS Attractor` | PS Attractor | Ringe stürzen in einen dunklen Kern. |
 | <img src="../../images/effects/ps-impact.gif" width="64"> | `PS Impact` | PS Impact | Ein Schockwellenring dehnt sich aus. |
 | <img src="../../images/effects/ps-waterfall.gif" width="64"> | `PS Waterfall` | PS Waterfall | Regen fällt. |
-| <img src="../../images/effects/ps-spray.gif" width="64"> | `PS Spray` | PS Spray | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/ps-geq-2d.gif" width="64"> | `PS GEQ 2D` | PS GEQ 2D | Wellen breiten sich über Wasser aus. |
-| <img src="../../images/effects/ps-geq-nova.gif" width="64"> | `PS GEQ Nova` | PS GEQ Nova | Wellen breiten sich über Wasser aus. |
+| <img src="../../images/effects/ps-spray.gif" width="64"> | `PS Spray` | PS Spray | Partikel sprühen aus einer Düse. |
+| <img src="../../images/effects/ps-geq-2d.gif" width="64"> | `PS GEQ 2D` | PS GEQ 2D | Ein Audio-Equalizer, Balken tanzen zum Klang. |
+| <img src="../../images/effects/ps-geq-nova.gif" width="64"> | `PS GEQ Nova` | PS GEQ Nova | Ein Audio-Equalizer, Balken tanzen zum Klang. |
 | <img src="../../images/effects/ps-ghost-rider.gif" width="64"> | `PS Ghost Rider` | PS Ghost Rider | Ein Geist schwebt vorbei. |
 | <img src="../../images/effects/ps-blobs.gif" width="64"> | `PS Blobs` | PS Blobs | Farbblasen wandeln sich. |
 | <img src="../../images/effects/ps-dripdrop.gif" width="64"> | `PS DripDrop` | PS DripDrop | Tropfen fallen nacheinander. |
@@ -216,15 +216,15 @@
 | <img src="../../images/effects/ps-fireworks-1d.gif" width="64"> | `PS Fireworks 1D` | PS Fireworks 1D | Ein Feuerwerk explodiert. |
 | <img src="../../images/effects/ps-sparkler.gif" width="64"> | `PS Sparkler` | PS Sparkler | Zufällige Funken blitzen. |
 | <img src="../../images/effects/ps-hourglass.gif" width="64"> | `PS Hourglass` | PS Hourglass | Sand rinnt durch eine Sanduhr. |
-| <img src="../../images/effects/ps-spray-1d.gif" width="64"> | `PS Spray 1D` | PS Spray 1D | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/ps-spray-1d.gif" width="64"> | `PS Spray 1D` | PS Spray 1D | Partikel sprühen aus einer Düse. |
 | <img src="../../images/effects/ps-1d-balance.gif" width="64"> | `PS 1D Balance` | PS 1D Balance | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/ps-chase.gif" width="64"> | `PS Chase` | PS Chase | Ein heller Punkt zieht mit Schweif. |
-| <img src="../../images/effects/ps-starburst.gif" width="64"> | `PS Starburst` | PS Starburst | Sterne funkeln. |
-| <img src="../../images/effects/ps-geq-1d.gif" width="64"> | `PS GEQ 1D` | PS GEQ 1D | Wellen breiten sich über Wasser aus. |
+| <img src="../../images/effects/ps-starburst.gif" width="64"> | `PS Starburst` | PS Starburst | Ein Feuerwerk explodiert. |
+| <img src="../../images/effects/ps-geq-1d.gif" width="64"> | `PS GEQ 1D` | PS GEQ 1D | Ein Audio-Equalizer, Balken tanzen zum Klang. |
 | <img src="../../images/effects/ps-fire-1d.gif" width="64"> | `PS Fire 1D` | PS Fire 1D | Flammen flackern und steigen. |
 | <img src="../../images/effects/ps-sonic-stream.gif" width="64"> | `PS Sonic Stream` | PS Sonic Stream | Teilchen strömen vorbei. |
 | <img src="../../images/effects/ps-sonic-boom.gif" width="64"> | `PS Sonic Boom` | PS Sonic Boom | Ein Schockwellenring dehnt sich aus. |
-| <img src="../../images/effects/ps-springy.gif" width="64"> | `PS Springy` | PS Springy | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/ps-springy.gif" width="64"> | `PS Springy` | PS Springy | Eine Feder lässt ein Gewicht federn. |
 | <img src="../../images/effects/ps-galaxy.gif" width="64"> | `PS Galaxy` | PS Galaxy | Sterne wirbeln spiralförmig. |
 | <img src="../../images/effects/color-clouds.gif" width="64"> | `Color Clouds` | Color Clouds | Farbblasen wandeln sich. |
-| <img src="../../images/effects/slow-transition.gif" width="64"> | `Slow Transition` | Slow Transition | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/slow-transition.gif" width="64"> | `Slow Transition` | Slow Transition | Eine Farbe blendet ein und aus. |
