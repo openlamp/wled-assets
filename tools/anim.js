@@ -2,7 +2,7 @@
 // motion(name) -> a motion string ; anim(phase, motion, seed) -> inner SVG (viewBox 0 0 144
 // 144). seed = the effect's index -> distinct hue/speed/direction/density. Advance phase ~7 fps.
 // Canonical reference: tools/motions.py. No rgba() (some SVG renderers drop alpha).
-function hsv(h,s,v){v=Math.max(0,Math.min(1,v));h=((h%1)+1)%1;h*=6;const i=Math.floor(h),f=h-i,p=v*(1-s),q=v*(1-s*f),t=v*(1-s*(1-f));
+function hsv(h,s,v){s=Math.min(s,0.62);v=Math.max(0,Math.min(0.92,v));h=((h%1)+1)%1;h*=6;const i=Math.floor(h),f=h-i,p=v*(1-s),q=v*(1-s*f),t=v*(1-s*(1-f));
  const a=[[v,t,p],[q,v,p],[p,v,t],[p,q,v],[t,p,v],[v,p,q]][i%6];
  return 'rgb('+Math.round(a[0]*255)+','+Math.round(a[1]*255)+','+Math.round(a[2]*255)+')';}
 function motion(name){
@@ -43,7 +43,7 @@ function motion(name){
  if(h('ripple','pacifica','water','liquid','fluid','freq','geq'))return'ripple';
  if(h('colorful','colorwave','colortwinkle'))return'colorful';if(h('fade'))return'fade';
  if(h('breathe','breath','pulse','sine','blend'))return'breathe';
- if(h('strobe','blink','stutter','hyper'))return'strobe';
+ if(h('blink'))return'blink';if(h('strobe','stutter','hyper'))return'strobe';
  if(h('chase','marquee','railway','theater','train'))return'chase';
  if(h('colorloop','pride','cycle','hue','spectrum','palette'))return'colorloop';
  if(h('noise'))return'sparkle';
@@ -52,15 +52,15 @@ function motion(name){
 }
 function _flame(cx,hh,col,base){base=base||124;const w=hh*0.30,top=base-hh;
  return `<path d="M${cx} ${base} C${(cx-w)|0} ${(base-hh*0.4)|0} ${(cx-w*0.55)|0} ${(base-hh*0.78)|0} ${cx} ${top|0} C${(cx+w*0.55)|0} ${(base-hh*0.78)|0} ${(cx+w)|0} ${(base-hh*0.4)|0} ${cx} ${base} Z" fill="${col}"/>`;}
-function _mhue(m){const f={octopus:0.78,dj:0.75,galaxy:0.72,blackhole:0.70,plasma:0.74,fairy:0.85,dancing:0.90,running:0.92,percent:0.34,loading:0.58,spots:0.13,stream:0.55,dots:0.55,comet:0.55,bounce:0.08,ripple:0.55,breathe:0.60,fade:0.60,solid:0.55,spaceship:0.55,hourglass:0.55,text:0.55,wipe:0.55,saw:0.55,scan:0.0,spin:0.55,lighthouse:0.12,drip:0.55,impact:0.04,phased:0.60,wave:0.0,chase:0.55,lissajous:0.0,colorful:0.0,gradient:0.0};if(m in f)return f[m];let s=0;for(const c of m)s+=c.charCodeAt(0);return (s%360)/360;}
+function _mhue(m){const f={octopus:0.74,dj:0.72,galaxy:0.70,blackhole:0.67,plasma:0.73,fairy:0.80,wave:0.52,ripple:0.52,stream:0.52,drip:0.53,comet:0.55,dots:0.55,chase:0.54,spin:0.55,spaceship:0.56,hourglass:0.50,phased:0.58,loading:0.55,text:0.54,wipe:0.53,lissajous:0.50,breathe:0.57,fade:0.54,percent:0.36,blink:0.09,scan:0.02,saw:0.09,solid:0.09,lighthouse:0.09,spots:0.11,bounce:0.09,impact:0.03,running:0.08,dancing:0.95,colorful:0.09,gradient:0.09};return (m in f)?f[m]:0.09;}
 function anim(ph,m,seed){
  seed=seed||0;const M=Math;
- const spd=0.55+((seed*13)%110)/100,dr=(M.floor(seed/2)%2)?1:-1,n=5+(seed%4),p=ph*spd*dr,h0=_mhue(m),sat=0.8;
+ const spd=0.55+((seed*13)%110)/100,dr=(M.floor(seed/2)%2)?1:-1,n=5+(seed%4),p=ph*spd*dr,h0=_mhue(m),sat=0.58;
  if(m==='solid')return `<rect x="24" y="24" width="96" height="96" rx="16" fill="${hsv(h0,sat,.85)}"/><rect x="40" y="40" width="48" height="30" rx="14" fill="${hsv(h0,sat*0.5,1)}"/>`;
  if(m==='fade'){const v=0.15+0.85*(0.5+0.5*M.sin(p*0.7));return `<rect x="24" y="34" width="96" height="76" rx="14" fill="${hsv(h0,sat,v)}"/>`;}
  if(m==='breathe'){const br=0.5+0.5*M.sin(p*0.6),r=26+30*br;return `<circle cx="72" cy="72" r="${(r+14)|0}" fill="none" stroke="${hsv(h0,.5,br)}" stroke-width="4"/><circle cx="72" cy="72" r="${r|0}" fill="${hsv(h0,sat*0.85,0.5+0.5*br)}"/>`;}
- if(m==='colorful'){let o='';for(let i=0;i<6;i++)o+=`<rect x="${16+i*19}" y="34" width="18" height="76" fill="${hsv(h0+i/6+ph*0.02*spd,.85,1)}"/>`;return o;}
- if(m==='gradient'){let o='';for(let i=0;i<24;i++)o+=`<rect x="${(12+i*5).toFixed(1)}" y="40" width="5.5" height="64" fill="${hsv(h0+i*0.03+ph*0.02*spd,.8,1)}"/>`;return o;}
+ if(m==='colorful'){let o='';for(let i=0;i<6;i++)o+=`<rect x="${16+i*19}" y="34" width="18" height="76" fill="${hsv(h0+i/6+ph*0.02*spd,.55,.9)}"/>`;return o;}
+ if(m==='gradient'){let o='';for(let i=0;i<24;i++)o+=`<rect x="${(12+i*5).toFixed(1)}" y="40" width="5.5" height="64" fill="${hsv(h0+i*0.03+ph*0.02*spd,.55,.9)}"/>`;return o;}
  if(m==='police'){const a=ph%2,l=a===0?hsv(0,.9,1):'#20242c',r=a===1?hsv(.62,.9,1):'#20242c';return `<rect x="14" y="30" width="54" height="84" rx="10" fill="${l}"/><rect x="76" y="30" width="54" height="84" rx="10" fill="${r}"/>`;}
  if(m==='lightning'){const c=((ph*spd|0)%3===0)?hsv(.15,.5,1):'#2a2f38';return `<path d="M84 16 L44 78 L68 78 L54 128 L104 60 L78 60 Z" fill="${c}"/>`;}
  if(m==='popcorn'){let o='';for(let i=0;i<6;i++){const ph2=ph*spd+i*1.7,pop=M.abs(M.sin(ph2)),x=20+i*20,y=118-pop*pop*92;o+=`<circle cx="${x}" cy="${y|0}" r="${pop>0.5?8:6}" fill="${pop>0.4?'#fff6d8':'#c9a24a'}"/>`;}return o+'<rect x="10" y="116" width="124" height="14" rx="3" fill="#7a4a12"/>';}
@@ -91,9 +91,9 @@ function anim(ph,m,seed){
  if(m==='glitter'){let o='';for(let i=0;i<16;i++){const x=(i*53+ph*7)%140+2,y=(i*89+ph*3)%128+2,on=((i*3+(ph*4*spd|0))%16)<3;if(on)o+=`<circle cx="${x|0}" cy="${y|0}" r="3" fill="#ffffff"/><circle cx="${x|0}" cy="${y|0}" r="6" fill="${hsv(h0+i*0.06,.4,1)}"/>`;}return o;}
  if(m==='fairy'){let o='';for(let i=0;i<9;i++){const t=(i/9+ph*0.03*spd)%1,x=16+t*112,y=72+M.sin(t*6.28+p)*34,r=2+4*(1-M.abs(0.5-t)*2);o+=`<circle cx="${x|0}" cy="${y|0}" r="${r|0}" fill="${hsv(h0+t*0.5,.4,1)}"/>`;}return o;}
  if(m==='spots'){let o='';for(let i=0;i<3;i++){const x=72+M.sin(p*0.5+i*2.1)*44,y=72+M.cos(p*0.6+i*1.7)*36;o+=`<circle cx="${x|0}" cy="${y|0}" r="26" fill="${hsv(h0+i*0.2,.5,.45)}"/><circle cx="${x|0}" cy="${y|0}" r="15" fill="${hsv(h0+i*0.2,.5,.95)}"/>`;}return o;}
- if(m==='plasma'){let o='';for(let i=0;i<4;i++){const x=72+M.sin(p*0.5+i*1.6)*30,y=72+M.cos(p*0.7+i*2.0)*28,r=26+8*M.sin(p*0.9+i);o+=`<circle cx="${x|0}" cy="${y|0}" r="${r|0}" fill="${hsv(h0+i*0.18+ph*0.01,.8,1)}"/>`;}return o;}
+ if(m==='plasma'){let o='';for(let i=0;i<4;i++){const x=72+M.sin(p*0.5+i*1.6)*30,y=72+M.cos(p*0.7+i*2.0)*28,r=26+8*M.sin(p*0.9+i);o+=`<circle cx="${x|0}" cy="${y|0}" r="${r|0}" fill="${hsv(h0+i*0.05+ph*0.01,.7,1)}"/>`;}return o;}
  if(m==='aurora'){let o='';for(let k=0;k<4;k++){const xb=24+k*30,sw=M.sin(p*0.6+k*0.8)*12;o+=`<path d="M${(xb+sw)|0} 18 Q${(xb-8+sw)|0} 70 ${(xb+sw)|0} 126 L${(xb+16+sw)|0} 126 Q${(xb+8+sw)|0} 66 ${(xb+16+sw)|0} 18 Z" fill="${hsv(0.33+k*0.12,.7,.9)}"/>`;}return o;}
- if(m==='stream'){let o='';for(let i=0;i<9;i++){const x=(i*18+ph*8*spd)%156-8,y=52+(i%3)*20;o+=`<rect x="${x|0}" y="${y}" width="18" height="7" rx="3" fill="${hsv(h0+i*0.05,.7,1)}"/>`;}return o;}
+ if(m==='stream'){let o='';for(let i=0;i<9;i++){const x=(i*18+ph*8*spd)%156-8,y=52+(i%3)*20;o+=`<rect x="${x|0}" y="${y}" width="18" height="7" rx="3" fill="${hsv(h0+i*0.012,sat,0.9-i*0.03)}"/>`;}return o;}
  if(m==='percent'){const f=((ph*spd)%20)/20;return `<rect x="14" y="58" width="116" height="28" rx="8" fill="none" stroke="${hsv(h0,.4,.6)}" stroke-width="4"/><rect x="18" y="62" width="${(108*f)|0}" height="20" rx="5" fill="${hsv(h0,.8,1)}"/>`;}
  if(m==='phased'){let o='';for(let k=0;k<3;k++){let pts='';for(let x=8;x<140;x+=8)pts+=`${x},${(72+M.sin(x*0.09+p+k*2.0)*(22+k*4))|0} `;o+=`<polyline points="${pts.trim()}" fill="none" stroke="${hsv(h0+k*0.15,.8,1)}" stroke-width="5" stroke-linecap="round"/>`;}return o;}
  if(m==='loading'){let o='';for(let k=0;k<10;k++){const a=k/10*2*M.PI,br=(((ph*spd|0)-k)%10+10)%10/10;o+=`<circle cx="${(72+M.cos(a)*42)|0}" cy="${(72+M.sin(a)*42)|0}" r="7" fill="${hsv(h0,.6,0.25+0.75*br)}"/>`;}return o;}
@@ -114,11 +114,12 @@ function anim(ph,m,seed){
  if(m==='twinkle'){let o='';for(let i=0;i<6;i++){const x=22+(i*47)%110,yv=30+(i*53)%84,lit=((i*5+(ph*3*spd|0)+seed)%6)<2,r=lit?11:5,col=lit?hsv(h0+i*0.1,.5,1):'#39414e';o+=`<path d="M${x} ${yv-r} l${r*0.3} ${r*0.7} l${r*0.7} ${r*0.3} l${-r*0.7} ${r*0.3} l${-r*0.3} ${r*0.7} Z" fill="${col}"/>`;}return o;}
  if(m==='sparkle'){let o='';for(let i=0;i<9;i++){const cx=24+(i%3)*48,cy=24+((i/3)|0)*48,lit=((i*7+(ph*3*spd|0)+seed)%9)<3;o+=`<circle cx="${cx}" cy="${cy}" r="${lit?13:5}" fill="${lit?hsv(h0+i*0.05,sat,1):'#39414e'}"/>`;}return o;}
  if(m==='ripple'){let o='';for(let k=0;k<3;k++){const rad=((ph*3*spd+k*16)%48)+6;o+=`<circle cx="72" cy="72" r="${rad|0}" fill="none" stroke="${hsv(h0+k*0.1,.6,1-rad/60)}" stroke-width="6"/>`;}return o;}
+ if(m==='blink'){const cyc=(ph|0)%6,o=[0.10,0.55,1.0,1.0,1.0,1.0][cyc],H=30*o+3,top=72-H,bot=72+H,iris=hsv(0.09,0.6,0.62);let s=`<path d="M26 72 Q72 ${top|0} 118 72 Q72 ${bot|0} 26 72 Z" fill="#f2ece0"/>`;if(o>0.35){s+=`<ellipse cx="72" cy="72" rx="18" ry="${M.min(18,H-2)|0}" fill="${iris}"/><ellipse cx="72" cy="72" rx="8" ry="${M.min(8,H-4)|0}" fill="#17130d"/><circle cx="66" cy="66" r="3" fill="#ffffff"/>`;}s+=`<path d="M26 72 Q72 ${top|0} 118 72" fill="none" stroke="#3a2f24" stroke-width="4" stroke-linecap="round"/>`;[[44,0.75],[72,1.0],[100,0.75]].forEach(([lx,ly])=>{const lt=72-H*ly;s+=`<line x1="${lx}" y1="${lt|0}" x2="${lx}" y2="${(lt-12)|0}" stroke="#3a2f24" stroke-width="3" stroke-linecap="round"/>`;});return s;}
  if(m==='strobe'){const c=ph%2===0?hsv(h0,sat,1):'#272c36';return [[48,48],[96,48],[48,96],[96,96]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="16" fill="${c}"/>`).join('');}
  if(m==='chase'){const pos=(ph*spd+seed|0)%7,b=hsv(h0,.75,1).match(/\d+/g).map(Number);let o='';for(let i=0;i<7;i++){const br=M.max(0.14,1-(((pos-i*dr)%7+7)%7)*0.30);o+=`<circle cx="${18+i*18}" cy="72" r="9" fill="rgb(${(26+(b[0]-26)*br)|0},${(26+(b[1]-26)*br)|0},${(26+(b[2]-26)*br)|0})"/>`;}return o;}
  if(m==='rainbow'){let o='';for(let k=0;k<6;k++)o+=`<path d="M18 128 A${54-k*8} ${54-k*8} 0 0 1 126 128" fill="none" stroke="${hsv((k/6+ph*0.03*spd)%1,.9,1)}" stroke-width="9"/>`;return o;}
  if(m==='colorloop')return `<rect x="20" y="20" width="104" height="104" rx="16" fill="${hsv(h0+ph*0.03*spd,.8,1)}"/>`;
- if(m==='lissajous'){let o='';const N=54,dphi=p*0.25;for(let i=0;i<N;i++){const t=i/N*2*M.PI,x=72+54*M.sin(3*t+dphi),y=72+50*M.sin(2*t);o+=`<circle cx="${x|0}" cy="${y|0}" r="3.4" fill="${hsv(i/N,.85,1)}"/>`;}return o;}
- const wd=(120/n)|0;let o='';for(let i=0;i<n;i++){const br=0.30+0.70*(0.5+0.5*M.sin(p*0.6-i*0.95)),hh=22+96*br;o+=`<rect x="${12+i*wd}" y="${(128-hh)|0}" width="${wd-3}" height="${hh|0}" rx="3" fill="${hsv(h0+((i*34+ph*12*spd)%360)/360,0.85,br)}"/>`;}return o;
+ if(m==='lissajous'){let o='';const N=54,dphi=p*0.25;for(let i=0;i<N;i++){const t=i/N*2*M.PI,x=72+54*M.sin(3*t+dphi),y=72+50*M.sin(2*t);o+=`<circle cx="${x|0}" cy="${y|0}" r="3.4" fill="${hsv(h0+i/N*0.14,sat,0.9)}"/>`;}return o;}
+ const wd=(120/n)|0;let o='';for(let i=0;i<n;i++){const br=0.30+0.70*(0.5+0.5*M.sin(p*0.6-i*0.95)),hh=22+96*br;o+=`<rect x="${12+i*wd}" y="${(128-hh)|0}" width="${wd-3}" height="${hh|0}" rx="3" fill="${hsv(h0+i*0.012,sat,br)}"/>`;}return o;
 }
 if(typeof module!=='undefined')module.exports={anim,motion,hsv};

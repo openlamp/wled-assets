@@ -1,5 +1,9 @@
 import math, colorsys
-def _rgb(h,s,v): return "rgb(%d,%d,%d)"%tuple(round(c*255) for c in colorsys.hsv_to_rgb(h%1.0,s,max(0,min(1,v))))
+def _rgb(h,s,v):
+    # Refined ceilings (2026-07-12): cap saturation + value so no motion renders as neon.
+    # Qualitative, cinematic tones instead of flashy primaries. Hard-coded hex bypass this.
+    s=min(s,0.62); v=min(max(0.0,v),0.92)
+    return "rgb(%d,%d,%d)"%tuple(round(c*255) for c in colorsys.hsv_to_rgb(h%1.0,s,v))
 def _p(seed):
     return (((seed*47)%360)/360.0, 0.55+((seed*13)%110)/100.0, 1 if (seed//2)%2 else -1, 5+(seed%4), 0.7+((seed*5)%30)/100.0)
 def motion(name):
@@ -65,7 +69,8 @@ def motion(name):
     if h("colorful","colorwave","colortwinkle"): return "colorful"
     if h("fade"): return "fade"
     if h("breathe","breath","pulse","sine","blend"): return "breathe"
-    if h("strobe","blink","stutter","hyper"): return "strobe"
+    if h("blink"): return "blink"   # an eyelid blink (Blink Rainbow already caught by rainbow above)
+    if h("strobe","stutter","hyper"): return "strobe"
     if h("chase","marquee","railway","theater","train"): return "chase"
     if h("colorloop","pride","cycle","hue","spectrum","palette"): return "colorloop"
     if h("noise"): return "sparkle"
@@ -79,17 +84,27 @@ def _flame(cx,hh,col,base=124):
         cx+w*0.55,base-hh*0.78, cx+w,base-hh*0.4, cx,base, col)
 
 def _mhue(m):   # a stable, hand-picked hue per motion (free of the effect seed)
-    fixed={"octopus":0.78,"dj":0.75,"galaxy":0.72,"blackhole":0.70,"plasma":0.74,"fairy":0.85,
-     "dancing":0.90,"running":0.92,"percent":0.34,"loading":0.58,"spots":0.13,"stream":0.55,
-     "dots":0.55,"comet":0.55,"bounce":0.08,"ripple":0.55,"breathe":0.60,"fade":0.60,"solid":0.55,
-     "spaceship":0.55,"hourglass":0.55,"text":0.55,"wipe":0.55,"saw":0.55,"scan":0.0,"spin":0.55,
-     "lighthouse":0.12,"drip":0.55,"impact":0.04,"phased":0.60,"wave":0.0,"chase":0.55,"lissajous":0.0,
-     "colorful":0.0,"gradient":0.0}
-    return fixed.get(m, (sum(ord(c) for c in m)%360)/360.0)
+    # Curated, cohesive palette (2026-07-12, Benoit: "moins arc-en-ciel, plus réaliste").
+    # Three restrained families instead of the full wheel + a random-hash fallback:
+    #   warm  ~0.03-0.10  ember / amber / gold  (fire, energy, mechanical sweeps)
+    #   cool  ~0.47-0.58  teal / ocean / soft blue  (water, calm, motion trails)
+    #   deep  ~0.66-0.80  indigo / dusty violet  (cosmic, moody)
+    # Saturation is kept moderate (see `sat` below) so nothing reads as neon.
+    fixed={
+     # deep / rich
+     "octopus":0.74,"dj":0.72,"galaxy":0.70,"blackhole":0.67,"plasma":0.73,"fairy":0.80,
+     # cool / calm
+     "wave":0.52,"ripple":0.52,"stream":0.52,"drip":0.53,"comet":0.55,"dots":0.55,"chase":0.54,
+     "spin":0.55,"spaceship":0.56,"hourglass":0.50,"phased":0.58,"loading":0.55,"text":0.54,
+     "wipe":0.53,"lissajous":0.50,"breathe":0.57,"fade":0.54,"percent":0.36,"blink":0.09,
+     # warm / earthy
+     "scan":0.02,"saw":0.09,"solid":0.09,"lighthouse":0.09,"spots":0.11,"bounce":0.09,
+     "impact":0.03,"running":0.08,"dancing":0.95,"colorful":0.09,"gradient":0.09}
+    return fixed.get(m, 0.09)   # refined warm-amber default (no more per-name random hue)
 
 def anim(ph,m,seed=0):
     h0,spd,dr,n,sat=_p(seed); p=ph*spd*dr; M=math
-    h0=_mhue(m); sat=0.8   # fixed deliberate colour PER MOTION (not seeded -> no arbitrary hue)
+    h0=_mhue(m); sat=0.58  # fixed deliberate colour PER MOTION; moderate sat = refined, not neon
     if m=="solid":
         return '<rect x="24" y="24" width="96" height="96" rx="16" fill="%s"/><rect x="40" y="40" width="48" height="30" rx="14" fill="%s"/>'%(_rgb(h0,sat,.85),_rgb(h0,sat*0.5,1))
     if m=="fade":
@@ -99,11 +114,11 @@ def anim(ph,m,seed=0):
         return '<circle cx="72" cy="72" r="%.0f" fill="none" stroke="%s" stroke-width="4"/><circle cx="72" cy="72" r="%.0f" fill="%s"/>'%(r+14,_rgb(h0,.5,br),r,_rgb(h0,sat*0.85,0.5+0.5*br))
     if m=="colorful":
         o=""
-        for i in range(6): o+='<rect x="%d" y="34" width="18" height="76" fill="%s"/>'%(16+i*19,_rgb(h0+i/6.0+ph*0.02*spd,.85,1))
+        for i in range(6): o+='<rect x="%d" y="34" width="18" height="76" fill="%s"/>'%(16+i*19,_rgb(h0+i/6.0+ph*0.02*spd,.55,.9))
         return o
     if m=="gradient":                               # smooth shifting gradient (banded, no defs)
         o=""
-        for i in range(24): o+='<rect x="%.1f" y="40" width="5.5" height="64" fill="%s"/>'%(12+i*5,_rgb(h0+i*0.03+ph*0.02*spd,.8,1))
+        for i in range(24): o+='<rect x="%.1f" y="40" width="5.5" height="64" fill="%s"/>'%(12+i*5,_rgb(h0+i*0.03+ph*0.02*spd,.55,.9))
         return o
     if m=="police":
         a=ph%2; l=_rgb(0,.9,1) if a==0 else "#20242c"; r=_rgb(.62,.9,1) if a==1 else "#20242c"
@@ -180,7 +195,7 @@ def anim(ph,m,seed=0):
         o='<circle cx="72" cy="60" r="24" fill="%s"/>'%_rgb(h0,.6,1)
         for k in range(6):
             a=k/6.0*2*M.pi; sw=M.sin(p*0.8+k)*16
-            o+='<path d="M72 78 Q%.0f 104 %.0f 124" fill="none" stroke="%s" stroke-width="7" stroke-linecap="round"/>'%(72+M.cos(a)*20+sw,72+M.cos(a)*40+sw,_rgb(h0+k/6.0,.7,1))
+            o+='<path d="M72 78 Q%.0f 104 %.0f 124" fill="none" stroke="%s" stroke-width="7" stroke-linecap="round"/>'%(72+M.cos(a)*20+sw,72+M.cos(a)*40+sw,_rgb(h0+k*0.03,.6,1))
         return o
     if m=="pacman":
         x=(int(ph*6*spd))%176-16; mo2=abs(M.sin(p*1.4))*40
@@ -259,7 +274,7 @@ def anim(ph,m,seed=0):
         o=""
         for i in range(4):
             x=72+M.sin(p*0.5+i*1.6)*30; y=72+M.cos(p*0.7+i*2.0)*28; r=26+8*M.sin(p*0.9+i)
-            o+='<circle cx="%.0f" cy="%.0f" r="%.0f" fill="%s"/>'%(x,y,r,_rgb(h0+i*0.18+ph*0.01,.8,1))
+            o+='<circle cx="%.0f" cy="%.0f" r="%.0f" fill="%s"/>'%(x,y,r,_rgb(h0+i*0.05+ph*0.01,.7,1))
         return o
     if m=="aurora":                                # northern-lights curtains swaying
         o=""
@@ -271,7 +286,7 @@ def anim(ph,m,seed=0):
         o=""
         for i in range(9):
             x=(i*18+ph*8*spd)%156-8; y=52+ (i%3)*20
-            o+='<rect x="%.0f" y="%d" width="18" height="7" rx="3" fill="%s"/>'%(x,y,_rgb(h0+i*0.05,.7,1))
+            o+='<rect x="%.0f" y="%d" width="18" height="7" rx="3" fill="%s"/>'%(x,y,_rgb(h0+i*0.012,sat,0.9-i*0.03))
         return o
     if m=="percent":                               # progress bar filling
         f=((ph*spd)%20)/20.0
@@ -389,6 +404,18 @@ def anim(ph,m,seed=0):
         for k in range(3):
             rad=((ph*3*spd+k*16)%48)+6; o+='<circle cx="72" cy="72" r="%.0f" fill="none" stroke="%s" stroke-width="6"/>'%(rad,_rgb(h0+k*0.1,.6,1-rad/60))
         return o
+    if m=="blink":                                  # an eyelid blink: eye + lashes, closes briefly
+        cyc=int(ph)%6; o=[0.10,0.55,1.0,1.0,1.0,1.0][cyc]   # near-closed, half, then open 4 frames
+        H=30*o+3; top=72-H; bot=72+H; iris=_rgb(0.09,0.6,0.62)
+        s='<path d="M26 72 Q72 %.0f 118 72 Q72 %.0f 26 72 Z" fill="#f2ece0"/>'%(top,bot)
+        if o>0.35:                                  # iris/pupil visible only while the eye is open
+            s+='<ellipse cx="72" cy="72" rx="18" ry="%.0f" fill="%s"/>'%(min(18,H-2),iris)
+            s+='<ellipse cx="72" cy="72" rx="8" ry="%.0f" fill="#17130d"/>'%min(8,H-4)
+            s+='<circle cx="66" cy="66" r="3" fill="#ffffff"/>'
+        s+='<path d="M26 72 Q72 %.0f 118 72" fill="none" stroke="#3a2f24" stroke-width="4" stroke-linecap="round"/>'%top
+        for lx,ly in ((44,0.75),(72,1.0),(100,0.75)):
+            lt=72-H*ly; s+='<line x1="%d" y1="%.0f" x2="%d" y2="%.0f" stroke="#3a2f24" stroke-width="3" stroke-linecap="round"/>'%(lx,lt,lx,lt-12)
+        return s
     if m=="strobe":
         c=_rgb(h0,sat,1) if ph%2==0 else "#272c36"
         return "".join('<circle cx="%d" cy="%d" r="16" fill="%s"/>'%(x,y,c) for x,y in ((48,48),(96,48),(48,96),(96,96)))
@@ -408,11 +435,11 @@ def anim(ph,m,seed=0):
         o=""; N=54; dphi=p*0.25
         for i in range(N):
             t=i/N*2*M.pi; x=72+54*M.sin(3*t+dphi); y=72+50*M.sin(2*t)
-            o+='<circle cx="%.0f" cy="%.0f" r="3.4" fill="%s"/>'%(x,y,_rgb(i/N,.85,1))
+            o+='<circle cx="%.0f" cy="%.0f" r="3.4" fill="%s"/>'%(x,y,_rgb(h0+i/N*0.14,sat,0.9))
         return o
     wd=120//n; o=""                                # wave (default)
     for i in range(n):
         br=0.30+0.70*(0.5+0.5*M.sin(p*0.6-i*0.95)); hh=22+96*br
-        o+='<rect x="%d" y="%.0f" width="%d" height="%.0f" rx="3" fill="%s"/>'%(12+i*wd,128-hh,wd-3,hh,_rgb(h0+((i*34+ph*12*spd)%360)/360,0.85,br))
+        o+='<rect x="%d" y="%.0f" width="%d" height="%.0f" rx="3" fill="%s"/>'%(12+i*wd,128-hh,wd-3,hh,_rgb(h0+i*0.012,sat,br))
     return o
 def wrap(i): return '<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144"><rect width="144" height="144" fill="#1a1a1a"/>%s</svg>'%i
