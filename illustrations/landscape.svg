@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="landscape" data-gradient="vertical">
+  <!-- Reusable stencil for the WLED palette "landscape". Fill by injecting the palette's
+       own colours (from /json/palx) as stops into #grad below. Details in #1a1a1a
+       carve features. Gradient direction: vertical. -->
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
+  </linearGradient></defs>
+  <g fill="url(#grad)"><circle cx="106" cy="44" r="15"/><path d="M0 128 Q40 84 74 108 T144 96 V128 Z"/><path d="M0 128 Q46 100 92 120 T144 116 V128 Z"/></g>
+</svg>

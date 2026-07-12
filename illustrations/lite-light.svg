@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="lite light" data-gradient="vertical">
+  <!-- Reusable stencil for the WLED palette "lite light". Fill by injecting the palette's
+       own colours (from /json/palx) as stops into #grad below. Details in #1a1a1a
+       carve features. Gradient direction: vertical. -->
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
+  </linearGradient></defs>
+  <g fill="url(#grad)"><path d="M52 58 a20 20 0 1 1 40 0 c0 14 -12 18 -12 30 h-16 c0 -12 -12 -16 -12 -30 Z"/><rect x="62" y="96" width="20" height="10" rx="2"/><rect x="64" y="110" width="16" height="8" rx="2"/></g>
+</svg>

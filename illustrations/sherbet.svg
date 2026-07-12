@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="sherbet" data-gradient="vertical">
+  <!-- Reusable stencil for the WLED palette "sherbet". Fill by injecting the palette's
+       own colours (from /json/palx) as stops into #grad below. Details in #1a1a1a
+       carve features. Gradient direction: vertical. -->
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
+  </linearGradient></defs>
+  <g fill="url(#grad)"><circle cx="60" cy="52" r="18"/><circle cx="84" cy="52" r="18"/><circle cx="72" cy="38" r="18"/><path d="M50 66 L94 66 L72 128 Z"/></g>
+</svg>

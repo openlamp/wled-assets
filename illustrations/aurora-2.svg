@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="aurora 2" data-gradient="vertical">
+  <!-- Reusable stencil for the WLED palette "aurora 2". Fill by injecting the palette's
+       own colours (from /json/palx) as stops into #grad below. Details in #1a1a1a
+       carve features. Gradient direction: vertical. -->
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
+  </linearGradient></defs>
+  <g fill="url(#grad)"><path d="M22 18 Q42 70 30 126 L52 126 Q60 66 44 18 Z"/><path d="M64 18 Q84 74 72 126 L96 126 Q104 60 86 18 Z"/><path d="M104 18 Q120 70 112 126 L132 126 Q134 62 122 18 Z"/></g>
+</svg>

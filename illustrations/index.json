@@ -1,0 +1,275 @@
+{
+ "note": "One reusable SVG stencil per evocative palette. Fill #grad with the palette's real colours; palettes not listed here have no illustration (use a gradient bar).",
+ "illustrations": [
+  {
+   "palette": "rivendell",
+   "file": "illustrations/rivendell.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "landscape",
+   "file": "illustrations/landscape.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "forest",
+   "file": "illustrations/forest.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "beech",
+   "file": "illustrations/beech.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "cloud",
+   "file": "illustrations/cloud.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "breeze",
+   "file": "illustrations/breeze.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "sunset",
+   "file": "illustrations/sunset.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "sunset 2",
+   "file": "illustrations/sunset-2.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "beach",
+   "file": "illustrations/beach.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "aurora",
+   "file": "illustrations/aurora.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "aurora 2",
+   "file": "illustrations/aurora-2.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "april night",
+   "file": "illustrations/april-night.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "ocean",
+   "file": "illustrations/ocean.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "atlantica",
+   "file": "illustrations/atlantica.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "red tide",
+   "file": "illustrations/red-tide.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "splash",
+   "file": "illustrations/splash.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "aqua flash",
+   "file": "illustrations/aqua-flash.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "drywet",
+   "file": "illustrations/drywet.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "fire",
+   "file": "illustrations/fire.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "lava",
+   "file": "illustrations/lava.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "magma",
+   "file": "illustrations/magma.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "icefire",
+   "file": "illustrations/icefire.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "sherbet",
+   "file": "illustrations/sherbet.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "orangery",
+   "file": "illustrations/orangery.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "retro clown",
+   "file": "illustrations/retro-clown.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "traffic light",
+   "file": "illustrations/traffic-light.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "c9",
+   "file": "illustrations/c9.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "c9 2",
+   "file": "illustrations/c9-2.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "c9 new",
+   "file": "illustrations/c9-new.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "lite light",
+   "file": "illustrations/lite-light.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "temperature",
+   "file": "illustrations/temperature.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "vintage",
+   "file": "illustrations/vintage.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "departure",
+   "file": "illustrations/departure.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "sakura",
+   "file": "illustrations/sakura.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "autumn",
+   "file": "illustrations/autumn.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "toxy reaf",
+   "file": "illustrations/toxy-reaf.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "fairy reaf",
+   "file": "illustrations/fairy-reaf.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "red reaf",
+   "file": "illustrations/red-reaf.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "tiamat",
+   "file": "illustrations/tiamat.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "candy",
+   "file": "illustrations/candy.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "pink candy",
+   "file": "illustrations/pink-candy.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "candy2",
+   "file": "illustrations/candy2.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "party",
+   "file": "illustrations/party.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "jul",
+   "file": "illustrations/jul.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "red flash",
+   "file": "illustrations/red-flash.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "blink red",
+   "file": "illustrations/blink-red.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "red shift",
+   "file": "illustrations/red-shift.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "rainbow",
+   "file": "illustrations/rainbow.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "rainbow bands",
+   "file": "illustrations/rainbow-bands.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "analogous",
+   "file": "illustrations/analogous.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "tertiary",
+   "file": "illustrations/tertiary.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "red & blue",
+   "file": "illustrations/red-blue.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "orange & teal",
+   "file": "illustrations/orange-teal.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "frost",
+   "file": "illustrations/frost.svg",
+   "gradient": "horizontal"
+  }
+ ]
+}

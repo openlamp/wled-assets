@@ -1,0 +1,486 @@
+{
+  "_note": "Localized names for the official WLED palettes. Key = the exact English WLED palette name (from /json/pal). Locale keys are 2-letter (fr/de/es/it/ja/ko/zh). Missing entries or languages fall back to the English name. Extend over time.",
+  "Party": {
+    "fr": "Fête",
+    "de": "Party",
+    "es": "Fiesta",
+    "it": "Festa",
+    "ja": "パーティー",
+    "ko": "파티",
+    "zh": "派对"
+  },
+  "Cloud": {
+    "fr": "Nuage",
+    "de": "Wolke",
+    "es": "Nube",
+    "it": "Nuvola",
+    "ja": "雲",
+    "ko": "구름",
+    "zh": "云"
+  },
+  "Lava": {
+    "fr": "Lave",
+    "de": "Lava",
+    "es": "Lava",
+    "it": "Lava",
+    "ja": "溶岩",
+    "ko": "용암",
+    "zh": "熔岩"
+  },
+  "Ocean": {
+    "fr": "Océan",
+    "de": "Ozean",
+    "es": "Océano",
+    "it": "Oceano",
+    "ja": "海",
+    "ko": "바다",
+    "zh": "海洋"
+  },
+  "Forest": {
+    "fr": "Forêt",
+    "de": "Wald",
+    "es": "Bosque",
+    "it": "Foresta",
+    "ja": "森",
+    "ko": "숲",
+    "zh": "森林"
+  },
+  "Rainbow": {
+    "fr": "Arc-en-ciel",
+    "de": "Regenbogen",
+    "es": "Arcoíris",
+    "it": "Arcobaleno",
+    "ja": "虹",
+    "ko": "무지개",
+    "zh": "彩虹"
+  },
+  "Rainbow Bands": {
+    "fr": "Bandes arc-en-ciel",
+    "de": "Regenbogenstreifen",
+    "es": "Bandas de arcoíris",
+    "it": "Bande arcobaleno",
+    "ja": "虹のバンド",
+    "ko": "무지개 밴드",
+    "zh": "彩虹条带"
+  },
+  "Sunset": {
+    "fr": "Coucher de soleil",
+    "de": "Sonnenuntergang",
+    "es": "Atardecer",
+    "it": "Tramonto",
+    "ja": "夕焼け",
+    "ko": "일몰",
+    "zh": "日落"
+  },
+  "Sunset 2": {
+    "fr": "Coucher de soleil 2",
+    "de": "Sonnenuntergang 2",
+    "es": "Atardecer 2",
+    "it": "Tramonto 2",
+    "ja": "夕焼け 2",
+    "ko": "일몰 2",
+    "zh": "日落 2"
+  },
+  "Breeze": {
+    "fr": "Brise",
+    "de": "Brise",
+    "es": "Brisa",
+    "it": "Brezza",
+    "ja": "そよ風",
+    "ko": "산들바람",
+    "zh": "微风"
+  },
+  "Red & Blue": {
+    "fr": "Rouge & Bleu",
+    "de": "Rot & Blau",
+    "es": "Rojo & Azul",
+    "it": "Rosso & Blu",
+    "ja": "赤 & 青",
+    "ko": "빨강 & 파랑",
+    "zh": "红 & 蓝"
+  },
+  "Analogous": {
+    "fr": "Analogue",
+    "de": "Analog",
+    "es": "Análogo",
+    "it": "Analogo"
+  },
+  "Splash": {
+    "fr": "Éclaboussure",
+    "de": "Spritzer",
+    "es": "Salpicadura",
+    "it": "Spruzzo",
+    "ja": "スプラッシュ",
+    "ko": "스플래시",
+    "zh": "飞溅"
+  },
+  "Beach": {
+    "fr": "Plage",
+    "de": "Strand",
+    "es": "Playa",
+    "it": "Spiaggia",
+    "ja": "ビーチ",
+    "ko": "해변",
+    "zh": "海滩"
+  },
+  "Departure": {
+    "fr": "Départ",
+    "de": "Abflug",
+    "es": "Partida",
+    "it": "Partenza",
+    "ja": "出発",
+    "ko": "출발",
+    "zh": "出发"
+  },
+  "Landscape": {
+    "fr": "Paysage",
+    "de": "Landschaft",
+    "es": "Paisaje",
+    "it": "Paesaggio",
+    "ja": "風景",
+    "ko": "풍경",
+    "zh": "风景"
+  },
+  "Beech": {
+    "fr": "Hêtre",
+    "de": "Buche",
+    "es": "Haya",
+    "it": "Faggio"
+  },
+  "Sherbet": {
+    "fr": "Sorbet",
+    "de": "Sorbet",
+    "es": "Sorbete",
+    "it": "Sorbetto",
+    "ja": "シャーベット",
+    "ko": "셔벗",
+    "zh": "冰糕"
+  },
+  "Fire": {
+    "fr": "Feu",
+    "de": "Feuer",
+    "es": "Fuego",
+    "it": "Fuoco",
+    "ja": "火",
+    "ko": "불",
+    "zh": "火焰"
+  },
+  "Icefire": {
+    "fr": "Glace & feu",
+    "de": "Eis & Feuer",
+    "es": "Hielo & fuego",
+    "it": "Ghiaccio & fuoco",
+    "ja": "氷と炎",
+    "ko": "얼음과 불",
+    "zh": "冰与火"
+  },
+  "Light Pink": {
+    "fr": "Rose clair",
+    "de": "Hellrosa",
+    "es": "Rosa claro",
+    "it": "Rosa chiaro",
+    "ja": "ライトピンク",
+    "ko": "연분홍",
+    "zh": "浅粉"
+  },
+  "Autumn": {
+    "fr": "Automne",
+    "de": "Herbst",
+    "es": "Otoño",
+    "it": "Autunno",
+    "ja": "秋",
+    "ko": "가을",
+    "zh": "秋天"
+  },
+  "Orange & Teal": {
+    "fr": "Orange & Sarcelle",
+    "de": "Orange & Blaugrün",
+    "es": "Naranja & Verde azulado",
+    "it": "Arancione & Verde acqua",
+    "ja": "オレンジ & ティール",
+    "ko": "주황 & 청록",
+    "zh": "橙 & 蓝绿"
+  },
+  "April Night": {
+    "fr": "Nuit d'avril",
+    "de": "Aprilnacht",
+    "es": "Noche de abril",
+    "it": "Notte d'aprile",
+    "ja": "四月の夜",
+    "ko": "사월의 밤",
+    "zh": "四月之夜"
+  },
+  "Orangery": {
+    "fr": "Orangeraie",
+    "de": "Orangerie",
+    "es": "Naranjal",
+    "it": "Aranceto"
+  },
+  "Aurora": {
+    "fr": "Aurore",
+    "de": "Aurora",
+    "es": "Aurora",
+    "it": "Aurora",
+    "ja": "オーロラ",
+    "ko": "오로라",
+    "zh": "极光"
+  },
+  "Aurora 2": {
+    "fr": "Aurore 2",
+    "de": "Aurora 2",
+    "es": "Aurora 2",
+    "it": "Aurora 2",
+    "ja": "オーロラ 2",
+    "ko": "오로라 2",
+    "zh": "极光 2"
+  },
+  "Temperature": {
+    "fr": "Température",
+    "de": "Temperatur",
+    "es": "Temperatura",
+    "it": "Temperatura",
+    "ja": "温度",
+    "ko": "온도",
+    "zh": "温度"
+  },
+  "Candy": {
+    "fr": "Bonbon",
+    "de": "Bonbon",
+    "es": "Caramelo",
+    "it": "Caramella",
+    "ja": "キャンディ",
+    "ko": "사탕",
+    "zh": "糖果"
+  },
+  "Pink Candy": {
+    "fr": "Bonbon rose",
+    "de": "Rosa Bonbon",
+    "es": "Caramelo rosa",
+    "it": "Caramella rosa",
+    "ja": "ピンクキャンディ",
+    "ko": "분홍 사탕",
+    "zh": "粉色糖果"
+  },
+  "Semi Blue": {
+    "fr": "Semi-bleu",
+    "de": "Halbblau",
+    "es": "Semiazul",
+    "it": "Semi-blu"
+  },
+  "Aqua Flash": {
+    "fr": "Flash aqua",
+    "de": "Aqua-Blitz",
+    "es": "Destello aqua",
+    "it": "Flash acqua",
+    "ja": "アクアフラッシュ",
+    "ko": "아쿠아 플래시",
+    "zh": "水色闪光"
+  },
+  "Vintage": {
+    "fr": "Vintage",
+    "de": "Vintage",
+    "es": "Vintage",
+    "it": "Vintage",
+    "ja": "ヴィンテージ",
+    "ko": "빈티지",
+    "zh": "复古"
+  },
+  "Pastel": {
+    "fr": "Pastel",
+    "de": "Pastell",
+    "es": "Pastel",
+    "it": "Pastello",
+    "ja": "パステル",
+    "ko": "파스텔",
+    "zh": "粉彩"
+  },
+  "Default": {
+    "fr": "Défaut",
+    "de": "Standard",
+    "es": "Predeterminado",
+    "it": "Predefinito",
+    "ja": "デフォルト",
+    "ko": "기본",
+    "zh": "默认"
+  },
+  "Tertiary": {
+    "fr": "Tertiaire",
+    "de": "Tertiär",
+    "es": "Terciario",
+    "it": "Terziario",
+    "ja": "三次色",
+    "ko": "3차색",
+    "zh": "三次色"
+  },
+  "Magenta": {
+    "fr": "Magenta",
+    "de": "Magenta",
+    "es": "Magenta",
+    "it": "Magenta",
+    "ja": "マゼンタ",
+    "ko": "마젠타",
+    "zh": "品红"
+  },
+  "Rewhi": {
+    "fr": "Rouge-blanc",
+    "de": "Rot-Weiß",
+    "es": "Rojo-blanco",
+    "it": "Rosso-bianco",
+    "ja": "赤白",
+    "ko": "빨강-하양",
+    "zh": "红白"
+  },
+  "Magred": {
+    "fr": "Magenta-rouge",
+    "de": "Magenta-Rot",
+    "es": "Magenta-rojo",
+    "it": "Magenta-rosso",
+    "ja": "マゼンタ赤",
+    "ko": "마젠타-빨강",
+    "zh": "品红-红"
+  },
+  "Yelmag": {
+    "fr": "Jaune-magenta",
+    "de": "Gelb-Magenta",
+    "es": "Amarillo-magenta",
+    "it": "Giallo-magenta",
+    "ja": "黄マゼンタ",
+    "ko": "노랑-마젠타",
+    "zh": "黄-品红"
+  },
+  "Yelblu": {
+    "fr": "Jaune-bleu",
+    "de": "Gelb-Blau",
+    "es": "Amarillo-azul",
+    "it": "Giallo-blu",
+    "ja": "黄青",
+    "ko": "노랑-파랑",
+    "zh": "黄蓝"
+  },
+  "Yelblu Hot": {
+    "fr": "Jaune-bleu chaud",
+    "de": "Gelb-Blau heiß",
+    "es": "Amarillo-azul cálido",
+    "it": "Giallo-blu caldo",
+    "ja": "黄青ホット",
+    "ko": "노랑-파랑 따뜻",
+    "zh": "暖黄蓝"
+  },
+  "Yellowout": {
+    "fr": "Jaune diffus",
+    "de": "Gelb-Verlauf",
+    "es": "Amarillo difuso",
+    "it": "Giallo sfumato",
+    "ja": "イエローアウト",
+    "ko": "옐로아웃",
+    "zh": "黄色渐隐"
+  },
+  "Retro Clown": {
+    "fr": "Clown rétro",
+    "de": "Retro-Clown",
+    "es": "Payaso retro",
+    "it": "Pagliaccio retrò",
+    "ja": "レトロピエロ",
+    "ko": "레트로 광대",
+    "zh": "复古小丑"
+  },
+  "Red Reaf": {
+    "fr": "Récif rouge",
+    "de": "Rotes Riff",
+    "es": "Arrecife rojo",
+    "it": "Scogliera rossa",
+    "ja": "赤い岩礁",
+    "ko": "붉은 암초",
+    "zh": "红礁"
+  },
+  "Fairy Reaf": {
+    "fr": "Récif féerique",
+    "de": "Feenriff",
+    "es": "Arrecife de hadas",
+    "it": "Scogliera fatata",
+    "ja": "妖精の岩礁",
+    "ko": "요정 암초",
+    "zh": "精灵礁"
+  },
+  "Lite Light": {
+    "fr": "Lumière douce",
+    "de": "Sanftes Licht",
+    "es": "Luz suave",
+    "it": "Luce tenue",
+    "ja": "淡い光",
+    "ko": "은은한 빛",
+    "zh": "柔光"
+  },
+  "Red Flash": {
+    "fr": "Flash rouge",
+    "de": "Rotes Blitzen",
+    "es": "Destello rojo",
+    "it": "Lampo rosso",
+    "ja": "赤フラッシュ",
+    "ko": "빨강 플래시",
+    "zh": "红闪"
+  },
+  "Blink Red": {
+    "fr": "Clignotement rouge",
+    "de": "Rotes Blinken",
+    "es": "Parpadeo rojo",
+    "it": "Lampeggio rosso",
+    "ja": "赤点滅",
+    "ko": "빨강 깜박임",
+    "zh": "红闪烁"
+  },
+  "Red Shift": {
+    "fr": "Décalage rouge",
+    "de": "Rotverschiebung",
+    "es": "Corrimiento al rojo",
+    "it": "Spostamento rosso",
+    "ja": "赤方偏移",
+    "ko": "적색편이",
+    "zh": "红移"
+  },
+  "Red Tide": {
+    "fr": "Marée rouge",
+    "de": "Rote Flut",
+    "es": "Marea roja",
+    "it": "Marea rossa",
+    "ja": "赤潮",
+    "ko": "적조",
+    "zh": "红潮"
+  },
+  "Candy2": {
+    "fr": "Bonbon 2",
+    "de": "Bonbon 2",
+    "es": "Caramelo 2",
+    "it": "Caramella 2",
+    "ja": "キャンディ2",
+    "ko": "사탕 2",
+    "zh": "糖果2"
+  },
+  "Traffic Light": {
+    "fr": "Feu tricolore",
+    "de": "Ampel",
+    "es": "Semáforo",
+    "it": "Semaforo",
+    "ja": "信号機",
+    "ko": "신호등",
+    "zh": "红绿灯"
+  },
+  "Sakura": {
+    "fr": "Fleur de cerisier",
+    "de": "Kirschblüte",
+    "es": "Flor de cerezo",
+    "it": "Fiore di ciliegio",
+    "ja": "桜",
+    "ko": "벚꽃",
+    "zh": "樱花"
+  },
+  "C9 New": {
+    "fr": "C9 (nouv.)",
+    "de": "C9 neu",
+    "es": "C9 nuevo",
+    "it": "C9 nuovo",
+    "ja": "C9新",
+    "ko": "C9 신형",
+    "zh": "C9新"
+  }
+}

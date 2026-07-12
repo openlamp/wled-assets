@@ -1,0 +1,471 @@
+{
+ "_note": "Localized WLED effect names. Key = exact English name from /json/eff. Missing entry/language -> English fallback. Extend over time.",
+ "Aurora": {
+  "fr": "Aurore",
+  "de": "Aurora",
+  "es": "Aurora",
+  "it": "Aurora"
+ },
+ "Black Hole": {
+  "fr": "Trou noir"
+ },
+ "Blends": {
+  "fr": "Mélanges"
+ },
+ "Blink": {
+  "fr": "Clignotement",
+  "de": "Blinken",
+  "es": "Parpadeo",
+  "it": "Lampeggio"
+ },
+ "Blink Rainbow": {
+  "fr": "Clignotement arc-en-ciel"
+ },
+ "Blobs": {
+  "fr": "Bulles"
+ },
+ "Bouncing Balls": {
+  "fr": "Billes rebondissantes"
+ },
+ "Breathe": {
+  "fr": "Respiration",
+  "de": "Atmen",
+  "es": "Respiración",
+  "it": "Respiro"
+ },
+ "Candle": {
+  "fr": "Bougie",
+  "de": "Kerze",
+  "es": "Vela",
+  "it": "Candela"
+ },
+ "Candle Multi": {
+  "fr": "Bougies multiples"
+ },
+ "Chase": {
+  "fr": "Poursuite",
+  "de": "Verfolgung",
+  "es": "Persecución",
+  "it": "Inseguimento"
+ },
+ "Chase 2": {
+  "fr": "Poursuite 2"
+ },
+ "Chase 3": {
+  "fr": "Poursuite 3"
+ },
+ "Chase Flash": {
+  "fr": "Poursuite flash"
+ },
+ "Chase Rainbow": {
+  "fr": "Poursuite arc-en-ciel"
+ },
+ "Chase Random": {
+  "fr": "Poursuite aléatoire"
+ },
+ "Color Clouds": {
+  "fr": "Nuages colorés"
+ },
+ "Colored Bursts": {
+  "fr": "Éclats colorés"
+ },
+ "Colorful": {
+  "fr": "Coloré"
+ },
+ "Colorloop": {
+  "fr": "Boucle de couleurs"
+ },
+ "Colorwaves": {
+  "fr": "Vagues colorées"
+ },
+ "Copy Segment": {
+  "fr": "Copier segment"
+ },
+ "Crazy Bees": {
+  "fr": "Abeilles folles"
+ },
+ "DJ Light": {
+  "fr": "Lumière DJ"
+ },
+ "Dancing Shadows": {
+  "fr": "Ombres dansantes"
+ },
+ "Dissolve": {
+  "fr": "Dissolution"
+ },
+ "Dissolve Rnd": {
+  "fr": "Dissolution aléatoire"
+ },
+ "Distortion Waves": {
+  "fr": "Vagues déformées"
+ },
+ "Drift": {
+  "fr": "Dérive"
+ },
+ "Drift Rose": {
+  "fr": "Rosace"
+ },
+ "Drip": {
+  "fr": "Goutte"
+ },
+ "Dynamic": {
+  "fr": "Dynamique"
+ },
+ "Dynamic Smooth": {
+  "fr": "Dynamique doux"
+ },
+ "Fade": {
+  "fr": "Fondu",
+  "de": "Verblassen",
+  "es": "Desvanecer",
+  "it": "Dissolvenza"
+ },
+ "Fairy": {
+  "fr": "Fée"
+ },
+ "Fairytwinkle": {
+  "fr": "Scintillement féerique"
+ },
+ "Fill Noise": {
+  "fr": "Bruit rempli"
+ },
+ "Fire 2012": {
+  "fr": "Feu 2012"
+ },
+ "Fire Flicker": {
+  "fr": "Feu vacillant",
+  "de": "Feuerflackern",
+  "es": "Fuego parpadeante",
+  "it": "Fuoco tremolante"
+ },
+ "Fireworks": {
+  "fr": "Feux d'artifice",
+  "de": "Feuerwerk",
+  "es": "Fuegos artificiales",
+  "it": "Fuochi d'artificio"
+ },
+ "Fireworks 1D": {
+  "fr": "Feux d'artifice 1D"
+ },
+ "Fireworks Starburst": {
+  "fr": "Feu d'artifice étoilé"
+ },
+ "Flow": {
+  "fr": "Flux"
+ },
+ "Flow Stripe": {
+  "fr": "Bande fluide"
+ },
+ "Game Of Life": {
+  "fr": "Jeu de la vie"
+ },
+ "Ghost Rider": {
+  "fr": "Cavalier fantôme"
+ },
+ "Glitter": {
+  "fr": "Paillettes",
+  "de": "Glitzer",
+  "es": "Purpurina",
+  "it": "Glitter"
+ },
+ "Gradient": {
+  "fr": "Dégradé",
+  "de": "Verlauf",
+  "es": "Degradado",
+  "it": "Gradiente"
+ },
+ "Halloween Eyes": {
+  "fr": "Yeux d'Halloween"
+ },
+ "Heartbeat": {
+  "fr": "Battement de cœur",
+  "de": "Herzschlag",
+  "es": "Latido",
+  "it": "Battito"
+ },
+ "Image": {
+  "fr": "Image"
+ },
+ "Juggle": {
+  "fr": "Jonglage"
+ },
+ "Lake": {
+  "fr": "Lac",
+  "de": "See",
+  "es": "Lago",
+  "it": "Lago"
+ },
+ "Lighthouse": {
+  "fr": "Phare"
+ },
+ "Lightning": {
+  "fr": "Éclair",
+  "de": "Blitz",
+  "es": "Relámpago",
+  "it": "Fulmine"
+ },
+ "Loading": {
+  "fr": "Chargement"
+ },
+ "Matrix": {
+  "fr": "Matrice",
+  "de": "Matrix",
+  "es": "Matriz",
+  "it": "Matrice"
+ },
+ "Meteor": {
+  "fr": "Météore",
+  "de": "Meteor",
+  "es": "Meteoro",
+  "it": "Meteora"
+ },
+ "Multi Comet": {
+  "fr": "Multi-comètes"
+ },
+ "Noise Pal": {
+  "fr": "Bruit palette"
+ },
+ "Octopus": {
+  "fr": "Pieuvre"
+ },
+ "Oscillate": {
+  "fr": "Oscillation"
+ },
+ "PacMan": {
+  "fr": "Pac-Man"
+ },
+ "Pacifica": {
+  "fr": "Pacifica"
+ },
+ "Palette": {
+  "fr": "Palette"
+ },
+ "Percent": {
+  "fr": "Pourcentage"
+ },
+ "Phased": {
+  "fr": "Déphasé"
+ },
+ "Pixels": {
+  "fr": "Pixels"
+ },
+ "Pixelwave": {
+  "fr": "Vague de pixels"
+ },
+ "Plasma": {
+  "fr": "Plasma",
+  "de": "Plasma",
+  "es": "Plasma",
+  "it": "Plasma"
+ },
+ "Plasma Ball": {
+  "fr": "Boule de plasma"
+ },
+ "Polar Lights": {
+  "fr": "Aurores polaires"
+ },
+ "Popcorn": {
+  "fr": "Popcorn"
+ },
+ "Railway": {
+  "fr": "Voie ferrée"
+ },
+ "Rain": {
+  "fr": "Pluie",
+  "de": "Regen",
+  "es": "Lluvia",
+  "it": "Pioggia"
+ },
+ "Rainbow": {
+  "fr": "Arc-en-ciel",
+  "de": "Regenbogen",
+  "es": "Arcoíris",
+  "it": "Arcobaleno"
+ },
+ "Rainbow Runner": {
+  "fr": "Coureur arc-en-ciel"
+ },
+ "Random Colors": {
+  "fr": "Couleurs aléatoires"
+ },
+ "Ripple": {
+  "fr": "Ondulation"
+ },
+ "Ripple Rainbow": {
+  "fr": "Ondulation arc-en-ciel"
+ },
+ "Rolling Balls": {
+  "fr": "Billes roulantes"
+ },
+ "Running": {
+  "fr": "Défilement"
+ },
+ "Running Dual": {
+  "fr": "Défilement double"
+ },
+ "Saw": {
+  "fr": "Dents de scie"
+ },
+ "Scan": {
+  "fr": "Scanner"
+ },
+ "Scan Dual": {
+  "fr": "Scanner double"
+ },
+ "Scanner": {
+  "fr": "Scanner"
+ },
+ "Scanner Dual": {
+  "fr": "Scanner double"
+ },
+ "Scrolling Text": {
+  "fr": "Texte défilant"
+ },
+ "Shimmer": {
+  "fr": "Miroitement"
+ },
+ "Sine": {
+  "fr": "Sinus"
+ },
+ "Sinelon": {
+  "fr": "Sinelon"
+ },
+ "Slow Transition": {
+  "fr": "Transition lente"
+ },
+ "Soap": {
+  "fr": "Savon"
+ },
+ "Solid": {
+  "fr": "Fixe",
+  "de": "Statisch",
+  "es": "Fijo",
+  "it": "Fisso"
+ },
+ "Solid Glitter": {
+  "fr": "Paillettes fixes"
+ },
+ "Solid Pattern": {
+  "fr": "Motif fixe"
+ },
+ "Solid Pattern Tri": {
+  "fr": "Motif fixe tricolore"
+ },
+ "Spaceships": {
+  "fr": "Vaisseaux"
+ },
+ "Sparkle": {
+  "fr": "Étincelles",
+  "de": "Funkeln",
+  "es": "Destellos",
+  "it": "Scintillii"
+ },
+ "Sparkle Dark": {
+  "fr": "Étincelles sombres"
+ },
+ "Sparkle+": {
+  "fr": "Étincelles+"
+ },
+ "Spots": {
+  "fr": "Points"
+ },
+ "Spots Fade": {
+  "fr": "Points fondus"
+ },
+ "Stream": {
+  "fr": "Flux"
+ },
+ "Stream 2": {
+  "fr": "Flux 2"
+ },
+ "Strobe": {
+  "fr": "Stroboscope",
+  "de": "Stroboskop",
+  "es": "Estroboscopio",
+  "it": "Stroboscopio"
+ },
+ "Strobe Mega": {
+  "fr": "Strobo méga"
+ },
+ "Strobe Rainbow": {
+  "fr": "Strobo arc-en-ciel"
+ },
+ "Sun Radiation": {
+  "fr": "Rayonnement solaire"
+ },
+ "Sunrise": {
+  "fr": "Lever de soleil",
+  "de": "Sonnenaufgang",
+  "es": "Amanecer",
+  "it": "Alba"
+ },
+ "Sweep": {
+  "fr": "Va-et-vient"
+ },
+ "Sweep Random": {
+  "fr": "Va-et-vient aléatoire"
+ },
+ "Swirl": {
+  "fr": "Tourbillon"
+ },
+ "TV Simulator": {
+  "fr": "Simulateur TV"
+ },
+ "Tartan": {
+  "fr": "Tartan"
+ },
+ "Tetrix": {
+  "fr": "Tetris"
+ },
+ "Theater": {
+  "fr": "Chenillard"
+ },
+ "Theater Rainbow": {
+  "fr": "Chenillard arc-en-ciel"
+ },
+ "Traffic Light": {
+  "fr": "Feu tricolore"
+ },
+ "Tri Fade": {
+  "fr": "Fondu tricolore"
+ },
+ "Tri Wipe": {
+  "fr": "Balayage tricolore"
+ },
+ "Twinkle": {
+  "fr": "Scintillement",
+  "de": "Funkeln",
+  "es": "Centelleo",
+  "it": "Scintillio"
+ },
+ "Twinklefox": {
+  "fr": "Scintillement renard"
+ },
+ "Twinkleup": {
+  "fr": "Scintillement montant"
+ },
+ "Two Dots": {
+  "fr": "Deux points"
+ },
+ "Washing Machine": {
+  "fr": "Machine à laver"
+ },
+ "Waterfall": {
+  "fr": "Cascade",
+  "de": "Wasserfall",
+  "es": "Cascada",
+  "it": "Cascata"
+ },
+ "Waving Cell": {
+  "fr": "Cellule ondulante"
+ },
+ "Wipe": {
+  "fr": "Balayage",
+  "de": "Wischen",
+  "es": "Barrido",
+  "it": "Spazzata"
+ },
+ "Wipe Random": {
+  "fr": "Balayage aléatoire"
+ }
+}
