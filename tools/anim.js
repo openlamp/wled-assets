@@ -9,10 +9,15 @@ function motion(name){
  const n=(name||'').toLowerCase(), h=(...k)=>k.some(x=>n.includes(x));
  if(h('solid','static','fill'))return'solid';
  if(h('police'))return'police';
+ if(h('lightning'))return'lightning';
+ if(h('firework','popcorn'))return'fireworks';
+ if(h('heart'))return'heartbeat';
+ if(h('bounc','ball','juggle','gravcen','gravfreq','gravimeter'))return'bounce';
+ if(h('comet','meteor','shooting','sinelon'))return'comet';
  if(h('ghost rider','ghost'))return'ghost';
- if(h('two dots','two areas','dual'))return'dots';
+ if(h('two dots','two areas'))return'dots';
  if(h('traffic'))return'traffic';
- if(h('washing machine','rotozoom','spin'))return'spin';
+ if(h('washing machine','rotozoom'))return'spin';
  if(h('spaceship','ufo','saturn'))return'spaceship';
  if(h('bee','crazy bees'))return'bees';
  if(h('octopus'))return'octopus';
@@ -27,14 +32,15 @@ function motion(name){
  if(h('impact','sonic boom','colored burst','fireworks 1d'))return'impact';
  if(h('akemi'))return'akemi';
  if(h('blob','soap','clouds','plasmoid'))return'blobs';
- if(h('lightning'))return'lightning';
- if(h('firework','popcorn'))return'fireworks';
- if(h('heart'))return'heartbeat';
- if(h('bounc','ball','juggle','gravcen','gravfreq','gravimeter'))return'bounce';
- if(h('comet','meteor','shooting'))return'comet';
+ if(h('tetri'))return'tetris';
+ if(h('wipe'))return'wipe';
+ if(h('scan'))return'scan';
+ if(h('saw'))return'saw';
+ if(h('dynamic','random colors'))return'dynamic';
  if(h('rainbow'))return'rainbow';
- if(h('sweep','scan','wipe','larson','knight','android'))return'sweep';
- if(h('matri','tetrix','game of life','dna','pixel'))return'matrix';
+ if(h('running','runner'))return'running';
+ if(h('sweep','larson','knight','android'))return'sweep';
+ if(h('matri','game of life','dna','pixel'))return'matrix';
  if(h('snow','frost','ice'))return'snow';
  if(h('rain','drip','drop','waterfall','puddle','fall'))return'rain';
  if(h('fire','flame','lava','candle','ember','glow','halloween'))return'fire';
@@ -43,11 +49,11 @@ function motion(name){
  if(h('twinkle','star','fairy','glitter','firefl'))return'twinkle';
  if(h('sparkle','dissolve','flicker','noise','spot'))return'sparkle';
  if(h('ripple','plasma','pacifica','water','liquid','fluid','aurora','flow','stream','freq','geq'))return'ripple';
- if(h('breathe','breath','fade','pulse','sine','sinelon','blend','heartbeat'))return'breathe';
+ if(h('breathe','breath','fade','sine','blend'))return'breathe';
  if(h('strobe','blink','stutter','hyper'))return'strobe';
- if(h('chase','running','marquee','railway','theater','train','loading','dancing'))return'chase';
+ if(h('chase','marquee','railway','theater','train','loading','dancing'))return'chase';
  if(h('colorloop','colorwave','colortwinkle','colorful','pride','cycle','hue','spectrum','palette'))return'colorloop';
- if(h('saw','sawtooth','gradient','tricolor'))return'saw';
+ if(h('sawtooth','gradient','tricolor'))return'saw';
  return'wave';
 }
 function anim(ph,m,seed){
@@ -61,11 +67,9 @@ function anim(ph,m,seed){
  if(m==='heartbeat'){const s=1+0.18*M.sin(p*1.6);return `<g transform="translate(72 78) scale(${s}) translate(-72 -78)"><path d="M72 108 C24 72 30 36 54 36 C66 36 72 46 72 52 C72 46 78 36 90 36 C114 36 120 72 72 108 Z" fill="${hsv(0.98,.85,1)}"/></g>`;}
  if(m==='bounce'){let o='';for(let i=0;i<3;i++){const x=34+i*38,y=110-M.abs(M.sin(p*0.6+i*1.1))*74;o+=`<circle cx="${x}" cy="${y|0}" r="13" fill="${hsv(h0+i*0.14,.8,1)}"/>`;}return o;}
  if(m==='comet'){const x=((ph*7*spd|0)%168)-12;let o='';for(let k=0;k<6;k++){o+=`<circle cx="${(x-k*10*dr)|0}" cy="72" r="${10-k*1.4}" fill="${hsv(h0,.7,1-k*0.15)}"/>`;}return o;}
- if(m==='sweep'){const x=12+(0.5+0.5*M.sin(p*0.5))*108,s=M.cos(p*0.5)>0?1:-1;let o=`<rect x="${x|0}" y="24" width="12" height="96" rx="6" fill="${hsv(h0,.7,1)}"/>`;for(let k=1;k<5;k++)o+=`<rect x="${(x-k*11*s)|0}" y="30" width="8" height="84" rx="4" fill="${hsv(h0,.55,1-k*0.18)}"/>`;return o;}
  if(m==='matrix'){let o='';for(let c=0;c<6;c++){const x=16+c*20,y=((ph*10*spd|0)+c*37+seed*5)%160-30;for(let k=0;k<4;k++)o+=`<rect x="${x}" y="${y-k*18}" width="12" height="14" rx="2" fill="${hsv(0.33,.8,1-k*0.28)}"/>`;}return o;}
  if(m==='snow'){let o='';for(let i=0;i<5;i++){const x=18+i*28,y=((ph*8*spd|0)+i*33+seed*7)%160-16;o+=`<g stroke="#dff1ff" stroke-width="3" stroke-linecap="round" transform="translate(${x} ${y})"><line x1="0" y1="-9" x2="0" y2="9"/><line x1="-8" y1="-5" x2="8" y2="5"/><line x1="8" y1="-5" x2="-8" y2="5"/></g>`;}return o;}
  if(m==='rain'){let o='';const step=(132/M.max(1,n-2))|0;for(let i=0;i<n-1;i++){const y=((ph*13*spd|0)+i*41+seed*7)%150-20;o+=`<rect x="${18+i*step}" y="${y}" width="9" height="28" rx="4" fill="${hsv(h0+0.55,.65,1)}"/>`;}return o;}
- if(m==='fire'){let o='';for(let i=0;i<5;i++){const hh=42+62*(0.5+0.5*M.sin(p*0.9+i*1.7+seed));o+=`<rect x="${16+i*24}" y="${128-hh}" width="18" height="${hh}" rx="8" fill="${hsv(0.02+0.10*(hh/104),1,1)}"/>`;}return o;}
  if(m==='lighthouse'){const a=p*0.5,x2=72+M.cos(a)*70,y2=72+M.sin(a)*70,x3=72+M.cos(a+0.5)*70,y3=72+M.sin(a+0.5)*70;return `<circle cx="72" cy="72" r="12" fill="${hsv(h0,.3,1)}"/><path d="M72 72 L${x2|0} ${y2|0} L${x3|0} ${y3|0} Z" fill="${hsv(h0,.6,.9)}"/>`;}
  if(m==='sunrise'){const y=110-(0.5+0.5*M.sin(p*0.4))*40;return `<circle cx="72" cy="${y|0}" r="26" fill="${hsv(0.09,.85,1)}"/><rect x="0" y="116" width="144" height="28" fill="${hsv(0.08,.6,.5)}"/>`;}
  if(m==='twinkle'){let o='';for(let i=0;i<6;i++){const x=22+(i*47)%110,yv=30+(i*53)%84,lit=(((i*5+(ph*3*spd|0)+seed)%6)<2),r=lit?11:5,col=lit?hsv(h0+i*0.1,.5,1):'#39414e';o+=`<path d="M${x} ${yv-r} l${r*0.3} ${r*0.7} l${r*0.7} ${r*0.3} l${-r*0.7} ${r*0.3} l${-r*0.3} ${r*0.7} Z" fill="${col}"/>`;}return o;}
@@ -76,7 +80,6 @@ function anim(ph,m,seed){
  if(m==='chase'){const pos=(ph*spd+seed|0)%7,b=hsv(h0,.75,1).match(/\d+/g).map(Number);let o='';for(let i=0;i<7;i++){const br=M.max(0.14,1-(((pos-i*dr)%7+7)%7)*0.30);o+=`<circle cx="${18+i*18}" cy="72" r="9" fill="rgb(${(26+(b[0]-26)*br)|0},${(26+(b[1]-26)*br)|0},${(26+(b[2]-26)*br)|0})"/>`;}return o;}
  if(m==='rainbow'){let o='';for(let k=0;k<6;k++)o+=`<path d="M18 128 A${54-k*8} ${54-k*8} 0 0 1 126 128" fill="none" stroke="${hsv((k/6+ph*0.03*spd)%1,.9,1)}" stroke-width="9"/>`;return o;}
  if(m==='colorloop')return `<rect x="20" y="20" width="104" height="104" rx="16" fill="${hsv(h0+ph*0.03*spd,.8,1)}"/>`;
- if(m==='saw'){const wd=(120/n)|0;let o='';for(let i=0;i<n;i++){const hh=20+((i*20+(ph*6*spd|0))%100);o+=`<rect x="${12+i*wd}" y="${128-hh}" width="${wd-3}" height="${hh}" fill="${hsv(h0+i*0.08,.85,1)}"/>`;}return o;}
 
  if(m==='ghost'){const x=72+M.sin(p*0.5)*36,col=hsv(h0,.25,1);return `<path d="M${(x-30)|0} 40 a30 30 0 0 1 30 30 v34 l-8 -8 -8 8 -7 -8 -7 8 -8 -8 -8 8 v-34 a30 30 0 0 1 30 -30 Z" fill="${col}"/><circle cx="${(x-10)|0}" cy="66" r="5" fill="#1a1a1a"/><circle cx="${(x+10)|0}" cy="66" r="5" fill="#1a1a1a"/>`;}
  if(m==='dots'){let o='';for(let i=0;i<2;i++){const x=72+M.cos(p*0.7+i*M.PI)*44,y=72+M.sin(p*0.9+i*M.PI)*40;o+=`<circle cx="${x|0}" cy="${y|0}" r="16" fill="${hsv(h0+i*0.4,.8,1)}"/>`;}return o;}
@@ -96,6 +99,15 @@ function anim(ph,m,seed){
  if(m==='impact'){const t=(ph%9)/9,rad=6+t*58;return `<circle cx="72" cy="72" r="${rad}" fill="none" stroke="${hsv(h0,.8,1-t)}" stroke-width="${M.max(1,10*(1-t))}"/><circle cx="72" cy="72" r="8" fill="${hsv(h0,.5,1-t*0.5)}"/>`;}
  if(m==='akemi'){return `<circle cx="72" cy="72" r="42" fill="${hsv(h0,.5,1)}"/><path d="M40 44 Q72 20 104 44" fill="none" stroke="#1a1a1a" stroke-width="4"/><circle cx="58" cy="70" r="7" fill="#1a1a1a"/><circle cx="86" cy="70" r="7" fill="#1a1a1a"/><path d="M60 92 Q72 ${(98+M.sin(p)*6)|0} 84 92" fill="none" stroke="#1a1a1a" stroke-width="4"/>`;}
  if(m==='blobs'){let o='';for(let i=0;i<3;i++){const r=22+10*M.sin(p*0.7+i*2),x=44+i*28,y=72+14*M.sin(p*0.5+i);o+=`<circle cx="${x|0}" cy="${y|0}" r="${r|0}" fill="${hsv(h0+i*0.16,.7,1)}"/>`;}return o;}
+
+ if(m==='wipe'){const ar=M.sin(p*0.6)*58*M.PI/180,x2=72+M.sin(ar)*100,y2=128-M.cos(ar)*100;return `<path d="M6 116 A84 84 0 0 1 138 116" fill="none" stroke="${hsv(h0,.25,.5)}" stroke-width="4"/><line x1="72" y1="126" x2="${x2|0}" y2="${y2|0}" stroke="${hsv(h0,.4,.6)}" stroke-width="5"/><line x1="${(72+M.sin(ar)*44)|0}" y1="${(128-M.cos(ar)*44)|0}" x2="${x2|0}" y2="${y2|0}" stroke="${hsv(h0,.7,1)}" stroke-width="11" stroke-linecap="round"/><circle cx="72" cy="126" r="6" fill="${hsv(h0,.5,.8)}"/>`;}
+ if(m==='sweep'){const x=72+M.sin(p*0.5)*40,d=M.cos(p*0.5)>0?1:-1;let o=`<line x1="${x|0}" y1="108" x2="${(x-26)|0}" y2="28" stroke="${hsv(0.08,.55,.85)}" stroke-width="7" stroke-linecap="round"/>`;for(let k=-3;k<4;k++)o+=`<line x1="${x|0}" y1="108" x2="${(x+k*8)|0}" y2="132" stroke="${hsv(0.11,.5,1)}" stroke-width="4"/>`;for(let j=0;j<3;j++)o+=`<circle cx="${(x+d*(26+j*13))|0}" cy="${(122-j*5)|0}" r="${4-j}" fill="${hsv(h0,.25,.7)}"/>`;return o;}
+ if(m==='scan'){const a=p*0.8;let o=`<circle cx="72" cy="72" r="48" fill="none" stroke="${hsv(0.33,.4,.5)}" stroke-width="3"/><circle cx="72" cy="72" r="28" fill="none" stroke="${hsv(0.33,.3,.4)}" stroke-width="2"/><line x1="72" y1="72" x2="${(72+M.cos(a)*48)|0}" y2="${(72+M.sin(a)*48)|0}" stroke="${hsv(0.33,.8,1)}" stroke-width="4"/>`;const lit=M.abs((a%(2*M.PI))-2.0)<0.45;o+=`<circle cx="${(72+M.cos(2)*34)|0}" cy="${(72+M.sin(2)*34)|0}" r="${lit?7:4}" fill="${lit?hsv(0.33,.9,1):hsv(0.33,.4,.4)}"/>`;return o;}
+ if(m==='running'){const sw=M.sin(p*1.6),col=hsv(h0,.6,1);let o=`<circle cx="82" cy="32" r="12" fill="${col}"/><line x1="79" y1="44" x2="62" y2="82" stroke="${col}" stroke-width="7" stroke-linecap="round"/>`;o+=`<polyline points="62,82 88,104 ${(94+(sw*8|0))},120" fill="none" stroke="${col}" stroke-width="7" stroke-linecap="round"/><polyline points="62,82 46,100 ${(38-(sw*8|0))},118" fill="none" stroke="${col}" stroke-width="7" stroke-linecap="round"/>`;o+=`<line x1="70" y1="56" x2="${(96-(sw*8|0))}" y2="72" stroke="${hsv(h0,.5,.9)}" stroke-width="6" stroke-linecap="round"/><line x1="70" y1="56" x2="${(48+(sw*8|0))}" y2="76" stroke="${hsv(h0,.5,.9)}" stroke-width="6" stroke-linecap="round"/>`;return o;}
+ if(m==='saw'){const x=M.sin(p*0.8)*16,by=62;let o=`<rect x="${(20+x)|0}" y="${by}" width="94" height="18" rx="3" fill="${hsv(h0,.2,.85)}"/>`;for(let k=0;k<9;k++){const tx=22+x+k*10;o+=`<path d="M${tx|0} ${by+18} L${(tx+5)|0} ${by+30} L${(tx+10)|0} ${by+18} Z" fill="${hsv(h0,.2,.85)}"/>`;}o+=`<rect x="${(4+x)|0}" y="${by-6}" width="26" height="30" rx="7" fill="${hsv(0.07,.6,.9)}"/>`;return o;}
+ if(m==='dynamic'){let o='';for(let r=0;r<3;r++)for(let c=0;c<4;c++){const hue=(((r*4+c)*67+(ph*2*spd|0)*53+seed*29)%360)/360;o+=`<rect x="${10+c*32}" y="${20+r*36}" width="30" height="34" rx="4" fill="${hsv(hue,.8,1)}"/>`;}return o;}
+ if(m==='tetris'){const cell=15,shapes=[[[0,0],[0,1],[0,2],[0,3]],[[0,0],[1,0],[0,1],[1,1]],[[0,0],[1,0],[2,0],[1,1]],[[0,0],[0,1],[0,2],[1,2]],[[1,0],[2,0],[0,1],[1,1]]];let o='';[[8,0],[60,2],[104,3]].forEach((pp2,pi)=>{const shp=shapes[(pp2[1]+seed)%5],y=(((ph*3*spd|0)+pi*30)%150)-30,col=hsv(h0+pi*0.2,.75,1);shp.forEach(([dx,dy])=>{o+=`<rect x="${pp2[0]+dx*cell}" y="${y+dy*cell}" width="${cell}" height="${cell}" rx="2" fill="${col}" stroke="#1a1a1a" stroke-width="1"/>`;});});return o;}
+ if(m==='fire'){let o='';[[46,0.85,0.0],[72,1.15,1.6],[98,0.8,3.1]].forEach(([cx,bh,off],k)=>{const hh=(66+34*(0.5+0.5*M.sin(p*1.3+off)))*bh,w=hh*0.30,top=124-hh;o+=`<path d="M${cx} 124 C${(cx-w)|0} ${(124-hh*0.4)|0} ${(cx-w*0.55)|0} ${(124-hh*0.78)|0} ${cx} ${top|0} C${(cx+w*0.55)|0} ${(124-hh*0.78)|0} ${(cx+w)|0} ${(124-hh*0.4)|0} ${cx} 124 Z" fill="${hsv(0.02+0.09*k,1,1)}"/>`;});return o;}
  const wd=(120/n)|0;let o='';for(let i=0;i<n;i++){const br=0.30+0.70*(0.5+0.5*M.sin(p*0.6-i*0.95)),hh=22+96*br;o+=`<rect x="${12+i*wd}" y="${128-hh}" width="${wd-3}" height="${hh}" rx="3" fill="${hsv(h0+((i*34+ph*12*spd)%360)/360,0.85,br)}"/>`;}return o;
 }
 if(typeof module!=='undefined')module.exports={anim,motion,hsv};
