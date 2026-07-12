@@ -1,5 +1,5 @@
 {
- "note": "Maps each WLED effect NAME to one of ~62 MOTION types, each a distinct animated icon. Bespoke by name: Ghost Rider=ghost, PacMan=pacman, Halloween=jack-o-lantern, Candle=candle+flame, Popcorn=popping kernels, Drip=dripping drop, Loading=spinner, Dancing=dancer, Running=runner, Wipe=wiper, Sweep=broom, Scan/Android=scanner, Saw=saw tool, Tetrix=tetrominoes (fall in progress), Fireworks=rocket+burst, Bounce=balls, Plasma/Blobs=morphing blobs, Aurora=curtains, Stream=flow, Percent=progress bar, Phased=phase waves, Spots=spotlights, Fairy=fairy dust, Glitter=fine flecks, Gradient=smooth gradient, Colorful=colour bands, Fade/Breathe/Solid distinct, + Comet, Octopus, DJ, Galaxy, Hourglass, TV, Traffic, Spaceship, Bees, Fire=flames, Rain, Matrix, Snow, Lighthouse, Sunrise, Ripple, Twinkle, Sparkle, Chase, Rainbow, Colorloop, Impact, Beat, Heartbeat, Text, Akemi, Dots. Abstract math effects (Perlin, Lissajous, Frizzles...) stay generic wave/ripple. Seeded by effect index. See tools/anim.js + tools/motions.py.",
+ "note": "Maps each WLED effect NAME to one of ~62 MOTION types, each a distinct animated icon. Bespoke by name: Ghost Rider=ghost, PacMan=pacman, Halloween=jack-o-lantern, Candle=candle+flame, Popcorn=popping kernels, Drip=dripping drop, Loading=spinner, Dancing=dancer, Running=runner, Wipe=wiper, Sweep=broom, Scan/Android=scanner, Saw=saw tool, Tetrix=tetrominoes (fall in progress), Fireworks=rocket+burst, Bounce=balls, Plasma/Blobs=morphing blobs, Aurora=curtains, Stream=flow, Percent=progress bar, Phased=phase waves, Spots=spotlights, Fairy=fairy dust, Glitter=fine flecks, Gradient=smooth gradient, Colorful=colour bands, Fade/Breathe/Solid distinct, + Comet, Octopus, DJ, Galaxy, Hourglass, TV, Traffic, Spaceship, Bees, Fire=flames, Rain, Matrix, Snow, Lighthouse, Sunrise, Ripple, Twinkle, Sparkle, Chase, Rainbow, Colorloop, Impact, Beat, Heartbeat, Text, Akemi, Dots. Lissajous=the Lissajous curve. Colour is now FIXED per motion (a deliberate hue, NOT the effect seed and NOT a forced rainbow) — effects carry MOTION, palettes carry colour. Perlin/Frizzles etc. stay generic wave/ripple. See tools/anim.js + tools/motions.py.",
  "effect_motion": {
   "Solid": "solid",
   "Blink": "strobe",
@@ -174,7 +174,7 @@
   "Tartan": "wave",
   "Polar Lights": "aurora",
   "Swirl": "galaxy",
-  "Lissajous": "wave",
+  "Lissajous": "lissajous",
   "Frizzles": "wave",
   "Plasma Ball": "bounce",
   "Flow Stripe": "stream",

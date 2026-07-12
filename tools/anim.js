@@ -47,13 +47,15 @@ function motion(name){
  if(h('chase','marquee','railway','theater','train'))return'chase';
  if(h('colorloop','pride','cycle','hue','spectrum','palette'))return'colorloop';
  if(h('noise'))return'sparkle';
+ if(h('lissajou'))return'lissajous';
  return'wave';
 }
 function _flame(cx,hh,col,base){base=base||124;const w=hh*0.30,top=base-hh;
  return `<path d="M${cx} ${base} C${(cx-w)|0} ${(base-hh*0.4)|0} ${(cx-w*0.55)|0} ${(base-hh*0.78)|0} ${cx} ${top|0} C${(cx+w*0.55)|0} ${(base-hh*0.78)|0} ${(cx+w)|0} ${(base-hh*0.4)|0} ${cx} ${base} Z" fill="${col}"/>`;}
+function _mhue(m){const f={octopus:0.78,dj:0.75,galaxy:0.72,blackhole:0.70,plasma:0.74,fairy:0.85,dancing:0.90,running:0.92,percent:0.34,loading:0.58,spots:0.13,stream:0.55,dots:0.55,comet:0.55,bounce:0.08,ripple:0.55,breathe:0.60,fade:0.60,solid:0.55,spaceship:0.55,hourglass:0.55,text:0.55,wipe:0.55,saw:0.55,scan:0.0,spin:0.55,lighthouse:0.12,drip:0.55,impact:0.04,phased:0.60,wave:0.0,chase:0.55,lissajous:0.0,colorful:0.0,gradient:0.0};if(m in f)return f[m];let s=0;for(const c of m)s+=c.charCodeAt(0);return (s%360)/360;}
 function anim(ph,m,seed){
  seed=seed||0;const M=Math;
- const h0=((seed*47)%360)/360,spd=0.55+((seed*13)%110)/100,dr=(M.floor(seed/2)%2)?1:-1,n=5+(seed%4),sat=0.7+((seed*5)%30)/100,p=ph*spd*dr;
+ const spd=0.55+((seed*13)%110)/100,dr=(M.floor(seed/2)%2)?1:-1,n=5+(seed%4),p=ph*spd*dr,h0=_mhue(m),sat=0.8;
  if(m==='solid')return `<rect x="24" y="24" width="96" height="96" rx="16" fill="${hsv(h0,sat,.85)}"/><rect x="40" y="40" width="48" height="30" rx="14" fill="${hsv(h0,sat*0.5,1)}"/>`;
  if(m==='fade'){const v=0.15+0.85*(0.5+0.5*M.sin(p*0.7));return `<rect x="24" y="34" width="96" height="76" rx="14" fill="${hsv(h0,sat,v)}"/>`;}
  if(m==='breathe'){const br=0.5+0.5*M.sin(p*0.6),r=26+30*br;return `<circle cx="72" cy="72" r="${(r+14)|0}" fill="none" stroke="${hsv(h0,.5,br)}" stroke-width="4"/><circle cx="72" cy="72" r="${r|0}" fill="${hsv(h0,sat*0.85,0.5+0.5*br)}"/>`;}
@@ -116,6 +118,7 @@ function anim(ph,m,seed){
  if(m==='chase'){const pos=(ph*spd+seed|0)%7,b=hsv(h0,.75,1).match(/\d+/g).map(Number);let o='';for(let i=0;i<7;i++){const br=M.max(0.14,1-(((pos-i*dr)%7+7)%7)*0.30);o+=`<circle cx="${18+i*18}" cy="72" r="9" fill="rgb(${(26+(b[0]-26)*br)|0},${(26+(b[1]-26)*br)|0},${(26+(b[2]-26)*br)|0})"/>`;}return o;}
  if(m==='rainbow'){let o='';for(let k=0;k<6;k++)o+=`<path d="M18 128 A${54-k*8} ${54-k*8} 0 0 1 126 128" fill="none" stroke="${hsv((k/6+ph*0.03*spd)%1,.9,1)}" stroke-width="9"/>`;return o;}
  if(m==='colorloop')return `<rect x="20" y="20" width="104" height="104" rx="16" fill="${hsv(h0+ph*0.03*spd,.8,1)}"/>`;
+ if(m==='lissajous'){let o='';const N=54,dphi=p*0.25;for(let i=0;i<N;i++){const t=i/N*2*M.PI,x=72+54*M.sin(3*t+dphi),y=72+50*M.sin(2*t);o+=`<circle cx="${x|0}" cy="${y|0}" r="3.4" fill="${hsv(i/N,.85,1)}"/>`;}return o;}
  const wd=(120/n)|0;let o='';for(let i=0;i<n;i++){const br=0.30+0.70*(0.5+0.5*M.sin(p*0.6-i*0.95)),hh=22+96*br;o+=`<rect x="${12+i*wd}" y="${(128-hh)|0}" width="${wd-3}" height="${hh|0}" rx="3" fill="${hsv(h0+((i*34+ph*12*spd)%360)/360,0.85,br)}"/>`;}return o;
 }
 if(typeof module!=='undefined')module.exports={anim,motion,hsv};

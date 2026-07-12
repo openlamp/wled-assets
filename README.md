@@ -112,6 +112,21 @@ actions** (reverse/mirror/freeze), device-config enums (**LED types**, **colour 
 `/json/fxdata`, hundreds of granular strings). Full UI strings and info labels are app
 localisation, out of scope for this asset layer. Open an issue if one would help your client.
 
+## Updating an illustration or animation
+
+**The palette illustrations and effect animations were bootstrapped from the English
+names** (best-effort interpretation — Ghost Rider → a ghost, Lissajous → the curve, etc.).
+Some are approximations, and **any of them can be corrected or replaced on request.** Open an
+issue / PR providing **either**:
+
+- an **SVG** following the contract (viewBox `0 0 144 144`, no background rect; palette stencils
+  fill `#grad`, effect motions are drawn by `tools/anim.js`), **or**
+- a ready **image** — a static **PNG** or an **animated GIF** — with: **transparent background**,
+  **square** aspect, **≥ 144×144 px**, and a **one-line description** of what it should show
+  (which palette/effect it's for, static vs animated, and the intended motion).
+
+Tell us the exact WLED name (the join key) it maps to. We'll wire it into the asset set.
+
 ## Status & contributing
 
 **Alpha.** Palettes translated 55/72, effects 131/220, illustrations 72/72, palette
