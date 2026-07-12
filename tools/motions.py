@@ -69,6 +69,7 @@ def motion(name):
     if h("chase","marquee","railway","theater","train"): return "chase"
     if h("colorloop","pride","cycle","hue","spectrum","palette"): return "colorloop"
     if h("noise"): return "sparkle"
+    if h("lissajou"): return "lissajous"
     return "wave"
 
 def _flame(cx,hh,col,base=124):
@@ -77,8 +78,18 @@ def _flame(cx,hh,col,base=124):
         cx,base, cx-w,base-hh*0.4, cx-w*0.55,base-hh*0.78, cx,top,
         cx+w*0.55,base-hh*0.78, cx+w,base-hh*0.4, cx,base, col)
 
+def _mhue(m):   # a stable, hand-picked hue per motion (free of the effect seed)
+    fixed={"octopus":0.78,"dj":0.75,"galaxy":0.72,"blackhole":0.70,"plasma":0.74,"fairy":0.85,
+     "dancing":0.90,"running":0.92,"percent":0.34,"loading":0.58,"spots":0.13,"stream":0.55,
+     "dots":0.55,"comet":0.55,"bounce":0.08,"ripple":0.55,"breathe":0.60,"fade":0.60,"solid":0.55,
+     "spaceship":0.55,"hourglass":0.55,"text":0.55,"wipe":0.55,"saw":0.55,"scan":0.0,"spin":0.55,
+     "lighthouse":0.12,"drip":0.55,"impact":0.04,"phased":0.60,"wave":0.0,"chase":0.55,"lissajous":0.0,
+     "colorful":0.0,"gradient":0.0}
+    return fixed.get(m, (sum(ord(c) for c in m)%360)/360.0)
+
 def anim(ph,m,seed=0):
     h0,spd,dr,n,sat=_p(seed); p=ph*spd*dr; M=math
+    h0=_mhue(m); sat=0.8   # fixed deliberate colour PER MOTION (not seeded -> no arbitrary hue)
     if m=="solid":
         return '<rect x="24" y="24" width="96" height="96" rx="16" fill="%s"/><rect x="40" y="40" width="48" height="30" rx="14" fill="%s"/>'%(_rgb(h0,sat,.85),_rgb(h0,sat*0.5,1))
     if m=="fade":
@@ -169,7 +180,7 @@ def anim(ph,m,seed=0):
         o='<circle cx="72" cy="60" r="24" fill="%s"/>'%_rgb(h0,.6,1)
         for k in range(6):
             a=k/6.0*2*M.pi; sw=M.sin(p*0.8+k)*16
-            o+='<path d="M72 78 Q%.0f 104 %.0f 124" fill="none" stroke="%s" stroke-width="7" stroke-linecap="round"/>'%(72+M.cos(a)*20+sw,72+M.cos(a)*40+sw,_rgb(h0,.6,1))
+            o+='<path d="M72 78 Q%.0f 104 %.0f 124" fill="none" stroke="%s" stroke-width="7" stroke-linecap="round"/>'%(72+M.cos(a)*20+sw,72+M.cos(a)*40+sw,_rgb(h0+k/6.0,.7,1))
         return o
     if m=="pacman":
         x=(int(ph*6*spd))%176-16; mo2=abs(M.sin(p*1.4))*40
@@ -242,7 +253,7 @@ def anim(ph,m,seed=0):
         o=""
         for i in range(3):
             x=72+M.sin(p*0.5+i*2.1)*44; y=72+M.cos(p*0.6+i*1.7)*36
-            o+='<circle cx="%.0f" cy="%.0f" r="26" fill="%s"/><circle cx="%.0f" cy="%.0f" r="15" fill="%s"/>'%(x,y,_rgb(h0+i*0.2,.5,.45),x,y,_rgb(h0+i*0.2,.5,.95))
+            o+='<circle cx="%.0f" cy="%.0f" r="26" fill="%s"/><circle cx="%.0f" cy="%.0f" r="15" fill="%s"/>'%(x,y,_rgb(h0+i*0.33,.5,.45),x,y,_rgb(h0+i*0.33,.6,.95))
         return o
     if m=="plasma":                                # morphing colour blobs
         o=""
@@ -393,6 +404,12 @@ def anim(ph,m,seed=0):
         return o
     if m=="colorloop":
         return '<rect x="20" y="20" width="104" height="104" rx="16" fill="%s"/>'%_rgb(h0+ph*0.03*spd,.8,1)
+    if m=="lissajous":                             # a real Lissajous curve, morphing
+        o=""; N=54; dphi=p*0.25
+        for i in range(N):
+            t=i/N*2*M.pi; x=72+54*M.sin(3*t+dphi); y=72+50*M.sin(2*t)
+            o+='<circle cx="%.0f" cy="%.0f" r="3.4" fill="%s"/>'%(x,y,_rgb(i/N,.85,1))
+        return o
     wd=120//n; o=""                                # wave (default)
     for i in range(n):
         br=0.30+0.70*(0.5+0.5*M.sin(p*0.6-i*0.95)); hh=22+96*br
