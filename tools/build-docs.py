@@ -1,4 +1,4 @@
-import json, html, importlib.util
+import json, os
 DST="/Users/benoitbesson/dev/music/wled-assets"
 SP="/private/tmp/claude-501/-Users-benoitbesson-dev-music/b1b0bf2c-2a0b-4a74-83ae-5717d879ef61/scratchpad"
 def slug(n):
@@ -8,47 +8,57 @@ PAL=json.load(open(DST+"/i18n/palettes.json"))["entries"]
 EFF=json.load(open(DST+"/i18n/effects.json"))["entries"]
 CTRL=json.load(open(DST+"/i18n/controls.json"))["entries"]
 COL=json.load(open(DST+"/i18n/colors.json")); COLE=COL["entries"]; RAT=COL["_rationale"]
-spec=importlib.util.spec_from_file_location("m",SP+"/motions.py"); mo=importlib.util.module_from_spec(spec); spec.loader.exec_module(mo)
-LANGS=["en","fr","de","es","it","ja","ko","zh"]
-UI={"en":{"pal":"Palettes","eff":"Effects","ctrl":"Controls","col":"Colours","name":"WLED name","tr":"Translation","desc":"Description","img":"Image","other":"Other languages","hex":"Hex","total":"%d total"},
- "fr":{"pal":"Palettes","eff":"Effets","ctrl":"Contrôles","col":"Couleurs","name":"Nom WLED","tr":"Traduction","desc":"Description","img":"Image","other":"Autres langues","hex":"Hex","total":"%d au total"},
- "de":{"pal":"Paletten","eff":"Effekte","ctrl":"Regler","col":"Farben","name":"WLED-Name","tr":"Übersetzung","desc":"Beschreibung","img":"Bild","other":"Andere Sprachen","hex":"Hex","total":"%d gesamt"},
- "es":{"pal":"Paletas","eff":"Efectos","ctrl":"Controles","col":"Colores","name":"Nombre WLED","tr":"Traducción","desc":"Descripción","img":"Imagen","other":"Otros idiomas","hex":"Hex","total":"%d en total"},
- "it":{"pal":"Tavolozze","eff":"Effetti","ctrl":"Controlli","col":"Colori","name":"Nome WLED","tr":"Traduzione","desc":"Descrizione","img":"Immagine","other":"Altre lingue","hex":"Hex","total":"%d in totale"},
- "ja":{"pal":"パレット","eff":"エフェクト","ctrl":"コントロール","col":"色","name":"WLED名","tr":"翻訳","desc":"説明","img":"画像","other":"他の言語","hex":"Hex","total":"全%d件"},
- "ko":{"pal":"팔레트","eff":"효과","ctrl":"컨트롤","col":"색","name":"WLED 이름","tr":"번역","desc":"설명","img":"이미지","other":"다른 언어","hex":"Hex","total":"총 %d개"},
- "zh":{"pal":"调色板","eff":"效果","ctrl":"控件","col":"颜色","name":"WLED 名称","tr":"翻译","desc":"描述","img":"图片","other":"其他语言","hex":"Hex","total":"共 %d 个"}}
+LANGS=[("en","English","🇬🇧"),("fr","Français","🇫🇷"),("de","Deutsch","🇩🇪"),("es","Español","🇪🇸"),("it","Italiano","🇮🇹"),("ja","日本語","🇯🇵"),("ko","한국어","🇰🇷"),("zh","中文","🇨🇳")]
+LC=[c for c,_,_ in LANGS]
+UI={"en":{"pal":"Palettes","eff":"Effects","ctrl":"Controls","col":"Colours","name":"WLED name","tr":"Translation","desc":"Description","img":"Image","other":"Other languages","hex":"Hex","idx":"Reference in English","home":"↑ all languages"},
+ "fr":{"pal":"Palettes","eff":"Effets","ctrl":"Contrôles","col":"Couleurs","name":"Nom WLED","tr":"Traduction","desc":"Description","img":"Image","other":"Autres langues","hex":"Hex","idx":"Référence en français","home":"↑ toutes les langues"},
+ "de":{"pal":"Paletten","eff":"Effekte","ctrl":"Regler","col":"Farben","name":"WLED-Name","tr":"Übersetzung","desc":"Beschreibung","img":"Bild","other":"Andere Sprachen","hex":"Hex","idx":"Referenz auf Deutsch","home":"↑ alle Sprachen"},
+ "es":{"pal":"Paletas","eff":"Efectos","ctrl":"Controles","col":"Colores","name":"Nombre WLED","tr":"Traducción","desc":"Descripción","img":"Imagen","other":"Otros idiomas","hex":"Hex","idx":"Referencia en español","home":"↑ todos los idiomas"},
+ "it":{"pal":"Tavolozze","eff":"Effetti","ctrl":"Controlli","col":"Colori","name":"Nome WLED","tr":"Traduzione","desc":"Descrizione","img":"Immagine","other":"Altre lingue","hex":"Hex","idx":"Riferimento in italiano","home":"↑ tutte le lingue"},
+ "ja":{"pal":"パレット","eff":"エフェクト","ctrl":"コントロール","col":"色","name":"WLED名","tr":"翻訳","desc":"説明","img":"画像","other":"他の言語","hex":"Hex","idx":"日本語リファレンス","home":"↑ すべての言語"},
+ "ko":{"pal":"팔레트","eff":"효과","ctrl":"컨트롤","col":"색","name":"WLED 이름","tr":"번역","desc":"설명","img":"이미지","other":"다른 언어","hex":"Hex","idx":"한국어 참조","home":"↑ 모든 언어"},
+ "zh":{"pal":"调色板","eff":"效果","ctrl":"控件","col":"颜色","name":"WLED 名称","tr":"翻译","desc":"描述","img":"图片","other":"其他语言","hex":"Hex","idx":"中文参考","home":"↑ 所有语言"}}
 CONC=[("palettes","pal"),("effects","eff"),("controls","ctrl"),("colors","col")]
 def esc(s): return (s or "").replace("|","\\|")
+IMG="../../images"                                   # docs/<lang>/x.md -> images/
 def nav(code,concept):
     u=UI[code]
-    tabs=" · ".join(("**%s**"%u[k] if c==concept else "[%s](%s.%s.md)"%(u[k],c,code)) for c,k in CONC)
-    others=" · ".join("[%s](%s.%s.md)"%(lc.upper(),concept,lc) for lc in LANGS if lc!=code)
+    tabs=" · ".join(("**%s**"%u[k] if c==concept else "[%s](%s.md)"%(u[k],c)) for c,k in CONC)
+    others=" · ".join("[%s](../%s/%s.md)"%(lc.upper(),lc,concept) for lc in LC if lc!=code)
     title={"palettes":u["pal"],"effects":u["eff"],"controls":u["ctrl"],"colors":u["col"]}[concept]
-    return "# WLED %s\n\n%s\n\n<sub>%s: %s</sub>\n\n"%(title,tabs,u["other"],others)
-for code in LANGS:
-    u=UI[code]
-    # palettes
+    return ("# WLED %s\n\n%s &nbsp;•&nbsp; [%s](README.md)\n\n<sub>%s: %s</sub>\n\n"
+            %(title,tabs,u["idx"],u["other"],others))
+for code,label,flag in LANGS:
+    d="%s/docs/%s"%(DST,code); os.makedirs(d,exist_ok=True); u=UI[code]
     r=["| %s | %s | %s | %s |"%(u["img"],u["name"],u["tr"],u["desc"]),"|---|---|---|---|"]
     for nm in pal:
         e=PAL[nm][code]; disp=nm[2:] if nm.startswith("* ") else nm
-        r.append('| <img src="../images/palettes/%s.png" width="72"> | `%s` | %s | %s |'%(slug(nm),esc(disp),esc(e["name"]),esc(e["desc"])))
-    open(DST+"/docs/palettes.%s.md"%code,"w").write(nav(code,"palettes")+"\n".join(r)+"\n")
-    # effects
+        r.append('| <img src="%s/palettes/%s.png" width="72"> | `%s` | %s | %s |'%(IMG,slug(nm),esc(disp),esc(e["name"]),esc(e["desc"])))
+    open(d+"/palettes.md","w").write(nav(code,"palettes")+"\n".join(r)+"\n")
     r=["| %s | %s | %s | %s |"%(u["img"],u["name"],u["tr"],u["desc"]),"|---|---|---|---|"]
     for nm in eff:
         e=EFF.get(nm,{}).get(code,{"name":nm,"desc":""})
-        r.append('| <img src="../images/effects/%s.gif" width="64"> | `%s` | %s | %s |'%(slug(nm),esc(nm),esc(e["name"]),esc(e["desc"])))
-    open(DST+"/docs/effects.%s.md"%code,"w").write(nav(code,"effects")+"\n".join(r)+"\n")
-    # controls
+        r.append('| <img src="%s/effects/%s.gif" width="64"> | `%s` | %s | %s |'%(IMG,slug(nm),esc(nm),esc(e["name"]),esc(e["desc"])))
+    open(d+"/effects.md","w").write(nav(code,"effects")+"\n".join(r)+"\n")
     r=["| %s | %s | %s |"%(u["name"],u["tr"],u["desc"]),"|---|---|---|"]
     for k in CTRL:
         e=CTRL[k][code]; r.append("| `%s` | %s | %s |"%(esc(k),esc(e["name"]),esc(e["desc"])))
-    open(DST+"/docs/controls.%s.md"%code,"w").write(nav(code,"controls")+"\n".join(r)+"\n")
-    # colors (with rationale intro)
+    open(d+"/controls.md","w").write(nav(code,"controls")+"\n".join(r)+"\n")
     r=["> "+RAT[code].replace("\n"," "),"","| %s | %s | %s | %s | %s |"%(u["img"],u["name"],u["tr"],u["hex"],u["desc"]),"|---|---|---|---|---|"]
     for nm,e in COLE.items():
         rgb=e["rgb"]; hexv="#%02X%02X%02X"%tuple(rgb); ce=e[code]
-        r.append('| <img src="../images/colors/%s.png" width="48"> | `%s` | %s | `%s` | %s |'%(slug(nm),esc(nm),esc(ce["name"]),hexv,esc(ce["desc"])))
-    open(DST+"/docs/colors.%s.md"%code,"w").write(nav(code,"colors")+"\n".join(r)+"\n")
-print("32 docs regenerated (4 concepts x 8 langs)")
+        r.append('| <img src="%s/colors/%s.png" width="48"> | `%s` | %s | `%s` | %s |'%(IMG,slug(nm),esc(nm),esc(ce["name"]),hexv,esc(ce["desc"])))
+    open(d+"/colors.md","w").write(nav(code,"colors")+"\n".join(r)+"\n")
+    # per-language index (shown when opening docs/<lang>/)
+    links="\n".join("- [%s](%s.md)"%(u[k],c) for c,k in CONC)
+    other=" · ".join("[%s %s](../%s/README.md)"%(fl,lb,lcc) for lcc,lb,fl in LANGS if lcc!=code)
+    open(d+"/README.md","w").write("# WLED %s — %s\n\n%s\n\n---\n\n**%s:** %s\n\n[%s](../README.md)\n"
+        %(flag,label,links,u["other"],other,u["home"]))
+# top index docs/README.md
+rows=["| | "+" | ".join(u2 for _,u2 in [("pal","Palettes"),("eff","Effects"),("ctrl","Controls"),("col","Colours")])+" |","|---|---|---|---|---|"]
+for code,label,flag in LANGS:
+    cells=" | ".join("[%s](%s/%s.md)"%(nm,code,c) for c,nm in [("palettes","palettes"),("effects","effects"),("controls","controls"),("colors","colors")])
+    rows.append("| %s **%s** | %s |"%(flag,label,cells))
+open(DST+"/docs/README.md","w").write("# Reference docs\n\nEnglish name · translation · description · illustration — one page per **language × concept**. "
+    "Open a language folder for its index, or jump straight in:\n\n"+"\n".join(rows)+"\n\n<sub>Back to the [repo README](../README.md).</sub>\n")
+print("hierarchical docs written under docs/<lang>/")
