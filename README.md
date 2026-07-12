@@ -137,9 +137,9 @@ Tell us the exact WLED name (the join key) it maps to. We'll wire it into the as
 
 ## Status & contributing
 
-**Alpha.** Palettes translated 55/72, effects 131/220, illustrations 72/72, palette
-meanings 68. The **Latin-script translations (fr/de/es/it) are solid; the CJK ones
-(ja/ko/zh) are a first pass** and want a native-speaker review before production use.
+**Alpha.** Palettes translated 72/72, effects 217/217, illustrations 72/72. The
+**Latin-script translations (fr/de/es/it) are solid; the CJK ones (ja/ko/zh) are a first
+pass** and want a native-speaker review before production use.
 Corrections, missing translations, new illustrations and new-language columns are all
 welcome via PR — the English name is always the stable key.
 

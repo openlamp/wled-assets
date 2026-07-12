@@ -38,171 +38,171 @@
   "* Random Cycle": {
    "en": {
     "name": "* Random Cycle",
-    "desc": ""
+    "desc": "Dynamic palette: cycles through the whole colour wheel over time."
    },
    "fr": {
-    "name": "* Random Cycle",
-    "desc": ""
+    "name": "* Cycle aléatoire",
+    "desc": "Palette dynamique : parcourt toute la roue chromatique au fil du temps."
    },
    "de": {
-    "name": "* Random Cycle",
-    "desc": ""
+    "name": "* Zufallszyklus",
+    "desc": "Dynamische Palette: durchläuft mit der Zeit den gesamten Farbkreis."
    },
    "es": {
-    "name": "* Random Cycle",
-    "desc": ""
+    "name": "* Ciclo aleatorio",
+    "desc": "Paleta dinámica: recorre toda la rueda de color con el tiempo."
    },
    "it": {
-    "name": "* Random Cycle",
-    "desc": ""
+    "name": "* Ciclo casuale",
+    "desc": "Palette dinamica: percorre l'intera ruota dei colori nel tempo."
    },
    "ja": {
-    "name": "* Random Cycle",
-    "desc": ""
+    "name": "* ランダムサイクル",
+    "desc": "動的パレット：時間とともに色相環全体を巡回。"
    },
    "ko": {
-    "name": "* Random Cycle",
-    "desc": ""
+    "name": "* 무작위 순환",
+    "desc": "동적 팔레트: 시간에 따라 색상환 전체를 순환."
    },
    "zh": {
-    "name": "* Random Cycle",
-    "desc": ""
+    "name": "* 随机循环",
+    "desc": "动态调色板：随时间遍历整个色轮。"
    }
   },
   "* Color 1": {
    "en": {
     "name": "* Color 1",
-    "desc": ""
+    "desc": "Dynamic palette: the segment's primary colour only."
    },
    "fr": {
-    "name": "* Color 1",
-    "desc": ""
+    "name": "* Couleur 1",
+    "desc": "Palette dynamique : uniquement la couleur primaire du segment."
    },
    "de": {
-    "name": "* Color 1",
-    "desc": ""
+    "name": "* Farbe 1",
+    "desc": "Dynamische Palette: nur die Primärfarbe des Segments."
    },
    "es": {
     "name": "* Color 1",
-    "desc": ""
+    "desc": "Paleta dinámica: solo el color primario del segmento."
    },
    "it": {
-    "name": "* Color 1",
-    "desc": ""
+    "name": "* Colore 1",
+    "desc": "Palette dinamica: solo il colore primario del segmento."
    },
    "ja": {
-    "name": "* Color 1",
-    "desc": ""
+    "name": "* カラー1",
+    "desc": "動的パレット：セグメントのプライマリ色のみ。"
    },
    "ko": {
-    "name": "* Color 1",
-    "desc": ""
+    "name": "* 색상 1",
+    "desc": "동적 팔레트: 세그먼트의 기본 색상만."
    },
    "zh": {
-    "name": "* Color 1",
-    "desc": ""
+    "name": "* 颜色 1",
+    "desc": "动态调色板：仅使用分段的主色。"
    }
   },
   "* Colors 1&2": {
    "en": {
     "name": "* Colors 1&2",
-    "desc": ""
+    "desc": "Dynamic palette: gradient between the segment's colours 1 and 2."
    },
    "fr": {
-    "name": "* Colors 1&2",
-    "desc": ""
+    "name": "* Couleurs 1 et 2",
+    "desc": "Palette dynamique : dégradé entre les couleurs 1 et 2 du segment."
    },
    "de": {
-    "name": "* Colors 1&2",
-    "desc": ""
+    "name": "* Farben 1 & 2",
+    "desc": "Dynamische Palette: Verlauf zwischen den Farben 1 und 2 des Segments."
    },
    "es": {
-    "name": "* Colors 1&2",
-    "desc": ""
+    "name": "* Colores 1 y 2",
+    "desc": "Paleta dinámica: degradado entre los colores 1 y 2 del segmento."
    },
    "it": {
-    "name": "* Colors 1&2",
-    "desc": ""
+    "name": "* Colori 1 e 2",
+    "desc": "Palette dinamica: sfumatura tra i colori 1 e 2 del segmento."
    },
    "ja": {
-    "name": "* Colors 1&2",
-    "desc": ""
+    "name": "* カラー1と2",
+    "desc": "動的パレット：セグメントの色1と色2のグラデーション。"
    },
    "ko": {
-    "name": "* Colors 1&2",
-    "desc": ""
+    "name": "* 색상 1과 2",
+    "desc": "동적 팔레트: 세그먼트의 색상 1과 2 사이의 그라데이션."
    },
    "zh": {
-    "name": "* Colors 1&2",
-    "desc": ""
+    "name": "* 颜色 1 和 2",
+    "desc": "动态调色板：分段的颜色 1 与颜色 2 之间的渐变。"
    }
   },
   "* Color Gradient": {
    "en": {
     "name": "* Color Gradient",
-    "desc": ""
+    "desc": "Dynamic palette: a continuous gradient from the primary colour."
    },
    "fr": {
-    "name": "* Color Gradient",
-    "desc": ""
+    "name": "* Dégradé de couleur",
+    "desc": "Palette dynamique : dégradé continu à partir de la couleur primaire."
    },
    "de": {
-    "name": "* Color Gradient",
-    "desc": ""
+    "name": "* Farbverlauf",
+    "desc": "Dynamische Palette: kontinuierlicher Verlauf ausgehend von der Primärfarbe."
    },
    "es": {
-    "name": "* Color Gradient",
-    "desc": ""
+    "name": "* Degradado de color",
+    "desc": "Paleta dinámica: degradado continuo a partir del color primario."
    },
    "it": {
-    "name": "* Color Gradient",
-    "desc": ""
+    "name": "* Sfumatura di colore",
+    "desc": "Palette dinamica: sfumatura continua a partire dal colore primario."
    },
    "ja": {
-    "name": "* Color Gradient",
-    "desc": ""
+    "name": "* カラーグラデーション",
+    "desc": "動的パレット：プライマリ色からの連続グラデーション。"
    },
    "ko": {
-    "name": "* Color Gradient",
-    "desc": ""
+    "name": "* 색상 그라데이션",
+    "desc": "동적 팔레트: 기본 색상에서 이어지는 연속 그라데이션."
    },
    "zh": {
-    "name": "* Color Gradient",
-    "desc": ""
+    "name": "* 颜色渐变",
+    "desc": "动态调色板：从主色开始的连续渐变。"
    }
   },
   "* Colors Only": {
    "en": {
     "name": "* Colors Only",
-    "desc": ""
+    "desc": "Dynamic palette: uses only the segment's 3 colour slots."
    },
    "fr": {
-    "name": "* Colors Only",
-    "desc": ""
+    "name": "* Couleurs seules",
+    "desc": "Palette dynamique : n'utilise que les 3 emplacements de couleur du segment."
    },
    "de": {
-    "name": "* Colors Only",
-    "desc": ""
+    "name": "* Nur Farben",
+    "desc": "Dynamische Palette: verwendet nur die 3 Farbslots des Segments."
    },
    "es": {
-    "name": "* Colors Only",
-    "desc": ""
+    "name": "* Solo colores",
+    "desc": "Paleta dinámica: usa solo los 3 espacios de color del segmento."
    },
    "it": {
-    "name": "* Colors Only",
-    "desc": ""
+    "name": "* Solo colori",
+    "desc": "Palette dinamica: usa solo i 3 slot di colore del segmento."
    },
    "ja": {
-    "name": "* Colors Only",
-    "desc": ""
+    "name": "* カラーのみ",
+    "desc": "動的パレット：セグメントの3つの色スロットのみを使用。"
    },
    "ko": {
-    "name": "* Colors Only",
-    "desc": ""
+    "name": "* 색상만",
+    "desc": "동적 팔레트: 세그먼트의 3개 색상 슬롯만 사용."
    },
    "zh": {
-    "name": "* Colors Only",
-    "desc": ""
+    "name": "* 仅颜色",
+    "desc": "动态调色板：仅使用分段的3个颜色槽。"
    }
   },
   "Party": {

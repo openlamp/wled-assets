@@ -9,11 +9,11 @@ In WLED una **tavolozza** è l'insieme di colori da cui attinge un effetto. Si s
 | Immagine | Nome WLED | Traduzione | Descrizione |
 |---|---|---|---|
 | <img src="../../images/palettes/default.png" width="72"> | `Default` | Predefinito | Lo spettro arcobaleno predefinito di WLED. |
-| <img src="../../images/palettes/random-cycle.png" width="72"> | `Random Cycle` | * Random Cycle |  |
-| <img src="../../images/palettes/color-1.png" width="72"> | `Color 1` | * Color 1 |  |
-| <img src="../../images/palettes/colors-1-2.png" width="72"> | `Colors 1&2` | * Colors 1&2 |  |
-| <img src="../../images/palettes/color-gradient.png" width="72"> | `Color Gradient` | * Color Gradient |  |
-| <img src="../../images/palettes/colors-only.png" width="72"> | `Colors Only` | * Colors Only |  |
+| <img src="../../images/palettes/random-cycle.png" width="72"> | `Random Cycle` | * Ciclo casuale | Palette dinamica: percorre l'intera ruota dei colori nel tempo. |
+| <img src="../../images/palettes/color-1.png" width="72"> | `Color 1` | * Colore 1 | Palette dinamica: solo il colore primario del segmento. |
+| <img src="../../images/palettes/colors-1-2.png" width="72"> | `Colors 1&2` | * Colori 1 e 2 | Palette dinamica: sfumatura tra i colori 1 e 2 del segmento. |
+| <img src="../../images/palettes/color-gradient.png" width="72"> | `Color Gradient` | * Sfumatura di colore | Palette dinamica: sfumatura continua a partire dal colore primario. |
+| <img src="../../images/palettes/colors-only.png" width="72"> | `Colors Only` | * Solo colori | Palette dinamica: usa solo i 3 slot di colore del segmento. |
 | <img src="../../images/palettes/party.png" width="72"> | `Party` | Festa | Un mix festoso — palloncini a una festa. |
 | <img src="../../images/palettes/cloud.png" width="72"> | `Cloud` | Nuvola | Azzurri tenui del cielo — una nuvola. |
 | <img src="../../images/palettes/lava.png" width="72"> | `Lava` | Lava | Roccia fusa — un vulcano. |

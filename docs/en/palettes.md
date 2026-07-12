@@ -9,11 +9,11 @@ In WLED, a **palette** is the set of colours an effect draws from. You pick it i
 | Image | WLED name | Translation | Description |
 |---|---|---|---|
 | <img src="../../images/palettes/default.png" width="72"> | `Default` | Default | WLED's default rainbow spectrum. |
-| <img src="../../images/palettes/random-cycle.png" width="72"> | `Random Cycle` | * Random Cycle |  |
-| <img src="../../images/palettes/color-1.png" width="72"> | `Color 1` | * Color 1 |  |
-| <img src="../../images/palettes/colors-1-2.png" width="72"> | `Colors 1&2` | * Colors 1&2 |  |
-| <img src="../../images/palettes/color-gradient.png" width="72"> | `Color Gradient` | * Color Gradient |  |
-| <img src="../../images/palettes/colors-only.png" width="72"> | `Colors Only` | * Colors Only |  |
+| <img src="../../images/palettes/random-cycle.png" width="72"> | `Random Cycle` | * Random Cycle | Dynamic palette: cycles through the whole colour wheel over time. |
+| <img src="../../images/palettes/color-1.png" width="72"> | `Color 1` | * Color 1 | Dynamic palette: the segment's primary colour only. |
+| <img src="../../images/palettes/colors-1-2.png" width="72"> | `Colors 1&2` | * Colors 1&2 | Dynamic palette: gradient between the segment's colours 1 and 2. |
+| <img src="../../images/palettes/color-gradient.png" width="72"> | `Color Gradient` | * Color Gradient | Dynamic palette: a continuous gradient from the primary colour. |
+| <img src="../../images/palettes/colors-only.png" width="72"> | `Colors Only` | * Colors Only | Dynamic palette: uses only the segment's 3 colour slots. |
 | <img src="../../images/palettes/party.png" width="72"> | `Party` | Party | A festive mix — balloons at a party. |
 | <img src="../../images/palettes/cloud.png" width="72"> | `Cloud` | Cloud | Soft sky blues — a cloud. |
 | <img src="../../images/palettes/lava.png" width="72"> | `Lava` | Lava | Molten rock — a volcano. |
