@@ -13,7 +13,7 @@
 | <img src="../../images/effects/breathe.gif" width="64"> | `Breathe` | Atmen | Die Helligkeit schwillt an und ab. |
 | <img src="../../images/effects/wipe.gif" width="64"> | `Wipe` | Wischen | Ein Wischerarm streicht darüber. |
 | <img src="../../images/effects/wipe-random.gif" width="64"> | `Wipe Random` | Wipe Random | Ein Wischerarm streicht darüber. |
-| <img src="../../images/effects/random-colors.gif" width="64"> | `Random Colors` | Random Colors | Zufällige Farbblöcke wechseln. |
+| <img src="../../images/effects/random-colors.gif" width="64"> | `Random Colors` | Random Colors | Der ganze Streifen wird eine Zufallsfarbe. |
 | <img src="../../images/effects/sweep.gif" width="64"> | `Sweep` | Sweep | Ein Strahl wischt wie ein Scheibenwischer. |
 | <img src="../../images/effects/dynamic.gif" width="64"> | `Dynamic` | Dynamic | Zufällige Farbblöcke wechseln. |
 | <img src="../../images/effects/colorloop.gif" width="64"> | `Colorloop` | Colorloop | Der Streifen durchläuft alle Farbtöne. |
@@ -61,7 +61,7 @@
 | <img src="../../images/effects/two-dots.gif" width="64"> | `Two Dots` | Two Dots | Zwei Punkte umkreisen einander. |
 | <img src="../../images/effects/fairytwinkle.gif" width="64"> | `Fairytwinkle` | Fairytwinkle | Lichterketten funkeln. |
 | <img src="../../images/effects/running-dual.gif" width="64"> | `Running Dual` | Running Dual | Eine Figur rennt. |
-| <img src="../../images/effects/image.gif" width="64"> | `Image` | Image | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/image.gif" width="64"> | `Image` | Image | Ein Bild wird abgespielt. |
 | <img src="../../images/effects/chase-3.gif" width="64"> | `Chase 3` | Chase 3 | Ein heller Punkt zieht mit Schweif. |
 | <img src="../../images/effects/tri-wipe.gif" width="64"> | `Tri Wipe` | Tri Wipe | Ein Wischerarm streicht darüber. |
 | <img src="../../images/effects/tri-fade.gif" width="64"> | `Tri Fade` | Tri Fade | Eine Farbe blendet ein und aus. |
@@ -90,7 +90,7 @@
 | <img src="../../images/effects/ripple.gif" width="64"> | `Ripple` | Ripple | Wellen breiten sich über Wasser aus. |
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | Sterne funkeln. |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | Sterne funkeln. |
-| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | Ein Auge blickt umher. |
+| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | Ein Augenpaar blinzelt im Dunkeln. |
 | <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | Eine einzelne, ruhige Farbe. |
 | <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | Eine einzelne, ruhige Farbe. |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | Flecken blenden ein und aus. |
@@ -123,7 +123,7 @@
 | <img src="../../images/effects/dancing-shadows.gif" width="64"> | `Dancing Shadows` | Dancing Shadows | Eine Figur tanzt. |
 | <img src="../../images/effects/washing-machine.gif" width="64"> | `Washing Machine` | Washing Machine | Ein Rad dreht sich. |
 | <img src="../../images/effects/rotozoomer.gif" width="64"> | `Rotozoomer` | Rotozoomer | Ein Rad dreht sich. |
-| <img src="../../images/effects/blends.gif" width="64"> | `Blends` | Blends | Die Helligkeit schwillt an und ab. |
+| <img src="../../images/effects/blends.gif" width="64"> | `Blends` | Blends | Ein wandernder Farbverlauf. |
 | <img src="../../images/effects/tv-simulator.gif" width="64"> | `TV Simulator` | TV Simulator | TV-Rauschen flimmert. |
 | <img src="../../images/effects/dynamic-smooth.gif" width="64"> | `Dynamic Smooth` | Dynamic Smooth | Zufällige Farbblöcke wechseln. |
 | <img src="../../images/effects/spaceships.gif" width="64"> | `Spaceships` | Spaceships | Ein Raumschiff gleitet vorbei. |
@@ -131,9 +131,9 @@
 | <img src="../../images/effects/ghost-rider.gif" width="64"> | `Ghost Rider` | Ghost Rider | Ein Geist schwebt vorbei. |
 | <img src="../../images/effects/blobs.gif" width="64"> | `Blobs` | Blobs | Farbblasen wandeln sich. |
 | <img src="../../images/effects/scrolling-text.gif" width="64"> | `Scrolling Text` | Scrolling Text | Blöcke scrollen wie Text. |
-| <img src="../../images/effects/drift-rose.gif" width="64"> | `Drift Rose` | Drift Rose | Sterne wirbeln spiralförmig. |
+| <img src="../../images/effects/drift-rose.gif" width="64"> | `Drift Rose` | Drift Rose | Ein Wirbel windet sich nach außen. |
 | <img src="../../images/effects/distortion-waves.gif" width="64"> | `Distortion Waves` | Distortion Waves | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Soap | Farbblasen wandeln sich. |
+| <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Soap | Seifenblasen schweben umher. |
 | <img src="../../images/effects/octopus.gif" width="64"> | `Octopus` | Octopus | Ein Oktopus schwenkt seine Tentakel. |
 | <img src="../../images/effects/waving-cell.gif" width="64"> | `Waving Cell` | Waving Cell | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | Code regnet herab, Matrix-Stil. |
@@ -158,7 +158,7 @@
 | <img src="../../images/effects/perlin-move.gif" width="64"> | `Perlin Move` | Perlin Move | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/ripple-peak.gif" width="64"> | `Ripple Peak` | Ripple Peak | Wellen breiten sich über Wasser aus. |
 | <img src="../../images/effects/firenoise.gif" width="64"> | `Firenoise` | Firenoise | Flammen flackern und steigen. |
-| <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | Sterne wirbeln spiralförmig. |
+| <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | Ein Wirbel windet sich nach außen. |
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | Pac-Man knabbert sich vorwärts. |
 | <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | Zwei Stränge bilden eine Doppelhelix. |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrix | Code regnet herab, Matrix-Stil. |
@@ -172,33 +172,33 @@
 | <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/pulser.gif" width="64"> | `Pulser` | Pulser | Die Helligkeit schwillt an und ab. |
 | <img src="../../images/effects/blurz.gif" width="64"> | `Blurz` | Blurz | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Drift | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Drift | Ein Wirbel windet sich nach außen. |
 | <img src="../../images/effects/waverly.gif" width="64"> | `Waverly` | Waverly | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/sun-radiation.gif" width="64"> | `Sun Radiation` | Sun Radiation | Die Sonne geht auf. |
-| <img src="../../images/effects/colored-bursts.gif" width="64"> | `Colored Bursts` | Colored Bursts | Ein Schockwellenring dehnt sich aus. |
-| <img src="../../images/effects/julia.gif" width="64"> | `Julia` | Julia | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/sun-radiation.gif" width="64"> | `Sun Radiation` | Sun Radiation | Eine Sonne strahlt drehende Strahlen aus. |
+| <img src="../../images/effects/colored-bursts.gif" width="64"> | `Colored Bursts` | Colored Bursts | Eine Sonne strahlt drehende Strahlen aus. |
+| <img src="../../images/effects/julia.gif" width="64"> | `Julia` | Julia | Ein Julia-Fraktal wandelt sich. |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/game-of-life.gif" width="64"> | `Game Of Life` | Game Of Life | Code regnet herab, Matrix-Stil. |
-| <img src="../../images/effects/tartan.gif" width="64"> | `Tartan` | Tartan | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/game-of-life.gif" width="64"> | `Game Of Life` | Game Of Life | Zellen leben und sterben auf einem Raster. |
+| <img src="../../images/effects/tartan.gif" width="64"> | `Tartan` | Tartan | Ein schottisches Tartan-Karo. |
 | <img src="../../images/effects/polar-lights.gif" width="64"> | `Polar Lights` | Polar Lights | Nordlicht-Bänder schimmern. |
-| <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Swirl | Sterne wirbeln spiralförmig. |
+| <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Swirl | Ein Wirbel windet sich nach außen. |
 | <img src="../../images/effects/lissajous.gif" width="64"> | `Lissajous` | Lissajous | Eine Lissajous-Kurve wandelt sich. |
-| <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | Rotierende geometrische Muster. |
 | <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | Bälle springen auf und ab. |
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | Teilchen strömen vorbei. |
 | <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | Ein Wirbel windet sich nach außen. |
 | <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | Zwei Stränge bilden eine Doppelhelix. |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | Ringe stürzen in einen dunklen Kern. |
 | <img src="../../images/effects/wavesins.gif" width="64"> | `Wavesins` | Wavesins | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | Musiknoten ziehen vorbei. |
 | <img src="../../images/effects/akemi.gif" width="64"> | `Akemi` | Akemi | Akemi, das WLED-Maskottchen, erscheint. |
 | <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | Flammen flackern und steigen. |
 | <img src="../../images/effects/ps-fire.gif" width="64"> | `PS Fire` | PS Fire | Flammen flackern und steigen. |
 | <img src="../../images/effects/ps-fireworks.gif" width="64"> | `PS Fireworks` | PS Fireworks | Ein Feuerwerk explodiert. |
-| <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | Sterne wirbeln spiralförmig. |
+| <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | Ein Wirbel windet sich nach außen. |
 | <img src="../../images/effects/ps-fuzzy-noise.gif" width="64"> | `PS Fuzzy Noise` | PS Fuzzy Noise | Zufällige Funken blitzen. |
 | <img src="../../images/effects/ps-ballpit.gif" width="64"> | `PS Ballpit` | PS Ballpit | Bälle springen auf und ab. |
 | <img src="../../images/effects/ps-box.gif" width="64"> | `PS Box` | PS Box | Eine Farbwelle wandert über den Streifen. |

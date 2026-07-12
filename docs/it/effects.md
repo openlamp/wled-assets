@@ -13,7 +13,7 @@ Gli **effetti** sono i motivi animati di WLED, nella scheda **Effetti** (`seg.fx
 | <img src="../../images/effects/breathe.gif" width="64"> | `Breathe` | Respiro | La luminosità cresce e cala. |
 | <img src="../../images/effects/wipe.gif" width="64"> | `Wipe` | Spazzata | Un braccio tergicristallo spazza. |
 | <img src="../../images/effects/wipe-random.gif" width="64"> | `Wipe Random` | Wipe Random | Un braccio tergicristallo spazza. |
-| <img src="../../images/effects/random-colors.gif" width="64"> | `Random Colors` | Random Colors | Blocchi di colore cambiano a caso. |
+| <img src="../../images/effects/random-colors.gif" width="64"> | `Random Colors` | Random Colors | L'intera striscia vira a un colore casuale. |
 | <img src="../../images/effects/sweep.gif" width="64"> | `Sweep` | Sweep | Un fascio spazza come un tergicristallo. |
 | <img src="../../images/effects/dynamic.gif" width="64"> | `Dynamic` | Dynamic | Blocchi di colore cambiano a caso. |
 | <img src="../../images/effects/colorloop.gif" width="64"> | `Colorloop` | Colorloop | L'intera striscia scorre le tinte. |
@@ -61,7 +61,7 @@ Gli **effetti** sono i motivi animati di WLED, nella scheda **Effetti** (`seg.fx
 | <img src="../../images/effects/two-dots.gif" width="64"> | `Two Dots` | Two Dots | Due punti si orbitano. |
 | <img src="../../images/effects/fairytwinkle.gif" width="64"> | `Fairytwinkle` | Fairytwinkle | Lucine fatate scintillano. |
 | <img src="../../images/effects/running-dual.gif" width="64"> | `Running Dual` | Running Dual | Una figura corre. |
-| <img src="../../images/effects/image.gif" width="64"> | `Image` | Image | Un'onda di colore percorre la striscia. |
+| <img src="../../images/effects/image.gif" width="64"> | `Image` | Image | Un'immagine scorre. |
 | <img src="../../images/effects/chase-3.gif" width="64"> | `Chase 3` | Chase 3 | Un punto luminoso scorre con scia. |
 | <img src="../../images/effects/tri-wipe.gif" width="64"> | `Tri Wipe` | Tri Wipe | Un braccio tergicristallo spazza. |
 | <img src="../../images/effects/tri-fade.gif" width="64"> | `Tri Fade` | Tri Fade | Un colore appare e svanisce. |
@@ -90,7 +90,7 @@ Gli **effetti** sono i motivi animati di WLED, nella scheda **Effetti** (`seg.fx
 | <img src="../../images/effects/ripple.gif" width="64"> | `Ripple` | Ripple | Increspature si diffondono sull'acqua. |
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | Stelle brillano. |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | Stelle brillano. |
-| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | Un occhio scruta intorno. |
+| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | Un paio di occhi sbatte nel buio. |
 | <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | Un unico colore fisso. |
 | <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | Un unico colore fisso. |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | Macchie appaiono e svaniscono. |
@@ -123,7 +123,7 @@ Gli **effetti** sono i motivi animati di WLED, nella scheda **Effetti** (`seg.fx
 | <img src="../../images/effects/dancing-shadows.gif" width="64"> | `Dancing Shadows` | Dancing Shadows | Una figura balla. |
 | <img src="../../images/effects/washing-machine.gif" width="64"> | `Washing Machine` | Washing Machine | Una ruota gira. |
 | <img src="../../images/effects/rotozoomer.gif" width="64"> | `Rotozoomer` | Rotozoomer | Una ruota gira. |
-| <img src="../../images/effects/blends.gif" width="64"> | `Blends` | Blends | La luminosità cresce e cala. |
+| <img src="../../images/effects/blends.gif" width="64"> | `Blends` | Blends | Un gradiente di colore che scorre. |
 | <img src="../../images/effects/tv-simulator.gif" width="64"> | `TV Simulator` | TV Simulator | Il disturbo TV tremola. |
 | <img src="../../images/effects/dynamic-smooth.gif" width="64"> | `Dynamic Smooth` | Dynamic Smooth | Blocchi di colore cambiano a caso. |
 | <img src="../../images/effects/spaceships.gif" width="64"> | `Spaceships` | Spaceships | Un'astronave scivola. |
@@ -131,9 +131,9 @@ Gli **effetti** sono i motivi animati di WLED, nella scheda **Effetti** (`seg.fx
 | <img src="../../images/effects/ghost-rider.gif" width="64"> | `Ghost Rider` | Ghost Rider | Un fantasma fluttua. |
 | <img src="../../images/effects/blobs.gif" width="64"> | `Blobs` | Blobs | Bolle di colore si trasformano. |
 | <img src="../../images/effects/scrolling-text.gif" width="64"> | `Scrolling Text` | Scrolling Text | Blocchi scorrono come testo. |
-| <img src="../../images/effects/drift-rose.gif" width="64"> | `Drift Rose` | Drift Rose | Stelle vorticano a spirale. |
+| <img src="../../images/effects/drift-rose.gif" width="64"> | `Drift Rose` | Drift Rose | Un vortice si avvolge verso l'esterno. |
 | <img src="../../images/effects/distortion-waves.gif" width="64"> | `Distortion Waves` | Distortion Waves | Un'onda di colore percorre la striscia. |
-| <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Soap | Bolle di colore si trasformano. |
+| <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Soap | Bolle di sapone fluttuano. |
 | <img src="../../images/effects/octopus.gif" width="64"> | `Octopus` | Octopus | Un polpo agita i tentacoli. |
 | <img src="../../images/effects/waving-cell.gif" width="64"> | `Waving Cell` | Waving Cell | Un'onda di colore percorre la striscia. |
 | <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | Codice cade, stile Matrix. |
@@ -158,7 +158,7 @@ Gli **effetti** sono i motivi animati di WLED, nella scheda **Effetti** (`seg.fx
 | <img src="../../images/effects/perlin-move.gif" width="64"> | `Perlin Move` | Perlin Move | Un'onda di colore percorre la striscia. |
 | <img src="../../images/effects/ripple-peak.gif" width="64"> | `Ripple Peak` | Ripple Peak | Increspature si diffondono sull'acqua. |
 | <img src="../../images/effects/firenoise.gif" width="64"> | `Firenoise` | Firenoise | Fiamme guizzano e salgono. |
-| <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | Stelle vorticano a spirale. |
+| <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | Un vortice si avvolge verso l'esterno. |
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | Pac-Man avanza sgranocchiando. |
 | <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | Due filamenti formano una doppia elica. |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrice | Codice cade, stile Matrix. |
@@ -172,33 +172,33 @@ Gli **effetti** sono i motivi animati di WLED, nella scheda **Effetti** (`seg.fx
 | <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | Un'onda di colore percorre la striscia. |
 | <img src="../../images/effects/pulser.gif" width="64"> | `Pulser` | Pulser | La luminosità cresce e cala. |
 | <img src="../../images/effects/blurz.gif" width="64"> | `Blurz` | Blurz | Un'onda di colore percorre la striscia. |
-| <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Drift | Un'onda di colore percorre la striscia. |
+| <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Drift | Un vortice si avvolge verso l'esterno. |
 | <img src="../../images/effects/waverly.gif" width="64"> | `Waverly` | Waverly | Un'onda di colore percorre la striscia. |
-| <img src="../../images/effects/sun-radiation.gif" width="64"> | `Sun Radiation` | Sun Radiation | Il sole sorge. |
-| <img src="../../images/effects/colored-bursts.gif" width="64"> | `Colored Bursts` | Colored Bursts | Un anello d'urto si espande. |
-| <img src="../../images/effects/julia.gif" width="64"> | `Julia` | Julia | Un'onda di colore percorre la striscia. |
+| <img src="../../images/effects/sun-radiation.gif" width="64"> | `Sun Radiation` | Sun Radiation | Un sole irradia raggi rotanti. |
+| <img src="../../images/effects/colored-bursts.gif" width="64"> | `Colored Bursts` | Colored Bursts | Un sole irradia raggi rotanti. |
+| <img src="../../images/effects/julia.gif" width="64"> | `Julia` | Julia | Un frattale di Julia si trasforma. |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | Un'onda di colore percorre la striscia. |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | Un'onda di colore percorre la striscia. |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | Un'onda di colore percorre la striscia. |
-| <img src="../../images/effects/game-of-life.gif" width="64"> | `Game Of Life` | Game Of Life | Codice cade, stile Matrix. |
-| <img src="../../images/effects/tartan.gif" width="64"> | `Tartan` | Tartan | Un'onda di colore percorre la striscia. |
+| <img src="../../images/effects/game-of-life.gif" width="64"> | `Game Of Life` | Game Of Life | Cellule nascono e muoiono su una griglia. |
+| <img src="../../images/effects/tartan.gif" width="64"> | `Tartan` | Tartan | Un tartan scozzese. |
 | <img src="../../images/effects/polar-lights.gif" width="64"> | `Polar Lights` | Polar Lights | Bande di aurora boreale ondeggiano. |
-| <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Swirl | Stelle vorticano a spirale. |
+| <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Swirl | Un vortice si avvolge verso l'esterno. |
 | <img src="../../images/effects/lissajous.gif" width="64"> | `Lissajous` | Lissajous | Una curva di Lissajous si trasforma. |
-| <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | Un'onda di colore percorre la striscia. |
+| <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | Motivi geometrici rotanti. |
 | <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | Palline rimbalzano. |
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | Particelle scorrono. |
 | <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | Un'onda di colore percorre la striscia. |
-| <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | Un'onda di colore percorre la striscia. |
+| <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | Un vortice si avvolge verso l'esterno. |
 | <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | Due filamenti formano una doppia elica. |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | Anelli collassano in un nucleo scuro. |
 | <img src="../../images/effects/wavesins.gif" width="64"> | `Wavesins` | Wavesins | Un'onda di colore percorre la striscia. |
-| <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | Un'onda di colore percorre la striscia. |
+| <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | Note musicali scorrono. |
 | <img src="../../images/effects/akemi.gif" width="64"> | `Akemi` | Akemi | Akemi, la mascotte di WLED, appare. |
 | <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | Fiamme guizzano e salgono. |
 | <img src="../../images/effects/ps-fire.gif" width="64"> | `PS Fire` | PS Fire | Fiamme guizzano e salgono. |
 | <img src="../../images/effects/ps-fireworks.gif" width="64"> | `PS Fireworks` | PS Fireworks | Un fuoco d'artificio esplode. |
-| <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | Stelle vorticano a spirale. |
+| <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | Un vortice si avvolge verso l'esterno. |
 | <img src="../../images/effects/ps-fuzzy-noise.gif" width="64"> | `PS Fuzzy Noise` | PS Fuzzy Noise | Scintille casuali guizzano. |
 | <img src="../../images/effects/ps-ballpit.gif" width="64"> | `PS Ballpit` | PS Ballpit | Palline rimbalzano. |
 | <img src="../../images/effects/ps-box.gif" width="64"> | `PS Box` | PS Box | Un'onda di colore percorre la striscia. |
