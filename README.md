@@ -50,18 +50,19 @@ to show localized names, telling palette icons, and a preview of what each effec
 
 ## Browse the docs (GitHub-rendered)
 
-One page per **concept × language** — English name · translation · description · illustration:
+One page per **language × concept** — English name · translation · description · illustration.
+Full index: **[docs/](docs/)**. Or jump straight in:
 
 | Language | Palettes | Effects | Controls | Colours |
 |---|---|---|---|---|
-| 🇬🇧 English | [palettes](docs/palettes.en.md) | [effects](docs/effects.en.md) | [controls](docs/controls.en.md) | [colours](docs/colors.en.md) |
-| 🇫🇷 Français | [palettes](docs/palettes.fr.md) | [effects](docs/effects.fr.md) | [controls](docs/controls.fr.md) | [couleurs](docs/colors.fr.md) |
-| 🇩🇪 Deutsch | [palettes](docs/palettes.de.md) | [effects](docs/effects.de.md) | [controls](docs/controls.de.md) | [farben](docs/colors.de.md) |
-| 🇪🇸 Español | [palettes](docs/palettes.es.md) | [effects](docs/effects.es.md) | [controls](docs/controls.es.md) | [colores](docs/colors.es.md) |
-| 🇮🇹 Italiano | [palettes](docs/palettes.it.md) | [effects](docs/effects.it.md) | [controls](docs/controls.it.md) | [colori](docs/colors.it.md) |
-| 🇯🇵 日本語 | [palettes](docs/palettes.ja.md) | [effects](docs/effects.ja.md) | [controls](docs/controls.ja.md) | [色](docs/colors.ja.md) |
-| 🇰🇷 한국어 | [palettes](docs/palettes.ko.md) | [effects](docs/effects.ko.md) | [controls](docs/controls.ko.md) | [색](docs/colors.ko.md) |
-| 🇨🇳 中文 | [palettes](docs/palettes.zh.md) | [effects](docs/effects.zh.md) | [controls](docs/controls.zh.md) | [颜色](docs/colors.zh.md) |
+| 🇬🇧 English | [palettes](docs/en/palettes.md) | [effects](docs/en/effects.md) | [controls](docs/en/controls.md) | [colours](docs/en/colors.md) |
+| 🇫🇷 Français | [palettes](docs/fr/palettes.md) | [effects](docs/fr/effects.md) | [controls](docs/fr/controls.md) | [couleurs](docs/fr/colors.md) |
+| 🇩🇪 Deutsch | [palettes](docs/de/palettes.md) | [effects](docs/de/effects.md) | [controls](docs/de/controls.md) | [farben](docs/de/colors.md) |
+| 🇪🇸 Español | [palettes](docs/es/palettes.md) | [effects](docs/es/effects.md) | [controls](docs/es/controls.md) | [colores](docs/es/colors.md) |
+| 🇮🇹 Italiano | [palettes](docs/it/palettes.md) | [effects](docs/it/effects.md) | [controls](docs/it/controls.md) | [colori](docs/it/colors.md) |
+| 🇯🇵 日本語 | [palettes](docs/ja/palettes.md) | [effects](docs/ja/effects.md) | [controls](docs/ja/controls.md) | [色](docs/ja/colors.md) |
+| 🇰🇷 한국어 | [palettes](docs/ko/palettes.md) | [effects](docs/ko/effects.md) | [controls](docs/ko/controls.md) | [색](docs/ko/colors.md) |
+| 🇨🇳 中文 | [palettes](docs/zh/palettes.md) | [effects](docs/zh/effects.md) | [controls](docs/zh/controls.md) | [颜色](docs/zh/colors.md) |
 
 ## What's inside
 
@@ -72,13 +73,13 @@ One page per **concept × language** — English name · translation · descript
 | `i18n/effects.json` | Every effect → per language `{ name, desc }` (`desc` = its motion family). |
 | `i18n/controls.json` | The standard effect **controls** (Speed, Intensity, Custom 1-3, Options 1-3, colour slots, Palette) → `{ name, desc }`. |
 | `i18n/colors.json` | The **8 stage colours** (Kelly maximum-contrast) → rgb, rank, `{ name, desc }` per language, plus the `_rationale` (why 8). |
-| `i18n/effect-families.json` | Descriptions of the 9 effect motion families, per language. |
+| `i18n/effect-families.json` | Descriptions of the 9 broad motion families, per language. |
 | `meanings/palette-meanings.json` | Source for palette descriptions. |
 | `illustrations/*.svg` | One reusable **gradient-agnostic stencil per palette** (fill `#grad` with the palette's real colours). |
-| `animations/families.json` | Maps every effect name → one of 9 motion families + the per-effect seeding rule. |
-| `tools/anim.js` | Reference JS: `anim(phase, family, seed)` → the effect animation (seed = effect index → unique). |
-| `docs/*.md` | The GitHub-rendered reference pages above. |
-| `images/palettes/*.png`, `images/effects/*.gif` | Rendered thumbnails used by the docs (72 palette PNGs, 216 effect GIFs, 2 contact sheets). |
+| `animations/families.json` | Maps every effect name → one of **24 motion types** + the per-effect seeding rule. |
+| `tools/anim.js` | Reference JS: `anim(phase, motion, seed)` → the effect animation (24 motions; seed = effect index → unique). |
+| `docs/<lang>/*.md` | The GitHub-rendered reference pages above. |
+| `images/palettes/*.png`, `images/effects/*.gif` | Rendered thumbnails used by the docs (72 palette PNGs, 216 animated effect GIFs, 2 contact sheets). |
 | `pages/` | Standalone interactive HTML reference pages. |
 
 ## How to consume
@@ -88,8 +89,8 @@ One page per **concept × language** — English name · translation · descript
 2. Look it up in `i18n/…` for the user's language (fall back to `en`). Show `name` + `desc`.
 3. For palettes, load `illustrations/<slug>.svg` and inject a `<linearGradient id="grad">`
    built from the palette's colours (`/json/palx`).
-4. For effects, look up its family in `animations/families.json` and animate with
-   `anim(phase, family, effectIndex)` from `tools/anim.js`.
+4. For effects, look up its motion in `animations/families.json` and animate with
+   `anim(phase, motion, effectIndex)` from `tools/anim.js`.
 
 Vendor it as a git submodule, a package, or a plain copy. It's data + SVG + one small JS file.
 
@@ -98,9 +99,9 @@ Vendor it as a git submodule, a package, or a plain copy. It's data + SVG + one 
 Also internationalized here:
 
 - **Controls** — the effect parameters (Speed, Intensity, Custom 1-3, Options 1-3, colour
-  slots, Palette). See [docs/controls.*.md](docs).
+  slots, Palette). See [docs/en/controls.md](docs/en/controls.md).
 - **Colours** — the **8 stage colours** (Kelly's maximum-contrast palette). The
-  [colours pages](docs/colors.en.md) open with the rationale: *why 8 and not 300* — you
+  [colours pages](docs/en/colors.md) open with the rationale: *why 8 and not 300* — you
   name only the hues the eye can tell apart at a glance (Kelly 1965 · Wong 2011 · Healey 1996),
   not a wall of near-identical names.
 
