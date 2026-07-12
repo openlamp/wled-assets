@@ -1,5 +1,5 @@
 {
- "note": "Maps each WLED effect NAME (from /json/eff, English) to one of 9 MOTION families, so a client can show a representative animated icon without replaying the actual shader. Order matters: earlier rules win (rainbow before rain, etc.).",
+ "note": "Maps each WLED effect NAME (from /json/eff, English) to one of 9 MOTION families, so a client can show a representative animated icon without replaying the actual shader. Order matters: earlier rules win (rainbow before rain, etc.). Each effect's animation is UNIQUE: pass its index as `seed` to tools/anim.js (anim(phase, family, seed)) so hue/speed/direction/density vary per effect within a family.",
  "match_order": [
   "solid",
   "strobe",

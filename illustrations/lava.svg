@@ -1,8 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="lava" data-gradient="vertical">
-  <!-- Reusable stencil for WLED palette "lava". Inject the palette colours (/json/palx)
-       as stops into #grad; #1a1a1a details carve features. Direction: vertical. -->
   <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
     <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
   </linearGradient></defs>
-  <g fill="url(#grad)"><path d="M20 128 L44 78 L60 96 L74 66 L88 92 L104 74 L124 128 Z"/><circle cx="74" cy="52" r="12"/><circle cx="100" cy="60" r="7"/></g>
+  <g fill="url(#grad)"><path d="M8 128 L48 66 L96 66 L136 128 Z"/><path d="M48 66 Q72 84 96 66 L90 72 Q72 90 54 72 Z"/><path d="M72 62 C68 40 60 34 60 18 C74 30 76 46 84 40 C82 52 78 58 72 62 Z"/><circle cx="52" cy="34" r="7"/><circle cx="96" cy="40" r="8"/><circle cx="72" cy="14" r="6"/><circle cx="110" cy="30" r="5"/><circle cx="40" cy="48" r="5"/><path d="M60 74 Q54 100 66 128" fill="none" stroke="url(#grad)" stroke-width="9"/><path d="M92 74 Q100 102 88 128" fill="none" stroke="url(#grad)" stroke-width="9"/></g>
 </svg>
