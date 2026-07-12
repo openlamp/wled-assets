@@ -9,7 +9,7 @@
 | 图片 | WLED 名称 | 翻译 | 描述 |
 |---|---|---|---|
 | <img src="../../images/effects/solid.gif" width="64"> | `Solid` | Solid | 单一稳定的颜色。 |
-| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Blink | 急促闪烁，忽明忽灭。 |
+| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Blink | 干脆的开关闪烁——像眨眼一样。 |
 | <img src="../../images/effects/breathe.gif" width="64"> | `Breathe` | Breathe | 亮度起伏（呼吸）。 |
 | <img src="../../images/effects/wipe.gif" width="64"> | `Wipe` | Wipe | 一个光点扫过（追逐）。 |
 | <img src="../../images/effects/wipe-random.gif" width="64"> | `Wipe Random` | Wipe Random | 一个光点扫过（追逐）。 |
@@ -66,7 +66,7 @@
 | <img src="../../images/effects/tri-wipe.gif" width="64"> | `Tri Wipe` | Tri Wipe | 一个光点扫过（追逐）。 |
 | <img src="../../images/effects/tri-fade.gif" width="64"> | `Tri Fade` | Tri Fade | 亮度起伏（呼吸）。 |
 | <img src="../../images/effects/lightning.gif" width="64"> | `Lightning` | Lightning | 急促闪烁，忽明忽灭。 |
-| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | 色彩波沿灯带流动。 |
+| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | 一只眼睛扫视灯带。 |
 | <img src="../../images/effects/multi-comet.gif" width="64"> | `Multi Comet` | Multi Comet | 一个光点扫过（追逐）。 |
 | <img src="../../images/effects/scanner-dual.gif" width="64"> | `Scanner Dual` | Scanner Dual | 一个光点扫过（追逐）。 |
 | <img src="../../images/effects/stream-2.gif" width="64"> | `Stream 2` | Stream 2 | 色彩波沿灯带流动。 |
@@ -83,14 +83,14 @@
 | <img src="../../images/effects/noise-3.gif" width="64"> | `Noise 3` | Noise 3 | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/noise-4.gif" width="64"> | `Noise 4` | Noise 4 | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/colortwinkles.gif" width="64"> | `Colortwinkles` | Colortwinkles | 光点随机闪烁。 |
-| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | Lake | 色彩波沿灯带流动。 |
+| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | Lake | 平静的水面波光粼粼。 |
 | <img src="../../images/effects/meteor.gif" width="64"> | `Meteor` | Meteor | 光点如雨落下。 |
 | <img src="../../images/effects/copy-segment.gif" width="64"> | `Copy Segment` | Copy Segment | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/railway.gif" width="64"> | `Railway` | Railway | 一个光点扫过（追逐）。 |
 | <img src="../../images/effects/ripple.gif" width="64"> | `Ripple` | Ripple | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | 光点随机闪烁。 |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | 光点随机闪烁。 |
-| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | 暖色如火焰般跳动。 |
+| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | 黑暗中睁开的眼睛凝视着。 |
 | <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | 单一稳定的颜色。 |
 | <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | 单一稳定的颜色。 |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | 色彩波沿灯带流动。 |
@@ -119,7 +119,7 @@
 | <img src="../../images/effects/sine.gif" width="64"> | `Sine` | Sine | 亮度起伏（呼吸）。 |
 | <img src="../../images/effects/phased-noise.gif" width="64"> | `Phased Noise` | Phased Noise | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/flow.gif" width="64"> | `Flow` | Flow | 色彩波沿灯带流动。 |
-| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | 色彩波沿灯带流动。 |
+| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | 一群鸟飞过灯带。 |
 | <img src="../../images/effects/dancing-shadows.gif" width="64"> | `Dancing Shadows` | Dancing Shadows | 一个光点扫过（追逐）。 |
 | <img src="../../images/effects/washing-machine.gif" width="64"> | `Washing Machine` | Washing Machine | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/rotozoomer.gif" width="64"> | `Rotozoomer` | Rotozoomer | 色彩波沿灯带流动。 |
@@ -160,7 +160,7 @@
 | <img src="../../images/effects/firenoise.gif" width="64"> | `Firenoise` | Firenoise | 暖色如火焰般跳动。 |
 | <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | 色彩波沿灯带流动。 |
-| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | 色彩波沿灯带流动。 |
+| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | 两条链交织成双螺旋。 |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrix | 光点如雨落下。 |
 | <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | 色彩波沿灯带流动。 |
@@ -190,12 +190,12 @@
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | 色彩波沿灯带流动。 |
-| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | 色彩波沿灯带流动。 |
+| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | 旋转的双螺旋。 |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/wavesins.gif" width="64"> | `Wavesins` | Wavesins | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | 色彩波沿灯带流动。 |
 | <img src="../../images/effects/akemi.gif" width="64"> | `Akemi` | Akemi | 色彩波沿灯带流动。 |
-| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | 色彩波沿灯带流动。 |
+| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | 粒子如火山般喷发。 |
 | <img src="../../images/effects/ps-fire.gif" width="64"> | `PS Fire` | PS Fire | 暖色如火焰般跳动。 |
 | <img src="../../images/effects/ps-fireworks.gif" width="64"> | `PS Fireworks` | PS Fireworks | 光点随机闪烁。 |
 | <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | 色彩波沿灯带流动。 |

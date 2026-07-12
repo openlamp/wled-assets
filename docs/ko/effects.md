@@ -9,7 +9,7 @@
 | 이미지 | WLED 이름 | 번역 | 설명 |
 |---|---|---|---|
 | <img src="../../images/effects/solid.gif" width="64"> | `Solid` | Solid | 단일한 고정 색. |
-| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Blink | 날카로운 점멸. |
+| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Blink | 선명한 켜짐/꺼짐 깜빡임 — 눈을 깜박이듯. |
 | <img src="../../images/effects/breathe.gif" width="64"> | `Breathe` | Breathe | 밝기가 커졌다 작아진다(호흡). |
 | <img src="../../images/effects/wipe.gif" width="64"> | `Wipe` | Wipe | 빛점이 훑고 지나간다(체이스). |
 | <img src="../../images/effects/wipe-random.gif" width="64"> | `Wipe Random` | Wipe Random | 빛점이 훑고 지나간다(체이스). |
@@ -66,7 +66,7 @@
 | <img src="../../images/effects/tri-wipe.gif" width="64"> | `Tri Wipe` | Tri Wipe | 빛점이 훑고 지나간다(체이스). |
 | <img src="../../images/effects/tri-fade.gif" width="64"> | `Tri Fade` | Tri Fade | 밝기가 커졌다 작아진다(호흡). |
 | <img src="../../images/effects/lightning.gif" width="64"> | `Lightning` | Lightning | 날카로운 점멸. |
-| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | 색의 물결이 스트립을 따라 흐른다. |
+| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | 동공이 움직이며 스트립을 살피는 눈. |
 | <img src="../../images/effects/multi-comet.gif" width="64"> | `Multi Comet` | Multi Comet | 빛점이 훑고 지나간다(체이스). |
 | <img src="../../images/effects/scanner-dual.gif" width="64"> | `Scanner Dual` | Scanner Dual | 빛점이 훑고 지나간다(체이스). |
 | <img src="../../images/effects/stream-2.gif" width="64"> | `Stream 2` | Stream 2 | 색의 물결이 스트립을 따라 흐른다. |
@@ -83,14 +83,14 @@
 | <img src="../../images/effects/noise-3.gif" width="64"> | `Noise 3` | Noise 3 | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/noise-4.gif" width="64"> | `Noise 4` | Noise 4 | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/colortwinkles.gif" width="64"> | `Colortwinkles` | Colortwinkles | 점들이 무작위로 반짝인다. |
-| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | Lake | 색의 물결이 스트립을 따라 흐른다. |
+| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | Lake | 잔잔한 물이 반짝이며 일렁인다. |
 | <img src="../../images/effects/meteor.gif" width="64"> | `Meteor` | Meteor | 점들이 비처럼 떨어진다. |
 | <img src="../../images/effects/copy-segment.gif" width="64"> | `Copy Segment` | Copy Segment | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/railway.gif" width="64"> | `Railway` | Railway | 빛점이 훑고 지나간다(체이스). |
 | <img src="../../images/effects/ripple.gif" width="64"> | `Ripple` | Ripple | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | 점들이 무작위로 반짝인다. |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | 점들이 무작위로 반짝인다. |
-| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | 따뜻한 색이 불꽃처럼 일렁인다. |
+| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | 어둠 속에서 눈이 떠져 응시한다. |
 | <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | 단일한 고정 색. |
 | <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | 단일한 고정 색. |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | 색의 물결이 스트립을 따라 흐른다. |
@@ -119,7 +119,7 @@
 | <img src="../../images/effects/sine.gif" width="64"> | `Sine` | Sine | 밝기가 커졌다 작아진다(호흡). |
 | <img src="../../images/effects/phased-noise.gif" width="64"> | `Phased Noise` | Phased Noise | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/flow.gif" width="64"> | `Flow` | Flow | 색의 물결이 스트립을 따라 흐른다. |
-| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | 색의 물결이 스트립을 따라 흐른다. |
+| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | 새 떼가 스트립을 가로질러 난다. |
 | <img src="../../images/effects/dancing-shadows.gif" width="64"> | `Dancing Shadows` | Dancing Shadows | 빛점이 훑고 지나간다(체이스). |
 | <img src="../../images/effects/washing-machine.gif" width="64"> | `Washing Machine` | Washing Machine | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/rotozoomer.gif" width="64"> | `Rotozoomer` | Rotozoomer | 색의 물결이 스트립을 따라 흐른다. |
@@ -160,7 +160,7 @@
 | <img src="../../images/effects/firenoise.gif" width="64"> | `Firenoise` | Firenoise | 따뜻한 색이 불꽃처럼 일렁인다. |
 | <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | 색의 물결이 스트립을 따라 흐른다. |
-| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | 색의 물결이 스트립을 따라 흐른다. |
+| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | 두 가닥이 이중 나선으로 엮인다. |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrix | 점들이 비처럼 떨어진다. |
 | <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | 색의 물결이 스트립을 따라 흐른다. |
@@ -190,12 +190,12 @@
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | 색의 물결이 스트립을 따라 흐른다. |
-| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | 색의 물결이 스트립을 따라 흐른다. |
+| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | 회전하는 이중 나선. |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/wavesins.gif" width="64"> | `Wavesins` | Wavesins | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | 색의 물결이 스트립을 따라 흐른다. |
 | <img src="../../images/effects/akemi.gif" width="64"> | `Akemi` | Akemi | 색의 물결이 스트립을 따라 흐른다. |
-| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | 색의 물결이 스트립을 따라 흐른다. |
+| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | 입자가 화산처럼 솟구친다. |
 | <img src="../../images/effects/ps-fire.gif" width="64"> | `PS Fire` | PS Fire | 따뜻한 색이 불꽃처럼 일렁인다. |
 | <img src="../../images/effects/ps-fireworks.gif" width="64"> | `PS Fireworks` | PS Fireworks | 점들이 무작위로 반짝인다. |
 | <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | 색의 물결이 스트립을 따라 흐른다. |

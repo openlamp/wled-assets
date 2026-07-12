@@ -9,7 +9,7 @@
 | 画像 | WLED名 | 翻訳 | 説明 |
 |---|---|---|---|
 | <img src="../../images/effects/solid.gif" width="64"> | `Solid` | Solid | 単一の安定した色。 |
-| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Blink | 鋭い点滅。 |
+| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Blink | はっきりした点滅——まばたきする目のように。 |
 | <img src="../../images/effects/breathe.gif" width="64"> | `Breathe` | Breathe | 明るさが強弱する(呼吸)。 |
 | <img src="../../images/effects/wipe.gif" width="64"> | `Wipe` | Wipe | 光点が走る(チェイス)。 |
 | <img src="../../images/effects/wipe-random.gif" width="64"> | `Wipe Random` | Wipe Random | 光点が走る(チェイス)。 |
@@ -66,7 +66,7 @@
 | <img src="../../images/effects/tri-wipe.gif" width="64"> | `Tri Wipe` | Tri Wipe | 光点が走る(チェイス)。 |
 | <img src="../../images/effects/tri-fade.gif" width="64"> | `Tri Fade` | Tri Fade | 明るさが強弱する(呼吸)。 |
 | <img src="../../images/effects/lightning.gif" width="64"> | `Lightning` | Lightning | 鋭い点滅。 |
-| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | 色の波がストリップを流れる。 |
+| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | 瞳が動き、ストリップを見渡す目。 |
 | <img src="../../images/effects/multi-comet.gif" width="64"> | `Multi Comet` | Multi Comet | 光点が走る(チェイス)。 |
 | <img src="../../images/effects/scanner-dual.gif" width="64"> | `Scanner Dual` | Scanner Dual | 光点が走る(チェイス)。 |
 | <img src="../../images/effects/stream-2.gif" width="64"> | `Stream 2` | Stream 2 | 色の波がストリップを流れる。 |
@@ -83,14 +83,14 @@
 | <img src="../../images/effects/noise-3.gif" width="64"> | `Noise 3` | Noise 3 | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/noise-4.gif" width="64"> | `Noise 4` | Noise 4 | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/colortwinkles.gif" width="64"> | `Colortwinkles` | Colortwinkles | 点がランダムに瞬く。 |
-| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | Lake | 色の波がストリップを流れる。 |
+| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | Lake | 穏やかな水面が揺らめく。 |
 | <img src="../../images/effects/meteor.gif" width="64"> | `Meteor` | Meteor | 点が雨のように落ちる。 |
 | <img src="../../images/effects/copy-segment.gif" width="64"> | `Copy Segment` | Copy Segment | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/railway.gif" width="64"> | `Railway` | Railway | 光点が走る(チェイス)。 |
 | <img src="../../images/effects/ripple.gif" width="64"> | `Ripple` | Ripple | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | 点がランダムに瞬く。 |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | 点がランダムに瞬く。 |
-| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | 暖色が炎のように揺らめく。 |
+| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | 暗闇で目が開いて見つめる。 |
 | <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | 単一の安定した色。 |
 | <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | 単一の安定した色。 |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | 色の波がストリップを流れる。 |
@@ -119,7 +119,7 @@
 | <img src="../../images/effects/sine.gif" width="64"> | `Sine` | Sine | 明るさが強弱する(呼吸)。 |
 | <img src="../../images/effects/phased-noise.gif" width="64"> | `Phased Noise` | Phased Noise | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/flow.gif" width="64"> | `Flow` | Flow | 色の波がストリップを流れる。 |
-| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | 色の波がストリップを流れる。 |
+| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | 鳥の群れがストリップを横切る。 |
 | <img src="../../images/effects/dancing-shadows.gif" width="64"> | `Dancing Shadows` | Dancing Shadows | 光点が走る(チェイス)。 |
 | <img src="../../images/effects/washing-machine.gif" width="64"> | `Washing Machine` | Washing Machine | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/rotozoomer.gif" width="64"> | `Rotozoomer` | Rotozoomer | 色の波がストリップを流れる。 |
@@ -160,7 +160,7 @@
 | <img src="../../images/effects/firenoise.gif" width="64"> | `Firenoise` | Firenoise | 暖色が炎のように揺らめく。 |
 | <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | 色の波がストリップを流れる。 |
-| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | 色の波がストリップを流れる。 |
+| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | 2本の鎖が二重らせんに絡み合う。 |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrix | 点が雨のように落ちる。 |
 | <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | 色の波がストリップを流れる。 |
@@ -190,12 +190,12 @@
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | 色の波がストリップを流れる。 |
-| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | 色の波がストリップを流れる。 |
+| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | 回転する二重らせん。 |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/wavesins.gif" width="64"> | `Wavesins` | Wavesins | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | 色の波がストリップを流れる。 |
 | <img src="../../images/effects/akemi.gif" width="64"> | `Akemi` | Akemi | 色の波がストリップを流れる。 |
-| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | 色の波がストリップを流れる。 |
+| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | 粒子が火山のように噴き上がる。 |
 | <img src="../../images/effects/ps-fire.gif" width="64"> | `PS Fire` | PS Fire | 暖色が炎のように揺らめく。 |
 | <img src="../../images/effects/ps-fireworks.gif" width="64"> | `PS Fireworks` | PS Fireworks | 点がランダムに瞬く。 |
 | <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | 色の波がストリップを流れる。 |

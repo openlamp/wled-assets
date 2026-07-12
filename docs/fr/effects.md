@@ -9,7 +9,7 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | Image | Nom WLED | Traduction | Description |
 |---|---|---|---|
 | <img src="../../images/effects/solid.gif" width="64"> | `Solid` | Fixe | Une couleur unie et stable. |
-| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Clignotement | Des éclairs nets, allumé/éteint. |
+| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Clignotement | Un clignotement franc — comme un œil qui cligne. |
 | <img src="../../images/effects/breathe.gif" width="64"> | `Breathe` | Respiration | La luminosité enfle et retombe (respiration). |
 | <img src="../../images/effects/wipe.gif" width="64"> | `Wipe` | Balayage | Un point lumineux balaie le ruban (poursuite). |
 | <img src="../../images/effects/wipe-random.gif" width="64"> | `Wipe Random` | Balayage aléatoire | Un point lumineux balaie le ruban (poursuite). |
@@ -66,7 +66,7 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | <img src="../../images/effects/tri-wipe.gif" width="64"> | `Tri Wipe` | Balayage tricolore | Un point lumineux balaie le ruban (poursuite). |
 | <img src="../../images/effects/tri-fade.gif" width="64"> | `Tri Fade` | Fondu tricolore | La luminosité enfle et retombe (respiration). |
 | <img src="../../images/effects/lightning.gif" width="64"> | `Lightning` | Éclair | Des éclairs nets, allumé/éteint. |
-| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | Un œil balaie le ruban du regard. |
 | <img src="../../images/effects/multi-comet.gif" width="64"> | `Multi Comet` | Multi-comètes | Un point lumineux balaie le ruban (poursuite). |
 | <img src="../../images/effects/scanner-dual.gif" width="64"> | `Scanner Dual` | Scanner double | Un point lumineux balaie le ruban (poursuite). |
 | <img src="../../images/effects/stream-2.gif" width="64"> | `Stream 2` | Flux 2 | Une vague de couleur parcourt le ruban. |
@@ -83,14 +83,14 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | <img src="../../images/effects/noise-3.gif" width="64"> | `Noise 3` | Noise 3 | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/noise-4.gif" width="64"> | `Noise 4` | Noise 4 | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/colortwinkles.gif" width="64"> | `Colortwinkles` | Colortwinkles | Des points scintillent au hasard. |
-| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | Lac | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | Lac | Une eau calme scintille et ondule. |
 | <img src="../../images/effects/meteor.gif" width="64"> | `Meteor` | Météore | Des points tombent comme la pluie. |
 | <img src="../../images/effects/copy-segment.gif" width="64"> | `Copy Segment` | Copier segment | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/railway.gif" width="64"> | `Railway` | Voie ferrée | Un point lumineux balaie le ruban (poursuite). |
 | <img src="../../images/effects/ripple.gif" width="64"> | `Ripple` | Ondulation | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Scintillement renard | Des points scintillent au hasard. |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | Des points scintillent au hasard. |
-| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Yeux d'Halloween | Des tons chauds vacillent comme des flammes. |
+| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Yeux d'Halloween | Des yeux s'ouvrent et fixent dans le noir. |
 | <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Motif fixe | Une couleur unie et stable. |
 | <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Motif fixe tricolore | Une couleur unie et stable. |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Points | Une vague de couleur parcourt le ruban. |
@@ -119,7 +119,7 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | <img src="../../images/effects/sine.gif" width="64"> | `Sine` | Sinus | La luminosité enfle et retombe (respiration). |
 | <img src="../../images/effects/phased-noise.gif" width="64"> | `Phased Noise` | Phased Noise | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/flow.gif" width="64"> | `Flow` | Flux | Une vague de couleur parcourt le ruban. |
-| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | Une nuée d'oiseaux traverse le ruban. |
 | <img src="../../images/effects/dancing-shadows.gif" width="64"> | `Dancing Shadows` | Ombres dansantes | Un point lumineux balaie le ruban (poursuite). |
 | <img src="../../images/effects/washing-machine.gif" width="64"> | `Washing Machine` | Machine à laver | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/rotozoomer.gif" width="64"> | `Rotozoomer` | Rotozoomer | Une vague de couleur parcourt le ruban. |
@@ -160,7 +160,7 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | <img src="../../images/effects/firenoise.gif" width="64"> | `Firenoise` | Firenoise | Des tons chauds vacillent comme des flammes. |
 | <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | Pac-Man | Une vague de couleur parcourt le ruban. |
-| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | Deux brins s'entrelacent en double hélice. |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrice | Des points tombent comme la pluie. |
 | <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | Une vague de couleur parcourt le ruban. |
@@ -190,12 +190,12 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Bande fluide | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | Une vague de couleur parcourt le ruban. |
-| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | Une double hélice qui tournoie. |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Trou noir | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/wavesins.gif" width="64"> | `Wavesins` | Wavesins | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/akemi.gif" width="64"> | `Akemi` | Akemi | Une vague de couleur parcourt le ruban. |
-| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | Des particules jaillissent comme un volcan. |
 | <img src="../../images/effects/ps-fire.gif" width="64"> | `PS Fire` | PS Fire | Des tons chauds vacillent comme des flammes. |
 | <img src="../../images/effects/ps-fireworks.gif" width="64"> | `PS Fireworks` | PS Fireworks | Des points scintillent au hasard. |
 | <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | Une vague de couleur parcourt le ruban. |

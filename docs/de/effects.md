@@ -9,7 +9,7 @@
 | Bild | WLED-Name | Übersetzung | Beschreibung |
 |---|---|---|---|
 | <img src="../../images/effects/solid.gif" width="64"> | `Solid` | Statisch | Eine einzelne, ruhige Farbe. |
-| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Blinken | Scharfe Blitze, an und aus. |
+| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Blinken | Ein klares An/Aus-Blinzeln — wie ein zwinkerndes Auge. |
 | <img src="../../images/effects/breathe.gif" width="64"> | `Breathe` | Atmen | Die Helligkeit schwillt an und ab (Atmen). |
 | <img src="../../images/effects/wipe.gif" width="64"> | `Wipe` | Wischen | Ein Lichtpunkt zieht entlang (Verfolgung). |
 | <img src="../../images/effects/wipe-random.gif" width="64"> | `Wipe Random` | Wipe Random | Ein Lichtpunkt zieht entlang (Verfolgung). |
@@ -66,7 +66,7 @@
 | <img src="../../images/effects/tri-wipe.gif" width="64"> | `Tri Wipe` | Tri Wipe | Ein Lichtpunkt zieht entlang (Verfolgung). |
 | <img src="../../images/effects/tri-fade.gif" width="64"> | `Tri Fade` | Tri Fade | Die Helligkeit schwillt an und ab (Atmen). |
 | <img src="../../images/effects/lightning.gif" width="64"> | `Lightning` | Blitz | Scharfe Blitze, an und aus. |
-| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | Ein Auge blickt über den Streifen. |
 | <img src="../../images/effects/multi-comet.gif" width="64"> | `Multi Comet` | Multi Comet | Ein Lichtpunkt zieht entlang (Verfolgung). |
 | <img src="../../images/effects/scanner-dual.gif" width="64"> | `Scanner Dual` | Scanner Dual | Ein Lichtpunkt zieht entlang (Verfolgung). |
 | <img src="../../images/effects/stream-2.gif" width="64"> | `Stream 2` | Stream 2 | Eine Farbwelle wandert über den Streifen. |
@@ -83,14 +83,14 @@
 | <img src="../../images/effects/noise-3.gif" width="64"> | `Noise 3` | Noise 3 | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/noise-4.gif" width="64"> | `Noise 4` | Noise 4 | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/colortwinkles.gif" width="64"> | `Colortwinkles` | Colortwinkles | Punkte funkeln zufällig auf und ab. |
-| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | See | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | See | Ruhiges Wasser schimmert und kräuselt sich. |
 | <img src="../../images/effects/meteor.gif" width="64"> | `Meteor` | Meteor | Punkte fallen wie Regen. |
 | <img src="../../images/effects/copy-segment.gif" width="64"> | `Copy Segment` | Copy Segment | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/railway.gif" width="64"> | `Railway` | Railway | Ein Lichtpunkt zieht entlang (Verfolgung). |
 | <img src="../../images/effects/ripple.gif" width="64"> | `Ripple` | Ripple | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | Punkte funkeln zufällig auf und ab. |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | Punkte funkeln zufällig auf und ab. |
-| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | Warme Töne flackern wie Flammen. |
+| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | Augen öffnen sich und starren im Dunkeln. |
 | <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | Eine einzelne, ruhige Farbe. |
 | <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | Eine einzelne, ruhige Farbe. |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | Eine Farbwelle wandert über den Streifen. |
@@ -119,7 +119,7 @@
 | <img src="../../images/effects/sine.gif" width="64"> | `Sine` | Sine | Die Helligkeit schwillt an und ab (Atmen). |
 | <img src="../../images/effects/phased-noise.gif" width="64"> | `Phased Noise` | Phased Noise | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/flow.gif" width="64"> | `Flow` | Flow | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | Ein Vogelschwarm fliegt über den Streifen. |
 | <img src="../../images/effects/dancing-shadows.gif" width="64"> | `Dancing Shadows` | Dancing Shadows | Ein Lichtpunkt zieht entlang (Verfolgung). |
 | <img src="../../images/effects/washing-machine.gif" width="64"> | `Washing Machine` | Washing Machine | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/rotozoomer.gif" width="64"> | `Rotozoomer` | Rotozoomer | Eine Farbwelle wandert über den Streifen. |
@@ -160,7 +160,7 @@
 | <img src="../../images/effects/firenoise.gif" width="64"> | `Firenoise` | Firenoise | Warme Töne flackern wie Flammen. |
 | <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | Zwei Stränge verweben sich zur Doppelhelix. |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrix | Punkte fallen wie Regen. |
 | <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | Eine Farbwelle wandert über den Streifen. |
@@ -190,12 +190,12 @@
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | Eine sich drehende Doppelhelix. |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/wavesins.gif" width="64"> | `Wavesins` | Wavesins | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | Eine Farbwelle wandert über den Streifen. |
 | <img src="../../images/effects/akemi.gif" width="64"> | `Akemi` | Akemi | Eine Farbwelle wandert über den Streifen. |
-| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | Eine Farbwelle wandert über den Streifen. |
+| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | Partikel schießen wie ein Vulkan empor. |
 | <img src="../../images/effects/ps-fire.gif" width="64"> | `PS Fire` | PS Fire | Warme Töne flackern wie Flammen. |
 | <img src="../../images/effects/ps-fireworks.gif" width="64"> | `PS Fireworks` | PS Fireworks | Punkte funkeln zufällig auf und ab. |
 | <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | Eine Farbwelle wandert über den Streifen. |

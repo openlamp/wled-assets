@@ -9,7 +9,7 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | Imagen | Nombre WLED | Traducción | Descripción |
 |---|---|---|---|
 | <img src="../../images/effects/solid.gif" width="64"> | `Solid` | Fijo | Un color fijo y uniforme. |
-| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Parpadeo | Destellos nítidos, encendido/apagado. |
+| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Parpadeo | Un parpadeo nítido de encendido/apagado — como un ojo que parpadea. |
 | <img src="../../images/effects/breathe.gif" width="64"> | `Breathe` | Respiración | El brillo crece y decae (respiración). |
 | <img src="../../images/effects/wipe.gif" width="64"> | `Wipe` | Barrido | Un punto de luz recorre la tira (persecución). |
 | <img src="../../images/effects/wipe-random.gif" width="64"> | `Wipe Random` | Wipe Random | Un punto de luz recorre la tira (persecución). |
@@ -66,7 +66,7 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | <img src="../../images/effects/tri-wipe.gif" width="64"> | `Tri Wipe` | Tri Wipe | Un punto de luz recorre la tira (persecución). |
 | <img src="../../images/effects/tri-fade.gif" width="64"> | `Tri Fade` | Tri Fade | El brillo crece y decae (respiración). |
 | <img src="../../images/effects/lightning.gif" width="64"> | `Lightning` | Relámpago | Destellos nítidos, encendido/apagado. |
-| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | Una onda de color recorre la tira. |
+| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | Un ojo recorre la tira con la mirada. |
 | <img src="../../images/effects/multi-comet.gif" width="64"> | `Multi Comet` | Multi Comet | Un punto de luz recorre la tira (persecución). |
 | <img src="../../images/effects/scanner-dual.gif" width="64"> | `Scanner Dual` | Scanner Dual | Un punto de luz recorre la tira (persecución). |
 | <img src="../../images/effects/stream-2.gif" width="64"> | `Stream 2` | Stream 2 | Una onda de color recorre la tira. |
@@ -83,14 +83,14 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | <img src="../../images/effects/noise-3.gif" width="64"> | `Noise 3` | Noise 3 | Una onda de color recorre la tira. |
 | <img src="../../images/effects/noise-4.gif" width="64"> | `Noise 4` | Noise 4 | Una onda de color recorre la tira. |
 | <img src="../../images/effects/colortwinkles.gif" width="64"> | `Colortwinkles` | Colortwinkles | Puntos que centellean al azar. |
-| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | Lago | Una onda de color recorre la tira. |
+| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | Lago | Agua tranquila que reluce y ondula. |
 | <img src="../../images/effects/meteor.gif" width="64"> | `Meteor` | Meteoro | Puntos que caen como lluvia. |
 | <img src="../../images/effects/copy-segment.gif" width="64"> | `Copy Segment` | Copy Segment | Una onda de color recorre la tira. |
 | <img src="../../images/effects/railway.gif" width="64"> | `Railway` | Railway | Un punto de luz recorre la tira (persecución). |
 | <img src="../../images/effects/ripple.gif" width="64"> | `Ripple` | Ripple | Una onda de color recorre la tira. |
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | Puntos que centellean al azar. |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | Puntos que centellean al azar. |
-| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | Tonos cálidos titilan como llamas. |
+| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | Unos ojos se abren y miran en la oscuridad. |
 | <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | Un color fijo y uniforme. |
 | <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | Un color fijo y uniforme. |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | Una onda de color recorre la tira. |
@@ -119,7 +119,7 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | <img src="../../images/effects/sine.gif" width="64"> | `Sine` | Sine | El brillo crece y decae (respiración). |
 | <img src="../../images/effects/phased-noise.gif" width="64"> | `Phased Noise` | Phased Noise | Una onda de color recorre la tira. |
 | <img src="../../images/effects/flow.gif" width="64"> | `Flow` | Flow | Una onda de color recorre la tira. |
-| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | Una onda de color recorre la tira. |
+| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | Una bandada de pájaros cruza la tira. |
 | <img src="../../images/effects/dancing-shadows.gif" width="64"> | `Dancing Shadows` | Dancing Shadows | Un punto de luz recorre la tira (persecución). |
 | <img src="../../images/effects/washing-machine.gif" width="64"> | `Washing Machine` | Washing Machine | Una onda de color recorre la tira. |
 | <img src="../../images/effects/rotozoomer.gif" width="64"> | `Rotozoomer` | Rotozoomer | Una onda de color recorre la tira. |
@@ -160,7 +160,7 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | <img src="../../images/effects/firenoise.gif" width="64"> | `Firenoise` | Firenoise | Tonos cálidos titilan como llamas. |
 | <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | Una onda de color recorre la tira. |
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | Una onda de color recorre la tira. |
-| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | Una onda de color recorre la tira. |
+| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | Dos hebras se entrelazan en doble hélice. |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matriz | Puntos que caen como lluvia. |
 | <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | Una onda de color recorre la tira. |
 | <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | Una onda de color recorre la tira. |
@@ -190,12 +190,12 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | Una onda de color recorre la tira. |
 | <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | Una onda de color recorre la tira. |
 | <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | Una onda de color recorre la tira. |
-| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | Una onda de color recorre la tira. |
+| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | Una doble hélice que gira. |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | Una onda de color recorre la tira. |
 | <img src="../../images/effects/wavesins.gif" width="64"> | `Wavesins` | Wavesins | Una onda de color recorre la tira. |
 | <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | Una onda de color recorre la tira. |
 | <img src="../../images/effects/akemi.gif" width="64"> | `Akemi` | Akemi | Una onda de color recorre la tira. |
-| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | Una onda de color recorre la tira. |
+| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | Partículas brotan como un volcán. |
 | <img src="../../images/effects/ps-fire.gif" width="64"> | `PS Fire` | PS Fire | Tonos cálidos titilan como llamas. |
 | <img src="../../images/effects/ps-fireworks.gif" width="64"> | `PS Fireworks` | PS Fireworks | Puntos que centellean al azar. |
 | <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | Una onda de color recorre la tira. |
