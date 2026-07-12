@@ -80,7 +80,7 @@ Full index: **[docs/](docs/)**. Or jump straight in:
 | `animations/families.json` | Maps every effect name → one of **24 motion types** + the per-effect seeding rule. |
 | `tools/anim.js` | Reference JS: `anim(phase, motion, seed)` → the effect animation (24 motions; seed = effect index → unique). |
 | `docs/<lang>/*.md` | The GitHub-rendered reference pages above. |
-| `images/palettes/*.png`, `images/effects/*.gif` | Rendered thumbnails, **transparent background** (adapt to light/dark) — 72 palette PNGs, 216 animated effect GIFs. The 2 contact sheets keep a dark board bg. |
+| `images/palettes/*.png`, `images/effects/*.gif` | Rendered thumbnails, **transparent background** (adapt to light/dark) — 72 palette PNGs, 216 animated effect GIFs. The 2 contact sheets are transparent too. |
 | `pages/` | Standalone interactive HTML reference pages. |
 
 ## How to consume
