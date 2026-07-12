@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WLED overlay — test harness</title>
+<style>
+  /* minimal reproduction of WLED's list markup so the overlay hits the real selectors */
+  body{margin:0;background:#111;color:#fff;font:14px -apple-system,Segoe UI,Roboto,sans-serif}
+  h2{font-size:13px;color:#8aa;margin:14px 16px 6px;text-transform:uppercase;letter-spacing:.05em}
+  .cols{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:0 16px 20px;max-width:900px}
+  #fxlist,#pallist{border:1px solid #333;border-radius:10px;overflow:auto;max-height:78vh}
+  .lstI{display:flex;align-items:center;padding:7px 12px;border-bottom:1px solid #262626;cursor:pointer}
+  .lstI:hover{background:#1c1c1c}
+  .lstIname{display:flex;align-items:center}
+  .lstIprev{width:26px;height:14px;border-radius:3px;margin-left:auto;background:linear-gradient(90deg,#e6002a,#ffd200,#2ee06e,#3399ff,#b060ff)}
+  .note{color:#8aa;padding:10px 16px;font-size:12px}
+</style></head>
+<body>
+<div class="note">Test harness — this rebuilds WLED's real <code>#fxlist</code>/<code>#pallist</code> markup (<code>.lstI</code> ▸ <code>.lstIname</code>) from the reference lists, then loads <code>webui-overlay.js</code> (WA_LANG=fr, local assets). If the names turn French and effects get thumbnails, the overlay works on the genuine WLED DOM.</div>
+<div class="cols">
+  <div><h2>#fxlist</h2><div id="fxlist"></div></div>
+  <div><h2>#pallist</h2><div id="pallist"></div></div>
+</div>
+<script>
+async function build(){
+  const ejson=await (await fetch('../data/effects.json')).json();
+  const pjson=await (await fetch('../data/palettes.json')).json();
+  const eff=ejson.effects||ejson; const pal=pjson.palettes||pjson;
+  const fx=document.getElementById('fxlist'), pl=document.getElementById('pallist');
+  eff.forEach(n=>{ if(!n||n==='RSVD')return; const d=document.createElement('div'); d.className='lstI';
+    d.innerHTML=`<span class="lstIname">${n}</span>`; fx.appendChild(d); });
+  pal.forEach(n=>{ const d=document.createElement('div'); d.className='lstI';
+    d.innerHTML=`<span class="lstIname">${n}</span><span class="lstIprev"></span>`; pl.appendChild(d); });
+  // now load the overlay against these real-shaped lists
+  window.WA_LANG='fr'; window.WA_BASE='..';
+  const s=document.createElement('script'); s.src='./webui-overlay.js'; document.body.appendChild(s);
+}
+build();
+</script>
+</body></html>
