@@ -79,6 +79,19 @@ some embedded SVG renderers drop the alpha channel; pre-mix with the background 
   doesn't match "rain"; `chase` before `fire`, so "Theater" doesn't hit "heat").
 - `tools/anim.js` exports `anim(phase, family)` → inner SVG (advance `phase` ~5–6 fps).
 
+## Backgrounds (transparency)
+
+Everything is **background-agnostic** so a client can composite on any UI colour:
+
+- **Illustration stencils** (`illustrations/*.svg`) and **`tools/anim.js`** output the drawing
+  only — **no background rect**. The consumer picks the background (transparent, dark, light…).
+- **Thumbnails** `images/palettes/*.png` (alpha) and `images/effects/*.gif` (1-bit alpha) are
+  rendered **transparent** — they adapt to light *and* dark (e.g. GitHub's two themes).
+- `#1a1a1a` inside a drawing is an intentional **dark detail** (clown eyes, traffic-light
+  lamps, ghost eyes…), not the background — it stays opaque on any surface, as intended.
+- Only the **contact sheets** (`images/palettes-contact-sheet.png`, `images/effects-grid.gif`)
+  keep a dark board background by design — they are composed boards, not single assets.
+
 ## Versioning
 
 Semver. Breaking = renaming/removing a key or changing the SVG contract. Additive
