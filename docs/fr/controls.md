@@ -1,8 +1,10 @@
 # WLED Contrôles
 
-[Palettes](palettes.md) · [Effets](effects.md) · **Contrôles** · [Couleurs](colors.md) · [Veilleuse](nightlight.md) · [Segment](segment.md) · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
+[Palettes](palettes.md) · [Effets](effects.md) · **Contrôles** · [Veilleuse](nightlight.md) · [Segment](segment.md) · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
 
 <sub>Autres langues: [EN](../en/controls.md) · [DE](../de/controls.md) · [ES](../es/controls.md) · [IT](../it/controls.md) · [JA](../ja/controls.md) · [KO](../ko/controls.md) · [ZH](../zh/controls.md)</sub>
+
+Les **contrôles** sont les curseurs et interrupteurs affichés sous l'effet sélectionné dans l'onglet **Effets** — Vitesse, Intensité, jusqu'à 3 curseurs perso, cases d'option, les couleurs effet/fond/perso et la palette. Ce qu'un effet utilise est déclaré dans `/json/fxdata`.
 
 | Image | Nom WLED | Traduction | Description |
 |---|---|---|---|

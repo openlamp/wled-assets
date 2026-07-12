@@ -1,8 +1,10 @@
 # WLED Controles
 
-[Paletas](palettes.md) · [Efectos](effects.md) · **Controles** · [Colores](colors.md) · [Luz nocturna](nightlight.md) · [Segmento](segment.md) · [Botones](buttons.md) · [Deslizadores](fxdata.md) · [Campos de info](info.md) · [Etiquetas de IU](ui.md) &nbsp;•&nbsp; [Referencia en español](README.md)
+[Paletas](palettes.md) · [Efectos](effects.md) · **Controles** · [Luz nocturna](nightlight.md) · [Segmento](segment.md) · [Botones](buttons.md) · [Deslizadores](fxdata.md) · [Campos de info](info.md) · [Etiquetas de IU](ui.md) &nbsp;•&nbsp; [Referencia en español](README.md)
 
 <sub>Otros idiomas: [EN](../en/controls.md) · [FR](../fr/controls.md) · [DE](../de/controls.md) · [IT](../it/controls.md) · [JA](../ja/controls.md) · [KO](../ko/controls.md) · [ZH](../zh/controls.md)</sub>
+
+Los **controles** son los deslizadores e interruptores bajo el efecto elegido (Velocidad, Intensidad, hasta 3 deslizadores personalizados, opciones, colores de efecto/fondo/personalizado, paleta). Definido en `/json/fxdata`.
 
 | Imagen | Nombre WLED | Traducción | Descripción |
 |---|---|---|---|

@@ -1,8 +1,10 @@
 # WLED 夜灯
 
-[调色板](palettes.md) · [效果](effects.md) · [控件](controls.md) · [颜色](colors.md) · **夜灯** · [段](segment.md) · [按钮](buttons.md) · [滑块](fxdata.md) · [信息字段](info.md) · [界面标签](ui.md) &nbsp;•&nbsp; [中文参考](README.md)
+[调色板](palettes.md) · [效果](effects.md) · [控件](controls.md) · **夜灯** · [段](segment.md) · [按钮](buttons.md) · [滑块](fxdata.md) · [信息字段](info.md) · [界面标签](ui.md) &nbsp;•&nbsp; [中文参考](README.md)
 
 <sub>其他语言: [EN](../en/nightlight.md) · [FR](../fr/nightlight.md) · [DE](../de/nightlight.md) · [ES](../es/nightlight.md) · [IT](../it/nightlight.md) · [JA](../ja/nightlight.md) · [KO](../ko/nightlight.md)</sub>
+
+**夜灯**是 WLED 的定时淡出（顶栏月亮图标）。四种模式决定*如何*淡出（`nl.mode`）。
 
 | 图片 | WLED 名称 | 翻译 | 描述 |
 |---|---|---|---|

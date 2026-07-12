@@ -1,8 +1,10 @@
 # WLED パレット
 
-**パレット** · [エフェクト](effects.md) · [コントロール](controls.md) · [色](colors.md) · [ナイトライト](nightlight.md) · [セグメント](segment.md) · [ボタン](buttons.md) · [スライダー](fxdata.md) · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
+**パレット** · [エフェクト](effects.md) · [コントロール](controls.md) · [ナイトライト](nightlight.md) · [セグメント](segment.md) · [ボタン](buttons.md) · [スライダー](fxdata.md) · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
 
 <sub>他の言語: [EN](../en/palettes.md) · [FR](../fr/palettes.md) · [DE](../de/palettes.md) · [ES](../es/palettes.md) · [IT](../it/palettes.md) · [KO](../ko/palettes.md) · [ZH](../zh/palettes.md)</sub>
+
+WLEDでは**パレット**はエフェクトが使う色の集合。**エフェクト**タブの*パレット*で選択（`seg.pal`、一覧は`/json/pal`）。
 
 | 画像 | WLED名 | 翻訳 | 説明 |
 |---|---|---|---|

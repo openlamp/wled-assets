@@ -1,8 +1,10 @@
 # WLED Veilleuse
 
-[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · [Couleurs](colors.md) · **Veilleuse** · [Segment](segment.md) · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
+[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · **Veilleuse** · [Segment](segment.md) · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
 
 <sub>Autres langues: [EN](../en/nightlight.md) · [DE](../de/nightlight.md) · [ES](../es/nightlight.md) · [IT](../it/nightlight.md) · [JA](../ja/nightlight.md) · [KO](../ko/nightlight.md) · [ZH](../zh/nightlight.md)</sub>
+
+La **veilleuse** est l'extinction temporisée de WLED (icône lune de la barre du haut). Les quatre modes règlent *comment* elle s'éteint ; ils correspondent à `nl.mode`.
 
 | Image | Nom WLED | Traduction | Description |
 |---|---|---|---|

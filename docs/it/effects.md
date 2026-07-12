@@ -1,8 +1,10 @@
 # WLED Effetti
 
-[Tavolozze](palettes.md) · **Effetti** · [Controlli](controls.md) · [Colori](colors.md) · [Luce notturna](nightlight.md) · [Segmento](segment.md) · [Pulsanti](buttons.md) · [Cursori effetto](fxdata.md) · [Campi info](info.md) · [Etichette UI](ui.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
+[Tavolozze](palettes.md) · **Effetti** · [Controlli](controls.md) · [Luce notturna](nightlight.md) · [Segmento](segment.md) · [Pulsanti](buttons.md) · [Cursori effetto](fxdata.md) · [Campi info](info.md) · [Etichette UI](ui.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
 
 <sub>Altre lingue: [EN](../en/effects.md) · [FR](../fr/effects.md) · [DE](../de/effects.md) · [ES](../es/effects.md) · [JA](../ja/effects.md) · [KO](../ko/effects.md) · [ZH](../zh/effects.md)</sub>
+
+Gli **effetti** sono i motivi animati di WLED, nella scheda **Effetti** (`seg.fx`, elenco `/json/eff`). L'effetto definisce il *movimento*; la tavolozza il *colore*.
 
 | Immagine | Nome WLED | Traduzione | Descrizione |
 |---|---|---|---|

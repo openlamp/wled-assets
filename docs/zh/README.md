@@ -1,15 +1,14 @@
 # WLED 🇨🇳 — 中文
 
-- [调色板](palettes.md)
-- [效果](effects.md)
-- [控件](controls.md)
-- [颜色](colors.md)
-- [夜灯](nightlight.md)
-- [段](segment.md)
-- [按钮](buttons.md)
-- [滑块](fxdata.md)
-- [信息字段](info.md)
-- [界面标签](ui.md)
+- <img src="../../images/concepts/palettes.png" width="22" align="center"> [调色板](palettes.md)
+- <img src="../../images/concepts/effects.png" width="22" align="center"> [效果](effects.md)
+- <img src="../../images/concepts/controls.png" width="22" align="center"> [控件](controls.md)
+- <img src="../../images/concepts/nightlight.png" width="22" align="center"> [夜灯](nightlight.md)
+- <img src="../../images/concepts/segment.png" width="22" align="center"> [段](segment.md)
+- <img src="../../images/concepts/buttons.png" width="22" align="center"> [按钮](buttons.md)
+- <img src="../../images/concepts/fxdata.png" width="22" align="center"> [滑块](fxdata.md)
+- <img src="../../images/concepts/info.png" width="22" align="center"> [信息字段](info.md)
+- <img src="../../images/concepts/ui.png" width="22" align="center"> [界面标签](ui.md)
 
 ---
 

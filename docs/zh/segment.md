@@ -1,8 +1,10 @@
 # WLED 段
 
-[调色板](palettes.md) · [效果](effects.md) · [控件](controls.md) · [颜色](colors.md) · [夜灯](nightlight.md) · **段** · [按钮](buttons.md) · [滑块](fxdata.md) · [信息字段](info.md) · [界面标签](ui.md) &nbsp;•&nbsp; [中文参考](README.md)
+[调色板](palettes.md) · [效果](effects.md) · [控件](controls.md) · [夜灯](nightlight.md) · **段** · [按钮](buttons.md) · [滑块](fxdata.md) · [信息字段](info.md) · [界面标签](ui.md) &nbsp;•&nbsp; [中文参考](README.md)
 
 <sub>其他语言: [EN](../en/segment.md) · [FR](../fr/segment.md) · [DE](../de/segment.md) · [ES](../es/segment.md) · [IT](../it/segment.md) · [JA](../ja/segment.md) · [KO](../ko/segment.md)</sub>
+
+**段操作**是**段**标签中每段的选项：反向、镜像、冻结、开/关、过渡、音频模拟（`seg.rev/mi/frz/on` 等）。
 
 | 图片 | WLED 名称 | 翻译 | 描述 |
 |---|---|---|---|

@@ -1,8 +1,10 @@
 # WLED スライダー
 
-[パレット](palettes.md) · [エフェクト](effects.md) · [コントロール](controls.md) · [色](colors.md) · [ナイトライト](nightlight.md) · [セグメント](segment.md) · [ボタン](buttons.md) · **スライダー** · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
+[パレット](palettes.md) · [エフェクト](effects.md) · [コントロール](controls.md) · [ナイトライト](nightlight.md) · [セグメント](segment.md) · [ボタン](buttons.md) · **スライダー** · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
 
 <sub>他の言語: [EN](../en/fxdata.md) · [FR](../fr/fxdata.md) · [DE](../de/fxdata.md) · [ES](../es/fxdata.md) · [IT](../it/fxdata.md) · [KO](../ko/fxdata.md) · [ZH](../zh/fxdata.md)</sub>
+
+**エフェクトスライダー名**は各エフェクトが`/json/fxdata`で宣言するパラメータ名——選択時にスライダーや色選択の上に表示される文字。
 
 | 画像 | WLED名 | 翻訳 |
 |---|---|---|

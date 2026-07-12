@@ -1,8 +1,10 @@
 # WLED Tavolozze
 
-**Tavolozze** · [Effetti](effects.md) · [Controlli](controls.md) · [Colori](colors.md) · [Luce notturna](nightlight.md) · [Segmento](segment.md) · [Pulsanti](buttons.md) · [Cursori effetto](fxdata.md) · [Campi info](info.md) · [Etichette UI](ui.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
+**Tavolozze** · [Effetti](effects.md) · [Controlli](controls.md) · [Luce notturna](nightlight.md) · [Segmento](segment.md) · [Pulsanti](buttons.md) · [Cursori effetto](fxdata.md) · [Campi info](info.md) · [Etichette UI](ui.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
 
 <sub>Altre lingue: [EN](../en/palettes.md) · [FR](../fr/palettes.md) · [DE](../de/palettes.md) · [ES](../es/palettes.md) · [JA](../ja/palettes.md) · [KO](../ko/palettes.md) · [ZH](../zh/palettes.md)</sub>
+
+In WLED una **tavolozza** è l'insieme di colori da cui attinge un effetto. Si sceglie nella scheda **Effetti** (menu *Tavolozza*); corrisponde a `seg.pal`, elenco da `/json/pal`.
 
 | Immagine | Nome WLED | Traduzione | Descrizione |
 |---|---|---|---|

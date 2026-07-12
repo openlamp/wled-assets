@@ -1,8 +1,10 @@
 # WLED Controls
 
-[Palettes](palettes.md) · [Effects](effects.md) · **Controls** · [Colours](colors.md) · [Nightlight](nightlight.md) · [Segment](segment.md) · [Buttons](buttons.md) · [Effect sliders](fxdata.md) · [Info fields](info.md) · [UI labels](ui.md) &nbsp;•&nbsp; [Reference in English](README.md)
+[Palettes](palettes.md) · [Effects](effects.md) · **Controls** · [Nightlight](nightlight.md) · [Segment](segment.md) · [Buttons](buttons.md) · [Effect sliders](fxdata.md) · [Info fields](info.md) · [UI labels](ui.md) &nbsp;•&nbsp; [Reference in English](README.md)
 
 <sub>Other languages: [FR](../fr/controls.md) · [DE](../de/controls.md) · [ES](../es/controls.md) · [IT](../it/controls.md) · [JA](../ja/controls.md) · [KO](../ko/controls.md) · [ZH](../zh/controls.md)</sub>
+
+**Controls** are the sliders and toggles shown under a selected effect in the **Effects** tab — Speed, Intensity, up to 3 custom sliders, option checkboxes, the effect/background/custom colours and the palette. Which ones an effect uses is declared in `/json/fxdata`.
 
 | Image | WLED name | Translation | Description |
 |---|---|---|---|
