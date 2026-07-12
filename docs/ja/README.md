@@ -5,6 +5,9 @@
 - [コントロール](controls.md)
 - [色](colors.md)
 - [ナイトライト](nightlight.md)
+- [セグメント](segment.md)
+- [ボタン](buttons.md)
+- [スライダー](fxdata.md)
 
 ---
 

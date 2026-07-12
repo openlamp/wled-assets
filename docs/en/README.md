@@ -5,6 +5,9 @@
 - [Controls](controls.md)
 - [Colours](colors.md)
 - [Nightlight](nightlight.md)
+- [Segment](segment.md)
+- [Buttons](buttons.md)
+- [Effect sliders](fxdata.md)
 
 ---
 

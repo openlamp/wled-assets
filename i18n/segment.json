@@ -1,0 +1,209 @@
+{
+ "_note": "WLED segment actions/toggles (seg.rev, seg.mi, seg.frz, seg.on, transition, seg.si). Key = English name; per-language {name, desc}.",
+ "entries": {
+  "Reverse": {
+   "en": {
+    "name": "Reverse",
+    "desc": "Play the effect in the opposite direction along the segment."
+   },
+   "fr": {
+    "name": "Inverser",
+    "desc": "Jouer l'effet dans le sens inverse le long du segment."
+   },
+   "de": {
+    "name": "Umkehren",
+    "desc": "Den Effekt in umgekehrter Richtung abspielen."
+   },
+   "es": {
+    "name": "Invertir",
+    "desc": "Reproducir el efecto en sentido inverso."
+   },
+   "it": {
+    "name": "Inverti",
+    "desc": "Riprodurre l'effetto in direzione opposta."
+   },
+   "ja": {
+    "name": "反転",
+    "desc": "効果をセグメント上で逆方向に再生。"
+   },
+   "ko": {
+    "name": "반전",
+    "desc": "효과를 세그먼트에서 반대 방향으로 재생."
+   },
+   "zh": {
+    "name": "反向",
+    "desc": "沿段以相反方向播放效果。"
+   }
+  },
+  "Mirror": {
+   "en": {
+    "name": "Mirror",
+    "desc": "Split the segment and mirror the effect from the centre."
+   },
+   "fr": {
+    "name": "Miroir",
+    "desc": "Couper le segment et refléter l'effet depuis le centre."
+   },
+   "de": {
+    "name": "Spiegeln",
+    "desc": "Segment teilen und den Effekt von der Mitte spiegeln."
+   },
+   "es": {
+    "name": "Espejo",
+    "desc": "Dividir el segmento y reflejar el efecto desde el centro."
+   },
+   "it": {
+    "name": "Specchia",
+    "desc": "Dividere il segmento e specchiare l'effetto dal centro."
+   },
+   "ja": {
+    "name": "ミラー",
+    "desc": "セグメントを分割し中央から鏡像化。"
+   },
+   "ko": {
+    "name": "미러",
+    "desc": "세그먼트를 나눠 중앙에서 대칭."
+   },
+   "zh": {
+    "name": "镜像",
+    "desc": "分割段并从中心镜像效果。"
+   }
+  },
+  "Freeze": {
+   "en": {
+    "name": "Freeze",
+    "desc": "Pause the effect on the current frame."
+   },
+   "fr": {
+    "name": "Figer",
+    "desc": "Figer l'effet sur l'image courante."
+   },
+   "de": {
+    "name": "Einfrieren",
+    "desc": "Den Effekt im aktuellen Bild anhalten."
+   },
+   "es": {
+    "name": "Congelar",
+    "desc": "Congelar el efecto en el fotograma actual."
+   },
+   "it": {
+    "name": "Congela",
+    "desc": "Bloccare l'effetto sul fotogramma corrente."
+   },
+   "ja": {
+    "name": "フリーズ",
+    "desc": "現在のフレームで効果を停止。"
+   },
+   "ko": {
+    "name": "정지",
+    "desc": "현재 프레임에서 효과 정지."
+   },
+   "zh": {
+    "name": "冻结",
+    "desc": "在当前帧冻结效果。"
+   }
+  },
+  "On/Off": {
+   "en": {
+    "name": "On/Off",
+    "desc": "Turn the segment on or off."
+   },
+   "fr": {
+    "name": "Marche/Arrêt",
+    "desc": "Allumer ou éteindre le segment."
+   },
+   "de": {
+    "name": "Ein/Aus",
+    "desc": "Segment ein- oder ausschalten."
+   },
+   "es": {
+    "name": "Encendido/Apagado",
+    "desc": "Encender o apagar el segmento."
+   },
+   "it": {
+    "name": "Acceso/Spento",
+    "desc": "Accendere o spegnere il segmento."
+   },
+   "ja": {
+    "name": "オン/オフ",
+    "desc": "セグメントのオン/オフ。"
+   },
+   "ko": {
+    "name": "켜기/끄기",
+    "desc": "세그먼트 켜기/끄기."
+   },
+   "zh": {
+    "name": "开/关",
+    "desc": "打开或关闭该段。"
+   }
+  },
+  "Transition": {
+   "en": {
+    "name": "Transition",
+    "desc": "Crossfade time when switching state or preset."
+   },
+   "fr": {
+    "name": "Transition",
+    "desc": "Durée du fondu enchaîné lors d'un changement d'état ou de preset."
+   },
+   "de": {
+    "name": "Übergang",
+    "desc": "Überblendzeit beim Wechsel von Zustand oder Preset."
+   },
+   "es": {
+    "name": "Transición",
+    "desc": "Tiempo de fundido al cambiar de estado o preset."
+   },
+   "it": {
+    "name": "Transizione",
+    "desc": "Tempo di dissolvenza al cambio di stato o preset."
+   },
+   "ja": {
+    "name": "トランジション",
+    "desc": "状態/プリセット切替時のクロスフェード時間。"
+   },
+   "ko": {
+    "name": "전환",
+    "desc": "상태/프리셋 전환 시 크로스페이드 시간."
+   },
+   "zh": {
+    "name": "过渡",
+    "desc": "切换状态或预设时的交叉淡入时长。"
+   }
+  },
+  "Sound sim": {
+   "en": {
+    "name": "Sound sim",
+    "desc": "Audio-simulation mode when no live audio is present."
+   },
+   "fr": {
+    "name": "Simu audio",
+    "desc": "Mode simulation audio quand il n'y a pas de son en direct."
+   },
+   "de": {
+    "name": "Audio-Simulation",
+    "desc": "Audio-Simulationsmodus ohne Live-Ton."
+   },
+   "es": {
+    "name": "Simulación de audio",
+    "desc": "Modo de simulación de audio sin sonido en vivo."
+   },
+   "it": {
+    "name": "Simulazione audio",
+    "desc": "Modalità simulazione audio senza audio dal vivo."
+   },
+   "ja": {
+    "name": "音声シミュ",
+    "desc": "ライブ音声がない時の音声シミュレーション。"
+   },
+   "ko": {
+    "name": "오디오 시뮬",
+    "desc": "실시간 오디오가 없을 때 오디오 시뮬레이션."
+   },
+   "zh": {
+    "name": "音频模拟",
+    "desc": "无实时音频时的音频模拟模式。"
+   }
+  }
+ }
+}

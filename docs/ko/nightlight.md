@@ -1,6 +1,6 @@
 # WLED 야간등
 
-[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · [색](colors.md) · **야간등** &nbsp;•&nbsp; [한국어 참조](README.md)
+[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · [색](colors.md) · **야간등** · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) &nbsp;•&nbsp; [한국어 참조](README.md)
 
 <sub>다른 언어: [EN](../en/nightlight.md) · [FR](../fr/nightlight.md) · [DE](../de/nightlight.md) · [ES](../es/nightlight.md) · [IT](../it/nightlight.md) · [JA](../ja/nightlight.md) · [ZH](../zh/nightlight.md)</sub>
 

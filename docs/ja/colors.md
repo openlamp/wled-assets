@@ -1,6 +1,6 @@
 # WLED 色
 
-[パレット](palettes.md) · [エフェクト](effects.md) · [コントロール](controls.md) · **色** · [ナイトライト](nightlight.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
+[パレット](palettes.md) · [エフェクト](effects.md) · [コントロール](controls.md) · **色** · [ナイトライト](nightlight.md) · [セグメント](segment.md) · [ボタン](buttons.md) · [スライダー](fxdata.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
 
 <sub>他の言語: [EN](../en/colors.md) · [FR](../fr/colors.md) · [DE](../de/colors.md) · [ES](../es/colors.md) · [IT](../it/colors.md) · [KO](../ko/colors.md) · [ZH](../zh/colors.md)</sub>
 

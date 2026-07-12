@@ -5,6 +5,9 @@
 - [Controlli](controls.md)
 - [Colori](colors.md)
 - [Luce notturna](nightlight.md)
+- [Segmento](segment.md)
+- [Pulsanti](buttons.md)
+- [Cursori effetto](fxdata.md)
 
 ---
 

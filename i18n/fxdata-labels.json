@@ -1,0 +1,7961 @@
+{
+ "_note": "Per-effect slider/parameter labels declared in WLED's /json/fxdata metadata (234 unique). Key = English label; per-language {name}. Latin translations for the common labels; the specific long tail (and CJK) fall back to English — extend via PR.",
+ "entries": {
+  "# blobs": {
+   "en": {
+    "name": "# blobs",
+    "desc": ""
+   },
+   "fr": {
+    "name": "# blobs",
+    "desc": ""
+   },
+   "de": {
+    "name": "# blobs",
+    "desc": ""
+   },
+   "es": {
+    "name": "# blobs",
+    "desc": ""
+   },
+   "it": {
+    "name": "# blobs",
+    "desc": ""
+   },
+   "ja": {
+    "name": "# blobs",
+    "desc": ""
+   },
+   "ko": {
+    "name": "# blobs",
+    "desc": ""
+   },
+   "zh": {
+    "name": "# blobs",
+    "desc": ""
+   }
+  },
+  "# of Ghosts": {
+   "en": {
+    "name": "# of Ghosts",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Nb de fantômes",
+    "desc": ""
+   },
+   "de": {
+    "name": "Anzahl Geister",
+    "desc": ""
+   },
+   "es": {
+    "name": "N.º de fantasmas",
+    "desc": ""
+   },
+   "it": {
+    "name": "N. di fantasmi",
+    "desc": ""
+   },
+   "ja": {
+    "name": "# of Ghosts",
+    "desc": ""
+   },
+   "ko": {
+    "name": "# of Ghosts",
+    "desc": ""
+   },
+   "zh": {
+    "name": "# of Ghosts",
+    "desc": ""
+   }
+  },
+  "# of PowerDots": {
+   "en": {
+    "name": "# of PowerDots",
+    "desc": ""
+   },
+   "fr": {
+    "name": "# of PowerDots",
+    "desc": ""
+   },
+   "de": {
+    "name": "# of PowerDots",
+    "desc": ""
+   },
+   "es": {
+    "name": "# of PowerDots",
+    "desc": ""
+   },
+   "it": {
+    "name": "# of PowerDots",
+    "desc": ""
+   },
+   "ja": {
+    "name": "# of PowerDots",
+    "desc": ""
+   },
+   "ko": {
+    "name": "# of PowerDots",
+    "desc": ""
+   },
+   "zh": {
+    "name": "# of PowerDots",
+    "desc": ""
+   }
+  },
+  "# of balls": {
+   "en": {
+    "name": "# of balls",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Nb de balles",
+    "desc": ""
+   },
+   "de": {
+    "name": "Anzahl Bälle",
+    "desc": ""
+   },
+   "es": {
+    "name": "N.º de bolas",
+    "desc": ""
+   },
+   "it": {
+    "name": "N. di palline",
+    "desc": ""
+   },
+   "ja": {
+    "name": "# of balls",
+    "desc": ""
+   },
+   "ko": {
+    "name": "# of balls",
+    "desc": ""
+   },
+   "zh": {
+    "name": "# of balls",
+    "desc": ""
+   }
+  },
+  "# of bands": {
+   "en": {
+    "name": "# of bands",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Nb de bandes",
+    "desc": ""
+   },
+   "de": {
+    "name": "Anzahl Bänder",
+    "desc": ""
+   },
+   "es": {
+    "name": "N.º de bandas",
+    "desc": ""
+   },
+   "it": {
+    "name": "N. di bande",
+    "desc": ""
+   },
+   "ja": {
+    "name": "# of bands",
+    "desc": ""
+   },
+   "ko": {
+    "name": "# of bands",
+    "desc": ""
+   },
+   "zh": {
+    "name": "# of bands",
+    "desc": ""
+   }
+  },
+  "# of dots": {
+   "en": {
+    "name": "# of dots",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Nb de points",
+    "desc": ""
+   },
+   "de": {
+    "name": "Anzahl Punkte",
+    "desc": ""
+   },
+   "es": {
+    "name": "N.º de puntos",
+    "desc": ""
+   },
+   "it": {
+    "name": "N. di punti",
+    "desc": ""
+   },
+   "ja": {
+    "name": "# of dots",
+    "desc": ""
+   },
+   "ko": {
+    "name": "# of dots",
+    "desc": ""
+   },
+   "zh": {
+    "name": "# of dots",
+    "desc": ""
+   }
+  },
+  "# of drips": {
+   "en": {
+    "name": "# of drips",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Nb de gouttes",
+    "desc": ""
+   },
+   "de": {
+    "name": "Anzahl Tropfen",
+    "desc": ""
+   },
+   "es": {
+    "name": "N.º de gotas",
+    "desc": ""
+   },
+   "it": {
+    "name": "N. di gocce",
+    "desc": ""
+   },
+   "ja": {
+    "name": "# of drips",
+    "desc": ""
+   },
+   "ko": {
+    "name": "# of drips",
+    "desc": ""
+   },
+   "zh": {
+    "name": "# of drips",
+    "desc": ""
+   }
+  },
+  "# of flashers": {
+   "en": {
+    "name": "# of flashers",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Nb de clignotants",
+    "desc": ""
+   },
+   "de": {
+    "name": "Anzahl Blinker",
+    "desc": ""
+   },
+   "es": {
+    "name": "N.º de destellos",
+    "desc": ""
+   },
+   "it": {
+    "name": "N. di lampeggi",
+    "desc": ""
+   },
+   "ja": {
+    "name": "# of flashers",
+    "desc": ""
+   },
+   "ko": {
+    "name": "# of flashers",
+    "desc": ""
+   },
+   "zh": {
+    "name": "# of flashers",
+    "desc": ""
+   }
+  },
+  "# of lines": {
+   "en": {
+    "name": "# of lines",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Nb de lignes",
+    "desc": ""
+   },
+   "de": {
+    "name": "Anzahl Linien",
+    "desc": ""
+   },
+   "es": {
+    "name": "N.º de líneas",
+    "desc": ""
+   },
+   "it": {
+    "name": "N. di linee",
+    "desc": ""
+   },
+   "ja": {
+    "name": "# of lines",
+    "desc": ""
+   },
+   "ko": {
+    "name": "# of lines",
+    "desc": ""
+   },
+   "zh": {
+    "name": "# of lines",
+    "desc": ""
+   }
+  },
+  "# of pixels": {
+   "en": {
+    "name": "# of pixels",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Nb de pixels",
+    "desc": ""
+   },
+   "de": {
+    "name": "Anzahl Pixel",
+    "desc": ""
+   },
+   "es": {
+    "name": "N.º de píxeles",
+    "desc": ""
+   },
+   "it": {
+    "name": "N. di pixel",
+    "desc": ""
+   },
+   "ja": {
+    "name": "# of pixels",
+    "desc": ""
+   },
+   "ko": {
+    "name": "# of pixels",
+    "desc": ""
+   },
+   "zh": {
+    "name": "# of pixels",
+    "desc": ""
+   }
+  },
+  "# of shadows": {
+   "en": {
+    "name": "# of shadows",
+    "desc": ""
+   },
+   "fr": {
+    "name": "# of shadows",
+    "desc": ""
+   },
+   "de": {
+    "name": "# of shadows",
+    "desc": ""
+   },
+   "es": {
+    "name": "# of shadows",
+    "desc": ""
+   },
+   "it": {
+    "name": "# of shadows",
+    "desc": ""
+   },
+   "ja": {
+    "name": "# of shadows",
+    "desc": ""
+   },
+   "ko": {
+    "name": "# of shadows",
+    "desc": ""
+   },
+   "zh": {
+    "name": "# of shadows",
+    "desc": ""
+   }
+  },
+  "% of fill": {
+   "en": {
+    "name": "% of fill",
+    "desc": ""
+   },
+   "fr": {
+    "name": "% de remplissage",
+    "desc": ""
+   },
+   "de": {
+    "name": "% Füllung",
+    "desc": ""
+   },
+   "es": {
+    "name": "% de relleno",
+    "desc": ""
+   },
+   "it": {
+    "name": "% di riempimento",
+    "desc": ""
+   },
+   "ja": {
+    "name": "% of fill",
+    "desc": ""
+   },
+   "ko": {
+    "name": "% of fill",
+    "desc": ""
+   },
+   "zh": {
+    "name": "% of fill",
+    "desc": ""
+   }
+  },
+  "2D Blur": {
+   "en": {
+    "name": "2D Blur",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Flou 2D",
+    "desc": ""
+   },
+   "de": {
+    "name": "2D-Unschärfe",
+    "desc": ""
+   },
+   "es": {
+    "name": "Desenfoque 2D",
+    "desc": ""
+   },
+   "it": {
+    "name": "Sfocatura 2D",
+    "desc": ""
+   },
+   "ja": {
+    "name": "2D Blur",
+    "desc": ""
+   },
+   "ko": {
+    "name": "2D Blur",
+    "desc": ""
+   },
+   "zh": {
+    "name": "2D Blur",
+    "desc": ""
+   }
+  },
+  "AR": {
+   "en": {
+    "name": "AR",
+    "desc": ""
+   },
+   "fr": {
+    "name": "AR",
+    "desc": ""
+   },
+   "de": {
+    "name": "AR",
+    "desc": ""
+   },
+   "es": {
+    "name": "AR",
+    "desc": ""
+   },
+   "it": {
+    "name": "AR",
+    "desc": ""
+   },
+   "ja": {
+    "name": "AR",
+    "desc": ""
+   },
+   "ko": {
+    "name": "AR",
+    "desc": ""
+   },
+   "zh": {
+    "name": "AR",
+    "desc": ""
+   }
+  },
+  "Adjust color": {
+   "en": {
+    "name": "Adjust color",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Adjust color",
+    "desc": ""
+   },
+   "de": {
+    "name": "Adjust color",
+    "desc": ""
+   },
+   "es": {
+    "name": "Adjust color",
+    "desc": ""
+   },
+   "it": {
+    "name": "Adjust color",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Adjust color",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Adjust color",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Adjust color",
+    "desc": ""
+   }
+  },
+  "AgeColor": {
+   "en": {
+    "name": "AgeColor",
+    "desc": ""
+   },
+   "fr": {
+    "name": "AgeColor",
+    "desc": ""
+   },
+   "de": {
+    "name": "AgeColor",
+    "desc": ""
+   },
+   "es": {
+    "name": "AgeColor",
+    "desc": ""
+   },
+   "it": {
+    "name": "AgeColor",
+    "desc": ""
+   },
+   "ja": {
+    "name": "AgeColor",
+    "desc": ""
+   },
+   "ko": {
+    "name": "AgeColor",
+    "desc": ""
+   },
+   "zh": {
+    "name": "AgeColor",
+    "desc": ""
+   }
+  },
+  "Alt": {
+   "en": {
+    "name": "Alt",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Alt",
+    "desc": ""
+   },
+   "de": {
+    "name": "Alt",
+    "desc": ""
+   },
+   "es": {
+    "name": "Alt",
+    "desc": ""
+   },
+   "it": {
+    "name": "Alt",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Alt",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Alt",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Alt",
+    "desc": ""
+   }
+  },
+  "Amplification": {
+   "en": {
+    "name": "Amplification",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Amplification",
+    "desc": ""
+   },
+   "de": {
+    "name": "Amplification",
+    "desc": ""
+   },
+   "es": {
+    "name": "Amplification",
+    "desc": ""
+   },
+   "it": {
+    "name": "Amplification",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Amplification",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Amplification",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Amplification",
+    "desc": ""
+   }
+  },
+  "Amplitude 1": {
+   "en": {
+    "name": "Amplitude 1",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Amplitude 1",
+    "desc": ""
+   },
+   "de": {
+    "name": "Amplitude 1",
+    "desc": ""
+   },
+   "es": {
+    "name": "Amplitude 1",
+    "desc": ""
+   },
+   "it": {
+    "name": "Amplitude 1",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Amplitude 1",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Amplitude 1",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Amplitude 1",
+    "desc": ""
+   }
+  },
+  "Amplitude 2": {
+   "en": {
+    "name": "Amplitude 2",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Amplitude 2",
+    "desc": ""
+   },
+   "de": {
+    "name": "Amplitude 2",
+    "desc": ""
+   },
+   "es": {
+    "name": "Amplitude 2",
+    "desc": ""
+   },
+   "it": {
+    "name": "Amplitude 2",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Amplitude 2",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Amplitude 2",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Amplitude 2",
+    "desc": ""
+   }
+  },
+  "Amplitude 3": {
+   "en": {
+    "name": "Amplitude 3",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Amplitude 3",
+    "desc": ""
+   },
+   "de": {
+    "name": "Amplitude 3",
+    "desc": ""
+   },
+   "es": {
+    "name": "Amplitude 3",
+    "desc": ""
+   },
+   "it": {
+    "name": "Amplitude 3",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Amplitude 3",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Amplitude 3",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Amplitude 3",
+    "desc": ""
+   }
+  },
+  "Anamorphic": {
+   "en": {
+    "name": "Anamorphic",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Anamorphic",
+    "desc": ""
+   },
+   "de": {
+    "name": "Anamorphic",
+    "desc": ""
+   },
+   "es": {
+    "name": "Anamorphic",
+    "desc": ""
+   },
+   "it": {
+    "name": "Anamorphic",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Anamorphic",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Anamorphic",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Anamorphic",
+    "desc": ""
+   }
+  },
+  "Angle": {
+   "en": {
+    "name": "Angle",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Angle",
+    "desc": ""
+   },
+   "de": {
+    "name": "Winkel",
+    "desc": ""
+   },
+   "es": {
+    "name": "Ángulo",
+    "desc": ""
+   },
+   "it": {
+    "name": "Angolo",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Angle",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Angle",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Angle",
+    "desc": ""
+   }
+  },
+  "Animate Rotation": {
+   "en": {
+    "name": "Animate Rotation",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Animate Rotation",
+    "desc": ""
+   },
+   "de": {
+    "name": "Animate Rotation",
+    "desc": ""
+   },
+   "es": {
+    "name": "Animate Rotation",
+    "desc": ""
+   },
+   "it": {
+    "name": "Animate Rotation",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Animate Rotation",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Animate Rotation",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Animate Rotation",
+    "desc": ""
+   }
+  },
+  "Animate Shift": {
+   "en": {
+    "name": "Animate Shift",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Animate Shift",
+    "desc": ""
+   },
+   "de": {
+    "name": "Animate Shift",
+    "desc": ""
+   },
+   "es": {
+    "name": "Animate Shift",
+    "desc": ""
+   },
+   "it": {
+    "name": "Animate Shift",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Animate Shift",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Animate Shift",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Animate Shift",
+    "desc": ""
+   }
+  },
+  "Area size": {
+   "en": {
+    "name": "Area size",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Taille de zone",
+    "desc": ""
+   },
+   "de": {
+    "name": "Bereichsgröße",
+    "desc": ""
+   },
+   "es": {
+    "name": "Tamaño de área",
+    "desc": ""
+   },
+   "it": {
+    "name": "Dimensione area",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Area size",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Area size",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Area size",
+    "desc": ""
+   }
+  },
+  "Arms": {
+   "en": {
+    "name": "Arms",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Arms",
+    "desc": ""
+   },
+   "de": {
+    "name": "Arms",
+    "desc": ""
+   },
+   "es": {
+    "name": "Arms",
+    "desc": ""
+   },
+   "it": {
+    "name": "Arms",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Arms",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Arms",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Arms",
+    "desc": ""
+   }
+  },
+  "Axis(2D)": {
+   "en": {
+    "name": "Axis(2D)",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Axis(2D)",
+    "desc": ""
+   },
+   "de": {
+    "name": "Axis(2D)",
+    "desc": ""
+   },
+   "es": {
+    "name": "Axis(2D)",
+    "desc": ""
+   },
+   "it": {
+    "name": "Axis(2D)",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Axis(2D)",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Axis(2D)",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Axis(2D)",
+    "desc": ""
+   }
+  },
+  "Bg size": {
+   "en": {
+    "name": "Bg size",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Taille du fond",
+    "desc": ""
+   },
+   "de": {
+    "name": "Hintergrundgröße",
+    "desc": ""
+   },
+   "es": {
+    "name": "Tamaño de fondo",
+    "desc": ""
+   },
+   "it": {
+    "name": "Dimensione sfondo",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Bg size",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Bg size",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Bg size",
+    "desc": ""
+   }
+  },
+  "Bi-delay": {
+   "en": {
+    "name": "Bi-delay",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Bi-delay",
+    "desc": ""
+   },
+   "de": {
+    "name": "Bi-delay",
+    "desc": ""
+   },
+   "es": {
+    "name": "Bi-delay",
+    "desc": ""
+   },
+   "it": {
+    "name": "Bi-delay",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Bi-delay",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Bi-delay",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Bi-delay",
+    "desc": ""
+   }
+  },
+  "Bin": {
+   "en": {
+    "name": "Bin",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Bin",
+    "desc": ""
+   },
+   "de": {
+    "name": "Bin",
+    "desc": ""
+   },
+   "es": {
+    "name": "Bin",
+    "desc": ""
+   },
+   "it": {
+    "name": "Bin",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Bin",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Bin",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Bin",
+    "desc": ""
+   }
+  },
+  "Blend speed": {
+   "en": {
+    "name": "Blend speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Vitesse de fondu",
+    "desc": ""
+   },
+   "de": {
+    "name": "Überblendtempo",
+    "desc": ""
+   },
+   "es": {
+    "name": "Velocidad de mezcla",
+    "desc": ""
+   },
+   "it": {
+    "name": "Velocità fusione",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Blend speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Blend speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Blend speed",
+    "desc": ""
+   }
+  },
+  "Blink distance": {
+   "en": {
+    "name": "Blink distance",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Blink distance",
+    "desc": ""
+   },
+   "de": {
+    "name": "Blink distance",
+    "desc": ""
+   },
+   "es": {
+    "name": "Blink distance",
+    "desc": ""
+   },
+   "it": {
+    "name": "Blink distance",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Blink distance",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Blink distance",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Blink distance",
+    "desc": ""
+   }
+  },
+  "Blink duration": {
+   "en": {
+    "name": "Blink duration",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Blink duration",
+    "desc": ""
+   },
+   "de": {
+    "name": "Blink duration",
+    "desc": ""
+   },
+   "es": {
+    "name": "Blink duration",
+    "desc": ""
+   },
+   "it": {
+    "name": "Blink duration",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Blink duration",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Blink duration",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Blink duration",
+    "desc": ""
+   }
+  },
+  "Blobs": {
+   "en": {
+    "name": "Blobs",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Blobs",
+    "desc": ""
+   },
+   "de": {
+    "name": "Blobs",
+    "desc": ""
+   },
+   "es": {
+    "name": "Blobs",
+    "desc": ""
+   },
+   "it": {
+    "name": "Blobs",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Blobs",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Blobs",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Blobs",
+    "desc": ""
+   }
+  },
+  "Blur": {
+   "en": {
+    "name": "Blur",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Flou",
+    "desc": ""
+   },
+   "de": {
+    "name": "Unschärfe",
+    "desc": ""
+   },
+   "es": {
+    "name": "Desenfoque",
+    "desc": ""
+   },
+   "it": {
+    "name": "Sfocatura",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Blur",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Blur",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Blur",
+    "desc": ""
+   }
+  },
+  "Boost": {
+   "en": {
+    "name": "Boost",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Amplification",
+    "desc": ""
+   },
+   "de": {
+    "name": "Verstärkung",
+    "desc": ""
+   },
+   "es": {
+    "name": "Refuerzo",
+    "desc": ""
+   },
+   "it": {
+    "name": "Potenziamento",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Boost",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Boost",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Boost",
+    "desc": ""
+   }
+  },
+  "Bounce": {
+   "en": {
+    "name": "Bounce",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Rebond",
+    "desc": ""
+   },
+   "de": {
+    "name": "Abprallen",
+    "desc": ""
+   },
+   "es": {
+    "name": "Rebote",
+    "desc": ""
+   },
+   "it": {
+    "name": "Rimbalzo",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Bounce",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Bounce",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Bounce",
+    "desc": ""
+   }
+  },
+  "Brighten": {
+   "en": {
+    "name": "Brighten",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Éclaircir",
+    "desc": ""
+   },
+   "de": {
+    "name": "Aufhellen",
+    "desc": ""
+   },
+   "es": {
+    "name": "Aclarar",
+    "desc": ""
+   },
+   "it": {
+    "name": "Schiarire",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Brighten",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Brighten",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Brighten",
+    "desc": ""
+   }
+  },
+  "Brightness": {
+   "en": {
+    "name": "Brightness",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Luminosité",
+    "desc": ""
+   },
+   "de": {
+    "name": "Helligkeit",
+    "desc": ""
+   },
+   "es": {
+    "name": "Brillo",
+    "desc": ""
+   },
+   "it": {
+    "name": "Luminosità",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Brightness",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Brightness",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Brightness",
+    "desc": ""
+   }
+  },
+  "Brightness variation": {
+   "en": {
+    "name": "Brightness variation",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Brightness variation",
+    "desc": ""
+   },
+   "de": {
+    "name": "Brightness variation",
+    "desc": ""
+   },
+   "es": {
+    "name": "Brightness variation",
+    "desc": ""
+   },
+   "it": {
+    "name": "Brightness variation",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Brightness variation",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Brightness variation",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Brightness variation",
+    "desc": ""
+   }
+  },
+  "Chance": {
+   "en": {
+    "name": "Chance",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Probabilité",
+    "desc": ""
+   },
+   "de": {
+    "name": "Wahrscheinlichkeit",
+    "desc": ""
+   },
+   "es": {
+    "name": "Probabilidad",
+    "desc": ""
+   },
+   "it": {
+    "name": "Probabilità",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Chance",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Chance",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Chance",
+    "desc": ""
+   }
+  },
+  "Clouds": {
+   "en": {
+    "name": "Clouds",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Nuages",
+    "desc": ""
+   },
+   "de": {
+    "name": "Wolken",
+    "desc": ""
+   },
+   "es": {
+    "name": "Nubes",
+    "desc": ""
+   },
+   "it": {
+    "name": "Nuvole",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Clouds",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Clouds",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Clouds",
+    "desc": ""
+   }
+  },
+  "Collide": {
+   "en": {
+    "name": "Collide",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Collision",
+    "desc": ""
+   },
+   "de": {
+    "name": "Kollision",
+    "desc": ""
+   },
+   "es": {
+    "name": "Colisión",
+    "desc": ""
+   },
+   "it": {
+    "name": "Collisione",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Collide",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Collide",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Collide",
+    "desc": ""
+   }
+  },
+  "Color": {
+   "en": {
+    "name": "Color",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Couleur",
+    "desc": ""
+   },
+   "de": {
+    "name": "Farbe",
+    "desc": ""
+   },
+   "es": {
+    "name": "Color",
+    "desc": ""
+   },
+   "it": {
+    "name": "Colore",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Color",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Color",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Color",
+    "desc": ""
+   }
+  },
+  "Color Change": {
+   "en": {
+    "name": "Color Change",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Changement couleur",
+    "desc": ""
+   },
+   "de": {
+    "name": "Farbwechsel",
+    "desc": ""
+   },
+   "es": {
+    "name": "Cambio de color",
+    "desc": ""
+   },
+   "it": {
+    "name": "Cambio colore",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Color Change",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Color Change",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Color Change",
+    "desc": ""
+   }
+  },
+  "Color Cycle": {
+   "en": {
+    "name": "Color Cycle",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Cycle couleur",
+    "desc": ""
+   },
+   "de": {
+    "name": "Farbzyklus",
+    "desc": ""
+   },
+   "es": {
+    "name": "Ciclo de color",
+    "desc": ""
+   },
+   "it": {
+    "name": "Ciclo colore",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Color Cycle",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Color Cycle",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Color Cycle",
+    "desc": ""
+   }
+  },
+  "Color bars": {
+   "en": {
+    "name": "Color bars",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Barres couleur",
+    "desc": ""
+   },
+   "de": {
+    "name": "Farbbalken",
+    "desc": ""
+   },
+   "es": {
+    "name": "Barras de color",
+    "desc": ""
+   },
+   "it": {
+    "name": "Barre di colore",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Color bars",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Color bars",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Color bars",
+    "desc": ""
+   }
+  },
+  "Color shift": {
+   "en": {
+    "name": "Color shift",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Décalage couleur",
+    "desc": ""
+   },
+   "de": {
+    "name": "Farbverschiebung",
+    "desc": ""
+   },
+   "es": {
+    "name": "Cambio de color",
+    "desc": ""
+   },
+   "it": {
+    "name": "Spostamento colore",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Color shift",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Color shift",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Color shift",
+    "desc": ""
+   }
+  },
+  "Color speed": {
+   "en": {
+    "name": "Color speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Vitesse couleur",
+    "desc": ""
+   },
+   "de": {
+    "name": "Farbtempo",
+    "desc": ""
+   },
+   "es": {
+    "name": "Velocidad de color",
+    "desc": ""
+   },
+   "it": {
+    "name": "Velocità colore",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Color speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Color speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Color speed",
+    "desc": ""
+   }
+  },
+  "Color variation": {
+   "en": {
+    "name": "Color variation",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Variation couleur",
+    "desc": ""
+   },
+   "de": {
+    "name": "Farbvariation",
+    "desc": ""
+   },
+   "es": {
+    "name": "Variación de color",
+    "desc": ""
+   },
+   "it": {
+    "name": "Variazione colore",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Color variation",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Color variation",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Color variation",
+    "desc": ""
+   }
+  },
+  "Colorflip": {
+   "en": {
+    "name": "Colorflip",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Colorflip",
+    "desc": ""
+   },
+   "de": {
+    "name": "Colorflip",
+    "desc": ""
+   },
+   "es": {
+    "name": "Colorflip",
+    "desc": ""
+   },
+   "it": {
+    "name": "Colorflip",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Colorflip",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Colorflip",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Colorflip",
+    "desc": ""
+   }
+  },
+  "Colorful": {
+   "en": {
+    "name": "Colorful",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Coloré",
+    "desc": ""
+   },
+   "de": {
+    "name": "Bunt",
+    "desc": ""
+   },
+   "es": {
+    "name": "Colorido",
+    "desc": ""
+   },
+   "it": {
+    "name": "Colorato",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Colorful",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Colorful",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Colorful",
+    "desc": ""
+   }
+  },
+  "Colors": {
+   "en": {
+    "name": "Colors",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Couleurs",
+    "desc": ""
+   },
+   "de": {
+    "name": "Farben",
+    "desc": ""
+   },
+   "es": {
+    "name": "Colores",
+    "desc": ""
+   },
+   "it": {
+    "name": "Colori",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Colors",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Colors",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Colors",
+    "desc": ""
+   }
+  },
+  "Compact": {
+   "en": {
+    "name": "Compact",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Compact",
+    "desc": ""
+   },
+   "de": {
+    "name": "Kompakt",
+    "desc": ""
+   },
+   "es": {
+    "name": "Compacto",
+    "desc": ""
+   },
+   "it": {
+    "name": "Compatto",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Compact",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Compact",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Compact",
+    "desc": ""
+   }
+  },
+  "Complete": {
+   "en": {
+    "name": "Complete",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Complet",
+    "desc": ""
+   },
+   "de": {
+    "name": "Vollständig",
+    "desc": ""
+   },
+   "es": {
+    "name": "Completo",
+    "desc": ""
+   },
+   "it": {
+    "name": "Completo",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Complete",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Complete",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Complete",
+    "desc": ""
+   }
+  },
+  "Cool": {
+   "en": {
+    "name": "Cool",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Froid",
+    "desc": ""
+   },
+   "de": {
+    "name": "Kühl",
+    "desc": ""
+   },
+   "es": {
+    "name": "Frío",
+    "desc": ""
+   },
+   "it": {
+    "name": "Freddo",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Cool",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Cool",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Cool",
+    "desc": ""
+   }
+  },
+  "Cooling": {
+   "en": {
+    "name": "Cooling",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Refroidissement",
+    "desc": ""
+   },
+   "de": {
+    "name": "Kühlung",
+    "desc": ""
+   },
+   "es": {
+    "name": "Enfriamiento",
+    "desc": ""
+   },
+   "it": {
+    "name": "Raffreddamento",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Cooling",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Cooling",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Cooling",
+    "desc": ""
+   }
+  },
+  "Cozy": {
+   "en": {
+    "name": "Cozy",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Douillet",
+    "desc": ""
+   },
+   "de": {
+    "name": "Gemütlich",
+    "desc": ""
+   },
+   "es": {
+    "name": "Acogedor",
+    "desc": ""
+   },
+   "it": {
+    "name": "Accogliente",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Cozy",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Cozy",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Cozy",
+    "desc": ""
+   }
+  },
+  "Custom Font": {
+   "en": {
+    "name": "Custom Font",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Custom Font",
+    "desc": ""
+   },
+   "de": {
+    "name": "Custom Font",
+    "desc": ""
+   },
+   "es": {
+    "name": "Custom Font",
+    "desc": ""
+   },
+   "it": {
+    "name": "Custom Font",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Custom Font",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Custom Font",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Custom Font",
+    "desc": ""
+   }
+  },
+  "Custom color": {
+   "en": {
+    "name": "Custom color",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Custom color",
+    "desc": ""
+   },
+   "de": {
+    "name": "Custom color",
+    "desc": ""
+   },
+   "es": {
+    "name": "Custom color",
+    "desc": ""
+   },
+   "it": {
+    "name": "Custom color",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Custom color",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Custom color",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Custom color",
+    "desc": ""
+   }
+  },
+  "Cylinder": {
+   "en": {
+    "name": "Cylinder",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Cylinder",
+    "desc": ""
+   },
+   "de": {
+    "name": "Cylinder",
+    "desc": ""
+   },
+   "es": {
+    "name": "Cylinder",
+    "desc": ""
+   },
+   "it": {
+    "name": "Cylinder",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Cylinder",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Cylinder",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Cylinder",
+    "desc": ""
+   }
+  },
+  "Cylinder/Square": {
+   "en": {
+    "name": "Cylinder/Square",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Cylinder/Square",
+    "desc": ""
+   },
+   "de": {
+    "name": "Cylinder/Square",
+    "desc": ""
+   },
+   "es": {
+    "name": "Cylinder/Square",
+    "desc": ""
+   },
+   "it": {
+    "name": "Cylinder/Square",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Cylinder/Square",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Cylinder/Square",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Cylinder/Square",
+    "desc": ""
+   }
+  },
+  "Damping": {
+   "en": {
+    "name": "Damping",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Damping",
+    "desc": ""
+   },
+   "de": {
+    "name": "Damping",
+    "desc": ""
+   },
+   "es": {
+    "name": "Damping",
+    "desc": ""
+   },
+   "it": {
+    "name": "Damping",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Damping",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Damping",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Damping",
+    "desc": ""
+   }
+  },
+  "Dance": {
+   "en": {
+    "name": "Dance",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Dance",
+    "desc": ""
+   },
+   "de": {
+    "name": "Dance",
+    "desc": ""
+   },
+   "es": {
+    "name": "Dance",
+    "desc": ""
+   },
+   "it": {
+    "name": "Dance",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Dance",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Dance",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Dance",
+    "desc": ""
+   }
+  },
+  "Delay": {
+   "en": {
+    "name": "Delay",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Delay",
+    "desc": ""
+   },
+   "de": {
+    "name": "Delay",
+    "desc": ""
+   },
+   "es": {
+    "name": "Delay",
+    "desc": ""
+   },
+   "it": {
+    "name": "Delay",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Delay",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Delay",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Delay",
+    "desc": ""
+   }
+  },
+  "Density": {
+   "en": {
+    "name": "Density",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Density",
+    "desc": ""
+   },
+   "de": {
+    "name": "Density",
+    "desc": ""
+   },
+   "es": {
+    "name": "Density",
+    "desc": ""
+   },
+   "it": {
+    "name": "Density",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Density",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Density",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Density",
+    "desc": ""
+   }
+  },
+  "Direction": {
+   "en": {
+    "name": "Direction",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Direction",
+    "desc": ""
+   },
+   "de": {
+    "name": "Direction",
+    "desc": ""
+   },
+   "es": {
+    "name": "Direction",
+    "desc": ""
+   },
+   "it": {
+    "name": "Direction",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Direction",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Direction",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Direction",
+    "desc": ""
+   }
+  },
+  "Dissolve speed": {
+   "en": {
+    "name": "Dissolve speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Dissolve speed",
+    "desc": ""
+   },
+   "de": {
+    "name": "Dissolve speed",
+    "desc": ""
+   },
+   "es": {
+    "name": "Dissolve speed",
+    "desc": ""
+   },
+   "it": {
+    "name": "Dissolve speed",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Dissolve speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Dissolve speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Dissolve speed",
+    "desc": ""
+   }
+  },
+  "Distance": {
+   "en": {
+    "name": "Distance",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Distance",
+    "desc": ""
+   },
+   "de": {
+    "name": "Distance",
+    "desc": ""
+   },
+   "es": {
+    "name": "Distance",
+    "desc": ""
+   },
+   "it": {
+    "name": "Distance",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Distance",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Distance",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Distance",
+    "desc": ""
+   }
+  },
+  "Diverge": {
+   "en": {
+    "name": "Diverge",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Diverge",
+    "desc": ""
+   },
+   "de": {
+    "name": "Diverge",
+    "desc": ""
+   },
+   "es": {
+    "name": "Diverge",
+    "desc": ""
+   },
+   "it": {
+    "name": "Diverge",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Diverge",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Diverge",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Diverge",
+    "desc": ""
+   }
+  },
+  "Dot distance": {
+   "en": {
+    "name": "Dot distance",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Dot distance",
+    "desc": ""
+   },
+   "de": {
+    "name": "Dot distance",
+    "desc": ""
+   },
+   "es": {
+    "name": "Dot distance",
+    "desc": ""
+   },
+   "it": {
+    "name": "Dot distance",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Dot distance",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Dot distance",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Dot distance",
+    "desc": ""
+   }
+  },
+  "Dot size": {
+   "en": {
+    "name": "Dot size",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Dot size",
+    "desc": ""
+   },
+   "de": {
+    "name": "Dot size",
+    "desc": ""
+   },
+   "es": {
+    "name": "Dot size",
+    "desc": ""
+   },
+   "it": {
+    "name": "Dot size",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Dot size",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Dot size",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Dot size",
+    "desc": ""
+   }
+  },
+  "Dots": {
+   "en": {
+    "name": "Dots",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Points",
+    "desc": ""
+   },
+   "de": {
+    "name": "Punkte",
+    "desc": ""
+   },
+   "es": {
+    "name": "Puntos",
+    "desc": ""
+   },
+   "it": {
+    "name": "Punti",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Dots",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Dots",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Dots",
+    "desc": ""
+   }
+  },
+  "Dual": {
+   "en": {
+    "name": "Dual",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Dual",
+    "desc": ""
+   },
+   "de": {
+    "name": "Dual",
+    "desc": ""
+   },
+   "es": {
+    "name": "Dual",
+    "desc": ""
+   },
+   "it": {
+    "name": "Dual",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Dual",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Dual",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Dual",
+    "desc": ""
+   }
+  },
+  "Duty cycle": {
+   "en": {
+    "name": "Duty cycle",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Duty cycle",
+    "desc": ""
+   },
+   "de": {
+    "name": "Duty cycle",
+    "desc": ""
+   },
+   "es": {
+    "name": "Duty cycle",
+    "desc": ""
+   },
+   "it": {
+    "name": "Duty cycle",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Duty cycle",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Duty cycle",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Duty cycle",
+    "desc": ""
+   }
+  },
+  "Effect speed": {
+   "en": {
+    "name": "Effect speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Effect speed",
+    "desc": ""
+   },
+   "de": {
+    "name": "Effect speed",
+    "desc": ""
+   },
+   "es": {
+    "name": "Effect speed",
+    "desc": ""
+   },
+   "it": {
+    "name": "Effect speed",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Effect speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Effect speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Effect speed",
+    "desc": ""
+   }
+  },
+  "Explosion": {
+   "en": {
+    "name": "Explosion",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Explosion",
+    "desc": ""
+   },
+   "de": {
+    "name": "Explosion",
+    "desc": ""
+   },
+   "es": {
+    "name": "Explosion",
+    "desc": ""
+   },
+   "it": {
+    "name": "Explosion",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Explosion",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Explosion",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Explosion",
+    "desc": ""
+   }
+  },
+  "Explosion Size": {
+   "en": {
+    "name": "Explosion Size",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Explosion Size",
+    "desc": ""
+   },
+   "de": {
+    "name": "Explosion Size",
+    "desc": ""
+   },
+   "es": {
+    "name": "Explosion Size",
+    "desc": ""
+   },
+   "it": {
+    "name": "Explosion Size",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Explosion Size",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Explosion Size",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Explosion Size",
+    "desc": ""
+   }
+  },
+  "Eye off time": {
+   "en": {
+    "name": "Eye off time",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Eye off time",
+    "desc": ""
+   },
+   "de": {
+    "name": "Eye off time",
+    "desc": ""
+   },
+   "es": {
+    "name": "Eye off time",
+    "desc": ""
+   },
+   "it": {
+    "name": "Eye off time",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Eye off time",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Eye off time",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Eye off time",
+    "desc": ""
+   }
+  },
+  "Eye on time": {
+   "en": {
+    "name": "Eye on time",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Eye on time",
+    "desc": ""
+   },
+   "de": {
+    "name": "Eye on time",
+    "desc": ""
+   },
+   "es": {
+    "name": "Eye on time",
+    "desc": ""
+   },
+   "it": {
+    "name": "Eye on time",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Eye on time",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Eye on time",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Eye on time",
+    "desc": ""
+   }
+  },
+  "Fade": {
+   "en": {
+    "name": "Fade",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Fondu",
+    "desc": ""
+   },
+   "de": {
+    "name": "Überblendung",
+    "desc": ""
+   },
+   "es": {
+    "name": "Fundido",
+    "desc": ""
+   },
+   "it": {
+    "name": "Dissolvenza",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Fade",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Fade",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Fade",
+    "desc": ""
+   }
+  },
+  "Fade rate": {
+   "en": {
+    "name": "Fade rate",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Taux de fondu",
+    "desc": ""
+   },
+   "de": {
+    "name": "Überblendrate",
+    "desc": ""
+   },
+   "es": {
+    "name": "Tasa de fundido",
+    "desc": ""
+   },
+   "it": {
+    "name": "Velocità dissolvenza",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Fade rate",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Fade rate",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Fade rate",
+    "desc": ""
+   }
+  },
+  "Fade speed": {
+   "en": {
+    "name": "Fade speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Fade speed",
+    "desc": ""
+   },
+   "de": {
+    "name": "Fade speed",
+    "desc": ""
+   },
+   "es": {
+    "name": "Fade speed",
+    "desc": ""
+   },
+   "it": {
+    "name": "Fade speed",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Fade speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Fade speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Fade speed",
+    "desc": ""
+   }
+  },
+  "Fade time": {
+   "en": {
+    "name": "Fade time",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Fade time",
+    "desc": ""
+   },
+   "de": {
+    "name": "Fade time",
+    "desc": ""
+   },
+   "es": {
+    "name": "Fade time",
+    "desc": ""
+   },
+   "it": {
+    "name": "Fade time",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Fade time",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Fade time",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Fade time",
+    "desc": ""
+   }
+  },
+  "Fast": {
+   "en": {
+    "name": "Fast",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Fast",
+    "desc": ""
+   },
+   "de": {
+    "name": "Fast",
+    "desc": ""
+   },
+   "es": {
+    "name": "Fast",
+    "desc": ""
+   },
+   "it": {
+    "name": "Fast",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Fast",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Fast",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Fast",
+    "desc": ""
+   }
+  },
+  "Fast Reset": {
+   "en": {
+    "name": "Fast Reset",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Fast Reset",
+    "desc": ""
+   },
+   "de": {
+    "name": "Fast Reset",
+    "desc": ""
+   },
+   "es": {
+    "name": "Fast Reset",
+    "desc": ""
+   },
+   "it": {
+    "name": "Fast Reset",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Fast Reset",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Fast Reset",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Fast Reset",
+    "desc": ""
+   }
+  },
+  "Fg size": {
+   "en": {
+    "name": "Fg size",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Fg size",
+    "desc": ""
+   },
+   "de": {
+    "name": "Fg size",
+    "desc": ""
+   },
+   "es": {
+    "name": "Fg size",
+    "desc": ""
+   },
+   "it": {
+    "name": "Fg size",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Fg size",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Fg size",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Fg size",
+    "desc": ""
+   }
+  },
+  "Fill": {
+   "en": {
+    "name": "Fill",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Fill",
+    "desc": ""
+   },
+   "de": {
+    "name": "Fill",
+    "desc": ""
+   },
+   "es": {
+    "name": "Fill",
+    "desc": ""
+   },
+   "it": {
+    "name": "Fill",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Fill",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Fill",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Fill",
+    "desc": ""
+   }
+  },
+  "Filter": {
+   "en": {
+    "name": "Filter",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Filter",
+    "desc": ""
+   },
+   "de": {
+    "name": "Filter",
+    "desc": ""
+   },
+   "es": {
+    "name": "Filter",
+    "desc": ""
+   },
+   "it": {
+    "name": "Filter",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Filter",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Filter",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Filter",
+    "desc": ""
+   }
+  },
+  "Firing side": {
+   "en": {
+    "name": "Firing side",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Firing side",
+    "desc": ""
+   },
+   "de": {
+    "name": "Firing side",
+    "desc": ""
+   },
+   "es": {
+    "name": "Firing side",
+    "desc": ""
+   },
+   "it": {
+    "name": "Firing side",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Firing side",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Firing side",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Firing side",
+    "desc": ""
+   }
+  },
+  "Flame Height": {
+   "en": {
+    "name": "Flame Height",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Flame Height",
+    "desc": ""
+   },
+   "de": {
+    "name": "Flame Height",
+    "desc": ""
+   },
+   "es": {
+    "name": "Flame Height",
+    "desc": ""
+   },
+   "it": {
+    "name": "Flame Height",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Flame Height",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Flame Height",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Flame Height",
+    "desc": ""
+   }
+  },
+  "Flip": {
+   "en": {
+    "name": "Flip",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Flip",
+    "desc": ""
+   },
+   "de": {
+    "name": "Flip",
+    "desc": ""
+   },
+   "es": {
+    "name": "Flip",
+    "desc": ""
+   },
+   "it": {
+    "name": "Flip",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Flip",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Flip",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Flip",
+    "desc": ""
+   }
+  },
+  "Flip Palette": {
+   "en": {
+    "name": "Flip Palette",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Flip Palette",
+    "desc": ""
+   },
+   "de": {
+    "name": "Flip Palette",
+    "desc": ""
+   },
+   "es": {
+    "name": "Flip Palette",
+    "desc": ""
+   },
+   "it": {
+    "name": "Flip Palette",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Flip Palette",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Flip Palette",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Flip Palette",
+    "desc": ""
+   }
+  },
+  "Floor": {
+   "en": {
+    "name": "Floor",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Floor",
+    "desc": ""
+   },
+   "de": {
+    "name": "Floor",
+    "desc": ""
+   },
+   "es": {
+    "name": "Floor",
+    "desc": ""
+   },
+   "it": {
+    "name": "Floor",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Floor",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Floor",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Floor",
+    "desc": ""
+   }
+  },
+  "Flow": {
+   "en": {
+    "name": "Flow",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Flow",
+    "desc": ""
+   },
+   "de": {
+    "name": "Flow",
+    "desc": ""
+   },
+   "es": {
+    "name": "Flow",
+    "desc": ""
+   },
+   "it": {
+    "name": "Flow",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Flow",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Flow",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Flow",
+    "desc": ""
+   }
+  },
+  "Font size": {
+   "en": {
+    "name": "Font size",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Font size",
+    "desc": ""
+   },
+   "de": {
+    "name": "Font size",
+    "desc": ""
+   },
+   "es": {
+    "name": "Font size",
+    "desc": ""
+   },
+   "it": {
+    "name": "Font size",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Font size",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Font size",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Font size",
+    "desc": ""
+   }
+  },
+  "Force": {
+   "en": {
+    "name": "Force",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Force",
+    "desc": ""
+   },
+   "de": {
+    "name": "Kraft",
+    "desc": ""
+   },
+   "es": {
+    "name": "Fuerza",
+    "desc": ""
+   },
+   "it": {
+    "name": "Forza",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Force",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Force",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Force",
+    "desc": ""
+   }
+  },
+  "Fragments": {
+   "en": {
+    "name": "Fragments",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Fragments",
+    "desc": ""
+   },
+   "de": {
+    "name": "Fragmente",
+    "desc": ""
+   },
+   "es": {
+    "name": "Fragmentos",
+    "desc": ""
+   },
+   "it": {
+    "name": "Frammenti",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Fragments",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Fragments",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Fragments",
+    "desc": ""
+   }
+  },
+  "Frequency": {
+   "en": {
+    "name": "Frequency",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Fréquence",
+    "desc": ""
+   },
+   "de": {
+    "name": "Frequenz",
+    "desc": ""
+   },
+   "es": {
+    "name": "Frecuencia",
+    "desc": ""
+   },
+   "it": {
+    "name": "Frequenza",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Frequency",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Frequency",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Frequency",
+    "desc": ""
+   }
+  },
+  "Friction": {
+   "en": {
+    "name": "Friction",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Friction",
+    "desc": ""
+   },
+   "de": {
+    "name": "Friction",
+    "desc": ""
+   },
+   "es": {
+    "name": "Friction",
+    "desc": ""
+   },
+   "it": {
+    "name": "Friction",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Friction",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Friction",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Friction",
+    "desc": ""
+   }
+  },
+  "FullStack(last frame)": {
+   "en": {
+    "name": "FullStack(last frame)",
+    "desc": ""
+   },
+   "fr": {
+    "name": "FullStack(last frame)",
+    "desc": ""
+   },
+   "de": {
+    "name": "FullStack(last frame)",
+    "desc": ""
+   },
+   "es": {
+    "name": "FullStack(last frame)",
+    "desc": ""
+   },
+   "it": {
+    "name": "FullStack(last frame)",
+    "desc": ""
+   },
+   "ja": {
+    "name": "FullStack(last frame)",
+    "desc": ""
+   },
+   "ko": {
+    "name": "FullStack(last frame)",
+    "desc": ""
+   },
+   "zh": {
+    "name": "FullStack(last frame)",
+    "desc": ""
+   }
+  },
+  "Fuse": {
+   "en": {
+    "name": "Fuse",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Fuse",
+    "desc": ""
+   },
+   "de": {
+    "name": "Fuse",
+    "desc": ""
+   },
+   "es": {
+    "name": "Fuse",
+    "desc": ""
+   },
+   "it": {
+    "name": "Fuse",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Fuse",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Fuse",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Fuse",
+    "desc": ""
+   }
+  },
+  "Gap size": {
+   "en": {
+    "name": "Gap size",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Gap size",
+    "desc": ""
+   },
+   "de": {
+    "name": "Gap size",
+    "desc": ""
+   },
+   "es": {
+    "name": "Gap size",
+    "desc": ""
+   },
+   "it": {
+    "name": "Gap size",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Gap size",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Gap size",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Gap size",
+    "desc": ""
+   }
+  },
+  "Gradient": {
+   "en": {
+    "name": "Gradient",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Gradient",
+    "desc": ""
+   },
+   "de": {
+    "name": "Gradient",
+    "desc": ""
+   },
+   "es": {
+    "name": "Gradient",
+    "desc": ""
+   },
+   "it": {
+    "name": "Gradient",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Gradient",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Gradient",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Gradient",
+    "desc": ""
+   }
+  },
+  "Granular": {
+   "en": {
+    "name": "Granular",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Granular",
+    "desc": ""
+   },
+   "de": {
+    "name": "Granular",
+    "desc": ""
+   },
+   "es": {
+    "name": "Granular",
+    "desc": ""
+   },
+   "it": {
+    "name": "Granular",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Granular",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Granular",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Granular",
+    "desc": ""
+   }
+  },
+  "Gravity": {
+   "en": {
+    "name": "Gravity",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Gravité",
+    "desc": ""
+   },
+   "de": {
+    "name": "Schwerkraft",
+    "desc": ""
+   },
+   "es": {
+    "name": "Gravedad",
+    "desc": ""
+   },
+   "it": {
+    "name": "Gravità",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Gravity",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Gravity",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Gravity",
+    "desc": ""
+   }
+  },
+  "Gravity(+/-)": {
+   "en": {
+    "name": "Gravity(+/-)",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Gravity(+/-)",
+    "desc": ""
+   },
+   "de": {
+    "name": "Gravity(+/-)",
+    "desc": ""
+   },
+   "es": {
+    "name": "Gravity(+/-)",
+    "desc": ""
+   },
+   "it": {
+    "name": "Gravity(+/-)",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Gravity(+/-)",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Gravity(+/-)",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Gravity(+/-)",
+    "desc": ""
+   }
+  },
+  "Ground": {
+   "en": {
+    "name": "Ground",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Ground",
+    "desc": ""
+   },
+   "de": {
+    "name": "Ground",
+    "desc": ""
+   },
+   "es": {
+    "name": "Ground",
+    "desc": ""
+   },
+   "it": {
+    "name": "Ground",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Ground",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Ground",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Ground",
+    "desc": ""
+   }
+  },
+  "Hardness": {
+   "en": {
+    "name": "Hardness",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Hardness",
+    "desc": ""
+   },
+   "de": {
+    "name": "Hardness",
+    "desc": ""
+   },
+   "es": {
+    "name": "Hardness",
+    "desc": ""
+   },
+   "it": {
+    "name": "Hardness",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Hardness",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Hardness",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Hardness",
+    "desc": ""
+   }
+  },
+  "High bin": {
+   "en": {
+    "name": "High bin",
+    "desc": ""
+   },
+   "fr": {
+    "name": "High bin",
+    "desc": ""
+   },
+   "de": {
+    "name": "High bin",
+    "desc": ""
+   },
+   "es": {
+    "name": "High bin",
+    "desc": ""
+   },
+   "it": {
+    "name": "High bin",
+    "desc": ""
+   },
+   "ja": {
+    "name": "High bin",
+    "desc": ""
+   },
+   "ko": {
+    "name": "High bin",
+    "desc": ""
+   },
+   "zh": {
+    "name": "High bin",
+    "desc": ""
+   }
+  },
+  "Hue": {
+   "en": {
+    "name": "Hue",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Hue",
+    "desc": ""
+   },
+   "de": {
+    "name": "Hue",
+    "desc": ""
+   },
+   "es": {
+    "name": "Hue",
+    "desc": ""
+   },
+   "it": {
+    "name": "Hue",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Hue",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Hue",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Hue",
+    "desc": ""
+   }
+  },
+  "Hue speed": {
+   "en": {
+    "name": "Hue speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Hue speed",
+    "desc": ""
+   },
+   "de": {
+    "name": "Hue speed",
+    "desc": ""
+   },
+   "es": {
+    "name": "Hue speed",
+    "desc": ""
+   },
+   "it": {
+    "name": "Hue speed",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Hue speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Hue speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Hue speed",
+    "desc": ""
+   }
+  },
+  "ID": {
+   "en": {
+    "name": "ID",
+    "desc": ""
+   },
+   "fr": {
+    "name": "ID",
+    "desc": ""
+   },
+   "de": {
+    "name": "ID",
+    "desc": ""
+   },
+   "es": {
+    "name": "ID",
+    "desc": ""
+   },
+   "it": {
+    "name": "ID",
+    "desc": ""
+   },
+   "ja": {
+    "name": "ID",
+    "desc": ""
+   },
+   "ko": {
+    "name": "ID",
+    "desc": ""
+   },
+   "zh": {
+    "name": "ID",
+    "desc": ""
+   }
+  },
+  "Inner X freq.": {
+   "en": {
+    "name": "Inner X freq.",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Inner X freq.",
+    "desc": ""
+   },
+   "de": {
+    "name": "Inner X freq.",
+    "desc": ""
+   },
+   "es": {
+    "name": "Inner X freq.",
+    "desc": ""
+   },
+   "it": {
+    "name": "Inner X freq.",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Inner X freq.",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Inner X freq.",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Inner X freq.",
+    "desc": ""
+   }
+  },
+  "Inner Y freq.": {
+   "en": {
+    "name": "Inner Y freq.",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Inner Y freq.",
+    "desc": ""
+   },
+   "de": {
+    "name": "Inner Y freq.",
+    "desc": ""
+   },
+   "es": {
+    "name": "Inner Y freq.",
+    "desc": ""
+   },
+   "it": {
+    "name": "Inner Y freq.",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Inner Y freq.",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Inner Y freq.",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Inner Y freq.",
+    "desc": ""
+   }
+  },
+  "Intensity": {
+   "en": {
+    "name": "Intensity",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Intensité",
+    "desc": ""
+   },
+   "de": {
+    "name": "Intensität",
+    "desc": ""
+   },
+   "es": {
+    "name": "Intensidad",
+    "desc": ""
+   },
+   "it": {
+    "name": "Intensità",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Intensity",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Intensity",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Intensity",
+    "desc": ""
+   }
+  },
+  "Interval": {
+   "en": {
+    "name": "Interval",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Interval",
+    "desc": ""
+   },
+   "de": {
+    "name": "Interval",
+    "desc": ""
+   },
+   "es": {
+    "name": "Interval",
+    "desc": ""
+   },
+   "it": {
+    "name": "Interval",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Interval",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Interval",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Interval",
+    "desc": ""
+   }
+  },
+  "Large": {
+   "en": {
+    "name": "Large",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Large",
+    "desc": ""
+   },
+   "de": {
+    "name": "Large",
+    "desc": ""
+   },
+   "es": {
+    "name": "Large",
+    "desc": ""
+   },
+   "it": {
+    "name": "Large",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Large",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Large",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Large",
+    "desc": ""
+   }
+  },
+  "Launches": {
+   "en": {
+    "name": "Launches",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Launches",
+    "desc": ""
+   },
+   "de": {
+    "name": "Launches",
+    "desc": ""
+   },
+   "es": {
+    "name": "Launches",
+    "desc": ""
+   },
+   "it": {
+    "name": "Launches",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Launches",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Launches",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Launches",
+    "desc": ""
+   }
+  },
+  "Left/Right": {
+   "en": {
+    "name": "Left/Right",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Left/Right",
+    "desc": ""
+   },
+   "de": {
+    "name": "Left/Right",
+    "desc": ""
+   },
+   "es": {
+    "name": "Left/Right",
+    "desc": ""
+   },
+   "it": {
+    "name": "Left/Right",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Left/Right",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Left/Right",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Left/Right",
+    "desc": ""
+   }
+  },
+  "Legs": {
+   "en": {
+    "name": "Legs",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Legs",
+    "desc": ""
+   },
+   "de": {
+    "name": "Legs",
+    "desc": ""
+   },
+   "es": {
+    "name": "Legs",
+    "desc": ""
+   },
+   "it": {
+    "name": "Legs",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Legs",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Legs",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Legs",
+    "desc": ""
+   }
+  },
+  "Life": {
+   "en": {
+    "name": "Life",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Life",
+    "desc": ""
+   },
+   "de": {
+    "name": "Life",
+    "desc": ""
+   },
+   "es": {
+    "name": "Life",
+    "desc": ""
+   },
+   "it": {
+    "name": "Life",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Life",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Life",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Life",
+    "desc": ""
+   }
+  },
+  "Lighten": {
+   "en": {
+    "name": "Lighten",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Lighten",
+    "desc": ""
+   },
+   "de": {
+    "name": "Lighten",
+    "desc": ""
+   },
+   "es": {
+    "name": "Lighten",
+    "desc": ""
+   },
+   "it": {
+    "name": "Lighten",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Lighten",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Lighten",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Lighten",
+    "desc": ""
+   }
+  },
+  "Low bin": {
+   "en": {
+    "name": "Low bin",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Low bin",
+    "desc": ""
+   },
+   "de": {
+    "name": "Low bin",
+    "desc": ""
+   },
+   "es": {
+    "name": "Low bin",
+    "desc": ""
+   },
+   "it": {
+    "name": "Low bin",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Low bin",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Low bin",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Low bin",
+    "desc": ""
+   }
+  },
+  "Mass": {
+   "en": {
+    "name": "Mass",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Mass",
+    "desc": ""
+   },
+   "de": {
+    "name": "Mass",
+    "desc": ""
+   },
+   "es": {
+    "name": "Mass",
+    "desc": ""
+   },
+   "it": {
+    "name": "Mass",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Mass",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Mass",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Mass",
+    "desc": ""
+   }
+  },
+  "Max # of ripples": {
+   "en": {
+    "name": "Max # of ripples",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Max # of ripples",
+    "desc": ""
+   },
+   "de": {
+    "name": "Max # of ripples",
+    "desc": ""
+   },
+   "es": {
+    "name": "Max # of ripples",
+    "desc": ""
+   },
+   "it": {
+    "name": "Max # of ripples",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Max # of ripples",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Max # of ripples",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Max # of ripples",
+    "desc": ""
+   }
+  },
+  "Max iterations per pixel": {
+   "en": {
+    "name": "Max iterations per pixel",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Max iterations per pixel",
+    "desc": ""
+   },
+   "de": {
+    "name": "Max iterations per pixel",
+    "desc": ""
+   },
+   "es": {
+    "name": "Max iterations per pixel",
+    "desc": ""
+   },
+   "it": {
+    "name": "Max iterations per pixel",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Max iterations per pixel",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Max iterations per pixel",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Max iterations per pixel",
+    "desc": ""
+   }
+  },
+  "Max. length": {
+   "en": {
+    "name": "Max. length",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Max. length",
+    "desc": ""
+   },
+   "de": {
+    "name": "Max. length",
+    "desc": ""
+   },
+   "es": {
+    "name": "Max. length",
+    "desc": ""
+   },
+   "it": {
+    "name": "Max. length",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Max. length",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Max. length",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Max. length",
+    "desc": ""
+   }
+  },
+  "Mod": {
+   "en": {
+    "name": "Mod",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Mod",
+    "desc": ""
+   },
+   "de": {
+    "name": "Mod",
+    "desc": ""
+   },
+   "es": {
+    "name": "Mod",
+    "desc": ""
+   },
+   "it": {
+    "name": "Mod",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Mod",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Mod",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Mod",
+    "desc": ""
+   }
+  },
+  "Mode": {
+   "en": {
+    "name": "Mode",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Mode",
+    "desc": ""
+   },
+   "de": {
+    "name": "Mode",
+    "desc": ""
+   },
+   "es": {
+    "name": "Mode",
+    "desc": ""
+   },
+   "it": {
+    "name": "Mode",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Mode",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Mode",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Mode",
+    "desc": ""
+   }
+  },
+  "Move": {
+   "en": {
+    "name": "Move",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Move",
+    "desc": ""
+   },
+   "de": {
+    "name": "Move",
+    "desc": ""
+   },
+   "es": {
+    "name": "Move",
+    "desc": ""
+   },
+   "it": {
+    "name": "Move",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Move",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Move",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Move",
+    "desc": ""
+   }
+  },
+  "Move speed": {
+   "en": {
+    "name": "Move speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Move speed",
+    "desc": ""
+   },
+   "de": {
+    "name": "Move speed",
+    "desc": ""
+   },
+   "es": {
+    "name": "Move speed",
+    "desc": ""
+   },
+   "it": {
+    "name": "Move speed",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Move speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Move speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Move speed",
+    "desc": ""
+   }
+  },
+  "Mutation": {
+   "en": {
+    "name": "Mutation",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Mutation",
+    "desc": ""
+   },
+   "de": {
+    "name": "Mutation",
+    "desc": ""
+   },
+   "es": {
+    "name": "Mutation",
+    "desc": ""
+   },
+   "it": {
+    "name": "Mutation",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Mutation",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Mutation",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Mutation",
+    "desc": ""
+   }
+  },
+  "Nozzle": {
+   "en": {
+    "name": "Nozzle",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Nozzle",
+    "desc": ""
+   },
+   "de": {
+    "name": "Nozzle",
+    "desc": ""
+   },
+   "es": {
+    "name": "Nozzle",
+    "desc": ""
+   },
+   "it": {
+    "name": "Nozzle",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Nozzle",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Nozzle",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Nozzle",
+    "desc": ""
+   }
+  },
+  "Offset X": {
+   "en": {
+    "name": "Offset X",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Offset X",
+    "desc": ""
+   },
+   "de": {
+    "name": "Offset X",
+    "desc": ""
+   },
+   "es": {
+    "name": "Offset X",
+    "desc": ""
+   },
+   "it": {
+    "name": "Offset X",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Offset X",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Offset X",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Offset X",
+    "desc": ""
+   }
+  },
+  "Offset Y": {
+   "en": {
+    "name": "Offset Y",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Offset Y",
+    "desc": ""
+   },
+   "de": {
+    "name": "Offset Y",
+    "desc": ""
+   },
+   "es": {
+    "name": "Offset Y",
+    "desc": ""
+   },
+   "it": {
+    "name": "Offset Y",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Offset Y",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Offset Y",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Offset Y",
+    "desc": ""
+   }
+  },
+  "One color": {
+   "en": {
+    "name": "One color",
+    "desc": ""
+   },
+   "fr": {
+    "name": "One color",
+    "desc": ""
+   },
+   "de": {
+    "name": "One color",
+    "desc": ""
+   },
+   "es": {
+    "name": "One color",
+    "desc": ""
+   },
+   "it": {
+    "name": "One color",
+    "desc": ""
+   },
+   "ja": {
+    "name": "One color",
+    "desc": ""
+   },
+   "ko": {
+    "name": "One color",
+    "desc": ""
+   },
+   "zh": {
+    "name": "One color",
+    "desc": ""
+   }
+  },
+  "Outer X freq.": {
+   "en": {
+    "name": "Outer X freq.",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Outer X freq.",
+    "desc": ""
+   },
+   "de": {
+    "name": "Outer X freq.",
+    "desc": ""
+   },
+   "es": {
+    "name": "Outer X freq.",
+    "desc": ""
+   },
+   "it": {
+    "name": "Outer X freq.",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Outer X freq.",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Outer X freq.",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Outer X freq.",
+    "desc": ""
+   }
+  },
+  "Outer Y freq.": {
+   "en": {
+    "name": "Outer Y freq.",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Outer Y freq.",
+    "desc": ""
+   },
+   "de": {
+    "name": "Outer Y freq.",
+    "desc": ""
+   },
+   "es": {
+    "name": "Outer Y freq.",
+    "desc": ""
+   },
+   "it": {
+    "name": "Outer Y freq.",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Outer Y freq.",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Outer Y freq.",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Outer Y freq.",
+    "desc": ""
+   }
+  },
+  "Overlay": {
+   "en": {
+    "name": "Overlay",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Superposition",
+    "desc": ""
+   },
+   "de": {
+    "name": "Überlagerung",
+    "desc": ""
+   },
+   "es": {
+    "name": "Superposición",
+    "desc": ""
+   },
+   "it": {
+    "name": "Sovrapposizione",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Overlay",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Overlay",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Overlay",
+    "desc": ""
+   }
+  },
+  "Palette": {
+   "en": {
+    "name": "Palette",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Palette",
+    "desc": ""
+   },
+   "de": {
+    "name": "Palette",
+    "desc": ""
+   },
+   "es": {
+    "name": "Palette",
+    "desc": ""
+   },
+   "it": {
+    "name": "Palette",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Palette",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Palette",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Palette",
+    "desc": ""
+   }
+  },
+  "Particle Speed": {
+   "en": {
+    "name": "Particle Speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Particle Speed",
+    "desc": ""
+   },
+   "de": {
+    "name": "Particle Speed",
+    "desc": ""
+   },
+   "es": {
+    "name": "Particle Speed",
+    "desc": ""
+   },
+   "it": {
+    "name": "Particle Speed",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Particle Speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Particle Speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Particle Speed",
+    "desc": ""
+   }
+  },
+  "Particles": {
+   "en": {
+    "name": "Particles",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Particles",
+    "desc": ""
+   },
+   "de": {
+    "name": "Particles",
+    "desc": ""
+   },
+   "es": {
+    "name": "Particles",
+    "desc": ""
+   },
+   "it": {
+    "name": "Particles",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Particles",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Particles",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Particles",
+    "desc": ""
+   }
+  },
+  "Phase": {
+   "en": {
+    "name": "Phase",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Phase",
+    "desc": ""
+   },
+   "de": {
+    "name": "Phase",
+    "desc": ""
+   },
+   "es": {
+    "name": "Phase",
+    "desc": ""
+   },
+   "it": {
+    "name": "Phase",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Phase",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Phase",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Phase",
+    "desc": ""
+   }
+  },
+  "Playful": {
+   "en": {
+    "name": "Playful",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Playful",
+    "desc": ""
+   },
+   "de": {
+    "name": "Playful",
+    "desc": ""
+   },
+   "es": {
+    "name": "Playful",
+    "desc": ""
+   },
+   "it": {
+    "name": "Playful",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Playful",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Playful",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Playful",
+    "desc": ""
+   }
+  },
+  "Position": {
+   "en": {
+    "name": "Position",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Position",
+    "desc": ""
+   },
+   "de": {
+    "name": "Position",
+    "desc": ""
+   },
+   "es": {
+    "name": "Position",
+    "desc": ""
+   },
+   "it": {
+    "name": "Position",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Position",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Position",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Position",
+    "desc": ""
+   }
+  },
+  "Position Color": {
+   "en": {
+    "name": "Position Color",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Position Color",
+    "desc": ""
+   },
+   "de": {
+    "name": "Position Color",
+    "desc": ""
+   },
+   "es": {
+    "name": "Position Color",
+    "desc": ""
+   },
+   "it": {
+    "name": "Position Color",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Position Color",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Position Color",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Position Color",
+    "desc": ""
+   }
+  },
+  "Pre-amp": {
+   "en": {
+    "name": "Pre-amp",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Pre-amp",
+    "desc": ""
+   },
+   "de": {
+    "name": "Pre-amp",
+    "desc": ""
+   },
+   "es": {
+    "name": "Pre-amp",
+    "desc": ""
+   },
+   "it": {
+    "name": "Pre-amp",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Pre-amp",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Pre-amp",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Pre-amp",
+    "desc": ""
+   }
+  },
+  "Puddle size": {
+   "en": {
+    "name": "Puddle size",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Puddle size",
+    "desc": ""
+   },
+   "de": {
+    "name": "Puddle size",
+    "desc": ""
+   },
+   "es": {
+    "name": "Puddle size",
+    "desc": ""
+   },
+   "it": {
+    "name": "Puddle size",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Puddle size",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Puddle size",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Puddle size",
+    "desc": ""
+   }
+  },
+  "Pulsate": {
+   "en": {
+    "name": "Pulsate",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Pulsate",
+    "desc": ""
+   },
+   "de": {
+    "name": "Pulsate",
+    "desc": ""
+   },
+   "es": {
+    "name": "Pulsate",
+    "desc": ""
+   },
+   "it": {
+    "name": "Pulsate",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Pulsate",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Pulsate",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Pulsate",
+    "desc": ""
+   }
+  },
+  "Push": {
+   "en": {
+    "name": "Push",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Push",
+    "desc": ""
+   },
+   "de": {
+    "name": "Push",
+    "desc": ""
+   },
+   "es": {
+    "name": "Push",
+    "desc": ""
+   },
+   "it": {
+    "name": "Push",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Push",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Push",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Push",
+    "desc": ""
+   }
+  },
+  "PushSplash": {
+   "en": {
+    "name": "PushSplash",
+    "desc": ""
+   },
+   "fr": {
+    "name": "PushSplash",
+    "desc": ""
+   },
+   "de": {
+    "name": "PushSplash",
+    "desc": ""
+   },
+   "es": {
+    "name": "PushSplash",
+    "desc": ""
+   },
+   "it": {
+    "name": "PushSplash",
+    "desc": ""
+   },
+   "ja": {
+    "name": "PushSplash",
+    "desc": ""
+   },
+   "ko": {
+    "name": "PushSplash",
+    "desc": ""
+   },
+   "zh": {
+    "name": "PushSplash",
+    "desc": ""
+   }
+  },
+  "Rain": {
+   "en": {
+    "name": "Rain",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Rain",
+    "desc": ""
+   },
+   "de": {
+    "name": "Rain",
+    "desc": ""
+   },
+   "es": {
+    "name": "Rain",
+    "desc": ""
+   },
+   "it": {
+    "name": "Rain",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Rain",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Rain",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Rain",
+    "desc": ""
+   }
+  },
+  "Random": {
+   "en": {
+    "name": "Random",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Random",
+    "desc": ""
+   },
+   "de": {
+    "name": "Random",
+    "desc": ""
+   },
+   "es": {
+    "name": "Random",
+    "desc": ""
+   },
+   "it": {
+    "name": "Random",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Random",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Random",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Random",
+    "desc": ""
+   }
+  },
+  "Random Flip": {
+   "en": {
+    "name": "Random Flip",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Random Flip",
+    "desc": ""
+   },
+   "de": {
+    "name": "Random Flip",
+    "desc": ""
+   },
+   "es": {
+    "name": "Random Flip",
+    "desc": ""
+   },
+   "it": {
+    "name": "Random Flip",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Random Flip",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Random Flip",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Random Flip",
+    "desc": ""
+   }
+  },
+  "Range of colors": {
+   "en": {
+    "name": "Range of colors",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Range of colors",
+    "desc": ""
+   },
+   "de": {
+    "name": "Range of colors",
+    "desc": ""
+   },
+   "es": {
+    "name": "Range of colors",
+    "desc": ""
+   },
+   "it": {
+    "name": "Range of colors",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Range of colors",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Range of colors",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Range of colors",
+    "desc": ""
+   }
+  },
+  "Rate of fall": {
+   "en": {
+    "name": "Rate of fall",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Rate of fall",
+    "desc": ""
+   },
+   "de": {
+    "name": "Rate of fall",
+    "desc": ""
+   },
+   "es": {
+    "name": "Rate of fall",
+    "desc": ""
+   },
+   "it": {
+    "name": "Rate of fall",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Rate of fall",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Rate of fall",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Rate of fall",
+    "desc": ""
+   }
+  },
+  "Repeat speed": {
+   "en": {
+    "name": "Repeat speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Repeat speed",
+    "desc": ""
+   },
+   "de": {
+    "name": "Repeat speed",
+    "desc": ""
+   },
+   "es": {
+    "name": "Repeat speed",
+    "desc": ""
+   },
+   "it": {
+    "name": "Repeat speed",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Repeat speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Repeat speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Repeat speed",
+    "desc": ""
+   }
+  },
+  "Reverse": {
+   "en": {
+    "name": "Reverse",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Reverse",
+    "desc": ""
+   },
+   "de": {
+    "name": "Reverse",
+    "desc": ""
+   },
+   "es": {
+    "name": "Reverse",
+    "desc": ""
+   },
+   "it": {
+    "name": "Reverse",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Reverse",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Reverse",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Reverse",
+    "desc": ""
+   }
+  },
+  "Ripple decay": {
+   "en": {
+    "name": "Ripple decay",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Ripple decay",
+    "desc": ""
+   },
+   "de": {
+    "name": "Ripple decay",
+    "desc": ""
+   },
+   "es": {
+    "name": "Ripple decay",
+    "desc": ""
+   },
+   "it": {
+    "name": "Ripple decay",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Ripple decay",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Ripple decay",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Ripple decay",
+    "desc": ""
+   }
+  },
+  "Rolling": {
+   "en": {
+    "name": "Rolling",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Rolling",
+    "desc": ""
+   },
+   "de": {
+    "name": "Rolling",
+    "desc": ""
+   },
+   "es": {
+    "name": "Rolling",
+    "desc": ""
+   },
+   "it": {
+    "name": "Rolling",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Rolling",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Rolling",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Rolling",
+    "desc": ""
+   }
+  },
+  "Rotate": {
+   "en": {
+    "name": "Rotate",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Rotate",
+    "desc": ""
+   },
+   "de": {
+    "name": "Rotate",
+    "desc": ""
+   },
+   "es": {
+    "name": "Rotate",
+    "desc": ""
+   },
+   "it": {
+    "name": "Rotate",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Rotate",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Rotate",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Rotate",
+    "desc": ""
+   }
+  },
+  "Rotation": {
+   "en": {
+    "name": "Rotation",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Rotation",
+    "desc": ""
+   },
+   "de": {
+    "name": "Rotation",
+    "desc": ""
+   },
+   "es": {
+    "name": "Rotación",
+    "desc": ""
+   },
+   "it": {
+    "name": "Rotazione",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Rotation",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Rotation",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Rotation",
+    "desc": ""
+   }
+  },
+  "Rotation Speed": {
+   "en": {
+    "name": "Rotation Speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Rotation Speed",
+    "desc": ""
+   },
+   "de": {
+    "name": "Rotation Speed",
+    "desc": ""
+   },
+   "es": {
+    "name": "Rotation Speed",
+    "desc": ""
+   },
+   "it": {
+    "name": "Rotation Speed",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Rotation Speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Rotation Speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Rotation Speed",
+    "desc": ""
+   }
+  },
+  "Rotation speed": {
+   "en": {
+    "name": "Rotation speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Vitesse de rotation",
+    "desc": ""
+   },
+   "de": {
+    "name": "Rotationstempo",
+    "desc": ""
+   },
+   "es": {
+    "name": "Velocidad de rotación",
+    "desc": ""
+   },
+   "it": {
+    "name": "Velocità rotazione",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Rotation speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Rotation speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Rotation speed",
+    "desc": ""
+   }
+  },
+  "Saturation": {
+   "en": {
+    "name": "Saturation",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Saturation",
+    "desc": ""
+   },
+   "de": {
+    "name": "Saturation",
+    "desc": ""
+   },
+   "es": {
+    "name": "Saturation",
+    "desc": ""
+   },
+   "it": {
+    "name": "Saturation",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Saturation",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Saturation",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Saturation",
+    "desc": ""
+   }
+  },
+  "Scale": {
+   "en": {
+    "name": "Scale",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Échelle",
+    "desc": ""
+   },
+   "de": {
+    "name": "Skalierung",
+    "desc": ""
+   },
+   "es": {
+    "name": "Escala",
+    "desc": ""
+   },
+   "it": {
+    "name": "Scala",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Scale",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Scale",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Scale",
+    "desc": ""
+   }
+  },
+  "Scroll speed": {
+   "en": {
+    "name": "Scroll speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Scroll speed",
+    "desc": ""
+   },
+   "de": {
+    "name": "Scroll speed",
+    "desc": ""
+   },
+   "es": {
+    "name": "Scroll speed",
+    "desc": ""
+   },
+   "it": {
+    "name": "Scroll speed",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Scroll speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Scroll speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Scroll speed",
+    "desc": ""
+   }
+  },
+  "Select bin": {
+   "en": {
+    "name": "Select bin",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Select bin",
+    "desc": ""
+   },
+   "de": {
+    "name": "Select bin",
+    "desc": ""
+   },
+   "es": {
+    "name": "Select bin",
+    "desc": ""
+   },
+   "it": {
+    "name": "Select bin",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Select bin",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Select bin",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Select bin",
+    "desc": ""
+   }
+  },
+  "Sensitivity": {
+   "en": {
+    "name": "Sensitivity",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Sensitivity",
+    "desc": ""
+   },
+   "de": {
+    "name": "Sensitivity",
+    "desc": ""
+   },
+   "es": {
+    "name": "Sensitivity",
+    "desc": ""
+   },
+   "it": {
+    "name": "Sensitivity",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Sensitivity",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Sensitivity",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Sensitivity",
+    "desc": ""
+   }
+  },
+  "Sharpness": {
+   "en": {
+    "name": "Sharpness",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Sharpness",
+    "desc": ""
+   },
+   "de": {
+    "name": "Sharpness",
+    "desc": ""
+   },
+   "es": {
+    "name": "Sharpness",
+    "desc": ""
+   },
+   "it": {
+    "name": "Sharpness",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Sharpness",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Sharpness",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Sharpness",
+    "desc": ""
+   }
+  },
+  "Shift": {
+   "en": {
+    "name": "Shift",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Shift",
+    "desc": ""
+   },
+   "de": {
+    "name": "Shift",
+    "desc": ""
+   },
+   "es": {
+    "name": "Shift",
+    "desc": ""
+   },
+   "it": {
+    "name": "Shift",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Shift",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Shift",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Shift",
+    "desc": ""
+   }
+  },
+  "Shift speed": {
+   "en": {
+    "name": "Shift speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Shift speed",
+    "desc": ""
+   },
+   "de": {
+    "name": "Shift speed",
+    "desc": ""
+   },
+   "es": {
+    "name": "Shift speed",
+    "desc": ""
+   },
+   "it": {
+    "name": "Shift speed",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Shift speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Shift speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Shift speed",
+    "desc": ""
+   }
+  },
+  "Size": {
+   "en": {
+    "name": "Size",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Taille",
+    "desc": ""
+   },
+   "de": {
+    "name": "Größe",
+    "desc": ""
+   },
+   "es": {
+    "name": "Tamaño",
+    "desc": ""
+   },
+   "it": {
+    "name": "Dimensione",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Size",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Size",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Size",
+    "desc": ""
+   }
+  },
+  "Slide": {
+   "en": {
+    "name": "Slide",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Slide",
+    "desc": ""
+   },
+   "de": {
+    "name": "Slide",
+    "desc": ""
+   },
+   "es": {
+    "name": "Slide",
+    "desc": ""
+   },
+   "it": {
+    "name": "Slide",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Slide",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Slide",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Slide",
+    "desc": ""
+   }
+  },
+  "Sloshing": {
+   "en": {
+    "name": "Sloshing",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Sloshing",
+    "desc": ""
+   },
+   "de": {
+    "name": "Sloshing",
+    "desc": ""
+   },
+   "es": {
+    "name": "Sloshing",
+    "desc": ""
+   },
+   "it": {
+    "name": "Sloshing",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Sloshing",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Sloshing",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Sloshing",
+    "desc": ""
+   }
+  },
+  "Smear": {
+   "en": {
+    "name": "Smear",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Smear",
+    "desc": ""
+   },
+   "de": {
+    "name": "Smear",
+    "desc": ""
+   },
+   "es": {
+    "name": "Smear",
+    "desc": ""
+   },
+   "it": {
+    "name": "Smear",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Smear",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Smear",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Smear",
+    "desc": ""
+   }
+  },
+  "Smooth": {
+   "en": {
+    "name": "Smooth",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Smooth",
+    "desc": ""
+   },
+   "de": {
+    "name": "Smooth",
+    "desc": ""
+   },
+   "es": {
+    "name": "Smooth",
+    "desc": ""
+   },
+   "it": {
+    "name": "Smooth",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Smooth",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Smooth",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Smooth",
+    "desc": ""
+   }
+  },
+  "Smoothness": {
+   "en": {
+    "name": "Smoothness",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Douceur",
+    "desc": ""
+   },
+   "de": {
+    "name": "Glätte",
+    "desc": ""
+   },
+   "es": {
+    "name": "Suavidad",
+    "desc": ""
+   },
+   "it": {
+    "name": "Morbidezza",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Smoothness",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Smoothness",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Smoothness",
+    "desc": ""
+   }
+  },
+  "Solid": {
+   "en": {
+    "name": "Solid",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Solid",
+    "desc": ""
+   },
+   "de": {
+    "name": "Solid",
+    "desc": ""
+   },
+   "es": {
+    "name": "Solid",
+    "desc": ""
+   },
+   "it": {
+    "name": "Solid",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Solid",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Solid",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Solid",
+    "desc": ""
+   }
+  },
+  "Sound effect": {
+   "en": {
+    "name": "Sound effect",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Sound effect",
+    "desc": ""
+   },
+   "de": {
+    "name": "Sound effect",
+    "desc": ""
+   },
+   "es": {
+    "name": "Sound effect",
+    "desc": ""
+   },
+   "it": {
+    "name": "Sound effect",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Sound effect",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Sound effect",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Sound effect",
+    "desc": ""
+   }
+  },
+  "Spark rate": {
+   "en": {
+    "name": "Spark rate",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Taux d'étincelles",
+    "desc": ""
+   },
+   "de": {
+    "name": "Funkenrate",
+    "desc": ""
+   },
+   "es": {
+    "name": "Tasa de chispas",
+    "desc": ""
+   },
+   "it": {
+    "name": "Velocità scintille",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Spark rate",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Spark rate",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Spark rate",
+    "desc": ""
+   }
+  },
+  "Sparklers": {
+   "en": {
+    "name": "Sparklers",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Sparklers",
+    "desc": ""
+   },
+   "de": {
+    "name": "Sparklers",
+    "desc": ""
+   },
+   "es": {
+    "name": "Sparklers",
+    "desc": ""
+   },
+   "it": {
+    "name": "Sparklers",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Sparklers",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Sparklers",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Sparklers",
+    "desc": ""
+   }
+  },
+  "Spawn speed": {
+   "en": {
+    "name": "Spawn speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Spawn speed",
+    "desc": ""
+   },
+   "de": {
+    "name": "Spawn speed",
+    "desc": ""
+   },
+   "es": {
+    "name": "Spawn speed",
+    "desc": ""
+   },
+   "it": {
+    "name": "Spawn speed",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Spawn speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Spawn speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Spawn speed",
+    "desc": ""
+   }
+  },
+  "Spawning rate": {
+   "en": {
+    "name": "Spawning rate",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Spawning rate",
+    "desc": ""
+   },
+   "de": {
+    "name": "Spawning rate",
+    "desc": ""
+   },
+   "es": {
+    "name": "Spawning rate",
+    "desc": ""
+   },
+   "it": {
+    "name": "Spawning rate",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Spawning rate",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Spawning rate",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Spawning rate",
+    "desc": ""
+   }
+  },
+  "Speed": {
+   "en": {
+    "name": "Speed",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Vitesse",
+    "desc": ""
+   },
+   "de": {
+    "name": "Tempo",
+    "desc": ""
+   },
+   "es": {
+    "name": "Velocidad",
+    "desc": ""
+   },
+   "it": {
+    "name": "Velocità",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Speed",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Speed",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Speed",
+    "desc": ""
+   }
+  },
+  "Speed(+/-)": {
+   "en": {
+    "name": "Speed(+/-)",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Speed(+/-)",
+    "desc": ""
+   },
+   "de": {
+    "name": "Speed(+/-)",
+    "desc": ""
+   },
+   "es": {
+    "name": "Speed(+/-)",
+    "desc": ""
+   },
+   "it": {
+    "name": "Speed(+/-)",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Speed(+/-)",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Speed(+/-)",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Speed(+/-)",
+    "desc": ""
+   }
+  },
+  "Spiral": {
+   "en": {
+    "name": "Spiral",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Spiral",
+    "desc": ""
+   },
+   "de": {
+    "name": "Spiral",
+    "desc": ""
+   },
+   "es": {
+    "name": "Spiral",
+    "desc": ""
+   },
+   "it": {
+    "name": "Spiral",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Spiral",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Spiral",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Spiral",
+    "desc": ""
+   }
+  },
+  "Splash": {
+   "en": {
+    "name": "Splash",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Splash",
+    "desc": ""
+   },
+   "de": {
+    "name": "Splash",
+    "desc": ""
+   },
+   "es": {
+    "name": "Splash",
+    "desc": ""
+   },
+   "it": {
+    "name": "Splash",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Splash",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Splash",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Splash",
+    "desc": ""
+   }
+  },
+  "Sporadic": {
+   "en": {
+    "name": "Sporadic",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Sporadic",
+    "desc": ""
+   },
+   "de": {
+    "name": "Sporadic",
+    "desc": ""
+   },
+   "es": {
+    "name": "Sporadic",
+    "desc": ""
+   },
+   "it": {
+    "name": "Sporadic",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Sporadic",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Sporadic",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Sporadic",
+    "desc": ""
+   }
+  },
+  "Spread": {
+   "en": {
+    "name": "Spread",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Étalement",
+    "desc": ""
+   },
+   "de": {
+    "name": "Streuung",
+    "desc": ""
+   },
+   "es": {
+    "name": "Dispersión",
+    "desc": ""
+   },
+   "it": {
+    "name": "Diffusione",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Spread",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Spread",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Spread",
+    "desc": ""
+   }
+  },
+  "Starfield": {
+   "en": {
+    "name": "Starfield",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Starfield",
+    "desc": ""
+   },
+   "de": {
+    "name": "Starfield",
+    "desc": ""
+   },
+   "es": {
+    "name": "Starfield",
+    "desc": ""
+   },
+   "it": {
+    "name": "Starfield",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Starfield",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Starfield",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Starfield",
+    "desc": ""
+   }
+  },
+  "Start": {
+   "en": {
+    "name": "Start",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Start",
+    "desc": ""
+   },
+   "de": {
+    "name": "Start",
+    "desc": ""
+   },
+   "es": {
+    "name": "Start",
+    "desc": ""
+   },
+   "it": {
+    "name": "Start",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Start",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Start",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Start",
+    "desc": ""
+   }
+  },
+  "Starting color": {
+   "en": {
+    "name": "Starting color",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Starting color",
+    "desc": ""
+   },
+   "de": {
+    "name": "Starting color",
+    "desc": ""
+   },
+   "es": {
+    "name": "Starting color",
+    "desc": ""
+   },
+   "it": {
+    "name": "Starting color",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Starting color",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Starting color",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Starting color",
+    "desc": ""
+   }
+  },
+  "Starting color and # of pixels": {
+   "en": {
+    "name": "Starting color and # of pixels",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Starting color and # of pixels",
+    "desc": ""
+   },
+   "de": {
+    "name": "Starting color and # of pixels",
+    "desc": ""
+   },
+   "es": {
+    "name": "Starting color and # of pixels",
+    "desc": ""
+   },
+   "it": {
+    "name": "Starting color and # of pixels",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Starting color and # of pixels",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Starting color and # of pixels",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Starting color and # of pixels",
+    "desc": ""
+   }
+  },
+  "Stiffness": {
+   "en": {
+    "name": "Stiffness",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Stiffness",
+    "desc": ""
+   },
+   "de": {
+    "name": "Stiffness",
+    "desc": ""
+   },
+   "es": {
+    "name": "Stiffness",
+    "desc": ""
+   },
+   "it": {
+    "name": "Stiffness",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Stiffness",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Stiffness",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Stiffness",
+    "desc": ""
+   }
+  },
+  "Swallow": {
+   "en": {
+    "name": "Swallow",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Swallow",
+    "desc": ""
+   },
+   "de": {
+    "name": "Swallow",
+    "desc": ""
+   },
+   "es": {
+    "name": "Swallow",
+    "desc": ""
+   },
+   "it": {
+    "name": "Swallow",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Swallow",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Swallow",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Swallow",
+    "desc": ""
+   }
+  },
+  "Sweep": {
+   "en": {
+    "name": "Sweep",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Sweep",
+    "desc": ""
+   },
+   "de": {
+    "name": "Sweep",
+    "desc": ""
+   },
+   "es": {
+    "name": "Sweep",
+    "desc": ""
+   },
+   "it": {
+    "name": "Sweep",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Sweep",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Sweep",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Sweep",
+    "desc": ""
+   }
+  },
+  "Tilt": {
+   "en": {
+    "name": "Tilt",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Tilt",
+    "desc": ""
+   },
+   "de": {
+    "name": "Tilt",
+    "desc": ""
+   },
+   "es": {
+    "name": "Tilt",
+    "desc": ""
+   },
+   "it": {
+    "name": "Tilt",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Tilt",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Tilt",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Tilt",
+    "desc": ""
+   }
+  },
+  "Time (min)": {
+   "en": {
+    "name": "Time (min)",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Time (min)",
+    "desc": ""
+   },
+   "de": {
+    "name": "Time (min)",
+    "desc": ""
+   },
+   "es": {
+    "name": "Time (min)",
+    "desc": ""
+   },
+   "it": {
+    "name": "Time (min)",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Time (min)",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Time (min)",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Time (min)",
+    "desc": ""
+   }
+  },
+  "Time [min]": {
+   "en": {
+    "name": "Time [min]",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Time [min]",
+    "desc": ""
+   },
+   "de": {
+    "name": "Time [min]",
+    "desc": ""
+   },
+   "es": {
+    "name": "Time [min]",
+    "desc": ""
+   },
+   "it": {
+    "name": "Time [min]",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Time [min]",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Time [min]",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Time [min]",
+    "desc": ""
+   }
+  },
+  "Trace": {
+   "en": {
+    "name": "Trace",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Trace",
+    "desc": ""
+   },
+   "de": {
+    "name": "Trace",
+    "desc": ""
+   },
+   "es": {
+    "name": "Trace",
+    "desc": ""
+   },
+   "it": {
+    "name": "Trace",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Trace",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Trace",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Trace",
+    "desc": ""
+   }
+  },
+  "Trail": {
+   "en": {
+    "name": "Trail",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Traînée",
+    "desc": ""
+   },
+   "de": {
+    "name": "Schweif",
+    "desc": ""
+   },
+   "es": {
+    "name": "Estela",
+    "desc": ""
+   },
+   "it": {
+    "name": "Scia",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Trail",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Trail",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Trail",
+    "desc": ""
+   }
+  },
+  "Trails": {
+   "en": {
+    "name": "Trails",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Trails",
+    "desc": ""
+   },
+   "de": {
+    "name": "Trails",
+    "desc": ""
+   },
+   "es": {
+    "name": "Trails",
+    "desc": ""
+   },
+   "it": {
+    "name": "Trails",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Trails",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Trails",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Trails",
+    "desc": ""
+   }
+  },
+  "Turbulence": {
+   "en": {
+    "name": "Turbulence",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Turbulence",
+    "desc": ""
+   },
+   "de": {
+    "name": "Turbulence",
+    "desc": ""
+   },
+   "es": {
+    "name": "Turbulence",
+    "desc": ""
+   },
+   "it": {
+    "name": "Turbulence",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Turbulence",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Turbulence",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Turbulence",
+    "desc": ""
+   }
+  },
+  "Twin": {
+   "en": {
+    "name": "Twin",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Twin",
+    "desc": ""
+   },
+   "de": {
+    "name": "Twin",
+    "desc": ""
+   },
+   "es": {
+    "name": "Twin",
+    "desc": ""
+   },
+   "it": {
+    "name": "Twin",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Twin",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Twin",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Twin",
+    "desc": ""
+   }
+  },
+  "Twinkle rate": {
+   "en": {
+    "name": "Twinkle rate",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Taux de scintillement",
+    "desc": ""
+   },
+   "de": {
+    "name": "Funkelrate",
+    "desc": ""
+   },
+   "es": {
+    "name": "Tasa de centelleo",
+    "desc": ""
+   },
+   "it": {
+    "name": "Velocità scintillio",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Twinkle rate",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Twinkle rate",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Twinkle rate",
+    "desc": ""
+   }
+  },
+  "US style": {
+   "en": {
+    "name": "US style",
+    "desc": ""
+   },
+   "fr": {
+    "name": "US style",
+    "desc": ""
+   },
+   "de": {
+    "name": "US style",
+    "desc": ""
+   },
+   "es": {
+    "name": "US style",
+    "desc": ""
+   },
+   "it": {
+    "name": "US style",
+    "desc": ""
+   },
+   "ja": {
+    "name": "US style",
+    "desc": ""
+   },
+   "ko": {
+    "name": "US style",
+    "desc": ""
+   },
+   "zh": {
+    "name": "US style",
+    "desc": ""
+   }
+  },
+  "Up/Down": {
+   "en": {
+    "name": "Up/Down",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Up/Down",
+    "desc": ""
+   },
+   "de": {
+    "name": "Up/Down",
+    "desc": ""
+   },
+   "es": {
+    "name": "Up/Down",
+    "desc": ""
+   },
+   "it": {
+    "name": "Up/Down",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Up/Down",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Up/Down",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Up/Down",
+    "desc": ""
+   }
+  },
+  "Variance": {
+   "en": {
+    "name": "Variance",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Variance",
+    "desc": ""
+   },
+   "de": {
+    "name": "Variance",
+    "desc": ""
+   },
+   "es": {
+    "name": "Variance",
+    "desc": ""
+   },
+   "it": {
+    "name": "Variance",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Variance",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Variance",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Variance",
+    "desc": ""
+   }
+  },
+  "Variation": {
+   "en": {
+    "name": "Variation",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Variation",
+    "desc": ""
+   },
+   "de": {
+    "name": "Variation",
+    "desc": ""
+   },
+   "es": {
+    "name": "Variation",
+    "desc": ""
+   },
+   "it": {
+    "name": "Variation",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Variation",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Variation",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Variation",
+    "desc": ""
+   }
+  },
+  "Volume (min)": {
+   "en": {
+    "name": "Volume (min)",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Volume (min)",
+    "desc": ""
+   },
+   "de": {
+    "name": "Volume (min)",
+    "desc": ""
+   },
+   "es": {
+    "name": "Volume (min)",
+    "desc": ""
+   },
+   "it": {
+    "name": "Volume (min)",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Volume (min)",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Volume (min)",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Volume (min)",
+    "desc": ""
+   }
+  },
+  "Walls": {
+   "en": {
+    "name": "Walls",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Walls",
+    "desc": ""
+   },
+   "de": {
+    "name": "Walls",
+    "desc": ""
+   },
+   "es": {
+    "name": "Walls",
+    "desc": ""
+   },
+   "it": {
+    "name": "Walls",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Walls",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Walls",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Walls",
+    "desc": ""
+   }
+  },
+  "Washing Machine": {
+   "en": {
+    "name": "Washing Machine",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Washing Machine",
+    "desc": ""
+   },
+   "de": {
+    "name": "Washing Machine",
+    "desc": ""
+   },
+   "es": {
+    "name": "Washing Machine",
+    "desc": ""
+   },
+   "it": {
+    "name": "Washing Machine",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Washing Machine",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Washing Machine",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Washing Machine",
+    "desc": ""
+   }
+  },
+  "Wave #": {
+   "en": {
+    "name": "Wave #",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Wave #",
+    "desc": ""
+   },
+   "de": {
+    "name": "Wave #",
+    "desc": ""
+   },
+   "es": {
+    "name": "Wave #",
+    "desc": ""
+   },
+   "it": {
+    "name": "Wave #",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Wave #",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Wave #",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Wave #",
+    "desc": ""
+   }
+  },
+  "Wave width": {
+   "en": {
+    "name": "Wave width",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Wave width",
+    "desc": ""
+   },
+   "de": {
+    "name": "Wave width",
+    "desc": ""
+   },
+   "es": {
+    "name": "Wave width",
+    "desc": ""
+   },
+   "it": {
+    "name": "Wave width",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Wave width",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Wave width",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Wave width",
+    "desc": ""
+   }
+  },
+  "Width": {
+   "en": {
+    "name": "Width",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Largeur",
+    "desc": ""
+   },
+   "de": {
+    "name": "Breite",
+    "desc": ""
+   },
+   "es": {
+    "name": "Ancho",
+    "desc": ""
+   },
+   "it": {
+    "name": "Larghezza",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Width",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Width",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Width",
+    "desc": ""
+   }
+  },
+  "Wind": {
+   "en": {
+    "name": "Wind",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Wind",
+    "desc": ""
+   },
+   "de": {
+    "name": "Wind",
+    "desc": ""
+   },
+   "es": {
+    "name": "Wind",
+    "desc": ""
+   },
+   "it": {
+    "name": "Wind",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Wind",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Wind",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Wind",
+    "desc": ""
+   }
+  },
+  "Wobble": {
+   "en": {
+    "name": "Wobble",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Wobble",
+    "desc": ""
+   },
+   "de": {
+    "name": "Wobble",
+    "desc": ""
+   },
+   "es": {
+    "name": "Wobble",
+    "desc": ""
+   },
+   "it": {
+    "name": "Wobble",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Wobble",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Wobble",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Wobble",
+    "desc": ""
+   }
+  },
+  "Wrap": {
+   "en": {
+    "name": "Wrap",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Wrap",
+    "desc": ""
+   },
+   "de": {
+    "name": "Wrap",
+    "desc": ""
+   },
+   "es": {
+    "name": "Wrap",
+    "desc": ""
+   },
+   "it": {
+    "name": "Wrap",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Wrap",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Wrap",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Wrap",
+    "desc": ""
+   }
+  },
+  "X center": {
+   "en": {
+    "name": "X center",
+    "desc": ""
+   },
+   "fr": {
+    "name": "X center",
+    "desc": ""
+   },
+   "de": {
+    "name": "X center",
+    "desc": ""
+   },
+   "es": {
+    "name": "X center",
+    "desc": ""
+   },
+   "it": {
+    "name": "X center",
+    "desc": ""
+   },
+   "ja": {
+    "name": "X center",
+    "desc": ""
+   },
+   "ko": {
+    "name": "X center",
+    "desc": ""
+   },
+   "zh": {
+    "name": "X center",
+    "desc": ""
+   }
+  },
+  "X frequency": {
+   "en": {
+    "name": "X frequency",
+    "desc": ""
+   },
+   "fr": {
+    "name": "X frequency",
+    "desc": ""
+   },
+   "de": {
+    "name": "X frequency",
+    "desc": ""
+   },
+   "es": {
+    "name": "X frequency",
+    "desc": ""
+   },
+   "it": {
+    "name": "X frequency",
+    "desc": ""
+   },
+   "ja": {
+    "name": "X frequency",
+    "desc": ""
+   },
+   "ko": {
+    "name": "X frequency",
+    "desc": ""
+   },
+   "zh": {
+    "name": "X frequency",
+    "desc": ""
+   }
+  },
+  "X scale": {
+   "en": {
+    "name": "X scale",
+    "desc": ""
+   },
+   "fr": {
+    "name": "X scale",
+    "desc": ""
+   },
+   "de": {
+    "name": "X scale",
+    "desc": ""
+   },
+   "es": {
+    "name": "X scale",
+    "desc": ""
+   },
+   "it": {
+    "name": "X scale",
+    "desc": ""
+   },
+   "ja": {
+    "name": "X scale",
+    "desc": ""
+   },
+   "ko": {
+    "name": "X scale",
+    "desc": ""
+   },
+   "zh": {
+    "name": "X scale",
+    "desc": ""
+   }
+  },
+  "XL": {
+   "en": {
+    "name": "XL",
+    "desc": ""
+   },
+   "fr": {
+    "name": "XL",
+    "desc": ""
+   },
+   "de": {
+    "name": "XL",
+    "desc": ""
+   },
+   "es": {
+    "name": "XL",
+    "desc": ""
+   },
+   "it": {
+    "name": "XL",
+    "desc": ""
+   },
+   "ja": {
+    "name": "XL",
+    "desc": ""
+   },
+   "ko": {
+    "name": "XL",
+    "desc": ""
+   },
+   "zh": {
+    "name": "XL",
+    "desc": ""
+   }
+  },
+  "Y Offset": {
+   "en": {
+    "name": "Y Offset",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Y Offset",
+    "desc": ""
+   },
+   "de": {
+    "name": "Y Offset",
+    "desc": ""
+   },
+   "es": {
+    "name": "Y Offset",
+    "desc": ""
+   },
+   "it": {
+    "name": "Y Offset",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Y Offset",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Y Offset",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Y Offset",
+    "desc": ""
+   }
+  },
+  "Y center": {
+   "en": {
+    "name": "Y center",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Y center",
+    "desc": ""
+   },
+   "de": {
+    "name": "Y center",
+    "desc": ""
+   },
+   "es": {
+    "name": "Y center",
+    "desc": ""
+   },
+   "it": {
+    "name": "Y center",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Y center",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Y center",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Y center",
+    "desc": ""
+   }
+  },
+  "Y frequency": {
+   "en": {
+    "name": "Y frequency",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Y frequency",
+    "desc": ""
+   },
+   "de": {
+    "name": "Y frequency",
+    "desc": ""
+   },
+   "es": {
+    "name": "Y frequency",
+    "desc": ""
+   },
+   "it": {
+    "name": "Y frequency",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Y frequency",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Y frequency",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Y frequency",
+    "desc": ""
+   }
+  },
+  "Y scale": {
+   "en": {
+    "name": "Y scale",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Y scale",
+    "desc": ""
+   },
+   "de": {
+    "name": "Y scale",
+    "desc": ""
+   },
+   "es": {
+    "name": "Y scale",
+    "desc": ""
+   },
+   "it": {
+    "name": "Y scale",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Y scale",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Y scale",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Y scale",
+    "desc": ""
+   }
+  },
+  "Zebra": {
+   "en": {
+    "name": "Zebra",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Zebra",
+    "desc": ""
+   },
+   "de": {
+    "name": "Zebra",
+    "desc": ""
+   },
+   "es": {
+    "name": "Zebra",
+    "desc": ""
+   },
+   "it": {
+    "name": "Zebra",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Zebra",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Zebra",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Zebra",
+    "desc": ""
+   }
+  },
+  "Zone size": {
+   "en": {
+    "name": "Zone size",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Zone size",
+    "desc": ""
+   },
+   "de": {
+    "name": "Zone size",
+    "desc": ""
+   },
+   "es": {
+    "name": "Zone size",
+    "desc": ""
+   },
+   "it": {
+    "name": "Zone size",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Zone size",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Zone size",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Zone size",
+    "desc": ""
+   }
+  },
+  "Zones": {
+   "en": {
+    "name": "Zones",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Zones",
+    "desc": ""
+   },
+   "de": {
+    "name": "Zonen",
+    "desc": ""
+   },
+   "es": {
+    "name": "Zonas",
+    "desc": ""
+   },
+   "it": {
+    "name": "Zone",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Zones",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Zones",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Zones",
+    "desc": ""
+   }
+  },
+  "Zoom": {
+   "en": {
+    "name": "Zoom",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Zoom",
+    "desc": ""
+   },
+   "de": {
+    "name": "Zoom",
+    "desc": ""
+   },
+   "es": {
+    "name": "Zoom",
+    "desc": ""
+   },
+   "it": {
+    "name": "Zoom",
+    "desc": ""
+   },
+   "ja": {
+    "name": "Zoom",
+    "desc": ""
+   },
+   "ko": {
+    "name": "Zoom",
+    "desc": ""
+   },
+   "zh": {
+    "name": "Zoom",
+    "desc": ""
+   }
+  },
+  "fasttan": {
+   "en": {
+    "name": "fasttan",
+    "desc": ""
+   },
+   "fr": {
+    "name": "fasttan",
+    "desc": ""
+   },
+   "de": {
+    "name": "fasttan",
+    "desc": ""
+   },
+   "es": {
+    "name": "fasttan",
+    "desc": ""
+   },
+   "it": {
+    "name": "fasttan",
+    "desc": ""
+   },
+   "ja": {
+    "name": "fasttan",
+    "desc": ""
+   },
+   "ko": {
+    "name": "fasttan",
+    "desc": ""
+   },
+   "zh": {
+    "name": "fasttan",
+    "desc": ""
+   }
+  }
+ }
+}
