@@ -8,6 +8,8 @@
 - [段](segment.md)
 - [按钮](buttons.md)
 - [滑块](fxdata.md)
+- [信息字段](info.md)
+- [界面标签](ui.md)
 
 ---
 

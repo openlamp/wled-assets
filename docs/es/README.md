@@ -8,6 +8,8 @@
 - [Segmento](segment.md)
 - [Botones](buttons.md)
 - [Deslizadores](fxdata.md)
+- [Campos de info](info.md)
+- [Etiquetas de IU](ui.md)
 
 ---
 

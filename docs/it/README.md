@@ -8,6 +8,8 @@
 - [Segmento](segment.md)
 - [Pulsanti](buttons.md)
 - [Cursori effetto](fxdata.md)
+- [Campi info](info.md)
+- [Etichette UI](ui.md)
 
 ---
 

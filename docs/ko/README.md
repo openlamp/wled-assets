@@ -8,6 +8,8 @@
 - [세그먼트](segment.md)
 - [버튼](buttons.md)
 - [슬라이더](fxdata.md)
+- [정보 항목](info.md)
+- [UI 라벨](ui.md)
 
 ---
 

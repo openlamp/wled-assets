@@ -1,6 +1,6 @@
 # WLED 슬라이더
 
-[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · [색](colors.md) · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · **슬라이더** &nbsp;•&nbsp; [한국어 참조](README.md)
+[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · [색](colors.md) · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · **슬라이더** · [정보 항목](info.md) · [UI 라벨](ui.md) &nbsp;•&nbsp; [한국어 참조](README.md)
 
 <sub>다른 언어: [EN](../en/fxdata.md) · [FR](../fr/fxdata.md) · [DE](../de/fxdata.md) · [ES](../es/fxdata.md) · [IT](../it/fxdata.md) · [JA](../ja/fxdata.md) · [ZH](../zh/fxdata.md)</sub>
 

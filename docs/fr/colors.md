@@ -1,6 +1,6 @@
 # WLED Couleurs
 
-[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · **Couleurs** · [Veilleuse](nightlight.md) · [Segment](segment.md) · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) &nbsp;•&nbsp; [Référence en français](README.md)
+[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · **Couleurs** · [Veilleuse](nightlight.md) · [Segment](segment.md) · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
 
 <sub>Autres langues: [EN](../en/colors.md) · [DE](../de/colors.md) · [ES](../es/colors.md) · [IT](../it/colors.md) · [JA](../ja/colors.md) · [KO](../ko/colors.md) · [ZH](../zh/colors.md)</sub>
 
