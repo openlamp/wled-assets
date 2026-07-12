@@ -1,6 +1,6 @@
 # WLED 夜灯
 
-[调色板](palettes.md) · [效果](effects.md) · [控件](controls.md) · **夜灯** · [段](segment.md) · [按钮](buttons.md) · [滑块](fxdata.md) · [信息字段](info.md) · [界面标签](ui.md) &nbsp;•&nbsp; [中文参考](README.md)
+[调色板](palettes.md) · [效果](effects.md) · [控件](controls.md) · **夜灯** · [段](segment.md) · [按钮](buttons.md) · [按钮事件](button-events.md) · [预设](presets.md) · [滑块](fxdata.md) · [信息字段](info.md) · [界面标签](ui.md) &nbsp;•&nbsp; [中文参考](README.md)
 
 <sub>其他语言: [EN](../en/nightlight.md) · [FR](../fr/nightlight.md) · [DE](../de/nightlight.md) · [ES](../es/nightlight.md) · [IT](../it/nightlight.md) · [JA](../ja/nightlight.md) · [KO](../ko/nightlight.md)</sub>
 

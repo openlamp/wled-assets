@@ -1,0 +1,107 @@
+{
+ "_note": "WLED button EVENT types — the trigger, not the wiring. Each fires a preset/action per btn[].macros. Key = English name; per-language {name, desc}.",
+ "entries": {
+  "Short press": {
+   "en": {
+    "name": "Short press",
+    "desc": "A quick press-and-release. In WLED it fires the button's short-press action (`btn[].macros[0]`)."
+   },
+   "fr": {
+    "name": "Appui court",
+    "desc": "Un appui bref relâché aussitôt. Déclenche l'action d'appui court du bouton (`btn[].macros[0]`)."
+   },
+   "de": {
+    "name": "Kurzer Druck",
+    "desc": "Kurzes Drücken und Loslassen — löst die Kurz-Aktion der Taste aus (`btn[].macros[0]`)."
+   },
+   "es": {
+    "name": "Pulsación corta",
+    "desc": "Pulsar y soltar rápido — dispara la acción de pulsación corta (`btn[].macros[0]`)."
+   },
+   "it": {
+    "name": "Pressione breve",
+    "desc": "Premi e rilascia rapido — attiva l'azione di pressione breve (`btn[].macros[0]`)."
+   },
+   "ja": {
+    "name": "短押し",
+    "desc": "素早く押して離す——ボタンの短押し動作(`btn[].macros[0]`)。"
+   },
+   "ko": {
+    "name": "짧게 누름",
+    "desc": "빠르게 눌렀다 뗌——버튼의 짧게 누름 동작(`btn[].macros[0]`)."
+   },
+   "zh": {
+    "name": "短按",
+    "desc": "快速按下松开——触发按钮短按动作(`btn[].macros[0]`)。"
+   }
+  },
+  "Long press": {
+   "en": {
+    "name": "Long press",
+    "desc": "Holding the button. Fires the long-press action (`btn[].macros[1]`); by default it changes brightness."
+   },
+   "fr": {
+    "name": "Appui long",
+    "desc": "Bouton maintenu. Déclenche l'action d'appui long (`btn[].macros[1]`) ; par défaut règle la luminosité."
+   },
+   "de": {
+    "name": "Langer Druck",
+    "desc": "Taste gehalten — löst die Lang-Aktion aus (`btn[].macros[1]`); ändert standardmäßig die Helligkeit."
+   },
+   "es": {
+    "name": "Pulsación larga",
+    "desc": "Botón mantenido — acción de pulsación larga (`btn[].macros[1]`); por defecto cambia el brillo."
+   },
+   "it": {
+    "name": "Pressione lunga",
+    "desc": "Pulsante tenuto — azione di pressione lunga (`btn[].macros[1]`); di default regola la luminosità."
+   },
+   "ja": {
+    "name": "長押し",
+    "desc": "押し続ける——長押し動作(`btn[].macros[1]`)。既定では明るさを変更。"
+   },
+   "ko": {
+    "name": "길게 누름",
+    "desc": "길게 누름——길게 누름 동작(`btn[].macros[1]`). 기본은 밝기 조절."
+   },
+   "zh": {
+    "name": "长按",
+    "desc": "按住不放——长按动作(`btn[].macros[1]`)；默认调节亮度。"
+   }
+  },
+  "Double press": {
+   "en": {
+    "name": "Double press",
+    "desc": "Two quick presses. Fires the double-press action (`btn[].macros[2]`)."
+   },
+   "fr": {
+    "name": "Double appui",
+    "desc": "Deux appuis rapprochés. Déclenche l'action de double appui (`btn[].macros[2]`)."
+   },
+   "de": {
+    "name": "Doppelter Druck",
+    "desc": "Zwei schnelle Drücke — löst die Doppel-Aktion aus (`btn[].macros[2]`)."
+   },
+   "es": {
+    "name": "Doble pulsación",
+    "desc": "Dos pulsaciones rápidas — acción de doble pulsación (`btn[].macros[2]`)."
+   },
+   "it": {
+    "name": "Doppia pressione",
+    "desc": "Due pressioni rapide — azione di doppia pressione (`btn[].macros[2]`)."
+   },
+   "ja": {
+    "name": "ダブル押し",
+    "desc": "素早く2回押す——ダブル押し動作(`btn[].macros[2]`)。"
+   },
+   "ko": {
+    "name": "두 번 누름",
+    "desc": "빠르게 두 번 누름——두 번 누름 동작(`btn[].macros[2]`)."
+   },
+   "zh": {
+    "name": "双按",
+    "desc": "快速按两次——双按动作(`btn[].macros[2]`)。"
+   }
+  }
+ }
+}

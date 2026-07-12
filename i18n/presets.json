@@ -1,0 +1,447 @@
+{
+ "_note": "WLED preset & playlist OPTION labels — the standard UI for creating presets/playlists (NOT the user's own preset names, which are personal data). Key = English label; per-language {name, desc}.",
+ "entries": {
+  "Save preset": {
+   "en": {
+    "name": "Save preset",
+    "desc": "Store the current look as a numbered preset."
+   },
+   "fr": {
+    "name": "Enregistrer le preset",
+    "desc": "Store the current look as a numbered preset."
+   },
+   "de": {
+    "name": "Preset speichern",
+    "desc": "Store the current look as a numbered preset."
+   },
+   "es": {
+    "name": "Guardar preset",
+    "desc": "Store the current look as a numbered preset."
+   },
+   "it": {
+    "name": "Salva preset",
+    "desc": "Store the current look as a numbered preset."
+   },
+   "ja": {
+    "name": "プリセット保存",
+    "desc": "Store the current look as a numbered preset."
+   },
+   "ko": {
+    "name": "프리셋 저장",
+    "desc": "Store the current look as a numbered preset."
+   },
+   "zh": {
+    "name": "保存预设",
+    "desc": "Store the current look as a numbered preset."
+   }
+  },
+  "Preset name": {
+   "en": {
+    "name": "Preset name",
+    "desc": "The label a preset appears under."
+   },
+   "fr": {
+    "name": "Nom du preset",
+    "desc": "The label a preset appears under."
+   },
+   "de": {
+    "name": "Preset-Name",
+    "desc": "The label a preset appears under."
+   },
+   "es": {
+    "name": "Nombre del preset",
+    "desc": "The label a preset appears under."
+   },
+   "it": {
+    "name": "Nome del preset",
+    "desc": "The label a preset appears under."
+   },
+   "ja": {
+    "name": "プリセット名",
+    "desc": "The label a preset appears under."
+   },
+   "ko": {
+    "name": "프리셋 이름",
+    "desc": "The label a preset appears under."
+   },
+   "zh": {
+    "name": "预设名称",
+    "desc": "The label a preset appears under."
+   }
+  },
+  "Quick load label": {
+   "en": {
+    "name": "Quick load label",
+    "desc": "A 1-2 character tag (QLL) for the quick-select bar."
+   },
+   "fr": {
+    "name": "Étiquette d'accès rapide",
+    "desc": "A 1-2 character tag (QLL) for the quick-select bar."
+   },
+   "de": {
+    "name": "Schnellzugriff-Kürzel",
+    "desc": "A 1-2 character tag (QLL) for the quick-select bar."
+   },
+   "es": {
+    "name": "Etiqueta de acceso rápido",
+    "desc": "A 1-2 character tag (QLL) for the quick-select bar."
+   },
+   "it": {
+    "name": "Etichetta accesso rapido",
+    "desc": "A 1-2 character tag (QLL) for the quick-select bar."
+   },
+   "ja": {
+    "name": "クイックロードラベル",
+    "desc": "A 1-2 character tag (QLL) for the quick-select bar."
+   },
+   "ko": {
+    "name": "빠른 실행 라벨",
+    "desc": "A 1-2 character tag (QLL) for the quick-select bar."
+   },
+   "zh": {
+    "name": "快速加载标签",
+    "desc": "A 1-2 character tag (QLL) for the quick-select bar."
+   }
+  },
+  "Include brightness": {
+   "en": {
+    "name": "Include brightness",
+    "desc": "Whether recalling the preset also sets brightness."
+   },
+   "fr": {
+    "name": "Inclure la luminosité",
+    "desc": "Whether recalling the preset also sets brightness."
+   },
+   "de": {
+    "name": "Helligkeit einbeziehen",
+    "desc": "Whether recalling the preset also sets brightness."
+   },
+   "es": {
+    "name": "Incluir brillo",
+    "desc": "Whether recalling the preset also sets brightness."
+   },
+   "it": {
+    "name": "Includi luminosità",
+    "desc": "Whether recalling the preset also sets brightness."
+   },
+   "ja": {
+    "name": "明るさを含める",
+    "desc": "Whether recalling the preset also sets brightness."
+   },
+   "ko": {
+    "name": "밝기 포함",
+    "desc": "Whether recalling the preset also sets brightness."
+   },
+   "zh": {
+    "name": "包含亮度",
+    "desc": "Whether recalling the preset also sets brightness."
+   }
+  },
+  "Save segment bounds": {
+   "en": {
+    "name": "Save segment bounds",
+    "desc": "Store each segment's start/stop, not just its style."
+   },
+   "fr": {
+    "name": "Enregistrer les bornes de segment",
+    "desc": "Store each segment's start/stop, not just its style."
+   },
+   "de": {
+    "name": "Segmentgrenzen speichern",
+    "desc": "Store each segment's start/stop, not just its style."
+   },
+   "es": {
+    "name": "Guardar límites de segmento",
+    "desc": "Store each segment's start/stop, not just its style."
+   },
+   "it": {
+    "name": "Salva confini segmento",
+    "desc": "Store each segment's start/stop, not just its style."
+   },
+   "ja": {
+    "name": "セグメント範囲を保存",
+    "desc": "Store each segment's start/stop, not just its style."
+   },
+   "ko": {
+    "name": "세그먼트 범위 저장",
+    "desc": "Store each segment's start/stop, not just its style."
+   },
+   "zh": {
+    "name": "保存段边界",
+    "desc": "Store each segment's start/stop, not just its style."
+   }
+  },
+  "Use current state": {
+   "en": {
+    "name": "Use current state",
+    "desc": "Snapshot the live light state into the preset."
+   },
+   "fr": {
+    "name": "Utiliser l'état actuel",
+    "desc": "Snapshot the live light state into the preset."
+   },
+   "de": {
+    "name": "Aktuellen Zustand verwenden",
+    "desc": "Snapshot the live light state into the preset."
+   },
+   "es": {
+    "name": "Usar estado actual",
+    "desc": "Snapshot the live light state into the preset."
+   },
+   "it": {
+    "name": "Usa stato attuale",
+    "desc": "Snapshot the live light state into the preset."
+   },
+   "ja": {
+    "name": "現在の状態を使用",
+    "desc": "Snapshot the live light state into the preset."
+   },
+   "ko": {
+    "name": "현재 상태 사용",
+    "desc": "Snapshot the live light state into the preset."
+   },
+   "zh": {
+    "name": "使用当前状态",
+    "desc": "Snapshot the live light state into the preset."
+   }
+  },
+  "API command": {
+   "en": {
+    "name": "API command",
+    "desc": "Store a raw HTTP/JSON API call instead of a state snapshot."
+   },
+   "fr": {
+    "name": "Commande API",
+    "desc": "Store a raw HTTP/JSON API call instead of a state snapshot."
+   },
+   "de": {
+    "name": "API-Befehl",
+    "desc": "Store a raw HTTP/JSON API call instead of a state snapshot."
+   },
+   "es": {
+    "name": "Comando API",
+    "desc": "Store a raw HTTP/JSON API call instead of a state snapshot."
+   },
+   "it": {
+    "name": "Comando API",
+    "desc": "Store a raw HTTP/JSON API call instead of a state snapshot."
+   },
+   "ja": {
+    "name": "APIコマンド",
+    "desc": "Store a raw HTTP/JSON API call instead of a state snapshot."
+   },
+   "ko": {
+    "name": "API 명령",
+    "desc": "Store a raw HTTP/JSON API call instead of a state snapshot."
+   },
+   "zh": {
+    "name": "API 命令",
+    "desc": "Store a raw HTTP/JSON API call instead of a state snapshot."
+   }
+  },
+  "Playlist": {
+   "en": {
+    "name": "Playlist",
+    "desc": "A preset that cycles through other presets."
+   },
+   "fr": {
+    "name": "Playlist",
+    "desc": "A preset that cycles through other presets."
+   },
+   "de": {
+    "name": "Wiedergabeliste",
+    "desc": "A preset that cycles through other presets."
+   },
+   "es": {
+    "name": "Lista de reproducción",
+    "desc": "A preset that cycles through other presets."
+   },
+   "it": {
+    "name": "Playlist",
+    "desc": "A preset that cycles through other presets."
+   },
+   "ja": {
+    "name": "プレイリスト",
+    "desc": "A preset that cycles through other presets."
+   },
+   "ko": {
+    "name": "재생목록",
+    "desc": "A preset that cycles through other presets."
+   },
+   "zh": {
+    "name": "播放列表",
+    "desc": "A preset that cycles through other presets."
+   }
+  },
+  "Duration": {
+   "en": {
+    "name": "Duration",
+    "desc": "How long each playlist entry plays."
+   },
+   "fr": {
+    "name": "Durée",
+    "desc": "How long each playlist entry plays."
+   },
+   "de": {
+    "name": "Dauer",
+    "desc": "How long each playlist entry plays."
+   },
+   "es": {
+    "name": "Duración",
+    "desc": "How long each playlist entry plays."
+   },
+   "it": {
+    "name": "Durata",
+    "desc": "How long each playlist entry plays."
+   },
+   "ja": {
+    "name": "再生時間",
+    "desc": "How long each playlist entry plays."
+   },
+   "ko": {
+    "name": "지속 시간",
+    "desc": "How long each playlist entry plays."
+   },
+   "zh": {
+    "name": "时长",
+    "desc": "How long each playlist entry plays."
+   }
+  },
+  "Transition": {
+   "en": {
+    "name": "Transition",
+    "desc": "Crossfade time between playlist entries."
+   },
+   "fr": {
+    "name": "Transition",
+    "desc": "Crossfade time between playlist entries."
+   },
+   "de": {
+    "name": "Übergang",
+    "desc": "Crossfade time between playlist entries."
+   },
+   "es": {
+    "name": "Transición",
+    "desc": "Crossfade time between playlist entries."
+   },
+   "it": {
+    "name": "Transizione",
+    "desc": "Crossfade time between playlist entries."
+   },
+   "ja": {
+    "name": "トランジション",
+    "desc": "Crossfade time between playlist entries."
+   },
+   "ko": {
+    "name": "전환",
+    "desc": "Crossfade time between playlist entries."
+   },
+   "zh": {
+    "name": "过渡",
+    "desc": "Crossfade time between playlist entries."
+   }
+  },
+  "Repeat": {
+   "en": {
+    "name": "Repeat",
+    "desc": "How many times the playlist loops (0 = forever)."
+   },
+   "fr": {
+    "name": "Répéter",
+    "desc": "How many times the playlist loops (0 = forever)."
+   },
+   "de": {
+    "name": "Wiederholen",
+    "desc": "How many times the playlist loops (0 = forever)."
+   },
+   "es": {
+    "name": "Repetir",
+    "desc": "How many times the playlist loops (0 = forever)."
+   },
+   "it": {
+    "name": "Ripeti",
+    "desc": "How many times the playlist loops (0 = forever)."
+   },
+   "ja": {
+    "name": "繰り返し",
+    "desc": "How many times the playlist loops (0 = forever)."
+   },
+   "ko": {
+    "name": "반복",
+    "desc": "How many times the playlist loops (0 = forever)."
+   },
+   "zh": {
+    "name": "重复",
+    "desc": "How many times the playlist loops (0 = forever)."
+   }
+  },
+  "Shuffle": {
+   "en": {
+    "name": "Shuffle",
+    "desc": "Play the playlist entries in random order."
+   },
+   "fr": {
+    "name": "Aléatoire",
+    "desc": "Play the playlist entries in random order."
+   },
+   "de": {
+    "name": "Zufall",
+    "desc": "Play the playlist entries in random order."
+   },
+   "es": {
+    "name": "Aleatorio",
+    "desc": "Play the playlist entries in random order."
+   },
+   "it": {
+    "name": "Casuale",
+    "desc": "Play the playlist entries in random order."
+   },
+   "ja": {
+    "name": "シャッフル",
+    "desc": "Play the playlist entries in random order."
+   },
+   "ko": {
+    "name": "셔플",
+    "desc": "Play the playlist entries in random order."
+   },
+   "zh": {
+    "name": "随机",
+    "desc": "Play the playlist entries in random order."
+   }
+  },
+  "End preset": {
+   "en": {
+    "name": "End preset",
+    "desc": "The preset to apply when the playlist finishes."
+   },
+   "fr": {
+    "name": "Preset de fin",
+    "desc": "The preset to apply when the playlist finishes."
+   },
+   "de": {
+    "name": "End-Preset",
+    "desc": "The preset to apply when the playlist finishes."
+   },
+   "es": {
+    "name": "Preset final",
+    "desc": "The preset to apply when the playlist finishes."
+   },
+   "it": {
+    "name": "Preset finale",
+    "desc": "The preset to apply when the playlist finishes."
+   },
+   "ja": {
+    "name": "終了プリセット",
+    "desc": "The preset to apply when the playlist finishes."
+   },
+   "ko": {
+    "name": "종료 프리셋",
+    "desc": "The preset to apply when the playlist finishes."
+   },
+   "zh": {
+    "name": "结束预设",
+    "desc": "The preset to apply when the playlist finishes."
+   }
+  }
+ }
+}

@@ -1,6 +1,6 @@
 # WLED UI 라벨
 
-[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) · [정보 항목](info.md) · **UI 라벨** &nbsp;•&nbsp; [한국어 참조](README.md)
+[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · [버튼 이벤트](button-events.md) · [프리셋](presets.md) · [슬라이더](fxdata.md) · [정보 항목](info.md) · **UI 라벨** &nbsp;•&nbsp; [한국어 참조](README.md)
 
 <sub>다른 언어: [EN](../en/ui.md) · [FR](../fr/ui.md) · [DE](../de/ui.md) · [ES](../es/ui.md) · [IT](../it/ui.md) · [JA](../ja/ui.md) · [ZH](../zh/ui.md)</sub>
 

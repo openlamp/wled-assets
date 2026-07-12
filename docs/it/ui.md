@@ -1,6 +1,6 @@
 # WLED Etichette UI
 
-[Tavolozze](palettes.md) · [Effetti](effects.md) · [Controlli](controls.md) · [Luce notturna](nightlight.md) · [Segmento](segment.md) · [Pulsanti](buttons.md) · [Cursori effetto](fxdata.md) · [Campi info](info.md) · **Etichette UI** &nbsp;•&nbsp; [Riferimento in italiano](README.md)
+[Tavolozze](palettes.md) · [Effetti](effects.md) · [Controlli](controls.md) · [Luce notturna](nightlight.md) · [Segmento](segment.md) · [Pulsanti](buttons.md) · [Eventi pulsante](button-events.md) · [Preset](presets.md) · [Cursori effetto](fxdata.md) · [Campi info](info.md) · **Etichette UI** &nbsp;•&nbsp; [Riferimento in italiano](README.md)
 
 <sub>Altre lingue: [EN](../en/ui.md) · [FR](../fr/ui.md) · [DE](../de/ui.md) · [ES](../es/ui.md) · [JA](../ja/ui.md) · [KO](../ko/ui.md) · [ZH](../zh/ui.md)</sub>
 

@@ -1,6 +1,6 @@
 # WLED Champs Info
 
-[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · [Veilleuse](nightlight.md) · [Segment](segment.md) · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) · **Champs Info** · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
+[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · [Veilleuse](nightlight.md) · [Segment](segment.md) · [Boutons](buttons.md) · [Événements bouton](button-events.md) · [Préréglages](presets.md) · [Curseurs d'effet](fxdata.md) · **Champs Info** · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
 
 <sub>Autres langues: [EN](../en/info.md) · [DE](../de/info.md) · [ES](../es/info.md) · [IT](../it/info.md) · [JA](../ja/info.md) · [KO](../ko/info.md) · [ZH](../zh/info.md)</sub>
 

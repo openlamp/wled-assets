@@ -1,6 +1,6 @@
 # WLED UI labels
 
-[Palettes](palettes.md) · [Effects](effects.md) · [Controls](controls.md) · [Nightlight](nightlight.md) · [Segment](segment.md) · [Buttons](buttons.md) · [Effect sliders](fxdata.md) · [Info fields](info.md) · **UI labels** &nbsp;•&nbsp; [Reference in English](README.md)
+[Palettes](palettes.md) · [Effects](effects.md) · [Controls](controls.md) · [Nightlight](nightlight.md) · [Segment](segment.md) · [Buttons](buttons.md) · [Button events](button-events.md) · [Presets](presets.md) · [Effect sliders](fxdata.md) · [Info fields](info.md) · **UI labels** &nbsp;•&nbsp; [Reference in English](README.md)
 
 <sub>Other languages: [FR](../fr/ui.md) · [DE](../de/ui.md) · [ES](../es/ui.md) · [IT](../it/ui.md) · [JA](../ja/ui.md) · [KO](../ko/ui.md) · [ZH](../zh/ui.md)</sub>
 

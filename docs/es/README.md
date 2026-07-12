@@ -6,6 +6,8 @@
 - <img src="../../images/concepts/nightlight.png" width="22" align="center"> [Luz nocturna](nightlight.md)
 - <img src="../../images/concepts/segment.png" width="22" align="center"> [Segmento](segment.md)
 - <img src="../../images/concepts/buttons.png" width="22" align="center"> [Botones](buttons.md)
+- <img src="../../images/concepts/button-events.png" width="22" align="center"> [Eventos de botón](button-events.md)
+- <img src="../../images/concepts/presets.png" width="22" align="center"> [Presets](presets.md)
 - <img src="../../images/concepts/fxdata.png" width="22" align="center"> [Deslizadores](fxdata.md)
 - <img src="../../images/concepts/info.png" width="22" align="center"> [Campos de info](info.md)
 - <img src="../../images/concepts/ui.png" width="22" align="center"> [Etiquetas de IU](ui.md)

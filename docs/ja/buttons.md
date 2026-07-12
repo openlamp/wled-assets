@@ -1,6 +1,6 @@
 # WLED ボタン
 
-[パレット](palettes.md) · [エフェクト](effects.md) · [コントロール](controls.md) · [ナイトライト](nightlight.md) · [セグメント](segment.md) · **ボタン** · [スライダー](fxdata.md) · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
+[パレット](palettes.md) · [エフェクト](effects.md) · [コントロール](controls.md) · [ナイトライト](nightlight.md) · [セグメント](segment.md) · **ボタン** · [ボタンイベント](button-events.md) · [プリセット](presets.md) · [スライダー](fxdata.md) · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
 
 <sub>他の言語: [EN](../en/buttons.md) · [FR](../fr/buttons.md) · [DE](../de/buttons.md) · [ES](../es/buttons.md) · [IT](../it/buttons.md) · [KO](../ko/buttons.md) · [ZH](../zh/buttons.md)</sub>
 
