@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="frost" data-gradient="horizontal">
+  <!-- Reusable stencil for the WLED palette "frost". Fill by injecting the palette's
+       own colours (from /json/palx) as stops into #grad below. Details in #1a1a1a
+       carve features. Gradient direction: horizontal. -->
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
+  </linearGradient></defs>
+  <g fill="url(#grad)"><g stroke="url(#grad)" stroke-width="9" stroke-linecap="round"><line x1="72" y1="22" x2="72" y2="122"/><line x1="29" y1="47" x2="115" y2="97"/><line x1="115" y1="47" x2="29" y2="97"/></g></g>
+</svg>

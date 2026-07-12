@@ -1,0 +1,95 @@
+{
+ "note": "Descriptions of the 9 WLED effect MOTION families (see animations/families.json for how each effect name maps to a family).",
+ "families": {
+  "wave": {
+   "fr": "Une vague de couleur parcourt le ruban.",
+   "en": "A colour wave travels along the strip.",
+   "de": "Eine Farbwelle wandert über den Streifen.",
+   "es": "Una onda de color recorre la tira.",
+   "it": "Un'onda di colore percorre la striscia.",
+   "ja": "色の波がストリップを流れる。",
+   "ko": "색의 물결이 스트립을 따라 흐른다.",
+   "zh": "色彩波沿灯带流动。"
+  },
+  "chase": {
+   "fr": "Un point lumineux balaie le ruban (poursuite).",
+   "en": "A point of light sweeps along (a chase).",
+   "de": "Ein Lichtpunkt zieht entlang (Verfolgung).",
+   "es": "Un punto de luz recorre la tira (persecución).",
+   "it": "Un punto luminoso scorre (inseguimento).",
+   "ja": "光点が走る(チェイス)。",
+   "ko": "빛점이 훑고 지나간다(체이스).",
+   "zh": "一个光点扫过（追逐）。"
+  },
+  "sparkle": {
+   "fr": "Des points scintillent au hasard.",
+   "en": "Points twinkle on and off at random.",
+   "de": "Punkte funkeln zufällig auf und ab.",
+   "es": "Puntos que centellean al azar.",
+   "it": "Punti che scintillano a caso.",
+   "ja": "点がランダムに瞬く。",
+   "ko": "점들이 무작위로 반짝인다.",
+   "zh": "光点随机闪烁。"
+  },
+  "rainbow": {
+   "fr": "Le spectre complet défile.",
+   "en": "The full spectrum cycles through.",
+   "de": "Das volle Spektrum läuft durch.",
+   "es": "El espectro completo se desplaza.",
+   "it": "L'intero spettro scorre.",
+   "ja": "全スペクトルが巡る。",
+   "ko": "전체 스펙트럼이 순환한다.",
+   "zh": "完整光谱循环流动。"
+  },
+  "breathe": {
+   "fr": "La luminosité enfle et retombe (respiration).",
+   "en": "Brightness swells and fades (breathing).",
+   "de": "Die Helligkeit schwillt an und ab (Atmen).",
+   "es": "El brillo crece y decae (respiración).",
+   "it": "La luminosità cresce e cala (respiro).",
+   "ja": "明るさが強弱する(呼吸)。",
+   "ko": "밝기가 커졌다 작아진다(호흡).",
+   "zh": "亮度起伏（呼吸）。"
+  },
+  "fire": {
+   "fr": "Des tons chauds vacillent comme des flammes.",
+   "en": "Warm tones flicker like flames.",
+   "de": "Warme Töne flackern wie Flammen.",
+   "es": "Tonos cálidos titilan como llamas.",
+   "it": "Toni caldi tremolano come fiamme.",
+   "ja": "暖色が炎のように揺らめく。",
+   "ko": "따뜻한 색이 불꽃처럼 일렁인다.",
+   "zh": "暖色如火焰般跳动。"
+  },
+  "rain": {
+   "fr": "Des points tombent comme la pluie.",
+   "en": "Points fall like rain.",
+   "de": "Punkte fallen wie Regen.",
+   "es": "Puntos que caen como lluvia.",
+   "it": "Punti che cadono come pioggia.",
+   "ja": "点が雨のように落ちる。",
+   "ko": "점들이 비처럼 떨어진다.",
+   "zh": "光点如雨落下。"
+  },
+  "strobe": {
+   "fr": "Des éclairs nets, allumé/éteint.",
+   "en": "Sharp flashes, on and off.",
+   "de": "Scharfe Blitze, an und aus.",
+   "es": "Destellos nítidos, encendido/apagado.",
+   "it": "Lampi netti, acceso/spento.",
+   "ja": "鋭い点滅。",
+   "ko": "날카로운 점멸.",
+   "zh": "急促闪烁，忽明忽灭。"
+  },
+  "solid": {
+   "fr": "Une couleur unie et stable.",
+   "en": "A single steady colour.",
+   "de": "Eine einzelne, ruhige Farbe.",
+   "es": "Un color fijo y uniforme.",
+   "it": "Un unico colore fisso.",
+   "ja": "単一の安定した色。",
+   "ko": "단일한 고정 색.",
+   "zh": "单一稳定的颜色。"
+  }
+ }
+}

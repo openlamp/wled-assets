@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="jul" data-gradient="vertical">
+  <!-- Reusable stencil for the WLED palette "jul". Fill by injecting the palette's
+       own colours (from /json/palx) as stops into #grad below. Details in #1a1a1a
+       carve features. Gradient direction: vertical. -->
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
+  </linearGradient></defs>
+  <g fill="url(#grad)"><path d="M72 20 l6 14 -12 0 z"/><path d="M72 34 L92 64 L82 64 L102 92 L86 92 L106 118 L38 118 L58 92 L42 92 L62 64 L52 64 Z"/><rect x="66" y="118" width="12" height="12"/></g>
+</svg>

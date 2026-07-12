@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="drywet" data-gradient="vertical">
+  <!-- Reusable stencil for the WLED palette "drywet". Fill by injecting the palette's
+       own colours (from /json/palx) as stops into #grad below. Details in #1a1a1a
+       carve features. Gradient direction: vertical. -->
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
+  </linearGradient></defs>
+  <g fill="url(#grad)"><path d="M72 24 C96 60 104 78 92 100 C104 94 106 82 102 74 C120 104 106 128 72 128 C40 128 26 100 48 78 Z"/></g>
+</svg>

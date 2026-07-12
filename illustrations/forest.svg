@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="forest" data-gradient="vertical">
+  <!-- Reusable stencil for the WLED palette "forest". Fill by injecting the palette's
+       own colours (from /json/palx) as stops into #grad below. Details in #1a1a1a
+       carve features. Gradient direction: vertical. -->
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
+  </linearGradient></defs>
+  <g fill="url(#grad)"><path d="M40 122 L20 122 L34 92 L26 92 L42 60 L34 60 L52 30 L70 60 L62 60 L78 92 L70 92 L84 122 Z"/><rect x="48" y="118" width="8" height="14"/></g>
+</svg>

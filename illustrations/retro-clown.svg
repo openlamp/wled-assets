@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="retro clown" data-gradient="vertical">
+  <!-- Reusable stencil for the WLED palette "retro clown". Fill by injecting the palette's
+       own colours (from /json/palx) as stops into #grad below. Details in #1a1a1a
+       carve features. Gradient direction: vertical. -->
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
+  </linearGradient></defs>
+  <g fill="url(#grad)"><path d="M56 52 L72 26 L88 52 Z"/><circle cx="36" cy="70" r="12"/><circle cx="28" cy="86" r="10"/><circle cx="108" cy="70" r="12"/><circle cx="116" cy="86" r="10"/><circle cx="72" cy="82" r="34"/><circle cx="60" cy="74" r="5" fill="#1a1a1a"/><circle cx="84" cy="74" r="5" fill="#1a1a1a"/><circle cx="72" cy="88" r="8" fill="#1a1a1a"/><path d="M56 98 Q72 112 88 98" fill="none" stroke="#1a1a1a" stroke-width="5"/></g>
+</svg>
