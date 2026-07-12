@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WLED web-UI localization — proof of concept (wled-assets)</title>
+<style>
+  :root{--bg:#0d0f13;--card:#171a21;--line:#272c36;--txt:#e7eaf0;--dim:#9aa3b2;--acc:#4aa3ff}
+  *{box-sizing:border-box}
+  body{margin:0;font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--txt)}
+  header{padding:18px 20px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:2}
+  h1{font-size:18px;margin:0 0 4px} .sub{color:var(--dim);font-size:13px;margin:0 0 12px}
+  .bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+  input,select,button{font:inherit;background:var(--card);color:var(--txt);border:1px solid var(--line);border-radius:8px;padding:7px 10px}
+  button{cursor:pointer} button.primary{background:var(--acc);border-color:var(--acc);color:#00122b;font-weight:600}
+  label.tg{display:flex;gap:7px;align-items:center;color:var(--dim);cursor:pointer}
+  main{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:16px 20px;max-width:1000px}
+  @media(max-width:720px){main{grid-template-columns:1fr}}
+  .col h2{font-size:14px;color:var(--dim);text-transform:uppercase;letter-spacing:.05em;margin:0 0 8px}
+  .list{border:1px solid var(--line);border-radius:12px;overflow:hidden;max-height:70vh;overflow-y:auto}
+  .row{display:flex;gap:12px;align-items:center;padding:8px 12px;border-bottom:1px solid var(--line);cursor:pointer}
+  .row:last-child{border-bottom:0} .row:hover{background:#1e222b} .row.on{background:#12325a}
+  .thumb{width:40px;height:40px;border-radius:8px;flex:none;background:#0a0c10;object-fit:cover}
+  .nm{font-weight:500} .en{color:var(--dim);font-size:12px} .desc{color:var(--dim);font-size:12px}
+  .status{padding:6px 20px;color:var(--dim);font-size:12px;border-top:1px solid var(--line)}
+  code{background:#0a0c10;padding:1px 5px;border-radius:5px;color:#a8d4ff}
+</style>
+</head>
+<body>
+<header>
+  <h1>WLED web-UI localization — proof of concept</h1>
+  <p class="sub">What the WLED web UI could show if it fetched <a href="https://github.com/openlamp/wled-assets" style="color:var(--acc)">wled-assets</a> at runtime: localized effect/palette names + palette thumbnails. Firmware untouched, zero binary bloat. Keyed on the exact English name (<code>/json/eff</code>, <code>/json/pal</code>), English fallback.</p>
+  <div class="bar">
+    <span>Device</span><input id="ip" value="192.168.8.128" size="14">
+    <span>Language</span>
+    <select id="lang">
+      <option value="en">English</option><option value="fr" selected>Français</option>
+      <option value="de">Deutsch</option><option value="es">Español</option><option value="it">Italiano</option>
+      <option value="ja">日本語</option><option value="ko">한국어</option><option value="zh">中文</option>
+    </select>
+    <button class="primary" id="load">Load</button>
+    <label class="tg"><input type="checkbox" id="raw"> Show plain WLED (English, no assets)</label>
+  </div>
+</header>
+<main>
+  <div class="col"><h2 id="effHdr">Effects</h2><div class="list" id="effList"></div></div>
+  <div class="col"><h2 id="palHdr">Palettes</h2><div class="list" id="palList"></div></div>
+</main>
+<div class="status" id="status">Idle.</div>
+
+<script>
+const $=s=>document.querySelector(s);
+const slug=n=>n.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+let EFF=[],PAL=[],I18N_E={},I18N_P={},SRC='';
+
+async function jget(u){const r=await fetch(u);if(!r.ok)throw 0;return r.json();}
+async function loadAssets(){
+  I18N_E=(await jget('../i18n/effects.json')).entries;
+  I18N_P=(await jget('../i18n/palettes.json')).entries;
+}
+async function loadDevice(ip){
+  // try the live device; fall back to the repo's reference enum lists (CORS / offline)
+  try{ EFF=await jget('http://'+ip+'/json/eff'); PAL=await jget('http://'+ip+'/json/pal'); SRC='live device '+ip; }
+  catch(e){ EFF=await jget('../data/effects.json'); PAL=await jget('../data/palettes.json'); SRC='bundled reference list (device unreachable / CORS)'; }
+}
+function loc(map,eng){const lang=$('#lang').value;const e=map[eng];return (e&&e[lang]&&e[lang].name)||eng;}
+function desc(map,eng){const lang=$('#lang').value;const e=map[eng];return (e&&e[lang]&&e[lang].desc)||'';}
+
+function render(){
+  const rawMode=$('#raw').checked;
+  const lang=$('#lang').value;
+  $('#effHdr').textContent = rawMode?'Effects (plain WLED)':'Effects — '+lang;
+  $('#palHdr').textContent = rawMode?'Palettes (plain WLED)':'Palettes — '+lang;
+  const eff=$('#effList'), pal=$('#palList'); eff.innerHTML=''; pal.innerHTML='';
+  EFF.forEach((nm,i)=>{
+    if(!nm||nm==='RSVD')return;
+    const r=document.createElement('div');r.className='row';
+    const name=rawMode?nm:loc(I18N_E,nm);
+    const d=rawMode?'':desc(I18N_E,nm);
+    r.innerHTML = (rawMode?'':`<img class="thumb" loading="lazy" src="../images/effects/${slug(nm)}.gif" onerror="this.style.visibility='hidden'">`)
+      + `<div><div class="nm">${name}</div>`+(rawMode?`<div class="en">fx:${i}</div>`:`<div class="desc">${d}</div>`)+`</div>`;
+    r.onclick=()=>pick(eff,r,'FX',i);
+    eff.appendChild(r);
+  });
+  PAL.forEach((nm,i)=>{
+    const r=document.createElement('div');r.className='row';
+    const name=rawMode?nm:loc(I18N_P,nm);
+    r.innerHTML = (rawMode?'':`<img class="thumb" loading="lazy" src="../images/palettes/${slug(nm)}.png" onerror="this.style.visibility='hidden'">`)
+      + `<div><div class="nm">${name}</div>`+(rawMode?`<div class="en">pal:${i}</div>`:`<div class="desc">${desc(I18N_P,nm)}</div>`)+`</div>`;
+    r.onclick=()=>pick(pal,r,'PAL',i);
+    pal.appendChild(r);
+  });
+}
+async function pick(container,row,kind,idx){
+  [...container.children].forEach(c=>c.classList.remove('on')); row.classList.add('on');
+  // best-effort: actually set it on the device (may be blocked by CORS — visual demo works regardless)
+  const body=kind==='FX'?{seg:[{fx:idx}]}:{seg:[{pal:idx}]};
+  try{ await fetch('http://'+$('#ip').value+'/json/state',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(body)});
+    $('#status').textContent='Set '+kind.toLowerCase()+':'+idx+' on the device.'; }
+  catch(e){ $('#status').textContent='Selected '+kind.toLowerCase()+':'+idx+' (device POST blocked by CORS — the overlay itself lives inside the web UI, where it isn\'t).'; }
+}
+async function go(){
+  $('#status').textContent='Loading…';
+  try{ await loadAssets(); await loadDevice($('#ip').value); render();
+    $('#status').textContent=`Loaded ${EFF.filter(x=>x&&x!=='RSVD').length} effects + ${PAL.length} palettes from ${SRC}. Toggle "plain WLED" to compare.`; }
+  catch(e){ $('#status').textContent='Error loading assets — serve this page from the wled-assets repo root (so ../i18n and ../images resolve).'; }
+}
+$('#load').onclick=go; $('#lang').onchange=render; $('#raw').onchange=render;
+go();
+</script>
+</body>
+</html>
