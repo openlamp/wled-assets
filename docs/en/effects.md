@@ -9,7 +9,7 @@
 | Image | WLED name | Translation | Description |
 |---|---|---|---|
 | <img src="../../images/effects/solid.gif" width="64"> | `Solid` | Solid | A single steady colour. |
-| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Blink | Sharp flashes, on and off. |
+| <img src="../../images/effects/blink.gif" width="64"> | `Blink` | Blink | A crisp on/off blink — like an eye blinking. |
 | <img src="../../images/effects/breathe.gif" width="64"> | `Breathe` | Breathe | Brightness swells and fades (breathing). |
 | <img src="../../images/effects/wipe.gif" width="64"> | `Wipe` | Wipe | A point of light sweeps along (a chase). |
 | <img src="../../images/effects/wipe-random.gif" width="64"> | `Wipe Random` | Wipe Random | A point of light sweeps along (a chase). |
@@ -66,7 +66,7 @@
 | <img src="../../images/effects/tri-wipe.gif" width="64"> | `Tri Wipe` | Tri Wipe | A point of light sweeps along (a chase). |
 | <img src="../../images/effects/tri-fade.gif" width="64"> | `Tri Fade` | Tri Fade | Brightness swells and fades (breathing). |
 | <img src="../../images/effects/lightning.gif" width="64"> | `Lightning` | Lightning | Sharp flashes, on and off. |
-| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | A colour wave travels along the strip. |
+| <img src="../../images/effects/icu.gif" width="64"> | `ICU` | ICU | An eye scans the strip, pupil roving. |
 | <img src="../../images/effects/multi-comet.gif" width="64"> | `Multi Comet` | Multi Comet | A point of light sweeps along (a chase). |
 | <img src="../../images/effects/scanner-dual.gif" width="64"> | `Scanner Dual` | Scanner Dual | A point of light sweeps along (a chase). |
 | <img src="../../images/effects/stream-2.gif" width="64"> | `Stream 2` | Stream 2 | A colour wave travels along the strip. |
@@ -83,14 +83,14 @@
 | <img src="../../images/effects/noise-3.gif" width="64"> | `Noise 3` | Noise 3 | A colour wave travels along the strip. |
 | <img src="../../images/effects/noise-4.gif" width="64"> | `Noise 4` | Noise 4 | A colour wave travels along the strip. |
 | <img src="../../images/effects/colortwinkles.gif" width="64"> | `Colortwinkles` | Colortwinkles | Points twinkle on and off at random. |
-| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | Lake | A colour wave travels along the strip. |
+| <img src="../../images/effects/lake.gif" width="64"> | `Lake` | Lake | Calm water shimmers and ripples. |
 | <img src="../../images/effects/meteor.gif" width="64"> | `Meteor` | Meteor | Points fall like rain. |
 | <img src="../../images/effects/copy-segment.gif" width="64"> | `Copy Segment` | Copy Segment | A colour wave travels along the strip. |
 | <img src="../../images/effects/railway.gif" width="64"> | `Railway` | Railway | A point of light sweeps along (a chase). |
 | <img src="../../images/effects/ripple.gif" width="64"> | `Ripple` | Ripple | A colour wave travels along the strip. |
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | Points twinkle on and off at random. |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | Points twinkle on and off at random. |
-| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | Warm tones flicker like flames. |
+| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | Eyes open and stare in the dark. |
 | <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | A single steady colour. |
 | <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | A single steady colour. |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | A colour wave travels along the strip. |
@@ -119,7 +119,7 @@
 | <img src="../../images/effects/sine.gif" width="64"> | `Sine` | Sine | Brightness swells and fades (breathing). |
 | <img src="../../images/effects/phased-noise.gif" width="64"> | `Phased Noise` | Phased Noise | A colour wave travels along the strip. |
 | <img src="../../images/effects/flow.gif" width="64"> | `Flow` | Flow | A colour wave travels along the strip. |
-| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | A colour wave travels along the strip. |
+| <img src="../../images/effects/chunchun.gif" width="64"> | `Chunchun` | Chunchun | A flock of birds flies across the strip. |
 | <img src="../../images/effects/dancing-shadows.gif" width="64"> | `Dancing Shadows` | Dancing Shadows | A point of light sweeps along (a chase). |
 | <img src="../../images/effects/washing-machine.gif" width="64"> | `Washing Machine` | Washing Machine | A colour wave travels along the strip. |
 | <img src="../../images/effects/rotozoomer.gif" width="64"> | `Rotozoomer` | Rotozoomer | A colour wave travels along the strip. |
@@ -160,7 +160,7 @@
 | <img src="../../images/effects/firenoise.gif" width="64"> | `Firenoise` | Firenoise | Warm tones flicker like flames. |
 | <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | A colour wave travels along the strip. |
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | A colour wave travels along the strip. |
-| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | A colour wave travels along the strip. |
+| <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | Two strands weave into a double helix. |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrix | Points fall like rain. |
 | <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | A colour wave travels along the strip. |
 | <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | A colour wave travels along the strip. |
@@ -190,12 +190,12 @@
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | A colour wave travels along the strip. |
 | <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | A colour wave travels along the strip. |
 | <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | A colour wave travels along the strip. |
-| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | A colour wave travels along the strip. |
+| <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | A spinning double helix. |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | A colour wave travels along the strip. |
 | <img src="../../images/effects/wavesins.gif" width="64"> | `Wavesins` | Wavesins | A colour wave travels along the strip. |
 | <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | A colour wave travels along the strip. |
 | <img src="../../images/effects/akemi.gif" width="64"> | `Akemi` | Akemi | A colour wave travels along the strip. |
-| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | A colour wave travels along the strip. |
+| <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | Particles erupt upward like a volcano. |
 | <img src="../../images/effects/ps-fire.gif" width="64"> | `PS Fire` | PS Fire | Warm tones flicker like flames. |
 | <img src="../../images/effects/ps-fireworks.gif" width="64"> | `PS Fireworks` | PS Fireworks | Points twinkle on and off at random. |
 | <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | A colour wave travels along the strip. |

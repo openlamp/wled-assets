@@ -38,35 +38,35 @@
   "Blink": {
    "en": {
     "name": "Blink",
-    "desc": "Sharp flashes, on and off."
+    "desc": "A crisp on/off blink — like an eye blinking."
    },
    "fr": {
     "name": "Clignotement",
-    "desc": "Des éclairs nets, allumé/éteint."
+    "desc": "Un clignotement franc — comme un œil qui cligne."
    },
    "de": {
     "name": "Blinken",
-    "desc": "Scharfe Blitze, an und aus."
+    "desc": "Ein klares An/Aus-Blinzeln — wie ein zwinkerndes Auge."
    },
    "es": {
     "name": "Parpadeo",
-    "desc": "Destellos nítidos, encendido/apagado."
+    "desc": "Un parpadeo nítido de encendido/apagado — como un ojo que parpadea."
    },
    "it": {
     "name": "Lampeggio",
-    "desc": "Lampi netti, acceso/spento."
+    "desc": "Un lampeggio netto acceso/spento — come un occhio che sbatte."
    },
    "ja": {
     "name": "Blink",
-    "desc": "鋭い点滅。"
+    "desc": "はっきりした点滅——まばたきする目のように。"
    },
    "ko": {
     "name": "Blink",
-    "desc": "날카로운 점멸."
+    "desc": "선명한 켜짐/꺼짐 깜빡임 — 눈을 깜박이듯."
    },
    "zh": {
     "name": "Blink",
-    "desc": "急促闪烁，忽明忽灭。"
+    "desc": "干脆的开关闪烁——像眨眼一样。"
    }
   },
   "Breathe": {
@@ -1976,35 +1976,35 @@
   "ICU": {
    "en": {
     "name": "ICU",
-    "desc": "A colour wave travels along the strip."
+    "desc": "An eye scans the strip, pupil roving."
    },
    "fr": {
     "name": "ICU",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Un œil balaie le ruban du regard."
    },
    "de": {
     "name": "ICU",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Ein Auge blickt über den Streifen."
    },
    "es": {
     "name": "ICU",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Un ojo recorre la tira con la mirada."
    },
    "it": {
     "name": "ICU",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Un occhio scruta la striscia."
    },
    "ja": {
     "name": "ICU",
-    "desc": "色の波がストリップを流れる。"
+    "desc": "瞳が動き、ストリップを見渡す目。"
    },
    "ko": {
     "name": "ICU",
-    "desc": "색의 물결이 스트립을 따라 흐른다."
+    "desc": "동공이 움직이며 스트립을 살피는 눈."
    },
    "zh": {
     "name": "ICU",
-    "desc": "色彩波沿灯带流动。"
+    "desc": "一只眼睛扫视灯带。"
    }
   },
   "Multi Comet": {
@@ -2554,35 +2554,35 @@
   "Lake": {
    "en": {
     "name": "Lake",
-    "desc": "A colour wave travels along the strip."
+    "desc": "Calm water shimmers and ripples."
    },
    "fr": {
     "name": "Lac",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Une eau calme scintille et ondule."
    },
    "de": {
     "name": "See",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Ruhiges Wasser schimmert und kräuselt sich."
    },
    "es": {
     "name": "Lago",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Agua tranquila que reluce y ondula."
    },
    "it": {
     "name": "Lago",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Acqua calma che luccica e ondeggia."
    },
    "ja": {
     "name": "Lake",
-    "desc": "色の波がストリップを流れる。"
+    "desc": "穏やかな水面が揺らめく。"
    },
    "ko": {
     "name": "Lake",
-    "desc": "색의 물결이 스트립을 따라 흐른다."
+    "desc": "잔잔한 물이 반짝이며 일렁인다."
    },
    "zh": {
     "name": "Lake",
-    "desc": "色彩波沿灯带流动。"
+    "desc": "平静的水面波光粼粼。"
    }
   },
   "Meteor": {
@@ -2792,35 +2792,35 @@
   "Halloween Eyes": {
    "en": {
     "name": "Halloween Eyes",
-    "desc": "Warm tones flicker like flames."
+    "desc": "Eyes open and stare in the dark."
    },
    "fr": {
     "name": "Yeux d'Halloween",
-    "desc": "Des tons chauds vacillent comme des flammes."
+    "desc": "Des yeux s'ouvrent et fixent dans le noir."
    },
    "de": {
     "name": "Halloween Eyes",
-    "desc": "Warme Töne flackern wie Flammen."
+    "desc": "Augen öffnen sich und starren im Dunkeln."
    },
    "es": {
     "name": "Halloween Eyes",
-    "desc": "Tonos cálidos titilan como llamas."
+    "desc": "Unos ojos se abren y miran en la oscuridad."
    },
    "it": {
     "name": "Halloween Eyes",
-    "desc": "Toni caldi tremolano come fiamme."
+    "desc": "Occhi si aprono e fissano nel buio."
    },
    "ja": {
     "name": "Halloween Eyes",
-    "desc": "暖色が炎のように揺らめく。"
+    "desc": "暗闇で目が開いて見つめる。"
    },
    "ko": {
     "name": "Halloween Eyes",
-    "desc": "따뜻한 색이 불꽃처럼 일렁인다."
+    "desc": "어둠 속에서 눈이 떠져 응시한다."
    },
    "zh": {
     "name": "Halloween Eyes",
-    "desc": "暖色如火焰般跳动。"
+    "desc": "黑暗中睁开的眼睛凝视着。"
    }
   },
   "Solid Pattern": {
@@ -3778,35 +3778,35 @@
   "Chunchun": {
    "en": {
     "name": "Chunchun",
-    "desc": "A colour wave travels along the strip."
+    "desc": "A flock of birds flies across the strip."
    },
    "fr": {
     "name": "Chunchun",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Une nuée d'oiseaux traverse le ruban."
    },
    "de": {
     "name": "Chunchun",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Ein Vogelschwarm fliegt über den Streifen."
    },
    "es": {
     "name": "Chunchun",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Una bandada de pájaros cruza la tira."
    },
    "it": {
     "name": "Chunchun",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Uno stormo di uccelli attraversa la striscia."
    },
    "ja": {
     "name": "Chunchun",
-    "desc": "色の波がストリップを流れる。"
+    "desc": "鳥の群れがストリップを横切る。"
    },
    "ko": {
     "name": "Chunchun",
-    "desc": "색의 물결이 스트립을 따라 흐른다."
+    "desc": "새 떼가 스트립을 가로질러 난다."
    },
    "zh": {
     "name": "Chunchun",
-    "desc": "色彩波沿灯带流动。"
+    "desc": "一群鸟飞过灯带。"
    }
   },
   "Dancing Shadows": {
@@ -5172,35 +5172,35 @@
   "DNA": {
    "en": {
     "name": "DNA",
-    "desc": "A colour wave travels along the strip."
+    "desc": "Two strands weave into a double helix."
    },
    "fr": {
     "name": "DNA",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Deux brins s'entrelacent en double hélice."
    },
    "de": {
     "name": "DNA",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Zwei Stränge verweben sich zur Doppelhelix."
    },
    "es": {
     "name": "DNA",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Dos hebras se entrelazan en doble hélice."
    },
    "it": {
     "name": "DNA",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Due filamenti si intrecciano in una doppia elica."
    },
    "ja": {
     "name": "DNA",
-    "desc": "色の波がストリップを流れる。"
+    "desc": "2本の鎖が二重らせんに絡み合う。"
    },
    "ko": {
     "name": "DNA",
-    "desc": "색의 물결이 스트립을 따라 흐른다."
+    "desc": "두 가닥이 이중 나선으로 엮인다."
    },
    "zh": {
     "name": "DNA",
-    "desc": "色彩波沿灯带流动。"
+    "desc": "两条链交织成双螺旋。"
    }
   },
   "Matrix": {
@@ -6090,35 +6090,35 @@
   "DNA Spiral": {
    "en": {
     "name": "DNA Spiral",
-    "desc": "A colour wave travels along the strip."
+    "desc": "A spinning double helix."
    },
    "fr": {
     "name": "DNA Spiral",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Une double hélice qui tournoie."
    },
    "de": {
     "name": "DNA Spiral",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Eine sich drehende Doppelhelix."
    },
    "es": {
     "name": "DNA Spiral",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Una doble hélice que gira."
    },
    "it": {
     "name": "DNA Spiral",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Una doppia elica che ruota."
    },
    "ja": {
     "name": "DNA Spiral",
-    "desc": "色の波がストリップを流れる。"
+    "desc": "回転する二重らせん。"
    },
    "ko": {
     "name": "DNA Spiral",
-    "desc": "색의 물결이 스트립을 따라 흐른다."
+    "desc": "회전하는 이중 나선."
    },
    "zh": {
     "name": "DNA Spiral",
-    "desc": "色彩波沿灯带流动。"
+    "desc": "旋转的双螺旋。"
    }
   },
   "Black Hole": {
@@ -6260,35 +6260,35 @@
   "PS Volcano": {
    "en": {
     "name": "PS Volcano",
-    "desc": "A colour wave travels along the strip."
+    "desc": "Particles erupt upward like a volcano."
    },
    "fr": {
     "name": "PS Volcano",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Des particules jaillissent comme un volcan."
    },
    "de": {
     "name": "PS Volcano",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Partikel schießen wie ein Vulkan empor."
    },
    "es": {
     "name": "PS Volcano",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Partículas brotan como un volcán."
    },
    "it": {
     "name": "PS Volcano",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Particelle eruttano come un vulcano."
    },
    "ja": {
     "name": "PS Volcano",
-    "desc": "色の波がストリップを流れる。"
+    "desc": "粒子が火山のように噴き上がる。"
    },
    "ko": {
     "name": "PS Volcano",
-    "desc": "색의 물결이 스트립을 따라 흐른다."
+    "desc": "입자가 화산처럼 솟구친다."
    },
    "zh": {
     "name": "PS Volcano",
-    "desc": "色彩波沿灯带流动。"
+    "desc": "粒子如火山般喷发。"
    }
   },
   "PS Fire": {
