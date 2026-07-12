@@ -4,6 +4,7 @@
 - [エフェクト](effects.md)
 - [コントロール](controls.md)
 - [色](colors.md)
+- [ナイトライト](nightlight.md)
 
 ---
 

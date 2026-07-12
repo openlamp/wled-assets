@@ -53,16 +53,16 @@ to show localized names, telling palette icons, and a preview of what each effec
 One page per **language × concept** — English name · translation · description · illustration.
 Full index: **[docs/](docs/)**. Or jump straight in:
 
-| Language | Palettes | Effects | Controls | Colours |
-|---|---|---|---|---|
-| 🇬🇧 English | [palettes](docs/en/palettes.md) | [effects](docs/en/effects.md) | [controls](docs/en/controls.md) | [colours](docs/en/colors.md) |
-| 🇫🇷 Français | [palettes](docs/fr/palettes.md) | [effects](docs/fr/effects.md) | [controls](docs/fr/controls.md) | [couleurs](docs/fr/colors.md) |
-| 🇩🇪 Deutsch | [palettes](docs/de/palettes.md) | [effects](docs/de/effects.md) | [controls](docs/de/controls.md) | [farben](docs/de/colors.md) |
-| 🇪🇸 Español | [palettes](docs/es/palettes.md) | [effects](docs/es/effects.md) | [controls](docs/es/controls.md) | [colores](docs/es/colors.md) |
-| 🇮🇹 Italiano | [palettes](docs/it/palettes.md) | [effects](docs/it/effects.md) | [controls](docs/it/controls.md) | [colori](docs/it/colors.md) |
-| 🇯🇵 日本語 | [palettes](docs/ja/palettes.md) | [effects](docs/ja/effects.md) | [controls](docs/ja/controls.md) | [色](docs/ja/colors.md) |
-| 🇰🇷 한국어 | [palettes](docs/ko/palettes.md) | [effects](docs/ko/effects.md) | [controls](docs/ko/controls.md) | [색](docs/ko/colors.md) |
-| 🇨🇳 中文 | [palettes](docs/zh/palettes.md) | [effects](docs/zh/effects.md) | [controls](docs/zh/controls.md) | [颜色](docs/zh/colors.md) |
+| Language | Palettes | Effects | Controls | Colours | Nightlight |
+|---|---|---|---|---|---|
+| 🇬🇧 English | [palettes](docs/en/palettes.md) | [effects](docs/en/effects.md) | [controls](docs/en/controls.md) | [colours](docs/en/colors.md) | [nightlight](docs/en/nightlight.md) |
+| 🇫🇷 Français | [palettes](docs/fr/palettes.md) | [effects](docs/fr/effects.md) | [controls](docs/fr/controls.md) | [couleurs](docs/fr/colors.md) | [nightlight](docs/fr/nightlight.md) |
+| 🇩🇪 Deutsch | [palettes](docs/de/palettes.md) | [effects](docs/de/effects.md) | [controls](docs/de/controls.md) | [farben](docs/de/colors.md) | [nightlight](docs/de/nightlight.md) |
+| 🇪🇸 Español | [palettes](docs/es/palettes.md) | [effects](docs/es/effects.md) | [controls](docs/es/controls.md) | [colores](docs/es/colors.md) | [nightlight](docs/es/nightlight.md) |
+| 🇮🇹 Italiano | [palettes](docs/it/palettes.md) | [effects](docs/it/effects.md) | [controls](docs/it/controls.md) | [colori](docs/it/colors.md) | [nightlight](docs/it/nightlight.md) |
+| 🇯🇵 日本語 | [palettes](docs/ja/palettes.md) | [effects](docs/ja/effects.md) | [controls](docs/ja/controls.md) | [色](docs/ja/colors.md) | [nightlight](docs/ja/nightlight.md) |
+| 🇰🇷 한국어 | [palettes](docs/ko/palettes.md) | [effects](docs/ko/effects.md) | [controls](docs/ko/controls.md) | [색](docs/ko/colors.md) | [nightlight](docs/ko/nightlight.md) |
+| 🇨🇳 中文 | [palettes](docs/zh/palettes.md) | [effects](docs/zh/effects.md) | [controls](docs/zh/controls.md) | [颜色](docs/zh/colors.md) | [nightlight](docs/zh/nightlight.md) |
 
 ## What's inside
 
@@ -73,6 +73,7 @@ Full index: **[docs/](docs/)**. Or jump straight in:
 | `i18n/effects.json` | Every effect → per language `{ name, desc }` (`desc` = its motion family). |
 | `i18n/controls.json` | The standard effect **controls** (Speed, Intensity, Custom 1-3, Options 1-3, colour slots, Palette) → `{ name, desc }`. |
 | `i18n/colors.json` | The **8 stage colours** (Kelly maximum-contrast) → rgb, rank, `{ name, desc }` per language, plus the `_rationale` (why 8). |
+| `i18n/nightlight.json` | The **4 nightlight modes** (instant, fade, colour fade, sunrise) → mode number + `{ name, desc }` per language. |
 | `i18n/effect-families.json` | Descriptions of the 9 broad motion families, per language. |
 | `meanings/palette-meanings.json` | Source for palette descriptions. |
 | `illustrations/*.svg` | One reusable **gradient-agnostic stencil per palette** (fill `#grad` with the palette's real colours). |
@@ -101,13 +102,15 @@ Also internationalized here:
 - **Controls** — the effect parameters (Speed, Intensity, Custom 1-3, Options 1-3, colour
   slots, Palette). See [docs/en/controls.md](docs/en/controls.md).
 - **Colours** — the **8 stage colours** (Kelly's maximum-contrast palette). The
-  [colours pages](docs/en/colors.md) open with the rationale: *why 8 and not 300* — you
-  name only the hues the eye can tell apart at a glance (Kelly 1965 · Wong 2011 · Healey 1996),
-  not a wall of near-identical names.
+  [colours pages](docs/en/colors.md) open with the rationale: *why 8 and not 300*.
+- **Nightlight modes** — the 4 WLED nightlight behaviours (instant / fade / colour fade /
+  sunrise). See [docs/en/nightlight.md](docs/en/nightlight.md).
 
-Further WLED enums that *could* join next (still English-only in the firmware): **nightlight
-modes**, **segment actions** (reverse/mirror/freeze), **playlist/preset** and **info** labels.
-Open an issue if one would help your client.
+Further WLED enums that *could* join next (still English-only in the firmware): **segment
+actions** (reverse/mirror/freeze), device-config enums (**LED types**, **colour order**,
+**button/IR types**), and the deepest one — **per-effect slider/colour labels** (from
+`/json/fxdata`, hundreds of granular strings). Full UI strings and info labels are app
+localisation, out of scope for this asset layer. Open an issue if one would help your client.
 
 ## Status & contributing
 

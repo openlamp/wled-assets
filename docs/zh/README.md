@@ -4,6 +4,7 @@
 - [效果](effects.md)
 - [控件](controls.md)
 - [颜色](colors.md)
+- [夜灯](nightlight.md)
 
 ---
 

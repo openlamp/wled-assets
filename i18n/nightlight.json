@@ -1,0 +1,145 @@
+{
+ "_note": "WLED nightlight modes (nl.mode 0-3). Key = English name; mode = the numeric nl.mode value; each has per-language {name, desc}.",
+ "entries": {
+  "Instant": {
+   "mode": 0,
+   "en": {
+    "name": "Instant",
+    "desc": "The light switches off at once when the timer ends — no fade."
+   },
+   "fr": {
+    "name": "Instantané",
+    "desc": "La lumière s'éteint d'un coup à la fin du minuteur — sans fondu."
+   },
+   "de": {
+    "name": "Sofort",
+    "desc": "Das Licht schaltet am Timer-Ende sofort aus — ohne Überblendung."
+   },
+   "es": {
+    "name": "Instantáneo",
+    "desc": "La luz se apaga de golpe al terminar el temporizador — sin fundido."
+   },
+   "it": {
+    "name": "Istantaneo",
+    "desc": "La luce si spegne di colpo alla fine del timer — senza dissolvenza."
+   },
+   "ja": {
+    "name": "即時",
+    "desc": "タイマー終了時に一気に消灯 — フェードなし。"
+   },
+   "ko": {
+    "name": "즉시",
+    "desc": "타이머 종료 시 즉시 꺼짐 — 페이드 없음."
+   },
+   "zh": {
+    "name": "即时",
+    "desc": "计时结束时立即熄灭 — 无渐变。"
+   }
+  },
+  "Fade": {
+   "mode": 1,
+   "en": {
+    "name": "Fade",
+    "desc": "Brightness fades down gradually over the whole duration."
+   },
+   "fr": {
+    "name": "Fondu",
+    "desc": "La luminosité descend progressivement sur toute la durée."
+   },
+   "de": {
+    "name": "Überblenden",
+    "desc": "Die Helligkeit sinkt über die gesamte Dauer allmählich."
+   },
+   "es": {
+    "name": "Fundido",
+    "desc": "El brillo baja gradualmente durante toda la duración."
+   },
+   "it": {
+    "name": "Dissolvenza",
+    "desc": "La luminosità cala gradualmente per tutta la durata."
+   },
+   "ja": {
+    "name": "フェード",
+    "desc": "設定時間かけて徐々に減光。"
+   },
+   "ko": {
+    "name": "페이드",
+    "desc": "설정 시간 동안 서서히 어두워짐."
+   },
+   "zh": {
+    "name": "渐暗",
+    "desc": "在整个时长内亮度逐渐降低。"
+   }
+  },
+  "Colour fade": {
+   "mode": 2,
+   "en": {
+    "name": "Colour fade",
+    "desc": "Fades brightness AND colour toward the nightlight colour."
+   },
+   "fr": {
+    "name": "Fondu couleur",
+    "desc": "Fond la luminosité ET la couleur vers la couleur de veilleuse."
+   },
+   "de": {
+    "name": "Farbüberblendung",
+    "desc": "Blendet Helligkeit UND Farbe zur Nachtlichtfarbe."
+   },
+   "es": {
+    "name": "Fundido de color",
+    "desc": "Funde brillo Y color hacia el color de luz nocturna."
+   },
+   "it": {
+    "name": "Dissolvenza colore",
+    "desc": "Sfuma luminosità E colore verso il colore notturno."
+   },
+   "ja": {
+    "name": "色フェード",
+    "desc": "明るさと色をナイトライト色へフェード。"
+   },
+   "ko": {
+    "name": "색 페이드",
+    "desc": "밝기와 색을 야간등 색으로 페이드."
+   },
+   "zh": {
+    "name": "颜色渐变",
+    "desc": "亮度和颜色一起渐变到夜灯颜色。"
+   }
+  },
+  "Sunrise": {
+   "mode": 3,
+   "en": {
+    "name": "Sunrise",
+    "desc": "Wake-up light: brightness fades UP over the duration, like a sunrise."
+   },
+   "fr": {
+    "name": "Lever de soleil",
+    "desc": "Réveil lumineux : la luminosité MONTE sur la durée, comme une aube."
+   },
+   "de": {
+    "name": "Sonnenaufgang",
+    "desc": "Wecklicht: Helligkeit steigt über die Dauer, wie ein Sonnenaufgang."
+   },
+   "es": {
+    "name": "Amanecer",
+    "desc": "Luz de despertar: el brillo SUBE durante la duración, como un amanecer."
+   },
+   "it": {
+    "name": "Alba",
+    "desc": "Luce sveglia: la luminosità SALE per la durata, come un'alba."
+   },
+   "ja": {
+    "name": "日の出",
+    "desc": "目覚めの光:設定時間かけて明るく — 日の出のよう。"
+   },
+   "ko": {
+    "name": "일출",
+    "desc": "기상 조명: 시간 동안 밝아짐 — 일출처럼."
+   },
+   "zh": {
+    "name": "日出",
+    "desc": "唤醒灯：亮度在时长内逐渐升高，如日出。"
+   }
+  }
+ }
+}

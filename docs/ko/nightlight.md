@@ -1,0 +1,12 @@
+# WLED 야간등
+
+[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · [색](colors.md) · **야간등** &nbsp;•&nbsp; [한국어 참조](README.md)
+
+<sub>다른 언어: [EN](../en/nightlight.md) · [FR](../fr/nightlight.md) · [DE](../de/nightlight.md) · [ES](../es/nightlight.md) · [IT](../it/nightlight.md) · [JA](../ja/nightlight.md) · [ZH](../zh/nightlight.md)</sub>
+
+| WLED 이름 | 번역 | 설명 |
+|---|---|---|
+| `Instant` | 즉시 | 타이머 종료 시 즉시 꺼짐 — 페이드 없음. |
+| `Fade` | 페이드 | 설정 시간 동안 서서히 어두워짐. |
+| `Colour fade` | 색 페이드 | 밝기와 색을 야간등 색으로 페이드. |
+| `Sunrise` | 일출 | 기상 조명: 시간 동안 밝아짐 — 일출처럼. |
