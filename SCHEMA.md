@@ -89,8 +89,8 @@ Everything is **background-agnostic** so a client can composite on any UI colour
   rendered **transparent** — they adapt to light *and* dark (e.g. GitHub's two themes).
 - `#1a1a1a` inside a drawing is an intentional **dark detail** (clown eyes, traffic-light
   lamps, ghost eyes…), not the background — it stays opaque on any surface, as intended.
-- Only the **contact sheets** (`images/palettes-contact-sheet.png`, `images/effects-grid.gif`)
-  keep a dark board background by design — they are composed boards, not single assets.
+- The **contact sheets** (`images/palettes-contact-sheet.png`, `images/effects-grid.gif`) are
+  **transparent** too (labels in mid-grey so they read on light and dark).
 
 ## Versioning
 
