@@ -9,11 +9,11 @@
 | 图片 | WLED 名称 | 翻译 | 描述 |
 |---|---|---|---|
 | <img src="../../images/palettes/default.png" width="72"> | `Default` | 默认 | WLED 默认的彩虹光谱。 |
-| <img src="../../images/palettes/random-cycle.png" width="72"> | `Random Cycle` | * Random Cycle |  |
-| <img src="../../images/palettes/color-1.png" width="72"> | `Color 1` | * Color 1 |  |
-| <img src="../../images/palettes/colors-1-2.png" width="72"> | `Colors 1&2` | * Colors 1&2 |  |
-| <img src="../../images/palettes/color-gradient.png" width="72"> | `Color Gradient` | * Color Gradient |  |
-| <img src="../../images/palettes/colors-only.png" width="72"> | `Colors Only` | * Colors Only |  |
+| <img src="../../images/palettes/random-cycle.png" width="72"> | `Random Cycle` | * 随机循环 | 动态调色板：随时间遍历整个色轮。 |
+| <img src="../../images/palettes/color-1.png" width="72"> | `Color 1` | * 颜色 1 | 动态调色板：仅使用分段的主色。 |
+| <img src="../../images/palettes/colors-1-2.png" width="72"> | `Colors 1&2` | * 颜色 1 和 2 | 动态调色板：分段的颜色 1 与颜色 2 之间的渐变。 |
+| <img src="../../images/palettes/color-gradient.png" width="72"> | `Color Gradient` | * 颜色渐变 | 动态调色板：从主色开始的连续渐变。 |
+| <img src="../../images/palettes/colors-only.png" width="72"> | `Colors Only` | * 仅颜色 | 动态调色板：仅使用分段的3个颜色槽。 |
 | <img src="../../images/palettes/party.png" width="72"> | `Party` | 派对 | 节日般的色彩——派对气球。 |
 | <img src="../../images/palettes/cloud.png" width="72"> | `Cloud` | 云 | 柔和的天蓝——一朵云。 |
 | <img src="../../images/palettes/lava.png" width="72"> | `Lava` | 熔岩 | 熔岩——火山。 |

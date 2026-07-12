@@ -9,11 +9,11 @@ WLED에서 **팔레트**는 효과가 사용하는 색 집합. **효과** 탭의
 | 이미지 | WLED 이름 | 번역 | 설명 |
 |---|---|---|---|
 | <img src="../../images/palettes/default.png" width="72"> | `Default` | 기본 | WLED 기본 무지개 스펙트럼. |
-| <img src="../../images/palettes/random-cycle.png" width="72"> | `Random Cycle` | * Random Cycle |  |
-| <img src="../../images/palettes/color-1.png" width="72"> | `Color 1` | * Color 1 |  |
-| <img src="../../images/palettes/colors-1-2.png" width="72"> | `Colors 1&2` | * Colors 1&2 |  |
-| <img src="../../images/palettes/color-gradient.png" width="72"> | `Color Gradient` | * Color Gradient |  |
-| <img src="../../images/palettes/colors-only.png" width="72"> | `Colors Only` | * Colors Only |  |
+| <img src="../../images/palettes/random-cycle.png" width="72"> | `Random Cycle` | * 무작위 순환 | 동적 팔레트: 시간에 따라 색상환 전체를 순환. |
+| <img src="../../images/palettes/color-1.png" width="72"> | `Color 1` | * 색상 1 | 동적 팔레트: 세그먼트의 기본 색상만. |
+| <img src="../../images/palettes/colors-1-2.png" width="72"> | `Colors 1&2` | * 색상 1과 2 | 동적 팔레트: 세그먼트의 색상 1과 2 사이의 그라데이션. |
+| <img src="../../images/palettes/color-gradient.png" width="72"> | `Color Gradient` | * 색상 그라데이션 | 동적 팔레트: 기본 색상에서 이어지는 연속 그라데이션. |
+| <img src="../../images/palettes/colors-only.png" width="72"> | `Colors Only` | * 색상만 | 동적 팔레트: 세그먼트의 3개 색상 슬롯만 사용. |
 | <img src="../../images/palettes/party.png" width="72"> | `Party` | 파티 | 축제 분위기——파티 풍선. |
 | <img src="../../images/palettes/cloud.png" width="72"> | `Cloud` | 구름 | 부드러운 하늘색——구름. |
 | <img src="../../images/palettes/lava.png" width="72"> | `Lava` | 용암 | 녹은 암석——화산. |

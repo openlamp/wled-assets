@@ -9,11 +9,11 @@ En WLED, una **paleta** es el conjunto de colores del que toma un efecto. Se eli
 | Imagen | Nombre WLED | Traducción | Descripción |
 |---|---|---|---|
 | <img src="../../images/palettes/default.png" width="72"> | `Default` | Predeterminado | El espectro arcoíris por defecto de WLED. |
-| <img src="../../images/palettes/random-cycle.png" width="72"> | `Random Cycle` | * Random Cycle |  |
-| <img src="../../images/palettes/color-1.png" width="72"> | `Color 1` | * Color 1 |  |
-| <img src="../../images/palettes/colors-1-2.png" width="72"> | `Colors 1&2` | * Colors 1&2 |  |
-| <img src="../../images/palettes/color-gradient.png" width="72"> | `Color Gradient` | * Color Gradient |  |
-| <img src="../../images/palettes/colors-only.png" width="72"> | `Colors Only` | * Colors Only |  |
+| <img src="../../images/palettes/random-cycle.png" width="72"> | `Random Cycle` | * Ciclo aleatorio | Paleta dinámica: recorre toda la rueda de color con el tiempo. |
+| <img src="../../images/palettes/color-1.png" width="72"> | `Color 1` | * Color 1 | Paleta dinámica: solo el color primario del segmento. |
+| <img src="../../images/palettes/colors-1-2.png" width="72"> | `Colors 1&2` | * Colores 1 y 2 | Paleta dinámica: degradado entre los colores 1 y 2 del segmento. |
+| <img src="../../images/palettes/color-gradient.png" width="72"> | `Color Gradient` | * Degradado de color | Paleta dinámica: degradado continuo a partir del color primario. |
+| <img src="../../images/palettes/colors-only.png" width="72"> | `Colors Only` | * Solo colores | Paleta dinámica: usa solo los 3 espacios de color del segmento. |
 | <img src="../../images/palettes/party.png" width="72"> | `Party` | Fiesta | Una mezcla festiva — globos de fiesta. |
 | <img src="../../images/palettes/cloud.png" width="72"> | `Cloud` | Nube | Azules suaves del cielo — una nube. |
 | <img src="../../images/palettes/lava.png" width="72"> | `Lava` | Lava | Roca fundida — un volcán. |
