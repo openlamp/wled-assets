@@ -12,6 +12,7 @@ BTN=json.load(open(DST+"/i18n/buttons.json"))["entries"]
 FXL=json.load(open(DST+"/i18n/fxdata-labels.json"))["entries"]
 INF=json.load(open(DST+"/i18n/info.json"))["entries"]
 UIL=json.load(open(DST+"/i18n/ui.json"))["entries"]
+FXI=json.load(open(DST+"/data/fxdata-icons.json"))
 COL=json.load(open(DST+"/i18n/colors.json")); COLE=COL["entries"]; RAT=COL["_rationale"]
 NL=json.load(open(DST+"/i18n/nightlight.json"))["entries"]
 LANGS=[("en","English","🇬🇧"),("fr","Français","🇫🇷"),("de","Deutsch","🇩🇪"),("es","Español","🇪🇸"),("it","Italiano","🇮🇹"),("ja","日本語","🇯🇵"),("ko","한국어","🇰🇷"),("zh","中文","🇨🇳")]
@@ -55,18 +56,21 @@ for code,label,flag in LANGS:
         rgb=e["rgb"]; hexv="#%02X%02X%02X"%tuple(rgb); ce=e[code]
         r.append('| <img src="%s/colors/%s.png" width="48"> | `%s` | %s | `%s` | %s |'%(IMG,slug(nm),esc(nm),esc(ce["name"]),hexv,esc(ce["desc"])))
     open(d+"/colors.md","w").write(nav(code,"colors")+"\n".join(r)+"\n")
-    r=["| %s | %s | %s |"%(u["name"],u["tr"],u["desc"]),"|---|---|---|"]
+    r=["| %s | %s | %s | %s |"%(u["img"],u["name"],u["tr"],u["desc"]),"|---|---|---|---|"]
     for k in NL:
-        e=NL[k][code]; r.append("| `%s` | %s | %s |"%(esc(k),esc(e["name"]),esc(e["desc"])))
+        e=NL[k][code]; r.append('| <img src="%s/nightlight/%s.png" width="56"> | `%s` | %s | %s |'%(IMG,slug(k),esc(k),esc(e["name"]),esc(e["desc"])))
     open(d+"/nightlight.md","w").write(nav(code,"nightlight")+"\n".join(r)+"\n")
-    for concept,DATA in (("segment",SEG),("buttons",BTN)):
-        r=["| %s | %s | %s |"%(u["name"],u["tr"],u["desc"]),"|---|---|---|"]
-        for k in DATA:
-            e=DATA[k][code]; r.append("| `%s` | %s | %s |"%(esc(k),esc(e["name"]),esc(e["desc"])))
-        open(d+"/%s.md"%concept,"w").write(nav(code,concept)+"\n".join(r)+"\n")
-    r=["| %s | %s |"%(u["name"],u["tr"]),"|---|---|"]
+    r=["| %s | %s | %s | %s |"%(u["img"],u["name"],u["tr"],u["desc"]),"|---|---|---|---|"]
+    for k in SEG:
+        e=SEG[k][code]; r.append('| <img src="%s/segment/%s.png" width="56"> | `%s` | %s | %s |'%(IMG,slug(k),esc(k),esc(e["name"]),esc(e["desc"])))
+    open(d+"/segment.md","w").write(nav(code,"segment")+"\n".join(r)+"\n")
+    r=["| %s | %s | %s |"%(u["name"],u["tr"],u["desc"]),"|---|---|---|"]
+    for k in BTN:
+        e=BTN[k][code]; r.append("| `%s` | %s | %s |"%(esc(k),esc(e["name"]),esc(e["desc"])))
+    open(d+"/buttons.md","w").write(nav(code,"buttons")+"\n".join(r)+"\n")
+    r=["| %s | %s | %s |"%(u["img"],u["name"],u["tr"]),"|---|---|---|"]
     for k in FXL:
-        e=FXL[k][code]; r.append("| `%s` | %s |"%(esc(k),esc(e["name"])))
+        e=FXL[k][code]; r.append('| <img src="%s/fxdata/%s.png" width="48"> | `%s` | %s |'%(IMG,FXI.get(k,"slider"),esc(k),esc(e["name"])))
     open(d+"/fxdata.md","w").write(nav(code,"fxdata")+"\n".join(r)+"\n")
     for concept,DATA in (("info",INF),("ui",UIL)):
         r=["| %s | %s | %s |"%(u["name"],u["tr"],u["desc"]),"|---|---|---|"]
