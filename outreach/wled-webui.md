@@ -19,6 +19,8 @@ effect enumerations, keyed by the English name from `/json/pal` / `/json/eff`:
 
 **https://github.com/openlamp/wled-assets**
 
+I built a **runnable proof-of-concept** so this isn't hand-wavy: a drop-in overlay that rewrites the effect/palette dropdowns with localized names and adds palette thumbnails, live against a real device — [`pages/webui-localize-poc.html`](https://github.com/openlamp/wled-assets/blob/main/pages/webui-localize-poc.html). It fetches the assets at runtime, so the default firmware/binary is untouched and users who don't opt in see exactly today's English UI.
+
 Several long-standing requests ask for localized names (#459, #2165, #3688, forum threads).
 This asset is the reusable, firmware-independent answer. For the **embedded web UI**, if
 there's ever appetite, it could be adopted as an **opt-in** layer that:
