@@ -1,6 +1,6 @@
 # WLED 색
 
-[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · **색** · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) &nbsp;•&nbsp; [한국어 참조](README.md)
+[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · **색** · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) · [정보 항목](info.md) · [UI 라벨](ui.md) &nbsp;•&nbsp; [한국어 참조](README.md)
 
 <sub>다른 언어: [EN](../en/colors.md) · [FR](../fr/colors.md) · [DE](../de/colors.md) · [ES](../es/colors.md) · [IT](../it/colors.md) · [JA](../ja/colors.md) · [ZH](../zh/colors.md)</sub>
 

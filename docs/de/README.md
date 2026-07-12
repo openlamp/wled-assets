@@ -8,6 +8,8 @@
 - [Segment](segment.md)
 - [Tasten](buttons.md)
 - [Effektregler](fxdata.md)
+- [Info-Felder](info.md)
+- [UI-Texte](ui.md)
 
 ---
 

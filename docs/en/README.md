@@ -8,6 +8,8 @@
 - [Segment](segment.md)
 - [Buttons](buttons.md)
 - [Effect sliders](fxdata.md)
+- [Info fields](info.md)
+- [UI labels](ui.md)
 
 ---
 

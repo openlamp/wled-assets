@@ -1,0 +1,413 @@
+{
+ "_note": "Labels of the fields in WLED's Info panel (/json/info). Key = English label; per-language {name, desc}.",
+ "entries": {
+  "Uptime": {
+   "en": {
+    "name": "Uptime",
+    "desc": "How long the device has been running since boot."
+   },
+   "fr": {
+    "name": "Temps de fonctionnement",
+    "desc": "How long the device has been running since boot."
+   },
+   "de": {
+    "name": "Betriebszeit",
+    "desc": "How long the device has been running since boot."
+   },
+   "es": {
+    "name": "Tiempo activo",
+    "desc": "How long the device has been running since boot."
+   },
+   "it": {
+    "name": "Tempo di attività",
+    "desc": "How long the device has been running since boot."
+   },
+   "ja": {
+    "name": "稼働時間",
+    "desc": "How long the device has been running since boot."
+   },
+   "ko": {
+    "name": "가동 시간",
+    "desc": "How long the device has been running since boot."
+   },
+   "zh": {
+    "name": "运行时间",
+    "desc": "How long the device has been running since boot."
+   }
+  },
+  "Free memory": {
+   "en": {
+    "name": "Free memory",
+    "desc": "Free heap (RAM) on the controller."
+   },
+   "fr": {
+    "name": "Mémoire libre",
+    "desc": "Free heap (RAM) on the controller."
+   },
+   "de": {
+    "name": "Freier Speicher",
+    "desc": "Free heap (RAM) on the controller."
+   },
+   "es": {
+    "name": "Memoria libre",
+    "desc": "Free heap (RAM) on the controller."
+   },
+   "it": {
+    "name": "Memoria libera",
+    "desc": "Free heap (RAM) on the controller."
+   },
+   "ja": {
+    "name": "空きメモリ",
+    "desc": "Free heap (RAM) on the controller."
+   },
+   "ko": {
+    "name": "여유 메모리",
+    "desc": "Free heap (RAM) on the controller."
+   },
+   "zh": {
+    "name": "可用内存",
+    "desc": "Free heap (RAM) on the controller."
+   }
+  },
+  "Signal strength": {
+   "en": {
+    "name": "Signal strength",
+    "desc": "Wi-Fi signal quality."
+   },
+   "fr": {
+    "name": "Force du signal",
+    "desc": "Wi-Fi signal quality."
+   },
+   "de": {
+    "name": "Signalstärke",
+    "desc": "Wi-Fi signal quality."
+   },
+   "es": {
+    "name": "Intensidad de señal",
+    "desc": "Wi-Fi signal quality."
+   },
+   "it": {
+    "name": "Intensità del segnale",
+    "desc": "Wi-Fi signal quality."
+   },
+   "ja": {
+    "name": "信号強度",
+    "desc": "Wi-Fi signal quality."
+   },
+   "ko": {
+    "name": "신호 세기",
+    "desc": "Wi-Fi signal quality."
+   },
+   "zh": {
+    "name": "信号强度",
+    "desc": "Wi-Fi signal quality."
+   }
+  },
+  "Frames per second": {
+   "en": {
+    "name": "Frames per second",
+    "desc": "Effect refresh rate (FPS)."
+   },
+   "fr": {
+    "name": "Images par seconde",
+    "desc": "Effect refresh rate (FPS)."
+   },
+   "de": {
+    "name": "Bilder pro Sekunde",
+    "desc": "Effect refresh rate (FPS)."
+   },
+   "es": {
+    "name": "Fotogramas por segundo",
+    "desc": "Effect refresh rate (FPS)."
+   },
+   "it": {
+    "name": "Fotogrammi al secondo",
+    "desc": "Effect refresh rate (FPS)."
+   },
+   "ja": {
+    "name": "フレーム毎秒",
+    "desc": "Effect refresh rate (FPS)."
+   },
+   "ko": {
+    "name": "초당 프레임",
+    "desc": "Effect refresh rate (FPS)."
+   },
+   "zh": {
+    "name": "每秒帧数",
+    "desc": "Effect refresh rate (FPS)."
+   }
+  },
+  "Estimated current": {
+   "en": {
+    "name": "Estimated current",
+    "desc": "Estimated power draw of the LEDs."
+   },
+   "fr": {
+    "name": "Courant estimé",
+    "desc": "Estimated power draw of the LEDs."
+   },
+   "de": {
+    "name": "Geschätzter Strom",
+    "desc": "Estimated power draw of the LEDs."
+   },
+   "es": {
+    "name": "Corriente estimada",
+    "desc": "Estimated power draw of the LEDs."
+   },
+   "it": {
+    "name": "Corrente stimata",
+    "desc": "Estimated power draw of the LEDs."
+   },
+   "ja": {
+    "name": "推定電流",
+    "desc": "Estimated power draw of the LEDs."
+   },
+   "ko": {
+    "name": "예상 전류",
+    "desc": "Estimated power draw of the LEDs."
+   },
+   "zh": {
+    "name": "估计电流",
+    "desc": "Estimated power draw of the LEDs."
+   }
+  },
+  "LED count": {
+   "en": {
+    "name": "LED count",
+    "desc": "Total LEDs configured."
+   },
+   "fr": {
+    "name": "Nombre de LED",
+    "desc": "Total LEDs configured."
+   },
+   "de": {
+    "name": "LED-Anzahl",
+    "desc": "Total LEDs configured."
+   },
+   "es": {
+    "name": "Número de LED",
+    "desc": "Total LEDs configured."
+   },
+   "it": {
+    "name": "Numero di LED",
+    "desc": "Total LEDs configured."
+   },
+   "ja": {
+    "name": "LED数",
+    "desc": "Total LEDs configured."
+   },
+   "ko": {
+    "name": "LED 수",
+    "desc": "Total LEDs configured."
+   },
+   "zh": {
+    "name": "LED 数量",
+    "desc": "Total LEDs configured."
+   }
+  },
+  "Environment": {
+   "en": {
+    "name": "Environment",
+    "desc": "Build/platform info (ESP variant, WLED version)."
+   },
+   "fr": {
+    "name": "Environnement",
+    "desc": "Build/platform info (ESP variant, WLED version)."
+   },
+   "de": {
+    "name": "Umgebung",
+    "desc": "Build/platform info (ESP variant, WLED version)."
+   },
+   "es": {
+    "name": "Entorno",
+    "desc": "Build/platform info (ESP variant, WLED version)."
+   },
+   "it": {
+    "name": "Ambiente",
+    "desc": "Build/platform info (ESP variant, WLED version)."
+   },
+   "ja": {
+    "name": "環境",
+    "desc": "Build/platform info (ESP variant, WLED version)."
+   },
+   "ko": {
+    "name": "환경",
+    "desc": "Build/platform info (ESP variant, WLED version)."
+   },
+   "zh": {
+    "name": "环境",
+    "desc": "Build/platform info (ESP variant, WLED version)."
+   }
+  },
+  "Filesystem": {
+   "en": {
+    "name": "Filesystem",
+    "desc": "On-device storage usage."
+   },
+   "fr": {
+    "name": "Système de fichiers",
+    "desc": "On-device storage usage."
+   },
+   "de": {
+    "name": "Dateisystem",
+    "desc": "On-device storage usage."
+   },
+   "es": {
+    "name": "Sistema de archivos",
+    "desc": "On-device storage usage."
+   },
+   "it": {
+    "name": "File system",
+    "desc": "On-device storage usage."
+   },
+   "ja": {
+    "name": "ファイルシステム",
+    "desc": "On-device storage usage."
+   },
+   "ko": {
+    "name": "파일 시스템",
+    "desc": "On-device storage usage."
+   },
+   "zh": {
+    "name": "文件系统",
+    "desc": "On-device storage usage."
+   }
+  },
+  "MAC address": {
+   "en": {
+    "name": "MAC address",
+    "desc": "Hardware network address."
+   },
+   "fr": {
+    "name": "Adresse MAC",
+    "desc": "Hardware network address."
+   },
+   "de": {
+    "name": "MAC-Adresse",
+    "desc": "Hardware network address."
+   },
+   "es": {
+    "name": "Dirección MAC",
+    "desc": "Hardware network address."
+   },
+   "it": {
+    "name": "Indirizzo MAC",
+    "desc": "Hardware network address."
+   },
+   "ja": {
+    "name": "MACアドレス",
+    "desc": "Hardware network address."
+   },
+   "ko": {
+    "name": "MAC 주소",
+    "desc": "Hardware network address."
+   },
+   "zh": {
+    "name": "MAC 地址",
+    "desc": "Hardware network address."
+   }
+  },
+  "IP address": {
+   "en": {
+    "name": "IP address",
+    "desc": "The device's network address."
+   },
+   "fr": {
+    "name": "Adresse IP",
+    "desc": "The device's network address."
+   },
+   "de": {
+    "name": "IP-Adresse",
+    "desc": "The device's network address."
+   },
+   "es": {
+    "name": "Dirección IP",
+    "desc": "The device's network address."
+   },
+   "it": {
+    "name": "Indirizzo IP",
+    "desc": "The device's network address."
+   },
+   "ja": {
+    "name": "IPアドレス",
+    "desc": "The device's network address."
+   },
+   "ko": {
+    "name": "IP 주소",
+    "desc": "The device's network address."
+   },
+   "zh": {
+    "name": "IP 地址",
+    "desc": "The device's network address."
+   }
+  },
+  "WiFi channel": {
+   "en": {
+    "name": "WiFi channel",
+    "desc": "The Wi-Fi channel in use."
+   },
+   "fr": {
+    "name": "Canal Wi-Fi",
+    "desc": "The Wi-Fi channel in use."
+   },
+   "de": {
+    "name": "WLAN-Kanal",
+    "desc": "The Wi-Fi channel in use."
+   },
+   "es": {
+    "name": "Canal Wi-Fi",
+    "desc": "The Wi-Fi channel in use."
+   },
+   "it": {
+    "name": "Canale Wi-Fi",
+    "desc": "The Wi-Fi channel in use."
+   },
+   "ja": {
+    "name": "Wi-Fiチャンネル",
+    "desc": "The Wi-Fi channel in use."
+   },
+   "ko": {
+    "name": "Wi-Fi 채널",
+    "desc": "The Wi-Fi channel in use."
+   },
+   "zh": {
+    "name": "Wi-Fi 信道",
+    "desc": "The Wi-Fi channel in use."
+   }
+  },
+  "Version": {
+   "en": {
+    "name": "Version",
+    "desc": "WLED firmware version."
+   },
+   "fr": {
+    "name": "Version",
+    "desc": "WLED firmware version."
+   },
+   "de": {
+    "name": "Version",
+    "desc": "WLED firmware version."
+   },
+   "es": {
+    "name": "Versión",
+    "desc": "WLED firmware version."
+   },
+   "it": {
+    "name": "Versione",
+    "desc": "WLED firmware version."
+   },
+   "ja": {
+    "name": "バージョン",
+    "desc": "WLED firmware version."
+   },
+   "ko": {
+    "name": "버전",
+    "desc": "WLED firmware version."
+   },
+   "zh": {
+    "name": "版本",
+    "desc": "WLED firmware version."
+   }
+  }
+ }
+}

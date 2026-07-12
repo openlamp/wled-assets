@@ -1,6 +1,6 @@
 # WLED Pulsanti
 
-[Tavolozze](palettes.md) · [Effetti](effects.md) · [Controlli](controls.md) · [Colori](colors.md) · [Luce notturna](nightlight.md) · [Segmento](segment.md) · **Pulsanti** · [Cursori effetto](fxdata.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
+[Tavolozze](palettes.md) · [Effetti](effects.md) · [Controlli](controls.md) · [Colori](colors.md) · [Luce notturna](nightlight.md) · [Segmento](segment.md) · **Pulsanti** · [Cursori effetto](fxdata.md) · [Campi info](info.md) · [Etichette UI](ui.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
 
 <sub>Altre lingue: [EN](../en/buttons.md) · [FR](../fr/buttons.md) · [DE](../de/buttons.md) · [ES](../es/buttons.md) · [JA](../ja/buttons.md) · [KO](../ko/buttons.md) · [ZH](../zh/buttons.md)</sub>
 

@@ -1,6 +1,6 @@
 # WLED Veilleuse
 
-[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · [Couleurs](colors.md) · **Veilleuse** · [Segment](segment.md) · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) &nbsp;•&nbsp; [Référence en français](README.md)
+[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · [Couleurs](colors.md) · **Veilleuse** · [Segment](segment.md) · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
 
 <sub>Autres langues: [EN](../en/nightlight.md) · [DE](../de/nightlight.md) · [ES](../es/nightlight.md) · [IT](../it/nightlight.md) · [JA](../ja/nightlight.md) · [KO](../ko/nightlight.md) · [ZH](../zh/nightlight.md)</sub>
 

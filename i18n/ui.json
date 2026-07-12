@@ -1,0 +1,685 @@
+{
+ "_note": "Core WLED web-UI / app labels (tabs, actions). Key = English label; per-language {name, desc}. Extensible — add strings as they are identified.",
+ "entries": {
+  "Colors": {
+   "en": {
+    "name": "Colors",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Couleurs",
+    "desc": ""
+   },
+   "de": {
+    "name": "Farben",
+    "desc": ""
+   },
+   "es": {
+    "name": "Colores",
+    "desc": ""
+   },
+   "it": {
+    "name": "Colori",
+    "desc": ""
+   },
+   "ja": {
+    "name": "色",
+    "desc": ""
+   },
+   "ko": {
+    "name": "색",
+    "desc": ""
+   },
+   "zh": {
+    "name": "颜色",
+    "desc": ""
+   }
+  },
+  "Effects": {
+   "en": {
+    "name": "Effects",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Effets",
+    "desc": ""
+   },
+   "de": {
+    "name": "Effekte",
+    "desc": ""
+   },
+   "es": {
+    "name": "Efectos",
+    "desc": ""
+   },
+   "it": {
+    "name": "Effetti",
+    "desc": ""
+   },
+   "ja": {
+    "name": "エフェクト",
+    "desc": ""
+   },
+   "ko": {
+    "name": "효과",
+    "desc": ""
+   },
+   "zh": {
+    "name": "效果",
+    "desc": ""
+   }
+  },
+  "Segments": {
+   "en": {
+    "name": "Segments",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Segments",
+    "desc": ""
+   },
+   "de": {
+    "name": "Segmente",
+    "desc": ""
+   },
+   "es": {
+    "name": "Segmentos",
+    "desc": ""
+   },
+   "it": {
+    "name": "Segmenti",
+    "desc": ""
+   },
+   "ja": {
+    "name": "セグメント",
+    "desc": ""
+   },
+   "ko": {
+    "name": "세그먼트",
+    "desc": ""
+   },
+   "zh": {
+    "name": "段",
+    "desc": ""
+   }
+  },
+  "Presets": {
+   "en": {
+    "name": "Presets",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Préréglages",
+    "desc": ""
+   },
+   "de": {
+    "name": "Voreinstellungen",
+    "desc": ""
+   },
+   "es": {
+    "name": "Ajustes",
+    "desc": ""
+   },
+   "it": {
+    "name": "Preset",
+    "desc": ""
+   },
+   "ja": {
+    "name": "プリセット",
+    "desc": ""
+   },
+   "ko": {
+    "name": "프리셋",
+    "desc": ""
+   },
+   "zh": {
+    "name": "预设",
+    "desc": ""
+   }
+  },
+  "Settings": {
+   "en": {
+    "name": "Settings",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Réglages",
+    "desc": ""
+   },
+   "de": {
+    "name": "Einstellungen",
+    "desc": ""
+   },
+   "es": {
+    "name": "Ajustes",
+    "desc": ""
+   },
+   "it": {
+    "name": "Impostazioni",
+    "desc": ""
+   },
+   "ja": {
+    "name": "設定",
+    "desc": ""
+   },
+   "ko": {
+    "name": "설정",
+    "desc": ""
+   },
+   "zh": {
+    "name": "设置",
+    "desc": ""
+   }
+  },
+  "Info": {
+   "en": {
+    "name": "Info",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Infos",
+    "desc": ""
+   },
+   "de": {
+    "name": "Info",
+    "desc": ""
+   },
+   "es": {
+    "name": "Información",
+    "desc": ""
+   },
+   "it": {
+    "name": "Info",
+    "desc": ""
+   },
+   "ja": {
+    "name": "情報",
+    "desc": ""
+   },
+   "ko": {
+    "name": "정보",
+    "desc": ""
+   },
+   "zh": {
+    "name": "信息",
+    "desc": ""
+   }
+  },
+  "Brightness": {
+   "en": {
+    "name": "Brightness",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Luminosité",
+    "desc": ""
+   },
+   "de": {
+    "name": "Helligkeit",
+    "desc": ""
+   },
+   "es": {
+    "name": "Brillo",
+    "desc": ""
+   },
+   "it": {
+    "name": "Luminosità",
+    "desc": ""
+   },
+   "ja": {
+    "name": "明るさ",
+    "desc": ""
+   },
+   "ko": {
+    "name": "밝기",
+    "desc": ""
+   },
+   "zh": {
+    "name": "亮度",
+    "desc": ""
+   }
+  },
+  "Save": {
+   "en": {
+    "name": "Save",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Enregistrer",
+    "desc": ""
+   },
+   "de": {
+    "name": "Speichern",
+    "desc": ""
+   },
+   "es": {
+    "name": "Guardar",
+    "desc": ""
+   },
+   "it": {
+    "name": "Salva",
+    "desc": ""
+   },
+   "ja": {
+    "name": "保存",
+    "desc": ""
+   },
+   "ko": {
+    "name": "저장",
+    "desc": ""
+   },
+   "zh": {
+    "name": "保存",
+    "desc": ""
+   }
+  },
+  "Delete": {
+   "en": {
+    "name": "Delete",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Supprimer",
+    "desc": ""
+   },
+   "de": {
+    "name": "Löschen",
+    "desc": ""
+   },
+   "es": {
+    "name": "Eliminar",
+    "desc": ""
+   },
+   "it": {
+    "name": "Elimina",
+    "desc": ""
+   },
+   "ja": {
+    "name": "削除",
+    "desc": ""
+   },
+   "ko": {
+    "name": "삭제",
+    "desc": ""
+   },
+   "zh": {
+    "name": "删除",
+    "desc": ""
+   }
+  },
+  "Rename": {
+   "en": {
+    "name": "Rename",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Renommer",
+    "desc": ""
+   },
+   "de": {
+    "name": "Umbenennen",
+    "desc": ""
+   },
+   "es": {
+    "name": "Renombrar",
+    "desc": ""
+   },
+   "it": {
+    "name": "Rinomina",
+    "desc": ""
+   },
+   "ja": {
+    "name": "名前変更",
+    "desc": ""
+   },
+   "ko": {
+    "name": "이름 변경",
+    "desc": ""
+   },
+   "zh": {
+    "name": "重命名",
+    "desc": ""
+   }
+  },
+  "Add segment": {
+   "en": {
+    "name": "Add segment",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Ajouter un segment",
+    "desc": ""
+   },
+   "de": {
+    "name": "Segment hinzufügen",
+    "desc": ""
+   },
+   "es": {
+    "name": "Añadir segmento",
+    "desc": ""
+   },
+   "it": {
+    "name": "Aggiungi segmento",
+    "desc": ""
+   },
+   "ja": {
+    "name": "セグメント追加",
+    "desc": ""
+   },
+   "ko": {
+    "name": "세그먼트 추가",
+    "desc": ""
+   },
+   "zh": {
+    "name": "添加段",
+    "desc": ""
+   }
+  },
+  "Duplicate": {
+   "en": {
+    "name": "Duplicate",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Dupliquer",
+    "desc": ""
+   },
+   "de": {
+    "name": "Duplizieren",
+    "desc": ""
+   },
+   "es": {
+    "name": "Duplicar",
+    "desc": ""
+   },
+   "it": {
+    "name": "Duplica",
+    "desc": ""
+   },
+   "ja": {
+    "name": "複製",
+    "desc": ""
+   },
+   "ko": {
+    "name": "복제",
+    "desc": ""
+   },
+   "zh": {
+    "name": "复制",
+    "desc": ""
+   }
+  },
+  "Reset": {
+   "en": {
+    "name": "Reset",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Réinitialiser",
+    "desc": ""
+   },
+   "de": {
+    "name": "Zurücksetzen",
+    "desc": ""
+   },
+   "es": {
+    "name": "Restablecer",
+    "desc": ""
+   },
+   "it": {
+    "name": "Reimposta",
+    "desc": ""
+   },
+   "ja": {
+    "name": "リセット",
+    "desc": ""
+   },
+   "ko": {
+    "name": "초기화",
+    "desc": ""
+   },
+   "zh": {
+    "name": "重置",
+    "desc": ""
+   }
+  },
+  "Apply": {
+   "en": {
+    "name": "Apply",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Appliquer",
+    "desc": ""
+   },
+   "de": {
+    "name": "Anwenden",
+    "desc": ""
+   },
+   "es": {
+    "name": "Aplicar",
+    "desc": ""
+   },
+   "it": {
+    "name": "Applica",
+    "desc": ""
+   },
+   "ja": {
+    "name": "適用",
+    "desc": ""
+   },
+   "ko": {
+    "name": "적용",
+    "desc": ""
+   },
+   "zh": {
+    "name": "应用",
+    "desc": ""
+   }
+  },
+  "Timer": {
+   "en": {
+    "name": "Timer",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Minuteur",
+    "desc": ""
+   },
+   "de": {
+    "name": "Timer",
+    "desc": ""
+   },
+   "es": {
+    "name": "Temporizador",
+    "desc": ""
+   },
+   "it": {
+    "name": "Timer",
+    "desc": ""
+   },
+   "ja": {
+    "name": "タイマー",
+    "desc": ""
+   },
+   "ko": {
+    "name": "타이머",
+    "desc": ""
+   },
+   "zh": {
+    "name": "定时器",
+    "desc": ""
+   }
+  },
+  "Sync": {
+   "en": {
+    "name": "Sync",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Synchronisation",
+    "desc": ""
+   },
+   "de": {
+    "name": "Synchronisierung",
+    "desc": ""
+   },
+   "es": {
+    "name": "Sincronización",
+    "desc": ""
+   },
+   "it": {
+    "name": "Sincronizzazione",
+    "desc": ""
+   },
+   "ja": {
+    "name": "同期",
+    "desc": ""
+   },
+   "ko": {
+    "name": "동기화",
+    "desc": ""
+   },
+   "zh": {
+    "name": "同步",
+    "desc": ""
+   }
+  },
+  "Live": {
+   "en": {
+    "name": "Live",
+    "desc": ""
+   },
+   "fr": {
+    "name": "En direct",
+    "desc": ""
+   },
+   "de": {
+    "name": "Live",
+    "desc": ""
+   },
+   "es": {
+    "name": "En vivo",
+    "desc": ""
+   },
+   "it": {
+    "name": "Live",
+    "desc": ""
+   },
+   "ja": {
+    "name": "ライブ",
+    "desc": ""
+   },
+   "ko": {
+    "name": "라이브",
+    "desc": ""
+   },
+   "zh": {
+    "name": "实时",
+    "desc": ""
+   }
+  },
+  "Peek": {
+   "en": {
+    "name": "Peek",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Aperçu",
+    "desc": ""
+   },
+   "de": {
+    "name": "Vorschau",
+    "desc": ""
+   },
+   "es": {
+    "name": "Vista previa",
+    "desc": ""
+   },
+   "it": {
+    "name": "Anteprima",
+    "desc": ""
+   },
+   "ja": {
+    "name": "プレビュー",
+    "desc": ""
+   },
+   "ko": {
+    "name": "미리보기",
+    "desc": ""
+   },
+   "zh": {
+    "name": "预览",
+    "desc": ""
+   }
+  },
+  "Reboot": {
+   "en": {
+    "name": "Reboot",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Redémarrer",
+    "desc": ""
+   },
+   "de": {
+    "name": "Neu starten",
+    "desc": ""
+   },
+   "es": {
+    "name": "Reiniciar",
+    "desc": ""
+   },
+   "it": {
+    "name": "Riavvia",
+    "desc": ""
+   },
+   "ja": {
+    "name": "再起動",
+    "desc": ""
+   },
+   "ko": {
+    "name": "재부팅",
+    "desc": ""
+   },
+   "zh": {
+    "name": "重启",
+    "desc": ""
+   }
+  },
+  "Discover devices": {
+   "en": {
+    "name": "Discover devices",
+    "desc": ""
+   },
+   "fr": {
+    "name": "Découvrir les appareils",
+    "desc": ""
+   },
+   "de": {
+    "name": "Geräte suchen",
+    "desc": ""
+   },
+   "es": {
+    "name": "Descubrir dispositivos",
+    "desc": ""
+   },
+   "it": {
+    "name": "Trova dispositivi",
+    "desc": ""
+   },
+   "ja": {
+    "name": "デバイス検出",
+    "desc": ""
+   },
+   "ko": {
+    "name": "장치 검색",
+    "desc": ""
+   },
+   "zh": {
+    "name": "发现设备",
+    "desc": ""
+   }
+  }
+ }
+}

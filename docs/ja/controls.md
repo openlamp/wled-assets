@@ -1,6 +1,6 @@
 # WLED コントロール
 
-[パレット](palettes.md) · [エフェクト](effects.md) · **コントロール** · [色](colors.md) · [ナイトライト](nightlight.md) · [セグメント](segment.md) · [ボタン](buttons.md) · [スライダー](fxdata.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
+[パレット](palettes.md) · [エフェクト](effects.md) · **コントロール** · [色](colors.md) · [ナイトライト](nightlight.md) · [セグメント](segment.md) · [ボタン](buttons.md) · [スライダー](fxdata.md) · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
 
 <sub>他の言語: [EN](../en/controls.md) · [FR](../fr/controls.md) · [DE](../de/controls.md) · [ES](../es/controls.md) · [IT](../it/controls.md) · [KO](../ko/controls.md) · [ZH](../zh/controls.md)</sub>
 

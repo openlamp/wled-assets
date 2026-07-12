@@ -1,6 +1,6 @@
 # WLED Boutons
 
-[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · [Couleurs](colors.md) · [Veilleuse](nightlight.md) · [Segment](segment.md) · **Boutons** · [Curseurs d'effet](fxdata.md) &nbsp;•&nbsp; [Référence en français](README.md)
+[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · [Couleurs](colors.md) · [Veilleuse](nightlight.md) · [Segment](segment.md) · **Boutons** · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
 
 <sub>Autres langues: [EN](../en/buttons.md) · [DE](../de/buttons.md) · [ES](../es/buttons.md) · [IT](../it/buttons.md) · [JA](../ja/buttons.md) · [KO](../ko/buttons.md) · [ZH](../zh/buttons.md)</sub>
 

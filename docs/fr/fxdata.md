@@ -1,6 +1,6 @@
 # WLED Curseurs d'effet
 
-[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · [Couleurs](colors.md) · [Veilleuse](nightlight.md) · [Segment](segment.md) · [Boutons](buttons.md) · **Curseurs d'effet** &nbsp;•&nbsp; [Référence en français](README.md)
+[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · [Couleurs](colors.md) · [Veilleuse](nightlight.md) · [Segment](segment.md) · [Boutons](buttons.md) · **Curseurs d'effet** · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
 
 <sub>Autres langues: [EN](../en/fxdata.md) · [DE](../de/fxdata.md) · [ES](../es/fxdata.md) · [IT](../it/fxdata.md) · [JA](../ja/fxdata.md) · [KO](../ko/fxdata.md) · [ZH](../zh/fxdata.md)</sub>
 

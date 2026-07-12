@@ -1,6 +1,6 @@
 # WLED 颜色
 
-[调色板](palettes.md) · [效果](effects.md) · [控件](controls.md) · **颜色** · [夜灯](nightlight.md) · [段](segment.md) · [按钮](buttons.md) · [滑块](fxdata.md) &nbsp;•&nbsp; [中文参考](README.md)
+[调色板](palettes.md) · [效果](effects.md) · [控件](controls.md) · **颜色** · [夜灯](nightlight.md) · [段](segment.md) · [按钮](buttons.md) · [滑块](fxdata.md) · [信息字段](info.md) · [界面标签](ui.md) &nbsp;•&nbsp; [中文参考](README.md)
 
 <sub>其他语言: [EN](../en/colors.md) · [FR](../fr/colors.md) · [DE](../de/colors.md) · [ES](../es/colors.md) · [IT](../it/colors.md) · [JA](../ja/colors.md) · [KO](../ko/colors.md)</sub>
 

@@ -8,6 +8,8 @@
 - [Segment](segment.md)
 - [Boutons](buttons.md)
 - [Curseurs d'effet](fxdata.md)
+- [Champs Info](info.md)
+- [Libellés d'UI](ui.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # WLED Colori
 
-[Tavolozze](palettes.md) · [Effetti](effects.md) · [Controlli](controls.md) · **Colori** · [Luce notturna](nightlight.md) · [Segmento](segment.md) · [Pulsanti](buttons.md) · [Cursori effetto](fxdata.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
+[Tavolozze](palettes.md) · [Effetti](effects.md) · [Controlli](controls.md) · **Colori** · [Luce notturna](nightlight.md) · [Segmento](segment.md) · [Pulsanti](buttons.md) · [Cursori effetto](fxdata.md) · [Campi info](info.md) · [Etichette UI](ui.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
 
 <sub>Altre lingue: [EN](../en/colors.md) · [FR](../fr/colors.md) · [DE](../de/colors.md) · [ES](../es/colors.md) · [JA](../ja/colors.md) · [KO](../ko/colors.md) · [ZH](../zh/colors.md)</sub>
 

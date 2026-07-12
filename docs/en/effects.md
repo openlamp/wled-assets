@@ -1,6 +1,6 @@
 # WLED Effects
 
-[Palettes](palettes.md) · **Effects** · [Controls](controls.md) · [Colours](colors.md) · [Nightlight](nightlight.md) · [Segment](segment.md) · [Buttons](buttons.md) · [Effect sliders](fxdata.md) &nbsp;•&nbsp; [Reference in English](README.md)
+[Palettes](palettes.md) · **Effects** · [Controls](controls.md) · [Colours](colors.md) · [Nightlight](nightlight.md) · [Segment](segment.md) · [Buttons](buttons.md) · [Effect sliders](fxdata.md) · [Info fields](info.md) · [UI labels](ui.md) &nbsp;•&nbsp; [Reference in English](README.md)
 
 <sub>Other languages: [FR](../fr/effects.md) · [DE](../de/effects.md) · [ES](../es/effects.md) · [IT](../it/effects.md) · [JA](../ja/effects.md) · [KO](../ko/effects.md) · [ZH](../zh/effects.md)</sub>
 

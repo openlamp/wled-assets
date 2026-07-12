@@ -1,6 +1,6 @@
 # WLED Segmento
 
-[Paletas](palettes.md) · [Efectos](effects.md) · [Controles](controls.md) · [Colores](colors.md) · [Luz nocturna](nightlight.md) · **Segmento** · [Botones](buttons.md) · [Deslizadores](fxdata.md) &nbsp;•&nbsp; [Referencia en español](README.md)
+[Paletas](palettes.md) · [Efectos](effects.md) · [Controles](controls.md) · [Colores](colors.md) · [Luz nocturna](nightlight.md) · **Segmento** · [Botones](buttons.md) · [Deslizadores](fxdata.md) · [Campos de info](info.md) · [Etiquetas de IU](ui.md) &nbsp;•&nbsp; [Referencia en español](README.md)
 
 <sub>Otros idiomas: [EN](../en/segment.md) · [FR](../fr/segment.md) · [DE](../de/segment.md) · [IT](../it/segment.md) · [JA](../ja/segment.md) · [KO](../ko/segment.md) · [ZH](../zh/segment.md)</sub>
 

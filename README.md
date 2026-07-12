@@ -51,7 +51,7 @@ to show localized names, telling palette icons, and a preview of what each effec
 ## Browse the docs (GitHub-rendered)
 
 One page per **language × concept** — English name · translation · description · illustration.
-**8 concepts** now: palettes · effects · controls · colours · nightlight · segment · buttons · effect-sliders. Full index (all concepts × languages): **[docs/](docs/)**. Main ones:
+**10 concepts**: palettes · effects · controls · colours · nightlight · segment · buttons · effect-sliders · info · UI. Full index (all concepts × languages): **[docs/](docs/)**. Main ones:
 
 | Language | Palettes | Effects | Controls | Colours | Nightlight |
 |---|---|---|---|---|---|
@@ -75,6 +75,7 @@ One page per **language × concept** — English name · translation · descript
 | `i18n/colors.json` | The **8 stage colours** (Kelly maximum-contrast) → rgb, rank, `{ name, desc }` per language, plus the `_rationale` (why 8). |
 | `i18n/nightlight.json`, `i18n/segment.json`, `i18n/buttons.json` | Nightlight modes, segment actions (reverse/mirror/freeze…), button/input types → `{ name, desc }` per language. |
 | `i18n/fxdata-labels.json` | The **234 per-effect slider labels** from `/json/fxdata` (Speed, Blur, # of balls…) → `{ name }` per language (common ones translated, long tail = English fallback). |
+| `i18n/info.json`, `i18n/ui.json` | Info-panel field labels and core UI labels (tabs, actions) → `{ name, desc }` per language. |
 | `i18n/nightlight.json` | The **4 nightlight modes** (instant, fade, colour fade, sunrise) → mode number + `{ name, desc }` per language. |
 | `i18n/effect-families.json` | Descriptions of the 9 broad motion families, per language. |
 | `meanings/palette-meanings.json` | Source for palette descriptions. |
@@ -97,24 +98,26 @@ One page per **language × concept** — English name · translation · descript
 
 Vendor it as a git submodule, a package, or a plain copy. It's data + SVG + one small JS file.
 
-## Beyond palettes & effects
+## Every identified WLED string is translated here
 
-Also internationalized here:
+This repo's goal is to localize **everything WLED exposes as named vocabulary** — not a
+curated subset. Concepts covered (each × 8 languages, English fallback):
 
-- **Controls** — the effect parameters (Speed, Intensity, Custom 1-3, Options 1-3, colour
-  slots, Palette). See [docs/en/controls.md](docs/en/controls.md).
-- **Colours** — the **8 stage colours** (Kelly's maximum-contrast palette). The
-  [colours pages](docs/en/colors.md) open with the rationale: *why 8 and not 300*.
-- **Nightlight modes** — the 4 WLED nightlight behaviours (instant / fade / colour fade /
-  sunrise). See [docs/en/nightlight.md](docs/en/nightlight.md).
+- **Palettes** (72) · **Effects** (220) · **Effect controls** (Speed, Intensity, Custom 1-3, Options, colour slots, Palette)
+- **Colours** (the 8 stage colours + the *why 8* rationale) · **Nightlight modes** (4)
+- **Segment actions** (reverse, mirror, freeze, on/off, transition, sound-sim)
+- **Button/input types** (push, switch, PIR, touch, analog…)
+- **Per-effect slider labels** — the **234** parameter names from `/json/fxdata`
+- **Info-panel fields** (uptime, free memory, signal, FPS, estimated current…)
+- **Core UI labels** (Colours, Effects, Segments, Presets, Settings, Save, Sync, Live…)
 
-- **Nightlight modes**, **segment actions** (reverse/mirror/freeze/…), **button/input types** — small WLED enums, translated in full.
-- **Per-effect slider labels** — the **234** parameter names from `/json/fxdata` (Speed, Blur, # of balls, Wind speed…). Common ones translated; the specific long tail (and CJK) fall back to English and can be extended via PR.
+Coverage grows over time: the small enums are fully translated; the large sets (the 234
+fxdata labels, the UI strings) have the common items translated and the specific long tail
+(plus the CJK columns) fall back to English — **extend any of them via PR**, that's the point.
 
-**This repo aims to translate *every* identified WLED enumeration.** Deliberately **not**
-translated (they're identifiers, not words): LED-chip types (WS2812B, SK6812…) and colour
-orders (GRB, RGB…) — kept as-is, like proper-noun palettes. General UI strings and info
-fields are full-app localisation, a different layer.
+**Kept in English on purpose** (they are identifiers/product names, not words — like
+proper-noun palettes such as Rivendell): LED-chip types (`WS2812B`, `SK6812`…) and colour
+orders (`GRB`, `RGB`…). If a client wants those localized too, open an issue and we'll add them.
 
 ## Updating an illustration or animation
 
