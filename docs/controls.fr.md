@@ -1,6 +1,6 @@
 # WLED Contrôles
 
-[Palettes](palettes.fr.md) · [Effets](effects.fr.md) · **Contrôles**
+[Palettes](palettes.fr.md) · [Effets](effects.fr.md) · **Contrôles** · [Couleurs](colors.fr.md)
 
 <sub>Autres langues: [EN](controls.en.md) · [DE](controls.de.md) · [ES](controls.es.md) · [IT](controls.it.md) · [JA](controls.ja.md) · [KO](controls.ko.md) · [ZH](controls.zh.md)</sub>
 

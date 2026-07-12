@@ -1,6 +1,6 @@
 # WLED コントロール
 
-[パレット](palettes.ja.md) · [エフェクト](effects.ja.md) · **コントロール**
+[パレット](palettes.ja.md) · [エフェクト](effects.ja.md) · **コントロール** · [色](colors.ja.md)
 
 <sub>他の言語: [EN](controls.en.md) · [FR](controls.fr.md) · [DE](controls.de.md) · [ES](controls.es.md) · [IT](controls.it.md) · [KO](controls.ko.md) · [ZH](controls.zh.md)</sub>
 

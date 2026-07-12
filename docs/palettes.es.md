@@ -1,6 +1,6 @@
 # WLED Paletas
 
-**Paletas** · [Efectos](effects.es.md) · [Controles](controls.es.md)
+**Paletas** · [Efectos](effects.es.md) · [Controles](controls.es.md) · [Colores](colors.es.md)
 
 <sub>Otros idiomas: [EN](palettes.en.md) · [FR](palettes.fr.md) · [DE](palettes.de.md) · [IT](palettes.it.md) · [JA](palettes.ja.md) · [KO](palettes.ko.md) · [ZH](palettes.zh.md)</sub>
 

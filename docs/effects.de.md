@@ -1,6 +1,6 @@
 # WLED Effekte
 
-[Paletten](palettes.de.md) · **Effekte** · [Regler](controls.de.md)
+[Paletten](palettes.de.md) · **Effekte** · [Regler](controls.de.md) · [Farben](colors.de.md)
 
 <sub>Andere Sprachen: [EN](effects.en.md) · [FR](effects.fr.md) · [ES](effects.es.md) · [IT](effects.it.md) · [JA](effects.ja.md) · [KO](effects.ko.md) · [ZH](effects.zh.md)</sub>
 

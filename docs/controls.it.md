@@ -1,6 +1,6 @@
 # WLED Controlli
 
-[Tavolozze](palettes.it.md) · [Effetti](effects.it.md) · **Controlli**
+[Tavolozze](palettes.it.md) · [Effetti](effects.it.md) · **Controlli** · [Colori](colors.it.md)
 
 <sub>Altre lingue: [EN](controls.en.md) · [FR](controls.fr.md) · [DE](controls.de.md) · [ES](controls.es.md) · [JA](controls.ja.md) · [KO](controls.ko.md) · [ZH](controls.zh.md)</sub>
 

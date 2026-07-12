@@ -1,6 +1,6 @@
 # WLED Tavolozze
 
-**Tavolozze** · [Effetti](effects.it.md) · [Controlli](controls.it.md)
+**Tavolozze** · [Effetti](effects.it.md) · [Controlli](controls.it.md) · [Colori](colors.it.md)
 
 <sub>Altre lingue: [EN](palettes.en.md) · [FR](palettes.fr.md) · [DE](palettes.de.md) · [ES](palettes.es.md) · [JA](palettes.ja.md) · [KO](palettes.ko.md) · [ZH](palettes.zh.md)</sub>
 

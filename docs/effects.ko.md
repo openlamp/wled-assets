@@ -1,6 +1,6 @@
 # WLED 효과
 
-[팔레트](palettes.ko.md) · **효과** · [컨트롤](controls.ko.md)
+[팔레트](palettes.ko.md) · **효과** · [컨트롤](controls.ko.md) · [색](colors.ko.md)
 
 <sub>다른 언어: [EN](effects.en.md) · [FR](effects.fr.md) · [DE](effects.de.md) · [ES](effects.es.md) · [IT](effects.it.md) · [JA](effects.ja.md) · [ZH](effects.zh.md)</sub>
 
