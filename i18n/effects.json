@@ -1,471 +1,7383 @@
 {
- "_note": "Localized WLED effect names. Key = exact English name from /json/eff. Missing entry/language -> English fallback. Extend over time.",
- "Aurora": {
-  "fr": "Aurore",
-  "de": "Aurora",
-  "es": "Aurora",
-  "it": "Aurora"
- },
- "Black Hole": {
-  "fr": "Trou noir"
- },
- "Blends": {
-  "fr": "Mélanges"
- },
- "Blink": {
-  "fr": "Clignotement",
-  "de": "Blinken",
-  "es": "Parpadeo",
-  "it": "Lampeggio"
- },
- "Blink Rainbow": {
-  "fr": "Clignotement arc-en-ciel"
- },
- "Blobs": {
-  "fr": "Bulles"
- },
- "Bouncing Balls": {
-  "fr": "Billes rebondissantes"
- },
- "Breathe": {
-  "fr": "Respiration",
-  "de": "Atmen",
-  "es": "Respiración",
-  "it": "Respiro"
- },
- "Candle": {
-  "fr": "Bougie",
-  "de": "Kerze",
-  "es": "Vela",
-  "it": "Candela"
- },
- "Candle Multi": {
-  "fr": "Bougies multiples"
- },
- "Chase": {
-  "fr": "Poursuite",
-  "de": "Verfolgung",
-  "es": "Persecución",
-  "it": "Inseguimento"
- },
- "Chase 2": {
-  "fr": "Poursuite 2"
- },
- "Chase 3": {
-  "fr": "Poursuite 3"
- },
- "Chase Flash": {
-  "fr": "Poursuite flash"
- },
- "Chase Rainbow": {
-  "fr": "Poursuite arc-en-ciel"
- },
- "Chase Random": {
-  "fr": "Poursuite aléatoire"
- },
- "Color Clouds": {
-  "fr": "Nuages colorés"
- },
- "Colored Bursts": {
-  "fr": "Éclats colorés"
- },
- "Colorful": {
-  "fr": "Coloré"
- },
- "Colorloop": {
-  "fr": "Boucle de couleurs"
- },
- "Colorwaves": {
-  "fr": "Vagues colorées"
- },
- "Copy Segment": {
-  "fr": "Copier segment"
- },
- "Crazy Bees": {
-  "fr": "Abeilles folles"
- },
- "DJ Light": {
-  "fr": "Lumière DJ"
- },
- "Dancing Shadows": {
-  "fr": "Ombres dansantes"
- },
- "Dissolve": {
-  "fr": "Dissolution"
- },
- "Dissolve Rnd": {
-  "fr": "Dissolution aléatoire"
- },
- "Distortion Waves": {
-  "fr": "Vagues déformées"
- },
- "Drift": {
-  "fr": "Dérive"
- },
- "Drift Rose": {
-  "fr": "Rosace"
- },
- "Drip": {
-  "fr": "Goutte"
- },
- "Dynamic": {
-  "fr": "Dynamique"
- },
- "Dynamic Smooth": {
-  "fr": "Dynamique doux"
- },
- "Fade": {
-  "fr": "Fondu",
-  "de": "Verblassen",
-  "es": "Desvanecer",
-  "it": "Dissolvenza"
- },
- "Fairy": {
-  "fr": "Fée"
- },
- "Fairytwinkle": {
-  "fr": "Scintillement féerique"
- },
- "Fill Noise": {
-  "fr": "Bruit rempli"
- },
- "Fire 2012": {
-  "fr": "Feu 2012"
- },
- "Fire Flicker": {
-  "fr": "Feu vacillant",
-  "de": "Feuerflackern",
-  "es": "Fuego parpadeante",
-  "it": "Fuoco tremolante"
- },
- "Fireworks": {
-  "fr": "Feux d'artifice",
-  "de": "Feuerwerk",
-  "es": "Fuegos artificiales",
-  "it": "Fuochi d'artificio"
- },
- "Fireworks 1D": {
-  "fr": "Feux d'artifice 1D"
- },
- "Fireworks Starburst": {
-  "fr": "Feu d'artifice étoilé"
- },
- "Flow": {
-  "fr": "Flux"
- },
- "Flow Stripe": {
-  "fr": "Bande fluide"
- },
- "Game Of Life": {
-  "fr": "Jeu de la vie"
- },
- "Ghost Rider": {
-  "fr": "Cavalier fantôme"
- },
- "Glitter": {
-  "fr": "Paillettes",
-  "de": "Glitzer",
-  "es": "Purpurina",
-  "it": "Glitter"
- },
- "Gradient": {
-  "fr": "Dégradé",
-  "de": "Verlauf",
-  "es": "Degradado",
-  "it": "Gradiente"
- },
- "Halloween Eyes": {
-  "fr": "Yeux d'Halloween"
- },
- "Heartbeat": {
-  "fr": "Battement de cœur",
-  "de": "Herzschlag",
-  "es": "Latido",
-  "it": "Battito"
- },
- "Image": {
-  "fr": "Image"
- },
- "Juggle": {
-  "fr": "Jonglage"
- },
- "Lake": {
-  "fr": "Lac",
-  "de": "See",
-  "es": "Lago",
-  "it": "Lago"
- },
- "Lighthouse": {
-  "fr": "Phare"
- },
- "Lightning": {
-  "fr": "Éclair",
-  "de": "Blitz",
-  "es": "Relámpago",
-  "it": "Fulmine"
- },
- "Loading": {
-  "fr": "Chargement"
- },
- "Matrix": {
-  "fr": "Matrice",
-  "de": "Matrix",
-  "es": "Matriz",
-  "it": "Matrice"
- },
- "Meteor": {
-  "fr": "Météore",
-  "de": "Meteor",
-  "es": "Meteoro",
-  "it": "Meteora"
- },
- "Multi Comet": {
-  "fr": "Multi-comètes"
- },
- "Noise Pal": {
-  "fr": "Bruit palette"
- },
- "Octopus": {
-  "fr": "Pieuvre"
- },
- "Oscillate": {
-  "fr": "Oscillation"
- },
- "PacMan": {
-  "fr": "Pac-Man"
- },
- "Pacifica": {
-  "fr": "Pacifica"
- },
- "Palette": {
-  "fr": "Palette"
- },
- "Percent": {
-  "fr": "Pourcentage"
- },
- "Phased": {
-  "fr": "Déphasé"
- },
- "Pixels": {
-  "fr": "Pixels"
- },
- "Pixelwave": {
-  "fr": "Vague de pixels"
- },
- "Plasma": {
-  "fr": "Plasma",
-  "de": "Plasma",
-  "es": "Plasma",
-  "it": "Plasma"
- },
- "Plasma Ball": {
-  "fr": "Boule de plasma"
- },
- "Polar Lights": {
-  "fr": "Aurores polaires"
- },
- "Popcorn": {
-  "fr": "Popcorn"
- },
- "Railway": {
-  "fr": "Voie ferrée"
- },
- "Rain": {
-  "fr": "Pluie",
-  "de": "Regen",
-  "es": "Lluvia",
-  "it": "Pioggia"
- },
- "Rainbow": {
-  "fr": "Arc-en-ciel",
-  "de": "Regenbogen",
-  "es": "Arcoíris",
-  "it": "Arcobaleno"
- },
- "Rainbow Runner": {
-  "fr": "Coureur arc-en-ciel"
- },
- "Random Colors": {
-  "fr": "Couleurs aléatoires"
- },
- "Ripple": {
-  "fr": "Ondulation"
- },
- "Ripple Rainbow": {
-  "fr": "Ondulation arc-en-ciel"
- },
- "Rolling Balls": {
-  "fr": "Billes roulantes"
- },
- "Running": {
-  "fr": "Défilement"
- },
- "Running Dual": {
-  "fr": "Défilement double"
- },
- "Saw": {
-  "fr": "Dents de scie"
- },
- "Scan": {
-  "fr": "Scanner"
- },
- "Scan Dual": {
-  "fr": "Scanner double"
- },
- "Scanner": {
-  "fr": "Scanner"
- },
- "Scanner Dual": {
-  "fr": "Scanner double"
- },
- "Scrolling Text": {
-  "fr": "Texte défilant"
- },
- "Shimmer": {
-  "fr": "Miroitement"
- },
- "Sine": {
-  "fr": "Sinus"
- },
- "Sinelon": {
-  "fr": "Sinelon"
- },
- "Slow Transition": {
-  "fr": "Transition lente"
- },
- "Soap": {
-  "fr": "Savon"
- },
- "Solid": {
-  "fr": "Fixe",
-  "de": "Statisch",
-  "es": "Fijo",
-  "it": "Fisso"
- },
- "Solid Glitter": {
-  "fr": "Paillettes fixes"
- },
- "Solid Pattern": {
-  "fr": "Motif fixe"
- },
- "Solid Pattern Tri": {
-  "fr": "Motif fixe tricolore"
- },
- "Spaceships": {
-  "fr": "Vaisseaux"
- },
- "Sparkle": {
-  "fr": "Étincelles",
-  "de": "Funkeln",
-  "es": "Destellos",
-  "it": "Scintillii"
- },
- "Sparkle Dark": {
-  "fr": "Étincelles sombres"
- },
- "Sparkle+": {
-  "fr": "Étincelles+"
- },
- "Spots": {
-  "fr": "Points"
- },
- "Spots Fade": {
-  "fr": "Points fondus"
- },
- "Stream": {
-  "fr": "Flux"
- },
- "Stream 2": {
-  "fr": "Flux 2"
- },
- "Strobe": {
-  "fr": "Stroboscope",
-  "de": "Stroboskop",
-  "es": "Estroboscopio",
-  "it": "Stroboscopio"
- },
- "Strobe Mega": {
-  "fr": "Strobo méga"
- },
- "Strobe Rainbow": {
-  "fr": "Strobo arc-en-ciel"
- },
- "Sun Radiation": {
-  "fr": "Rayonnement solaire"
- },
- "Sunrise": {
-  "fr": "Lever de soleil",
-  "de": "Sonnenaufgang",
-  "es": "Amanecer",
-  "it": "Alba"
- },
- "Sweep": {
-  "fr": "Va-et-vient"
- },
- "Sweep Random": {
-  "fr": "Va-et-vient aléatoire"
- },
- "Swirl": {
-  "fr": "Tourbillon"
- },
- "TV Simulator": {
-  "fr": "Simulateur TV"
- },
- "Tartan": {
-  "fr": "Tartan"
- },
- "Tetrix": {
-  "fr": "Tetris"
- },
- "Theater": {
-  "fr": "Chenillard"
- },
- "Theater Rainbow": {
-  "fr": "Chenillard arc-en-ciel"
- },
- "Traffic Light": {
-  "fr": "Feu tricolore"
- },
- "Tri Fade": {
-  "fr": "Fondu tricolore"
- },
- "Tri Wipe": {
-  "fr": "Balayage tricolore"
- },
- "Twinkle": {
-  "fr": "Scintillement",
-  "de": "Funkeln",
-  "es": "Centelleo",
-  "it": "Scintillio"
- },
- "Twinklefox": {
-  "fr": "Scintillement renard"
- },
- "Twinkleup": {
-  "fr": "Scintillement montant"
- },
- "Two Dots": {
-  "fr": "Deux points"
- },
- "Washing Machine": {
-  "fr": "Machine à laver"
- },
- "Waterfall": {
-  "fr": "Cascade",
-  "de": "Wasserfall",
-  "es": "Cascada",
-  "it": "Cascata"
- },
- "Waving Cell": {
-  "fr": "Cellule ondulante"
- },
- "Wipe": {
-  "fr": "Balayage",
-  "de": "Wischen",
-  "es": "Barrido",
-  "it": "Spazzata"
- },
- "Wipe Random": {
-  "fr": "Balayage aléatoire"
+ "_note": "Combined translations: each standard WLED enum -> per language {name, desc}. Key = English name (join key). Missing -> English fallback. CJK are a first pass (native review welcome). desc = the effect's MOTION FAMILY (see animations/families.json).",
+ "entries": {
+  "Solid": {
+   "en": {
+    "name": "Solid",
+    "desc": "A single steady colour."
+   },
+   "fr": {
+    "name": "Fixe",
+    "desc": "Une couleur unie et stable."
+   },
+   "de": {
+    "name": "Statisch",
+    "desc": "Eine einzelne, ruhige Farbe."
+   },
+   "es": {
+    "name": "Fijo",
+    "desc": "Un color fijo y uniforme."
+   },
+   "it": {
+    "name": "Fisso",
+    "desc": "Un unico colore fisso."
+   },
+   "ja": {
+    "name": "Solid",
+    "desc": "単一の安定した色。"
+   },
+   "ko": {
+    "name": "Solid",
+    "desc": "단일한 고정 색."
+   },
+   "zh": {
+    "name": "Solid",
+    "desc": "单一稳定的颜色。"
+   }
+  },
+  "Blink": {
+   "en": {
+    "name": "Blink",
+    "desc": "Sharp flashes, on and off."
+   },
+   "fr": {
+    "name": "Clignotement",
+    "desc": "Des éclairs nets, allumé/éteint."
+   },
+   "de": {
+    "name": "Blinken",
+    "desc": "Scharfe Blitze, an und aus."
+   },
+   "es": {
+    "name": "Parpadeo",
+    "desc": "Destellos nítidos, encendido/apagado."
+   },
+   "it": {
+    "name": "Lampeggio",
+    "desc": "Lampi netti, acceso/spento."
+   },
+   "ja": {
+    "name": "Blink",
+    "desc": "鋭い点滅。"
+   },
+   "ko": {
+    "name": "Blink",
+    "desc": "날카로운 점멸."
+   },
+   "zh": {
+    "name": "Blink",
+    "desc": "急促闪烁，忽明忽灭。"
+   }
+  },
+  "Breathe": {
+   "en": {
+    "name": "Breathe",
+    "desc": "Brightness swells and fades (breathing)."
+   },
+   "fr": {
+    "name": "Respiration",
+    "desc": "La luminosité enfle et retombe (respiration)."
+   },
+   "de": {
+    "name": "Atmen",
+    "desc": "Die Helligkeit schwillt an und ab (Atmen)."
+   },
+   "es": {
+    "name": "Respiración",
+    "desc": "El brillo crece y decae (respiración)."
+   },
+   "it": {
+    "name": "Respiro",
+    "desc": "La luminosità cresce e cala (respiro)."
+   },
+   "ja": {
+    "name": "Breathe",
+    "desc": "明るさが強弱する(呼吸)。"
+   },
+   "ko": {
+    "name": "Breathe",
+    "desc": "밝기가 커졌다 작아진다(호흡)."
+   },
+   "zh": {
+    "name": "Breathe",
+    "desc": "亮度起伏（呼吸）。"
+   }
+  },
+  "Wipe": {
+   "en": {
+    "name": "Wipe",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Balayage",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Wischen",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Barrido",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Spazzata",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Wipe",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Wipe",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Wipe",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Wipe Random": {
+   "en": {
+    "name": "Wipe Random",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Balayage aléatoire",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Wipe Random",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Wipe Random",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Wipe Random",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Wipe Random",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Wipe Random",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Wipe Random",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Random Colors": {
+   "en": {
+    "name": "Random Colors",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Couleurs aléatoires",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Random Colors",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Random Colors",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Random Colors",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Random Colors",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Random Colors",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Random Colors",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Sweep": {
+   "en": {
+    "name": "Sweep",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Va-et-vient",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Sweep",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Sweep",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Sweep",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Sweep",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Sweep",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Sweep",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Dynamic": {
+   "en": {
+    "name": "Dynamic",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Dynamique",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Dynamic",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Dynamic",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Dynamic",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Dynamic",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Dynamic",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Dynamic",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Colorloop": {
+   "en": {
+    "name": "Colorloop",
+    "desc": "The full spectrum cycles through."
+   },
+   "fr": {
+    "name": "Boucle de couleurs",
+    "desc": "Le spectre complet défile."
+   },
+   "de": {
+    "name": "Colorloop",
+    "desc": "Das volle Spektrum läuft durch."
+   },
+   "es": {
+    "name": "Colorloop",
+    "desc": "El espectro completo se desplaza."
+   },
+   "it": {
+    "name": "Colorloop",
+    "desc": "L'intero spettro scorre."
+   },
+   "ja": {
+    "name": "Colorloop",
+    "desc": "全スペクトルが巡る。"
+   },
+   "ko": {
+    "name": "Colorloop",
+    "desc": "전체 스펙트럼이 순환한다."
+   },
+   "zh": {
+    "name": "Colorloop",
+    "desc": "完整光谱循环流动。"
+   }
+  },
+  "Rainbow": {
+   "en": {
+    "name": "Rainbow",
+    "desc": "The full spectrum cycles through."
+   },
+   "fr": {
+    "name": "Arc-en-ciel",
+    "desc": "Le spectre complet défile."
+   },
+   "de": {
+    "name": "Regenbogen",
+    "desc": "Das volle Spektrum läuft durch."
+   },
+   "es": {
+    "name": "Arcoíris",
+    "desc": "El espectro completo se desplaza."
+   },
+   "it": {
+    "name": "Arcobaleno",
+    "desc": "L'intero spettro scorre."
+   },
+   "ja": {
+    "name": "Rainbow",
+    "desc": "全スペクトルが巡る。"
+   },
+   "ko": {
+    "name": "Rainbow",
+    "desc": "전체 스펙트럼이 순환한다."
+   },
+   "zh": {
+    "name": "Rainbow",
+    "desc": "完整光谱循环流动。"
+   }
+  },
+  "Scan": {
+   "en": {
+    "name": "Scan",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Scanner",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Scan",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Scan",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Scan",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Scan",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Scan",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Scan",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Scan Dual": {
+   "en": {
+    "name": "Scan Dual",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Scanner double",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Scan Dual",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Scan Dual",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Scan Dual",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Scan Dual",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Scan Dual",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Scan Dual",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Fade": {
+   "en": {
+    "name": "Fade",
+    "desc": "Brightness swells and fades (breathing)."
+   },
+   "fr": {
+    "name": "Fondu",
+    "desc": "La luminosité enfle et retombe (respiration)."
+   },
+   "de": {
+    "name": "Verblassen",
+    "desc": "Die Helligkeit schwillt an und ab (Atmen)."
+   },
+   "es": {
+    "name": "Desvanecer",
+    "desc": "El brillo crece y decae (respiración)."
+   },
+   "it": {
+    "name": "Dissolvenza",
+    "desc": "La luminosità cresce e cala (respiro)."
+   },
+   "ja": {
+    "name": "Fade",
+    "desc": "明るさが強弱する(呼吸)。"
+   },
+   "ko": {
+    "name": "Fade",
+    "desc": "밝기가 커졌다 작아진다(호흡)."
+   },
+   "zh": {
+    "name": "Fade",
+    "desc": "亮度起伏（呼吸）。"
+   }
+  },
+  "Theater": {
+   "en": {
+    "name": "Theater",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Chenillard",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Theater",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Theater",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Theater",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Theater",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Theater",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Theater",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Theater Rainbow": {
+   "en": {
+    "name": "Theater Rainbow",
+    "desc": "The full spectrum cycles through."
+   },
+   "fr": {
+    "name": "Chenillard arc-en-ciel",
+    "desc": "Le spectre complet défile."
+   },
+   "de": {
+    "name": "Theater Rainbow",
+    "desc": "Das volle Spektrum läuft durch."
+   },
+   "es": {
+    "name": "Theater Rainbow",
+    "desc": "El espectro completo se desplaza."
+   },
+   "it": {
+    "name": "Theater Rainbow",
+    "desc": "L'intero spettro scorre."
+   },
+   "ja": {
+    "name": "Theater Rainbow",
+    "desc": "全スペクトルが巡る。"
+   },
+   "ko": {
+    "name": "Theater Rainbow",
+    "desc": "전체 스펙트럼이 순환한다."
+   },
+   "zh": {
+    "name": "Theater Rainbow",
+    "desc": "完整光谱循环流动。"
+   }
+  },
+  "Running": {
+   "en": {
+    "name": "Running",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Défilement",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Running",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Running",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Running",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Running",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Running",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Running",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Saw": {
+   "en": {
+    "name": "Saw",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Dents de scie",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Saw",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Saw",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Saw",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Saw",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Saw",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Saw",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Twinkle": {
+   "en": {
+    "name": "Twinkle",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Scintillement",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Funkeln",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Centelleo",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Scintillio",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Twinkle",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Twinkle",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Twinkle",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Dissolve": {
+   "en": {
+    "name": "Dissolve",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Dissolution",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Dissolve",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Dissolve",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Dissolve",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Dissolve",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Dissolve",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Dissolve",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Dissolve Rnd": {
+   "en": {
+    "name": "Dissolve Rnd",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Dissolution aléatoire",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Dissolve Rnd",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Dissolve Rnd",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Dissolve Rnd",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Dissolve Rnd",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Dissolve Rnd",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Dissolve Rnd",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Sparkle": {
+   "en": {
+    "name": "Sparkle",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Étincelles",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Funkeln",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Destellos",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Scintillii",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Sparkle",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Sparkle",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Sparkle",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Sparkle Dark": {
+   "en": {
+    "name": "Sparkle Dark",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Étincelles sombres",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Sparkle Dark",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Sparkle Dark",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Sparkle Dark",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Sparkle Dark",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Sparkle Dark",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Sparkle Dark",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Sparkle+": {
+   "en": {
+    "name": "Sparkle+",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Étincelles+",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Sparkle+",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Sparkle+",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Sparkle+",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Sparkle+",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Sparkle+",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Sparkle+",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Strobe": {
+   "en": {
+    "name": "Strobe",
+    "desc": "Sharp flashes, on and off."
+   },
+   "fr": {
+    "name": "Stroboscope",
+    "desc": "Des éclairs nets, allumé/éteint."
+   },
+   "de": {
+    "name": "Stroboskop",
+    "desc": "Scharfe Blitze, an und aus."
+   },
+   "es": {
+    "name": "Estroboscopio",
+    "desc": "Destellos nítidos, encendido/apagado."
+   },
+   "it": {
+    "name": "Stroboscopio",
+    "desc": "Lampi netti, acceso/spento."
+   },
+   "ja": {
+    "name": "Strobe",
+    "desc": "鋭い点滅。"
+   },
+   "ko": {
+    "name": "Strobe",
+    "desc": "날카로운 점멸."
+   },
+   "zh": {
+    "name": "Strobe",
+    "desc": "急促闪烁，忽明忽灭。"
+   }
+  },
+  "Strobe Rainbow": {
+   "en": {
+    "name": "Strobe Rainbow",
+    "desc": "Sharp flashes, on and off."
+   },
+   "fr": {
+    "name": "Strobo arc-en-ciel",
+    "desc": "Des éclairs nets, allumé/éteint."
+   },
+   "de": {
+    "name": "Strobe Rainbow",
+    "desc": "Scharfe Blitze, an und aus."
+   },
+   "es": {
+    "name": "Strobe Rainbow",
+    "desc": "Destellos nítidos, encendido/apagado."
+   },
+   "it": {
+    "name": "Strobe Rainbow",
+    "desc": "Lampi netti, acceso/spento."
+   },
+   "ja": {
+    "name": "Strobe Rainbow",
+    "desc": "鋭い点滅。"
+   },
+   "ko": {
+    "name": "Strobe Rainbow",
+    "desc": "날카로운 점멸."
+   },
+   "zh": {
+    "name": "Strobe Rainbow",
+    "desc": "急促闪烁，忽明忽灭。"
+   }
+  },
+  "Strobe Mega": {
+   "en": {
+    "name": "Strobe Mega",
+    "desc": "Sharp flashes, on and off."
+   },
+   "fr": {
+    "name": "Strobo méga",
+    "desc": "Des éclairs nets, allumé/éteint."
+   },
+   "de": {
+    "name": "Strobe Mega",
+    "desc": "Scharfe Blitze, an und aus."
+   },
+   "es": {
+    "name": "Strobe Mega",
+    "desc": "Destellos nítidos, encendido/apagado."
+   },
+   "it": {
+    "name": "Strobe Mega",
+    "desc": "Lampi netti, acceso/spento."
+   },
+   "ja": {
+    "name": "Strobe Mega",
+    "desc": "鋭い点滅。"
+   },
+   "ko": {
+    "name": "Strobe Mega",
+    "desc": "날카로운 점멸."
+   },
+   "zh": {
+    "name": "Strobe Mega",
+    "desc": "急促闪烁，忽明忽灭。"
+   }
+  },
+  "Blink Rainbow": {
+   "en": {
+    "name": "Blink Rainbow",
+    "desc": "Sharp flashes, on and off."
+   },
+   "fr": {
+    "name": "Clignotement arc-en-ciel",
+    "desc": "Des éclairs nets, allumé/éteint."
+   },
+   "de": {
+    "name": "Blink Rainbow",
+    "desc": "Scharfe Blitze, an und aus."
+   },
+   "es": {
+    "name": "Blink Rainbow",
+    "desc": "Destellos nítidos, encendido/apagado."
+   },
+   "it": {
+    "name": "Blink Rainbow",
+    "desc": "Lampi netti, acceso/spento."
+   },
+   "ja": {
+    "name": "Blink Rainbow",
+    "desc": "鋭い点滅。"
+   },
+   "ko": {
+    "name": "Blink Rainbow",
+    "desc": "날카로운 점멸."
+   },
+   "zh": {
+    "name": "Blink Rainbow",
+    "desc": "急促闪烁，忽明忽灭。"
+   }
+  },
+  "Android": {
+   "en": {
+    "name": "Android",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Android",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Android",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Android",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Android",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Android",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Android",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Android",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Chase": {
+   "en": {
+    "name": "Chase",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Poursuite",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Verfolgung",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Persecución",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Inseguimento",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Chase",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Chase",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Chase",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Chase Random": {
+   "en": {
+    "name": "Chase Random",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Poursuite aléatoire",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Chase Random",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Chase Random",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Chase Random",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Chase Random",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Chase Random",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Chase Random",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Chase Rainbow": {
+   "en": {
+    "name": "Chase Rainbow",
+    "desc": "The full spectrum cycles through."
+   },
+   "fr": {
+    "name": "Poursuite arc-en-ciel",
+    "desc": "Le spectre complet défile."
+   },
+   "de": {
+    "name": "Chase Rainbow",
+    "desc": "Das volle Spektrum läuft durch."
+   },
+   "es": {
+    "name": "Chase Rainbow",
+    "desc": "El espectro completo se desplaza."
+   },
+   "it": {
+    "name": "Chase Rainbow",
+    "desc": "L'intero spettro scorre."
+   },
+   "ja": {
+    "name": "Chase Rainbow",
+    "desc": "全スペクトルが巡る。"
+   },
+   "ko": {
+    "name": "Chase Rainbow",
+    "desc": "전체 스펙트럼이 순환한다."
+   },
+   "zh": {
+    "name": "Chase Rainbow",
+    "desc": "完整光谱循环流动。"
+   }
+  },
+  "Chase Flash": {
+   "en": {
+    "name": "Chase Flash",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Poursuite flash",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Chase Flash",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Chase Flash",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Chase Flash",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Chase Flash",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Chase Flash",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Chase Flash",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Chase Flash Rnd": {
+   "en": {
+    "name": "Chase Flash Rnd",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Chase Flash Rnd",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Chase Flash Rnd",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Chase Flash Rnd",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Chase Flash Rnd",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Chase Flash Rnd",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Chase Flash Rnd",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Chase Flash Rnd",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Rainbow Runner": {
+   "en": {
+    "name": "Rainbow Runner",
+    "desc": "The full spectrum cycles through."
+   },
+   "fr": {
+    "name": "Coureur arc-en-ciel",
+    "desc": "Le spectre complet défile."
+   },
+   "de": {
+    "name": "Rainbow Runner",
+    "desc": "Das volle Spektrum läuft durch."
+   },
+   "es": {
+    "name": "Rainbow Runner",
+    "desc": "El espectro completo se desplaza."
+   },
+   "it": {
+    "name": "Rainbow Runner",
+    "desc": "L'intero spettro scorre."
+   },
+   "ja": {
+    "name": "Rainbow Runner",
+    "desc": "全スペクトルが巡る。"
+   },
+   "ko": {
+    "name": "Rainbow Runner",
+    "desc": "전체 스펙트럼이 순환한다."
+   },
+   "zh": {
+    "name": "Rainbow Runner",
+    "desc": "完整光谱循环流动。"
+   }
+  },
+  "Colorful": {
+   "en": {
+    "name": "Colorful",
+    "desc": "The full spectrum cycles through."
+   },
+   "fr": {
+    "name": "Coloré",
+    "desc": "Le spectre complet défile."
+   },
+   "de": {
+    "name": "Colorful",
+    "desc": "Das volle Spektrum läuft durch."
+   },
+   "es": {
+    "name": "Colorful",
+    "desc": "El espectro completo se desplaza."
+   },
+   "it": {
+    "name": "Colorful",
+    "desc": "L'intero spettro scorre."
+   },
+   "ja": {
+    "name": "Colorful",
+    "desc": "全スペクトルが巡る。"
+   },
+   "ko": {
+    "name": "Colorful",
+    "desc": "전체 스펙트럼이 순환한다."
+   },
+   "zh": {
+    "name": "Colorful",
+    "desc": "完整光谱循环流动。"
+   }
+  },
+  "Traffic Light": {
+   "en": {
+    "name": "Traffic Light",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Feu tricolore",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Traffic Light",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Traffic Light",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Traffic Light",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Traffic Light",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Traffic Light",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Traffic Light",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Sweep Random": {
+   "en": {
+    "name": "Sweep Random",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Va-et-vient aléatoire",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Sweep Random",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Sweep Random",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Sweep Random",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Sweep Random",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Sweep Random",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Sweep Random",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Chase 2": {
+   "en": {
+    "name": "Chase 2",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Poursuite 2",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Chase 2",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Chase 2",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Chase 2",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Chase 2",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Chase 2",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Chase 2",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Aurora": {
+   "en": {
+    "name": "Aurora",
+    "desc": "The full spectrum cycles through."
+   },
+   "fr": {
+    "name": "Aurore",
+    "desc": "Le spectre complet défile."
+   },
+   "de": {
+    "name": "Aurora",
+    "desc": "Das volle Spektrum läuft durch."
+   },
+   "es": {
+    "name": "Aurora",
+    "desc": "El espectro completo se desplaza."
+   },
+   "it": {
+    "name": "Aurora",
+    "desc": "L'intero spettro scorre."
+   },
+   "ja": {
+    "name": "Aurora",
+    "desc": "全スペクトルが巡る。"
+   },
+   "ko": {
+    "name": "Aurora",
+    "desc": "전체 스펙트럼이 순환한다."
+   },
+   "zh": {
+    "name": "Aurora",
+    "desc": "完整光谱循环流动。"
+   }
+  },
+  "Stream": {
+   "en": {
+    "name": "Stream",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Flux",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Stream",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Stream",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Stream",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Stream",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Stream",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Stream",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Scanner": {
+   "en": {
+    "name": "Scanner",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Scanner",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Scanner",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Scanner",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Scanner",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Scanner",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Scanner",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Scanner",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Lighthouse": {
+   "en": {
+    "name": "Lighthouse",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Phare",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Lighthouse",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Lighthouse",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Lighthouse",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Lighthouse",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Lighthouse",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Lighthouse",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Fireworks": {
+   "en": {
+    "name": "Fireworks",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Feux d'artifice",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Feuerwerk",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Fuegos artificiales",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Fuochi d'artificio",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Fireworks",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Fireworks",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Fireworks",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Rain": {
+   "en": {
+    "name": "Rain",
+    "desc": "Points fall like rain."
+   },
+   "fr": {
+    "name": "Pluie",
+    "desc": "Des points tombent comme la pluie."
+   },
+   "de": {
+    "name": "Regen",
+    "desc": "Punkte fallen wie Regen."
+   },
+   "es": {
+    "name": "Lluvia",
+    "desc": "Puntos que caen como lluvia."
+   },
+   "it": {
+    "name": "Pioggia",
+    "desc": "Punti che cadono come pioggia."
+   },
+   "ja": {
+    "name": "Rain",
+    "desc": "点が雨のように落ちる。"
+   },
+   "ko": {
+    "name": "Rain",
+    "desc": "점들이 비처럼 떨어진다."
+   },
+   "zh": {
+    "name": "Rain",
+    "desc": "光点如雨落下。"
+   }
+  },
+  "Tetrix": {
+   "en": {
+    "name": "Tetrix",
+    "desc": "Points fall like rain."
+   },
+   "fr": {
+    "name": "Tetris",
+    "desc": "Des points tombent comme la pluie."
+   },
+   "de": {
+    "name": "Tetrix",
+    "desc": "Punkte fallen wie Regen."
+   },
+   "es": {
+    "name": "Tetrix",
+    "desc": "Puntos que caen como lluvia."
+   },
+   "it": {
+    "name": "Tetrix",
+    "desc": "Punti che cadono come pioggia."
+   },
+   "ja": {
+    "name": "Tetrix",
+    "desc": "点が雨のように落ちる。"
+   },
+   "ko": {
+    "name": "Tetrix",
+    "desc": "점들이 비처럼 떨어진다."
+   },
+   "zh": {
+    "name": "Tetrix",
+    "desc": "光点如雨落下。"
+   }
+  },
+  "Fire Flicker": {
+   "en": {
+    "name": "Fire Flicker",
+    "desc": "Warm tones flicker like flames."
+   },
+   "fr": {
+    "name": "Feu vacillant",
+    "desc": "Des tons chauds vacillent comme des flammes."
+   },
+   "de": {
+    "name": "Feuerflackern",
+    "desc": "Warme Töne flackern wie Flammen."
+   },
+   "es": {
+    "name": "Fuego parpadeante",
+    "desc": "Tonos cálidos titilan como llamas."
+   },
+   "it": {
+    "name": "Fuoco tremolante",
+    "desc": "Toni caldi tremolano come fiamme."
+   },
+   "ja": {
+    "name": "Fire Flicker",
+    "desc": "暖色が炎のように揺らめく。"
+   },
+   "ko": {
+    "name": "Fire Flicker",
+    "desc": "따뜻한 색이 불꽃처럼 일렁인다."
+   },
+   "zh": {
+    "name": "Fire Flicker",
+    "desc": "暖色如火焰般跳动。"
+   }
+  },
+  "Gradient": {
+   "en": {
+    "name": "Gradient",
+    "desc": "Brightness swells and fades (breathing)."
+   },
+   "fr": {
+    "name": "Dégradé",
+    "desc": "La luminosité enfle et retombe (respiration)."
+   },
+   "de": {
+    "name": "Verlauf",
+    "desc": "Die Helligkeit schwillt an und ab (Atmen)."
+   },
+   "es": {
+    "name": "Degradado",
+    "desc": "El brillo crece y decae (respiración)."
+   },
+   "it": {
+    "name": "Gradiente",
+    "desc": "La luminosità cresce e cala (respiro)."
+   },
+   "ja": {
+    "name": "Gradient",
+    "desc": "明るさが強弱する(呼吸)。"
+   },
+   "ko": {
+    "name": "Gradient",
+    "desc": "밝기가 커졌다 작아진다(호흡)."
+   },
+   "zh": {
+    "name": "Gradient",
+    "desc": "亮度起伏（呼吸）。"
+   }
+  },
+  "Loading": {
+   "en": {
+    "name": "Loading",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Chargement",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Loading",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Loading",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Loading",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Loading",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Loading",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Loading",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Rolling Balls": {
+   "en": {
+    "name": "Rolling Balls",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Billes roulantes",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Rolling Balls",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Rolling Balls",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Rolling Balls",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Rolling Balls",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Rolling Balls",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Rolling Balls",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Fairy": {
+   "en": {
+    "name": "Fairy",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Fée",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Fairy",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Fairy",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Fairy",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Fairy",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Fairy",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Fairy",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Two Dots": {
+   "en": {
+    "name": "Two Dots",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Deux points",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Two Dots",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Two Dots",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Two Dots",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Two Dots",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Two Dots",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Two Dots",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Fairytwinkle": {
+   "en": {
+    "name": "Fairytwinkle",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Scintillement féerique",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Fairytwinkle",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Fairytwinkle",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Fairytwinkle",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Fairytwinkle",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Fairytwinkle",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Fairytwinkle",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Running Dual": {
+   "en": {
+    "name": "Running Dual",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Défilement double",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Running Dual",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Running Dual",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Running Dual",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Running Dual",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Running Dual",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Running Dual",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Image": {
+   "en": {
+    "name": "Image",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Image",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Image",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Image",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Image",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Image",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Image",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Image",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Chase 3": {
+   "en": {
+    "name": "Chase 3",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Poursuite 3",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Chase 3",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Chase 3",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Chase 3",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Chase 3",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Chase 3",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Chase 3",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Tri Wipe": {
+   "en": {
+    "name": "Tri Wipe",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Balayage tricolore",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Tri Wipe",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Tri Wipe",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Tri Wipe",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Tri Wipe",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Tri Wipe",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Tri Wipe",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Tri Fade": {
+   "en": {
+    "name": "Tri Fade",
+    "desc": "Brightness swells and fades (breathing)."
+   },
+   "fr": {
+    "name": "Fondu tricolore",
+    "desc": "La luminosité enfle et retombe (respiration)."
+   },
+   "de": {
+    "name": "Tri Fade",
+    "desc": "Die Helligkeit schwillt an und ab (Atmen)."
+   },
+   "es": {
+    "name": "Tri Fade",
+    "desc": "El brillo crece y decae (respiración)."
+   },
+   "it": {
+    "name": "Tri Fade",
+    "desc": "La luminosità cresce e cala (respiro)."
+   },
+   "ja": {
+    "name": "Tri Fade",
+    "desc": "明るさが強弱する(呼吸)。"
+   },
+   "ko": {
+    "name": "Tri Fade",
+    "desc": "밝기가 커졌다 작아진다(호흡)."
+   },
+   "zh": {
+    "name": "Tri Fade",
+    "desc": "亮度起伏（呼吸）。"
+   }
+  },
+  "Lightning": {
+   "en": {
+    "name": "Lightning",
+    "desc": "Sharp flashes, on and off."
+   },
+   "fr": {
+    "name": "Éclair",
+    "desc": "Des éclairs nets, allumé/éteint."
+   },
+   "de": {
+    "name": "Blitz",
+    "desc": "Scharfe Blitze, an und aus."
+   },
+   "es": {
+    "name": "Relámpago",
+    "desc": "Destellos nítidos, encendido/apagado."
+   },
+   "it": {
+    "name": "Fulmine",
+    "desc": "Lampi netti, acceso/spento."
+   },
+   "ja": {
+    "name": "Lightning",
+    "desc": "鋭い点滅。"
+   },
+   "ko": {
+    "name": "Lightning",
+    "desc": "날카로운 점멸."
+   },
+   "zh": {
+    "name": "Lightning",
+    "desc": "急促闪烁，忽明忽灭。"
+   }
+  },
+  "ICU": {
+   "en": {
+    "name": "ICU",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "ICU",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "ICU",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "ICU",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "ICU",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "ICU",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "ICU",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "ICU",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Multi Comet": {
+   "en": {
+    "name": "Multi Comet",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Multi-comètes",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Multi Comet",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Multi Comet",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Multi Comet",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Multi Comet",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Multi Comet",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Multi Comet",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Scanner Dual": {
+   "en": {
+    "name": "Scanner Dual",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Scanner double",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Scanner Dual",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Scanner Dual",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Scanner Dual",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Scanner Dual",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Scanner Dual",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Scanner Dual",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Stream 2": {
+   "en": {
+    "name": "Stream 2",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Flux 2",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Stream 2",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Stream 2",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Stream 2",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Stream 2",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Stream 2",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Stream 2",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Oscillate": {
+   "en": {
+    "name": "Oscillate",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Oscillation",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Oscillate",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Oscillate",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Oscillate",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Oscillate",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Oscillate",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Oscillate",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Pride 2015": {
+   "en": {
+    "name": "Pride 2015",
+    "desc": "The full spectrum cycles through."
+   },
+   "fr": {
+    "name": "Pride 2015",
+    "desc": "Le spectre complet défile."
+   },
+   "de": {
+    "name": "Pride 2015",
+    "desc": "Das volle Spektrum läuft durch."
+   },
+   "es": {
+    "name": "Pride 2015",
+    "desc": "El espectro completo se desplaza."
+   },
+   "it": {
+    "name": "Pride 2015",
+    "desc": "L'intero spettro scorre."
+   },
+   "ja": {
+    "name": "Pride 2015",
+    "desc": "全スペクトルが巡る。"
+   },
+   "ko": {
+    "name": "Pride 2015",
+    "desc": "전체 스펙트럼이 순환한다."
+   },
+   "zh": {
+    "name": "Pride 2015",
+    "desc": "完整光谱循环流动。"
+   }
+  },
+  "Juggle": {
+   "en": {
+    "name": "Juggle",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Jonglage",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Juggle",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Juggle",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Juggle",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Juggle",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Juggle",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Juggle",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Palette": {
+   "en": {
+    "name": "Palette",
+    "desc": "The full spectrum cycles through."
+   },
+   "fr": {
+    "name": "Palette",
+    "desc": "Le spectre complet défile."
+   },
+   "de": {
+    "name": "Palette",
+    "desc": "Das volle Spektrum läuft durch."
+   },
+   "es": {
+    "name": "Palette",
+    "desc": "El espectro completo se desplaza."
+   },
+   "it": {
+    "name": "Palette",
+    "desc": "L'intero spettro scorre."
+   },
+   "ja": {
+    "name": "Palette",
+    "desc": "全スペクトルが巡る。"
+   },
+   "ko": {
+    "name": "Palette",
+    "desc": "전체 스펙트럼이 순환한다."
+   },
+   "zh": {
+    "name": "Palette",
+    "desc": "完整光谱循环流动。"
+   }
+  },
+  "Fire 2012": {
+   "en": {
+    "name": "Fire 2012",
+    "desc": "Warm tones flicker like flames."
+   },
+   "fr": {
+    "name": "Feu 2012",
+    "desc": "Des tons chauds vacillent comme des flammes."
+   },
+   "de": {
+    "name": "Fire 2012",
+    "desc": "Warme Töne flackern wie Flammen."
+   },
+   "es": {
+    "name": "Fire 2012",
+    "desc": "Tonos cálidos titilan como llamas."
+   },
+   "it": {
+    "name": "Fire 2012",
+    "desc": "Toni caldi tremolano come fiamme."
+   },
+   "ja": {
+    "name": "Fire 2012",
+    "desc": "暖色が炎のように揺らめく。"
+   },
+   "ko": {
+    "name": "Fire 2012",
+    "desc": "따뜻한 색이 불꽃처럼 일렁인다."
+   },
+   "zh": {
+    "name": "Fire 2012",
+    "desc": "暖色如火焰般跳动。"
+   }
+  },
+  "Colorwaves": {
+   "en": {
+    "name": "Colorwaves",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Vagues colorées",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Colorwaves",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Colorwaves",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Colorwaves",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Colorwaves",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Colorwaves",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Colorwaves",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Bpm": {
+   "en": {
+    "name": "Bpm",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Bpm",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Bpm",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Bpm",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Bpm",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Bpm",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Bpm",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Bpm",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Fill Noise": {
+   "en": {
+    "name": "Fill Noise",
+    "desc": "A single steady colour."
+   },
+   "fr": {
+    "name": "Bruit rempli",
+    "desc": "Une couleur unie et stable."
+   },
+   "de": {
+    "name": "Fill Noise",
+    "desc": "Eine einzelne, ruhige Farbe."
+   },
+   "es": {
+    "name": "Fill Noise",
+    "desc": "Un color fijo y uniforme."
+   },
+   "it": {
+    "name": "Fill Noise",
+    "desc": "Un unico colore fisso."
+   },
+   "ja": {
+    "name": "Fill Noise",
+    "desc": "単一の安定した色。"
+   },
+   "ko": {
+    "name": "Fill Noise",
+    "desc": "단일한 고정 색."
+   },
+   "zh": {
+    "name": "Fill Noise",
+    "desc": "单一稳定的颜色。"
+   }
+  },
+  "Noise 1": {
+   "en": {
+    "name": "Noise 1",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Noise 1",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Noise 1",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Noise 1",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Noise 1",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Noise 1",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Noise 1",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Noise 1",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Noise 2": {
+   "en": {
+    "name": "Noise 2",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Noise 2",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Noise 2",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Noise 2",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Noise 2",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Noise 2",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Noise 2",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Noise 2",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Noise 3": {
+   "en": {
+    "name": "Noise 3",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Noise 3",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Noise 3",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Noise 3",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Noise 3",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Noise 3",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Noise 3",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Noise 3",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Noise 4": {
+   "en": {
+    "name": "Noise 4",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Noise 4",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Noise 4",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Noise 4",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Noise 4",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Noise 4",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Noise 4",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Noise 4",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Colortwinkles": {
+   "en": {
+    "name": "Colortwinkles",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Colortwinkles",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Colortwinkles",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Colortwinkles",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Colortwinkles",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Colortwinkles",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Colortwinkles",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Colortwinkles",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Lake": {
+   "en": {
+    "name": "Lake",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Lac",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "See",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Lago",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Lago",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Lake",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Lake",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Lake",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Meteor": {
+   "en": {
+    "name": "Meteor",
+    "desc": "Points fall like rain."
+   },
+   "fr": {
+    "name": "Météore",
+    "desc": "Des points tombent comme la pluie."
+   },
+   "de": {
+    "name": "Meteor",
+    "desc": "Punkte fallen wie Regen."
+   },
+   "es": {
+    "name": "Meteoro",
+    "desc": "Puntos que caen como lluvia."
+   },
+   "it": {
+    "name": "Meteora",
+    "desc": "Punti che cadono come pioggia."
+   },
+   "ja": {
+    "name": "Meteor",
+    "desc": "点が雨のように落ちる。"
+   },
+   "ko": {
+    "name": "Meteor",
+    "desc": "점들이 비처럼 떨어진다."
+   },
+   "zh": {
+    "name": "Meteor",
+    "desc": "光点如雨落下。"
+   }
+  },
+  "Copy Segment": {
+   "en": {
+    "name": "Copy Segment",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Copier segment",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Copy Segment",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Copy Segment",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Copy Segment",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Copy Segment",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Copy Segment",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Copy Segment",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Railway": {
+   "en": {
+    "name": "Railway",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Voie ferrée",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Railway",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Railway",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Railway",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Railway",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Railway",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Railway",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Ripple": {
+   "en": {
+    "name": "Ripple",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Ondulation",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Ripple",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Ripple",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Ripple",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Ripple",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Ripple",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Ripple",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Twinklefox": {
+   "en": {
+    "name": "Twinklefox",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Scintillement renard",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Twinklefox",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Twinklefox",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Twinklefox",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Twinklefox",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Twinklefox",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Twinklefox",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Twinklecat": {
+   "en": {
+    "name": "Twinklecat",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Twinklecat",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Twinklecat",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Twinklecat",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Twinklecat",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Twinklecat",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Twinklecat",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Twinklecat",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Halloween Eyes": {
+   "en": {
+    "name": "Halloween Eyes",
+    "desc": "Warm tones flicker like flames."
+   },
+   "fr": {
+    "name": "Yeux d'Halloween",
+    "desc": "Des tons chauds vacillent comme des flammes."
+   },
+   "de": {
+    "name": "Halloween Eyes",
+    "desc": "Warme Töne flackern wie Flammen."
+   },
+   "es": {
+    "name": "Halloween Eyes",
+    "desc": "Tonos cálidos titilan como llamas."
+   },
+   "it": {
+    "name": "Halloween Eyes",
+    "desc": "Toni caldi tremolano come fiamme."
+   },
+   "ja": {
+    "name": "Halloween Eyes",
+    "desc": "暖色が炎のように揺らめく。"
+   },
+   "ko": {
+    "name": "Halloween Eyes",
+    "desc": "따뜻한 색이 불꽃처럼 일렁인다."
+   },
+   "zh": {
+    "name": "Halloween Eyes",
+    "desc": "暖色如火焰般跳动。"
+   }
+  },
+  "Solid Pattern": {
+   "en": {
+    "name": "Solid Pattern",
+    "desc": "A single steady colour."
+   },
+   "fr": {
+    "name": "Motif fixe",
+    "desc": "Une couleur unie et stable."
+   },
+   "de": {
+    "name": "Solid Pattern",
+    "desc": "Eine einzelne, ruhige Farbe."
+   },
+   "es": {
+    "name": "Solid Pattern",
+    "desc": "Un color fijo y uniforme."
+   },
+   "it": {
+    "name": "Solid Pattern",
+    "desc": "Un unico colore fisso."
+   },
+   "ja": {
+    "name": "Solid Pattern",
+    "desc": "単一の安定した色。"
+   },
+   "ko": {
+    "name": "Solid Pattern",
+    "desc": "단일한 고정 색."
+   },
+   "zh": {
+    "name": "Solid Pattern",
+    "desc": "单一稳定的颜色。"
+   }
+  },
+  "Solid Pattern Tri": {
+   "en": {
+    "name": "Solid Pattern Tri",
+    "desc": "A single steady colour."
+   },
+   "fr": {
+    "name": "Motif fixe tricolore",
+    "desc": "Une couleur unie et stable."
+   },
+   "de": {
+    "name": "Solid Pattern Tri",
+    "desc": "Eine einzelne, ruhige Farbe."
+   },
+   "es": {
+    "name": "Solid Pattern Tri",
+    "desc": "Un color fijo y uniforme."
+   },
+   "it": {
+    "name": "Solid Pattern Tri",
+    "desc": "Un unico colore fisso."
+   },
+   "ja": {
+    "name": "Solid Pattern Tri",
+    "desc": "単一の安定した色。"
+   },
+   "ko": {
+    "name": "Solid Pattern Tri",
+    "desc": "단일한 고정 색."
+   },
+   "zh": {
+    "name": "Solid Pattern Tri",
+    "desc": "单一稳定的颜色。"
+   }
+  },
+  "Spots": {
+   "en": {
+    "name": "Spots",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Points",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Spots",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Spots",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Spots",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Spots",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Spots",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Spots",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Spots Fade": {
+   "en": {
+    "name": "Spots Fade",
+    "desc": "Brightness swells and fades (breathing)."
+   },
+   "fr": {
+    "name": "Points fondus",
+    "desc": "La luminosité enfle et retombe (respiration)."
+   },
+   "de": {
+    "name": "Spots Fade",
+    "desc": "Die Helligkeit schwillt an und ab (Atmen)."
+   },
+   "es": {
+    "name": "Spots Fade",
+    "desc": "El brillo crece y decae (respiración)."
+   },
+   "it": {
+    "name": "Spots Fade",
+    "desc": "La luminosità cresce e cala (respiro)."
+   },
+   "ja": {
+    "name": "Spots Fade",
+    "desc": "明るさが強弱する(呼吸)。"
+   },
+   "ko": {
+    "name": "Spots Fade",
+    "desc": "밝기가 커졌다 작아진다(호흡)."
+   },
+   "zh": {
+    "name": "Spots Fade",
+    "desc": "亮度起伏（呼吸）。"
+   }
+  },
+  "Glitter": {
+   "en": {
+    "name": "Glitter",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Paillettes",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Glitzer",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Purpurina",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Glitter",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Glitter",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Glitter",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Glitter",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Candle": {
+   "en": {
+    "name": "Candle",
+    "desc": "Warm tones flicker like flames."
+   },
+   "fr": {
+    "name": "Bougie",
+    "desc": "Des tons chauds vacillent comme des flammes."
+   },
+   "de": {
+    "name": "Kerze",
+    "desc": "Warme Töne flackern wie Flammen."
+   },
+   "es": {
+    "name": "Vela",
+    "desc": "Tonos cálidos titilan como llamas."
+   },
+   "it": {
+    "name": "Candela",
+    "desc": "Toni caldi tremolano come fiamme."
+   },
+   "ja": {
+    "name": "Candle",
+    "desc": "暖色が炎のように揺らめく。"
+   },
+   "ko": {
+    "name": "Candle",
+    "desc": "따뜻한 색이 불꽃처럼 일렁인다."
+   },
+   "zh": {
+    "name": "Candle",
+    "desc": "暖色如火焰般跳动。"
+   }
+  },
+  "Fireworks Starburst": {
+   "en": {
+    "name": "Fireworks Starburst",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Feu d'artifice étoilé",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Fireworks Starburst",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Fireworks Starburst",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Fireworks Starburst",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Fireworks Starburst",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Fireworks Starburst",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Fireworks Starburst",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Fireworks 1D": {
+   "en": {
+    "name": "Fireworks 1D",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Feux d'artifice 1D",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Fireworks 1D",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Fireworks 1D",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Fireworks 1D",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Fireworks 1D",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Fireworks 1D",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Fireworks 1D",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Bouncing Balls": {
+   "en": {
+    "name": "Bouncing Balls",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Billes rebondissantes",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Bouncing Balls",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Bouncing Balls",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Bouncing Balls",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Bouncing Balls",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Bouncing Balls",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Bouncing Balls",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Sinelon": {
+   "en": {
+    "name": "Sinelon",
+    "desc": "Brightness swells and fades (breathing)."
+   },
+   "fr": {
+    "name": "Sinelon",
+    "desc": "La luminosité enfle et retombe (respiration)."
+   },
+   "de": {
+    "name": "Sinelon",
+    "desc": "Die Helligkeit schwillt an und ab (Atmen)."
+   },
+   "es": {
+    "name": "Sinelon",
+    "desc": "El brillo crece y decae (respiración)."
+   },
+   "it": {
+    "name": "Sinelon",
+    "desc": "La luminosità cresce e cala (respiro)."
+   },
+   "ja": {
+    "name": "Sinelon",
+    "desc": "明るさが強弱する(呼吸)。"
+   },
+   "ko": {
+    "name": "Sinelon",
+    "desc": "밝기가 커졌다 작아진다(호흡)."
+   },
+   "zh": {
+    "name": "Sinelon",
+    "desc": "亮度起伏（呼吸）。"
+   }
+  },
+  "Sinelon Dual": {
+   "en": {
+    "name": "Sinelon Dual",
+    "desc": "Brightness swells and fades (breathing)."
+   },
+   "fr": {
+    "name": "Sinelon Dual",
+    "desc": "La luminosité enfle et retombe (respiration)."
+   },
+   "de": {
+    "name": "Sinelon Dual",
+    "desc": "Die Helligkeit schwillt an und ab (Atmen)."
+   },
+   "es": {
+    "name": "Sinelon Dual",
+    "desc": "El brillo crece y decae (respiración)."
+   },
+   "it": {
+    "name": "Sinelon Dual",
+    "desc": "La luminosità cresce e cala (respiro)."
+   },
+   "ja": {
+    "name": "Sinelon Dual",
+    "desc": "明るさが強弱する(呼吸)。"
+   },
+   "ko": {
+    "name": "Sinelon Dual",
+    "desc": "밝기가 커졌다 작아진다(호흡)."
+   },
+   "zh": {
+    "name": "Sinelon Dual",
+    "desc": "亮度起伏（呼吸）。"
+   }
+  },
+  "Sinelon Rainbow": {
+   "en": {
+    "name": "Sinelon Rainbow",
+    "desc": "The full spectrum cycles through."
+   },
+   "fr": {
+    "name": "Sinelon Rainbow",
+    "desc": "Le spectre complet défile."
+   },
+   "de": {
+    "name": "Sinelon Rainbow",
+    "desc": "Das volle Spektrum läuft durch."
+   },
+   "es": {
+    "name": "Sinelon Rainbow",
+    "desc": "El espectro completo se desplaza."
+   },
+   "it": {
+    "name": "Sinelon Rainbow",
+    "desc": "L'intero spettro scorre."
+   },
+   "ja": {
+    "name": "Sinelon Rainbow",
+    "desc": "全スペクトルが巡る。"
+   },
+   "ko": {
+    "name": "Sinelon Rainbow",
+    "desc": "전체 스펙트럼이 순환한다."
+   },
+   "zh": {
+    "name": "Sinelon Rainbow",
+    "desc": "完整光谱循环流动。"
+   }
+  },
+  "Popcorn": {
+   "en": {
+    "name": "Popcorn",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Popcorn",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Popcorn",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Popcorn",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Popcorn",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Popcorn",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Popcorn",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Popcorn",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Drip": {
+   "en": {
+    "name": "Drip",
+    "desc": "Points fall like rain."
+   },
+   "fr": {
+    "name": "Goutte",
+    "desc": "Des points tombent comme la pluie."
+   },
+   "de": {
+    "name": "Drip",
+    "desc": "Punkte fallen wie Regen."
+   },
+   "es": {
+    "name": "Drip",
+    "desc": "Puntos que caen como lluvia."
+   },
+   "it": {
+    "name": "Drip",
+    "desc": "Punti che cadono come pioggia."
+   },
+   "ja": {
+    "name": "Drip",
+    "desc": "点が雨のように落ちる。"
+   },
+   "ko": {
+    "name": "Drip",
+    "desc": "점들이 비처럼 떨어진다."
+   },
+   "zh": {
+    "name": "Drip",
+    "desc": "光点如雨落下。"
+   }
+  },
+  "Plasma": {
+   "en": {
+    "name": "Plasma",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Plasma",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Plasma",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Plasma",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Plasma",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Plasma",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Plasma",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Plasma",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Percent": {
+   "en": {
+    "name": "Percent",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Pourcentage",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Percent",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Percent",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Percent",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Percent",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Percent",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Percent",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Ripple Rainbow": {
+   "en": {
+    "name": "Ripple Rainbow",
+    "desc": "The full spectrum cycles through."
+   },
+   "fr": {
+    "name": "Ondulation arc-en-ciel",
+    "desc": "Le spectre complet défile."
+   },
+   "de": {
+    "name": "Ripple Rainbow",
+    "desc": "Das volle Spektrum läuft durch."
+   },
+   "es": {
+    "name": "Ripple Rainbow",
+    "desc": "El espectro completo se desplaza."
+   },
+   "it": {
+    "name": "Ripple Rainbow",
+    "desc": "L'intero spettro scorre."
+   },
+   "ja": {
+    "name": "Ripple Rainbow",
+    "desc": "全スペクトルが巡る。"
+   },
+   "ko": {
+    "name": "Ripple Rainbow",
+    "desc": "전체 스펙트럼이 순환한다."
+   },
+   "zh": {
+    "name": "Ripple Rainbow",
+    "desc": "完整光谱循环流动。"
+   }
+  },
+  "Heartbeat": {
+   "en": {
+    "name": "Heartbeat",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Battement de cœur",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Herzschlag",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Latido",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Battito",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Heartbeat",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Heartbeat",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Heartbeat",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Pacifica": {
+   "en": {
+    "name": "Pacifica",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Pacifica",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Pacifica",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Pacifica",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Pacifica",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Pacifica",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Pacifica",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Pacifica",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Candle Multi": {
+   "en": {
+    "name": "Candle Multi",
+    "desc": "Warm tones flicker like flames."
+   },
+   "fr": {
+    "name": "Bougies multiples",
+    "desc": "Des tons chauds vacillent comme des flammes."
+   },
+   "de": {
+    "name": "Candle Multi",
+    "desc": "Warme Töne flackern wie Flammen."
+   },
+   "es": {
+    "name": "Candle Multi",
+    "desc": "Tonos cálidos titilan como llamas."
+   },
+   "it": {
+    "name": "Candle Multi",
+    "desc": "Toni caldi tremolano come fiamme."
+   },
+   "ja": {
+    "name": "Candle Multi",
+    "desc": "暖色が炎のように揺らめく。"
+   },
+   "ko": {
+    "name": "Candle Multi",
+    "desc": "따뜻한 색이 불꽃처럼 일렁인다."
+   },
+   "zh": {
+    "name": "Candle Multi",
+    "desc": "暖色如火焰般跳动。"
+   }
+  },
+  "Solid Glitter": {
+   "en": {
+    "name": "Solid Glitter",
+    "desc": "A single steady colour."
+   },
+   "fr": {
+    "name": "Paillettes fixes",
+    "desc": "Une couleur unie et stable."
+   },
+   "de": {
+    "name": "Solid Glitter",
+    "desc": "Eine einzelne, ruhige Farbe."
+   },
+   "es": {
+    "name": "Solid Glitter",
+    "desc": "Un color fijo y uniforme."
+   },
+   "it": {
+    "name": "Solid Glitter",
+    "desc": "Un unico colore fisso."
+   },
+   "ja": {
+    "name": "Solid Glitter",
+    "desc": "単一の安定した色。"
+   },
+   "ko": {
+    "name": "Solid Glitter",
+    "desc": "단일한 고정 색."
+   },
+   "zh": {
+    "name": "Solid Glitter",
+    "desc": "单一稳定的颜色。"
+   }
+  },
+  "Sunrise": {
+   "en": {
+    "name": "Sunrise",
+    "desc": "Warm tones flicker like flames."
+   },
+   "fr": {
+    "name": "Lever de soleil",
+    "desc": "Des tons chauds vacillent comme des flammes."
+   },
+   "de": {
+    "name": "Sonnenaufgang",
+    "desc": "Warme Töne flackern wie Flammen."
+   },
+   "es": {
+    "name": "Amanecer",
+    "desc": "Tonos cálidos titilan como llamas."
+   },
+   "it": {
+    "name": "Alba",
+    "desc": "Toni caldi tremolano come fiamme."
+   },
+   "ja": {
+    "name": "Sunrise",
+    "desc": "暖色が炎のように揺らめく。"
+   },
+   "ko": {
+    "name": "Sunrise",
+    "desc": "따뜻한 색이 불꽃처럼 일렁인다."
+   },
+   "zh": {
+    "name": "Sunrise",
+    "desc": "暖色如火焰般跳动。"
+   }
+  },
+  "Phased": {
+   "en": {
+    "name": "Phased",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Déphasé",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Phased",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Phased",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Phased",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Phased",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Phased",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Phased",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Twinkleup": {
+   "en": {
+    "name": "Twinkleup",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "Scintillement montant",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "Twinkleup",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "Twinkleup",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "Twinkleup",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "Twinkleup",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "Twinkleup",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "Twinkleup",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "Noise Pal": {
+   "en": {
+    "name": "Noise Pal",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Bruit palette",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Noise Pal",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Noise Pal",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Noise Pal",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Noise Pal",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Noise Pal",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Noise Pal",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Sine": {
+   "en": {
+    "name": "Sine",
+    "desc": "Brightness swells and fades (breathing)."
+   },
+   "fr": {
+    "name": "Sinus",
+    "desc": "La luminosité enfle et retombe (respiration)."
+   },
+   "de": {
+    "name": "Sine",
+    "desc": "Die Helligkeit schwillt an und ab (Atmen)."
+   },
+   "es": {
+    "name": "Sine",
+    "desc": "El brillo crece y decae (respiración)."
+   },
+   "it": {
+    "name": "Sine",
+    "desc": "La luminosità cresce e cala (respiro)."
+   },
+   "ja": {
+    "name": "Sine",
+    "desc": "明るさが強弱する(呼吸)。"
+   },
+   "ko": {
+    "name": "Sine",
+    "desc": "밝기가 커졌다 작아진다(호흡)."
+   },
+   "zh": {
+    "name": "Sine",
+    "desc": "亮度起伏（呼吸）。"
+   }
+  },
+  "Phased Noise": {
+   "en": {
+    "name": "Phased Noise",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Phased Noise",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Phased Noise",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Phased Noise",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Phased Noise",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Phased Noise",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Phased Noise",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Phased Noise",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Flow": {
+   "en": {
+    "name": "Flow",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Flux",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Flow",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Flow",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Flow",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Flow",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Flow",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Flow",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Chunchun": {
+   "en": {
+    "name": "Chunchun",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Chunchun",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Chunchun",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Chunchun",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Chunchun",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Chunchun",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Chunchun",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Chunchun",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Dancing Shadows": {
+   "en": {
+    "name": "Dancing Shadows",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "Ombres dansantes",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "Dancing Shadows",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "Dancing Shadows",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "Dancing Shadows",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "Dancing Shadows",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "Dancing Shadows",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "Dancing Shadows",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "Washing Machine": {
+   "en": {
+    "name": "Washing Machine",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Machine à laver",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Washing Machine",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Washing Machine",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Washing Machine",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Washing Machine",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Washing Machine",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Washing Machine",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Rotozoomer": {
+   "en": {
+    "name": "Rotozoomer",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Rotozoomer",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Rotozoomer",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Rotozoomer",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Rotozoomer",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Rotozoomer",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Rotozoomer",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Rotozoomer",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Blends": {
+   "en": {
+    "name": "Blends",
+    "desc": "Brightness swells and fades (breathing)."
+   },
+   "fr": {
+    "name": "Mélanges",
+    "desc": "La luminosité enfle et retombe (respiration)."
+   },
+   "de": {
+    "name": "Blends",
+    "desc": "Die Helligkeit schwillt an und ab (Atmen)."
+   },
+   "es": {
+    "name": "Blends",
+    "desc": "El brillo crece y decae (respiración)."
+   },
+   "it": {
+    "name": "Blends",
+    "desc": "La luminosità cresce e cala (respiro)."
+   },
+   "ja": {
+    "name": "Blends",
+    "desc": "明るさが強弱する(呼吸)。"
+   },
+   "ko": {
+    "name": "Blends",
+    "desc": "밝기가 커졌다 작아진다(호흡)."
+   },
+   "zh": {
+    "name": "Blends",
+    "desc": "亮度起伏（呼吸）。"
+   }
+  },
+  "TV Simulator": {
+   "en": {
+    "name": "TV Simulator",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Simulateur TV",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "TV Simulator",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "TV Simulator",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "TV Simulator",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "TV Simulator",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "TV Simulator",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "TV Simulator",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Dynamic Smooth": {
+   "en": {
+    "name": "Dynamic Smooth",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Dynamique doux",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Dynamic Smooth",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Dynamic Smooth",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Dynamic Smooth",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Dynamic Smooth",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Dynamic Smooth",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Dynamic Smooth",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Spaceships": {
+   "en": {
+    "name": "Spaceships",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Vaisseaux",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Spaceships",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Spaceships",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Spaceships",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Spaceships",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Spaceships",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Spaceships",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Crazy Bees": {
+   "en": {
+    "name": "Crazy Bees",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Abeilles folles",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Crazy Bees",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Crazy Bees",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Crazy Bees",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Crazy Bees",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Crazy Bees",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Crazy Bees",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Ghost Rider": {
+   "en": {
+    "name": "Ghost Rider",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Cavalier fantôme",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Ghost Rider",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Ghost Rider",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Ghost Rider",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Ghost Rider",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Ghost Rider",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Ghost Rider",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Blobs": {
+   "en": {
+    "name": "Blobs",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Bulles",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Blobs",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Blobs",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Blobs",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Blobs",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Blobs",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Blobs",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Scrolling Text": {
+   "en": {
+    "name": "Scrolling Text",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Texte défilant",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Scrolling Text",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Scrolling Text",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Scrolling Text",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Scrolling Text",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Scrolling Text",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Scrolling Text",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Drift Rose": {
+   "en": {
+    "name": "Drift Rose",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Rosace",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Drift Rose",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Drift Rose",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Drift Rose",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Drift Rose",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Drift Rose",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Drift Rose",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Distortion Waves": {
+   "en": {
+    "name": "Distortion Waves",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Vagues déformées",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Distortion Waves",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Distortion Waves",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Distortion Waves",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Distortion Waves",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Distortion Waves",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Distortion Waves",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Soap": {
+   "en": {
+    "name": "Soap",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Savon",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Soap",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Soap",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Soap",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Soap",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Soap",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Soap",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Octopus": {
+   "en": {
+    "name": "Octopus",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Pieuvre",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Octopus",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Octopus",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Octopus",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Octopus",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Octopus",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Octopus",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Waving Cell": {
+   "en": {
+    "name": "Waving Cell",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Cellule ondulante",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Waving Cell",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Waving Cell",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Waving Cell",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Waving Cell",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Waving Cell",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Waving Cell",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Pixels": {
+   "en": {
+    "name": "Pixels",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Pixels",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Pixels",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Pixels",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Pixels",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Pixels",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Pixels",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Pixels",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Pixelwave": {
+   "en": {
+    "name": "Pixelwave",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Vague de pixels",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Pixelwave",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Pixelwave",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Pixelwave",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Pixelwave",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Pixelwave",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Pixelwave",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Juggles": {
+   "en": {
+    "name": "Juggles",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Juggles",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Juggles",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Juggles",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Juggles",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Juggles",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Juggles",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Juggles",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Matripix": {
+   "en": {
+    "name": "Matripix",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Matripix",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Matripix",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Matripix",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Matripix",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Matripix",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Matripix",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Matripix",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Gravimeter": {
+   "en": {
+    "name": "Gravimeter",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Gravimeter",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Gravimeter",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Gravimeter",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Gravimeter",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Gravimeter",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Gravimeter",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Gravimeter",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Plasmoid": {
+   "en": {
+    "name": "Plasmoid",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Plasmoid",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Plasmoid",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Plasmoid",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Plasmoid",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Plasmoid",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Plasmoid",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Plasmoid",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Puddles": {
+   "en": {
+    "name": "Puddles",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Puddles",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Puddles",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Puddles",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Puddles",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Puddles",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Puddles",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Puddles",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Midnoise": {
+   "en": {
+    "name": "Midnoise",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Midnoise",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Midnoise",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Midnoise",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Midnoise",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Midnoise",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Midnoise",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Midnoise",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Noisemeter": {
+   "en": {
+    "name": "Noisemeter",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Noisemeter",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Noisemeter",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Noisemeter",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Noisemeter",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Noisemeter",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Noisemeter",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Noisemeter",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Freqwave": {
+   "en": {
+    "name": "Freqwave",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Freqwave",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Freqwave",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Freqwave",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Freqwave",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Freqwave",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Freqwave",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Freqwave",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Freqmatrix": {
+   "en": {
+    "name": "Freqmatrix",
+    "desc": "Points fall like rain."
+   },
+   "fr": {
+    "name": "Freqmatrix",
+    "desc": "Des points tombent comme la pluie."
+   },
+   "de": {
+    "name": "Freqmatrix",
+    "desc": "Punkte fallen wie Regen."
+   },
+   "es": {
+    "name": "Freqmatrix",
+    "desc": "Puntos que caen como lluvia."
+   },
+   "it": {
+    "name": "Freqmatrix",
+    "desc": "Punti che cadono come pioggia."
+   },
+   "ja": {
+    "name": "Freqmatrix",
+    "desc": "点が雨のように落ちる。"
+   },
+   "ko": {
+    "name": "Freqmatrix",
+    "desc": "점들이 비처럼 떨어진다."
+   },
+   "zh": {
+    "name": "Freqmatrix",
+    "desc": "光点如雨落下。"
+   }
+  },
+  "GEQ": {
+   "en": {
+    "name": "GEQ",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "GEQ",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "GEQ",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "GEQ",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "GEQ",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "GEQ",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "GEQ",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "GEQ",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Waterfall": {
+   "en": {
+    "name": "Waterfall",
+    "desc": "Points fall like rain."
+   },
+   "fr": {
+    "name": "Cascade",
+    "desc": "Des points tombent comme la pluie."
+   },
+   "de": {
+    "name": "Wasserfall",
+    "desc": "Punkte fallen wie Regen."
+   },
+   "es": {
+    "name": "Cascada",
+    "desc": "Puntos que caen como lluvia."
+   },
+   "it": {
+    "name": "Cascata",
+    "desc": "Punti che cadono come pioggia."
+   },
+   "ja": {
+    "name": "Waterfall",
+    "desc": "点が雨のように落ちる。"
+   },
+   "ko": {
+    "name": "Waterfall",
+    "desc": "점들이 비처럼 떨어진다."
+   },
+   "zh": {
+    "name": "Waterfall",
+    "desc": "光点如雨落下。"
+   }
+  },
+  "Freqpixels": {
+   "en": {
+    "name": "Freqpixels",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Freqpixels",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Freqpixels",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Freqpixels",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Freqpixels",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Freqpixels",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Freqpixels",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Freqpixels",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "RSVD": {
+   "en": {
+    "name": "RSVD",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "RSVD",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "RSVD",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "RSVD",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "RSVD",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "RSVD",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "RSVD",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "RSVD",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Noisefire": {
+   "en": {
+    "name": "Noisefire",
+    "desc": "Warm tones flicker like flames."
+   },
+   "fr": {
+    "name": "Noisefire",
+    "desc": "Des tons chauds vacillent comme des flammes."
+   },
+   "de": {
+    "name": "Noisefire",
+    "desc": "Warme Töne flackern wie Flammen."
+   },
+   "es": {
+    "name": "Noisefire",
+    "desc": "Tonos cálidos titilan como llamas."
+   },
+   "it": {
+    "name": "Noisefire",
+    "desc": "Toni caldi tremolano come fiamme."
+   },
+   "ja": {
+    "name": "Noisefire",
+    "desc": "暖色が炎のように揺らめく。"
+   },
+   "ko": {
+    "name": "Noisefire",
+    "desc": "따뜻한 색이 불꽃처럼 일렁인다."
+   },
+   "zh": {
+    "name": "Noisefire",
+    "desc": "暖色如火焰般跳动。"
+   }
+  },
+  "Puddlepeak": {
+   "en": {
+    "name": "Puddlepeak",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Puddlepeak",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Puddlepeak",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Puddlepeak",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Puddlepeak",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Puddlepeak",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Puddlepeak",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Puddlepeak",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Noisemove": {
+   "en": {
+    "name": "Noisemove",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Noisemove",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Noisemove",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Noisemove",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Noisemove",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Noisemove",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Noisemove",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Noisemove",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Noise2D": {
+   "en": {
+    "name": "Noise2D",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Noise2D",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Noise2D",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Noise2D",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Noise2D",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Noise2D",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Noise2D",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Noise2D",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Perlin Move": {
+   "en": {
+    "name": "Perlin Move",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Perlin Move",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Perlin Move",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Perlin Move",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Perlin Move",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Perlin Move",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Perlin Move",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Perlin Move",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Ripple Peak": {
+   "en": {
+    "name": "Ripple Peak",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Ripple Peak",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Ripple Peak",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Ripple Peak",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Ripple Peak",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Ripple Peak",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Ripple Peak",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Ripple Peak",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Firenoise": {
+   "en": {
+    "name": "Firenoise",
+    "desc": "Warm tones flicker like flames."
+   },
+   "fr": {
+    "name": "Firenoise",
+    "desc": "Des tons chauds vacillent comme des flammes."
+   },
+   "de": {
+    "name": "Firenoise",
+    "desc": "Warme Töne flackern wie Flammen."
+   },
+   "es": {
+    "name": "Firenoise",
+    "desc": "Tonos cálidos titilan como llamas."
+   },
+   "it": {
+    "name": "Firenoise",
+    "desc": "Toni caldi tremolano come fiamme."
+   },
+   "ja": {
+    "name": "Firenoise",
+    "desc": "暖色が炎のように揺らめく。"
+   },
+   "ko": {
+    "name": "Firenoise",
+    "desc": "따뜻한 색이 불꽃처럼 일렁인다."
+   },
+   "zh": {
+    "name": "Firenoise",
+    "desc": "暖色如火焰般跳动。"
+   }
+  },
+  "Squared Swirl": {
+   "en": {
+    "name": "Squared Swirl",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Squared Swirl",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Squared Swirl",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Squared Swirl",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Squared Swirl",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Squared Swirl",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Squared Swirl",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Squared Swirl",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PacMan": {
+   "en": {
+    "name": "PacMan",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Pac-Man",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PacMan",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PacMan",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PacMan",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PacMan",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PacMan",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PacMan",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "DNA": {
+   "en": {
+    "name": "DNA",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "DNA",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "DNA",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "DNA",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "DNA",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "DNA",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "DNA",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "DNA",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Matrix": {
+   "en": {
+    "name": "Matrix",
+    "desc": "Points fall like rain."
+   },
+   "fr": {
+    "name": "Matrice",
+    "desc": "Des points tombent comme la pluie."
+   },
+   "de": {
+    "name": "Matrix",
+    "desc": "Punkte fallen wie Regen."
+   },
+   "es": {
+    "name": "Matriz",
+    "desc": "Puntos que caen como lluvia."
+   },
+   "it": {
+    "name": "Matrice",
+    "desc": "Punti che cadono come pioggia."
+   },
+   "ja": {
+    "name": "Matrix",
+    "desc": "点が雨のように落ちる。"
+   },
+   "ko": {
+    "name": "Matrix",
+    "desc": "점들이 비처럼 떨어진다."
+   },
+   "zh": {
+    "name": "Matrix",
+    "desc": "光点如雨落下。"
+   }
+  },
+  "Metaballs": {
+   "en": {
+    "name": "Metaballs",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Metaballs",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Metaballs",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Metaballs",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Metaballs",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Metaballs",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Metaballs",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Metaballs",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Freqmap": {
+   "en": {
+    "name": "Freqmap",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Freqmap",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Freqmap",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Freqmap",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Freqmap",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Freqmap",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Freqmap",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Freqmap",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Gravcenter": {
+   "en": {
+    "name": "Gravcenter",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Gravcenter",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Gravcenter",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Gravcenter",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Gravcenter",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Gravcenter",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Gravcenter",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Gravcenter",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Gravcentric": {
+   "en": {
+    "name": "Gravcentric",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Gravcentric",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Gravcentric",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Gravcentric",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Gravcentric",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Gravcentric",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Gravcentric",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Gravcentric",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Gravfreq": {
+   "en": {
+    "name": "Gravfreq",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Gravfreq",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Gravfreq",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Gravfreq",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Gravfreq",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Gravfreq",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Gravfreq",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Gravfreq",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "DJ Light": {
+   "en": {
+    "name": "DJ Light",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Lumière DJ",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "DJ Light",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "DJ Light",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "DJ Light",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "DJ Light",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "DJ Light",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "DJ Light",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Funky Plank": {
+   "en": {
+    "name": "Funky Plank",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Funky Plank",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Funky Plank",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Funky Plank",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Funky Plank",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Funky Plank",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Funky Plank",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Funky Plank",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Shimmer": {
+   "en": {
+    "name": "Shimmer",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Miroitement",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Shimmer",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Shimmer",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Shimmer",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Shimmer",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Shimmer",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Shimmer",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Pulser": {
+   "en": {
+    "name": "Pulser",
+    "desc": "Brightness swells and fades (breathing)."
+   },
+   "fr": {
+    "name": "Pulser",
+    "desc": "La luminosité enfle et retombe (respiration)."
+   },
+   "de": {
+    "name": "Pulser",
+    "desc": "Die Helligkeit schwillt an und ab (Atmen)."
+   },
+   "es": {
+    "name": "Pulser",
+    "desc": "El brillo crece y decae (respiración)."
+   },
+   "it": {
+    "name": "Pulser",
+    "desc": "La luminosità cresce e cala (respiro)."
+   },
+   "ja": {
+    "name": "Pulser",
+    "desc": "明るさが強弱する(呼吸)。"
+   },
+   "ko": {
+    "name": "Pulser",
+    "desc": "밝기가 커졌다 작아진다(호흡)."
+   },
+   "zh": {
+    "name": "Pulser",
+    "desc": "亮度起伏（呼吸）。"
+   }
+  },
+  "Blurz": {
+   "en": {
+    "name": "Blurz",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Blurz",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Blurz",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Blurz",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Blurz",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Blurz",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Blurz",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Blurz",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Drift": {
+   "en": {
+    "name": "Drift",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Dérive",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Drift",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Drift",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Drift",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Drift",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Drift",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Drift",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Waverly": {
+   "en": {
+    "name": "Waverly",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Waverly",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Waverly",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Waverly",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Waverly",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Waverly",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Waverly",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Waverly",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Sun Radiation": {
+   "en": {
+    "name": "Sun Radiation",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Rayonnement solaire",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Sun Radiation",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Sun Radiation",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Sun Radiation",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Sun Radiation",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Sun Radiation",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Sun Radiation",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Colored Bursts": {
+   "en": {
+    "name": "Colored Bursts",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Éclats colorés",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Colored Bursts",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Colored Bursts",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Colored Bursts",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Colored Bursts",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Colored Bursts",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Colored Bursts",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Julia": {
+   "en": {
+    "name": "Julia",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Julia",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Julia",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Julia",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Julia",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Julia",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Julia",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Julia",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Game Of Life": {
+   "en": {
+    "name": "Game Of Life",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Jeu de la vie",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Game Of Life",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Game Of Life",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Game Of Life",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Game Of Life",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Game Of Life",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Game Of Life",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Tartan": {
+   "en": {
+    "name": "Tartan",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Tartan",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Tartan",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Tartan",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Tartan",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Tartan",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Tartan",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Tartan",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Polar Lights": {
+   "en": {
+    "name": "Polar Lights",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Aurores polaires",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Polar Lights",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Polar Lights",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Polar Lights",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Polar Lights",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Polar Lights",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Polar Lights",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Swirl": {
+   "en": {
+    "name": "Swirl",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Tourbillon",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Swirl",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Swirl",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Swirl",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Swirl",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Swirl",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Swirl",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Lissajous": {
+   "en": {
+    "name": "Lissajous",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Lissajous",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Lissajous",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Lissajous",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Lissajous",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Lissajous",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Lissajous",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Lissajous",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Frizzles": {
+   "en": {
+    "name": "Frizzles",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Frizzles",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Frizzles",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Frizzles",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Frizzles",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Frizzles",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Frizzles",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Frizzles",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Plasma Ball": {
+   "en": {
+    "name": "Plasma Ball",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Boule de plasma",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Plasma Ball",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Plasma Ball",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Plasma Ball",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Plasma Ball",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Plasma Ball",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Plasma Ball",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Flow Stripe": {
+   "en": {
+    "name": "Flow Stripe",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Bande fluide",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Flow Stripe",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Flow Stripe",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Flow Stripe",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Flow Stripe",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Flow Stripe",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Flow Stripe",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Hiphotic": {
+   "en": {
+    "name": "Hiphotic",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Hiphotic",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Hiphotic",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Hiphotic",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Hiphotic",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Hiphotic",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Hiphotic",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Hiphotic",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Sindots": {
+   "en": {
+    "name": "Sindots",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Sindots",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Sindots",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Sindots",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Sindots",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Sindots",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Sindots",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Sindots",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "DNA Spiral": {
+   "en": {
+    "name": "DNA Spiral",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "DNA Spiral",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "DNA Spiral",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "DNA Spiral",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "DNA Spiral",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "DNA Spiral",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "DNA Spiral",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "DNA Spiral",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Black Hole": {
+   "en": {
+    "name": "Black Hole",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Trou noir",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Black Hole",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Black Hole",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Black Hole",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Black Hole",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Black Hole",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Black Hole",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Wavesins": {
+   "en": {
+    "name": "Wavesins",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Wavesins",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Wavesins",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Wavesins",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Wavesins",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Wavesins",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Wavesins",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Wavesins",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Rocktaves": {
+   "en": {
+    "name": "Rocktaves",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Rocktaves",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Rocktaves",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Rocktaves",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Rocktaves",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Rocktaves",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Rocktaves",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Rocktaves",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Akemi": {
+   "en": {
+    "name": "Akemi",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Akemi",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Akemi",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Akemi",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Akemi",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Akemi",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Akemi",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Akemi",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Volcano": {
+   "en": {
+    "name": "PS Volcano",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Volcano",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Volcano",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Volcano",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Volcano",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Volcano",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Volcano",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Volcano",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Fire": {
+   "en": {
+    "name": "PS Fire",
+    "desc": "Warm tones flicker like flames."
+   },
+   "fr": {
+    "name": "PS Fire",
+    "desc": "Des tons chauds vacillent comme des flammes."
+   },
+   "de": {
+    "name": "PS Fire",
+    "desc": "Warme Töne flackern wie Flammen."
+   },
+   "es": {
+    "name": "PS Fire",
+    "desc": "Tonos cálidos titilan como llamas."
+   },
+   "it": {
+    "name": "PS Fire",
+    "desc": "Toni caldi tremolano come fiamme."
+   },
+   "ja": {
+    "name": "PS Fire",
+    "desc": "暖色が炎のように揺らめく。"
+   },
+   "ko": {
+    "name": "PS Fire",
+    "desc": "따뜻한 색이 불꽃처럼 일렁인다."
+   },
+   "zh": {
+    "name": "PS Fire",
+    "desc": "暖色如火焰般跳动。"
+   }
+  },
+  "PS Fireworks": {
+   "en": {
+    "name": "PS Fireworks",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "PS Fireworks",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "PS Fireworks",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "PS Fireworks",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "PS Fireworks",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "PS Fireworks",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "PS Fireworks",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "PS Fireworks",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "PS Vortex": {
+   "en": {
+    "name": "PS Vortex",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Vortex",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Vortex",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Vortex",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Vortex",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Vortex",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Vortex",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Vortex",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Fuzzy Noise": {
+   "en": {
+    "name": "PS Fuzzy Noise",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Fuzzy Noise",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Fuzzy Noise",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Fuzzy Noise",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Fuzzy Noise",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Fuzzy Noise",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Fuzzy Noise",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Fuzzy Noise",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Ballpit": {
+   "en": {
+    "name": "PS Ballpit",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Ballpit",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Ballpit",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Ballpit",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Ballpit",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Ballpit",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Ballpit",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Ballpit",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Box": {
+   "en": {
+    "name": "PS Box",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Box",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Box",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Box",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Box",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Box",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Box",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Box",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Attractor": {
+   "en": {
+    "name": "PS Attractor",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Attractor",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Attractor",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Attractor",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Attractor",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Attractor",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Attractor",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Attractor",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Impact": {
+   "en": {
+    "name": "PS Impact",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Impact",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Impact",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Impact",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Impact",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Impact",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Impact",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Impact",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Waterfall": {
+   "en": {
+    "name": "PS Waterfall",
+    "desc": "Points fall like rain."
+   },
+   "fr": {
+    "name": "PS Waterfall",
+    "desc": "Des points tombent comme la pluie."
+   },
+   "de": {
+    "name": "PS Waterfall",
+    "desc": "Punkte fallen wie Regen."
+   },
+   "es": {
+    "name": "PS Waterfall",
+    "desc": "Puntos que caen como lluvia."
+   },
+   "it": {
+    "name": "PS Waterfall",
+    "desc": "Punti che cadono come pioggia."
+   },
+   "ja": {
+    "name": "PS Waterfall",
+    "desc": "点が雨のように落ちる。"
+   },
+   "ko": {
+    "name": "PS Waterfall",
+    "desc": "점들이 비처럼 떨어진다."
+   },
+   "zh": {
+    "name": "PS Waterfall",
+    "desc": "光点如雨落下。"
+   }
+  },
+  "PS Spray": {
+   "en": {
+    "name": "PS Spray",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Spray",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Spray",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Spray",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Spray",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Spray",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Spray",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Spray",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS GEQ 2D": {
+   "en": {
+    "name": "PS GEQ 2D",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS GEQ 2D",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS GEQ 2D",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS GEQ 2D",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS GEQ 2D",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS GEQ 2D",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS GEQ 2D",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS GEQ 2D",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS GEQ Nova": {
+   "en": {
+    "name": "PS GEQ Nova",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS GEQ Nova",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS GEQ Nova",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS GEQ Nova",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS GEQ Nova",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS GEQ Nova",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS GEQ Nova",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS GEQ Nova",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Ghost Rider": {
+   "en": {
+    "name": "PS Ghost Rider",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Ghost Rider",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Ghost Rider",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Ghost Rider",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Ghost Rider",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Ghost Rider",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Ghost Rider",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Ghost Rider",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Blobs": {
+   "en": {
+    "name": "PS Blobs",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Blobs",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Blobs",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Blobs",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Blobs",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Blobs",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Blobs",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Blobs",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS DripDrop": {
+   "en": {
+    "name": "PS DripDrop",
+    "desc": "Points fall like rain."
+   },
+   "fr": {
+    "name": "PS DripDrop",
+    "desc": "Des points tombent comme la pluie."
+   },
+   "de": {
+    "name": "PS DripDrop",
+    "desc": "Punkte fallen wie Regen."
+   },
+   "es": {
+    "name": "PS DripDrop",
+    "desc": "Puntos que caen como lluvia."
+   },
+   "it": {
+    "name": "PS DripDrop",
+    "desc": "Punti che cadono come pioggia."
+   },
+   "ja": {
+    "name": "PS DripDrop",
+    "desc": "点が雨のように落ちる。"
+   },
+   "ko": {
+    "name": "PS DripDrop",
+    "desc": "점들이 비처럼 떨어진다."
+   },
+   "zh": {
+    "name": "PS DripDrop",
+    "desc": "光点如雨落下。"
+   }
+  },
+  "PS Pinball": {
+   "en": {
+    "name": "PS Pinball",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Pinball",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Pinball",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Pinball",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Pinball",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Pinball",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Pinball",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Pinball",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Dancing Shadows": {
+   "en": {
+    "name": "PS Dancing Shadows",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "PS Dancing Shadows",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "PS Dancing Shadows",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "PS Dancing Shadows",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "PS Dancing Shadows",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "PS Dancing Shadows",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "PS Dancing Shadows",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "PS Dancing Shadows",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "PS Fireworks 1D": {
+   "en": {
+    "name": "PS Fireworks 1D",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "PS Fireworks 1D",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "PS Fireworks 1D",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "PS Fireworks 1D",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "PS Fireworks 1D",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "PS Fireworks 1D",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "PS Fireworks 1D",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "PS Fireworks 1D",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "PS Sparkler": {
+   "en": {
+    "name": "PS Sparkler",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "PS Sparkler",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "PS Sparkler",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "PS Sparkler",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "PS Sparkler",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "PS Sparkler",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "PS Sparkler",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "PS Sparkler",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "PS Hourglass": {
+   "en": {
+    "name": "PS Hourglass",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Hourglass",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Hourglass",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Hourglass",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Hourglass",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Hourglass",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Hourglass",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Hourglass",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Spray 1D": {
+   "en": {
+    "name": "PS Spray 1D",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Spray 1D",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Spray 1D",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Spray 1D",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Spray 1D",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Spray 1D",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Spray 1D",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Spray 1D",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS 1D Balance": {
+   "en": {
+    "name": "PS 1D Balance",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS 1D Balance",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS 1D Balance",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS 1D Balance",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS 1D Balance",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS 1D Balance",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS 1D Balance",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS 1D Balance",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Chase": {
+   "en": {
+    "name": "PS Chase",
+    "desc": "A point of light sweeps along (a chase)."
+   },
+   "fr": {
+    "name": "PS Chase",
+    "desc": "Un point lumineux balaie le ruban (poursuite)."
+   },
+   "de": {
+    "name": "PS Chase",
+    "desc": "Ein Lichtpunkt zieht entlang (Verfolgung)."
+   },
+   "es": {
+    "name": "PS Chase",
+    "desc": "Un punto de luz recorre la tira (persecución)."
+   },
+   "it": {
+    "name": "PS Chase",
+    "desc": "Un punto luminoso scorre (inseguimento)."
+   },
+   "ja": {
+    "name": "PS Chase",
+    "desc": "光点が走る(チェイス)。"
+   },
+   "ko": {
+    "name": "PS Chase",
+    "desc": "빛점이 훑고 지나간다(체이스)."
+   },
+   "zh": {
+    "name": "PS Chase",
+    "desc": "一个光点扫过（追逐）。"
+   }
+  },
+  "PS Starburst": {
+   "en": {
+    "name": "PS Starburst",
+    "desc": "Points twinkle on and off at random."
+   },
+   "fr": {
+    "name": "PS Starburst",
+    "desc": "Des points scintillent au hasard."
+   },
+   "de": {
+    "name": "PS Starburst",
+    "desc": "Punkte funkeln zufällig auf und ab."
+   },
+   "es": {
+    "name": "PS Starburst",
+    "desc": "Puntos que centellean al azar."
+   },
+   "it": {
+    "name": "PS Starburst",
+    "desc": "Punti che scintillano a caso."
+   },
+   "ja": {
+    "name": "PS Starburst",
+    "desc": "点がランダムに瞬く。"
+   },
+   "ko": {
+    "name": "PS Starburst",
+    "desc": "점들이 무작위로 반짝인다."
+   },
+   "zh": {
+    "name": "PS Starburst",
+    "desc": "光点随机闪烁。"
+   }
+  },
+  "PS GEQ 1D": {
+   "en": {
+    "name": "PS GEQ 1D",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS GEQ 1D",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS GEQ 1D",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS GEQ 1D",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS GEQ 1D",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS GEQ 1D",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS GEQ 1D",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS GEQ 1D",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Fire 1D": {
+   "en": {
+    "name": "PS Fire 1D",
+    "desc": "Warm tones flicker like flames."
+   },
+   "fr": {
+    "name": "PS Fire 1D",
+    "desc": "Des tons chauds vacillent comme des flammes."
+   },
+   "de": {
+    "name": "PS Fire 1D",
+    "desc": "Warme Töne flackern wie Flammen."
+   },
+   "es": {
+    "name": "PS Fire 1D",
+    "desc": "Tonos cálidos titilan como llamas."
+   },
+   "it": {
+    "name": "PS Fire 1D",
+    "desc": "Toni caldi tremolano come fiamme."
+   },
+   "ja": {
+    "name": "PS Fire 1D",
+    "desc": "暖色が炎のように揺らめく。"
+   },
+   "ko": {
+    "name": "PS Fire 1D",
+    "desc": "따뜻한 색이 불꽃처럼 일렁인다."
+   },
+   "zh": {
+    "name": "PS Fire 1D",
+    "desc": "暖色如火焰般跳动。"
+   }
+  },
+  "PS Sonic Stream": {
+   "en": {
+    "name": "PS Sonic Stream",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Sonic Stream",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Sonic Stream",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Sonic Stream",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Sonic Stream",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Sonic Stream",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Sonic Stream",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Sonic Stream",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Sonic Boom": {
+   "en": {
+    "name": "PS Sonic Boom",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Sonic Boom",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Sonic Boom",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Sonic Boom",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Sonic Boom",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Sonic Boom",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Sonic Boom",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Sonic Boom",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Springy": {
+   "en": {
+    "name": "PS Springy",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Springy",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Springy",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Springy",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Springy",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Springy",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Springy",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Springy",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "PS Galaxy": {
+   "en": {
+    "name": "PS Galaxy",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "PS Galaxy",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "PS Galaxy",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "PS Galaxy",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "PS Galaxy",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "PS Galaxy",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "PS Galaxy",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "PS Galaxy",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Color Clouds": {
+   "en": {
+    "name": "Color Clouds",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Nuages colorés",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Color Clouds",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Color Clouds",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Color Clouds",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Color Clouds",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Color Clouds",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Color Clouds",
+    "desc": "色彩波沿灯带流动。"
+   }
+  },
+  "Slow Transition": {
+   "en": {
+    "name": "Slow Transition",
+    "desc": "A colour wave travels along the strip."
+   },
+   "fr": {
+    "name": "Transition lente",
+    "desc": "Une vague de couleur parcourt le ruban."
+   },
+   "de": {
+    "name": "Slow Transition",
+    "desc": "Eine Farbwelle wandert über den Streifen."
+   },
+   "es": {
+    "name": "Slow Transition",
+    "desc": "Una onda de color recorre la tira."
+   },
+   "it": {
+    "name": "Slow Transition",
+    "desc": "Un'onda di colore percorre la striscia."
+   },
+   "ja": {
+    "name": "Slow Transition",
+    "desc": "色の波がストリップを流れる。"
+   },
+   "ko": {
+    "name": "Slow Transition",
+    "desc": "색의 물결이 스트립을 따라 흐른다."
+   },
+   "zh": {
+    "name": "Slow Transition",
+    "desc": "色彩波沿灯带流动。"
+   }
+  }
  }
 }

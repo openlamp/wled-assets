@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="grintage" data-gradient="horizontal">
+  <!-- Reusable stencil for WLED palette "grintage". Inject the palette colours (/json/palx)
+       as stops into #grad; #1a1a1a details carve features. Direction: horizontal. -->
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
+  </linearGradient></defs>
+  <g fill="url(#grad)"><circle cx="66" cy="66" r="30"/><circle cx="104" cy="50" r="12"/><circle cx="40" cy="98" r="14"/><circle cx="106" cy="98" r="10"/><circle cx="34" cy="46" r="9"/></g>
+</svg>

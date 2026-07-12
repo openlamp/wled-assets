@@ -1,486 +1,2453 @@
 {
-  "_note": "Localized names for the official WLED palettes. Key = the exact English WLED palette name (from /json/pal). Locale keys are 2-letter (fr/de/es/it/ja/ko/zh). Missing entries or languages fall back to the English name. Extend over time.",
+ "_note": "Combined translations: each standard WLED enum -> per language {name, desc}. Key = English name (join key). Missing -> English fallback. CJK are a first pass (native review welcome). desc = what the palette NAME refers to.",
+ "entries": {
+  "Default": {
+   "en": {
+    "name": "Default",
+    "desc": "WLED's default rainbow spectrum."
+   },
+   "fr": {
+    "name": "Défaut",
+    "desc": "Le spectre arc-en-ciel par défaut de WLED."
+   },
+   "de": {
+    "name": "Standard",
+    "desc": "Das Standard-Regenbogenspektrum von WLED."
+   },
+   "es": {
+    "name": "Predeterminado",
+    "desc": "El espectro arcoíris por defecto de WLED."
+   },
+   "it": {
+    "name": "Predefinito",
+    "desc": "Lo spettro arcobaleno predefinito di WLED."
+   },
+   "ja": {
+    "name": "デフォルト",
+    "desc": "WLEDの既定の虹スペクトル。"
+   },
+   "ko": {
+    "name": "기본",
+    "desc": "WLED 기본 무지개 스펙트럼."
+   },
+   "zh": {
+    "name": "默认",
+    "desc": "WLED 默认的彩虹光谱。"
+   }
+  },
+  "* Random Cycle": {
+   "en": {
+    "name": "* Random Cycle",
+    "desc": ""
+   },
+   "fr": {
+    "name": "* Random Cycle",
+    "desc": ""
+   },
+   "de": {
+    "name": "* Random Cycle",
+    "desc": ""
+   },
+   "es": {
+    "name": "* Random Cycle",
+    "desc": ""
+   },
+   "it": {
+    "name": "* Random Cycle",
+    "desc": ""
+   },
+   "ja": {
+    "name": "* Random Cycle",
+    "desc": ""
+   },
+   "ko": {
+    "name": "* Random Cycle",
+    "desc": ""
+   },
+   "zh": {
+    "name": "* Random Cycle",
+    "desc": ""
+   }
+  },
+  "* Color 1": {
+   "en": {
+    "name": "* Color 1",
+    "desc": ""
+   },
+   "fr": {
+    "name": "* Color 1",
+    "desc": ""
+   },
+   "de": {
+    "name": "* Color 1",
+    "desc": ""
+   },
+   "es": {
+    "name": "* Color 1",
+    "desc": ""
+   },
+   "it": {
+    "name": "* Color 1",
+    "desc": ""
+   },
+   "ja": {
+    "name": "* Color 1",
+    "desc": ""
+   },
+   "ko": {
+    "name": "* Color 1",
+    "desc": ""
+   },
+   "zh": {
+    "name": "* Color 1",
+    "desc": ""
+   }
+  },
+  "* Colors 1&2": {
+   "en": {
+    "name": "* Colors 1&2",
+    "desc": ""
+   },
+   "fr": {
+    "name": "* Colors 1&2",
+    "desc": ""
+   },
+   "de": {
+    "name": "* Colors 1&2",
+    "desc": ""
+   },
+   "es": {
+    "name": "* Colors 1&2",
+    "desc": ""
+   },
+   "it": {
+    "name": "* Colors 1&2",
+    "desc": ""
+   },
+   "ja": {
+    "name": "* Colors 1&2",
+    "desc": ""
+   },
+   "ko": {
+    "name": "* Colors 1&2",
+    "desc": ""
+   },
+   "zh": {
+    "name": "* Colors 1&2",
+    "desc": ""
+   }
+  },
+  "* Color Gradient": {
+   "en": {
+    "name": "* Color Gradient",
+    "desc": ""
+   },
+   "fr": {
+    "name": "* Color Gradient",
+    "desc": ""
+   },
+   "de": {
+    "name": "* Color Gradient",
+    "desc": ""
+   },
+   "es": {
+    "name": "* Color Gradient",
+    "desc": ""
+   },
+   "it": {
+    "name": "* Color Gradient",
+    "desc": ""
+   },
+   "ja": {
+    "name": "* Color Gradient",
+    "desc": ""
+   },
+   "ko": {
+    "name": "* Color Gradient",
+    "desc": ""
+   },
+   "zh": {
+    "name": "* Color Gradient",
+    "desc": ""
+   }
+  },
+  "* Colors Only": {
+   "en": {
+    "name": "* Colors Only",
+    "desc": ""
+   },
+   "fr": {
+    "name": "* Colors Only",
+    "desc": ""
+   },
+   "de": {
+    "name": "* Colors Only",
+    "desc": ""
+   },
+   "es": {
+    "name": "* Colors Only",
+    "desc": ""
+   },
+   "it": {
+    "name": "* Colors Only",
+    "desc": ""
+   },
+   "ja": {
+    "name": "* Colors Only",
+    "desc": ""
+   },
+   "ko": {
+    "name": "* Colors Only",
+    "desc": ""
+   },
+   "zh": {
+    "name": "* Colors Only",
+    "desc": ""
+   }
+  },
   "Party": {
-    "fr": "Fête",
-    "de": "Party",
-    "es": "Fiesta",
-    "it": "Festa",
-    "ja": "パーティー",
-    "ko": "파티",
-    "zh": "派对"
+   "en": {
+    "name": "Party",
+    "desc": "A festive mix — balloons at a party."
+   },
+   "fr": {
+    "name": "Fête",
+    "desc": "Un mélange festif — des ballons de fête."
+   },
+   "de": {
+    "name": "Party",
+    "desc": "Ein festlicher Mix — Luftballons auf einer Party."
+   },
+   "es": {
+    "name": "Fiesta",
+    "desc": "Una mezcla festiva — globos de fiesta."
+   },
+   "it": {
+    "name": "Festa",
+    "desc": "Un mix festoso — palloncini a una festa."
+   },
+   "ja": {
+    "name": "パーティー",
+    "desc": "お祝いの彩り——パーティーの風船。"
+   },
+   "ko": {
+    "name": "파티",
+    "desc": "축제 분위기——파티 풍선."
+   },
+   "zh": {
+    "name": "派对",
+    "desc": "节日般的色彩——派对气球。"
+   }
   },
   "Cloud": {
-    "fr": "Nuage",
-    "de": "Wolke",
-    "es": "Nube",
-    "it": "Nuvola",
-    "ja": "雲",
-    "ko": "구름",
-    "zh": "云"
+   "en": {
+    "name": "Cloud",
+    "desc": "Soft sky blues — a cloud."
+   },
+   "fr": {
+    "name": "Nuage",
+    "desc": "Bleus doux du ciel — un nuage."
+   },
+   "de": {
+    "name": "Wolke",
+    "desc": "Sanftes Himmelblau — eine Wolke."
+   },
+   "es": {
+    "name": "Nube",
+    "desc": "Azules suaves del cielo — una nube."
+   },
+   "it": {
+    "name": "Nuvola",
+    "desc": "Azzurri tenui del cielo — una nuvola."
+   },
+   "ja": {
+    "name": "雲",
+    "desc": "やわらかな空の青——雲。"
+   },
+   "ko": {
+    "name": "구름",
+    "desc": "부드러운 하늘색——구름."
+   },
+   "zh": {
+    "name": "云",
+    "desc": "柔和的天蓝——一朵云。"
+   }
   },
   "Lava": {
-    "fr": "Lave",
-    "de": "Lava",
-    "es": "Lava",
-    "it": "Lava",
-    "ja": "溶岩",
-    "ko": "용암",
-    "zh": "熔岩"
+   "en": {
+    "name": "Lava",
+    "desc": "Molten rock — a volcano."
+   },
+   "fr": {
+    "name": "Lave",
+    "desc": "Roche en fusion — un volcan."
+   },
+   "de": {
+    "name": "Lava",
+    "desc": "Geschmolzenes Gestein — ein Vulkan."
+   },
+   "es": {
+    "name": "Lava",
+    "desc": "Roca fundida — un volcán."
+   },
+   "it": {
+    "name": "Lava",
+    "desc": "Roccia fusa — un vulcano."
+   },
+   "ja": {
+    "name": "溶岩",
+    "desc": "溶けた岩——火山。"
+   },
+   "ko": {
+    "name": "용암",
+    "desc": "녹은 암석——화산."
+   },
+   "zh": {
+    "name": "熔岩",
+    "desc": "熔岩——火山。"
+   }
   },
   "Ocean": {
-    "fr": "Océan",
-    "de": "Ozean",
-    "es": "Océano",
-    "it": "Oceano",
-    "ja": "海",
-    "ko": "바다",
-    "zh": "海洋"
+   "en": {
+    "name": "Ocean",
+    "desc": "Sea blues and greens — ocean waves."
+   },
+   "fr": {
+    "name": "Océan",
+    "desc": "Bleus et verts marins — vagues de l'océan."
+   },
+   "de": {
+    "name": "Ozean",
+    "desc": "Meerblau und -grün — Meereswellen."
+   },
+   "es": {
+    "name": "Océano",
+    "desc": "Azules y verdes marinos — olas del mar."
+   },
+   "it": {
+    "name": "Oceano",
+    "desc": "Blu e verdi marini — onde dell'oceano."
+   },
+   "ja": {
+    "name": "海",
+    "desc": "海の青と緑——大洋の波。"
+   },
+   "ko": {
+    "name": "바다",
+    "desc": "바다의 푸른빛——바다 물결."
+   },
+   "zh": {
+    "name": "海洋",
+    "desc": "海的蓝绿——海浪。"
+   }
   },
   "Forest": {
-    "fr": "Forêt",
-    "de": "Wald",
-    "es": "Bosque",
-    "it": "Foresta",
-    "ja": "森",
-    "ko": "숲",
-    "zh": "森林"
+   "en": {
+    "name": "Forest",
+    "desc": "Greens of the woods — trees."
+   },
+   "fr": {
+    "name": "Forêt",
+    "desc": "Verts des bois — des arbres."
+   },
+   "de": {
+    "name": "Wald",
+    "desc": "Grüntöne des Waldes — Bäume."
+   },
+   "es": {
+    "name": "Bosque",
+    "desc": "Verdes del bosque — árboles."
+   },
+   "it": {
+    "name": "Foresta",
+    "desc": "Verdi del bosco — alberi."
+   },
+   "ja": {
+    "name": "森",
+    "desc": "森の緑——木々。"
+   },
+   "ko": {
+    "name": "숲",
+    "desc": "숲의 초록——나무들."
+   },
+   "zh": {
+    "name": "森林",
+    "desc": "森林的绿——树木。"
+   }
   },
   "Rainbow": {
-    "fr": "Arc-en-ciel",
-    "de": "Regenbogen",
-    "es": "Arcoíris",
-    "it": "Arcobaleno",
-    "ja": "虹",
-    "ko": "무지개",
-    "zh": "彩虹"
+   "en": {
+    "name": "Rainbow",
+    "desc": "The full spectrum — a rainbow arc."
+   },
+   "fr": {
+    "name": "Arc-en-ciel",
+    "desc": "Le spectre complet — un arc-en-ciel."
+   },
+   "de": {
+    "name": "Regenbogen",
+    "desc": "Das volle Spektrum — ein Regenbogen."
+   },
+   "es": {
+    "name": "Arcoíris",
+    "desc": "El espectro completo — un arcoíris."
+   },
+   "it": {
+    "name": "Arcobaleno",
+    "desc": "Lo spettro completo — un arcobaleno."
+   },
+   "ja": {
+    "name": "虹",
+    "desc": "全スペクトル——虹の弧。"
+   },
+   "ko": {
+    "name": "무지개",
+    "desc": "전체 스펙트럼——무지개 호."
+   },
+   "zh": {
+    "name": "彩虹",
+    "desc": "完整光谱——彩虹拱。"
+   }
   },
   "Rainbow Bands": {
-    "fr": "Bandes arc-en-ciel",
-    "de": "Regenbogenstreifen",
-    "es": "Bandas de arcoíris",
-    "it": "Bande arcobaleno",
-    "ja": "虹のバンド",
-    "ko": "무지개 밴드",
-    "zh": "彩虹条带"
+   "en": {
+    "name": "Rainbow Bands",
+    "desc": "Rainbow in sharp bands."
+   },
+   "fr": {
+    "name": "Bandes arc-en-ciel",
+    "desc": "Arc-en-ciel en bandes nettes."
+   },
+   "de": {
+    "name": "Regenbogenstreifen",
+    "desc": "Regenbogen in scharfen Bändern."
+   },
+   "es": {
+    "name": "Bandas de arcoíris",
+    "desc": "Arcoíris en bandas nítidas."
+   },
+   "it": {
+    "name": "Bande arcobaleno",
+    "desc": "Arcobaleno a bande nette."
+   },
+   "ja": {
+    "name": "虹のバンド",
+    "desc": "くっきりした帯の虹。"
+   },
+   "ko": {
+    "name": "무지개 밴드",
+    "desc": "선명한 띠의 무지개."
+   },
+   "zh": {
+    "name": "彩虹条带",
+    "desc": "分明色带的彩虹。"
+   }
   },
   "Sunset": {
-    "fr": "Coucher de soleil",
-    "de": "Sonnenuntergang",
-    "es": "Atardecer",
-    "it": "Tramonto",
-    "ja": "夕焼け",
-    "ko": "일몰",
-    "zh": "日落"
+   "en": {
+    "name": "Sunset",
+    "desc": "Warm dusk sky — sun on the horizon."
+   },
+   "fr": {
+    "name": "Coucher de soleil",
+    "desc": "Ciel chaud du crépuscule — soleil à l'horizon."
+   },
+   "de": {
+    "name": "Sonnenuntergang",
+    "desc": "Warmer Abendhimmel — Sonne am Horizont."
+   },
+   "es": {
+    "name": "Atardecer",
+    "desc": "Cielo cálido del atardecer — sol en el horizonte."
+   },
+   "it": {
+    "name": "Tramonto",
+    "desc": "Cielo caldo del tramonto — sole all'orizzonte."
+   },
+   "ja": {
+    "name": "夕焼け",
+    "desc": "夕暮れの暖色——地平線の太陽。"
+   },
+   "ko": {
+    "name": "일몰",
+    "desc": "노을 진 하늘——지평선의 해."
+   },
+   "zh": {
+    "name": "日落",
+    "desc": "温暖的黄昏——地平线上的太阳。"
+   }
   },
-  "Sunset 2": {
-    "fr": "Coucher de soleil 2",
-    "de": "Sonnenuntergang 2",
-    "es": "Atardecer 2",
-    "it": "Tramonto 2",
-    "ja": "夕焼け 2",
-    "ko": "일몰 2",
-    "zh": "日落 2"
+  "Rivendell": {
+   "en": {
+    "name": "Rivendell",
+    "desc": "The Elven valley from Tolkien's Lord of the Rings — misty mountains and forests."
+   },
+   "fr": {
+    "name": "Rivendell",
+    "desc": "Fondcombe, la vallée elfique du Seigneur des Anneaux de Tolkien — montagnes et forêts brumeuses."
+   },
+   "de": {
+    "name": "Rivendell",
+    "desc": "Bruchtal, das Elbental aus Tolkiens Herr der Ringe — neblige Berge und Wälder."
+   },
+   "es": {
+    "name": "Rivendell",
+    "desc": "Rivendel, el valle élfico de El Señor de los Anillos de Tolkien — montañas y bosques brumosos."
+   },
+   "it": {
+    "name": "Rivendell",
+    "desc": "Gran Burrone, la valle elfica del Signore degli Anelli di Tolkien — monti e boschi nebbiosi."
+   },
+   "ja": {
+    "name": "Rivendell",
+    "desc": "トールキン『指輪物語』のエルフの谷、裂け谷——霧深い山と森。"
+   },
+   "ko": {
+    "name": "Rivendell",
+    "desc": "톨킨 『반지의 제왕』의 요정 골짜기 리븐델——안개 낀 산과 숲."
+   },
+   "zh": {
+    "name": "Rivendell",
+    "desc": "托尔金《魔戒》中的精灵谷瑞文戴尔——雾中的山与森林。"
+   }
   },
   "Breeze": {
-    "fr": "Brise",
-    "de": "Brise",
-    "es": "Brisa",
-    "it": "Brezza",
-    "ja": "そよ風",
-    "ko": "산들바람",
-    "zh": "微风"
+   "en": {
+    "name": "Breeze",
+    "desc": "A gentle wind — gusts."
+   },
+   "fr": {
+    "name": "Brise",
+    "desc": "Une brise légère — des bourrasques."
+   },
+   "de": {
+    "name": "Brise",
+    "desc": "Eine sanfte Brise — Windstöße."
+   },
+   "es": {
+    "name": "Brisa",
+    "desc": "Una brisa suave — ráfagas."
+   },
+   "it": {
+    "name": "Brezza",
+    "desc": "Una brezza leggera — folate."
+   },
+   "ja": {
+    "name": "そよ風",
+    "desc": "そよ風——風の筋。"
+   },
+   "ko": {
+    "name": "산들바람",
+    "desc": "산들바람——바람결."
+   },
+   "zh": {
+    "name": "微风",
+    "desc": "微风——阵风。"
+   }
   },
   "Red & Blue": {
-    "fr": "Rouge & Bleu",
-    "de": "Rot & Blau",
-    "es": "Rojo & Azul",
-    "it": "Rosso & Blu",
-    "ja": "赤 & 青",
-    "ko": "빨강 & 파랑",
-    "zh": "红 & 蓝"
-  },
-  "Analogous": {
-    "fr": "Analogue",
-    "de": "Analog",
-    "es": "Análogo",
-    "it": "Analogo"
-  },
-  "Splash": {
-    "fr": "Éclaboussure",
-    "de": "Spritzer",
-    "es": "Salpicadura",
-    "it": "Spruzzo",
-    "ja": "スプラッシュ",
-    "ko": "스플래시",
-    "zh": "飞溅"
-  },
-  "Beach": {
-    "fr": "Plage",
-    "de": "Strand",
-    "es": "Playa",
-    "it": "Spiaggia",
-    "ja": "ビーチ",
-    "ko": "해변",
-    "zh": "海滩"
-  },
-  "Departure": {
-    "fr": "Départ",
-    "de": "Abflug",
-    "es": "Partida",
-    "it": "Partenza",
-    "ja": "出発",
-    "ko": "출발",
-    "zh": "出发"
-  },
-  "Landscape": {
-    "fr": "Paysage",
-    "de": "Landschaft",
-    "es": "Paisaje",
-    "it": "Paesaggio",
-    "ja": "風景",
-    "ko": "풍경",
-    "zh": "风景"
-  },
-  "Beech": {
-    "fr": "Hêtre",
-    "de": "Buche",
-    "es": "Haya",
-    "it": "Faggio"
-  },
-  "Sherbet": {
-    "fr": "Sorbet",
-    "de": "Sorbet",
-    "es": "Sorbete",
-    "it": "Sorbetto",
-    "ja": "シャーベット",
-    "ko": "셔벗",
-    "zh": "冰糕"
-  },
-  "Fire": {
-    "fr": "Feu",
-    "de": "Feuer",
-    "es": "Fuego",
-    "it": "Fuoco",
-    "ja": "火",
-    "ko": "불",
-    "zh": "火焰"
-  },
-  "Icefire": {
-    "fr": "Glace & feu",
-    "de": "Eis & Feuer",
-    "es": "Hielo & fuego",
-    "it": "Ghiaccio & fuoco",
-    "ja": "氷と炎",
-    "ko": "얼음과 불",
-    "zh": "冰与火"
-  },
-  "Light Pink": {
-    "fr": "Rose clair",
-    "de": "Hellrosa",
-    "es": "Rosa claro",
-    "it": "Rosa chiaro",
-    "ja": "ライトピンク",
-    "ko": "연분홍",
-    "zh": "浅粉"
-  },
-  "Autumn": {
-    "fr": "Automne",
-    "de": "Herbst",
-    "es": "Otoño",
-    "it": "Autunno",
-    "ja": "秋",
-    "ko": "가을",
-    "zh": "秋天"
-  },
-  "Orange & Teal": {
-    "fr": "Orange & Sarcelle",
-    "de": "Orange & Blaugrün",
-    "es": "Naranja & Verde azulado",
-    "it": "Arancione & Verde acqua",
-    "ja": "オレンジ & ティール",
-    "ko": "주황 & 청록",
-    "zh": "橙 & 蓝绿"
-  },
-  "April Night": {
-    "fr": "Nuit d'avril",
-    "de": "Aprilnacht",
-    "es": "Noche de abril",
-    "it": "Notte d'aprile",
-    "ja": "四月の夜",
-    "ko": "사월의 밤",
-    "zh": "四月之夜"
-  },
-  "Orangery": {
-    "fr": "Orangeraie",
-    "de": "Orangerie",
-    "es": "Naranjal",
-    "it": "Aranceto"
-  },
-  "Aurora": {
-    "fr": "Aurore",
-    "de": "Aurora",
-    "es": "Aurora",
-    "it": "Aurora",
-    "ja": "オーロラ",
-    "ko": "오로라",
-    "zh": "极光"
-  },
-  "Aurora 2": {
-    "fr": "Aurore 2",
-    "de": "Aurora 2",
-    "es": "Aurora 2",
-    "it": "Aurora 2",
-    "ja": "オーロラ 2",
-    "ko": "오로라 2",
-    "zh": "极光 2"
-  },
-  "Temperature": {
-    "fr": "Température",
-    "de": "Temperatur",
-    "es": "Temperatura",
-    "it": "Temperatura",
-    "ja": "温度",
-    "ko": "온도",
-    "zh": "温度"
-  },
-  "Candy": {
-    "fr": "Bonbon",
-    "de": "Bonbon",
-    "es": "Caramelo",
-    "it": "Caramella",
-    "ja": "キャンディ",
-    "ko": "사탕",
-    "zh": "糖果"
-  },
-  "Pink Candy": {
-    "fr": "Bonbon rose",
-    "de": "Rosa Bonbon",
-    "es": "Caramelo rosa",
-    "it": "Caramella rosa",
-    "ja": "ピンクキャンディ",
-    "ko": "분홍 사탕",
-    "zh": "粉色糖果"
-  },
-  "Semi Blue": {
-    "fr": "Semi-bleu",
-    "de": "Halbblau",
-    "es": "Semiazul",
-    "it": "Semi-blu"
-  },
-  "Aqua Flash": {
-    "fr": "Flash aqua",
-    "de": "Aqua-Blitz",
-    "es": "Destello aqua",
-    "it": "Flash acqua",
-    "ja": "アクアフラッシュ",
-    "ko": "아쿠아 플래시",
-    "zh": "水色闪光"
-  },
-  "Vintage": {
-    "fr": "Vintage",
-    "de": "Vintage",
-    "es": "Vintage",
-    "it": "Vintage",
-    "ja": "ヴィンテージ",
-    "ko": "빈티지",
-    "zh": "复古"
-  },
-  "Pastel": {
-    "fr": "Pastel",
-    "de": "Pastell",
-    "es": "Pastel",
-    "it": "Pastello",
-    "ja": "パステル",
-    "ko": "파스텔",
-    "zh": "粉彩"
-  },
-  "Default": {
-    "fr": "Défaut",
-    "de": "Standard",
-    "es": "Predeterminado",
-    "it": "Predefinito",
-    "ja": "デフォルト",
-    "ko": "기본",
-    "zh": "默认"
-  },
-  "Tertiary": {
-    "fr": "Tertiaire",
-    "de": "Tertiär",
-    "es": "Terciario",
-    "it": "Terziario",
-    "ja": "三次色",
-    "ko": "3차색",
-    "zh": "三次色"
-  },
-  "Magenta": {
-    "fr": "Magenta",
-    "de": "Magenta",
-    "es": "Magenta",
-    "it": "Magenta",
-    "ja": "マゼンタ",
-    "ko": "마젠타",
-    "zh": "品红"
-  },
-  "Rewhi": {
-    "fr": "Rouge-blanc",
-    "de": "Rot-Weiß",
-    "es": "Rojo-blanco",
-    "it": "Rosso-bianco",
-    "ja": "赤白",
-    "ko": "빨강-하양",
-    "zh": "红白"
-  },
-  "Magred": {
-    "fr": "Magenta-rouge",
-    "de": "Magenta-Rot",
-    "es": "Magenta-rojo",
-    "it": "Magenta-rosso",
-    "ja": "マゼンタ赤",
-    "ko": "마젠타-빨강",
-    "zh": "品红-红"
-  },
-  "Yelmag": {
-    "fr": "Jaune-magenta",
-    "de": "Gelb-Magenta",
-    "es": "Amarillo-magenta",
-    "it": "Giallo-magenta",
-    "ja": "黄マゼンタ",
-    "ko": "노랑-마젠타",
-    "zh": "黄-品红"
-  },
-  "Yelblu": {
-    "fr": "Jaune-bleu",
-    "de": "Gelb-Blau",
-    "es": "Amarillo-azul",
-    "it": "Giallo-blu",
-    "ja": "黄青",
-    "ko": "노랑-파랑",
-    "zh": "黄蓝"
-  },
-  "Yelblu Hot": {
-    "fr": "Jaune-bleu chaud",
-    "de": "Gelb-Blau heiß",
-    "es": "Amarillo-azul cálido",
-    "it": "Giallo-blu caldo",
-    "ja": "黄青ホット",
-    "ko": "노랑-파랑 따뜻",
-    "zh": "暖黄蓝"
+   "en": {
+    "name": "Red & Blue",
+    "desc": "Two-tone red and blue."
+   },
+   "fr": {
+    "name": "Rouge & Bleu",
+    "desc": "Bicolore rouge et bleu."
+   },
+   "de": {
+    "name": "Rot & Blau",
+    "desc": "Zweifarbig Rot und Blau."
+   },
+   "es": {
+    "name": "Rojo & Azul",
+    "desc": "Bicolor rojo y azul."
+   },
+   "it": {
+    "name": "Rosso & Blu",
+    "desc": "Bicolore rosso e blu."
+   },
+   "ja": {
+    "name": "赤 & 青",
+    "desc": "赤と青の二色。"
+   },
+   "ko": {
+    "name": "빨강 & 파랑",
+    "desc": "빨강과 파랑 두 색."
+   },
+   "zh": {
+    "name": "红 & 蓝",
+    "desc": "红蓝双色。"
+   }
   },
   "Yellowout": {
-    "fr": "Jaune diffus",
-    "de": "Gelb-Verlauf",
-    "es": "Amarillo difuso",
-    "it": "Giallo sfumato",
-    "ja": "イエローアウト",
-    "ko": "옐로아웃",
-    "zh": "黄色渐隐"
+   "en": {
+    "name": "Yellowout",
+    "desc": "Yellow fading out to soft tones."
+   },
+   "fr": {
+    "name": "Jaune diffus",
+    "desc": "Jaune se fondant vers des tons doux."
+   },
+   "de": {
+    "name": "Gelb-Verlauf",
+    "desc": "Gelb, das in sanfte Töne ausblendet."
+   },
+   "es": {
+    "name": "Amarillo difuso",
+    "desc": "Amarillo diluyéndose en tonos suaves."
+   },
+   "it": {
+    "name": "Giallo sfumato",
+    "desc": "Giallo che sfuma in toni tenui."
+   },
+   "ja": {
+    "name": "イエローアウト",
+    "desc": "黄色がやわらかく抜けていく。"
+   },
+   "ko": {
+    "name": "옐로아웃",
+    "desc": "노랑이 부드럽게 옅어짐."
+   },
+   "zh": {
+    "name": "黄色渐隐",
+    "desc": "黄色渐隐为柔和色调。"
+   }
   },
-  "Retro Clown": {
-    "fr": "Clown rétro",
-    "de": "Retro-Clown",
-    "es": "Payaso retro",
-    "it": "Pagliaccio retrò",
-    "ja": "レトロピエロ",
-    "ko": "레트로 광대",
-    "zh": "复古小丑"
+  "Analogous": {
+   "en": {
+    "name": "Analogous",
+    "desc": "Analogous colours — neighbours on the wheel."
+   },
+   "fr": {
+    "name": "Analogue",
+    "desc": "Couleurs analogues — voisines sur la roue."
+   },
+   "de": {
+    "name": "Analog",
+    "desc": "Analoge Farben — Nachbarn im Farbkreis."
+   },
+   "es": {
+    "name": "Análogo",
+    "desc": "Colores análogos — vecinos en la rueda."
+   },
+   "it": {
+    "name": "Analogo",
+    "desc": "Colori analoghi — vicini sulla ruota."
+   },
+   "ja": {
+    "name": "Analogous",
+    "desc": "類似色——色相環の隣同士。"
+   },
+   "ko": {
+    "name": "Analogous",
+    "desc": "유사색——색상환의 이웃."
+   },
+   "zh": {
+    "name": "Analogous",
+    "desc": "类似色——色环上的相邻色。"
+   }
   },
-  "Red Reaf": {
-    "fr": "Récif rouge",
-    "de": "Rotes Riff",
-    "es": "Arrecife rojo",
-    "it": "Scogliera rossa",
-    "ja": "赤い岩礁",
-    "ko": "붉은 암초",
-    "zh": "红礁"
+  "Splash": {
+   "en": {
+    "name": "Splash",
+    "desc": "A splash of water droplets."
+   },
+   "fr": {
+    "name": "Éclaboussure",
+    "desc": "Une éclaboussure de gouttes d'eau."
+   },
+   "de": {
+    "name": "Spritzer",
+    "desc": "Ein Spritzer aus Wassertropfen."
+   },
+   "es": {
+    "name": "Salpicadura",
+    "desc": "Una salpicadura de gotas de agua."
+   },
+   "it": {
+    "name": "Spruzzo",
+    "desc": "Uno spruzzo di gocce d'acqua."
+   },
+   "ja": {
+    "name": "スプラッシュ",
+    "desc": "水滴のしぶき。"
+   },
+   "ko": {
+    "name": "스플래시",
+    "desc": "물방울 튀김."
+   },
+   "zh": {
+    "name": "飞溅",
+    "desc": "水滴飞溅。"
+   }
   },
-  "Fairy Reaf": {
-    "fr": "Récif féerique",
-    "de": "Feenriff",
-    "es": "Arrecife de hadas",
-    "it": "Scogliera fatata",
-    "ja": "妖精の岩礁",
-    "ko": "요정 암초",
-    "zh": "精灵礁"
+  "Pastel": {
+   "en": {
+    "name": "Pastel",
+    "desc": "Soft pastel tones."
+   },
+   "fr": {
+    "name": "Pastel",
+    "desc": "Tons pastel doux."
+   },
+   "de": {
+    "name": "Pastell",
+    "desc": "Sanfte Pastelltöne."
+   },
+   "es": {
+    "name": "Pastel",
+    "desc": "Tonos pastel suaves."
+   },
+   "it": {
+    "name": "Pastello",
+    "desc": "Toni pastello tenui."
+   },
+   "ja": {
+    "name": "パステル",
+    "desc": "やわらかなパステル。"
+   },
+   "ko": {
+    "name": "파스텔",
+    "desc": "부드러운 파스텔."
+   },
+   "zh": {
+    "name": "粉彩",
+    "desc": "柔和的粉彩。"
+   }
   },
-  "Lite Light": {
-    "fr": "Lumière douce",
-    "de": "Sanftes Licht",
-    "es": "Luz suave",
-    "it": "Luce tenue",
-    "ja": "淡い光",
-    "ko": "은은한 빛",
-    "zh": "柔光"
+  "Sunset 2": {
+   "en": {
+    "name": "Sunset 2",
+    "desc": "Another warm sunset variant."
+   },
+   "fr": {
+    "name": "Coucher de soleil 2",
+    "desc": "Autre variante de coucher de soleil."
+   },
+   "de": {
+    "name": "Sonnenuntergang 2",
+    "desc": "Weitere warme Sonnenuntergangs-Variante."
+   },
+   "es": {
+    "name": "Atardecer 2",
+    "desc": "Otra variante de atardecer."
+   },
+   "it": {
+    "name": "Tramonto 2",
+    "desc": "Un'altra variante di tramonto."
+   },
+   "ja": {
+    "name": "夕焼け 2",
+    "desc": "別の夕焼けバリエーション。"
+   },
+   "ko": {
+    "name": "일몰 2",
+    "desc": "또 다른 노을 변형."
+   },
+   "zh": {
+    "name": "日落 2",
+    "desc": "另一种日落变体。"
+   }
   },
-  "Red Flash": {
-    "fr": "Flash rouge",
-    "de": "Rotes Blitzen",
-    "es": "Destello rojo",
-    "it": "Lampo rosso",
-    "ja": "赤フラッシュ",
-    "ko": "빨강 플래시",
-    "zh": "红闪"
+  "Beach": {
+   "en": {
+    "name": "Beach",
+    "desc": "Sand, sea and sun."
+   },
+   "fr": {
+    "name": "Plage",
+    "desc": "Sable, mer et soleil."
+   },
+   "de": {
+    "name": "Strand",
+    "desc": "Sand, Meer und Sonne."
+   },
+   "es": {
+    "name": "Playa",
+    "desc": "Arena, mar y sol."
+   },
+   "it": {
+    "name": "Spiaggia",
+    "desc": "Sabbia, mare e sole."
+   },
+   "ja": {
+    "name": "ビーチ",
+    "desc": "砂、海、太陽。"
+   },
+   "ko": {
+    "name": "해변",
+    "desc": "모래, 바다, 태양."
+   },
+   "zh": {
+    "name": "海滩",
+    "desc": "沙、海与太阳。"
+   }
   },
-  "Blink Red": {
-    "fr": "Clignotement rouge",
-    "de": "Rotes Blinken",
-    "es": "Parpadeo rojo",
-    "it": "Lampeggio rosso",
-    "ja": "赤点滅",
-    "ko": "빨강 깜박임",
-    "zh": "红闪烁"
+  "Vintage": {
+   "en": {
+    "name": "Vintage",
+    "desc": "Faded retro tones — old film."
+   },
+   "fr": {
+    "name": "Vintage",
+    "desc": "Tons rétro délavés — vieille pellicule."
+   },
+   "de": {
+    "name": "Vintage",
+    "desc": "Verblasste Retro-Töne — alter Film."
+   },
+   "es": {
+    "name": "Vintage",
+    "desc": "Tonos retro desvaídos — película antigua."
+   },
+   "it": {
+    "name": "Vintage",
+    "desc": "Toni retrò sbiaditi — vecchia pellicola."
+   },
+   "ja": {
+    "name": "ヴィンテージ",
+    "desc": "色あせたレトロ調——古いフィルム。"
+   },
+   "ko": {
+    "name": "빈티지",
+    "desc": "바랜 레트로 색조——오래된 필름."
+   },
+   "zh": {
+    "name": "复古",
+    "desc": "褪色的复古色调——旧胶片。"
+   }
   },
-  "Red Shift": {
-    "fr": "Décalage rouge",
-    "de": "Rotverschiebung",
-    "es": "Corrimiento al rojo",
-    "it": "Spostamento rosso",
-    "ja": "赤方偏移",
-    "ko": "적색편이",
-    "zh": "红移"
+  "Departure": {
+   "en": {
+    "name": "Departure",
+    "desc": "Travel/horizon theme — a compass star."
+   },
+   "fr": {
+    "name": "Départ",
+    "desc": "Thème voyage/horizon — une étoile de boussole."
+   },
+   "de": {
+    "name": "Abflug",
+    "desc": "Reise-/Horizont-Motiv — ein Kompassstern."
+   },
+   "es": {
+    "name": "Partida",
+    "desc": "Tema de viaje/horizonte — una estrella de brújula."
+   },
+   "it": {
+    "name": "Partenza",
+    "desc": "Tema viaggio/orizzonte — una stella di bussola."
+   },
+   "ja": {
+    "name": "出発",
+    "desc": "旅・地平線のテーマ——コンパスの星。"
+   },
+   "ko": {
+    "name": "출발",
+    "desc": "여행·지평선 테마——나침반 별."
+   },
+   "zh": {
+    "name": "出发",
+    "desc": "旅行/地平线主题——罗盘星。"
+   }
   },
-  "Red Tide": {
-    "fr": "Marée rouge",
-    "de": "Rote Flut",
-    "es": "Marea roja",
-    "it": "Marea rossa",
-    "ja": "赤潮",
-    "ko": "적조",
-    "zh": "红潮"
+  "Landscape": {
+   "en": {
+    "name": "Landscape",
+    "desc": "Rolling hills under a sun."
+   },
+   "fr": {
+    "name": "Paysage",
+    "desc": "Collines vallonnées sous un soleil."
+   },
+   "de": {
+    "name": "Landschaft",
+    "desc": "Sanfte Hügel unter einer Sonne."
+   },
+   "es": {
+    "name": "Paisaje",
+    "desc": "Colinas onduladas bajo un sol."
+   },
+   "it": {
+    "name": "Paesaggio",
+    "desc": "Colline ondulate sotto un sole."
+   },
+   "ja": {
+    "name": "風景",
+    "desc": "太陽の下の丘陵。"
+   },
+   "ko": {
+    "name": "풍경",
+    "desc": "해 아래 완만한 언덕."
+   },
+   "zh": {
+    "name": "风景",
+    "desc": "阳光下的丘陵。"
+   }
   },
-  "Candy2": {
-    "fr": "Bonbon 2",
-    "de": "Bonbon 2",
-    "es": "Caramelo 2",
-    "it": "Caramella 2",
-    "ja": "キャンディ2",
-    "ko": "사탕 2",
-    "zh": "糖果2"
+  "Beech": {
+   "en": {
+    "name": "Beech",
+    "desc": "The beech tree — woodland greens."
+   },
+   "fr": {
+    "name": "Hêtre",
+    "desc": "Le hêtre — verts forestiers."
+   },
+   "de": {
+    "name": "Buche",
+    "desc": "Die Buche — Waldgrün."
+   },
+   "es": {
+    "name": "Haya",
+    "desc": "El haya — verdes del bosque."
+   },
+   "it": {
+    "name": "Faggio",
+    "desc": "Il faggio — verdi boschivi."
+   },
+   "ja": {
+    "name": "Beech",
+    "desc": "ブナの木——森の緑。"
+   },
+   "ko": {
+    "name": "Beech",
+    "desc": "너도밤나무——숲의 초록."
+   },
+   "zh": {
+    "name": "Beech",
+    "desc": "山毛榉——林间绿意。"
+   }
   },
-  "Traffic Light": {
-    "fr": "Feu tricolore",
-    "de": "Ampel",
-    "es": "Semáforo",
-    "it": "Semaforo",
-    "ja": "信号機",
-    "ko": "신호등",
-    "zh": "红绿灯"
+  "Sherbet": {
+   "en": {
+    "name": "Sherbet",
+    "desc": "Pastel frozen dessert — an ice-cream cone."
+   },
+   "fr": {
+    "name": "Sorbet",
+    "desc": "Dessert glacé pastel — un cornet de glace."
+   },
+   "de": {
+    "name": "Sorbet",
+    "desc": "Pastellfarbenes Sorbet — eine Eistüte."
+   },
+   "es": {
+    "name": "Sorbete",
+    "desc": "Sorbete pastel — un cono de helado."
+   },
+   "it": {
+    "name": "Sorbetto",
+    "desc": "Sorbetto pastello — un cono gelato."
+   },
+   "ja": {
+    "name": "シャーベット",
+    "desc": "パステルのシャーベット——アイスクリームコーン。"
+   },
+   "ko": {
+    "name": "셔벗",
+    "desc": "파스텔 셔벗——아이스크림 콘."
+   },
+   "zh": {
+    "name": "冰糕",
+    "desc": "粉彩雪葩——冰淇淋筒。"
+   }
+  },
+  "Hult": {
+   "en": {
+    "name": "Hult",
+    "desc": "An abstract palette name (no literal meaning)."
+   },
+   "fr": {
+    "name": "Hult",
+    "desc": "Nom de palette abstrait (sans sens littéral)."
+   },
+   "de": {
+    "name": "Hult",
+    "desc": "Ein abstrakter Palettenname (ohne wörtliche Bedeutung)."
+   },
+   "es": {
+    "name": "Hult",
+    "desc": "Nombre de paleta abstracto (sin sentido literal)."
+   },
+   "it": {
+    "name": "Hult",
+    "desc": "Nome di palette astratto (senza senso letterale)."
+   },
+   "ja": {
+    "name": "Hult",
+    "desc": "抽象的なパレット名(字義なし)。"
+   },
+   "ko": {
+    "name": "Hult",
+    "desc": "추상적인 팔레트 이름(문자적 의미 없음)."
+   },
+   "zh": {
+    "name": "Hult",
+    "desc": "抽象的调色板名称（无字面含义）。"
+   }
+  },
+  "Hult 64": {
+   "en": {
+    "name": "Hult 64",
+    "desc": "Hult palette, 64-variant."
+   },
+   "fr": {
+    "name": "Hult 64",
+    "desc": "Palette Hult, variante 64."
+   },
+   "de": {
+    "name": "Hult 64",
+    "desc": "Hult-Palette, Variante 64."
+   },
+   "es": {
+    "name": "Hult 64",
+    "desc": "Paleta Hult, variante 64."
+   },
+   "it": {
+    "name": "Hult 64",
+    "desc": "Palette Hult, variante 64."
+   },
+   "ja": {
+    "name": "Hult 64",
+    "desc": "Hultパレット、64版。"
+   },
+   "ko": {
+    "name": "Hult 64",
+    "desc": "Hult 팔레트, 64 변형."
+   },
+   "zh": {
+    "name": "Hult 64",
+    "desc": "Hult 配色，64 变体。"
+   }
+  },
+  "Drywet": {
+   "en": {
+    "name": "Drywet",
+    "desc": "Dry-to-wet gradient — a water drop."
+   },
+   "fr": {
+    "name": "Drywet",
+    "desc": "Dégradé du sec à l'humide — une goutte d'eau."
+   },
+   "de": {
+    "name": "Drywet",
+    "desc": "Verlauf von trocken zu nass — ein Wassertropfen."
+   },
+   "es": {
+    "name": "Drywet",
+    "desc": "Degradado de seco a húmedo — una gota de agua."
+   },
+   "it": {
+    "name": "Drywet",
+    "desc": "Sfumatura dal secco al bagnato — una goccia d'acqua."
+   },
+   "ja": {
+    "name": "Drywet",
+    "desc": "乾から湿へのグラデーション——水滴。"
+   },
+   "ko": {
+    "name": "Drywet",
+    "desc": "건조에서 습기로의 그러데이션——물방울."
+   },
+   "zh": {
+    "name": "Drywet",
+    "desc": "由干到湿的渐变——一滴水。"
+   }
+  },
+  "Jul": {
+   "en": {
+    "name": "Jul",
+    "desc": "'Jul' — Nordic Yule/Christmas: a decorated tree."
+   },
+   "fr": {
+    "name": "Jul",
+    "desc": "« Jul » — Noël nordique (Yule) : un sapin décoré."
+   },
+   "de": {
+    "name": "Jul",
+    "desc": "„Jul“ — nordisches Julfest/Weihnachten: ein geschmückter Baum."
+   },
+   "es": {
+    "name": "Jul",
+    "desc": "«Jul» — Yule/Navidad nórdica: un árbol decorado."
+   },
+   "it": {
+    "name": "Jul",
+    "desc": "«Jul» — Yule/Natale nordico: un albero addobbato."
+   },
+   "ja": {
+    "name": "Jul",
+    "desc": "「Jul」——北欧のユール(クリスマス):飾られたツリー。"
+   },
+   "ko": {
+    "name": "Jul",
+    "desc": "'Jul'——북유럽의 율(성탄): 장식된 나무."
+   },
+   "zh": {
+    "name": "Jul",
+    "desc": "“Jul”——北欧圣诞（Yule）：装饰的圣诞树。"
+   }
+  },
+  "Grintage": {
+   "en": {
+    "name": "Grintage",
+    "desc": "A coined word (grunge + vintage feel)."
+   },
+   "fr": {
+    "name": "Grintage",
+    "desc": "Mot-valise (ambiance grunge + vintage)."
+   },
+   "de": {
+    "name": "Grintage",
+    "desc": "Kunstwort (Grunge- + Vintage-Stimmung)."
+   },
+   "es": {
+    "name": "Grintage",
+    "desc": "Palabra inventada (ambiente grunge + vintage)."
+   },
+   "it": {
+    "name": "Grintage",
+    "desc": "Parola coniata (atmosfera grunge + vintage)."
+   },
+   "ja": {
+    "name": "Grintage",
+    "desc": "造語(グランジ+ヴィンテージ感)。"
+   },
+   "ko": {
+    "name": "Grintage",
+    "desc": "합성어(그런지+빈티지 느낌)."
+   },
+   "zh": {
+    "name": "Grintage",
+    "desc": "生造词（grunge 与复古混合）。"
+   }
+  },
+  "Rewhi": {
+   "en": {
+    "name": "Rewhi",
+    "desc": "Red-White blend (contraction)."
+   },
+   "fr": {
+    "name": "Rouge-blanc",
+    "desc": "Mélange rouge-blanc (contraction)."
+   },
+   "de": {
+    "name": "Rot-Weiß",
+    "desc": "Rot-Weiß-Mischung (Kurzform)."
+   },
+   "es": {
+    "name": "Rojo-blanco",
+    "desc": "Mezcla rojo-blanco (contracción)."
+   },
+   "it": {
+    "name": "Rosso-bianco",
+    "desc": "Miscela rosso-bianco (contrazione)."
+   },
+   "ja": {
+    "name": "赤白",
+    "desc": "赤白の混合(短縮)。"
+   },
+   "ko": {
+    "name": "빨강-하양",
+    "desc": "빨강-하양 혼합(축약)."
+   },
+   "zh": {
+    "name": "红白",
+    "desc": "红白混合（缩写）。"
+   }
+  },
+  "Tertiary": {
+   "en": {
+    "name": "Tertiary",
+    "desc": "Tertiary colours of the wheel."
+   },
+   "fr": {
+    "name": "Tertiaire",
+    "desc": "Couleurs tertiaires de la roue."
+   },
+   "de": {
+    "name": "Tertiär",
+    "desc": "Tertiärfarben des Farbkreises."
+   },
+   "es": {
+    "name": "Terciario",
+    "desc": "Colores terciarios de la rueda."
+   },
+   "it": {
+    "name": "Terziario",
+    "desc": "Colori terziari della ruota."
+   },
+   "ja": {
+    "name": "三次色",
+    "desc": "色相環の三次色。"
+   },
+   "ko": {
+    "name": "3차색",
+    "desc": "색상환의 3차색."
+   },
+   "zh": {
+    "name": "三次色",
+    "desc": "色环的三次色。"
+   }
+  },
+  "Fire": {
+   "en": {
+    "name": "Fire",
+    "desc": "Flames — yellow to deep red."
+   },
+   "fr": {
+    "name": "Feu",
+    "desc": "Flammes — du jaune au rouge profond."
+   },
+   "de": {
+    "name": "Feuer",
+    "desc": "Flammen — Gelb bis Tiefrot."
+   },
+   "es": {
+    "name": "Fuego",
+    "desc": "Llamas — del amarillo al rojo intenso."
+   },
+   "it": {
+    "name": "Fuoco",
+    "desc": "Fiamme — dal giallo al rosso intenso."
+   },
+   "ja": {
+    "name": "火",
+    "desc": "炎——黄から深紅へ。"
+   },
+   "ko": {
+    "name": "불",
+    "desc": "불꽃——노랑에서 진홍까지."
+   },
+   "zh": {
+    "name": "火焰",
+    "desc": "火焰——由黄到深红。"
+   }
+  },
+  "Icefire": {
+   "en": {
+    "name": "Icefire",
+    "desc": "Ice meets fire — blue to red."
+   },
+   "fr": {
+    "name": "Glace & feu",
+    "desc": "La glace rencontre le feu — du bleu au rouge."
+   },
+   "de": {
+    "name": "Eis & Feuer",
+    "desc": "Eis trifft Feuer — Blau bis Rot."
+   },
+   "es": {
+    "name": "Hielo & fuego",
+    "desc": "Hielo y fuego — de azul a rojo."
+   },
+   "it": {
+    "name": "Ghiaccio & fuoco",
+    "desc": "Ghiaccio e fuoco — dal blu al rosso."
+   },
+   "ja": {
+    "name": "氷と炎",
+    "desc": "氷と炎——青から赤へ。"
+   },
+   "ko": {
+    "name": "얼음과 불",
+    "desc": "얼음과 불——파랑에서 빨강."
+   },
+   "zh": {
+    "name": "冰与火",
+    "desc": "冰与火——由蓝到红。"
+   }
+  },
+  "Cyane": {
+   "en": {
+    "name": "Cyane",
+    "desc": "A cyan-leaning abstract palette."
+   },
+   "fr": {
+    "name": "Cyane",
+    "desc": "Palette abstraite tirant vers le cyan."
+   },
+   "de": {
+    "name": "Cyane",
+    "desc": "Eine ins Cyan gehende abstrakte Palette."
+   },
+   "es": {
+    "name": "Cyane",
+    "desc": "Paleta abstracta tirando a cian."
+   },
+   "it": {
+    "name": "Cyane",
+    "desc": "Palette astratta tendente al ciano."
+   },
+   "ja": {
+    "name": "Cyane",
+    "desc": "シアン寄りの抽象パレット。"
+   },
+   "ko": {
+    "name": "Cyane",
+    "desc": "청록에 가까운 추상 팔레트."
+   },
+   "zh": {
+    "name": "Cyane",
+    "desc": "偏青色的抽象配色。"
+   }
+  },
+  "Light Pink": {
+   "en": {
+    "name": "Light Pink",
+    "desc": "Soft light-pink tones."
+   },
+   "fr": {
+    "name": "Rose clair",
+    "desc": "Tons rose pâle."
+   },
+   "de": {
+    "name": "Hellrosa",
+    "desc": "Zarte hellrosa Töne."
+   },
+   "es": {
+    "name": "Rosa claro",
+    "desc": "Tonos rosa claro suaves."
+   },
+   "it": {
+    "name": "Rosa chiaro",
+    "desc": "Toni rosa chiaro tenui."
+   },
+   "ja": {
+    "name": "ライトピンク",
+    "desc": "淡いライトピンク。"
+   },
+   "ko": {
+    "name": "연분홍",
+    "desc": "부드러운 연분홍."
+   },
+   "zh": {
+    "name": "浅粉",
+    "desc": "柔和的浅粉。"
+   }
+  },
+  "Autumn": {
+   "en": {
+    "name": "Autumn",
+    "desc": "Fall foliage — a leaf."
+   },
+   "fr": {
+    "name": "Automne",
+    "desc": "Feuillage d'automne — une feuille."
+   },
+   "de": {
+    "name": "Herbst",
+    "desc": "Herbstlaub — ein Blatt."
+   },
+   "es": {
+    "name": "Otoño",
+    "desc": "Follaje otoñal — una hoja."
+   },
+   "it": {
+    "name": "Autunno",
+    "desc": "Fogliame autunnale — una foglia."
+   },
+   "ja": {
+    "name": "秋",
+    "desc": "秋の紅葉——一枚の葉。"
+   },
+   "ko": {
+    "name": "가을",
+    "desc": "가을 단풍——나뭇잎."
+   },
+   "zh": {
+    "name": "秋天",
+    "desc": "秋叶——一片落叶。"
+   }
+  },
+  "Magenta": {
+   "en": {
+    "name": "Magenta",
+    "desc": "Shades of magenta."
+   },
+   "fr": {
+    "name": "Magenta",
+    "desc": "Nuances de magenta."
+   },
+   "de": {
+    "name": "Magenta",
+    "desc": "Magenta-Töne."
+   },
+   "es": {
+    "name": "Magenta",
+    "desc": "Tonos de magenta."
+   },
+   "it": {
+    "name": "Magenta",
+    "desc": "Sfumature di magenta."
+   },
+   "ja": {
+    "name": "マゼンタ",
+    "desc": "マゼンタの階調。"
+   },
+   "ko": {
+    "name": "마젠타",
+    "desc": "마젠타 색조."
+   },
+   "zh": {
+    "name": "品红",
+    "desc": "品红色调。"
+   }
+  },
+  "Magred": {
+   "en": {
+    "name": "Magred",
+    "desc": "Magenta-Red blend (contraction)."
+   },
+   "fr": {
+    "name": "Magenta-rouge",
+    "desc": "Mélange magenta-rouge (contraction)."
+   },
+   "de": {
+    "name": "Magenta-Rot",
+    "desc": "Magenta-Rot-Mischung (Kurzform)."
+   },
+   "es": {
+    "name": "Magenta-rojo",
+    "desc": "Mezcla magenta-rojo (contracción)."
+   },
+   "it": {
+    "name": "Magenta-rosso",
+    "desc": "Miscela magenta-rosso (contrazione)."
+   },
+   "ja": {
+    "name": "マゼンタ赤",
+    "desc": "マゼンタ赤の混合(短縮)。"
+   },
+   "ko": {
+    "name": "마젠타-빨강",
+    "desc": "마젠타-빨강 혼합(축약)."
+   },
+   "zh": {
+    "name": "品红-红",
+    "desc": "品红-红混合（缩写）。"
+   }
+  },
+  "Yelmag": {
+   "en": {
+    "name": "Yelmag",
+    "desc": "Yellow-Magenta blend (contraction)."
+   },
+   "fr": {
+    "name": "Jaune-magenta",
+    "desc": "Mélange jaune-magenta (contraction)."
+   },
+   "de": {
+    "name": "Gelb-Magenta",
+    "desc": "Gelb-Magenta-Mischung (Kurzform)."
+   },
+   "es": {
+    "name": "Amarillo-magenta",
+    "desc": "Mezcla amarillo-magenta (contracción)."
+   },
+   "it": {
+    "name": "Giallo-magenta",
+    "desc": "Miscela giallo-magenta (contrazione)."
+   },
+   "ja": {
+    "name": "黄マゼンタ",
+    "desc": "黄マゼンタの混合(短縮)。"
+   },
+   "ko": {
+    "name": "노랑-마젠타",
+    "desc": "노랑-마젠타 혼합(축약)."
+   },
+   "zh": {
+    "name": "黄-品红",
+    "desc": "黄-品红混合（缩写）。"
+   }
+  },
+  "Yelblu": {
+   "en": {
+    "name": "Yelblu",
+    "desc": "Yellow-Blue blend (contraction)."
+   },
+   "fr": {
+    "name": "Jaune-bleu",
+    "desc": "Mélange jaune-bleu (contraction)."
+   },
+   "de": {
+    "name": "Gelb-Blau",
+    "desc": "Gelb-Blau-Mischung (Kurzform)."
+   },
+   "es": {
+    "name": "Amarillo-azul",
+    "desc": "Mezcla amarillo-azul (contracción)."
+   },
+   "it": {
+    "name": "Giallo-blu",
+    "desc": "Miscela giallo-blu (contrazione)."
+   },
+   "ja": {
+    "name": "黄青",
+    "desc": "黄青の混合(短縮)。"
+   },
+   "ko": {
+    "name": "노랑-파랑",
+    "desc": "노랑-파랑 혼합(축약)."
+   },
+   "zh": {
+    "name": "黄蓝",
+    "desc": "黄蓝混合（缩写）。"
+   }
+  },
+  "Orange & Teal": {
+   "en": {
+    "name": "Orange & Teal",
+    "desc": "The orange-and-teal cinematic pairing."
+   },
+   "fr": {
+    "name": "Orange & Sarcelle",
+    "desc": "Le duo orange-sarcelle du cinéma."
+   },
+   "de": {
+    "name": "Orange & Blaugrün",
+    "desc": "Das kinotypische Orange-Türkis-Paar."
+   },
+   "es": {
+    "name": "Naranja & Verde azulado",
+    "desc": "El dúo naranja-verde azulado del cine."
+   },
+   "it": {
+    "name": "Arancione & Verde acqua",
+    "desc": "L'accostamento cinematografico arancio-foglia di tè."
+   },
+   "ja": {
+    "name": "オレンジ & ティール",
+    "desc": "映画的なオレンジ×ティールの組合せ。"
+   },
+   "ko": {
+    "name": "주황 & 청록",
+    "desc": "영화적인 주황-청록 조합."
+   },
+   "zh": {
+    "name": "橙 & 蓝绿",
+    "desc": "电影感的橙青配色。"
+   }
+  },
+  "Tiamat": {
+   "en": {
+    "name": "Tiamat",
+    "desc": "Babylonian primordial sea-dragon goddess — scaled serpent of the deep."
+   },
+   "fr": {
+    "name": "Tiamat",
+    "desc": "Déesse-dragon primordiale des mers babylonienne — serpent écailleux des abysses."
+   },
+   "de": {
+    "name": "Tiamat",
+    "desc": "Babylonische Urmeer-Drachengöttin — geschuppte Schlange der Tiefe."
+   },
+   "es": {
+    "name": "Tiamat",
+    "desc": "Diosa-dragón marina primordial babilónica — serpiente escamosa del abismo."
+   },
+   "it": {
+    "name": "Tiamat",
+    "desc": "Dea-drago marina primordiale babilonese — serpente squamoso degli abissi."
+   },
+   "ja": {
+    "name": "Tiamat",
+    "desc": "バビロニアの原初の海竜の女神ティアマト——深海の鱗の蛇。"
+   },
+   "ko": {
+    "name": "Tiamat",
+    "desc": "바빌로니아 태초의 바다 용 여신 티아마트——심해의 비늘 뱀."
+   },
+   "zh": {
+    "name": "Tiamat",
+    "desc": "巴比伦原初海龙女神提亚马特——深海鳞蛇。"
+   }
+  },
+  "April Night": {
+   "en": {
+    "name": "April Night",
+    "desc": "A spring night sky — crescent moon and stars."
+   },
+   "fr": {
+    "name": "Nuit d'avril",
+    "desc": "Ciel de nuit printanier — croissant de lune et étoiles."
+   },
+   "de": {
+    "name": "Aprilnacht",
+    "desc": "Frühlingsnachthimmel — Mondsichel und Sterne."
+   },
+   "es": {
+    "name": "Noche de abril",
+    "desc": "Cielo nocturno primaveral — luna creciente y estrellas."
+   },
+   "it": {
+    "name": "Notte d'aprile",
+    "desc": "Cielo notturno primaverile — luna crescente e stelle."
+   },
+   "ja": {
+    "name": "四月の夜",
+    "desc": "春の夜空——三日月と星。"
+   },
+   "ko": {
+    "name": "사월의 밤",
+    "desc": "봄밤 하늘——초승달과 별."
+   },
+   "zh": {
+    "name": "四月之夜",
+    "desc": "春夜天空——新月与繁星。"
+   }
+  },
+  "Orangery": {
+   "en": {
+    "name": "Orangery",
+    "desc": "Citrus — an orange slice."
+   },
+   "fr": {
+    "name": "Orangeraie",
+    "desc": "Agrume — une tranche d'orange."
+   },
+   "de": {
+    "name": "Orangerie",
+    "desc": "Zitrus — eine Orangenscheibe."
+   },
+   "es": {
+    "name": "Naranjal",
+    "desc": "Cítrico — una rodaja de naranja."
+   },
+   "it": {
+    "name": "Aranceto",
+    "desc": "Agrume — una fetta d'arancia."
+   },
+   "ja": {
+    "name": "Orangery",
+    "desc": "柑橘——オレンジの輪切り。"
+   },
+   "ko": {
+    "name": "Orangery",
+    "desc": "감귤——오렌지 조각."
+   },
+   "zh": {
+    "name": "Orangery",
+    "desc": "柑橘——一片橙子。"
+   }
+  },
+  "C9": {
+   "en": {
+    "name": "C9",
+    "desc": "The classic US C9 Christmas light bulb shape."
+   },
+   "fr": {
+    "name": "C9",
+    "desc": "L'ampoule de Noël américaine classique, taille C9."
+   },
+   "de": {
+    "name": "C9",
+    "desc": "Die klassische US-Weihnachtsbirne der Größe C9."
+   },
+   "es": {
+    "name": "C9",
+    "desc": "La clásica bombilla navideña estadounidense tamaño C9."
+   },
+   "it": {
+    "name": "C9",
+    "desc": "La classica lampadina natalizia americana formato C9."
+   },
+   "ja": {
+    "name": "C9",
+    "desc": "定番の米国クリスマス電球C9形。"
+   },
+   "ko": {
+    "name": "C9",
+    "desc": "고전적인 미국 크리스마스 전구 C9 형."
+   },
+   "zh": {
+    "name": "C9",
+    "desc": "经典美式 C9 圣诞灯泡造型。"
+   }
   },
   "Sakura": {
-    "fr": "Fleur de cerisier",
-    "de": "Kirschblüte",
-    "es": "Flor de cerezo",
-    "it": "Fiore di ciliegio",
-    "ja": "桜",
-    "ko": "벚꽃",
-    "zh": "樱花"
+   "en": {
+    "name": "Sakura",
+    "desc": "Japanese cherry blossom."
+   },
+   "fr": {
+    "name": "Fleur de cerisier",
+    "desc": "Fleur de cerisier japonaise."
+   },
+   "de": {
+    "name": "Kirschblüte",
+    "desc": "Japanische Kirschblüte."
+   },
+   "es": {
+    "name": "Flor de cerezo",
+    "desc": "Flor de cerezo japonesa."
+   },
+   "it": {
+    "name": "Fiore di ciliegio",
+    "desc": "Fiore di ciliegio giapponese."
+   },
+   "ja": {
+    "name": "桜",
+    "desc": "桜。"
+   },
+   "ko": {
+    "name": "벚꽃",
+    "desc": "일본 벚꽃."
+   },
+   "zh": {
+    "name": "樱花",
+    "desc": "日本樱花。"
+   }
+  },
+  "Aurora": {
+   "en": {
+    "name": "Aurora",
+    "desc": "The northern lights — glowing sky curtains."
+   },
+   "fr": {
+    "name": "Aurore",
+    "desc": "Les aurores boréales — rideaux lumineux du ciel."
+   },
+   "de": {
+    "name": "Aurora",
+    "desc": "Das Polarlicht — leuchtende Himmelsvorhänge."
+   },
+   "es": {
+    "name": "Aurora",
+    "desc": "La aurora boreal — cortinas de luz en el cielo."
+   },
+   "it": {
+    "name": "Aurora",
+    "desc": "L'aurora boreale — tende di luce nel cielo."
+   },
+   "ja": {
+    "name": "オーロラ",
+    "desc": "オーロラ——輝く空のカーテン。"
+   },
+   "ko": {
+    "name": "오로라",
+    "desc": "오로라——빛나는 하늘 커튼."
+   },
+   "zh": {
+    "name": "极光",
+    "desc": "极光——天幕般的光帘。"
+   }
+  },
+  "Atlantica": {
+   "en": {
+    "name": "Atlantica",
+    "desc": "Atlantic/oceanic deep — sea waves."
+   },
+   "fr": {
+    "name": "Atlantica",
+    "desc": "Profondeurs atlantiques/océaniques — vagues marines."
+   },
+   "de": {
+    "name": "Atlantica",
+    "desc": "Atlantische/ozeanische Tiefe — Meereswellen."
+   },
+   "es": {
+    "name": "Atlantica",
+    "desc": "Profundidades atlánticas/oceánicas — olas del mar."
+   },
+   "it": {
+    "name": "Atlantica",
+    "desc": "Profondità atlantiche/oceaniche — onde marine."
+   },
+   "ja": {
+    "name": "Atlantica",
+    "desc": "大西洋・大洋の深み——海の波。"
+   },
+   "ko": {
+    "name": "Atlantica",
+    "desc": "대서양·대양의 심연——바다 물결."
+   },
+   "zh": {
+    "name": "Atlantica",
+    "desc": "大西洋/海洋深处——海浪。"
+   }
+  },
+  "C9 2": {
+   "en": {
+    "name": "C9 2",
+    "desc": "C9 Christmas-bulb palette, variant 2."
+   },
+   "fr": {
+    "name": "C9 2",
+    "desc": "Palette ampoule C9, variante 2."
+   },
+   "de": {
+    "name": "C9 2",
+    "desc": "C9-Weihnachtsbirnen-Palette, Variante 2."
+   },
+   "es": {
+    "name": "C9 2",
+    "desc": "Paleta bombilla C9, variante 2."
+   },
+   "it": {
+    "name": "C9 2",
+    "desc": "Palette lampadina C9, variante 2."
+   },
+   "ja": {
+    "name": "C9 2",
+    "desc": "C9電球パレット、その2。"
+   },
+   "ko": {
+    "name": "C9 2",
+    "desc": "C9 전구 팔레트, 변형 2."
+   },
+   "zh": {
+    "name": "C9 2",
+    "desc": "C9 灯泡配色，变体 2。"
+   }
   },
   "C9 New": {
-    "fr": "C9 (nouv.)",
-    "de": "C9 neu",
-    "es": "C9 nuevo",
-    "it": "C9 nuovo",
-    "ja": "C9新",
-    "ko": "C9 신형",
-    "zh": "C9新"
+   "en": {
+    "name": "C9 New",
+    "desc": "A newer take on the C9 bulb palette."
+   },
+   "fr": {
+    "name": "C9 (nouv.)",
+    "desc": "Nouvelle version de la palette ampoule C9."
+   },
+   "de": {
+    "name": "C9 neu",
+    "desc": "Neuere Fassung der C9-Birnen-Palette."
+   },
+   "es": {
+    "name": "C9 nuevo",
+    "desc": "Nueva versión de la paleta bombilla C9."
+   },
+   "it": {
+    "name": "C9 nuovo",
+    "desc": "Nuova versione della palette lampadina C9."
+   },
+   "ja": {
+    "name": "C9新",
+    "desc": "C9電球パレットの新版。"
+   },
+   "ko": {
+    "name": "C9 신형",
+    "desc": "C9 전구 팔레트의 신형."
+   },
+   "zh": {
+    "name": "C9新",
+    "desc": "C9 灯泡配色的新版。"
+   }
+  },
+  "Temperature": {
+   "en": {
+    "name": "Temperature",
+    "desc": "Cold-to-hot scale — a thermometer."
+   },
+   "fr": {
+    "name": "Température",
+    "desc": "Échelle du froid au chaud — un thermomètre."
+   },
+   "de": {
+    "name": "Temperatur",
+    "desc": "Skala von kalt bis heiß — ein Thermometer."
+   },
+   "es": {
+    "name": "Temperatura",
+    "desc": "Escala de frío a caliente — un termómetro."
+   },
+   "it": {
+    "name": "Temperatura",
+    "desc": "Scala dal freddo al caldo — un termometro."
+   },
+   "ja": {
+    "name": "温度",
+    "desc": "寒暖のスケール——温度計。"
+   },
+   "ko": {
+    "name": "온도",
+    "desc": "차갑고 뜨거운 척도——온도계."
+   },
+   "zh": {
+    "name": "温度",
+    "desc": "冷暖刻度——温度计。"
+   }
+  },
+  "Aurora 2": {
+   "en": {
+    "name": "Aurora 2",
+    "desc": "Aurora borealis, variant 2."
+   },
+   "fr": {
+    "name": "Aurore 2",
+    "desc": "Aurore boréale, variante 2."
+   },
+   "de": {
+    "name": "Aurora 2",
+    "desc": "Polarlicht, Variante 2."
+   },
+   "es": {
+    "name": "Aurora 2",
+    "desc": "Aurora boreal, variante 2."
+   },
+   "it": {
+    "name": "Aurora 2",
+    "desc": "Aurora boreale, variante 2."
+   },
+   "ja": {
+    "name": "オーロラ 2",
+    "desc": "オーロラ、その2。"
+   },
+   "ko": {
+    "name": "오로라 2",
+    "desc": "오로라, 변형 2."
+   },
+   "zh": {
+    "name": "极光 2",
+    "desc": "极光，变体 2。"
+   }
+  },
+  "Retro Clown": {
+   "en": {
+    "name": "Retro Clown",
+    "desc": "A vintage circus clown."
+   },
+   "fr": {
+    "name": "Clown rétro",
+    "desc": "Un clown de cirque rétro."
+   },
+   "de": {
+    "name": "Retro-Clown",
+    "desc": "Ein nostalgischer Zirkusclown."
+   },
+   "es": {
+    "name": "Payaso retro",
+    "desc": "Un payaso de circo retro."
+   },
+   "it": {
+    "name": "Pagliaccio retrò",
+    "desc": "Un pagliaccio da circo retrò."
+   },
+   "ja": {
+    "name": "レトロピエロ",
+    "desc": "レトロなサーカスの道化師。"
+   },
+   "ko": {
+    "name": "레트로 광대",
+    "desc": "복고풍 서커스 광대."
+   },
+   "zh": {
+    "name": "复古小丑",
+    "desc": "复古马戏团小丑。"
+   }
+  },
+  "Candy": {
+   "en": {
+    "name": "Candy",
+    "desc": "Sweets — a lollipop swirl."
+   },
+   "fr": {
+    "name": "Bonbon",
+    "desc": "Bonbons — une sucette en spirale."
+   },
+   "de": {
+    "name": "Bonbon",
+    "desc": "Süßigkeiten — ein Lutscher-Wirbel."
+   },
+   "es": {
+    "name": "Caramelo",
+    "desc": "Dulces — un remolino de piruleta."
+   },
+   "it": {
+    "name": "Caramella",
+    "desc": "Caramelle — un lecca-lecca a spirale."
+   },
+   "ja": {
+    "name": "キャンディ",
+    "desc": "お菓子——渦巻きのペロペロキャンディ。"
+   },
+   "ko": {
+    "name": "사탕",
+    "desc": "사탕——소용돌이 막대사탕."
+   },
+   "zh": {
+    "name": "糖果",
+    "desc": "糖果——螺旋棒棒糖。"
+   }
+  },
+  "Toxy Reaf": {
+   "en": {
+    "name": "Toxy Reaf",
+    "desc": "A toxic-bright coral reef (WLED spells it 'reaf')."
+   },
+   "fr": {
+    "name": "Toxy Reaf",
+    "desc": "Un récif corallien aux couleurs toxiques (WLED écrit « reaf »)."
+   },
+   "de": {
+    "name": "Toxy Reaf",
+    "desc": "Ein giftig-buntes Korallenriff (WLED schreibt „reaf“)."
+   },
+   "es": {
+    "name": "Toxy Reaf",
+    "desc": "Un arrecife de coral tóxico-brillante (WLED escribe «reaf»)."
+   },
+   "it": {
+    "name": "Toxy Reaf",
+    "desc": "Una barriera corallina dai colori tossici (WLED scrive «reaf»)."
+   },
+   "ja": {
+    "name": "Toxy Reaf",
+    "desc": "毒々しく鮮やかなサンゴ礁(WLEDは「reaf」と表記)。"
+   },
+   "ko": {
+    "name": "Toxy Reaf",
+    "desc": "독성처럼 선명한 산호초(WLED는 'reaf'로 표기)."
+   },
+   "zh": {
+    "name": "Toxy Reaf",
+    "desc": "毒艳的珊瑚礁（WLED 拼作 “reaf”）。"
+   }
+  },
+  "Fairy Reaf": {
+   "en": {
+    "name": "Fairy Reaf",
+    "desc": "A fairy-like coral reef with sparkles."
+   },
+   "fr": {
+    "name": "Récif féerique",
+    "desc": "Un récif corallien féerique avec des étincelles."
+   },
+   "de": {
+    "name": "Feenriff",
+    "desc": "Ein feenhaftes Korallenriff mit Funkeln."
+   },
+   "es": {
+    "name": "Arrecife de hadas",
+    "desc": "Un arrecife de coral feérico con destellos."
+   },
+   "it": {
+    "name": "Scogliera fatata",
+    "desc": "Una barriera corallina fatata con scintillii."
+   },
+   "ja": {
+    "name": "妖精の岩礁",
+    "desc": "きらめく妖精のようなサンゴ礁。"
+   },
+   "ko": {
+    "name": "요정 암초",
+    "desc": "반짝이는 요정 같은 산호초."
+   },
+   "zh": {
+    "name": "精灵礁",
+    "desc": "精灵般闪烁的珊瑚礁。"
+   }
+  },
+  "Semi Blue": {
+   "en": {
+    "name": "Semi Blue",
+    "desc": "A mostly-blue palette."
+   },
+   "fr": {
+    "name": "Semi-bleu",
+    "desc": "Palette à dominante bleue."
+   },
+   "de": {
+    "name": "Halbblau",
+    "desc": "Eine überwiegend blaue Palette."
+   },
+   "es": {
+    "name": "Semiazul",
+    "desc": "Paleta mayormente azul."
+   },
+   "it": {
+    "name": "Semi-blu",
+    "desc": "Palette prevalentemente blu."
+   },
+   "ja": {
+    "name": "Semi Blue",
+    "desc": "青主体のパレット。"
+   },
+   "ko": {
+    "name": "Semi Blue",
+    "desc": "파랑 위주의 팔레트."
+   },
+   "zh": {
+    "name": "Semi Blue",
+    "desc": "以蓝为主的配色。"
+   }
+  },
+  "Pink Candy": {
+   "en": {
+    "name": "Pink Candy",
+    "desc": "Pink sweets — a lollipop."
+   },
+   "fr": {
+    "name": "Bonbon rose",
+    "desc": "Bonbons roses — une sucette."
+   },
+   "de": {
+    "name": "Rosa Bonbon",
+    "desc": "Rosa Süßigkeiten — ein Lutscher."
+   },
+   "es": {
+    "name": "Caramelo rosa",
+    "desc": "Dulces rosas — una piruleta."
+   },
+   "it": {
+    "name": "Caramella rosa",
+    "desc": "Caramelle rosa — un lecca-lecca."
+   },
+   "ja": {
+    "name": "ピンクキャンディ",
+    "desc": "ピンクのお菓子——ペロペロキャンディ。"
+   },
+   "ko": {
+    "name": "분홍 사탕",
+    "desc": "분홍 사탕——막대사탕."
+   },
+   "zh": {
+    "name": "粉色糖果",
+    "desc": "粉色糖果——棒棒糖。"
+   }
+  },
+  "Red Reaf": {
+   "en": {
+    "name": "Red Reaf",
+    "desc": "A red coral reef."
+   },
+   "fr": {
+    "name": "Récif rouge",
+    "desc": "Un récif corallien rouge."
+   },
+   "de": {
+    "name": "Rotes Riff",
+    "desc": "Ein rotes Korallenriff."
+   },
+   "es": {
+    "name": "Arrecife rojo",
+    "desc": "Un arrecife de coral rojo."
+   },
+   "it": {
+    "name": "Scogliera rossa",
+    "desc": "Una barriera corallina rossa."
+   },
+   "ja": {
+    "name": "赤い岩礁",
+    "desc": "赤いサンゴ礁。"
+   },
+   "ko": {
+    "name": "붉은 암초",
+    "desc": "붉은 산호초."
+   },
+   "zh": {
+    "name": "红礁",
+    "desc": "红色珊瑚礁。"
+   }
+  },
+  "Aqua Flash": {
+   "en": {
+    "name": "Aqua Flash",
+    "desc": "A burst of water — splash."
+   },
+   "fr": {
+    "name": "Flash aqua",
+    "desc": "Une gerbe d'eau — éclaboussure."
+   },
+   "de": {
+    "name": "Aqua-Blitz",
+    "desc": "Ein Wasserspritzer — Spritzer."
+   },
+   "es": {
+    "name": "Destello aqua",
+    "desc": "Un chorro de agua — salpicadura."
+   },
+   "it": {
+    "name": "Flash acqua",
+    "desc": "Uno spruzzo d'acqua — splash."
+   },
+   "ja": {
+    "name": "アクアフラッシュ",
+    "desc": "水しぶき——スプラッシュ。"
+   },
+   "ko": {
+    "name": "아쿠아 플래시",
+    "desc": "물보라——스플래시."
+   },
+   "zh": {
+    "name": "水色闪光",
+    "desc": "水花飞溅——splash。"
+   }
+  },
+  "Yelblu Hot": {
+   "en": {
+    "name": "Yelblu Hot",
+    "desc": "A hotter Yellow-Blue blend."
+   },
+   "fr": {
+    "name": "Jaune-bleu chaud",
+    "desc": "Mélange jaune-bleu plus chaud."
+   },
+   "de": {
+    "name": "Gelb-Blau heiß",
+    "desc": "Eine heißere Gelb-Blau-Mischung."
+   },
+   "es": {
+    "name": "Amarillo-azul cálido",
+    "desc": "Mezcla amarillo-azul más cálida."
+   },
+   "it": {
+    "name": "Giallo-blu caldo",
+    "desc": "Miscela giallo-blu più calda."
+   },
+   "ja": {
+    "name": "黄青ホット",
+    "desc": "より熱い黄青の混合。"
+   },
+   "ko": {
+    "name": "노랑-파랑 따뜻",
+    "desc": "더 뜨거운 노랑-파랑 혼합."
+   },
+   "zh": {
+    "name": "暖黄蓝",
+    "desc": "更暖的黄蓝混合。"
+   }
+  },
+  "Lite Light": {
+   "en": {
+    "name": "Lite Light",
+    "desc": "Soft, light glow — a light bulb."
+   },
+   "fr": {
+    "name": "Lumière douce",
+    "desc": "Lueur douce et légère — une ampoule."
+   },
+   "de": {
+    "name": "Sanftes Licht",
+    "desc": "Sanftes, leichtes Leuchten — eine Glühbirne."
+   },
+   "es": {
+    "name": "Luz suave",
+    "desc": "Resplandor suave y ligero — una bombilla."
+   },
+   "it": {
+    "name": "Luce tenue",
+    "desc": "Bagliore tenue e leggero — una lampadina."
+   },
+   "ja": {
+    "name": "淡い光",
+    "desc": "やわらかく淡い光——電球。"
+   },
+   "ko": {
+    "name": "은은한 빛",
+    "desc": "부드럽고 옅은 빛——전구."
+   },
+   "zh": {
+    "name": "柔光",
+    "desc": "柔和的淡光——灯泡。"
+   }
+  },
+  "Red Flash": {
+   "en": {
+    "name": "Red Flash",
+    "desc": "A red electric flash — lightning."
+   },
+   "fr": {
+    "name": "Flash rouge",
+    "desc": "Un éclair électrique rouge — la foudre."
+   },
+   "de": {
+    "name": "Rotes Blitzen",
+    "desc": "Ein roter Stromblitz — Blitz."
+   },
+   "es": {
+    "name": "Destello rojo",
+    "desc": "Un destello eléctrico rojo — un rayo."
+   },
+   "it": {
+    "name": "Lampo rosso",
+    "desc": "Un lampo elettrico rosso — un fulmine."
+   },
+   "ja": {
+    "name": "赤フラッシュ",
+    "desc": "赤い電光——稲妻。"
+   },
+   "ko": {
+    "name": "빨강 플래시",
+    "desc": "붉은 번쩍임——번개."
+   },
+   "zh": {
+    "name": "红闪",
+    "desc": "红色电闪——闪电。"
+   }
+  },
+  "Blink Red": {
+   "en": {
+    "name": "Blink Red",
+    "desc": "Blinking red — lightning."
+   },
+   "fr": {
+    "name": "Clignotement rouge",
+    "desc": "Rouge clignotant — la foudre."
+   },
+   "de": {
+    "name": "Rotes Blinken",
+    "desc": "Blinkendes Rot — Blitz."
+   },
+   "es": {
+    "name": "Parpadeo rojo",
+    "desc": "Rojo parpadeante — un rayo."
+   },
+   "it": {
+    "name": "Lampeggio rosso",
+    "desc": "Rosso lampeggiante — un fulmine."
+   },
+   "ja": {
+    "name": "赤点滅",
+    "desc": "点滅する赤——稲妻。"
+   },
+   "ko": {
+    "name": "빨강 깜박임",
+    "desc": "깜박이는 빨강——번개."
+   },
+   "zh": {
+    "name": "红闪烁",
+    "desc": "闪烁的红——闪电。"
+   }
+  },
+  "Red Shift": {
+   "en": {
+    "name": "Red Shift",
+    "desc": "'Redshift' — light stretched toward red; a bolt."
+   },
+   "fr": {
+    "name": "Décalage rouge",
+    "desc": "« Redshift » — décalage vers le rouge ; un éclair."
+   },
+   "de": {
+    "name": "Rotverschiebung",
+    "desc": "„Rotverschiebung“ — Licht ins Rote verschoben; ein Blitz."
+   },
+   "es": {
+    "name": "Corrimiento al rojo",
+    "desc": "«Corrimiento al rojo» — luz desplazada al rojo; un rayo."
+   },
+   "it": {
+    "name": "Spostamento rosso",
+    "desc": "«Spostamento verso il rosso» — luce spostata al rosso; un fulmine."
+   },
+   "ja": {
+    "name": "赤方偏移",
+    "desc": "「赤方偏移」——赤へずれる光;稲妻。"
+   },
+   "ko": {
+    "name": "적색편이",
+    "desc": "'적색편이'——빨강으로 치우친 빛; 번개."
+   },
+   "zh": {
+    "name": "红移",
+    "desc": "“红移”——光向红端偏移；一道闪电。"
+   }
+  },
+  "Red Tide": {
+   "en": {
+    "name": "Red Tide",
+    "desc": "'Red tide' — algal bloom colouring the sea red; waves."
+   },
+   "fr": {
+    "name": "Marée rouge",
+    "desc": "« Marée rouge » — efflorescence d'algues rougissant la mer ; des vagues."
+   },
+   "de": {
+    "name": "Rote Flut",
+    "desc": "„Rote Flut“ — Algenblüte färbt das Meer rot; Wellen."
+   },
+   "es": {
+    "name": "Marea roja",
+    "desc": "«Marea roja» — floración de algas que enrojece el mar; olas."
+   },
+   "it": {
+    "name": "Marea rossa",
+    "desc": "«Marea rossa» — fioritura algale che arrossa il mare; onde."
+   },
+   "ja": {
+    "name": "赤潮",
+    "desc": "「赤潮」——藻の大量発生で海が赤くなる;波。"
+   },
+   "ko": {
+    "name": "적조",
+    "desc": "'적조'——조류 번성으로 붉어진 바다; 물결."
+   },
+   "zh": {
+    "name": "红潮",
+    "desc": "“赤潮”——藻类暴发使海水变红；海浪。"
+   }
+  },
+  "Candy2": {
+   "en": {
+    "name": "Candy2",
+    "desc": "Sweets, variant 2 — a lollipop."
+   },
+   "fr": {
+    "name": "Bonbon 2",
+    "desc": "Bonbons, variante 2 — une sucette."
+   },
+   "de": {
+    "name": "Bonbon 2",
+    "desc": "Süßigkeiten, Variante 2 — ein Lutscher."
+   },
+   "es": {
+    "name": "Caramelo 2",
+    "desc": "Dulces, variante 2 — una piruleta."
+   },
+   "it": {
+    "name": "Caramella 2",
+    "desc": "Caramelle, variante 2 — un lecca-lecca."
+   },
+   "ja": {
+    "name": "キャンディ2",
+    "desc": "お菓子その2——ペロペロキャンディ。"
+   },
+   "ko": {
+    "name": "사탕 2",
+    "desc": "사탕 변형 2——막대사탕."
+   },
+   "zh": {
+    "name": "糖果2",
+    "desc": "糖果变体 2——棒棒糖。"
+   }
+  },
+  "Traffic Light": {
+   "en": {
+    "name": "Traffic Light",
+    "desc": "A traffic signal — red/amber/green."
+   },
+   "fr": {
+    "name": "Feu tricolore",
+    "desc": "Un feu de circulation — rouge/orange/vert."
+   },
+   "de": {
+    "name": "Ampel",
+    "desc": "Eine Ampel — Rot/Gelb/Grün."
+   },
+   "es": {
+    "name": "Semáforo",
+    "desc": "Un semáforo — rojo/ámbar/verde."
+   },
+   "it": {
+    "name": "Semaforo",
+    "desc": "Un semaforo — rosso/giallo/verde."
+   },
+   "ja": {
+    "name": "信号機",
+    "desc": "信号機——赤・黄・緑。"
+   },
+   "ko": {
+    "name": "신호등",
+    "desc": "신호등——빨강/노랑/초록."
+   },
+   "zh": {
+    "name": "红绿灯",
+    "desc": "红绿灯——红/黄/绿。"
+   }
   }
+ }
 }

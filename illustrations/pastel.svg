@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="pastel" data-gradient="horizontal">
+  <!-- Reusable stencil for WLED palette "pastel". Inject the palette colours (/json/palx)
+       as stops into #grad; #1a1a1a details carve features. Direction: horizontal. -->
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
+  </linearGradient></defs>
+  <g fill="url(#grad)"><circle cx="52" cy="56" r="27"/><circle cx="94" cy="58" r="25"/><circle cx="72" cy="94" r="27"/></g>
+</svg>

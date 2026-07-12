@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144" data-palette="yellowout" data-gradient="vertical">
+  <!-- Reusable stencil for WLED palette "yellowout". Inject the palette colours (/json/palx)
+       as stops into #grad; #1a1a1a details carve features. Direction: vertical. -->
+  <defs><linearGradient id="grad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#888"/><stop offset="1" stop-color="#ccc"/>
+  </linearGradient></defs>
+  <g fill="url(#grad)"><circle cx="72" cy="72" r="24"/><g stroke="url(#grad)" stroke-width="8" stroke-linecap="round"><line x1="72" y1="16" x2="72" y2="34"/><line x1="72" y1="110" x2="72" y2="128"/><line x1="16" y1="72" x2="34" y2="72"/><line x1="110" y1="72" x2="128" y2="72"/><line x1="32" y1="32" x2="45" y2="45"/><line x1="99" y1="99" x2="112" y2="112"/><line x1="112" y1="32" x2="99" y2="45"/><line x1="45" y1="99" x2="32" y2="112"/></g></g>
+</svg>

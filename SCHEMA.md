@@ -4,19 +4,31 @@ The **join key everywhere is the exact English name** returned by WLED's `/json/
 (palettes) and `/json/eff` (effects). Indices are not stable across WLED versions; names
 are. Every consumer must fall back to the English key when a value is missing.
 
-## `i18n/palettes.json`, `i18n/effects.json`
+## `i18n/palettes.json`, `i18n/effects.json`, `i18n/controls.json`
+
+Each concept is one file: **English key → per-language `{ name, desc }`.**
 
 ```json
 {
   "_note": "…",
-  "Rivendell": { "fr": "Rivendell", "de": "Bruchtal", "ja": "裂け谷", "…": "…" }
+  "entries": {
+    "Rivendell": {
+      "en": { "name": "Rivendell", "desc": "The Elven valley from Tolkien's Lord of the Rings…" },
+      "fr": { "name": "Rivendell", "desc": "Fondcombe, la vallée elfique du Seigneur des Anneaux…" },
+      "…": { "…": "…" }
+    }
+  }
 }
 ```
 
-- Key = English WLED name. Value = `{ lang: translated }`.
-- Languages: `fr de es it ja ko zh` (extend freely).
-- A missing key **or** a missing language → use the English name. Proper nouns that
-  shouldn't be translated (Rivendell, Tiamat, C9…) are intentionally left out.
+- Key = English WLED name (from `/json/pal`, `/json/eff`). Languages: `en fr de es it ja ko zh`.
+- `name` = the localized display name (equals the English key when there's no translation
+  — e.g. proper nouns like Rivendell, Tiamat, C9 stay English on purpose).
+- `desc` = a short description: for **palettes**, what the name refers to; for **effects**,
+  the motion family (`animations/families.json`); for **controls**, what the parameter does.
+- Missing language → fall back to the `en` entry.
+- `controls.json` covers the standard effect parameters: `Speed`, `Intensity`,
+  `Custom 1-3`, `Option 1-3`, `Effect color`, `Background color`, `Custom color`, `Palette`.
 
 ## `i18n/effect-families.json`
 
