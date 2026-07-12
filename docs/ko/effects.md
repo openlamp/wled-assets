@@ -1,6 +1,6 @@
 # WLED 효과
 
-[팔레트](palettes.md) · **효과** · [컨트롤](controls.md) · [색](colors.md) · [야간등](nightlight.md) &nbsp;•&nbsp; [한국어 참조](README.md)
+[팔레트](palettes.md) · **효과** · [컨트롤](controls.md) · [색](colors.md) · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) &nbsp;•&nbsp; [한국어 참조](README.md)
 
 <sub>다른 언어: [EN](../en/effects.md) · [FR](../fr/effects.md) · [DE](../de/effects.md) · [ES](../es/effects.md) · [IT](../it/effects.md) · [JA](../ja/effects.md) · [ZH](../zh/effects.md)</sub>
 

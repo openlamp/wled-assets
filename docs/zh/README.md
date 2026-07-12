@@ -5,6 +5,9 @@
 - [控件](controls.md)
 - [颜色](colors.md)
 - [夜灯](nightlight.md)
+- [段](segment.md)
+- [按钮](buttons.md)
+- [滑块](fxdata.md)
 
 ---
 

@@ -1,6 +1,6 @@
 # WLED エフェクト
 
-[パレット](palettes.md) · **エフェクト** · [コントロール](controls.md) · [色](colors.md) · [ナイトライト](nightlight.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
+[パレット](palettes.md) · **エフェクト** · [コントロール](controls.md) · [色](colors.md) · [ナイトライト](nightlight.md) · [セグメント](segment.md) · [ボタン](buttons.md) · [スライダー](fxdata.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
 
 <sub>他の言語: [EN](../en/effects.md) · [FR](../fr/effects.md) · [DE](../de/effects.md) · [ES](../es/effects.md) · [IT](../it/effects.md) · [KO](../ko/effects.md) · [ZH](../zh/effects.md)</sub>
 

@@ -51,7 +51,7 @@ to show localized names, telling palette icons, and a preview of what each effec
 ## Browse the docs (GitHub-rendered)
 
 One page per **language × concept** — English name · translation · description · illustration.
-Full index: **[docs/](docs/)**. Or jump straight in:
+**8 concepts** now: palettes · effects · controls · colours · nightlight · segment · buttons · effect-sliders. Full index (all concepts × languages): **[docs/](docs/)**. Main ones:
 
 | Language | Palettes | Effects | Controls | Colours | Nightlight |
 |---|---|---|---|---|---|
@@ -73,6 +73,8 @@ Full index: **[docs/](docs/)**. Or jump straight in:
 | `i18n/effects.json` | Every effect → per language `{ name, desc }` (`desc` = its motion family). |
 | `i18n/controls.json` | The standard effect **controls** (Speed, Intensity, Custom 1-3, Options 1-3, colour slots, Palette) → `{ name, desc }`. |
 | `i18n/colors.json` | The **8 stage colours** (Kelly maximum-contrast) → rgb, rank, `{ name, desc }` per language, plus the `_rationale` (why 8). |
+| `i18n/nightlight.json`, `i18n/segment.json`, `i18n/buttons.json` | Nightlight modes, segment actions (reverse/mirror/freeze…), button/input types → `{ name, desc }` per language. |
+| `i18n/fxdata-labels.json` | The **234 per-effect slider labels** from `/json/fxdata` (Speed, Blur, # of balls…) → `{ name }` per language (common ones translated, long tail = English fallback). |
 | `i18n/nightlight.json` | The **4 nightlight modes** (instant, fade, colour fade, sunrise) → mode number + `{ name, desc }` per language. |
 | `i18n/effect-families.json` | Descriptions of the 9 broad motion families, per language. |
 | `meanings/palette-meanings.json` | Source for palette descriptions. |
@@ -106,11 +108,13 @@ Also internationalized here:
 - **Nightlight modes** — the 4 WLED nightlight behaviours (instant / fade / colour fade /
   sunrise). See [docs/en/nightlight.md](docs/en/nightlight.md).
 
-Further WLED enums that *could* join next (still English-only in the firmware): **segment
-actions** (reverse/mirror/freeze), device-config enums (**LED types**, **colour order**,
-**button/IR types**), and the deepest one — **per-effect slider/colour labels** (from
-`/json/fxdata`, hundreds of granular strings). Full UI strings and info labels are app
-localisation, out of scope for this asset layer. Open an issue if one would help your client.
+- **Nightlight modes**, **segment actions** (reverse/mirror/freeze/…), **button/input types** — small WLED enums, translated in full.
+- **Per-effect slider labels** — the **234** parameter names from `/json/fxdata` (Speed, Blur, # of balls, Wind speed…). Common ones translated; the specific long tail (and CJK) fall back to English and can be extended via PR.
+
+**This repo aims to translate *every* identified WLED enumeration.** Deliberately **not**
+translated (they're identifiers, not words): LED-chip types (WS2812B, SK6812…) and colour
+orders (GRB, RGB…) — kept as-is, like proper-noun palettes. General UI strings and info
+fields are full-app localisation, a different layer.
 
 ## Updating an illustration or animation
 

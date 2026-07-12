@@ -1,0 +1,209 @@
+{
+ "_note": "WLED button/input types (settings). Key = English name; per-language {name, desc}.",
+ "entries": {
+  "Push": {
+   "en": {
+    "name": "Push",
+    "desc": "How the physical button/input is wired."
+   },
+   "fr": {
+    "name": "Poussoir",
+    "desc": "Comment l'entrée/le bouton physique est câblé."
+   },
+   "de": {
+    "name": "Taster",
+    "desc": "Wie der physische Taster/Eingang verdrahtet ist."
+   },
+   "es": {
+    "name": "Pulsador",
+    "desc": "Cómo está cableado el botón/entrada físico."
+   },
+   "it": {
+    "name": "Pulsante",
+    "desc": "Come è cablato il pulsante/ingresso fisico."
+   },
+   "ja": {
+    "name": "プッシュ",
+    "desc": "物理ボタン/入力の配線方式。"
+   },
+   "ko": {
+    "name": "푸시",
+    "desc": "물리 버튼/입력의 배선 방식."
+   },
+   "zh": {
+    "name": "按钮",
+    "desc": "物理按钮/输入的接线方式。"
+   }
+  },
+  "Push inverted": {
+   "en": {
+    "name": "Push inverted",
+    "desc": "How the physical button/input is wired."
+   },
+   "fr": {
+    "name": "Poussoir inversé",
+    "desc": "Comment l'entrée/le bouton physique est câblé."
+   },
+   "de": {
+    "name": "Taster invertiert",
+    "desc": "Wie der physische Taster/Eingang verdrahtet ist."
+   },
+   "es": {
+    "name": "Pulsador invertido",
+    "desc": "Cómo está cableado el botón/entrada físico."
+   },
+   "it": {
+    "name": "Pulsante invertito",
+    "desc": "Come è cablato il pulsante/ingresso fisico."
+   },
+   "ja": {
+    "name": "プッシュ(反転)",
+    "desc": "物理ボタン/入力の配線方式。"
+   },
+   "ko": {
+    "name": "푸시(반전)",
+    "desc": "물리 버튼/입력의 배선 방식."
+   },
+   "zh": {
+    "name": "按钮(反相)",
+    "desc": "物理按钮/输入的接线方式。"
+   }
+  },
+  "Switch": {
+   "en": {
+    "name": "Switch",
+    "desc": "How the physical button/input is wired."
+   },
+   "fr": {
+    "name": "Interrupteur",
+    "desc": "Comment l'entrée/le bouton physique est câblé."
+   },
+   "de": {
+    "name": "Schalter",
+    "desc": "Wie der physische Taster/Eingang verdrahtet ist."
+   },
+   "es": {
+    "name": "Interruptor",
+    "desc": "Cómo está cableado el botón/entrada físico."
+   },
+   "it": {
+    "name": "Interruttore",
+    "desc": "Come è cablato il pulsante/ingresso fisico."
+   },
+   "ja": {
+    "name": "スイッチ",
+    "desc": "物理ボタン/入力の配線方式。"
+   },
+   "ko": {
+    "name": "스위치",
+    "desc": "물리 버튼/입력의 배선 방식."
+   },
+   "zh": {
+    "name": "开关",
+    "desc": "物理按钮/输入的接线方式。"
+   }
+  },
+  "PIR sensor": {
+   "en": {
+    "name": "PIR sensor",
+    "desc": "How the physical button/input is wired."
+   },
+   "fr": {
+    "name": "Capteur PIR",
+    "desc": "Comment l'entrée/le bouton physique est câblé."
+   },
+   "de": {
+    "name": "PIR-Sensor",
+    "desc": "Wie der physische Taster/Eingang verdrahtet ist."
+   },
+   "es": {
+    "name": "Sensor PIR",
+    "desc": "Cómo está cableado el botón/entrada físico."
+   },
+   "it": {
+    "name": "Sensore PIR",
+    "desc": "Come è cablato il pulsante/ingresso fisico."
+   },
+   "ja": {
+    "name": "PIRセンサー",
+    "desc": "物理ボタン/入力の配線方式。"
+   },
+   "ko": {
+    "name": "PIR 센서",
+    "desc": "물리 버튼/입력의 배선 방식."
+   },
+   "zh": {
+    "name": "PIR 传感器",
+    "desc": "物理按钮/输入的接线方式。"
+   }
+  },
+  "Touch": {
+   "en": {
+    "name": "Touch",
+    "desc": "How the physical button/input is wired."
+   },
+   "fr": {
+    "name": "Tactile",
+    "desc": "Comment l'entrée/le bouton physique est câblé."
+   },
+   "de": {
+    "name": "Touch",
+    "desc": "Wie der physische Taster/Eingang verdrahtet ist."
+   },
+   "es": {
+    "name": "Táctil",
+    "desc": "Cómo está cableado el botón/entrada físico."
+   },
+   "it": {
+    "name": "Tattile",
+    "desc": "Come è cablato il pulsante/ingresso fisico."
+   },
+   "ja": {
+    "name": "タッチ",
+    "desc": "物理ボタン/入力の配線方式。"
+   },
+   "ko": {
+    "name": "터치",
+    "desc": "물리 버튼/입력의 배선 방식."
+   },
+   "zh": {
+    "name": "触摸",
+    "desc": "物理按钮/输入的接线方式。"
+   }
+  },
+  "Analog": {
+   "en": {
+    "name": "Analog",
+    "desc": "How the physical button/input is wired."
+   },
+   "fr": {
+    "name": "Analogique",
+    "desc": "Comment l'entrée/le bouton physique est câblé."
+   },
+   "de": {
+    "name": "Analog",
+    "desc": "Wie der physische Taster/Eingang verdrahtet ist."
+   },
+   "es": {
+    "name": "Analógico",
+    "desc": "Cómo está cableado el botón/entrada físico."
+   },
+   "it": {
+    "name": "Analogico",
+    "desc": "Come è cablato il pulsante/ingresso fisico."
+   },
+   "ja": {
+    "name": "アナログ",
+    "desc": "物理ボタン/入力の配線方式。"
+   },
+   "ko": {
+    "name": "아날로그",
+    "desc": "물리 버튼/입력의 배선 방식."
+   },
+   "zh": {
+    "name": "模拟",
+    "desc": "物理按钮/输入的接线方式。"
+   }
+  }
+ }
+}

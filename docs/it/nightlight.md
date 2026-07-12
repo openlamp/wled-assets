@@ -1,6 +1,6 @@
 # WLED Luce notturna
 
-[Tavolozze](palettes.md) · [Effetti](effects.md) · [Controlli](controls.md) · [Colori](colors.md) · **Luce notturna** &nbsp;•&nbsp; [Riferimento in italiano](README.md)
+[Tavolozze](palettes.md) · [Effetti](effects.md) · [Controlli](controls.md) · [Colori](colors.md) · **Luce notturna** · [Segmento](segment.md) · [Pulsanti](buttons.md) · [Cursori effetto](fxdata.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
 
 <sub>Altre lingue: [EN](../en/nightlight.md) · [FR](../fr/nightlight.md) · [DE](../de/nightlight.md) · [ES](../es/nightlight.md) · [JA](../ja/nightlight.md) · [KO](../ko/nightlight.md) · [ZH](../zh/nightlight.md)</sub>
 
