@@ -9,6 +9,24 @@ function motion(name){
  const n=(name||'').toLowerCase(), h=(...k)=>k.some(x=>n.includes(x));
  if(h('solid','static','fill'))return'solid';
  if(h('police'))return'police';
+ if(h('ghost rider','ghost'))return'ghost';
+ if(h('two dots','two areas','dual'))return'dots';
+ if(h('traffic'))return'traffic';
+ if(h('washing machine','rotozoom','spin'))return'spin';
+ if(h('spaceship','ufo','saturn'))return'spaceship';
+ if(h('bee','crazy bees'))return'bees';
+ if(h('octopus'))return'octopus';
+ if(h('pacman','pac-man'))return'pacman';
+ if(h('dj light','disco'))return'dj';
+ if(h('scrolling text','text'))return'text';
+ if(h('black hole','blackhole'))return'blackhole';
+ if(h('galaxy','vortex','swirl','drift rose','spiral'))return'galaxy';
+ if(h('hourglass'))return'hourglass';
+ if(h('tv sim','tv '))return'tv';
+ if(h('bpm','pulse '))return'beat';
+ if(h('impact','sonic boom','colored burst','fireworks 1d'))return'impact';
+ if(h('akemi'))return'akemi';
+ if(h('blob','soap','clouds','plasmoid'))return'blobs';
  if(h('lightning'))return'lightning';
  if(h('firework','popcorn'))return'fireworks';
  if(h('heart'))return'heartbeat';
@@ -59,6 +77,25 @@ function anim(ph,m,seed){
  if(m==='rainbow'){let o='';for(let k=0;k<6;k++)o+=`<path d="M18 128 A${54-k*8} ${54-k*8} 0 0 1 126 128" fill="none" stroke="${hsv((k/6+ph*0.03*spd)%1,.9,1)}" stroke-width="9"/>`;return o;}
  if(m==='colorloop')return `<rect x="20" y="20" width="104" height="104" rx="16" fill="${hsv(h0+ph*0.03*spd,.8,1)}"/>`;
  if(m==='saw'){const wd=(120/n)|0;let o='';for(let i=0;i<n;i++){const hh=20+((i*20+(ph*6*spd|0))%100);o+=`<rect x="${12+i*wd}" y="${128-hh}" width="${wd-3}" height="${hh}" fill="${hsv(h0+i*0.08,.85,1)}"/>`;}return o;}
+
+ if(m==='ghost'){const x=72+M.sin(p*0.5)*36,col=hsv(h0,.25,1);return `<path d="M${(x-30)|0} 40 a30 30 0 0 1 30 30 v34 l-8 -8 -8 8 -7 -8 -7 8 -8 -8 -8 8 v-34 a30 30 0 0 1 30 -30 Z" fill="${col}"/><circle cx="${(x-10)|0}" cy="66" r="5" fill="#1a1a1a"/><circle cx="${(x+10)|0}" cy="66" r="5" fill="#1a1a1a"/>`;}
+ if(m==='dots'){let o='';for(let i=0;i<2;i++){const x=72+M.cos(p*0.7+i*M.PI)*44,y=72+M.sin(p*0.9+i*M.PI)*40;o+=`<circle cx="${x|0}" cy="${y|0}" r="16" fill="${hsv(h0+i*0.4,.8,1)}"/>`;}return o;}
+ if(m==='traffic'){const lit=(ph*spd|0)%3,c=[lit===0?'#e6002a':'#3a1015',lit===1?'#ffcc00':'#3a3410',lit===2?'#2ee06e':'#123a20'];let o='<rect x="52" y="14" width="40" height="116" rx="12" fill="#111"/>';for(let i=0;i<3;i++)o+=`<circle cx="72" cy="${38+i*34}" r="14" fill="${c[i]}"/>`;return o;}
+ if(m==='spin'){const a=p*0.6;let o=`<circle cx="72" cy="72" r="46" fill="none" stroke="${hsv(h0,.4,.7)}" stroke-width="6"/>`;for(let k=0;k<4;k++)o+=`<rect x="66" y="72" width="12" height="42" rx="4" fill="${hsv(h0+k*0.08,.7,1)}" transform="rotate(${(a+k*M.PI/2)*57.3} 72 72)"/>`;return o;}
+ if(m==='spaceship'){const x=((ph*6*spd|0)%180)-18;return `<g transform="translate(${x|0} 72)"><ellipse cx="0" cy="0" rx="34" ry="12" fill="${hsv(h0,.5,.9)}"/><ellipse cx="0" cy="-8" rx="16" ry="12" fill="${hsv(h0+0.1,.3,1)}"/><circle cx="-16" cy="2" r="3" fill="#fff"/><circle cx="0" cy="4" r="3" fill="#fff"/><circle cx="16" cy="2" r="3" fill="#fff"/></g>`;}
+ if(m==='bees'){let o='';for(let i=0;i<5;i++){const x=72+M.sin(p*1.3+i*2.1)*50,y=72+M.cos(p*1.7+i*1.3)*46;o+=`<circle cx="${x|0}" cy="${y|0}" r="8" fill="${hsv(0.14,.9,1)}"/><ellipse cx="${x|0}" cy="${(y-2)|0}" rx="10" ry="5" fill="none" stroke="#ffffff44" stroke-width="1"/>`;}return o;}
+ if(m==='octopus'){let o=`<circle cx="72" cy="60" r="24" fill="${hsv(h0,.6,1)}"/>`;for(let k=0;k<6;k++){const a=k/6*2*M.PI,sw=M.sin(p*0.8+k)*16;o+=`<path d="M72 78 Q${(72+M.cos(a)*20+sw)|0} 104 ${(72+M.cos(a)*40+sw)|0} 124" fill="none" stroke="${hsv(h0,.6,1)}" stroke-width="7" stroke-linecap="round"/>`;}return o;}
+ if(m==='pacman'){const x=((ph*6*spd|0)%176)-16,mo2=M.abs(M.sin(p*1.4))*40;let o=`<path d="M${x|0} 72 L${(x+34*M.cos(mo2/57.3))|0} ${(72-34*M.sin(mo2/57.3))|0} A34 34 0 1 0 ${(x+34*M.cos(mo2/57.3))|0} ${(72+34*M.sin(mo2/57.3))|0} Z" fill="#ffd200"/>`;for(let d=0;d<3;d++){const dx=x+50+d*26;if(dx<150)o+=`<circle cx="${dx|0}" cy="72" r="6" fill="#ffe680"/>`;}return o;}
+ if(m==='dj'){const a=p*0.8;return `<circle cx="72" cy="72" r="46" fill="#222"/><circle cx="72" cy="72" r="46" fill="none" stroke="${hsv(h0,.7,1)}" stroke-width="4"/><circle cx="72" cy="72" r="14" fill="${hsv(h0+0.3,.7,1)}"/><rect x="70" y="30" width="4" height="42" fill="#fff" transform="rotate(${a*57.3} 72 72)"/>`;}
+ if(m==='text'){let o='';const off=(ph*7*spd|0)%40;for(let i=0;i<5;i++)o+=`<rect x="${(140-i*32-off)|0}" y="52" width="20" height="40" rx="3" fill="${hsv(h0+i*0.1,.7,1)}"/>`;return o;}
+ if(m==='blackhole'){let o='<circle cx="72" cy="72" r="16" fill="#000"/>';for(let k=0;k<3;k++){const rad=48-((ph*3*spd+k*16)%44);o+=`<circle cx="72" cy="72" r="${M.max(2,rad)}" fill="none" stroke="${hsv(h0+k*0.1,.7,1)}" stroke-width="5"/>`;}return o;}
+ if(m==='galaxy'){let o='';for(let k=0;k<14;k++){const t=k/14,a=p*0.5+t*6.5,r=12+t*54;o+=`<circle cx="${(72+M.cos(a)*r)|0}" cy="${(72+M.sin(a)*r)|0}" r="${5-t*3}" fill="${hsv(h0+t*0.4,.7,1)}"/>`;}return o;}
+ if(m==='hourglass'){let o=`<path d="M34 20 L110 20 L78 72 L110 124 L34 124 L66 72 Z" fill="none" stroke="${hsv(h0,.4,.8)}" stroke-width="5"/>`;o+=`<circle cx="72" cy="${(72+((ph*4*spd|0)%40))|0}" r="5" fill="${hsv(0.1,.8,1)}"/><path d="M50 108 L94 108 L78 84 L66 84 Z" fill="${hsv(0.1,.7,1)}"/>`;return o;}
+ if(m==='tv'){let o='';for(let r=0;r<4;r++)for(let c=0;c<4;c++){const v=((r*4+c)*13+(ph*9*spd|0)+seed*7)%100/100;o+=`<rect x="${16+c*28}" y="${16+r*28}" width="30" height="30" fill="${hsv(h0+v*0.3,.2,0.3+v*0.7)}"/>`;}return o;}
+ if(m==='beat'){const b=(p*1.4)%(2*M.PI),pulse=M.max(M.sin(b),M.sin(b-0.5))*0.5+0.5;return `<path d="M72 106 C30 74 34 40 56 40 C66 40 72 50 72 56 C72 50 78 40 88 40 C110 40 114 74 72 106 Z" fill="${hsv(0.98,.8,1)}" transform="translate(72 72) scale(${0.7+0.3*pulse}) translate(-72 -72)"/>`;}
+ if(m==='impact'){const t=(ph%9)/9,rad=6+t*58;return `<circle cx="72" cy="72" r="${rad}" fill="none" stroke="${hsv(h0,.8,1-t)}" stroke-width="${M.max(1,10*(1-t))}"/><circle cx="72" cy="72" r="8" fill="${hsv(h0,.5,1-t*0.5)}"/>`;}
+ if(m==='akemi'){return `<circle cx="72" cy="72" r="42" fill="${hsv(h0,.5,1)}"/><path d="M40 44 Q72 20 104 44" fill="none" stroke="#1a1a1a" stroke-width="4"/><circle cx="58" cy="70" r="7" fill="#1a1a1a"/><circle cx="86" cy="70" r="7" fill="#1a1a1a"/><path d="M60 92 Q72 ${(98+M.sin(p)*6)|0} 84 92" fill="none" stroke="#1a1a1a" stroke-width="4"/>`;}
+ if(m==='blobs'){let o='';for(let i=0;i<3;i++){const r=22+10*M.sin(p*0.7+i*2),x=44+i*28,y=72+14*M.sin(p*0.5+i);o+=`<circle cx="${x|0}" cy="${y|0}" r="${r|0}" fill="${hsv(h0+i*0.16,.7,1)}"/>`;}return o;}
  const wd=(120/n)|0;let o='';for(let i=0;i<n;i++){const br=0.30+0.70*(0.5+0.5*M.sin(p*0.6-i*0.95)),hh=22+96*br;o+=`<rect x="${12+i*wd}" y="${128-hh}" width="${wd-3}" height="${hh}" rx="3" fill="${hsv(h0+((i*34+ph*12*spd)%360)/360,0.85,br)}"/>`;}return o;
 }
 if(typeof module!=='undefined')module.exports={anim,motion,hsv};
