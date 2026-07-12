@@ -1,0 +1,413 @@
+{
+ "_note": "Combined translations: each standard WLED enum -> per language {name, desc}. Key = English name (join key). Missing -> English fallback. CJK are a first pass (native review welcome). Standard effect parameters/controls.",
+ "entries": {
+  "Speed": {
+   "en": {
+    "name": "Speed",
+    "desc": "How fast the effect animates."
+   },
+   "fr": {
+    "name": "Vitesse",
+    "desc": "À quelle vitesse l'effet s'anime."
+   },
+   "de": {
+    "name": "Tempo",
+    "desc": "Wie schnell der Effekt animiert."
+   },
+   "es": {
+    "name": "Velocidad",
+    "desc": "La rapidez de la animación del efecto."
+   },
+   "it": {
+    "name": "Velocità",
+    "desc": "Quanto velocemente si anima l'effetto."
+   },
+   "ja": {
+    "name": "速度",
+    "desc": "エフェクトのアニメーション速度。"
+   },
+   "ko": {
+    "name": "속도",
+    "desc": "효과 애니메이션의 빠르기."
+   },
+   "zh": {
+    "name": "速度",
+    "desc": "效果动画的快慢。"
+   }
+  },
+  "Intensity": {
+   "en": {
+    "name": "Intensity",
+    "desc": "The effect's intensity or density."
+   },
+   "fr": {
+    "name": "Intensité",
+    "desc": "L'intensité ou la densité de l'effet."
+   },
+   "de": {
+    "name": "Intensität",
+    "desc": "Die Intensität bzw. Dichte des Effekts."
+   },
+   "es": {
+    "name": "Intensidad",
+    "desc": "La intensidad o densidad del efecto."
+   },
+   "it": {
+    "name": "Intensità",
+    "desc": "L'intensità o densità dell'effetto."
+   },
+   "ja": {
+    "name": "強度",
+    "desc": "エフェクトの強さ・密度。"
+   },
+   "ko": {
+    "name": "강도",
+    "desc": "효과의 강도 또는 밀도."
+   },
+   "zh": {
+    "name": "强度",
+    "desc": "效果的强度或密度。"
+   }
+  },
+  "Custom 1": {
+   "en": {
+    "name": "Custom 1",
+    "desc": "An effect-specific slider (meaning varies by effect)."
+   },
+   "fr": {
+    "name": "Perso 1",
+    "desc": "Curseur propre à l'effet (sens variable)."
+   },
+   "de": {
+    "name": "Custom 1",
+    "desc": "Effektspezifischer Regler (je nach Effekt)."
+   },
+   "es": {
+    "name": "Personal. 1",
+    "desc": "Deslizador propio del efecto (varía)."
+   },
+   "it": {
+    "name": "Custom 1",
+    "desc": "Cursore specifico dell'effetto (varia)."
+   },
+   "ja": {
+    "name": "カスタム1",
+    "desc": "エフェクト固有のスライダー(意味は効果次第)。"
+   },
+   "ko": {
+    "name": "커스텀 1",
+    "desc": "효과별 슬라이더(의미는 효과마다 다름)."
+   },
+   "zh": {
+    "name": "自定义 1",
+    "desc": "效果专属滑块（含义随效果而变）。"
+   }
+  },
+  "Custom 2": {
+   "en": {
+    "name": "Custom 2",
+    "desc": "A second effect-specific slider."
+   },
+   "fr": {
+    "name": "Perso 2",
+    "desc": "Deuxième curseur propre à l'effet."
+   },
+   "de": {
+    "name": "Custom 2",
+    "desc": "Zweiter effektspezifischer Regler."
+   },
+   "es": {
+    "name": "Personal. 2",
+    "desc": "Segundo deslizador del efecto."
+   },
+   "it": {
+    "name": "Custom 2",
+    "desc": "Secondo cursore dell'effetto."
+   },
+   "ja": {
+    "name": "カスタム2",
+    "desc": "エフェクト固有の2つ目のスライダー。"
+   },
+   "ko": {
+    "name": "커스텀 2",
+    "desc": "두 번째 효과별 슬라이더."
+   },
+   "zh": {
+    "name": "自定义 2",
+    "desc": "第二个效果专属滑块。"
+   }
+  },
+  "Custom 3": {
+   "en": {
+    "name": "Custom 3",
+    "desc": "A third effect-specific slider (0-31)."
+   },
+   "fr": {
+    "name": "Perso 3",
+    "desc": "Troisième curseur de l'effet (0-31)."
+   },
+   "de": {
+    "name": "Custom 3",
+    "desc": "Dritter Effektregler (0-31)."
+   },
+   "es": {
+    "name": "Personal. 3",
+    "desc": "Tercer deslizador del efecto (0-31)."
+   },
+   "it": {
+    "name": "Custom 3",
+    "desc": "Terzo cursore dell'effetto (0-31)."
+   },
+   "ja": {
+    "name": "カスタム3",
+    "desc": "3つ目のスライダー(0-31)。"
+   },
+   "ko": {
+    "name": "커스텀 3",
+    "desc": "세 번째 슬라이더(0-31)."
+   },
+   "zh": {
+    "name": "自定义 3",
+    "desc": "第三个滑块（0-31）。"
+   }
+  },
+  "Option 1": {
+   "en": {
+    "name": "Option 1",
+    "desc": "An effect-specific on/off toggle."
+   },
+   "fr": {
+    "name": "Option 1",
+    "desc": "Bascule oui/non propre à l'effet."
+   },
+   "de": {
+    "name": "Option 1",
+    "desc": "Effektspezifischer Schalter."
+   },
+   "es": {
+    "name": "Opción 1",
+    "desc": "Interruptor propio del efecto."
+   },
+   "it": {
+    "name": "Opzione 1",
+    "desc": "Interruttore specifico dell'effetto."
+   },
+   "ja": {
+    "name": "オプション1",
+    "desc": "エフェクト固有のオン/オフ。"
+   },
+   "ko": {
+    "name": "옵션 1",
+    "desc": "효과별 켜기/끄기."
+   },
+   "zh": {
+    "name": "选项 1",
+    "desc": "效果专属开关。"
+   }
+  },
+  "Option 2": {
+   "en": {
+    "name": "Option 2",
+    "desc": "A second effect-specific toggle."
+   },
+   "fr": {
+    "name": "Option 2",
+    "desc": "Deuxième bascule de l'effet."
+   },
+   "de": {
+    "name": "Option 2",
+    "desc": "Zweiter Effektschalter."
+   },
+   "es": {
+    "name": "Opción 2",
+    "desc": "Segundo interruptor del efecto."
+   },
+   "it": {
+    "name": "Opzione 2",
+    "desc": "Secondo interruttore dell'effetto."
+   },
+   "ja": {
+    "name": "オプション2",
+    "desc": "2つ目のオン/オフ。"
+   },
+   "ko": {
+    "name": "옵션 2",
+    "desc": "두 번째 토글."
+   },
+   "zh": {
+    "name": "选项 2",
+    "desc": "第二个开关。"
+   }
+  },
+  "Option 3": {
+   "en": {
+    "name": "Option 3",
+    "desc": "A third effect-specific toggle."
+   },
+   "fr": {
+    "name": "Option 3",
+    "desc": "Troisième bascule de l'effet."
+   },
+   "de": {
+    "name": "Option 3",
+    "desc": "Dritter Effektschalter."
+   },
+   "es": {
+    "name": "Opción 3",
+    "desc": "Tercer interruptor del efecto."
+   },
+   "it": {
+    "name": "Opzione 3",
+    "desc": "Terzo interruttore dell'effetto."
+   },
+   "ja": {
+    "name": "オプション3",
+    "desc": "3つ目のオン/オフ。"
+   },
+   "ko": {
+    "name": "옵션 3",
+    "desc": "세 번째 토글."
+   },
+   "zh": {
+    "name": "选项 3",
+    "desc": "第三个开关。"
+   }
+  },
+  "Effect color": {
+   "en": {
+    "name": "Effect color",
+    "desc": "The effect's primary colour."
+   },
+   "fr": {
+    "name": "Couleur d'effet",
+    "desc": "La couleur principale de l'effet."
+   },
+   "de": {
+    "name": "Effektfarbe",
+    "desc": "Die Hauptfarbe des Effekts."
+   },
+   "es": {
+    "name": "Color de efecto",
+    "desc": "El color principal del efecto."
+   },
+   "it": {
+    "name": "Colore effetto",
+    "desc": "Il colore principale dell'effetto."
+   },
+   "ja": {
+    "name": "エフェクト色",
+    "desc": "エフェクトの主色。"
+   },
+   "ko": {
+    "name": "효과 색",
+    "desc": "효과의 주 색상."
+   },
+   "zh": {
+    "name": "效果颜色",
+    "desc": "效果的主色。"
+   }
+  },
+  "Background color": {
+   "en": {
+    "name": "Background color",
+    "desc": "The effect's background colour."
+   },
+   "fr": {
+    "name": "Couleur de fond",
+    "desc": "La couleur de fond de l'effet."
+   },
+   "de": {
+    "name": "Hintergrundfarbe",
+    "desc": "Die Hintergrundfarbe des Effekts."
+   },
+   "es": {
+    "name": "Color de fondo",
+    "desc": "El color de fondo del efecto."
+   },
+   "it": {
+    "name": "Colore di sfondo",
+    "desc": "Il colore di sfondo dell'effetto."
+   },
+   "ja": {
+    "name": "背景色",
+    "desc": "エフェクトの背景色。"
+   },
+   "ko": {
+    "name": "배경색",
+    "desc": "효과의 배경 색상."
+   },
+   "zh": {
+    "name": "背景色",
+    "desc": "效果的背景颜色。"
+   }
+  },
+  "Custom color": {
+   "en": {
+    "name": "Custom color",
+    "desc": "A third colour slot for the effect."
+   },
+   "fr": {
+    "name": "Couleur perso",
+    "desc": "Troisième emplacement de couleur."
+   },
+   "de": {
+    "name": "Zusatzfarbe",
+    "desc": "Dritter Farbslot des Effekts."
+   },
+   "es": {
+    "name": "Color personal.",
+    "desc": "Tercer espacio de color."
+   },
+   "it": {
+    "name": "Colore custom",
+    "desc": "Terzo slot di colore."
+   },
+   "ja": {
+    "name": "カスタム色",
+    "desc": "3つ目の色スロット。"
+   },
+   "ko": {
+    "name": "커스텀 색",
+    "desc": "세 번째 색 슬롯."
+   },
+   "zh": {
+    "name": "自定义颜色",
+    "desc": "第三个颜色槽。"
+   }
+  },
+  "Palette": {
+   "en": {
+    "name": "Palette",
+    "desc": "The colour palette the effect draws from."
+   },
+   "fr": {
+    "name": "Palette",
+    "desc": "La palette de couleurs utilisée par l'effet."
+   },
+   "de": {
+    "name": "Palette",
+    "desc": "Die Farbpalette, die der Effekt nutzt."
+   },
+   "es": {
+    "name": "Paleta",
+    "desc": "La paleta de colores que usa el efecto."
+   },
+   "it": {
+    "name": "Tavolozza",
+    "desc": "La tavolozza usata dall'effetto."
+   },
+   "ja": {
+    "name": "パレット",
+    "desc": "エフェクトが使う配色パレット。"
+   },
+   "ko": {
+    "name": "팔레트",
+    "desc": "효과가 사용하는 색 팔레트."
+   },
+   "zh": {
+    "name": "调色板",
+    "desc": "效果所用的配色板。"
+   }
+  }
+ }
+}

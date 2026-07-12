@@ -1,5 +1,5 @@
 {
- "note": "One reusable SVG stencil per evocative palette. Fill #grad with the palette's real colours; palettes not listed here have no illustration (use a gradient bar).",
+ "note": "One reusable SVG stencil per palette. Fill #grad with the palette's real colours. Dynamic '* …' palettes use a fixed motif instead (see the plugin / images).",
  "illustrations": [
   {
    "palette": "rivendell",
@@ -269,6 +269,81 @@
   {
    "palette": "frost",
    "file": "illustrations/frost.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "default",
+   "file": "illustrations/default.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "yellowout",
+   "file": "illustrations/yellowout.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "hult",
+   "file": "illustrations/hult.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "hult 64",
+   "file": "illustrations/hult-64.svg",
+   "gradient": "vertical"
+  },
+  {
+   "palette": "grintage",
+   "file": "illustrations/grintage.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "rewhi",
+   "file": "illustrations/rewhi.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "cyane",
+   "file": "illustrations/cyane.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "magenta",
+   "file": "illustrations/magenta.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "magred",
+   "file": "illustrations/magred.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "yelmag",
+   "file": "illustrations/yelmag.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "yelblu",
+   "file": "illustrations/yelblu.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "yelblu hot",
+   "file": "illustrations/yelblu-hot.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "light pink",
+   "file": "illustrations/light-pink.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "semi blue",
+   "file": "illustrations/semi-blue.svg",
+   "gradient": "horizontal"
+  },
+  {
+   "palette": "pastel",
+   "file": "illustrations/pastel.svg",
    "gradient": "horizontal"
   }
  ]
