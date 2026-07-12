@@ -8,17 +8,17 @@ Le **etichette dei cursori** sono i nomi dei parametri dichiarati da ogni effett
 
 | Immagine | Nome WLED | Traduzione |
 |---|---|---|
-| <img src="../../images/fxdata/hash.png" width="48"> | `# blobs` | # blobs |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of Ghosts` | N. di fantasmi |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of PowerDots` | # of PowerDots |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of balls` | N. di palline |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of bands` | N. di bande |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of dots` | N. di punti |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of drips` | N. di gocce |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of flashers` | N. di lampeggi |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of lines` | N. di linee |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of pixels` | N. di pixel |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of shadows` | # of shadows |
+| <img src="../../images/fxdata/balls.png" width="48"> | `# blobs` | # blobs |
+| <img src="../../images/fxdata/ghost.png" width="48"> | `# of Ghosts` | N. di fantasmi |
+| <img src="../../images/fxdata/dots.png" width="48"> | `# of PowerDots` | # of PowerDots |
+| <img src="../../images/fxdata/balls.png" width="48"> | `# of balls` | N. di palline |
+| <img src="../../images/fxdata/bands.png" width="48"> | `# of bands` | N. di bande |
+| <img src="../../images/fxdata/dots.png" width="48"> | `# of dots` | N. di punti |
+| <img src="../../images/fxdata/drop.png" width="48"> | `# of drips` | N. di gocce |
+| <img src="../../images/fxdata/flash.png" width="48"> | `# of flashers` | N. di lampeggi |
+| <img src="../../images/fxdata/lines.png" width="48"> | `# of lines` | N. di linee |
+| <img src="../../images/fxdata/dots.png" width="48"> | `# of pixels` | N. di pixel |
+| <img src="../../images/fxdata/shadow.png" width="48"> | `# of shadows` | # of shadows |
 | <img src="../../images/fxdata/slider.png" width="48"> | `% of fill` | % di riempimento |
 | <img src="../../images/fxdata/blur.png" width="48"> | `2D Blur` | Sfocatura 2D |
 | <img src="../../images/fxdata/slider.png" width="48"> | `AR` | AR |
@@ -134,7 +134,7 @@ Le **etichette dei cursori** sono i nomi dei parametri dichiarati da ogni effett
 | <img src="../../images/fxdata/slider.png" width="48"> | `Lighten` | Lighten |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Low bin` | Low bin |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Mass` | Mass |
-| <img src="../../images/fxdata/hash.png" width="48"> | `Max # of ripples` | Max # of ripples |
+| <img src="../../images/fxdata/slider.png" width="48"> | `Max # of ripples` | Max # of ripples |
 | <img src="../../images/fxdata/dots.png" width="48"> | `Max iterations per pixel` | Max iterations per pixel |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Max. length` | Max. length |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Mod` | Mod |
@@ -203,7 +203,7 @@ Le **etichette dei cursori** sono i nomi dei parametri dichiarati da ogni effett
 | <img src="../../images/fxdata/star.png" width="48"> | `Starfield` | Starfield |
 | <img src="../../images/fxdata/star.png" width="48"> | `Start` | Start |
 | <img src="../../images/fxdata/drop.png" width="48"> | `Starting color` | Starting color |
-| <img src="../../images/fxdata/hash.png" width="48"> | `Starting color and # of pixels` | Starting color and # of pixels |
+| <img src="../../images/fxdata/drop.png" width="48"> | `Starting color and # of pixels` | Starting color and # of pixels |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Stiffness` | Stiffness |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Swallow` | Swallow |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Sweep` | Sweep |

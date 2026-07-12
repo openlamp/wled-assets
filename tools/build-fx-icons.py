@@ -1,4 +1,4 @@
-import math
+import math, re
 def _sl(pos=0.6,col="#4aa3ff"):  # generic slider
     x=24+pos*84
     return '<rect x="20" y="66" width="104" height="12" rx="6" fill="#5a6472"/><rect x="20" y="66" width="%d" height="12" rx="6" fill="%s"/><circle cx="%d" cy="72" r="15" fill="%s"/>'%(int(x-20),col,x,col)
@@ -22,10 +22,23 @@ _star='<path d="M72 22 l14 34 37 3 -28 24 9 36 -32 -20 -32 20 9 -36 -28 -24 37 -
 _ramp='<path d="M22 118 L118 40" fill="none" stroke="#4aa3ff" stroke-width="8" stroke-linecap="round"/><line x1="22" y1="118" x2="118" y2="118" stroke="#5a6472" stroke-width="4"/>'
 _hash='<text x="72" y="96" font-family="Helvetica" font-weight="bold" font-size="80" fill="#4aa3ff" text-anchor="middle">#</text>'
 _blur='<circle cx="72" cy="72" r="34" fill="#4aa3ff"/><circle cx="72" cy="72" r="46" fill="none" stroke="#4aa3ff" stroke-width="6" opacity="0.4"/><circle cx="72" cy="72" r="22" fill="#a8d4ff"/>'
-ICONS={"slider":_sl(),"speed":_speed,"intensity":_bars,"flame":_flame,"snow":_snow,"sun":_sun,"drop":_drop,"dots":_dots,"multi":_multi,"wind":_wind,"balls":_balls,"dice":_dice,"wave":_wave,"rot":_rot,"arrowsh":_arrowsH,"arrowsv":_arrowsV,"expand":_expand,"star":_star,"ramp":_ramp,"hash":_hash,"blur":_blur}
+# icons for the "# of X" slider labels — the noun, not a bare "#" (Benoit 2026-07-12)
+_ghost='<path d="M38 126 V72 a34 34 0 0 1 68 0 V126 l-11 -11 -12 11 -11 -11 -11 11 Z" fill="#c3cdd9"/><circle cx="60" cy="68" r="7" fill="#1a1a1a"/><circle cx="84" cy="68" r="7" fill="#1a1a1a"/>'
+_bands="".join('<rect x="20" y="%d" width="104" height="15" rx="4" fill="%s"/>'%(34+i*24,c) for i,c in enumerate(("#3399ff","#3bb4c9","#7dd8ff","#a8d4ff")))
+_lines="".join('<line x1="%d" y1="30" x2="%d" y2="114" stroke="#4aa3ff" stroke-width="8" stroke-linecap="round"/>'%(38+i*17,38+i*17) for i in range(5))
+_flash='<path d="M82 18 L42 80 L68 80 L58 126 L104 56 L78 56 Z" fill="#ffd200"/>'
+_shadow='<rect x="46" y="48" width="62" height="62" rx="12" fill="#3a4250"/><rect x="34" y="36" width="62" height="62" rx="12" fill="#a8d4ff"/>'
+ICONS={"slider":_sl(),"speed":_speed,"intensity":_bars,"flame":_flame,"snow":_snow,"sun":_sun,"drop":_drop,"dots":_dots,"multi":_multi,"wind":_wind,"balls":_balls,"dice":_dice,"wave":_wave,"rot":_rot,"arrowsh":_arrowsH,"arrowsv":_arrowsV,"expand":_expand,"star":_star,"ramp":_ramp,"hash":_hash,"blur":_blur,"ghost":_ghost,"bands":_bands,"lines":_lines,"flash":_flash,"shadow":_shadow}
 def icon_key(lab):
-    n=lab.lower()
-    if n.startswith("# ") or "# of" in n or n.startswith("#"): return "hash"
+    n=lab.lower().strip()
+    if n.startswith("#"):                        # "# of Ghosts" -> match on the noun, not "#"
+        n=re.sub(r'^#\s*(of\s+)?', '', n).strip()
+    if "ghost" in n: return "ghost"
+    if "band" in n: return "bands"
+    if "line" in n: return "lines"
+    if "shadow" in n: return "shadow"
+    if "flash" in n: return "flash"
+    if "drip" in n or "drop" in n: return "drop"
     if "speed" in n: return "speed"
     if "intensity" in n or "amplif" in n or "boost" in n: return "intensity"
     if "blur" in n: return "blur"

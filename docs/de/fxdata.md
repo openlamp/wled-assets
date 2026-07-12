@@ -8,17 +8,17 @@
 
 | Bild | WLED-Name | Übersetzung |
 |---|---|---|
-| <img src="../../images/fxdata/hash.png" width="48"> | `# blobs` | # blobs |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of Ghosts` | Anzahl Geister |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of PowerDots` | # of PowerDots |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of balls` | Anzahl Bälle |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of bands` | Anzahl Bänder |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of dots` | Anzahl Punkte |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of drips` | Anzahl Tropfen |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of flashers` | Anzahl Blinker |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of lines` | Anzahl Linien |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of pixels` | Anzahl Pixel |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of shadows` | # of shadows |
+| <img src="../../images/fxdata/balls.png" width="48"> | `# blobs` | # blobs |
+| <img src="../../images/fxdata/ghost.png" width="48"> | `# of Ghosts` | Anzahl Geister |
+| <img src="../../images/fxdata/dots.png" width="48"> | `# of PowerDots` | # of PowerDots |
+| <img src="../../images/fxdata/balls.png" width="48"> | `# of balls` | Anzahl Bälle |
+| <img src="../../images/fxdata/bands.png" width="48"> | `# of bands` | Anzahl Bänder |
+| <img src="../../images/fxdata/dots.png" width="48"> | `# of dots` | Anzahl Punkte |
+| <img src="../../images/fxdata/drop.png" width="48"> | `# of drips` | Anzahl Tropfen |
+| <img src="../../images/fxdata/flash.png" width="48"> | `# of flashers` | Anzahl Blinker |
+| <img src="../../images/fxdata/lines.png" width="48"> | `# of lines` | Anzahl Linien |
+| <img src="../../images/fxdata/dots.png" width="48"> | `# of pixels` | Anzahl Pixel |
+| <img src="../../images/fxdata/shadow.png" width="48"> | `# of shadows` | # of shadows |
 | <img src="../../images/fxdata/slider.png" width="48"> | `% of fill` | % Füllung |
 | <img src="../../images/fxdata/blur.png" width="48"> | `2D Blur` | 2D-Unschärfe |
 | <img src="../../images/fxdata/slider.png" width="48"> | `AR` | AR |
@@ -134,7 +134,7 @@
 | <img src="../../images/fxdata/slider.png" width="48"> | `Lighten` | Lighten |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Low bin` | Low bin |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Mass` | Mass |
-| <img src="../../images/fxdata/hash.png" width="48"> | `Max # of ripples` | Max # of ripples |
+| <img src="../../images/fxdata/slider.png" width="48"> | `Max # of ripples` | Max # of ripples |
 | <img src="../../images/fxdata/dots.png" width="48"> | `Max iterations per pixel` | Max iterations per pixel |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Max. length` | Max. length |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Mod` | Mod |
@@ -203,7 +203,7 @@
 | <img src="../../images/fxdata/star.png" width="48"> | `Starfield` | Starfield |
 | <img src="../../images/fxdata/star.png" width="48"> | `Start` | Start |
 | <img src="../../images/fxdata/drop.png" width="48"> | `Starting color` | Starting color |
-| <img src="../../images/fxdata/hash.png" width="48"> | `Starting color and # of pixels` | Starting color and # of pixels |
+| <img src="../../images/fxdata/drop.png" width="48"> | `Starting color and # of pixels` | Starting color and # of pixels |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Stiffness` | Stiffness |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Swallow` | Swallow |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Sweep` | Sweep |
