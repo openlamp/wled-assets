@@ -10,6 +10,11 @@ def motion(name):
     n=(name or "").lower()
     def h(*k): return any(x in n for x in k)
     if h("glitter"): return "glitter"
+    if h("chunchun"): return "birds"           # flock of birds
+    if h("dna"): return "dna"                  # double helix (before matrix/galaxy)
+    if h("halloween eyes","icu"): return "eye" # a looking eye (before halloween)
+    if h("lake"): return "ripple"              # water
+    if h("volcano"): return "fire"
     if h("solid","static","fill"): return "solid"
     if h("police"): return "police"
     if h("lightning"): return "lightning"
@@ -97,6 +102,7 @@ def _mhue(m):   # a stable, hand-picked hue per motion (free of the effect seed)
      "wave":0.52,"ripple":0.52,"stream":0.52,"drip":0.53,"comet":0.55,"dots":0.55,"chase":0.54,
      "spin":0.55,"spaceship":0.56,"hourglass":0.50,"phased":0.58,"loading":0.55,"text":0.54,
      "wipe":0.53,"lissajous":0.50,"breathe":0.57,"fade":0.54,"percent":0.36,"blink":0.09,
+     "birds":0.55,"dna":0.52,"eye":0.09,
      # warm / earthy
      "scan":0.02,"saw":0.09,"solid":0.09,"lighthouse":0.09,"spots":0.11,"bounce":0.09,
      "impact":0.03,"running":0.08,"dancing":0.95,"colorful":0.09,"gradient":0.09}
@@ -416,6 +422,27 @@ def anim(ph,m,seed=0):
         for lx,ly in ((44,0.75),(72,1.0),(100,0.75)):
             lt=72-H*ly; s+='<line x1="%d" y1="%.0f" x2="%d" y2="%.0f" stroke="#3a2f24" stroke-width="3" stroke-linecap="round"/>'%(lx,lt,lx,lt-12)
         return s
+    if m=="birds":                                  # a flock of birds flying across, wings flapping
+        o=""
+        for k in range(4):
+            x=(ph*10*spd+k*44)%180-18; y=42+(k%2)*34+M.sin(ph*0.8+k)*6
+            flap=6+abs(M.sin(ph*1.4+k*1.3))*12; col=_rgb(h0,sat,0.85)
+            o+='<path d="M%.0f %.0f Q%.0f %.0f %.0f %.0f Q%.0f %.0f %.0f %.0f" fill="none" stroke="%s" stroke-width="5" stroke-linecap="round"/>'%(x-15,y,x-7,y-flap,x,y,x+7,y-flap,x+15,y,col)
+        return o
+    if m=="dna":                                    # a rotating double helix + rungs
+        o=""
+        for i in range(15):
+            t=i/14.0; yy=14+t*116; a=t*6.283*1.5+p*0.3
+            x1=72+M.sin(a)*36; x2=72-M.sin(a)*36
+            o+='<line x1="%.0f" y1="%.0f" x2="%.0f" y2="%.0f" stroke="#5a6472" stroke-width="3"/>'%(x1,yy,x2,yy)
+            o+='<circle cx="%.0f" cy="%.0f" r="6" fill="%s"/><circle cx="%.0f" cy="%.0f" r="6" fill="%s"/>'%(x1,yy,_rgb(h0,sat,0.9),x2,yy,_rgb(h0+0.10,0.5,0.85))
+        return o
+    if m=="eye":                                    # an open eye whose pupil looks around
+        look=M.sin(p*0.7)*15; iris=_rgb(0.09,0.6,0.62)
+        return ('<path d="M18 72 Q72 32 126 72 Q72 112 18 72 Z" fill="#f2ece0"/>'
+            '<path d="M18 72 Q72 32 126 72 Q72 112 18 72 Z" fill="none" stroke="#3a2f24" stroke-width="4"/>'
+            '<circle cx="%.0f" cy="72" r="21" fill="%s"/><circle cx="%.0f" cy="72" r="9" fill="#17130d"/>'
+            '<circle cx="%.0f" cy="66" r="3" fill="#ffffff"/>'%(72+look,iris,72+look,72+look-4))
     if m=="strobe":
         c=_rgb(h0,sat,1) if ph%2==0 else "#272c36"
         return "".join('<circle cx="%d" cy="%d" r="16" fill="%s"/>'%(x,y,c) for x,y in ((48,48),(96,48),(48,96),(96,96)))
