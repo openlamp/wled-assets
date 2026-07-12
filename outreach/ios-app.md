@@ -38,3 +38,5 @@ Would this be interesting to wire into the app? I'm happy to help with the integ
 (Swift-side loading, gradient injection into the stencils) and to prioritize whatever the
 app needs first. The CJK translations are a first pass and would benefit from native review
 — PRs welcome on the asset repo.
+
+> Note: if this app renders the WLED controls in a WebView of the device's own web UI (rather than native pickers), the localization belongs in the web UI instead — see the parallel `wled-webui.md` proposal, which covers every WebView-based client at once.
