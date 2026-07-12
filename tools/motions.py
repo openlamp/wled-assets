@@ -12,7 +12,19 @@ def motion(name):
     if h("glitter"): return "glitter"
     if h("chunchun"): return "birds"           # flock of birds
     if h("dna"): return "dna"                  # double helix (before matrix/galaxy)
-    if h("halloween eyes","icu"): return "eye" # a looking eye (before halloween)
+    if h("halloween eyes"): return "spookeyes" # a pair of glowing eyes in the dark
+    if h("tartan"): return "tartan"            # Scottish plaid: crossed bands
+    if h("julia"): return "fractal"            # Julia-set fractal
+    if h("sun radiation","colored burst"): return "sunburst"  # a sun/rays radiating
+    if h("game of life"): return "gol"         # cellular-automaton grid
+    if h("rocktaves","octave"): return "notes" # musical notes
+    if h("soap"): return "bubbles"             # floating soap bubbles
+    if h("image"): return "image"              # a picture frame
+    if h("swirl","vortex","drift"): return "swirl"  # spinning vortex (Drift, Swirl, Vortex, Drift Rose)
+    if h("frizzle"): return "geo"              # moving geometric patterns
+    if h("sindot"): return "swirl"             # revolving dots
+    if h("blend"): return "gradient"           # smooth colour blend
+    if h("icu"): return "eye"                  # a single looking eye (before halloween)
     if h("lake"): return "ripple"              # water
     if h("volcano"): return "fire"
     if h("solid","static","fill"): return "solid"
@@ -58,7 +70,8 @@ def motion(name):
     if h("wipe"): return "wipe"
     if h("android","larson","knight","scanner","scan"): return "scan"
     if h("saw"): return "saw"
-    if h("dynamic","random colors"): return "dynamic"
+    if h("random colors"): return "randcolor"  # whole strip = ONE random colour, changing
+    if h("dynamic"): return "dynamic"          # each pixel a random colour (mosaic)
     if h("rainbow"): return "rainbow"
     if h("running","runner"): return "running"
     if h("sweep"): return "sweep"
@@ -443,6 +456,79 @@ def anim(ph,m,seed=0):
             '<path d="M18 72 Q72 32 126 72 Q72 112 18 72 Z" fill="none" stroke="#3a2f24" stroke-width="4"/>'
             '<circle cx="%.0f" cy="72" r="21" fill="%s"/><circle cx="%.0f" cy="72" r="9" fill="#17130d"/>'
             '<circle cx="%.0f" cy="66" r="3" fill="#ffffff"/>'%(72+look,iris,72+look,72+look-4))
+    if m=="spookeyes":                              # Halloween Eyes: a pair of glowing eyes blinking in the dark
+        cyc=int(ph)%5; op=0.0 if cyc==0 else (0.4 if cyc==1 else 1.0)
+        if op<=0: return ''                         # closed = darkness
+        o=""; ry=9*op+1
+        for cx,hue in ((50,0.13),(94,0.30)):        # one amber eye, one sickly-green — spooky pair
+            o+='<ellipse cx="%d" cy="72" rx="16" ry="%.0f" fill="%s"/>'%(cx,ry,_rgb(hue,0.9,0.9))
+            o+='<ellipse cx="%d" cy="72" rx="3" ry="%.0f" fill="#0c0a06"/>'%(cx,max(1,ry*0.85))   # cat-slit pupil
+        return o
+    if m=="tartan":                                 # Scottish plaid: crossed horizontal + vertical bands
+        o='<rect x="14" y="14" width="116" height="116" rx="8" fill="#241109"/>'
+        off=int(ph*2*spd)%24
+        hb=("#7a1f1f","#1f5030"); vb=("#c9a24a","#2f5f7a")
+        for i,y in enumerate(range(14-off,132,24)):
+            if 6<=y<=128: o+='<rect x="14" y="%d" width="116" height="9" fill="%s"/>'%(y,hb[i%2])
+        for i,x in enumerate(range(14,132,24)):
+            o+='<rect x="%d" y="14" width="9" height="116" fill="%s"/>'%(x,vb[i%2])
+        return o
+    if m=="randcolor":                              # Random Colors: the WHOLE strip is ONE colour that changes
+        hh=((int(ph*spd)*137+seed*53)%360)/360.0    # a new pseudo-random hue each step
+        return '<rect x="20" y="20" width="104" height="104" rx="16" fill="%s"/>'%_rgb(hh,0.55,0.85)
+    if m=="fractal":                                # Julia: a morphing fractal bulb
+        o=""; N=52
+        for i in range(N):
+            t=i/N*6.283; rr=22+18*M.cos(3*t+p*0.3)
+            x=72+M.cos(t)*rr; y=72+M.sin(t)*rr
+            o+='<circle cx="%.0f" cy="%.0f" r="2.6" fill="%s"/>'%(x,y,_rgb(0.66+0.05*M.sin(t*3),0.5,0.85))
+        return o
+    if m=="sunburst":                               # Sun Radiation / Colored Bursts: a sun with rotating rays
+        a0=p*0.3; o='<circle cx="72" cy="72" r="18" fill="%s"/>'%_rgb(0.11,0.65,0.9)
+        for k in range(12):
+            a=a0+k/12.0*6.283; r2=44+7*M.sin(p+k)
+            o+='<line x1="%.0f" y1="%.0f" x2="%.0f" y2="%.0f" stroke="%s" stroke-width="5" stroke-linecap="round"/>'%(72+M.cos(a)*24,72+M.sin(a)*24,72+M.cos(a)*r2,72+M.sin(a)*r2,_rgb(0.09,0.7,0.85))
+        return o
+    if m=="gol":                                    # Game Of Life: a grid of cells toggling
+        o=""; g=6; cell=18; ox=(144-g*cell)//2
+        for r in range(g):
+            for c in range(g):
+                if ((r*7+c*13+int(ph*2*spd)*5+seed)%9)<4:
+                    o+='<rect x="%d" y="%d" width="14" height="14" rx="2" fill="%s"/>'%(ox+c*cell,ox+r*cell,_rgb(0.33,0.5,0.85))
+        return o
+    if m=="notes":                                  # Rocktaves: musical notes drifting by
+        o='<line x1="18" y1="104" x2="126" y2="104" stroke="#5a6472" stroke-width="2"/>'
+        for k in range(3):
+            x=(ph*10*spd+k*46)%176-16; y=54+((k+int(ph))%3)*16
+            col=_rgb(0.7-k*0.12,0.5,0.85)
+            o+='<ellipse cx="%.0f" cy="%.0f" rx="9" ry="7" fill="%s" transform="rotate(-20 %.0f %.0f)"/>'%(x,y,col,x,y)
+            o+='<line x1="%.0f" y1="%.0f" x2="%.0f" y2="%.0f" stroke="%s" stroke-width="3"/>'%(x+8,y-2,x+8,y-32,col)
+        return o
+    if m=="swirl":                                  # Drift / Swirl / Vortex: a spiral vortex winding out
+        o=""; N=42
+        for i in range(N):
+            t=i/N*12.566; rr=6+i*1.35; a=t+p*0.3
+            o+='<circle cx="%.0f" cy="%.0f" r="3" fill="%s"/>'%(72+M.cos(a)*rr,72+M.sin(a)*rr,_rgb(0.55+i*0.004,0.5,0.85))
+        return o
+    if m=="bubbles":                                # Soap: floating bubbles with a highlight
+        o=""
+        for k in range(5):
+            x=72+M.sin(p*0.4+k*1.3)*36; y=72+M.cos(p*0.5+k*1.9)*34; r=15+6*M.sin(p*0.7+k)
+            o+='<circle cx="%.0f" cy="%.0f" r="%.0f" fill="none" stroke="%s" stroke-width="3"/>'%(x,y,r,_rgb(0.5+0.08*k,0.4,0.9))
+            o+='<circle cx="%.0f" cy="%.0f" r="3" fill="#ffffff"/>'%(x-r*0.4,y-r*0.4)
+        return o
+    if m=="image":                                  # Image: a picture frame with a little landscape
+        return ('<rect x="26" y="34" width="92" height="76" rx="6" fill="none" stroke="%s" stroke-width="5"/>'
+            '<circle cx="48" cy="56" r="8" fill="%s"/>'
+            '<path d="M30 104 L60 74 L80 94 L98 78 L114 104 Z" fill="%s"/>'%(_rgb(0.58,0.4,0.8),_rgb(0.12,0.7,0.9),_rgb(0.33,0.45,0.7)))
+    if m=="geo":                                    # Frizzles: rotating nested geometric polygons
+        o=""
+        for k in range(3):
+            a=p*0.3+k*2.09; rr=30-k*7+8*M.sin(p*0.5+k); pts=[]
+            for j in range(5):
+                t=a+j/5.0*6.283; pts.append("%.0f,%.0f"%(72+M.cos(t)*rr,72+M.sin(t)*rr))
+            o+='<polygon points="%s" fill="none" stroke="%s" stroke-width="3"/>'%(" ".join(pts),_rgb(0.6-k*0.06,0.5,0.85))
+        return o
     if m=="strobe":
         c=_rgb(h0,sat,1) if ph%2==0 else "#272c36"
         return "".join('<circle cx="%d" cy="%d" r="16" fill="%s"/>'%(x,y,c) for x,y in ((48,48),(96,48),(48,96),(96,96)))

@@ -7,7 +7,7 @@ function hsv(h,s,v){s=Math.min(s,0.62);v=Math.max(0,Math.min(0.92,v));h=((h%1)+1
  return 'rgb('+Math.round(a[0]*255)+','+Math.round(a[1]*255)+','+Math.round(a[2]*255)+')';}
 function motion(name){
  const n=(name||'').toLowerCase(),h=(...k)=>k.some(x=>n.includes(x));
- if(h('glitter'))return'glitter';if(h('chunchun'))return'birds';if(h('dna'))return'dna';if(h('halloween eyes','icu'))return'eye';if(h('lake'))return'ripple';if(h('volcano'))return'fire';
+ if(h('glitter'))return'glitter';if(h('chunchun'))return'birds';if(h('dna'))return'dna';if(h('halloween eyes'))return'spookeyes';if(h('tartan'))return'tartan';if(h('julia'))return'fractal';if(h('sun radiation','colored burst'))return'sunburst';if(h('game of life'))return'gol';if(h('rocktaves','octave'))return'notes';if(h('soap'))return'bubbles';if(h('image'))return'image';if(h('swirl','vortex','drift'))return'swirl';if(h('frizzle'))return'geo';if(h('sindot'))return'swirl';if(h('blend'))return'gradient';if(h('icu'))return'eye';if(h('lake'))return'ripple';if(h('volcano'))return'fire';
  if(h('solid','static','fill'))return'solid';
  if(h('police'))return'police';if(h('lightning'))return'lightning';
  if(h('popcorn'))return'popcorn';if(h('firework'))return'fireworks';
@@ -33,7 +33,7 @@ function motion(name){
  if(h('blob','soap','clouds','plasmoid'))return'plasma';
  if(h('tetri'))return'tetris';if(h('wipe'))return'wipe';
  if(h('android','larson','knight','scanner','scan'))return'scan';
- if(h('saw'))return'saw';if(h('dynamic','random colors'))return'dynamic';
+ if(h('saw'))return'saw';if(h('random colors'))return'randcolor';if(h('dynamic'))return'dynamic';
  if(h('rainbow'))return'rainbow';if(h('running','runner'))return'running';
  if(h('sweep'))return'sweep';if(h('matri','game of life','dna','pixel'))return'matrix';
  if(h('snow','frost','ice'))return'snow';if(h('rain','waterfall','puddle','fall'))return'rain';
@@ -118,6 +118,17 @@ function anim(ph,m,seed){
  if(m==='birds'){let o='';for(let k=0;k<4;k++){const x=(ph*10*spd+k*44)%180-18,y=42+(k%2)*34+M.sin(ph*0.8+k)*6,flap=6+M.abs(M.sin(ph*1.4+k*1.3))*12,col=hsv(h0,sat,0.85);o+=`<path d="M${(x-15)|0} ${y|0} Q${(x-7)|0} ${(y-flap)|0} ${x|0} ${y|0} Q${(x+7)|0} ${(y-flap)|0} ${(x+15)|0} ${y|0}" fill="none" stroke="${col}" stroke-width="5" stroke-linecap="round"/>`;}return o;}
  if(m==='dna'){let o='';for(let i=0;i<15;i++){const t=i/14,yy=14+t*116,a=t*6.283*1.5+p*0.3,x1=72+M.sin(a)*36,x2=72-M.sin(a)*36;o+=`<line x1="${x1|0}" y1="${yy|0}" x2="${x2|0}" y2="${yy|0}" stroke="#5a6472" stroke-width="3"/><circle cx="${x1|0}" cy="${yy|0}" r="6" fill="${hsv(h0,sat,0.9)}"/><circle cx="${x2|0}" cy="${yy|0}" r="6" fill="${hsv(h0+0.10,0.5,0.85)}"/>`;}return o;}
  if(m==='eye'){const look=M.sin(p*0.7)*15,iris=hsv(0.09,0.6,0.62);return `<path d="M18 72 Q72 32 126 72 Q72 112 18 72 Z" fill="#f2ece0"/><path d="M18 72 Q72 32 126 72 Q72 112 18 72 Z" fill="none" stroke="#3a2f24" stroke-width="4"/><circle cx="${(72+look)|0}" cy="72" r="21" fill="${iris}"/><circle cx="${(72+look)|0}" cy="72" r="9" fill="#17130d"/><circle cx="${(72+look-4)|0}" cy="66" r="3" fill="#ffffff"/>`;}
+ if(m==='randcolor'){const hh=(((ph*spd|0)*137+seed*53)%360)/360;return `<rect x="20" y="20" width="104" height="104" rx="16" fill="${hsv(hh,0.55,0.85)}"/>`;}
+ if(m==='spookeyes'){const cyc=(ph|0)%5,op=cyc===0?0:(cyc===1?0.4:1);if(op<=0)return '';let o='';const ry=9*op+1;[[50,0.13],[94,0.30]].forEach(([cx,hue])=>{o+=`<ellipse cx="${cx}" cy="72" rx="16" ry="${ry|0}" fill="${hsv(hue,0.9,0.9)}"/><ellipse cx="${cx}" cy="72" rx="3" ry="${M.max(1,ry*0.85)|0}" fill="#0c0a06"/>`;});return o;}
+ if(m==='tartan'){let o='<rect x="14" y="14" width="116" height="116" rx="8" fill="#241109"/>';const off=(ph*2*spd|0)%24,hb=['#7a1f1f','#1f5030'],vb=['#c9a24a','#2f5f7a'];let i=0;for(let y=14-off;y<132;y+=24){if(y>=6&&y<=128)o+=`<rect x="14" y="${y}" width="116" height="9" fill="${hb[i%2]}"/>`;i++;}i=0;for(let x=14;x<132;x+=24){o+=`<rect x="${x}" y="14" width="9" height="116" fill="${vb[i%2]}"/>`;i++;}return o;}
+ if(m==='fractal'){let o='';const N=52;for(let i=0;i<N;i++){const t=i/N*6.283,rr=22+18*M.cos(3*t+p*0.3),x=72+M.cos(t)*rr,y=72+M.sin(t)*rr;o+=`<circle cx="${x|0}" cy="${y|0}" r="2.6" fill="${hsv(0.66+0.05*M.sin(t*3),0.5,0.85)}"/>`;}return o;}
+ if(m==='sunburst'){const a0=p*0.3;let o=`<circle cx="72" cy="72" r="18" fill="${hsv(0.11,0.65,0.9)}"/>`;for(let k=0;k<12;k++){const a=a0+k/12*6.283,r2=44+7*M.sin(p+k);o+=`<line x1="${(72+M.cos(a)*24)|0}" y1="${(72+M.sin(a)*24)|0}" x2="${(72+M.cos(a)*r2)|0}" y2="${(72+M.sin(a)*r2)|0}" stroke="${hsv(0.09,0.7,0.85)}" stroke-width="5" stroke-linecap="round"/>`;}return o;}
+ if(m==='gol'){let o='';const g=6,cell=18,ox=(144-g*cell)/2|0;for(let r=0;r<g;r++)for(let c=0;c<g;c++){if(((r*7+c*13+(ph*2*spd|0)*5+seed)%9)<4)o+=`<rect x="${ox+c*cell}" y="${ox+r*cell}" width="14" height="14" rx="2" fill="${hsv(0.33,0.5,0.85)}"/>`;}return o;}
+ if(m==='notes'){let o='<line x1="18" y1="104" x2="126" y2="104" stroke="#5a6472" stroke-width="2"/>';for(let k=0;k<3;k++){const x=((ph*10*spd+k*46)%176)-16,y=54+((k+(ph|0))%3)*16,col=hsv(0.7-k*0.12,0.5,0.85);o+=`<ellipse cx="${x|0}" cy="${y|0}" rx="9" ry="7" fill="${col}" transform="rotate(-20 ${x|0} ${y|0})"/><line x1="${(x+8)|0}" y1="${(y-2)|0}" x2="${(x+8)|0}" y2="${(y-32)|0}" stroke="${col}" stroke-width="3"/>`;}return o;}
+ if(m==='swirl'){let o='';const N=42;for(let i=0;i<N;i++){const t=i/N*12.566,rr=6+i*1.35,a=t+p*0.3;o+=`<circle cx="${(72+M.cos(a)*rr)|0}" cy="${(72+M.sin(a)*rr)|0}" r="3" fill="${hsv(0.55+i*0.004,0.5,0.85)}"/>`;}return o;}
+ if(m==='bubbles'){let o='';for(let k=0;k<5;k++){const x=72+M.sin(p*0.4+k*1.3)*36,y=72+M.cos(p*0.5+k*1.9)*34,r=15+6*M.sin(p*0.7+k);o+=`<circle cx="${x|0}" cy="${y|0}" r="${r|0}" fill="none" stroke="${hsv(0.5+0.08*k,0.4,0.9)}" stroke-width="3"/><circle cx="${(x-r*0.4)|0}" cy="${(y-r*0.4)|0}" r="3" fill="#ffffff"/>`;}return o;}
+ if(m==='image'){return `<rect x="26" y="34" width="92" height="76" rx="6" fill="none" stroke="${hsv(0.58,0.4,0.8)}" stroke-width="5"/><circle cx="48" cy="56" r="8" fill="${hsv(0.12,0.7,0.9)}"/><path d="M30 104 L60 74 L80 94 L98 78 L114 104 Z" fill="${hsv(0.33,0.45,0.7)}"/>`;}
+ if(m==='geo'){let o='';for(let k=0;k<3;k++){const a=p*0.3+k*2.09,rr=30-k*7+8*M.sin(p*0.5+k);let pts='';for(let j=0;j<5;j++){const t=a+j/5*6.283;pts+=`${(72+M.cos(t)*rr)|0},${(72+M.sin(t)*rr)|0} `;}o+=`<polygon points="${pts.trim()}" fill="none" stroke="${hsv(0.6-k*0.06,0.5,0.85)}" stroke-width="3"/>`;}return o;}
  if(m==='strobe'){const c=ph%2===0?hsv(h0,sat,1):'#272c36';return [[48,48],[96,48],[48,96],[96,96]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="16" fill="${c}"/>`).join('');}
  if(m==='chase'){const pos=(ph*spd+seed|0)%7,b=hsv(h0,.75,1).match(/\d+/g).map(Number);let o='';for(let i=0;i<7;i++){const br=M.max(0.14,1-(((pos-i*dr)%7+7)%7)*0.30);o+=`<circle cx="${18+i*18}" cy="72" r="9" fill="rgb(${(26+(b[0]-26)*br)|0},${(26+(b[1]-26)*br)|0},${(26+(b[2]-26)*br)|0})"/>`;}return o;}
  if(m==='rainbow'){let o='';for(let k=0;k<6;k++)o+=`<path d="M18 128 A${54-k*8} ${54-k*8} 0 0 1 126 128" fill="none" stroke="${hsv((k/6+ph*0.03*spd)%1,.9,1)}" stroke-width="9"/>`;return o;}

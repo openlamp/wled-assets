@@ -174,35 +174,35 @@
   "Random Colors": {
    "en": {
     "name": "Random Colors",
-    "desc": "Random colour blocks shuffle."
+    "desc": "The whole strip turns one random colour."
    },
    "fr": {
     "name": "Couleurs aléatoires",
-    "desc": "Des blocs de couleur changent au hasard."
+    "desc": "Toute la bande vire à une couleur aléatoire."
    },
    "de": {
     "name": "Random Colors",
-    "desc": "Zufällige Farbblöcke wechseln."
+    "desc": "Der ganze Streifen wird eine Zufallsfarbe."
    },
    "es": {
     "name": "Random Colors",
-    "desc": "Bloques de color cambian al azar."
+    "desc": "Toda la tira toma un color al azar."
    },
    "it": {
     "name": "Random Colors",
-    "desc": "Blocchi di colore cambiano a caso."
+    "desc": "L'intera striscia vira a un colore casuale."
    },
    "ja": {
     "name": "Random Colors",
-    "desc": "色ブロックがランダムに変わる。"
+    "desc": "全体がランダムな一色に変わる。"
    },
    "ko": {
     "name": "Random Colors",
-    "desc": "색 블록이 무작위로 바뀐다."
+    "desc": "전체가 무작위 한 색으로 바뀐다."
    },
    "zh": {
     "name": "Random Colors",
-    "desc": "色块随机变换。"
+    "desc": "整条灯带变成一种随机颜色。"
    }
   },
   "Sweep": {
@@ -1806,35 +1806,35 @@
   "Image": {
    "en": {
     "name": "Image",
-    "desc": "A colour wave travels along the strip."
+    "desc": "A picture plays back."
    },
    "fr": {
     "name": "Image",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Une image défile."
    },
    "de": {
     "name": "Image",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Ein Bild wird abgespielt."
    },
    "es": {
     "name": "Image",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Una imagen se reproduce."
    },
    "it": {
     "name": "Image",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Un'immagine scorre."
    },
    "ja": {
     "name": "Image",
-    "desc": "色の波がストリップを進む。"
+    "desc": "画像が再生される。"
    },
    "ko": {
     "name": "Image",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "이미지가 재생된다."
    },
    "zh": {
     "name": "Image",
-    "desc": "色波沿灯带流动。"
+    "desc": "图片播放。"
    }
   },
   "Chase 3": {
@@ -2792,35 +2792,35 @@
   "Halloween Eyes": {
    "en": {
     "name": "Halloween Eyes",
-    "desc": "An eye scans, pupil roving."
+    "desc": "A pair of eyes blink in the dark."
    },
    "fr": {
     "name": "Yeux d'Halloween",
-    "desc": "Un œil balaie du regard."
+    "desc": "Une paire d'yeux cligne dans le noir."
    },
    "de": {
     "name": "Halloween Eyes",
-    "desc": "Ein Auge blickt umher."
+    "desc": "Ein Augenpaar blinzelt im Dunkeln."
    },
    "es": {
     "name": "Halloween Eyes",
-    "desc": "Un ojo recorre con la mirada."
+    "desc": "Un par de ojos parpadea en la oscuridad."
    },
    "it": {
     "name": "Halloween Eyes",
-    "desc": "Un occhio scruta intorno."
+    "desc": "Un paio di occhi sbatte nel buio."
    },
    "ja": {
     "name": "Halloween Eyes",
-    "desc": "瞳が動いて見渡す。"
+    "desc": "暗闇で一対の目がまばたく。"
    },
    "ko": {
     "name": "Halloween Eyes",
-    "desc": "눈이 두리번거린다."
+    "desc": "어둠 속에서 한 쌍의 눈이 깜빡인다."
    },
    "zh": {
     "name": "Halloween Eyes",
-    "desc": "眼睛四处张望。"
+    "desc": "黑暗中一双眼睛眨动。"
    }
   },
   "Solid Pattern": {
@@ -3914,35 +3914,35 @@
   "Blends": {
    "en": {
     "name": "Blends",
-    "desc": "Brightness swells and fades."
+    "desc": "A shifting colour gradient."
    },
    "fr": {
     "name": "Mélanges",
-    "desc": "La luminosité enfle et retombe."
+    "desc": "Un dégradé de couleurs qui glisse."
    },
    "de": {
     "name": "Blends",
-    "desc": "Die Helligkeit schwillt an und ab."
+    "desc": "Ein wandernder Farbverlauf."
    },
    "es": {
     "name": "Blends",
-    "desc": "El brillo crece y decae."
+    "desc": "Un degradado de color que se desliza."
    },
    "it": {
     "name": "Blends",
-    "desc": "La luminosità cresce e cala."
+    "desc": "Un gradiente di colore che scorre."
    },
    "ja": {
     "name": "Blends",
-    "desc": "明るさが膨らんでは沈む。"
+    "desc": "移り変わるグラデーション。"
    },
    "ko": {
     "name": "Blends",
-    "desc": "밝기가 부풀었다 잦아든다."
+    "desc": "흐르는 색상 그라데이션."
    },
    "zh": {
     "name": "Blends",
-    "desc": "亮度渐强又渐弱。"
+    "desc": "流动的颜色渐变。"
    }
   },
   "TV Simulator": {
@@ -4186,35 +4186,35 @@
   "Drift Rose": {
    "en": {
     "name": "Drift Rose",
-    "desc": "Stars spiral outward."
+    "desc": "A vortex winds outward."
    },
    "fr": {
     "name": "Rosace",
-    "desc": "Des étoiles s'enroulent en spirale."
+    "desc": "Un tourbillon s'enroule vers l'extérieur."
    },
    "de": {
     "name": "Drift Rose",
-    "desc": "Sterne wirbeln spiralförmig."
+    "desc": "Ein Wirbel windet sich nach außen."
    },
    "es": {
     "name": "Drift Rose",
-    "desc": "Estrellas giran en espiral."
+    "desc": "Un remolino se enrolla hacia afuera."
    },
    "it": {
     "name": "Drift Rose",
-    "desc": "Stelle vorticano a spirale."
+    "desc": "Un vortice si avvolge verso l'esterno."
    },
    "ja": {
     "name": "Drift Rose",
-    "desc": "星が渦を巻く。"
+    "desc": "渦が外へと巻いていく。"
    },
    "ko": {
     "name": "Drift Rose",
-    "desc": "별이 나선으로 돈다."
+    "desc": "소용돌이가 바깥으로 감긴다."
    },
    "zh": {
     "name": "Drift Rose",
-    "desc": "星辰旋涡外扩。"
+    "desc": "漩涡向外旋卷。"
    }
   },
   "Distortion Waves": {
@@ -4254,35 +4254,35 @@
   "Soap": {
    "en": {
     "name": "Soap",
-    "desc": "Colour blobs morph and drift."
+    "desc": "Soap bubbles float and drift."
    },
    "fr": {
     "name": "Savon",
-    "desc": "Des blobs de couleur se déforment."
+    "desc": "Des bulles de savon flottent."
    },
    "de": {
     "name": "Soap",
-    "desc": "Farbblasen wandeln sich."
+    "desc": "Seifenblasen schweben umher."
    },
    "es": {
     "name": "Soap",
-    "desc": "Manchas de color se transforman."
+    "desc": "Pompas de jabón flotan."
    },
    "it": {
     "name": "Soap",
-    "desc": "Bolle di colore si trasformano."
+    "desc": "Bolle di sapone fluttuano."
    },
    "ja": {
     "name": "Soap",
-    "desc": "色の塊が形を変える。"
+    "desc": "シャボン玉が漂う。"
    },
    "ko": {
     "name": "Soap",
-    "desc": "색 덩어리가 일렁인다."
+    "desc": "비눗방울이 떠다닌다."
    },
    "zh": {
     "name": "Soap",
-    "desc": "色团流变漂移。"
+    "desc": "肥皂泡漂浮。"
    }
   },
   "Octopus": {
@@ -5104,35 +5104,35 @@
   "Squared Swirl": {
    "en": {
     "name": "Squared Swirl",
-    "desc": "Stars spiral outward."
+    "desc": "A vortex winds outward."
    },
    "fr": {
     "name": "Squared Swirl",
-    "desc": "Des étoiles s'enroulent en spirale."
+    "desc": "Un tourbillon s'enroule vers l'extérieur."
    },
    "de": {
     "name": "Squared Swirl",
-    "desc": "Sterne wirbeln spiralförmig."
+    "desc": "Ein Wirbel windet sich nach außen."
    },
    "es": {
     "name": "Squared Swirl",
-    "desc": "Estrellas giran en espiral."
+    "desc": "Un remolino se enrolla hacia afuera."
    },
    "it": {
     "name": "Squared Swirl",
-    "desc": "Stelle vorticano a spirale."
+    "desc": "Un vortice si avvolge verso l'esterno."
    },
    "ja": {
     "name": "Squared Swirl",
-    "desc": "星が渦を巻く。"
+    "desc": "渦が外へと巻いていく。"
    },
    "ko": {
     "name": "Squared Swirl",
-    "desc": "별이 나선으로 돈다."
+    "desc": "소용돌이가 바깥으로 감긴다."
    },
    "zh": {
     "name": "Squared Swirl",
-    "desc": "星辰旋涡外扩。"
+    "desc": "漩涡向外旋卷。"
    }
   },
   "PacMan": {
@@ -5580,35 +5580,35 @@
   "Drift": {
    "en": {
     "name": "Drift",
-    "desc": "A colour wave travels along the strip."
+    "desc": "A vortex winds outward."
    },
    "fr": {
     "name": "Dérive",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Un tourbillon s'enroule vers l'extérieur."
    },
    "de": {
     "name": "Drift",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Ein Wirbel windet sich nach außen."
    },
    "es": {
     "name": "Drift",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Un remolino se enrolla hacia afuera."
    },
    "it": {
     "name": "Drift",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Un vortice si avvolge verso l'esterno."
    },
    "ja": {
     "name": "Drift",
-    "desc": "色の波がストリップを進む。"
+    "desc": "渦が外へと巻いていく。"
    },
    "ko": {
     "name": "Drift",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "소용돌이가 바깥으로 감긴다."
    },
    "zh": {
     "name": "Drift",
-    "desc": "色波沿灯带流动。"
+    "desc": "漩涡向外旋卷。"
    }
   },
   "Waverly": {
@@ -5648,171 +5648,171 @@
   "Sun Radiation": {
    "en": {
     "name": "Sun Radiation",
-    "desc": "The sun rises."
+    "desc": "A sun radiates rotating rays."
    },
    "fr": {
     "name": "Rayonnement solaire",
-    "desc": "Le soleil se lève."
+    "desc": "Un soleil émet des rayons tournants."
    },
    "de": {
     "name": "Sun Radiation",
-    "desc": "Die Sonne geht auf."
+    "desc": "Eine Sonne strahlt drehende Strahlen aus."
    },
    "es": {
     "name": "Sun Radiation",
-    "desc": "El sol sale."
+    "desc": "Un sol irradia rayos giratorios."
    },
    "it": {
     "name": "Sun Radiation",
-    "desc": "Il sole sorge."
+    "desc": "Un sole irradia raggi rotanti."
    },
    "ja": {
     "name": "Sun Radiation",
-    "desc": "太陽が昇る。"
+    "desc": "太陽が回転する光線を放つ。"
    },
    "ko": {
     "name": "Sun Radiation",
-    "desc": "해가 뜬다."
+    "desc": "태양이 회전하는 광선을 내뿜는다."
    },
    "zh": {
     "name": "Sun Radiation",
-    "desc": "太阳升起。"
+    "desc": "太阳射出旋转的光芒。"
    }
   },
   "Colored Bursts": {
    "en": {
     "name": "Colored Bursts",
-    "desc": "A shockwave ring expands."
+    "desc": "A sun radiates rotating rays."
    },
    "fr": {
     "name": "Éclats colorés",
-    "desc": "Une onde de choc s'étend."
+    "desc": "Un soleil émet des rayons tournants."
    },
    "de": {
     "name": "Colored Bursts",
-    "desc": "Ein Schockwellenring dehnt sich aus."
+    "desc": "Eine Sonne strahlt drehende Strahlen aus."
    },
    "es": {
     "name": "Colored Bursts",
-    "desc": "Un anillo de choque se expande."
+    "desc": "Un sol irradia rayos giratorios."
    },
    "it": {
     "name": "Colored Bursts",
-    "desc": "Un anello d'urto si espande."
+    "desc": "Un sole irradia raggi rotanti."
    },
    "ja": {
     "name": "Colored Bursts",
-    "desc": "衝撃波の輪が広がる。"
+    "desc": "太陽が回転する光線を放つ。"
    },
    "ko": {
     "name": "Colored Bursts",
-    "desc": "충격파 고리가 퍼진다."
+    "desc": "태양이 회전하는 광선을 내뿜는다."
    },
    "zh": {
     "name": "Colored Bursts",
-    "desc": "冲击波环扩散。"
+    "desc": "太阳射出旋转的光芒。"
    }
   },
   "Julia": {
    "en": {
     "name": "Julia",
-    "desc": "A colour wave travels along the strip."
+    "desc": "A Julia-set fractal morphs."
    },
    "fr": {
     "name": "Julia",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Une fractale de Julia se déforme."
    },
    "de": {
     "name": "Julia",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Ein Julia-Fraktal wandelt sich."
    },
    "es": {
     "name": "Julia",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Un fractal de Julia se transforma."
    },
    "it": {
     "name": "Julia",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Un frattale di Julia si trasforma."
    },
    "ja": {
     "name": "Julia",
-    "desc": "色の波がストリップを進む。"
+    "desc": "ジュリア集合のフラクタルが変形する。"
    },
    "ko": {
     "name": "Julia",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "줄리아 집합 프랙탈이 변형된다."
    },
    "zh": {
     "name": "Julia",
-    "desc": "色波沿灯带流动。"
+    "desc": "朱利亚集合分形变形。"
    }
   },
   "Game Of Life": {
    "en": {
     "name": "Game Of Life",
-    "desc": "Code rains down, Matrix-style."
+    "desc": "Cells live and die on a grid."
    },
    "fr": {
     "name": "Jeu de la vie",
-    "desc": "Du code tombe, façon Matrix."
+    "desc": "Des cellules naissent et meurent sur une grille."
    },
    "de": {
     "name": "Game Of Life",
-    "desc": "Code regnet herab, Matrix-Stil."
+    "desc": "Zellen leben und sterben auf einem Raster."
    },
    "es": {
     "name": "Game Of Life",
-    "desc": "Código cae, estilo Matrix."
+    "desc": "Células nacen y mueren en una cuadrícula."
    },
    "it": {
     "name": "Game Of Life",
-    "desc": "Codice cade, stile Matrix."
+    "desc": "Cellule nascono e muoiono su una griglia."
    },
    "ja": {
     "name": "Game Of Life",
-    "desc": "マトリックス風にコードが降る。"
+    "desc": "格子上でセルが生と死を繰り返す。"
    },
    "ko": {
     "name": "Game Of Life",
-    "desc": "매트릭스처럼 코드가 쏟아진다."
+    "desc": "격자 위에서 세포가 태어나고 죽는다."
    },
    "zh": {
     "name": "Game Of Life",
-    "desc": "代码如《黑客帝国》般落下。"
+    "desc": "网格上细胞生生灭灭。"
    }
   },
   "Tartan": {
    "en": {
     "name": "Tartan",
-    "desc": "A colour wave travels along the strip."
+    "desc": "A Scottish tartan plaid."
    },
    "fr": {
     "name": "Tartan",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Un tartan écossais."
    },
    "de": {
     "name": "Tartan",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Ein schottisches Tartan-Karo."
    },
    "es": {
     "name": "Tartan",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Un tartán escocés."
    },
    "it": {
     "name": "Tartan",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Un tartan scozzese."
    },
    "ja": {
     "name": "Tartan",
-    "desc": "色の波がストリップを進む。"
+    "desc": "スコットランドのタータン。"
    },
    "ko": {
     "name": "Tartan",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "스코틀랜드 타탄 무늬."
    },
    "zh": {
     "name": "Tartan",
-    "desc": "色波沿灯带流动。"
+    "desc": "苏格兰格纹。"
    }
   },
   "Polar Lights": {
@@ -5852,35 +5852,35 @@
   "Swirl": {
    "en": {
     "name": "Swirl",
-    "desc": "Stars spiral outward."
+    "desc": "A vortex winds outward."
    },
    "fr": {
     "name": "Tourbillon",
-    "desc": "Des étoiles s'enroulent en spirale."
+    "desc": "Un tourbillon s'enroule vers l'extérieur."
    },
    "de": {
     "name": "Swirl",
-    "desc": "Sterne wirbeln spiralförmig."
+    "desc": "Ein Wirbel windet sich nach außen."
    },
    "es": {
     "name": "Swirl",
-    "desc": "Estrellas giran en espiral."
+    "desc": "Un remolino se enrolla hacia afuera."
    },
    "it": {
     "name": "Swirl",
-    "desc": "Stelle vorticano a spirale."
+    "desc": "Un vortice si avvolge verso l'esterno."
    },
    "ja": {
     "name": "Swirl",
-    "desc": "星が渦を巻く。"
+    "desc": "渦が外へと巻いていく。"
    },
    "ko": {
     "name": "Swirl",
-    "desc": "별이 나선으로 돈다."
+    "desc": "소용돌이가 바깥으로 감긴다."
    },
    "zh": {
     "name": "Swirl",
-    "desc": "星辰旋涡外扩。"
+    "desc": "漩涡向外旋卷。"
    }
   },
   "Lissajous": {
@@ -5920,35 +5920,35 @@
   "Frizzles": {
    "en": {
     "name": "Frizzles",
-    "desc": "A colour wave travels along the strip."
+    "desc": "Rotating geometric patterns."
    },
    "fr": {
     "name": "Frizzles",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Des motifs géométriques tournent."
    },
    "de": {
     "name": "Frizzles",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Rotierende geometrische Muster."
    },
    "es": {
     "name": "Frizzles",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Patrones geométricos giratorios."
    },
    "it": {
     "name": "Frizzles",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Motivi geometrici rotanti."
    },
    "ja": {
     "name": "Frizzles",
-    "desc": "色の波がストリップを進む。"
+    "desc": "回転する幾何学模様。"
    },
    "ko": {
     "name": "Frizzles",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "회전하는 기하학 무늬."
    },
    "zh": {
     "name": "Frizzles",
-    "desc": "色波沿灯带流动。"
+    "desc": "旋转的几何图案。"
    }
   },
   "Plasma Ball": {
@@ -6056,35 +6056,35 @@
   "Sindots": {
    "en": {
     "name": "Sindots",
-    "desc": "A colour wave travels along the strip."
+    "desc": "A vortex winds outward."
    },
    "fr": {
     "name": "Sindots",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Un tourbillon s'enroule vers l'extérieur."
    },
    "de": {
     "name": "Sindots",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Ein Wirbel windet sich nach außen."
    },
    "es": {
     "name": "Sindots",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Un remolino se enrolla hacia afuera."
    },
    "it": {
     "name": "Sindots",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Un vortice si avvolge verso l'esterno."
    },
    "ja": {
     "name": "Sindots",
-    "desc": "色の波がストリップを進む。"
+    "desc": "渦が外へと巻いていく。"
    },
    "ko": {
     "name": "Sindots",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "소용돌이가 바깥으로 감긴다."
    },
    "zh": {
     "name": "Sindots",
-    "desc": "色波沿灯带流动。"
+    "desc": "漩涡向外旋卷。"
    }
   },
   "DNA Spiral": {
@@ -6192,35 +6192,35 @@
   "Rocktaves": {
    "en": {
     "name": "Rocktaves",
-    "desc": "A colour wave travels along the strip."
+    "desc": "Musical notes drift by."
    },
    "fr": {
     "name": "Rocktaves",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Des notes de musique défilent."
    },
    "de": {
     "name": "Rocktaves",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Musiknoten ziehen vorbei."
    },
    "es": {
     "name": "Rocktaves",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Notas musicales pasan flotando."
    },
    "it": {
     "name": "Rocktaves",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Note musicali scorrono."
    },
    "ja": {
     "name": "Rocktaves",
-    "desc": "色の波がストリップを進む。"
+    "desc": "音符が流れていく。"
    },
    "ko": {
     "name": "Rocktaves",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "음표가 흘러간다."
    },
    "zh": {
     "name": "Rocktaves",
-    "desc": "色波沿灯带流动。"
+    "desc": "音符飘过。"
    }
   },
   "Akemi": {
@@ -6362,35 +6362,35 @@
   "PS Vortex": {
    "en": {
     "name": "PS Vortex",
-    "desc": "Stars spiral outward."
+    "desc": "A vortex winds outward."
    },
    "fr": {
     "name": "PS Vortex",
-    "desc": "Des étoiles s'enroulent en spirale."
+    "desc": "Un tourbillon s'enroule vers l'extérieur."
    },
    "de": {
     "name": "PS Vortex",
-    "desc": "Sterne wirbeln spiralförmig."
+    "desc": "Ein Wirbel windet sich nach außen."
    },
    "es": {
     "name": "PS Vortex",
-    "desc": "Estrellas giran en espiral."
+    "desc": "Un remolino se enrolla hacia afuera."
    },
    "it": {
     "name": "PS Vortex",
-    "desc": "Stelle vorticano a spirale."
+    "desc": "Un vortice si avvolge verso l'esterno."
    },
    "ja": {
     "name": "PS Vortex",
-    "desc": "星が渦を巻く。"
+    "desc": "渦が外へと巻いていく。"
    },
    "ko": {
     "name": "PS Vortex",
-    "desc": "별이 나선으로 돈다."
+    "desc": "소용돌이가 바깥으로 감긴다."
    },
    "zh": {
     "name": "PS Vortex",
-    "desc": "星辰旋涡外扩。"
+    "desc": "漩涡向外旋卷。"
    }
   },
   "PS Fuzzy Noise": {

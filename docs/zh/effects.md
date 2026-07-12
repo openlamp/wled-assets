@@ -13,7 +13,7 @@
 | <img src="../../images/effects/breathe.gif" width="64"> | `Breathe` | Breathe | 亮度渐强又渐弱。 |
 | <img src="../../images/effects/wipe.gif" width="64"> | `Wipe` | Wipe | 雨刷臂扫过。 |
 | <img src="../../images/effects/wipe-random.gif" width="64"> | `Wipe Random` | Wipe Random | 雨刷臂扫过。 |
-| <img src="../../images/effects/random-colors.gif" width="64"> | `Random Colors` | Random Colors | 色块随机变换。 |
+| <img src="../../images/effects/random-colors.gif" width="64"> | `Random Colors` | Random Colors | 整条灯带变成一种随机颜色。 |
 | <img src="../../images/effects/sweep.gif" width="64"> | `Sweep` | Sweep | 光束如雨刷般摆动。 |
 | <img src="../../images/effects/dynamic.gif" width="64"> | `Dynamic` | Dynamic | 色块随机变换。 |
 | <img src="../../images/effects/colorloop.gif" width="64"> | `Colorloop` | Colorloop | 整条灯带循环变色。 |
@@ -61,7 +61,7 @@
 | <img src="../../images/effects/two-dots.gif" width="64"> | `Two Dots` | Two Dots | 两点相互环绕。 |
 | <img src="../../images/effects/fairytwinkle.gif" width="64"> | `Fairytwinkle` | Fairytwinkle | 仙灯闪烁。 |
 | <img src="../../images/effects/running-dual.gif" width="64"> | `Running Dual` | Running Dual | 人影奔跑。 |
-| <img src="../../images/effects/image.gif" width="64"> | `Image` | Image | 色波沿灯带流动。 |
+| <img src="../../images/effects/image.gif" width="64"> | `Image` | Image | 图片播放。 |
 | <img src="../../images/effects/chase-3.gif" width="64"> | `Chase 3` | Chase 3 | 亮点拖着尾巴掠过。 |
 | <img src="../../images/effects/tri-wipe.gif" width="64"> | `Tri Wipe` | Tri Wipe | 雨刷臂扫过。 |
 | <img src="../../images/effects/tri-fade.gif" width="64"> | `Tri Fade` | Tri Fade | 颜色渐显渐隐。 |
@@ -90,7 +90,7 @@
 | <img src="../../images/effects/ripple.gif" width="64"> | `Ripple` | Ripple | 水面涟漪扩散。 |
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | 星星闪烁。 |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | 星星闪烁。 |
-| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | 眼睛四处张望。 |
+| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | 黑暗中一双眼睛眨动。 |
 | <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | 单一稳定的颜色。 |
 | <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | 单一稳定的颜色。 |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | 光斑忽隐忽现。 |
@@ -123,7 +123,7 @@
 | <img src="../../images/effects/dancing-shadows.gif" width="64"> | `Dancing Shadows` | Dancing Shadows | 人影起舞。 |
 | <img src="../../images/effects/washing-machine.gif" width="64"> | `Washing Machine` | Washing Machine | 轮子旋转。 |
 | <img src="../../images/effects/rotozoomer.gif" width="64"> | `Rotozoomer` | Rotozoomer | 轮子旋转。 |
-| <img src="../../images/effects/blends.gif" width="64"> | `Blends` | Blends | 亮度渐强又渐弱。 |
+| <img src="../../images/effects/blends.gif" width="64"> | `Blends` | Blends | 流动的颜色渐变。 |
 | <img src="../../images/effects/tv-simulator.gif" width="64"> | `TV Simulator` | TV Simulator | 电视雪花闪烁。 |
 | <img src="../../images/effects/dynamic-smooth.gif" width="64"> | `Dynamic Smooth` | Dynamic Smooth | 色块随机变换。 |
 | <img src="../../images/effects/spaceships.gif" width="64"> | `Spaceships` | Spaceships | 飞船滑过。 |
@@ -131,9 +131,9 @@
 | <img src="../../images/effects/ghost-rider.gif" width="64"> | `Ghost Rider` | Ghost Rider | 幽灵飘过。 |
 | <img src="../../images/effects/blobs.gif" width="64"> | `Blobs` | Blobs | 色团流变漂移。 |
 | <img src="../../images/effects/scrolling-text.gif" width="64"> | `Scrolling Text` | Scrolling Text | 色块如文字滚动。 |
-| <img src="../../images/effects/drift-rose.gif" width="64"> | `Drift Rose` | Drift Rose | 星辰旋涡外扩。 |
+| <img src="../../images/effects/drift-rose.gif" width="64"> | `Drift Rose` | Drift Rose | 漩涡向外旋卷。 |
 | <img src="../../images/effects/distortion-waves.gif" width="64"> | `Distortion Waves` | Distortion Waves | 色波沿灯带流动。 |
-| <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Soap | 色团流变漂移。 |
+| <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Soap | 肥皂泡漂浮。 |
 | <img src="../../images/effects/octopus.gif" width="64"> | `Octopus` | Octopus | 章鱼舞动触手。 |
 | <img src="../../images/effects/waving-cell.gif" width="64"> | `Waving Cell` | Waving Cell | 色波沿灯带流动。 |
 | <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | 代码如《黑客帝国》般落下。 |
@@ -158,7 +158,7 @@
 | <img src="../../images/effects/perlin-move.gif" width="64"> | `Perlin Move` | Perlin Move | 色波沿灯带流动。 |
 | <img src="../../images/effects/ripple-peak.gif" width="64"> | `Ripple Peak` | Ripple Peak | 水面涟漪扩散。 |
 | <img src="../../images/effects/firenoise.gif" width="64"> | `Firenoise` | Firenoise | 火焰摇曳升腾。 |
-| <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | 星辰旋涡外扩。 |
+| <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | 漩涡向外旋卷。 |
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | 吃豆人一路吞食。 |
 | <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | 两条链交织成双螺旋。 |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrix | 代码如《黑客帝国》般落下。 |
@@ -172,33 +172,33 @@
 | <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | 色波沿灯带流动。 |
 | <img src="../../images/effects/pulser.gif" width="64"> | `Pulser` | Pulser | 亮度渐强又渐弱。 |
 | <img src="../../images/effects/blurz.gif" width="64"> | `Blurz` | Blurz | 色波沿灯带流动。 |
-| <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Drift | 色波沿灯带流动。 |
+| <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Drift | 漩涡向外旋卷。 |
 | <img src="../../images/effects/waverly.gif" width="64"> | `Waverly` | Waverly | 色波沿灯带流动。 |
-| <img src="../../images/effects/sun-radiation.gif" width="64"> | `Sun Radiation` | Sun Radiation | 太阳升起。 |
-| <img src="../../images/effects/colored-bursts.gif" width="64"> | `Colored Bursts` | Colored Bursts | 冲击波环扩散。 |
-| <img src="../../images/effects/julia.gif" width="64"> | `Julia` | Julia | 色波沿灯带流动。 |
+| <img src="../../images/effects/sun-radiation.gif" width="64"> | `Sun Radiation` | Sun Radiation | 太阳射出旋转的光芒。 |
+| <img src="../../images/effects/colored-bursts.gif" width="64"> | `Colored Bursts` | Colored Bursts | 太阳射出旋转的光芒。 |
+| <img src="../../images/effects/julia.gif" width="64"> | `Julia` | Julia | 朱利亚集合分形变形。 |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | 色波沿灯带流动。 |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | 色波沿灯带流动。 |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | 色波沿灯带流动。 |
-| <img src="../../images/effects/game-of-life.gif" width="64"> | `Game Of Life` | Game Of Life | 代码如《黑客帝国》般落下。 |
-| <img src="../../images/effects/tartan.gif" width="64"> | `Tartan` | Tartan | 色波沿灯带流动。 |
+| <img src="../../images/effects/game-of-life.gif" width="64"> | `Game Of Life` | Game Of Life | 网格上细胞生生灭灭。 |
+| <img src="../../images/effects/tartan.gif" width="64"> | `Tartan` | Tartan | 苏格兰格纹。 |
 | <img src="../../images/effects/polar-lights.gif" width="64"> | `Polar Lights` | Polar Lights | 极光带状光影摇曳。 |
-| <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Swirl | 星辰旋涡外扩。 |
+| <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Swirl | 漩涡向外旋卷。 |
 | <img src="../../images/effects/lissajous.gif" width="64"> | `Lissajous` | Lissajous | 李萨如曲线变形。 |
-| <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | 色波沿灯带流动。 |
+| <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | 旋转的几何图案。 |
 | <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | 小球上下弹跳。 |
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | 粒子流动而过。 |
 | <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | 色波沿灯带流动。 |
-| <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | 色波沿灯带流动。 |
+| <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | 漩涡向外旋卷。 |
 | <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | 两条链交织成双螺旋。 |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | 光环塌缩入黑暗核心。 |
 | <img src="../../images/effects/wavesins.gif" width="64"> | `Wavesins` | Wavesins | 色波沿灯带流动。 |
-| <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | 色波沿灯带流动。 |
+| <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | 音符飘过。 |
 | <img src="../../images/effects/akemi.gif" width="64"> | `Akemi` | Akemi | WLED 吉祥物 Akemi 出现。 |
 | <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | 火焰摇曳升腾。 |
 | <img src="../../images/effects/ps-fire.gif" width="64"> | `PS Fire` | PS Fire | 火焰摇曳升腾。 |
 | <img src="../../images/effects/ps-fireworks.gif" width="64"> | `PS Fireworks` | PS Fireworks | 烟花绽放。 |
-| <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | 星辰旋涡外扩。 |
+| <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | 漩涡向外旋卷。 |
 | <img src="../../images/effects/ps-fuzzy-noise.gif" width="64"> | `PS Fuzzy Noise` | PS Fuzzy Noise | 随机闪光。 |
 | <img src="../../images/effects/ps-ballpit.gif" width="64"> | `PS Ballpit` | PS Ballpit | 小球上下弹跳。 |
 | <img src="../../images/effects/ps-box.gif" width="64"> | `PS Box` | PS Box | 色波沿灯带流动。 |

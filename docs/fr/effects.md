@@ -13,7 +13,7 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | <img src="../../images/effects/breathe.gif" width="64"> | `Breathe` | Respiration | La luminosité enfle et retombe. |
 | <img src="../../images/effects/wipe.gif" width="64"> | `Wipe` | Balayage | Un bras d'essuie-glace balaie. |
 | <img src="../../images/effects/wipe-random.gif" width="64"> | `Wipe Random` | Balayage aléatoire | Un bras d'essuie-glace balaie. |
-| <img src="../../images/effects/random-colors.gif" width="64"> | `Random Colors` | Couleurs aléatoires | Des blocs de couleur changent au hasard. |
+| <img src="../../images/effects/random-colors.gif" width="64"> | `Random Colors` | Couleurs aléatoires | Toute la bande vire à une couleur aléatoire. |
 | <img src="../../images/effects/sweep.gif" width="64"> | `Sweep` | Va-et-vient | Un faisceau balaie comme un essuie-glace. |
 | <img src="../../images/effects/dynamic.gif" width="64"> | `Dynamic` | Dynamique | Des blocs de couleur changent au hasard. |
 | <img src="../../images/effects/colorloop.gif" width="64"> | `Colorloop` | Boucle de couleurs | Tout le ruban parcourt les teintes. |
@@ -61,7 +61,7 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | <img src="../../images/effects/two-dots.gif" width="64"> | `Two Dots` | Deux points | Deux points tournent l'un autour de l'autre. |
 | <img src="../../images/effects/fairytwinkle.gif" width="64"> | `Fairytwinkle` | Scintillement féerique | Des guirlandes féeriques scintillent. |
 | <img src="../../images/effects/running-dual.gif" width="64"> | `Running Dual` | Défilement double | Un personnage court. |
-| <img src="../../images/effects/image.gif" width="64"> | `Image` | Image | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/image.gif" width="64"> | `Image` | Image | Une image défile. |
 | <img src="../../images/effects/chase-3.gif" width="64"> | `Chase 3` | Poursuite 3 | Un point lumineux balaie avec une traîne. |
 | <img src="../../images/effects/tri-wipe.gif" width="64"> | `Tri Wipe` | Balayage tricolore | Un bras d'essuie-glace balaie. |
 | <img src="../../images/effects/tri-fade.gif" width="64"> | `Tri Fade` | Fondu tricolore | Une couleur apparaît et disparaît. |
@@ -90,7 +90,7 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | <img src="../../images/effects/ripple.gif" width="64"> | `Ripple` | Ondulation | Des ondulations se propagent sur l'eau. |
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Scintillement renard | Des étoiles scintillent. |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | Des étoiles scintillent. |
-| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Yeux d'Halloween | Un œil balaie du regard. |
+| <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Yeux d'Halloween | Une paire d'yeux cligne dans le noir. |
 | <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Motif fixe | Une couleur unie et stable. |
 | <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Motif fixe tricolore | Une couleur unie et stable. |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Points | Des taches apparaissent et s'estompent. |
@@ -123,7 +123,7 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | <img src="../../images/effects/dancing-shadows.gif" width="64"> | `Dancing Shadows` | Ombres dansantes | Un personnage danse. |
 | <img src="../../images/effects/washing-machine.gif" width="64"> | `Washing Machine` | Machine à laver | Une roue tourne. |
 | <img src="../../images/effects/rotozoomer.gif" width="64"> | `Rotozoomer` | Rotozoomer | Une roue tourne. |
-| <img src="../../images/effects/blends.gif" width="64"> | `Blends` | Mélanges | La luminosité enfle et retombe. |
+| <img src="../../images/effects/blends.gif" width="64"> | `Blends` | Mélanges | Un dégradé de couleurs qui glisse. |
 | <img src="../../images/effects/tv-simulator.gif" width="64"> | `TV Simulator` | Simulateur TV | De la neige de télé scintille. |
 | <img src="../../images/effects/dynamic-smooth.gif" width="64"> | `Dynamic Smooth` | Dynamique doux | Des blocs de couleur changent au hasard. |
 | <img src="../../images/effects/spaceships.gif" width="64"> | `Spaceships` | Vaisseaux | Un vaisseau spatial glisse. |
@@ -131,9 +131,9 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | <img src="../../images/effects/ghost-rider.gif" width="64"> | `Ghost Rider` | Cavalier fantôme | Un fantôme flotte. |
 | <img src="../../images/effects/blobs.gif" width="64"> | `Blobs` | Bulles | Des blobs de couleur se déforment. |
 | <img src="../../images/effects/scrolling-text.gif" width="64"> | `Scrolling Text` | Texte défilant | Des blocs défilent comme du texte. |
-| <img src="../../images/effects/drift-rose.gif" width="64"> | `Drift Rose` | Rosace | Des étoiles s'enroulent en spirale. |
+| <img src="../../images/effects/drift-rose.gif" width="64"> | `Drift Rose` | Rosace | Un tourbillon s'enroule vers l'extérieur. |
 | <img src="../../images/effects/distortion-waves.gif" width="64"> | `Distortion Waves` | Vagues déformées | Une vague de couleur parcourt le ruban. |
-| <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Savon | Des blobs de couleur se déforment. |
+| <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Savon | Des bulles de savon flottent. |
 | <img src="../../images/effects/octopus.gif" width="64"> | `Octopus` | Pieuvre | Une pieuvre agite ses tentacules. |
 | <img src="../../images/effects/waving-cell.gif" width="64"> | `Waving Cell` | Cellule ondulante | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | Du code tombe, façon Matrix. |
@@ -158,7 +158,7 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | <img src="../../images/effects/perlin-move.gif" width="64"> | `Perlin Move` | Perlin Move | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/ripple-peak.gif" width="64"> | `Ripple Peak` | Ripple Peak | Des ondulations se propagent sur l'eau. |
 | <img src="../../images/effects/firenoise.gif" width="64"> | `Firenoise` | Firenoise | Des flammes vacillent et montent. |
-| <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | Des étoiles s'enroulent en spirale. |
+| <img src="../../images/effects/squared-swirl.gif" width="64"> | `Squared Swirl` | Squared Swirl | Un tourbillon s'enroule vers l'extérieur. |
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | Pac-Man | Pac-Man avance en croquant. |
 | <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | Deux brins s'entrelacent en double hélice. |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matrice | Du code tombe, façon Matrix. |
@@ -172,33 +172,33 @@ Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**
 | <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Miroitement | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/pulser.gif" width="64"> | `Pulser` | Pulser | La luminosité enfle et retombe. |
 | <img src="../../images/effects/blurz.gif" width="64"> | `Blurz` | Blurz | Une vague de couleur parcourt le ruban. |
-| <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Dérive | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Dérive | Un tourbillon s'enroule vers l'extérieur. |
 | <img src="../../images/effects/waverly.gif" width="64"> | `Waverly` | Waverly | Une vague de couleur parcourt le ruban. |
-| <img src="../../images/effects/sun-radiation.gif" width="64"> | `Sun Radiation` | Rayonnement solaire | Le soleil se lève. |
-| <img src="../../images/effects/colored-bursts.gif" width="64"> | `Colored Bursts` | Éclats colorés | Une onde de choc s'étend. |
-| <img src="../../images/effects/julia.gif" width="64"> | `Julia` | Julia | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/sun-radiation.gif" width="64"> | `Sun Radiation` | Rayonnement solaire | Un soleil émet des rayons tournants. |
+| <img src="../../images/effects/colored-bursts.gif" width="64"> | `Colored Bursts` | Éclats colorés | Un soleil émet des rayons tournants. |
+| <img src="../../images/effects/julia.gif" width="64"> | `Julia` | Julia | Une fractale de Julia se déforme. |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | Une vague de couleur parcourt le ruban. |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | Une vague de couleur parcourt le ruban. |
-| <img src="../../images/effects/game-of-life.gif" width="64"> | `Game Of Life` | Jeu de la vie | Du code tombe, façon Matrix. |
-| <img src="../../images/effects/tartan.gif" width="64"> | `Tartan` | Tartan | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/game-of-life.gif" width="64"> | `Game Of Life` | Jeu de la vie | Des cellules naissent et meurent sur une grille. |
+| <img src="../../images/effects/tartan.gif" width="64"> | `Tartan` | Tartan | Un tartan écossais. |
 | <img src="../../images/effects/polar-lights.gif" width="64"> | `Polar Lights` | Aurores polaires | Des bandes d'aurore boréale ondulent. |
-| <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Tourbillon | Des étoiles s'enroulent en spirale. |
+| <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Tourbillon | Un tourbillon s'enroule vers l'extérieur. |
 | <img src="../../images/effects/lissajous.gif" width="64"> | `Lissajous` | Lissajous | Une courbe de Lissajous se déforme. |
-| <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | Des motifs géométriques tournent. |
 | <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Boule de plasma | Des balles rebondissent. |
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Bande fluide | Des particules s'écoulent. |
 | <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | Une vague de couleur parcourt le ruban. |
-| <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | Un tourbillon s'enroule vers l'extérieur. |
 | <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | Deux brins s'entrelacent en double hélice. |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Trou noir | Des anneaux s'effondrent vers un cœur noir. |
 | <img src="../../images/effects/wavesins.gif" width="64"> | `Wavesins` | Wavesins | Une vague de couleur parcourt le ruban. |
-| <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | Une vague de couleur parcourt le ruban. |
+| <img src="../../images/effects/rocktaves.gif" width="64"> | `Rocktaves` | Rocktaves | Des notes de musique défilent. |
 | <img src="../../images/effects/akemi.gif" width="64"> | `Akemi` | Akemi | Akemi, la mascotte de WLED, apparaît. |
 | <img src="../../images/effects/ps-volcano.gif" width="64"> | `PS Volcano` | PS Volcano | Des flammes vacillent et montent. |
 | <img src="../../images/effects/ps-fire.gif" width="64"> | `PS Fire` | PS Fire | Des flammes vacillent et montent. |
 | <img src="../../images/effects/ps-fireworks.gif" width="64"> | `PS Fireworks` | PS Fireworks | Un feu d'artifice éclate. |
-| <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | Des étoiles s'enroulent en spirale. |
+| <img src="../../images/effects/ps-vortex.gif" width="64"> | `PS Vortex` | PS Vortex | Un tourbillon s'enroule vers l'extérieur. |
 | <img src="../../images/effects/ps-fuzzy-noise.gif" width="64"> | `PS Fuzzy Noise` | PS Fuzzy Noise | Des étincelles jaillissent au hasard. |
 | <img src="../../images/effects/ps-ballpit.gif" width="64"> | `PS Ballpit` | PS Ballpit | Des balles rebondissent. |
 | <img src="../../images/effects/ps-box.gif" width="64"> | `PS Box` | PS Box | Une vague de couleur parcourt le ruban. |
