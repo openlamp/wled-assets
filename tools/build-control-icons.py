@@ -20,9 +20,9 @@ CTRL_ICONS={
 "Custom 1": _slider(0.25,"1","#8b5cf6"),
 "Custom 2": _slider(0.55,"2","#8b5cf6"),
 "Custom 3": _slider(0.8,"3","#8b5cf6"),
-"Option 1": _toggle(True,"1","#2ee06e"),
-"Option 2": _toggle(False,"2","#2ee06e"),
-"Option 3": _toggle(True,"3","#2ee06e"),
+"Option 1": _toggle(True,"1","#3bb4c9"),   # same toggle image, 3 colours (Benoit 2026-07-12)
+"Option 2": _toggle(True,"2","#e0a44c"),
+"Option 3": _toggle(True,"3","#8b5cf6"),
 "Effect color": _swatch_drop("#e6002a"),
 "Background color": '<rect x="22" y="30" width="100" height="84" rx="12" fill="#3399ff"/><rect x="46" y="52" width="52" height="40" rx="8" fill="#1a1a1a" opacity="0.25"/>',
 "Custom color": '<circle cx="72" cy="72" r="40" fill="#2ee06e"/><path d="M72 72 L72 32 A40 40 0 0 1 106 92 Z" fill="#ffd200"/><path d="M72 72 L106 92 A40 40 0 0 1 38 92 Z" fill="#e6002a"/>',

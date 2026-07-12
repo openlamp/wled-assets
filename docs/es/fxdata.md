@@ -8,17 +8,17 @@ Las **etiquetas de deslizadores** son los nombres de parámetros que cada efecto
 
 | Imagen | Nombre WLED | Traducción |
 |---|---|---|
-| <img src="../../images/fxdata/hash.png" width="48"> | `# blobs` | # blobs |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of Ghosts` | N.º de fantasmas |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of PowerDots` | # of PowerDots |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of balls` | N.º de bolas |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of bands` | N.º de bandas |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of dots` | N.º de puntos |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of drips` | N.º de gotas |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of flashers` | N.º de destellos |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of lines` | N.º de líneas |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of pixels` | N.º de píxeles |
-| <img src="../../images/fxdata/hash.png" width="48"> | `# of shadows` | # of shadows |
+| <img src="../../images/fxdata/balls.png" width="48"> | `# blobs` | # blobs |
+| <img src="../../images/fxdata/ghost.png" width="48"> | `# of Ghosts` | N.º de fantasmas |
+| <img src="../../images/fxdata/dots.png" width="48"> | `# of PowerDots` | # of PowerDots |
+| <img src="../../images/fxdata/balls.png" width="48"> | `# of balls` | N.º de bolas |
+| <img src="../../images/fxdata/bands.png" width="48"> | `# of bands` | N.º de bandas |
+| <img src="../../images/fxdata/dots.png" width="48"> | `# of dots` | N.º de puntos |
+| <img src="../../images/fxdata/drop.png" width="48"> | `# of drips` | N.º de gotas |
+| <img src="../../images/fxdata/flash.png" width="48"> | `# of flashers` | N.º de destellos |
+| <img src="../../images/fxdata/lines.png" width="48"> | `# of lines` | N.º de líneas |
+| <img src="../../images/fxdata/dots.png" width="48"> | `# of pixels` | N.º de píxeles |
+| <img src="../../images/fxdata/shadow.png" width="48"> | `# of shadows` | # of shadows |
 | <img src="../../images/fxdata/slider.png" width="48"> | `% of fill` | % de relleno |
 | <img src="../../images/fxdata/blur.png" width="48"> | `2D Blur` | Desenfoque 2D |
 | <img src="../../images/fxdata/slider.png" width="48"> | `AR` | AR |
@@ -134,7 +134,7 @@ Las **etiquetas de deslizadores** son los nombres de parámetros que cada efecto
 | <img src="../../images/fxdata/slider.png" width="48"> | `Lighten` | Lighten |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Low bin` | Low bin |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Mass` | Mass |
-| <img src="../../images/fxdata/hash.png" width="48"> | `Max # of ripples` | Max # of ripples |
+| <img src="../../images/fxdata/slider.png" width="48"> | `Max # of ripples` | Max # of ripples |
 | <img src="../../images/fxdata/dots.png" width="48"> | `Max iterations per pixel` | Max iterations per pixel |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Max. length` | Max. length |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Mod` | Mod |
@@ -203,7 +203,7 @@ Las **etiquetas de deslizadores** son los nombres de parámetros que cada efecto
 | <img src="../../images/fxdata/star.png" width="48"> | `Starfield` | Starfield |
 | <img src="../../images/fxdata/star.png" width="48"> | `Start` | Start |
 | <img src="../../images/fxdata/drop.png" width="48"> | `Starting color` | Starting color |
-| <img src="../../images/fxdata/hash.png" width="48"> | `Starting color and # of pixels` | Starting color and # of pixels |
+| <img src="../../images/fxdata/drop.png" width="48"> | `Starting color and # of pixels` | Starting color and # of pixels |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Stiffness` | Stiffness |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Swallow` | Swallow |
 | <img src="../../images/fxdata/slider.png" width="48"> | `Sweep` | Sweep |
