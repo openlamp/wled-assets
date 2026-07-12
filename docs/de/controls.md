@@ -1,6 +1,6 @@
 # WLED Regler
 
-[Paletten](palettes.md) · [Effekte](effects.md) · **Regler** · [Farben](colors.md) &nbsp;•&nbsp; [Referenz auf Deutsch](README.md)
+[Paletten](palettes.md) · [Effekte](effects.md) · **Regler** · [Farben](colors.md) · [Nachtlicht](nightlight.md) &nbsp;•&nbsp; [Referenz auf Deutsch](README.md)
 
 <sub>Andere Sprachen: [EN](../en/controls.md) · [FR](../fr/controls.md) · [ES](../es/controls.md) · [IT](../it/controls.md) · [JA](../ja/controls.md) · [KO](../ko/controls.md) · [ZH](../zh/controls.md)</sub>
 

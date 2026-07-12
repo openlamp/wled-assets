@@ -1,6 +1,6 @@
 # WLED Colores
 
-[Paletas](palettes.md) · [Efectos](effects.md) · [Controles](controls.md) · **Colores** &nbsp;•&nbsp; [Referencia en español](README.md)
+[Paletas](palettes.md) · [Efectos](effects.md) · [Controles](controls.md) · **Colores** · [Luz nocturna](nightlight.md) &nbsp;•&nbsp; [Referencia en español](README.md)
 
 <sub>Otros idiomas: [EN](../en/colors.md) · [FR](../fr/colors.md) · [DE](../de/colors.md) · [IT](../it/colors.md) · [JA](../ja/colors.md) · [KO](../ko/colors.md) · [ZH](../zh/colors.md)</sub>
 

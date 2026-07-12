@@ -1,6 +1,6 @@
 # WLED 컨트롤
 
-[팔레트](palettes.md) · [효과](effects.md) · **컨트롤** · [색](colors.md) &nbsp;•&nbsp; [한국어 참조](README.md)
+[팔레트](palettes.md) · [효과](effects.md) · **컨트롤** · [색](colors.md) · [야간등](nightlight.md) &nbsp;•&nbsp; [한국어 참조](README.md)
 
 <sub>다른 언어: [EN](../en/controls.md) · [FR](../fr/controls.md) · [DE](../de/controls.md) · [ES](../es/controls.md) · [IT](../it/controls.md) · [JA](../ja/controls.md) · [ZH](../zh/controls.md)</sub>
 

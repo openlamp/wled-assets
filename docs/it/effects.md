@@ -1,6 +1,6 @@
 # WLED Effetti
 
-[Tavolozze](palettes.md) · **Effetti** · [Controlli](controls.md) · [Colori](colors.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
+[Tavolozze](palettes.md) · **Effetti** · [Controlli](controls.md) · [Colori](colors.md) · [Luce notturna](nightlight.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
 
 <sub>Altre lingue: [EN](../en/effects.md) · [FR](../fr/effects.md) · [DE](../de/effects.md) · [ES](../es/effects.md) · [JA](../ja/effects.md) · [KO](../ko/effects.md) · [ZH](../zh/effects.md)</sub>
 

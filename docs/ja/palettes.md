@@ -1,6 +1,6 @@
 # WLED パレット
 
-**パレット** · [エフェクト](effects.md) · [コントロール](controls.md) · [色](colors.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
+**パレット** · [エフェクト](effects.md) · [コントロール](controls.md) · [色](colors.md) · [ナイトライト](nightlight.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
 
 <sub>他の言語: [EN](../en/palettes.md) · [FR](../fr/palettes.md) · [DE](../de/palettes.md) · [ES](../es/palettes.md) · [IT](../it/palettes.md) · [KO](../ko/palettes.md) · [ZH](../zh/palettes.md)</sub>
 

@@ -1,6 +1,6 @@
 # WLED 调色板
 
-**调色板** · [效果](effects.md) · [控件](controls.md) · [颜色](colors.md) &nbsp;•&nbsp; [中文参考](README.md)
+**调色板** · [效果](effects.md) · [控件](controls.md) · [颜色](colors.md) · [夜灯](nightlight.md) &nbsp;•&nbsp; [中文参考](README.md)
 
 <sub>其他语言: [EN](../en/palettes.md) · [FR](../fr/palettes.md) · [DE](../de/palettes.md) · [ES](../es/palettes.md) · [IT](../it/palettes.md) · [JA](../ja/palettes.md) · [KO](../ko/palettes.md)</sub>
 

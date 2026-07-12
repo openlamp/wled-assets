@@ -4,6 +4,7 @@
 - [Effekte](effects.md)
 - [Regler](controls.md)
 - [Farben](colors.md)
+- [Nachtlicht](nightlight.md)
 
 ---
 
