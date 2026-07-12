@@ -48,6 +48,26 @@ to show localized names, telling palette icons, and a preview of what each effec
 > English name when a translation or asset is missing — so a consumer is never worse off
 > than plain WLED.
 
+## For client developers
+
+If you build a WLED client — the **web UI**, a **phone app**, a **browser overlay**, a
+Stream Deck / MIDI tool — this repo drops localized names and telling visuals into your UI
+for free, at runtime, **without touching the firmware or its binary size**:
+
+1. Read the device's list once: `GET /json/eff`, `GET /json/pal`. The **exact English name**
+   at each index is your join key (indices are not stable across WLED versions — names are).
+2. Look the name up in `i18n/effects.json` / `i18n/palettes.json` for the user's language
+   (`en fr de es it ja ko zh`), fall back to `en`. Show `name` (+ optional `desc`).
+3. For a palette thumbnail, take `illustrations/<slug>.svg` and inject the palette's real
+   colours from `GET /json/palx`. For an effect preview, use `animations/families.json` +
+   `tools/anim.js`.
+
+Everything is **CC0** — vendor it as a submodule, a package, or a plain copy, no attribution
+required. Fetch it from a CDN so updates land without an app release. Because it's keyed on
+the English name with English fallback, a missing entry is never worse than plain WLED. A
+runnable proof-of-concept (a drop-in overlay for the WLED web UI) lives in
+[`pages/webui-localize-poc.html`](pages/webui-localize-poc.html).
+
 ## Browse the docs (GitHub-rendered)
 
 One page per **language × concept** — English name · translation · description · illustration.
