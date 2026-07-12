@@ -4,9 +4,9 @@
 
 <sub>Andere Sprachen: [EN](../en/nightlight.md) · [FR](../fr/nightlight.md) · [ES](../es/nightlight.md) · [IT](../it/nightlight.md) · [JA](../ja/nightlight.md) · [KO](../ko/nightlight.md) · [ZH](../zh/nightlight.md)</sub>
 
-| WLED-Name | Übersetzung | Beschreibung |
-|---|---|---|
-| `Instant` | Sofort | Das Licht schaltet am Timer-Ende sofort aus — ohne Überblendung. |
-| `Fade` | Überblenden | Die Helligkeit sinkt über die gesamte Dauer allmählich. |
-| `Colour fade` | Farbüberblendung | Blendet Helligkeit UND Farbe zur Nachtlichtfarbe. |
-| `Sunrise` | Sonnenaufgang | Wecklicht: Helligkeit steigt über die Dauer, wie ein Sonnenaufgang. |
+| Bild | WLED-Name | Übersetzung | Beschreibung |
+|---|---|---|---|
+| <img src="../../images/nightlight/instant.png" width="56"> | `Instant` | Sofort | Das Licht schaltet am Timer-Ende sofort aus — ohne Überblendung. |
+| <img src="../../images/nightlight/fade.png" width="56"> | `Fade` | Überblenden | Die Helligkeit sinkt über die gesamte Dauer allmählich. |
+| <img src="../../images/nightlight/colour-fade.png" width="56"> | `Colour fade` | Farbüberblendung | Blendet Helligkeit UND Farbe zur Nachtlichtfarbe. |
+| <img src="../../images/nightlight/sunrise.png" width="56"> | `Sunrise` | Sonnenaufgang | Wecklicht: Helligkeit steigt über die Dauer, wie ein Sonnenaufgang. |

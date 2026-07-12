@@ -4,9 +4,9 @@
 
 <sub>Otros idiomas: [EN](../en/nightlight.md) · [FR](../fr/nightlight.md) · [DE](../de/nightlight.md) · [IT](../it/nightlight.md) · [JA](../ja/nightlight.md) · [KO](../ko/nightlight.md) · [ZH](../zh/nightlight.md)</sub>
 
-| Nombre WLED | Traducción | Descripción |
-|---|---|---|
-| `Instant` | Instantáneo | La luz se apaga de golpe al terminar el temporizador — sin fundido. |
-| `Fade` | Fundido | El brillo baja gradualmente durante toda la duración. |
-| `Colour fade` | Fundido de color | Funde brillo Y color hacia el color de luz nocturna. |
-| `Sunrise` | Amanecer | Luz de despertar: el brillo SUBE durante la duración, como un amanecer. |
+| Imagen | Nombre WLED | Traducción | Descripción |
+|---|---|---|---|
+| <img src="../../images/nightlight/instant.png" width="56"> | `Instant` | Instantáneo | La luz se apaga de golpe al terminar el temporizador — sin fundido. |
+| <img src="../../images/nightlight/fade.png" width="56"> | `Fade` | Fundido | El brillo baja gradualmente durante toda la duración. |
+| <img src="../../images/nightlight/colour-fade.png" width="56"> | `Colour fade` | Fundido de color | Funde brillo Y color hacia el color de luz nocturna. |
+| <img src="../../images/nightlight/sunrise.png" width="56"> | `Sunrise` | Amanecer | Luz de despertar: el brillo SUBE durante la duración, como un amanecer. |

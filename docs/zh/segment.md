@@ -4,11 +4,11 @@
 
 <sub>其他语言: [EN](../en/segment.md) · [FR](../fr/segment.md) · [DE](../de/segment.md) · [ES](../es/segment.md) · [IT](../it/segment.md) · [JA](../ja/segment.md) · [KO](../ko/segment.md)</sub>
 
-| WLED 名称 | 翻译 | 描述 |
-|---|---|---|
-| `Reverse` | 反向 | 沿段以相反方向播放效果。 |
-| `Mirror` | 镜像 | 分割段并从中心镜像效果。 |
-| `Freeze` | 冻结 | 在当前帧冻结效果。 |
-| `On/Off` | 开/关 | 打开或关闭该段。 |
-| `Transition` | 过渡 | 切换状态或预设时的交叉淡入时长。 |
-| `Sound sim` | 音频模拟 | 无实时音频时的音频模拟模式。 |
+| 图片 | WLED 名称 | 翻译 | 描述 |
+|---|---|---|---|
+| <img src="../../images/segment/reverse.png" width="56"> | `Reverse` | 反向 | 沿段以相反方向播放效果。 |
+| <img src="../../images/segment/mirror.png" width="56"> | `Mirror` | 镜像 | 分割段并从中心镜像效果。 |
+| <img src="../../images/segment/freeze.png" width="56"> | `Freeze` | 冻结 | 在当前帧冻结效果。 |
+| <img src="../../images/segment/on-off.png" width="56"> | `On/Off` | 开/关 | 打开或关闭该段。 |
+| <img src="../../images/segment/transition.png" width="56"> | `Transition` | 过渡 | 切换状态或预设时的交叉淡入时长。 |
+| <img src="../../images/segment/sound-sim.png" width="56"> | `Sound sim` | 音频模拟 | 无实时音频时的音频模拟模式。 |

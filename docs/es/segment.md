@@ -4,11 +4,11 @@
 
 <sub>Otros idiomas: [EN](../en/segment.md) · [FR](../fr/segment.md) · [DE](../de/segment.md) · [IT](../it/segment.md) · [JA](../ja/segment.md) · [KO](../ko/segment.md) · [ZH](../zh/segment.md)</sub>
 
-| Nombre WLED | Traducción | Descripción |
-|---|---|---|
-| `Reverse` | Invertir | Reproducir el efecto en sentido inverso. |
-| `Mirror` | Espejo | Dividir el segmento y reflejar el efecto desde el centro. |
-| `Freeze` | Congelar | Congelar el efecto en el fotograma actual. |
-| `On/Off` | Encendido/Apagado | Encender o apagar el segmento. |
-| `Transition` | Transición | Tiempo de fundido al cambiar de estado o preset. |
-| `Sound sim` | Simulación de audio | Modo de simulación de audio sin sonido en vivo. |
+| Imagen | Nombre WLED | Traducción | Descripción |
+|---|---|---|---|
+| <img src="../../images/segment/reverse.png" width="56"> | `Reverse` | Invertir | Reproducir el efecto en sentido inverso. |
+| <img src="../../images/segment/mirror.png" width="56"> | `Mirror` | Espejo | Dividir el segmento y reflejar el efecto desde el centro. |
+| <img src="../../images/segment/freeze.png" width="56"> | `Freeze` | Congelar | Congelar el efecto en el fotograma actual. |
+| <img src="../../images/segment/on-off.png" width="56"> | `On/Off` | Encendido/Apagado | Encender o apagar el segmento. |
+| <img src="../../images/segment/transition.png" width="56"> | `Transition` | Transición | Tiempo de fundido al cambiar de estado o preset. |
+| <img src="../../images/segment/sound-sim.png" width="56"> | `Sound sim` | Simulación de audio | Modo de simulación de audio sin sonido en vivo. |

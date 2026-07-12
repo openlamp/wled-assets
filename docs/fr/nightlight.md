@@ -4,9 +4,9 @@
 
 <sub>Autres langues: [EN](../en/nightlight.md) · [DE](../de/nightlight.md) · [ES](../es/nightlight.md) · [IT](../it/nightlight.md) · [JA](../ja/nightlight.md) · [KO](../ko/nightlight.md) · [ZH](../zh/nightlight.md)</sub>
 
-| Nom WLED | Traduction | Description |
-|---|---|---|
-| `Instant` | Instantané | La lumière s'éteint d'un coup à la fin du minuteur — sans fondu. |
-| `Fade` | Fondu | La luminosité descend progressivement sur toute la durée. |
-| `Colour fade` | Fondu couleur | Fond la luminosité ET la couleur vers la couleur de veilleuse. |
-| `Sunrise` | Lever de soleil | Réveil lumineux : la luminosité MONTE sur la durée, comme une aube. |
+| Image | Nom WLED | Traduction | Description |
+|---|---|---|---|
+| <img src="../../images/nightlight/instant.png" width="56"> | `Instant` | Instantané | La lumière s'éteint d'un coup à la fin du minuteur — sans fondu. |
+| <img src="../../images/nightlight/fade.png" width="56"> | `Fade` | Fondu | La luminosité descend progressivement sur toute la durée. |
+| <img src="../../images/nightlight/colour-fade.png" width="56"> | `Colour fade` | Fondu couleur | Fond la luminosité ET la couleur vers la couleur de veilleuse. |
+| <img src="../../images/nightlight/sunrise.png" width="56"> | `Sunrise` | Lever de soleil | Réveil lumineux : la luminosité MONTE sur la durée, comme une aube. |
