@@ -2350,35 +2350,35 @@
   "Fill Noise": {
    "en": {
     "name": "Fill Noise",
-    "desc": "A single steady colour."
+    "desc": "Random sparkles pop."
    },
    "fr": {
     "name": "Bruit rempli",
-    "desc": "Une couleur unie et stable."
+    "desc": "Des étincelles jaillissent au hasard."
    },
    "de": {
     "name": "Fill Noise",
-    "desc": "Eine einzelne, ruhige Farbe."
+    "desc": "Zufällige Funken blitzen."
    },
    "es": {
     "name": "Fill Noise",
-    "desc": "Un solo color estable."
+    "desc": "Destellos aleatorios saltan."
    },
    "it": {
     "name": "Fill Noise",
-    "desc": "Un unico colore fisso."
+    "desc": "Scintille casuali guizzano."
    },
    "ja": {
     "name": "Fill Noise",
-    "desc": "単一の安定した色。"
+    "desc": "ランダムにきらめく。"
    },
    "ko": {
     "name": "Fill Noise",
-    "desc": "단색의 고정 색상."
+    "desc": "무작위로 반짝인다."
    },
    "zh": {
     "name": "Fill Noise",
-    "desc": "单一稳定的颜色。"
+    "desc": "随机闪光。"
    }
   },
   "Noise 1": {
@@ -2826,69 +2826,69 @@
   "Solid Pattern": {
    "en": {
     "name": "Solid Pattern",
-    "desc": "A single steady colour."
+    "desc": "A pattern of on/off stripes scrolls."
    },
    "fr": {
     "name": "Motif fixe",
-    "desc": "Une couleur unie et stable."
+    "desc": "Un motif de rayures défile."
    },
    "de": {
     "name": "Solid Pattern",
-    "desc": "Eine einzelne, ruhige Farbe."
+    "desc": "Ein Muster aus Streifen scrollt."
    },
    "es": {
     "name": "Solid Pattern",
-    "desc": "Un solo color estable."
+    "desc": "Un patrón de rayas se desplaza."
    },
    "it": {
     "name": "Solid Pattern",
-    "desc": "Un unico colore fisso."
+    "desc": "Un motivo di strisce scorre."
    },
    "ja": {
     "name": "Solid Pattern",
-    "desc": "単一の安定した色。"
+    "desc": "縞模様が流れる。"
    },
    "ko": {
     "name": "Solid Pattern",
-    "desc": "단색의 고정 색상."
+    "desc": "줄무늬 패턴이 흐른다."
    },
    "zh": {
     "name": "Solid Pattern",
-    "desc": "单一稳定的颜色。"
+    "desc": "条纹图案滚动。"
    }
   },
   "Solid Pattern Tri": {
    "en": {
     "name": "Solid Pattern Tri",
-    "desc": "A single steady colour."
+    "desc": "A pattern of on/off stripes scrolls."
    },
    "fr": {
     "name": "Motif fixe tricolore",
-    "desc": "Une couleur unie et stable."
+    "desc": "Un motif de rayures défile."
    },
    "de": {
     "name": "Solid Pattern Tri",
-    "desc": "Eine einzelne, ruhige Farbe."
+    "desc": "Ein Muster aus Streifen scrollt."
    },
    "es": {
     "name": "Solid Pattern Tri",
-    "desc": "Un solo color estable."
+    "desc": "Un patrón de rayas se desplaza."
    },
    "it": {
     "name": "Solid Pattern Tri",
-    "desc": "Un unico colore fisso."
+    "desc": "Un motivo di strisce scorre."
    },
    "ja": {
     "name": "Solid Pattern Tri",
-    "desc": "単一の安定した色。"
+    "desc": "縞模様が流れる。"
    },
    "ko": {
     "name": "Solid Pattern Tri",
-    "desc": "단색의 고정 색상."
+    "desc": "줄무늬 패턴이 흐른다."
    },
    "zh": {
     "name": "Solid Pattern Tri",
-    "desc": "单一稳定的颜色。"
+    "desc": "条纹图案滚动。"
    }
   },
   "Spots": {
@@ -4356,69 +4356,69 @@
   "Pixels": {
    "en": {
     "name": "Pixels",
-    "desc": "Code rains down, Matrix-style."
+    "desc": "Stars twinkle."
    },
    "fr": {
     "name": "Pixels",
-    "desc": "Du code tombe, façon Matrix."
+    "desc": "Des étoiles scintillent."
    },
    "de": {
     "name": "Pixels",
-    "desc": "Code regnet herab, Matrix-Stil."
+    "desc": "Sterne funkeln."
    },
    "es": {
     "name": "Pixels",
-    "desc": "Código cae, estilo Matrix."
+    "desc": "Estrellas centellean."
    },
    "it": {
     "name": "Pixels",
-    "desc": "Codice cade, stile Matrix."
+    "desc": "Stelle brillano."
    },
    "ja": {
     "name": "Pixels",
-    "desc": "マトリックス風にコードが降る。"
+    "desc": "星がまたたく。"
    },
    "ko": {
     "name": "Pixels",
-    "desc": "매트릭스처럼 코드가 쏟아진다."
+    "desc": "별이 반짝인다."
    },
    "zh": {
     "name": "Pixels",
-    "desc": "代码如《黑客帝国》般落下。"
+    "desc": "星星闪烁。"
    }
   },
   "Pixelwave": {
    "en": {
     "name": "Pixelwave",
-    "desc": "Code rains down, Matrix-style."
+    "desc": "Ripples spread over water."
    },
    "fr": {
     "name": "Vague de pixels",
-    "desc": "Du code tombe, façon Matrix."
+    "desc": "Des ondulations se propagent sur l'eau."
    },
    "de": {
     "name": "Pixelwave",
-    "desc": "Code regnet herab, Matrix-Stil."
+    "desc": "Wellen breiten sich über Wasser aus."
    },
    "es": {
     "name": "Pixelwave",
-    "desc": "Código cae, estilo Matrix."
+    "desc": "Ondas se extienden sobre el agua."
    },
    "it": {
     "name": "Pixelwave",
-    "desc": "Codice cade, stile Matrix."
+    "desc": "Increspature si diffondono sull'acqua."
    },
    "ja": {
     "name": "Pixelwave",
-    "desc": "マトリックス風にコードが降る。"
+    "desc": "水面に波紋が広がる。"
    },
    "ko": {
     "name": "Pixelwave",
-    "desc": "매트릭스처럼 코드가 쏟아진다."
+    "desc": "물결이 퍼진다."
    },
    "zh": {
     "name": "Pixelwave",
-    "desc": "代码如《黑客帝国》般落下。"
+    "desc": "水面涟漪扩散。"
    }
   },
   "Juggles": {
@@ -4628,137 +4628,137 @@
   "Noisemeter": {
    "en": {
     "name": "Noisemeter",
-    "desc": "Random sparkles pop."
+    "desc": "An audio equalizer, bars bouncing to sound."
    },
    "fr": {
     "name": "Noisemeter",
-    "desc": "Des étincelles jaillissent au hasard."
+    "desc": "Un équaliseur audio, barres qui rebondissent au son."
    },
    "de": {
     "name": "Noisemeter",
-    "desc": "Zufällige Funken blitzen."
+    "desc": "Ein Audio-Equalizer, Balken tanzen zum Klang."
    },
    "es": {
     "name": "Noisemeter",
-    "desc": "Destellos aleatorios saltan."
+    "desc": "Un ecualizador de audio, barras que rebotan al sonido."
    },
    "it": {
     "name": "Noisemeter",
-    "desc": "Scintille casuali guizzano."
+    "desc": "Un equalizzatore audio, barre che rimbalzano al suono."
    },
    "ja": {
     "name": "Noisemeter",
-    "desc": "ランダムにきらめく。"
+    "desc": "音に合わせて跳ねるオーディオイコライザー。"
    },
    "ko": {
     "name": "Noisemeter",
-    "desc": "무작위로 반짝인다."
+    "desc": "소리에 맞춰 튀는 오디오 이퀄라이저."
    },
    "zh": {
     "name": "Noisemeter",
-    "desc": "随机闪光。"
+    "desc": "随声跳动的音频均衡器。"
    }
   },
   "Freqwave": {
    "en": {
     "name": "Freqwave",
-    "desc": "Ripples spread over water."
+    "desc": "An audio equalizer, bars bouncing to sound."
    },
    "fr": {
     "name": "Freqwave",
-    "desc": "Des ondulations se propagent sur l'eau."
+    "desc": "Un équaliseur audio, barres qui rebondissent au son."
    },
    "de": {
     "name": "Freqwave",
-    "desc": "Wellen breiten sich über Wasser aus."
+    "desc": "Ein Audio-Equalizer, Balken tanzen zum Klang."
    },
    "es": {
     "name": "Freqwave",
-    "desc": "Ondas se extienden sobre el agua."
+    "desc": "Un ecualizador de audio, barras que rebotan al sonido."
    },
    "it": {
     "name": "Freqwave",
-    "desc": "Increspature si diffondono sull'acqua."
+    "desc": "Un equalizzatore audio, barre che rimbalzano al suono."
    },
    "ja": {
     "name": "Freqwave",
-    "desc": "水面に波紋が広がる。"
+    "desc": "音に合わせて跳ねるオーディオイコライザー。"
    },
    "ko": {
     "name": "Freqwave",
-    "desc": "물결이 퍼진다."
+    "desc": "소리에 맞춰 튀는 오디오 이퀄라이저."
    },
    "zh": {
     "name": "Freqwave",
-    "desc": "水面涟漪扩散。"
+    "desc": "随声跳动的音频均衡器。"
    }
   },
   "Freqmatrix": {
    "en": {
     "name": "Freqmatrix",
-    "desc": "Code rains down, Matrix-style."
+    "desc": "An audio equalizer, bars bouncing to sound."
    },
    "fr": {
     "name": "Freqmatrix",
-    "desc": "Du code tombe, façon Matrix."
+    "desc": "Un équaliseur audio, barres qui rebondissent au son."
    },
    "de": {
     "name": "Freqmatrix",
-    "desc": "Code regnet herab, Matrix-Stil."
+    "desc": "Ein Audio-Equalizer, Balken tanzen zum Klang."
    },
    "es": {
     "name": "Freqmatrix",
-    "desc": "Código cae, estilo Matrix."
+    "desc": "Un ecualizador de audio, barras que rebotan al sonido."
    },
    "it": {
     "name": "Freqmatrix",
-    "desc": "Codice cade, stile Matrix."
+    "desc": "Un equalizzatore audio, barre che rimbalzano al suono."
    },
    "ja": {
     "name": "Freqmatrix",
-    "desc": "マトリックス風にコードが降る。"
+    "desc": "音に合わせて跳ねるオーディオイコライザー。"
    },
    "ko": {
     "name": "Freqmatrix",
-    "desc": "매트릭스처럼 코드가 쏟아진다."
+    "desc": "소리에 맞춰 튀는 오디오 이퀄라이저."
    },
    "zh": {
     "name": "Freqmatrix",
-    "desc": "代码如《黑客帝国》般落下。"
+    "desc": "随声跳动的音频均衡器。"
    }
   },
   "GEQ": {
    "en": {
     "name": "GEQ",
-    "desc": "Ripples spread over water."
+    "desc": "An audio equalizer, bars bouncing to sound."
    },
    "fr": {
     "name": "GEQ",
-    "desc": "Des ondulations se propagent sur l'eau."
+    "desc": "Un équaliseur audio, barres qui rebondissent au son."
    },
    "de": {
     "name": "GEQ",
-    "desc": "Wellen breiten sich über Wasser aus."
+    "desc": "Ein Audio-Equalizer, Balken tanzen zum Klang."
    },
    "es": {
     "name": "GEQ",
-    "desc": "Ondas se extienden sobre el agua."
+    "desc": "Un ecualizador de audio, barras que rebotan al sonido."
    },
    "it": {
     "name": "GEQ",
-    "desc": "Increspature si diffondono sull'acqua."
+    "desc": "Un equalizzatore audio, barre che rimbalzano al suono."
    },
    "ja": {
     "name": "GEQ",
-    "desc": "水面に波紋が広がる。"
+    "desc": "音に合わせて跳ねるオーディオイコライザー。"
    },
    "ko": {
     "name": "GEQ",
-    "desc": "물결이 퍼진다."
+    "desc": "소리에 맞춰 튀는 오디오 이퀄라이저."
    },
    "zh": {
     "name": "GEQ",
-    "desc": "水面涟漪扩散。"
+    "desc": "随声跳动的音频均衡器。"
    }
   },
   "Waterfall": {
@@ -4798,35 +4798,35 @@
   "Freqpixels": {
    "en": {
     "name": "Freqpixels",
-    "desc": "Code rains down, Matrix-style."
+    "desc": "An audio equalizer, bars bouncing to sound."
    },
    "fr": {
     "name": "Freqpixels",
-    "desc": "Du code tombe, façon Matrix."
+    "desc": "Un équaliseur audio, barres qui rebondissent au son."
    },
    "de": {
     "name": "Freqpixels",
-    "desc": "Code regnet herab, Matrix-Stil."
+    "desc": "Ein Audio-Equalizer, Balken tanzen zum Klang."
    },
    "es": {
     "name": "Freqpixels",
-    "desc": "Código cae, estilo Matrix."
+    "desc": "Un ecualizador de audio, barras que rebotan al sonido."
    },
    "it": {
     "name": "Freqpixels",
-    "desc": "Codice cade, stile Matrix."
+    "desc": "Un equalizzatore audio, barre che rimbalzano al suono."
    },
    "ja": {
     "name": "Freqpixels",
-    "desc": "マトリックス風にコードが降る。"
+    "desc": "音に合わせて跳ねるオーディオイコライザー。"
    },
    "ko": {
     "name": "Freqpixels",
-    "desc": "매트릭스처럼 코드가 쏟아진다."
+    "desc": "소리에 맞춰 튀는 오디오 이퀄라이저."
    },
    "zh": {
     "name": "Freqpixels",
-    "desc": "代码如《黑客帝国》般落下。"
+    "desc": "随声跳动的音频均衡器。"
    }
   },
   "RSVD": {
@@ -5240,69 +5240,69 @@
   "Metaballs": {
    "en": {
     "name": "Metaballs",
-    "desc": "Balls bounce up and down."
+    "desc": "Colour blobs morph and drift."
    },
    "fr": {
     "name": "Metaballs",
-    "desc": "Des balles rebondissent."
+    "desc": "Des blobs de couleur se déforment."
    },
    "de": {
     "name": "Metaballs",
-    "desc": "Bälle springen auf und ab."
+    "desc": "Farbblasen wandeln sich."
    },
    "es": {
     "name": "Metaballs",
-    "desc": "Pelotas rebotan."
+    "desc": "Manchas de color se transforman."
    },
    "it": {
     "name": "Metaballs",
-    "desc": "Palline rimbalzano."
+    "desc": "Bolle di colore si trasformano."
    },
    "ja": {
     "name": "Metaballs",
-    "desc": "ボールが跳ね回る。"
+    "desc": "色の塊が形を変える。"
    },
    "ko": {
     "name": "Metaballs",
-    "desc": "공이 튀어 오른다."
+    "desc": "색 덩어리가 일렁인다."
    },
    "zh": {
     "name": "Metaballs",
-    "desc": "小球上下弹跳。"
+    "desc": "色团流变漂移。"
    }
   },
   "Freqmap": {
    "en": {
     "name": "Freqmap",
-    "desc": "Ripples spread over water."
+    "desc": "An audio equalizer, bars bouncing to sound."
    },
    "fr": {
     "name": "Freqmap",
-    "desc": "Des ondulations se propagent sur l'eau."
+    "desc": "Un équaliseur audio, barres qui rebondissent au son."
    },
    "de": {
     "name": "Freqmap",
-    "desc": "Wellen breiten sich über Wasser aus."
+    "desc": "Ein Audio-Equalizer, Balken tanzen zum Klang."
    },
    "es": {
     "name": "Freqmap",
-    "desc": "Ondas se extienden sobre el agua."
+    "desc": "Un ecualizador de audio, barras que rebotan al sonido."
    },
    "it": {
     "name": "Freqmap",
-    "desc": "Increspature si diffondono sull'acqua."
+    "desc": "Un equalizzatore audio, barre che rimbalzano al suono."
    },
    "ja": {
     "name": "Freqmap",
-    "desc": "水面に波紋が広がる。"
+    "desc": "音に合わせて跳ねるオーディオイコライザー。"
    },
    "ko": {
     "name": "Freqmap",
-    "desc": "물결이 퍼진다."
+    "desc": "소리에 맞춰 튀는 오디오 이퀄라이저."
    },
    "zh": {
     "name": "Freqmap",
-    "desc": "水面涟漪扩散。"
+    "desc": "随声跳动的音频均衡器。"
    }
   },
   "Gravcenter": {
@@ -5478,35 +5478,35 @@
   "Shimmer": {
    "en": {
     "name": "Shimmer",
-    "desc": "A colour wave travels along the strip."
+    "desc": "Glitter sparkles over the colour."
    },
    "fr": {
     "name": "Miroitement",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Des paillettes scintillent sur la couleur."
    },
    "de": {
     "name": "Shimmer",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Glitzer funkelt über der Farbe."
    },
    "es": {
     "name": "Shimmer",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Purpurina brilla sobre el color."
    },
    "it": {
     "name": "Shimmer",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Glitter scintilla sul colore."
    },
    "ja": {
     "name": "Shimmer",
-    "desc": "色の波がストリップを進む。"
+    "desc": "色の上にグリッターが輝く。"
    },
    "ko": {
     "name": "Shimmer",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "색 위로 반짝이가 빛난다."
    },
    "zh": {
     "name": "Shimmer",
-    "desc": "色波沿灯带流动。"
+    "desc": "色彩上闪着亮片。"
    }
   },
   "Pulser": {
@@ -5954,35 +5954,35 @@
   "Plasma Ball": {
    "en": {
     "name": "Plasma Ball",
-    "desc": "Balls bounce up and down."
+    "desc": "Electric tendrils in a plasma globe."
    },
    "fr": {
     "name": "Boule de plasma",
-    "desc": "Des balles rebondissent."
+    "desc": "Des filaments électriques dans une boule à plasma."
    },
    "de": {
     "name": "Plasma Ball",
-    "desc": "Bälle springen auf und ab."
+    "desc": "Elektrische Ranken in einer Plasmakugel."
    },
    "es": {
     "name": "Plasma Ball",
-    "desc": "Pelotas rebotan."
+    "desc": "Filamentos eléctricos en una bola de plasma."
    },
    "it": {
     "name": "Plasma Ball",
-    "desc": "Palline rimbalzano."
+    "desc": "Filamenti elettrici in una sfera al plasma."
    },
    "ja": {
     "name": "Plasma Ball",
-    "desc": "ボールが跳ね回る。"
+    "desc": "プラズマボール内の電気の筋。"
    },
    "ko": {
     "name": "Plasma Ball",
-    "desc": "공이 튀어 오른다."
+    "desc": "플라스마 볼 속 전기 줄기."
    },
    "zh": {
     "name": "Plasma Ball",
-    "desc": "小球上下弹跳。"
+    "desc": "等离子球中的电弧。"
    }
   },
   "Flow Stripe": {
@@ -6022,35 +6022,35 @@
   "Hiphotic": {
    "en": {
     "name": "Hiphotic",
-    "desc": "A colour wave travels along the strip."
+    "desc": "Colour blobs morph and drift."
    },
    "fr": {
     "name": "Hiphotic",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Des blobs de couleur se déforment."
    },
    "de": {
     "name": "Hiphotic",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Farbblasen wandeln sich."
    },
    "es": {
     "name": "Hiphotic",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Manchas de color se transforman."
    },
    "it": {
     "name": "Hiphotic",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Bolle di colore si trasformano."
    },
    "ja": {
     "name": "Hiphotic",
-    "desc": "色の波がストリップを進む。"
+    "desc": "色の塊が形を変える。"
    },
    "ko": {
     "name": "Hiphotic",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "색 덩어리가 일렁인다."
    },
    "zh": {
     "name": "Hiphotic",
-    "desc": "色波沿灯带流动。"
+    "desc": "色团流变漂移。"
    }
   },
   "Sindots": {
@@ -6498,35 +6498,35 @@
   "PS Attractor": {
    "en": {
     "name": "PS Attractor",
-    "desc": "A colour wave travels along the strip."
+    "desc": "Rings collapse into a dark core."
    },
    "fr": {
     "name": "PS Attractor",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Des anneaux s'effondrent vers un cœur noir."
    },
    "de": {
     "name": "PS Attractor",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Ringe stürzen in einen dunklen Kern."
    },
    "es": {
     "name": "PS Attractor",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Anillos colapsan hacia un núcleo oscuro."
    },
    "it": {
     "name": "PS Attractor",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Anelli collassano in un nucleo scuro."
    },
    "ja": {
     "name": "PS Attractor",
-    "desc": "色の波がストリップを進む。"
+    "desc": "輪が暗い核へと崩れ落ちる。"
    },
    "ko": {
     "name": "PS Attractor",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "고리가 어두운 핵으로 붕괴한다."
    },
    "zh": {
     "name": "PS Attractor",
-    "desc": "色波沿灯带流动。"
+    "desc": "光环塌缩入黑暗核心。"
    }
   },
   "PS Impact": {
@@ -6600,103 +6600,103 @@
   "PS Spray": {
    "en": {
     "name": "PS Spray",
-    "desc": "A colour wave travels along the strip."
+    "desc": "Particles spray from a nozzle."
    },
    "fr": {
     "name": "PS Spray",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Des particules jaillissent d'une buse."
    },
    "de": {
     "name": "PS Spray",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Partikel sprühen aus einer Düse."
    },
    "es": {
     "name": "PS Spray",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Partículas brotan de una boquilla."
    },
    "it": {
     "name": "PS Spray",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Particelle spruzzano da un ugello."
    },
    "ja": {
     "name": "PS Spray",
-    "desc": "色の波がストリップを進む。"
+    "desc": "ノズルから粒子が噴き出す。"
    },
    "ko": {
     "name": "PS Spray",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "노즐에서 입자가 뿜어져 나온다."
    },
    "zh": {
     "name": "PS Spray",
-    "desc": "色波沿灯带流动。"
+    "desc": "粒子从喷嘴喷出。"
    }
   },
   "PS GEQ 2D": {
    "en": {
     "name": "PS GEQ 2D",
-    "desc": "Ripples spread over water."
+    "desc": "An audio equalizer, bars bouncing to sound."
    },
    "fr": {
     "name": "PS GEQ 2D",
-    "desc": "Des ondulations se propagent sur l'eau."
+    "desc": "Un équaliseur audio, barres qui rebondissent au son."
    },
    "de": {
     "name": "PS GEQ 2D",
-    "desc": "Wellen breiten sich über Wasser aus."
+    "desc": "Ein Audio-Equalizer, Balken tanzen zum Klang."
    },
    "es": {
     "name": "PS GEQ 2D",
-    "desc": "Ondas se extienden sobre el agua."
+    "desc": "Un ecualizador de audio, barras que rebotan al sonido."
    },
    "it": {
     "name": "PS GEQ 2D",
-    "desc": "Increspature si diffondono sull'acqua."
+    "desc": "Un equalizzatore audio, barre che rimbalzano al suono."
    },
    "ja": {
     "name": "PS GEQ 2D",
-    "desc": "水面に波紋が広がる。"
+    "desc": "音に合わせて跳ねるオーディオイコライザー。"
    },
    "ko": {
     "name": "PS GEQ 2D",
-    "desc": "물결이 퍼진다."
+    "desc": "소리에 맞춰 튀는 오디오 이퀄라이저."
    },
    "zh": {
     "name": "PS GEQ 2D",
-    "desc": "水面涟漪扩散。"
+    "desc": "随声跳动的音频均衡器。"
    }
   },
   "PS GEQ Nova": {
    "en": {
     "name": "PS GEQ Nova",
-    "desc": "Ripples spread over water."
+    "desc": "An audio equalizer, bars bouncing to sound."
    },
    "fr": {
     "name": "PS GEQ Nova",
-    "desc": "Des ondulations se propagent sur l'eau."
+    "desc": "Un équaliseur audio, barres qui rebondissent au son."
    },
    "de": {
     "name": "PS GEQ Nova",
-    "desc": "Wellen breiten sich über Wasser aus."
+    "desc": "Ein Audio-Equalizer, Balken tanzen zum Klang."
    },
    "es": {
     "name": "PS GEQ Nova",
-    "desc": "Ondas se extienden sobre el agua."
+    "desc": "Un ecualizador de audio, barras que rebotan al sonido."
    },
    "it": {
     "name": "PS GEQ Nova",
-    "desc": "Increspature si diffondono sull'acqua."
+    "desc": "Un equalizzatore audio, barre che rimbalzano al suono."
    },
    "ja": {
     "name": "PS GEQ Nova",
-    "desc": "水面に波紋が広がる。"
+    "desc": "音に合わせて跳ねるオーディオイコライザー。"
    },
    "ko": {
     "name": "PS GEQ Nova",
-    "desc": "물결이 퍼진다."
+    "desc": "소리에 맞춰 튀는 오디오 이퀄라이저."
    },
    "zh": {
     "name": "PS GEQ Nova",
-    "desc": "水面涟漪扩散。"
+    "desc": "随声跳动的音频均衡器。"
    }
   },
   "PS Ghost Rider": {
@@ -6974,35 +6974,35 @@
   "PS Spray 1D": {
    "en": {
     "name": "PS Spray 1D",
-    "desc": "A colour wave travels along the strip."
+    "desc": "Particles spray from a nozzle."
    },
    "fr": {
     "name": "PS Spray 1D",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Des particules jaillissent d'une buse."
    },
    "de": {
     "name": "PS Spray 1D",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Partikel sprühen aus einer Düse."
    },
    "es": {
     "name": "PS Spray 1D",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Partículas brotan de una boquilla."
    },
    "it": {
     "name": "PS Spray 1D",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Particelle spruzzano da un ugello."
    },
    "ja": {
     "name": "PS Spray 1D",
-    "desc": "色の波がストリップを進む。"
+    "desc": "ノズルから粒子が噴き出す。"
    },
    "ko": {
     "name": "PS Spray 1D",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "노즐에서 입자가 뿜어져 나온다."
    },
    "zh": {
     "name": "PS Spray 1D",
-    "desc": "色波沿灯带流动。"
+    "desc": "粒子从喷嘴喷出。"
    }
   },
   "PS 1D Balance": {
@@ -7076,69 +7076,69 @@
   "PS Starburst": {
    "en": {
     "name": "PS Starburst",
-    "desc": "Stars twinkle."
+    "desc": "A firework bursts."
    },
    "fr": {
     "name": "PS Starburst",
-    "desc": "Des étoiles scintillent."
+    "desc": "Un feu d'artifice éclate."
    },
    "de": {
     "name": "PS Starburst",
-    "desc": "Sterne funkeln."
+    "desc": "Ein Feuerwerk explodiert."
    },
    "es": {
     "name": "PS Starburst",
-    "desc": "Estrellas centellean."
+    "desc": "Un fuego artificial estalla."
    },
    "it": {
     "name": "PS Starburst",
-    "desc": "Stelle brillano."
+    "desc": "Un fuoco d'artificio esplode."
    },
    "ja": {
     "name": "PS Starburst",
-    "desc": "星がまたたく。"
+    "desc": "花火が打ち上がる。"
    },
    "ko": {
     "name": "PS Starburst",
-    "desc": "별이 반짝인다."
+    "desc": "불꽃놀이가 터진다."
    },
    "zh": {
     "name": "PS Starburst",
-    "desc": "星星闪烁。"
+    "desc": "烟花绽放。"
    }
   },
   "PS GEQ 1D": {
    "en": {
     "name": "PS GEQ 1D",
-    "desc": "Ripples spread over water."
+    "desc": "An audio equalizer, bars bouncing to sound."
    },
    "fr": {
     "name": "PS GEQ 1D",
-    "desc": "Des ondulations se propagent sur l'eau."
+    "desc": "Un équaliseur audio, barres qui rebondissent au son."
    },
    "de": {
     "name": "PS GEQ 1D",
-    "desc": "Wellen breiten sich über Wasser aus."
+    "desc": "Ein Audio-Equalizer, Balken tanzen zum Klang."
    },
    "es": {
     "name": "PS GEQ 1D",
-    "desc": "Ondas se extienden sobre el agua."
+    "desc": "Un ecualizador de audio, barras que rebotan al sonido."
    },
    "it": {
     "name": "PS GEQ 1D",
-    "desc": "Increspature si diffondono sull'acqua."
+    "desc": "Un equalizzatore audio, barre che rimbalzano al suono."
    },
    "ja": {
     "name": "PS GEQ 1D",
-    "desc": "水面に波紋が広がる。"
+    "desc": "音に合わせて跳ねるオーディオイコライザー。"
    },
    "ko": {
     "name": "PS GEQ 1D",
-    "desc": "물결이 퍼진다."
+    "desc": "소리에 맞춰 튀는 오디오 이퀄라이저."
    },
    "zh": {
     "name": "PS GEQ 1D",
-    "desc": "水面涟漪扩散。"
+    "desc": "随声跳动的音频均衡器。"
    }
   },
   "PS Fire 1D": {
@@ -7246,35 +7246,35 @@
   "PS Springy": {
    "en": {
     "name": "PS Springy",
-    "desc": "A colour wave travels along the strip."
+    "desc": "A coil spring bounces a bob."
    },
    "fr": {
     "name": "PS Springy",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Un ressort fait rebondir une masse."
    },
    "de": {
     "name": "PS Springy",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Eine Feder lässt ein Gewicht federn."
    },
    "es": {
     "name": "PS Springy",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Un muelle hace rebotar una masa."
    },
    "it": {
     "name": "PS Springy",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Una molla fa rimbalzare un peso."
    },
    "ja": {
     "name": "PS Springy",
-    "desc": "色の波がストリップを進む。"
+    "desc": "バネがおもりを弾ませる。"
    },
    "ko": {
     "name": "PS Springy",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "용수철이 추를 튕긴다."
    },
    "zh": {
     "name": "PS Springy",
-    "desc": "色波沿灯带流动。"
+    "desc": "弹簧使重物弹跳。"
    }
   },
   "PS Galaxy": {
@@ -7348,35 +7348,35 @@
   "Slow Transition": {
    "en": {
     "name": "Slow Transition",
-    "desc": "A colour wave travels along the strip."
+    "desc": "A colour fades in and out."
    },
    "fr": {
     "name": "Transition lente",
-    "desc": "Une vague de couleur parcourt le ruban."
+    "desc": "Une couleur apparaît et disparaît."
    },
    "de": {
     "name": "Slow Transition",
-    "desc": "Eine Farbwelle wandert über den Streifen."
+    "desc": "Eine Farbe blendet ein und aus."
    },
    "es": {
     "name": "Slow Transition",
-    "desc": "Una onda de color recorre la tira."
+    "desc": "Un color aparece y se desvanece."
    },
    "it": {
     "name": "Slow Transition",
-    "desc": "Un'onda di colore percorre la striscia."
+    "desc": "Un colore appare e svanisce."
    },
    "ja": {
     "name": "Slow Transition",
-    "desc": "色の波がストリップを進む。"
+    "desc": "色が現れては消える。"
    },
    "ko": {
     "name": "Slow Transition",
-    "desc": "색의 파도가 스트립을 따라 흐른다."
+    "desc": "색이 나타났다 사라진다."
    },
    "zh": {
     "name": "Slow Transition",
-    "desc": "色波沿灯带流动。"
+    "desc": "颜色渐显渐隐。"
    }
   }
  }

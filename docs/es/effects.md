@@ -77,7 +77,7 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | <img src="../../images/effects/fire-2012.gif" width="64"> | `Fire 2012` | Fire 2012 | Llamas titilan y suben. |
 | <img src="../../images/effects/colorwaves.gif" width="64"> | `Colorwaves` | Colorwaves | Franjas de muchos colores. |
 | <img src="../../images/effects/bpm.gif" width="64"> | `Bpm` | Bpm | Un pulso late en cada tiempo. |
-| <img src="../../images/effects/fill-noise.gif" width="64"> | `Fill Noise` | Fill Noise | Un solo color estable. |
+| <img src="../../images/effects/fill-noise.gif" width="64"> | `Fill Noise` | Fill Noise | Destellos aleatorios saltan. |
 | <img src="../../images/effects/noise-1.gif" width="64"> | `Noise 1` | Noise 1 | Destellos aleatorios saltan. |
 | <img src="../../images/effects/noise-2.gif" width="64"> | `Noise 2` | Noise 2 | Destellos aleatorios saltan. |
 | <img src="../../images/effects/noise-3.gif" width="64"> | `Noise 3` | Noise 3 | Destellos aleatorios saltan. |
@@ -91,8 +91,8 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | <img src="../../images/effects/twinklefox.gif" width="64"> | `Twinklefox` | Twinklefox | Estrellas centellean. |
 | <img src="../../images/effects/twinklecat.gif" width="64"> | `Twinklecat` | Twinklecat | Estrellas centellean. |
 | <img src="../../images/effects/halloween-eyes.gif" width="64"> | `Halloween Eyes` | Halloween Eyes | Un par de ojos parpadea en la oscuridad. |
-| <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | Un solo color estable. |
-| <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | Un solo color estable. |
+| <img src="../../images/effects/solid-pattern.gif" width="64"> | `Solid Pattern` | Solid Pattern | Un patrón de rayas se desplaza. |
+| <img src="../../images/effects/solid-pattern-tri.gif" width="64"> | `Solid Pattern Tri` | Solid Pattern Tri | Un patrón de rayas se desplaza. |
 | <img src="../../images/effects/spots.gif" width="64"> | `Spots` | Spots | Manchas aparecen y se desvanecen. |
 | <img src="../../images/effects/spots-fade.gif" width="64"> | `Spots Fade` | Spots Fade | Manchas aparecen y se desvanecen. |
 | <img src="../../images/effects/glitter.gif" width="64"> | `Glitter` | Purpurina | Purpurina brilla sobre el color. |
@@ -136,20 +136,20 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | <img src="../../images/effects/soap.gif" width="64"> | `Soap` | Soap | Pompas de jabón flotan. |
 | <img src="../../images/effects/octopus.gif" width="64"> | `Octopus` | Octopus | Un pulpo agita sus tentáculos. |
 | <img src="../../images/effects/waving-cell.gif" width="64"> | `Waving Cell` | Waving Cell | Una onda de color recorre la tira. |
-| <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | Código cae, estilo Matrix. |
-| <img src="../../images/effects/pixelwave.gif" width="64"> | `Pixelwave` | Pixelwave | Código cae, estilo Matrix. |
+| <img src="../../images/effects/pixels.gif" width="64"> | `Pixels` | Pixels | Estrellas centellean. |
+| <img src="../../images/effects/pixelwave.gif" width="64"> | `Pixelwave` | Pixelwave | Ondas se extienden sobre el agua. |
 | <img src="../../images/effects/juggles.gif" width="64"> | `Juggles` | Juggles | Pelotas rebotan. |
 | <img src="../../images/effects/matripix.gif" width="64"> | `Matripix` | Matripix | Código cae, estilo Matrix. |
 | <img src="../../images/effects/gravimeter.gif" width="64"> | `Gravimeter` | Gravimeter | Pelotas rebotan. |
 | <img src="../../images/effects/plasmoid.gif" width="64"> | `Plasmoid` | Plasmoid | Manchas de color se transforman. |
 | <img src="../../images/effects/puddles.gif" width="64"> | `Puddles` | Puddles | Cae la lluvia. |
 | <img src="../../images/effects/midnoise.gif" width="64"> | `Midnoise` | Midnoise | Destellos aleatorios saltan. |
-| <img src="../../images/effects/noisemeter.gif" width="64"> | `Noisemeter` | Noisemeter | Destellos aleatorios saltan. |
-| <img src="../../images/effects/freqwave.gif" width="64"> | `Freqwave` | Freqwave | Ondas se extienden sobre el agua. |
-| <img src="../../images/effects/freqmatrix.gif" width="64"> | `Freqmatrix` | Freqmatrix | Código cae, estilo Matrix. |
-| <img src="../../images/effects/geq.gif" width="64"> | `GEQ` | GEQ | Ondas se extienden sobre el agua. |
+| <img src="../../images/effects/noisemeter.gif" width="64"> | `Noisemeter` | Noisemeter | Un ecualizador de audio, barras que rebotan al sonido. |
+| <img src="../../images/effects/freqwave.gif" width="64"> | `Freqwave` | Freqwave | Un ecualizador de audio, barras que rebotan al sonido. |
+| <img src="../../images/effects/freqmatrix.gif" width="64"> | `Freqmatrix` | Freqmatrix | Un ecualizador de audio, barras que rebotan al sonido. |
+| <img src="../../images/effects/geq.gif" width="64"> | `GEQ` | GEQ | Un ecualizador de audio, barras que rebotan al sonido. |
 | <img src="../../images/effects/waterfall.gif" width="64"> | `Waterfall` | Cascada | Cae la lluvia. |
-| <img src="../../images/effects/freqpixels.gif" width="64"> | `Freqpixels` | Freqpixels | Código cae, estilo Matrix. |
+| <img src="../../images/effects/freqpixels.gif" width="64"> | `Freqpixels` | Freqpixels | Un ecualizador de audio, barras que rebotan al sonido. |
 | <img src="../../images/effects/rsvd.gif" width="64"> | `RSVD` | RSVD | Una onda de color recorre la tira. |
 | <img src="../../images/effects/noisefire.gif" width="64"> | `Noisefire` | Noisefire | Llamas titilan y suben. |
 | <img src="../../images/effects/puddlepeak.gif" width="64"> | `Puddlepeak` | Puddlepeak | Cae la lluvia. |
@@ -162,14 +162,14 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | <img src="../../images/effects/pacman.gif" width="64"> | `PacMan` | PacMan | Pac-Man avanza comiendo. |
 | <img src="../../images/effects/dna.gif" width="64"> | `DNA` | DNA | Dos hebras forman una doble hélice. |
 | <img src="../../images/effects/matrix.gif" width="64"> | `Matrix` | Matriz | Código cae, estilo Matrix. |
-| <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | Pelotas rebotan. |
-| <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | Ondas se extienden sobre el agua. |
+| <img src="../../images/effects/metaballs.gif" width="64"> | `Metaballs` | Metaballs | Manchas de color se transforman. |
+| <img src="../../images/effects/freqmap.gif" width="64"> | `Freqmap` | Freqmap | Un ecualizador de audio, barras que rebotan al sonido. |
 | <img src="../../images/effects/gravcenter.gif" width="64"> | `Gravcenter` | Gravcenter | Pelotas rebotan. |
 | <img src="../../images/effects/gravcentric.gif" width="64"> | `Gravcentric` | Gravcentric | Pelotas rebotan. |
 | <img src="../../images/effects/gravfreq.gif" width="64"> | `Gravfreq` | Gravfreq | Pelotas rebotan. |
 | <img src="../../images/effects/dj-light.gif" width="64"> | `DJ Light` | DJ Light | Un tocadiscos gira. |
 | <img src="../../images/effects/funky-plank.gif" width="64"> | `Funky Plank` | Funky Plank | Una onda de color recorre la tira. |
-| <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | Una onda de color recorre la tira. |
+| <img src="../../images/effects/shimmer.gif" width="64"> | `Shimmer` | Shimmer | Purpurina brilla sobre el color. |
 | <img src="../../images/effects/pulser.gif" width="64"> | `Pulser` | Pulser | El brillo crece y decae. |
 | <img src="../../images/effects/blurz.gif" width="64"> | `Blurz` | Blurz | Una onda de color recorre la tira. |
 | <img src="../../images/effects/drift.gif" width="64"> | `Drift` | Drift | Un remolino se enrolla hacia afuera. |
@@ -186,9 +186,9 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | <img src="../../images/effects/swirl.gif" width="64"> | `Swirl` | Swirl | Un remolino se enrolla hacia afuera. |
 | <img src="../../images/effects/lissajous.gif" width="64"> | `Lissajous` | Lissajous | Una curva de Lissajous se transforma. |
 | <img src="../../images/effects/frizzles.gif" width="64"> | `Frizzles` | Frizzles | Patrones geométricos giratorios. |
-| <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | Pelotas rebotan. |
+| <img src="../../images/effects/plasma-ball.gif" width="64"> | `Plasma Ball` | Plasma Ball | Filamentos eléctricos en una bola de plasma. |
 | <img src="../../images/effects/flow-stripe.gif" width="64"> | `Flow Stripe` | Flow Stripe | Partículas fluyen. |
-| <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | Una onda de color recorre la tira. |
+| <img src="../../images/effects/hiphotic.gif" width="64"> | `Hiphotic` | Hiphotic | Manchas de color se transforman. |
 | <img src="../../images/effects/sindots.gif" width="64"> | `Sindots` | Sindots | Un remolino se enrolla hacia afuera. |
 | <img src="../../images/effects/dna-spiral.gif" width="64"> | `DNA Spiral` | DNA Spiral | Dos hebras forman una doble hélice. |
 | <img src="../../images/effects/black-hole.gif" width="64"> | `Black Hole` | Black Hole | Anillos colapsan hacia un núcleo oscuro. |
@@ -202,12 +202,12 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | <img src="../../images/effects/ps-fuzzy-noise.gif" width="64"> | `PS Fuzzy Noise` | PS Fuzzy Noise | Destellos aleatorios saltan. |
 | <img src="../../images/effects/ps-ballpit.gif" width="64"> | `PS Ballpit` | PS Ballpit | Pelotas rebotan. |
 | <img src="../../images/effects/ps-box.gif" width="64"> | `PS Box` | PS Box | Una onda de color recorre la tira. |
-| <img src="../../images/effects/ps-attractor.gif" width="64"> | `PS Attractor` | PS Attractor | Una onda de color recorre la tira. |
+| <img src="../../images/effects/ps-attractor.gif" width="64"> | `PS Attractor` | PS Attractor | Anillos colapsan hacia un núcleo oscuro. |
 | <img src="../../images/effects/ps-impact.gif" width="64"> | `PS Impact` | PS Impact | Un anillo de choque se expande. |
 | <img src="../../images/effects/ps-waterfall.gif" width="64"> | `PS Waterfall` | PS Waterfall | Cae la lluvia. |
-| <img src="../../images/effects/ps-spray.gif" width="64"> | `PS Spray` | PS Spray | Una onda de color recorre la tira. |
-| <img src="../../images/effects/ps-geq-2d.gif" width="64"> | `PS GEQ 2D` | PS GEQ 2D | Ondas se extienden sobre el agua. |
-| <img src="../../images/effects/ps-geq-nova.gif" width="64"> | `PS GEQ Nova` | PS GEQ Nova | Ondas se extienden sobre el agua. |
+| <img src="../../images/effects/ps-spray.gif" width="64"> | `PS Spray` | PS Spray | Partículas brotan de una boquilla. |
+| <img src="../../images/effects/ps-geq-2d.gif" width="64"> | `PS GEQ 2D` | PS GEQ 2D | Un ecualizador de audio, barras que rebotan al sonido. |
+| <img src="../../images/effects/ps-geq-nova.gif" width="64"> | `PS GEQ Nova` | PS GEQ Nova | Un ecualizador de audio, barras que rebotan al sonido. |
 | <img src="../../images/effects/ps-ghost-rider.gif" width="64"> | `PS Ghost Rider` | PS Ghost Rider | Un fantasma flota. |
 | <img src="../../images/effects/ps-blobs.gif" width="64"> | `PS Blobs` | PS Blobs | Manchas de color se transforman. |
 | <img src="../../images/effects/ps-dripdrop.gif" width="64"> | `PS DripDrop` | PS DripDrop | Gotas caen una a una. |
@@ -216,15 +216,15 @@ Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`
 | <img src="../../images/effects/ps-fireworks-1d.gif" width="64"> | `PS Fireworks 1D` | PS Fireworks 1D | Un fuego artificial estalla. |
 | <img src="../../images/effects/ps-sparkler.gif" width="64"> | `PS Sparkler` | PS Sparkler | Destellos aleatorios saltan. |
 | <img src="../../images/effects/ps-hourglass.gif" width="64"> | `PS Hourglass` | PS Hourglass | La arena cae en un reloj de arena. |
-| <img src="../../images/effects/ps-spray-1d.gif" width="64"> | `PS Spray 1D` | PS Spray 1D | Una onda de color recorre la tira. |
+| <img src="../../images/effects/ps-spray-1d.gif" width="64"> | `PS Spray 1D` | PS Spray 1D | Partículas brotan de una boquilla. |
 | <img src="../../images/effects/ps-1d-balance.gif" width="64"> | `PS 1D Balance` | PS 1D Balance | Una onda de color recorre la tira. |
 | <img src="../../images/effects/ps-chase.gif" width="64"> | `PS Chase` | PS Chase | Un punto brillante barre con estela. |
-| <img src="../../images/effects/ps-starburst.gif" width="64"> | `PS Starburst` | PS Starburst | Estrellas centellean. |
-| <img src="../../images/effects/ps-geq-1d.gif" width="64"> | `PS GEQ 1D` | PS GEQ 1D | Ondas se extienden sobre el agua. |
+| <img src="../../images/effects/ps-starburst.gif" width="64"> | `PS Starburst` | PS Starburst | Un fuego artificial estalla. |
+| <img src="../../images/effects/ps-geq-1d.gif" width="64"> | `PS GEQ 1D` | PS GEQ 1D | Un ecualizador de audio, barras que rebotan al sonido. |
 | <img src="../../images/effects/ps-fire-1d.gif" width="64"> | `PS Fire 1D` | PS Fire 1D | Llamas titilan y suben. |
 | <img src="../../images/effects/ps-sonic-stream.gif" width="64"> | `PS Sonic Stream` | PS Sonic Stream | Partículas fluyen. |
 | <img src="../../images/effects/ps-sonic-boom.gif" width="64"> | `PS Sonic Boom` | PS Sonic Boom | Un anillo de choque se expande. |
-| <img src="../../images/effects/ps-springy.gif" width="64"> | `PS Springy` | PS Springy | Una onda de color recorre la tira. |
+| <img src="../../images/effects/ps-springy.gif" width="64"> | `PS Springy` | PS Springy | Un muelle hace rebotar una masa. |
 | <img src="../../images/effects/ps-galaxy.gif" width="64"> | `PS Galaxy` | PS Galaxy | Estrellas giran en espiral. |
 | <img src="../../images/effects/color-clouds.gif" width="64"> | `Color Clouds` | Color Clouds | Manchas de color se transforman. |
-| <img src="../../images/effects/slow-transition.gif" width="64"> | `Slow Transition` | Slow Transition | Una onda de color recorre la tira. |
+| <img src="../../images/effects/slow-transition.gif" width="64"> | `Slow Transition` | Slow Transition | Un color aparece y se desvanece. |
