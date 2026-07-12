@@ -1,6 +1,6 @@
 # WLED 效果
 
-[调色板](palettes.zh.md) · **效果** · [控件](controls.zh.md)
+[调色板](palettes.zh.md) · **效果** · [控件](controls.zh.md) · [颜色](colors.zh.md)
 
 <sub>其他语言: [EN](effects.en.md) · [FR](effects.fr.md) · [DE](effects.de.md) · [ES](effects.es.md) · [IT](effects.it.md) · [JA](effects.ja.md) · [KO](effects.ko.md)</sub>
 

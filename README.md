@@ -52,16 +52,16 @@ to show localized names, telling palette icons, and a preview of what each effec
 
 One page per **concept × language** — English name · translation · description · illustration:
 
-| Language | Palettes | Effects | Controls |
-|---|---|---|---|
-| 🇬🇧 English | [palettes](docs/palettes.en.md) | [effects](docs/effects.en.md) | [controls](docs/controls.en.md) |
-| 🇫🇷 Français | [palettes](docs/palettes.fr.md) | [effects](docs/effects.fr.md) | [controls](docs/controls.fr.md) |
-| 🇩🇪 Deutsch | [palettes](docs/palettes.de.md) | [effects](docs/effects.de.md) | [controls](docs/controls.de.md) |
-| 🇪🇸 Español | [palettes](docs/palettes.es.md) | [effects](docs/effects.es.md) | [controls](docs/controls.es.md) |
-| 🇮🇹 Italiano | [palettes](docs/palettes.it.md) | [effects](docs/effects.it.md) | [controls](docs/controls.it.md) |
-| 🇯🇵 日本語 | [palettes](docs/palettes.ja.md) | [effects](docs/effects.ja.md) | [controls](docs/controls.ja.md) |
-| 🇰🇷 한국어 | [palettes](docs/palettes.ko.md) | [effects](docs/effects.ko.md) | [controls](docs/controls.ko.md) |
-| 🇨🇳 中文 | [palettes](docs/palettes.zh.md) | [effects](docs/effects.zh.md) | [controls](docs/controls.zh.md) |
+| Language | Palettes | Effects | Controls | Colours |
+|---|---|---|---|---|
+| 🇬🇧 English | [palettes](docs/palettes.en.md) | [effects](docs/effects.en.md) | [controls](docs/controls.en.md) | [colours](docs/colors.en.md) |
+| 🇫🇷 Français | [palettes](docs/palettes.fr.md) | [effects](docs/effects.fr.md) | [controls](docs/controls.fr.md) | [couleurs](docs/colors.fr.md) |
+| 🇩🇪 Deutsch | [palettes](docs/palettes.de.md) | [effects](docs/effects.de.md) | [controls](docs/controls.de.md) | [farben](docs/colors.de.md) |
+| 🇪🇸 Español | [palettes](docs/palettes.es.md) | [effects](docs/effects.es.md) | [controls](docs/controls.es.md) | [colores](docs/colors.es.md) |
+| 🇮🇹 Italiano | [palettes](docs/palettes.it.md) | [effects](docs/effects.it.md) | [controls](docs/controls.it.md) | [colori](docs/colors.it.md) |
+| 🇯🇵 日本語 | [palettes](docs/palettes.ja.md) | [effects](docs/effects.ja.md) | [controls](docs/controls.ja.md) | [色](docs/colors.ja.md) |
+| 🇰🇷 한국어 | [palettes](docs/palettes.ko.md) | [effects](docs/effects.ko.md) | [controls](docs/controls.ko.md) | [색](docs/colors.ko.md) |
+| 🇨🇳 中文 | [palettes](docs/palettes.zh.md) | [effects](docs/effects.zh.md) | [controls](docs/controls.zh.md) | [颜色](docs/colors.zh.md) |
 
 ## What's inside
 
@@ -71,6 +71,7 @@ One page per **concept × language** — English name · translation · descript
 | `i18n/palettes.json` | Every palette → per language `{ name, desc }` (8 languages, English fallback). |
 | `i18n/effects.json` | Every effect → per language `{ name, desc }` (`desc` = its motion family). |
 | `i18n/controls.json` | The standard effect **controls** (Speed, Intensity, Custom 1-3, Options 1-3, colour slots, Palette) → `{ name, desc }`. |
+| `i18n/colors.json` | The **8 stage colours** (Kelly maximum-contrast) → rgb, rank, `{ name, desc }` per language, plus the `_rationale` (why 8). |
 | `i18n/effect-families.json` | Descriptions of the 9 effect motion families, per language. |
 | `meanings/palette-meanings.json` | Source for palette descriptions. |
 | `illustrations/*.svg` | One reusable **gradient-agnostic stencil per palette** (fill `#grad` with the palette's real colours). |
@@ -94,14 +95,18 @@ Vendor it as a git submodule, a package, or a plain copy. It's data + SVG + one 
 
 ## Beyond palettes & effects
 
-Also internationalized here: **controls** (the effect parameters). Further WLED enums that
-*could* join this layer next — small, still English-only in the firmware:
+Also internationalized here:
 
-- **Nightlight modes** (instant, fade, colour-fade, sunrise)
-- **Segment actions** (reverse, mirror, freeze, mapping)
-- **Playlist / preset** UX labels · **info/status** field labels
+- **Controls** — the effect parameters (Speed, Intensity, Custom 1-3, Options 1-3, colour
+  slots, Palette). See [docs/controls.*.md](docs).
+- **Colours** — the **8 stage colours** (Kelly's maximum-contrast palette). The
+  [colours pages](docs/colors.en.md) open with the rationale: *why 8 and not 300* — you
+  name only the hues the eye can tell apart at a glance (Kelly 1965 · Wong 2011 · Healey 1996),
+  not a wall of near-identical names.
 
-Open an issue if one of these would help your client.
+Further WLED enums that *could* join next (still English-only in the firmware): **nightlight
+modes**, **segment actions** (reverse/mirror/freeze), **playlist/preset** and **info** labels.
+Open an issue if one would help your client.
 
 ## Status & contributing
 
