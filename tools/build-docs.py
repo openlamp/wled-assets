@@ -46,9 +46,9 @@ for code,label,flag in LANGS:
         e=EFF.get(nm,{}).get(code,{"name":nm,"desc":""})
         r.append('| <img src="%s/effects/%s.gif" width="64"> | `%s` | %s | %s |'%(IMG,slug(nm),esc(nm),esc(e["name"]),esc(e["desc"])))
     open(d+"/effects.md","w").write(nav(code,"effects")+"\n".join(r)+"\n")
-    r=["| %s | %s | %s |"%(u["name"],u["tr"],u["desc"]),"|---|---|---|"]
+    r=["| %s | %s | %s | %s |"%(u["img"],u["name"],u["tr"],u["desc"]),"|---|---|---|---|"]
     for k in CTRL:
-        e=CTRL[k][code]; r.append("| `%s` | %s | %s |"%(esc(k),esc(e["name"]),esc(e["desc"])))
+        e=CTRL[k][code]; r.append('| <img src="%s/controls/%s.png" width="64"> | `%s` | %s | %s |'%(IMG,slug(k),esc(k),esc(e["name"]),esc(e["desc"])))
     open(d+"/controls.md","w").write(nav(code,"controls")+"\n".join(r)+"\n")
     r=["> "+RAT[code].replace("\n"," "),"","| %s | %s | %s | %s | %s |"%(u["img"],u["name"],u["tr"],u["hex"],u["desc"]),"|---|---|---|---|---|"]
     for nm,e in COLE.items():
