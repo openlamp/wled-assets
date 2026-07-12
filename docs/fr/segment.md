@@ -1,8 +1,10 @@
 # WLED Segment
 
-[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · [Couleurs](colors.md) · [Veilleuse](nightlight.md) · **Segment** · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
+[Palettes](palettes.md) · [Effets](effects.md) · [Contrôles](controls.md) · [Veilleuse](nightlight.md) · **Segment** · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
 
 <sub>Autres langues: [EN](../en/segment.md) · [DE](../de/segment.md) · [ES](../es/segment.md) · [IT](../it/segment.md) · [JA](../ja/segment.md) · [KO](../ko/segment.md) · [ZH](../zh/segment.md)</sub>
+
+Les **actions de segment** sont des options par segment dans l'onglet **Segments** : inverser, miroir, figer, on/off, temps de transition, simu audio. Elles correspondent à `seg.rev/mi/frz/on`, etc.
 
 | Image | Nom WLED | Traduction | Description |
 |---|---|---|---|

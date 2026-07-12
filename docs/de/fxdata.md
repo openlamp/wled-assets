@@ -1,8 +1,10 @@
 # WLED Effektregler
 
-[Paletten](palettes.md) · [Effekte](effects.md) · [Regler](controls.md) · [Farben](colors.md) · [Nachtlicht](nightlight.md) · [Segment](segment.md) · [Tasten](buttons.md) · **Effektregler** · [Info-Felder](info.md) · [UI-Texte](ui.md) &nbsp;•&nbsp; [Referenz auf Deutsch](README.md)
+[Paletten](palettes.md) · [Effekte](effects.md) · [Regler](controls.md) · [Nachtlicht](nightlight.md) · [Segment](segment.md) · [Tasten](buttons.md) · **Effektregler** · [Info-Felder](info.md) · [UI-Texte](ui.md) &nbsp;•&nbsp; [Referenz auf Deutsch](README.md)
 
 <sub>Andere Sprachen: [EN](../en/fxdata.md) · [FR](../fr/fxdata.md) · [ES](../es/fxdata.md) · [IT](../it/fxdata.md) · [JA](../ja/fxdata.md) · [KO](../ko/fxdata.md) · [ZH](../zh/fxdata.md)</sub>
+
+**Effekt-Regler-Beschriftungen** sind die Parameternamen, die jeder Effekt in `/json/fxdata` deklariert — der Text über den Speed/Intensity/Custom-Reglern und Farbwählern.
 
 | Bild | WLED-Name | Übersetzung |
 |---|---|---|

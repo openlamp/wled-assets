@@ -1,8 +1,10 @@
 # WLED Palettes
 
-**Palettes** · [Effets](effects.md) · [Contrôles](controls.md) · [Couleurs](colors.md) · [Veilleuse](nightlight.md) · [Segment](segment.md) · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
+**Palettes** · [Effets](effects.md) · [Contrôles](controls.md) · [Veilleuse](nightlight.md) · [Segment](segment.md) · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
 
 <sub>Autres langues: [EN](../en/palettes.md) · [DE](../de/palettes.md) · [ES](../es/palettes.md) · [IT](../it/palettes.md) · [JA](../ja/palettes.md) · [KO](../ko/palettes.md) · [ZH](../zh/palettes.md)</sub>
+
+Dans WLED, une **palette** est l'ensemble de couleurs dans lequel un effet puise. On la choisit dans l'onglet **Effets** (menu *Palette*) ; elle correspond à `seg.pal` et la liste vient de `/json/pal`.
 
 | Image | Nom WLED | Traduction | Description |
 |---|---|---|---|

@@ -1,8 +1,10 @@
 # WLED Effekte
 
-[Paletten](palettes.md) · **Effekte** · [Regler](controls.md) · [Farben](colors.md) · [Nachtlicht](nightlight.md) · [Segment](segment.md) · [Tasten](buttons.md) · [Effektregler](fxdata.md) · [Info-Felder](info.md) · [UI-Texte](ui.md) &nbsp;•&nbsp; [Referenz auf Deutsch](README.md)
+[Paletten](palettes.md) · **Effekte** · [Regler](controls.md) · [Nachtlicht](nightlight.md) · [Segment](segment.md) · [Tasten](buttons.md) · [Effektregler](fxdata.md) · [Info-Felder](info.md) · [UI-Texte](ui.md) &nbsp;•&nbsp; [Referenz auf Deutsch](README.md)
 
 <sub>Andere Sprachen: [EN](../en/effects.md) · [FR](../fr/effects.md) · [ES](../es/effects.md) · [IT](../it/effects.md) · [JA](../ja/effects.md) · [KO](../ko/effects.md) · [ZH](../zh/effects.md)</sub>
+
+**Effekte** sind WLEDs animierte Muster, wählbar im Reiter **Effekte** (`seg.fx`, Liste `/json/eff`). Der Effekt bestimmt die *Bewegung*, die Palette die *Farbe*.
 
 | Bild | WLED-Name | Übersetzung | Beschreibung |
 |---|---|---|---|

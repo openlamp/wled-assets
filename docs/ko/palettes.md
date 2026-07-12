@@ -1,8 +1,10 @@
 # WLED 팔레트
 
-**팔레트** · [효과](effects.md) · [컨트롤](controls.md) · [색](colors.md) · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) · [정보 항목](info.md) · [UI 라벨](ui.md) &nbsp;•&nbsp; [한국어 참조](README.md)
+**팔레트** · [효과](effects.md) · [컨트롤](controls.md) · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) · [정보 항목](info.md) · [UI 라벨](ui.md) &nbsp;•&nbsp; [한국어 참조](README.md)
 
 <sub>다른 언어: [EN](../en/palettes.md) · [FR](../fr/palettes.md) · [DE](../de/palettes.md) · [ES](../es/palettes.md) · [IT](../it/palettes.md) · [JA](../ja/palettes.md) · [ZH](../zh/palettes.md)</sub>
+
+WLED에서 **팔레트**는 효과가 사용하는 색 집합. **효과** 탭의 *팔레트*에서 선택(`seg.pal`, 목록은 `/json/pal`).
 
 | 이미지 | WLED 이름 | 번역 | 설명 |
 |---|---|---|---|

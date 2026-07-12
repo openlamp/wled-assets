@@ -51,18 +51,18 @@ to show localized names, telling palette icons, and a preview of what each effec
 ## Browse the docs (GitHub-rendered)
 
 One page per **language × concept** — English name · translation · description · illustration.
-**10 concepts**: palettes · effects · controls · colours · nightlight · segment · buttons · effect-sliders · info · UI. Full index (all concepts × languages): **[docs/](docs/)**. Main ones:
+**9 concepts**, each with an icon and an intro: palettes · effects · controls · nightlight · segment · buttons · effect-sliders · info · UI. Full index (all concepts × languages): **[docs/](docs/)**. Main ones:
 
-| Language | Palettes | Effects | Controls | Colours | Nightlight |
-|---|---|---|---|---|---|
-| 🇬🇧 English | [palettes](docs/en/palettes.md) | [effects](docs/en/effects.md) | [controls](docs/en/controls.md) | [colours](docs/en/colors.md) | [nightlight](docs/en/nightlight.md) |
-| 🇫🇷 Français | [palettes](docs/fr/palettes.md) | [effects](docs/fr/effects.md) | [controls](docs/fr/controls.md) | [couleurs](docs/fr/colors.md) | [nightlight](docs/fr/nightlight.md) |
-| 🇩🇪 Deutsch | [palettes](docs/de/palettes.md) | [effects](docs/de/effects.md) | [controls](docs/de/controls.md) | [farben](docs/de/colors.md) | [nightlight](docs/de/nightlight.md) |
-| 🇪🇸 Español | [palettes](docs/es/palettes.md) | [effects](docs/es/effects.md) | [controls](docs/es/controls.md) | [colores](docs/es/colors.md) | [nightlight](docs/es/nightlight.md) |
-| 🇮🇹 Italiano | [palettes](docs/it/palettes.md) | [effects](docs/it/effects.md) | [controls](docs/it/controls.md) | [colori](docs/it/colors.md) | [nightlight](docs/it/nightlight.md) |
-| 🇯🇵 日本語 | [palettes](docs/ja/palettes.md) | [effects](docs/ja/effects.md) | [controls](docs/ja/controls.md) | [色](docs/ja/colors.md) | [nightlight](docs/ja/nightlight.md) |
-| 🇰🇷 한국어 | [palettes](docs/ko/palettes.md) | [effects](docs/ko/effects.md) | [controls](docs/ko/controls.md) | [색](docs/ko/colors.md) | [nightlight](docs/ko/nightlight.md) |
-| 🇨🇳 中文 | [palettes](docs/zh/palettes.md) | [effects](docs/zh/effects.md) | [controls](docs/zh/controls.md) | [颜色](docs/zh/colors.md) | [nightlight](docs/zh/nightlight.md) |
+| Language | Palettes | Effects | Controls | Nightlight |
+|---|---|---|---|---|
+| 🇬🇧 English | [palettes](docs/en/palettes.md) | [effects](docs/en/effects.md) | [controls](docs/en/controls.md) | [nightlight](docs/en/nightlight.md) |
+| 🇫🇷 Français | [palettes](docs/fr/palettes.md) | [effects](docs/fr/effects.md) | [controls](docs/fr/controls.md) | [nightlight](docs/fr/nightlight.md) |
+| 🇩🇪 Deutsch | [palettes](docs/de/palettes.md) | [effects](docs/de/effects.md) | [controls](docs/de/controls.md) | [nightlight](docs/de/nightlight.md) |
+| 🇪🇸 Español | [palettes](docs/es/palettes.md) | [effects](docs/es/effects.md) | [controls](docs/es/controls.md) | [nightlight](docs/es/nightlight.md) |
+| 🇮🇹 Italiano | [palettes](docs/it/palettes.md) | [effects](docs/it/effects.md) | [controls](docs/it/controls.md) | [nightlight](docs/it/nightlight.md) |
+| 🇯🇵 日本語 | [palettes](docs/ja/palettes.md) | [effects](docs/ja/effects.md) | [controls](docs/ja/controls.md) | [nightlight](docs/ja/nightlight.md) |
+| 🇰🇷 한국어 | [palettes](docs/ko/palettes.md) | [effects](docs/ko/effects.md) | [controls](docs/ko/controls.md) | [nightlight](docs/ko/nightlight.md) |
+| 🇨🇳 中文 | [palettes](docs/zh/palettes.md) | [effects](docs/zh/effects.md) | [controls](docs/zh/controls.md) | [nightlight](docs/zh/nightlight.md) |
 
 ## What's inside
 
@@ -72,7 +72,7 @@ One page per **language × concept** — English name · translation · descript
 | `i18n/palettes.json` | Every palette → per language `{ name, desc }` (8 languages, English fallback). |
 | `i18n/effects.json` | Every effect → per language `{ name, desc }` (`desc` = its motion family). |
 | `i18n/controls.json` | The standard effect **controls** (Speed, Intensity, Custom 1-3, Options 1-3, colour slots, Palette) → `{ name, desc }`. |
-| `i18n/colors.json` | The **8 stage colours** (Kelly maximum-contrast) → rgb, rank, `{ name, desc }` per language, plus the `_rationale` (why 8). |
+| `i18n/concept-intros.json` | A short per-language intro for each concept — *where it lives in WLED* — shown at the top of every doc page. |
 | `i18n/nightlight.json`, `i18n/segment.json`, `i18n/buttons.json` | Nightlight modes, segment actions (reverse/mirror/freeze…), button/input types → `{ name, desc }` per language. |
 | `i18n/fxdata-labels.json` | The **234 per-effect slider labels** from `/json/fxdata` (Speed, Blur, # of balls…) → `{ name }` per language (common ones translated, long tail = English fallback). |
 | `i18n/info.json`, `i18n/ui.json` | Info-panel field labels and core UI labels (tabs, actions) → `{ name, desc }` per language. |
@@ -106,7 +106,6 @@ This repo's goal is to localize **everything WLED exposes as named vocabulary** 
 curated subset. Concepts covered (each × 8 languages, English fallback):
 
 - **Palettes** (72) · **Effects** (220) · **Effect controls** (Speed, Intensity, Custom 1-3, Options, colour slots, Palette)
-- **Colours** (the 8 stage colours + the *why 8* rationale) · **Nightlight modes** (4)
 - **Segment actions** (reverse, mirror, freeze, on/off, transition, sound-sim)
 - **Button/input types** (push, switch, PIR, touch, analog…)
 - **Per-effect slider labels** — the **234** parameter names from `/json/fxdata`

@@ -1,8 +1,10 @@
 # WLED Nightlight
 
-[Palettes](palettes.md) · [Effects](effects.md) · [Controls](controls.md) · [Colours](colors.md) · **Nightlight** · [Segment](segment.md) · [Buttons](buttons.md) · [Effect sliders](fxdata.md) · [Info fields](info.md) · [UI labels](ui.md) &nbsp;•&nbsp; [Reference in English](README.md)
+[Palettes](palettes.md) · [Effects](effects.md) · [Controls](controls.md) · **Nightlight** · [Segment](segment.md) · [Buttons](buttons.md) · [Effect sliders](fxdata.md) · [Info fields](info.md) · [UI labels](ui.md) &nbsp;•&nbsp; [Reference in English](README.md)
 
 <sub>Other languages: [FR](../fr/nightlight.md) · [DE](../de/nightlight.md) · [ES](../es/nightlight.md) · [IT](../it/nightlight.md) · [JA](../ja/nightlight.md) · [KO](../ko/nightlight.md) · [ZH](../zh/nightlight.md)</sub>
+
+**Nightlight** is WLED's timed fade-off (the moon icon in the top bar). The four modes set *how* it fades; they map to `nl.mode`.
 
 | Image | WLED name | Translation | Description |
 |---|---|---|---|

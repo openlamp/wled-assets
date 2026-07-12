@@ -1,8 +1,10 @@
 # WLED Controlli
 
-[Tavolozze](palettes.md) · [Effetti](effects.md) · **Controlli** · [Colori](colors.md) · [Luce notturna](nightlight.md) · [Segmento](segment.md) · [Pulsanti](buttons.md) · [Cursori effetto](fxdata.md) · [Campi info](info.md) · [Etichette UI](ui.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
+[Tavolozze](palettes.md) · [Effetti](effects.md) · **Controlli** · [Luce notturna](nightlight.md) · [Segmento](segment.md) · [Pulsanti](buttons.md) · [Cursori effetto](fxdata.md) · [Campi info](info.md) · [Etichette UI](ui.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
 
 <sub>Altre lingue: [EN](../en/controls.md) · [FR](../fr/controls.md) · [DE](../de/controls.md) · [ES](../es/controls.md) · [JA](../ja/controls.md) · [KO](../ko/controls.md) · [ZH](../zh/controls.md)</sub>
+
+I **controlli** sono cursori e interruttori sotto l'effetto scelto (Velocità, Intensità, fino a 3 cursori custom, opzioni, colori effetto/sfondo/custom, tavolozza). Definiti in `/json/fxdata`.
 
 | Immagine | Nome WLED | Traduzione | Descrizione |
 |---|---|---|---|

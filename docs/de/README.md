@@ -1,15 +1,14 @@
 # WLED 🇩🇪 — Deutsch
 
-- [Paletten](palettes.md)
-- [Effekte](effects.md)
-- [Regler](controls.md)
-- [Farben](colors.md)
-- [Nachtlicht](nightlight.md)
-- [Segment](segment.md)
-- [Tasten](buttons.md)
-- [Effektregler](fxdata.md)
-- [Info-Felder](info.md)
-- [UI-Texte](ui.md)
+- <img src="../../images/concepts/palettes.png" width="22" align="center"> [Paletten](palettes.md)
+- <img src="../../images/concepts/effects.png" width="22" align="center"> [Effekte](effects.md)
+- <img src="../../images/concepts/controls.png" width="22" align="center"> [Regler](controls.md)
+- <img src="../../images/concepts/nightlight.png" width="22" align="center"> [Nachtlicht](nightlight.md)
+- <img src="../../images/concepts/segment.png" width="22" align="center"> [Segment](segment.md)
+- <img src="../../images/concepts/buttons.png" width="22" align="center"> [Tasten](buttons.md)
+- <img src="../../images/concepts/fxdata.png" width="22" align="center"> [Effektregler](fxdata.md)
+- <img src="../../images/concepts/info.png" width="22" align="center"> [Info-Felder](info.md)
+- <img src="../../images/concepts/ui.png" width="22" align="center"> [UI-Texte](ui.md)
 
 ---
 

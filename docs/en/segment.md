@@ -1,8 +1,10 @@
 # WLED Segment
 
-[Palettes](palettes.md) · [Effects](effects.md) · [Controls](controls.md) · [Colours](colors.md) · [Nightlight](nightlight.md) · **Segment** · [Buttons](buttons.md) · [Effect sliders](fxdata.md) · [Info fields](info.md) · [UI labels](ui.md) &nbsp;•&nbsp; [Reference in English](README.md)
+[Palettes](palettes.md) · [Effects](effects.md) · [Controls](controls.md) · [Nightlight](nightlight.md) · **Segment** · [Buttons](buttons.md) · [Effect sliders](fxdata.md) · [Info fields](info.md) · [UI labels](ui.md) &nbsp;•&nbsp; [Reference in English](README.md)
 
 <sub>Other languages: [FR](../fr/segment.md) · [DE](../de/segment.md) · [ES](../es/segment.md) · [IT](../it/segment.md) · [JA](../ja/segment.md) · [KO](../ko/segment.md) · [ZH](../zh/segment.md)</sub>
+
+**Segment actions** are per-segment options in the **Segments** tab: reverse, mirror, freeze, on/off, transition time and sound-sim. They map to `seg.rev/mi/frz/on` etc.
 
 | Image | WLED name | Translation | Description |
 |---|---|---|---|

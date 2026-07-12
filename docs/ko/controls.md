@@ -1,8 +1,10 @@
 # WLED 컨트롤
 
-[팔레트](palettes.md) · [효과](effects.md) · **컨트롤** · [색](colors.md) · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) · [정보 항목](info.md) · [UI 라벨](ui.md) &nbsp;•&nbsp; [한국어 참조](README.md)
+[팔레트](palettes.md) · [효과](effects.md) · **컨트롤** · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) · [정보 항목](info.md) · [UI 라벨](ui.md) &nbsp;•&nbsp; [한국어 참조](README.md)
 
 <sub>다른 언어: [EN](../en/controls.md) · [FR](../fr/controls.md) · [DE](../de/controls.md) · [ES](../es/controls.md) · [IT](../it/controls.md) · [JA](../ja/controls.md) · [ZH](../zh/controls.md)</sub>
+
+**컨트롤**은 선택한 효과 아래의 슬라이더/토글(속도, 강도, 커스텀 3개, 옵션, 색, 팔레트). 사용 항목은 `/json/fxdata`에 선언.
 
 | 이미지 | WLED 이름 | 번역 | 설명 |
 |---|---|---|---|

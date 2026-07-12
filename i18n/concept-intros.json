@@ -1,0 +1,92 @@
+{
+ "palettes": {
+  "en": "In WLED, a **palette** is the set of colours an effect draws from. You pick it in the **Effects** tab (the *Palette* dropdown); it maps to `seg.pal` and the list comes from `/json/pal`.",
+  "fr": "Dans WLED, une **palette** est l'ensemble de couleurs dans lequel un effet puise. On la choisit dans l'onglet **Effets** (menu *Palette*) ; elle correspond à `seg.pal` et la liste vient de `/json/pal`.",
+  "de": "In WLED ist eine **Palette** die Farbmenge, aus der ein Effekt schöpft. Auswahl im Reiter **Effekte** (*Palette*-Dropdown); entspricht `seg.pal`, Liste aus `/json/pal`.",
+  "es": "En WLED, una **paleta** es el conjunto de colores del que toma un efecto. Se elige en la pestaña **Efectos** (menú *Paleta*); corresponde a `seg.pal` y la lista viene de `/json/pal`.",
+  "it": "In WLED una **tavolozza** è l'insieme di colori da cui attinge un effetto. Si sceglie nella scheda **Effetti** (menu *Tavolozza*); corrisponde a `seg.pal`, elenco da `/json/pal`.",
+  "ja": "WLEDでは**パレット**はエフェクトが使う色の集合。**エフェクト**タブの*パレット*で選択（`seg.pal`、一覧は`/json/pal`）。",
+  "ko": "WLED에서 **팔레트**는 효과가 사용하는 색 집합. **효과** 탭의 *팔레트*에서 선택(`seg.pal`, 목록은 `/json/pal`).",
+  "zh": "在 WLED 中，**调色板**是效果所用的一组颜色。在**效果**标签的*调色板*下拉框选择（对应 `seg.pal`，列表来自 `/json/pal`）。"
+ },
+ "effects": {
+  "en": "**Effects** are WLED's animated patterns, chosen in the **Effects** tab. They map to `seg.fx`; the list comes from `/json/eff`. An effect defines the *motion*; the palette gives the *colour*.",
+  "fr": "Les **effets** sont les motifs animés de WLED, choisis dans l'onglet **Effets**. Ils correspondent à `seg.fx` ; la liste vient de `/json/eff`. L'effet définit le *mouvement* ; la palette donne la *couleur*.",
+  "de": "**Effekte** sind WLEDs animierte Muster, wählbar im Reiter **Effekte** (`seg.fx`, Liste `/json/eff`). Der Effekt bestimmt die *Bewegung*, die Palette die *Farbe*.",
+  "es": "Los **efectos** son los patrones animados de WLED, en la pestaña **Efectos** (`seg.fx`, lista `/json/eff`). El efecto define el *movimiento*; la paleta, el *color*.",
+  "it": "Gli **effetti** sono i motivi animati di WLED, nella scheda **Effetti** (`seg.fx`, elenco `/json/eff`). L'effetto definisce il *movimento*; la tavolozza il *colore*.",
+  "ja": "**エフェクト**はWLEDのアニメーション模様。**エフェクト**タブで選択（`seg.fx`、一覧`/json/eff`）。効果が*動き*、パレットが*色*。",
+  "ko": "**효과**는 WLED의 애니메이션 패턴. **효과** 탭에서 선택(`seg.fx`, 목록 `/json/eff`). 효과는 *움직임*, 팔레트는 *색*.",
+  "zh": "**效果**是 WLED 的动画图案，在**效果**标签选择（`seg.fx`，列表 `/json/eff`）。效果决定*运动*，调色板决定*颜色*。"
+ },
+ "controls": {
+  "en": "**Controls** are the sliders and toggles shown under a selected effect in the **Effects** tab — Speed, Intensity, up to 3 custom sliders, option checkboxes, the effect/background/custom colours and the palette. Which ones an effect uses is declared in `/json/fxdata`.",
+  "fr": "Les **contrôles** sont les curseurs et interrupteurs affichés sous l'effet sélectionné dans l'onglet **Effets** — Vitesse, Intensité, jusqu'à 3 curseurs perso, cases d'option, les couleurs effet/fond/perso et la palette. Ce qu'un effet utilise est déclaré dans `/json/fxdata`.",
+  "de": "**Regler** sind Schieber/Schalter unter dem gewählten Effekt (Tempo, Intensität, bis zu 3 Custom-Regler, Optionen, Effekt-/Hintergrund-/Custom-Farben, Palette). Was ein Effekt nutzt, steht in `/json/fxdata`.",
+  "es": "Los **controles** son los deslizadores e interruptores bajo el efecto elegido (Velocidad, Intensidad, hasta 3 deslizadores personalizados, opciones, colores de efecto/fondo/personalizado, paleta). Definido en `/json/fxdata`.",
+  "it": "I **controlli** sono cursori e interruttori sotto l'effetto scelto (Velocità, Intensità, fino a 3 cursori custom, opzioni, colori effetto/sfondo/custom, tavolozza). Definiti in `/json/fxdata`.",
+  "ja": "**コントロール**は選択中エフェクトの下のスライダー/トグル(速度・強度・カスタム3つ・オプション・色・パレット)。使う項目は`/json/fxdata`で宣言。",
+  "ko": "**컨트롤**은 선택한 효과 아래의 슬라이더/토글(속도, 강도, 커스텀 3개, 옵션, 색, 팔레트). 사용 항목은 `/json/fxdata`에 선언.",
+  "zh": "**控件**是所选效果下方的滑块与开关（速度、强度、最多3个自定义滑块、选项、颜色、调色板）。由 `/json/fxdata` 声明。"
+ },
+ "nightlight": {
+  "en": "**Nightlight** is WLED's timed fade-off (the moon icon in the top bar). The four modes set *how* it fades; they map to `nl.mode`.",
+  "fr": "La **veilleuse** est l'extinction temporisée de WLED (icône lune de la barre du haut). Les quatre modes règlent *comment* elle s'éteint ; ils correspondent à `nl.mode`.",
+  "de": "**Nachtlicht** ist WLEDs zeitgesteuertes Ausblenden (Mond-Symbol oben). Die vier Modi bestimmen *wie* es ausblendet (`nl.mode`).",
+  "es": "La **luz nocturna** es el apagado temporizado de WLED (icono de luna arriba). Los cuatro modos definen *cómo* se atenúa (`nl.mode`).",
+  "it": "La **luce notturna** è lo spegnimento temporizzato di WLED (icona luna in alto). I quattro modi definiscono *come* si spegne (`nl.mode`).",
+  "ja": "**ナイトライト**はWLEDの時限消灯(上部の月アイコン)。4つのモードが消え方を決める(`nl.mode`)。",
+  "ko": "**야간등**은 WLED의 시간제 소등(상단 달 아이콘). 4가지 모드가 사라지는 방식을 정함(`nl.mode`).",
+  "zh": "**夜灯**是 WLED 的定时淡出（顶栏月亮图标）。四种模式决定*如何*淡出（`nl.mode`）。"
+ },
+ "segment": {
+  "en": "**Segment actions** are per-segment options in the **Segments** tab: reverse, mirror, freeze, on/off, transition time and sound-sim. They map to `seg.rev/mi/frz/on` etc.",
+  "fr": "Les **actions de segment** sont des options par segment dans l'onglet **Segments** : inverser, miroir, figer, on/off, temps de transition, simu audio. Elles correspondent à `seg.rev/mi/frz/on`, etc.",
+  "de": "**Segment-Aktionen** sind Optionen pro Segment im Reiter **Segmente**: umkehren, spiegeln, einfrieren, an/aus, Übergangszeit, Audio-Sim (`seg.rev/mi/frz/on` …).",
+  "es": "Las **acciones de segmento** son opciones por segmento en la pestaña **Segmentos**: invertir, espejo, congelar, on/off, transición, simulación de audio (`seg.rev/mi/frz/on`…).",
+  "it": "Le **azioni di segmento** sono opzioni per segmento nella scheda **Segmenti**: inverti, specchia, congela, on/off, transizione, simulazione audio (`seg.rev/mi/frz/on`…).",
+  "ja": "**セグメント操作**は**セグメント**タブの各セグメント設定(反転・ミラー・フリーズ・オン/オフ・遷移・音声シミュ)。`seg.rev/mi/frz/on`等。",
+  "ko": "**세그먼트 동작**은 **세그먼트** 탭의 세그먼트별 옵션(반전, 미러, 정지, 켜기/끄기, 전환, 오디오 시뮬). `seg.rev/mi/frz/on` 등.",
+  "zh": "**段操作**是**段**标签中每段的选项：反向、镜像、冻结、开/关、过渡、音频模拟（`seg.rev/mi/frz/on` 等）。"
+ },
+ "buttons": {
+  "en": "**Button types** are set in **Settings → LED & Hardware**: how a physical button/input wired to the controller behaves (push, switch, PIR, touch, analog…). Config only — no effect on the light output.",
+  "fr": "Les **types de bouton** se règlent dans **Réglages → LED & matériel** : comment se comporte un bouton/une entrée physique câblé au contrôleur (poussoir, interrupteur, PIR, tactile, analogique…). Config uniquement — sans effet sur le rendu.",
+  "de": "**Tastentypen** in **Einstellungen → LED & Hardware**: wie ein am Controller angeschlossener Taster/Eingang reagiert (Taster, Schalter, PIR, Touch, Analog…). Nur Konfiguration.",
+  "es": "Los **tipos de botón** se configuran en **Ajustes → LED y hardware**: cómo se comporta un botón/entrada física (pulsador, interruptor, PIR, táctil, analógico…). Solo configuración.",
+  "it": "I **tipi di pulsante** in **Impostazioni → LED e hardware**: come si comporta un pulsante/ingresso fisico (pulsante, interruttore, PIR, touch, analogico…). Solo configurazione.",
+  "ja": "**ボタン種別**は**設定→LEDとハードウェア**で設定。コントローラに繋いだ物理ボタン/入力の動作(プッシュ・スイッチ・PIR・タッチ・アナログ)。設定のみ。",
+  "ko": "**버튼 유형**은 **설정 → LED 및 하드웨어**에서 설정. 컨트롤러에 연결된 물리 버튼/입력의 동작(푸시, 스위치, PIR, 터치, 아날로그). 설정 전용.",
+  "zh": "**按钮类型**在**设置 → LED 与硬件**中配置：接到控制器的物理按钮/输入如何工作（按钮、开关、PIR、触摸、模拟…）。仅配置。"
+ },
+ "fxdata": {
+  "en": "**Effect slider labels** are the parameter names each effect declares in its `/json/fxdata` metadata — the text shown above the Speed/Intensity/Custom sliders and colour pickers when that effect is selected.",
+  "fr": "Les **labels de curseurs d'effet** sont les noms de paramètres que chaque effet déclare dans ses métadonnées `/json/fxdata` — le texte affiché au-dessus des curseurs Vitesse/Intensité/Perso et des sélecteurs de couleur quand l'effet est sélectionné.",
+  "de": "**Effekt-Regler-Beschriftungen** sind die Parameternamen, die jeder Effekt in `/json/fxdata` deklariert — der Text über den Speed/Intensity/Custom-Reglern und Farbwählern.",
+  "es": "Las **etiquetas de deslizadores** son los nombres de parámetros que cada efecto declara en `/json/fxdata` — el texto sobre los deslizadores y selectores de color.",
+  "it": "Le **etichette dei cursori** sono i nomi dei parametri dichiarati da ogni effetto in `/json/fxdata` — il testo sopra i cursori e i selettori di colore.",
+  "ja": "**エフェクトスライダー名**は各エフェクトが`/json/fxdata`で宣言するパラメータ名——選択時にスライダーや色選択の上に表示される文字。",
+  "ko": "**효과 슬라이더 라벨**은 각 효과가 `/json/fxdata`에 선언하는 매개변수 이름——슬라이더/색 선택 위에 표시되는 텍스트.",
+  "zh": "**效果滑块标签**是每个效果在 `/json/fxdata` 元数据中声明的参数名——选中该效果时显示在滑块和取色器上方的文字。"
+ },
+ "info": {
+  "en": "**Info fields** are the read-outs in WLED's **Info** panel (`/json/info`) — uptime, free memory, signal, FPS, estimated current and so on.",
+  "fr": "Les **champs Info** sont les valeurs du panneau **Info** de WLED (`/json/info`) — temps de fonctionnement, mémoire libre, signal, FPS, courant estimé, etc.",
+  "de": "**Info-Felder** sind die Werte im **Info**-Panel von WLED (`/json/info`) — Betriebszeit, freier Speicher, Signal, FPS, geschätzter Strom usw.",
+  "es": "Los **campos de info** son los datos del panel **Info** de WLED (`/json/info`) — tiempo activo, memoria libre, señal, FPS, corriente estimada, etc.",
+  "it": "I **campi info** sono i valori nel pannello **Info** di WLED (`/json/info`) — tempo di attività, memoria libera, segnale, FPS, corrente stimata, ecc.",
+  "ja": "**情報項目**はWLEDの**情報**パネル(`/json/info`)の表示——稼働時間・空きメモリ・信号・FPS・推定電流など。",
+  "ko": "**정보 항목**은 WLED **정보** 패널(`/json/info`)의 값——가동 시간, 여유 메모리, 신호, FPS, 예상 전류 등.",
+  "zh": "**信息字段**是 WLED **信息**面板（`/json/info`）中的读数——运行时间、可用内存、信号、FPS、估计电流等。"
+ },
+ "ui": {
+  "en": "**UI labels** are the chrome of the WLED web app / mobile app itself — the tab names, buttons and actions (Colors, Effects, Segments, Presets, Settings, Save, Sync, Live…).",
+  "fr": "Les **libellés d'UI** sont l'habillage de l'app web / mobile WLED elle-même — noms d'onglets, boutons et actions (Couleurs, Effets, Segments, Préréglages, Réglages, Enregistrer, Sync, En direct…).",
+  "de": "**UI-Texte** sind die Oberfläche der WLED-Web-/Mobil-App selbst — Reiternamen, Schaltflächen und Aktionen (Farben, Effekte, Segmente, Presets, Einstellungen, Speichern, Sync, Live…).",
+  "es": "Las **etiquetas de IU** son la interfaz de la app web/móvil de WLED — pestañas, botones y acciones (Colores, Efectos, Segmentos, Ajustes, Guardar, Sync, En vivo…).",
+  "it": "Le **etichette UI** sono l'interfaccia dell'app web/mobile di WLED — schede, pulsanti e azioni (Colori, Effetti, Segmenti, Preset, Impostazioni, Salva, Sync, Live…).",
+  "ja": "**UIラベル**はWLEDのWeb/モバイルアプリ自体の要素——タブ名・ボタン・操作(色、エフェクト、セグメント、プリセット、設定、保存、同期、ライブ…)。",
+  "ko": "**UI 라벨**은 WLED 웹/모바일 앱 자체의 요소——탭 이름, 버튼, 동작(색, 효과, 세그먼트, 프리셋, 설정, 저장, 동기화, 라이브…).",
+  "zh": "**界面标签**是 WLED 网页/移动应用本身的元素——标签名、按钮和操作（颜色、效果、段、预设、设置、保存、同步、实时…）。"
+ }
+}

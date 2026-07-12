@@ -1,8 +1,10 @@
 # WLED コントロール
 
-[パレット](palettes.md) · [エフェクト](effects.md) · **コントロール** · [色](colors.md) · [ナイトライト](nightlight.md) · [セグメント](segment.md) · [ボタン](buttons.md) · [スライダー](fxdata.md) · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
+[パレット](palettes.md) · [エフェクト](effects.md) · **コントロール** · [ナイトライト](nightlight.md) · [セグメント](segment.md) · [ボタン](buttons.md) · [スライダー](fxdata.md) · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
 
 <sub>他の言語: [EN](../en/controls.md) · [FR](../fr/controls.md) · [DE](../de/controls.md) · [ES](../es/controls.md) · [IT](../it/controls.md) · [KO](../ko/controls.md) · [ZH](../zh/controls.md)</sub>
+
+**コントロール**は選択中エフェクトの下のスライダー/トグル(速度・強度・カスタム3つ・オプション・色・パレット)。使う項目は`/json/fxdata`で宣言。
 
 | 画像 | WLED名 | 翻訳 | 説明 |
 |---|---|---|---|

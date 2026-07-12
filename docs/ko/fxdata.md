@@ -1,8 +1,10 @@
 # WLED 슬라이더
 
-[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · [색](colors.md) · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · **슬라이더** · [정보 항목](info.md) · [UI 라벨](ui.md) &nbsp;•&nbsp; [한국어 참조](README.md)
+[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · **슬라이더** · [정보 항목](info.md) · [UI 라벨](ui.md) &nbsp;•&nbsp; [한국어 참조](README.md)
 
 <sub>다른 언어: [EN](../en/fxdata.md) · [FR](../fr/fxdata.md) · [DE](../de/fxdata.md) · [ES](../es/fxdata.md) · [IT](../it/fxdata.md) · [JA](../ja/fxdata.md) · [ZH](../zh/fxdata.md)</sub>
+
+**효과 슬라이더 라벨**은 각 효과가 `/json/fxdata`에 선언하는 매개변수 이름——슬라이더/색 선택 위에 표시되는 텍스트.
 
 | 이미지 | WLED 이름 | 번역 |
 |---|---|---|

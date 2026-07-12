@@ -1,15 +1,14 @@
 # WLED 🇯🇵 — 日本語
 
-- [パレット](palettes.md)
-- [エフェクト](effects.md)
-- [コントロール](controls.md)
-- [色](colors.md)
-- [ナイトライト](nightlight.md)
-- [セグメント](segment.md)
-- [ボタン](buttons.md)
-- [スライダー](fxdata.md)
-- [情報項目](info.md)
-- [UIラベル](ui.md)
+- <img src="../../images/concepts/palettes.png" width="22" align="center"> [パレット](palettes.md)
+- <img src="../../images/concepts/effects.png" width="22" align="center"> [エフェクト](effects.md)
+- <img src="../../images/concepts/controls.png" width="22" align="center"> [コントロール](controls.md)
+- <img src="../../images/concepts/nightlight.png" width="22" align="center"> [ナイトライト](nightlight.md)
+- <img src="../../images/concepts/segment.png" width="22" align="center"> [セグメント](segment.md)
+- <img src="../../images/concepts/buttons.png" width="22" align="center"> [ボタン](buttons.md)
+- <img src="../../images/concepts/fxdata.png" width="22" align="center"> [スライダー](fxdata.md)
+- <img src="../../images/concepts/info.png" width="22" align="center"> [情報項目](info.md)
+- <img src="../../images/concepts/ui.png" width="22" align="center"> [UIラベル](ui.md)
 
 ---
 

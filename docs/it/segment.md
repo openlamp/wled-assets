@@ -1,8 +1,10 @@
 # WLED Segmento
 
-[Tavolozze](palettes.md) · [Effetti](effects.md) · [Controlli](controls.md) · [Colori](colors.md) · [Luce notturna](nightlight.md) · **Segmento** · [Pulsanti](buttons.md) · [Cursori effetto](fxdata.md) · [Campi info](info.md) · [Etichette UI](ui.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
+[Tavolozze](palettes.md) · [Effetti](effects.md) · [Controlli](controls.md) · [Luce notturna](nightlight.md) · **Segmento** · [Pulsanti](buttons.md) · [Cursori effetto](fxdata.md) · [Campi info](info.md) · [Etichette UI](ui.md) &nbsp;•&nbsp; [Riferimento in italiano](README.md)
 
 <sub>Altre lingue: [EN](../en/segment.md) · [FR](../fr/segment.md) · [DE](../de/segment.md) · [ES](../es/segment.md) · [JA](../ja/segment.md) · [KO](../ko/segment.md) · [ZH](../zh/segment.md)</sub>
+
+Le **azioni di segmento** sono opzioni per segmento nella scheda **Segmenti**: inverti, specchia, congela, on/off, transizione, simulazione audio (`seg.rev/mi/frz/on`…).
 
 | Immagine | Nome WLED | Traduzione | Descrizione |
 |---|---|---|---|

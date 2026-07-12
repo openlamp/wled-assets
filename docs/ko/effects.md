@@ -1,8 +1,10 @@
 # WLED 효과
 
-[팔레트](palettes.md) · **효과** · [컨트롤](controls.md) · [색](colors.md) · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) · [정보 항목](info.md) · [UI 라벨](ui.md) &nbsp;•&nbsp; [한국어 참조](README.md)
+[팔레트](palettes.md) · **효과** · [컨트롤](controls.md) · [야간등](nightlight.md) · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) · [정보 항목](info.md) · [UI 라벨](ui.md) &nbsp;•&nbsp; [한국어 참조](README.md)
 
 <sub>다른 언어: [EN](../en/effects.md) · [FR](../fr/effects.md) · [DE](../de/effects.md) · [ES](../es/effects.md) · [IT](../it/effects.md) · [JA](../ja/effects.md) · [ZH](../zh/effects.md)</sub>
+
+**효과**는 WLED의 애니메이션 패턴. **효과** 탭에서 선택(`seg.fx`, 목록 `/json/eff`). 효과는 *움직임*, 팔레트는 *색*.
 
 | 이미지 | WLED 이름 | 번역 | 설명 |
 |---|---|---|---|

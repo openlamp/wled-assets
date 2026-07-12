@@ -1,8 +1,10 @@
 # WLED 야간등
 
-[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · [색](colors.md) · **야간등** · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) · [정보 항목](info.md) · [UI 라벨](ui.md) &nbsp;•&nbsp; [한국어 참조](README.md)
+[팔레트](palettes.md) · [효과](effects.md) · [컨트롤](controls.md) · **야간등** · [세그먼트](segment.md) · [버튼](buttons.md) · [슬라이더](fxdata.md) · [정보 항목](info.md) · [UI 라벨](ui.md) &nbsp;•&nbsp; [한국어 참조](README.md)
 
 <sub>다른 언어: [EN](../en/nightlight.md) · [FR](../fr/nightlight.md) · [DE](../de/nightlight.md) · [ES](../es/nightlight.md) · [IT](../it/nightlight.md) · [JA](../ja/nightlight.md) · [ZH](../zh/nightlight.md)</sub>
+
+**야간등**은 WLED의 시간제 소등(상단 달 아이콘). 4가지 모드가 사라지는 방식을 정함(`nl.mode`).
 
 | 이미지 | WLED 이름 | 번역 | 설명 |
 |---|---|---|---|

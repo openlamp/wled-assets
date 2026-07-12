@@ -1,8 +1,10 @@
 # WLED 控件
 
-[调色板](palettes.md) · [效果](effects.md) · **控件** · [颜色](colors.md) · [夜灯](nightlight.md) · [段](segment.md) · [按钮](buttons.md) · [滑块](fxdata.md) · [信息字段](info.md) · [界面标签](ui.md) &nbsp;•&nbsp; [中文参考](README.md)
+[调色板](palettes.md) · [效果](effects.md) · **控件** · [夜灯](nightlight.md) · [段](segment.md) · [按钮](buttons.md) · [滑块](fxdata.md) · [信息字段](info.md) · [界面标签](ui.md) &nbsp;•&nbsp; [中文参考](README.md)
 
 <sub>其他语言: [EN](../en/controls.md) · [FR](../fr/controls.md) · [DE](../de/controls.md) · [ES](../es/controls.md) · [IT](../it/controls.md) · [JA](../ja/controls.md) · [KO](../ko/controls.md)</sub>
+
+**控件**是所选效果下方的滑块与开关（速度、强度、最多3个自定义滑块、选项、颜色、调色板）。由 `/json/fxdata` 声明。
 
 | 图片 | WLED 名称 | 翻译 | 描述 |
 |---|---|---|---|
