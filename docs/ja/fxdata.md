@@ -1,6 +1,6 @@
 # WLED スライダー
 
-[パレット](palettes.md) · [エフェクト](effects.md) · [コントロール](controls.md) · [ナイトライト](nightlight.md) · [セグメント](segment.md) · [ボタン](buttons.md) · **スライダー** · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
+[パレット](palettes.md) · [エフェクト](effects.md) · [コントロール](controls.md) · [ナイトライト](nightlight.md) · [セグメント](segment.md) · [ボタン](buttons.md) · [ボタンイベント](button-events.md) · [プリセット](presets.md) · **スライダー** · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
 
 <sub>他の言語: [EN](../en/fxdata.md) · [FR](../fr/fxdata.md) · [DE](../de/fxdata.md) · [ES](../es/fxdata.md) · [IT](../it/fxdata.md) · [KO](../ko/fxdata.md) · [ZH](../zh/fxdata.md)</sub>
 

@@ -6,6 +6,8 @@
 - <img src="../../images/concepts/nightlight.png" width="22" align="center"> [Nightlight](nightlight.md)
 - <img src="../../images/concepts/segment.png" width="22" align="center"> [Segment](segment.md)
 - <img src="../../images/concepts/buttons.png" width="22" align="center"> [Buttons](buttons.md)
+- <img src="../../images/concepts/button-events.png" width="22" align="center"> [Button events](button-events.md)
+- <img src="../../images/concepts/presets.png" width="22" align="center"> [Presets](presets.md)
 - <img src="../../images/concepts/fxdata.png" width="22" align="center"> [Effect sliders](fxdata.md)
 - <img src="../../images/concepts/info.png" width="22" align="center"> [Info fields](info.md)
 - <img src="../../images/concepts/ui.png" width="22" align="center"> [UI labels](ui.md)

@@ -1,6 +1,6 @@
 # WLED Nachtlicht
 
-[Paletten](palettes.md) · [Effekte](effects.md) · [Regler](controls.md) · **Nachtlicht** · [Segment](segment.md) · [Tasten](buttons.md) · [Effektregler](fxdata.md) · [Info-Felder](info.md) · [UI-Texte](ui.md) &nbsp;•&nbsp; [Referenz auf Deutsch](README.md)
+[Paletten](palettes.md) · [Effekte](effects.md) · [Regler](controls.md) · **Nachtlicht** · [Segment](segment.md) · [Tasten](buttons.md) · [Tastenereignisse](button-events.md) · [Presets](presets.md) · [Effektregler](fxdata.md) · [Info-Felder](info.md) · [UI-Texte](ui.md) &nbsp;•&nbsp; [Referenz auf Deutsch](README.md)
 
 <sub>Andere Sprachen: [EN](../en/nightlight.md) · [FR](../fr/nightlight.md) · [ES](../es/nightlight.md) · [IT](../it/nightlight.md) · [JA](../ja/nightlight.md) · [KO](../ko/nightlight.md) · [ZH](../zh/nightlight.md)</sub>
 

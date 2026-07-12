@@ -1,6 +1,6 @@
 # WLED Etiquetas de IU
 
-[Paletas](palettes.md) · [Efectos](effects.md) · [Controles](controls.md) · [Luz nocturna](nightlight.md) · [Segmento](segment.md) · [Botones](buttons.md) · [Deslizadores](fxdata.md) · [Campos de info](info.md) · **Etiquetas de IU** &nbsp;•&nbsp; [Referencia en español](README.md)
+[Paletas](palettes.md) · [Efectos](effects.md) · [Controles](controls.md) · [Luz nocturna](nightlight.md) · [Segmento](segment.md) · [Botones](buttons.md) · [Eventos de botón](button-events.md) · [Presets](presets.md) · [Deslizadores](fxdata.md) · [Campos de info](info.md) · **Etiquetas de IU** &nbsp;•&nbsp; [Referencia en español](README.md)
 
 <sub>Otros idiomas: [EN](../en/ui.md) · [FR](../fr/ui.md) · [DE](../de/ui.md) · [IT](../it/ui.md) · [JA](../ja/ui.md) · [KO](../ko/ui.md) · [ZH](../zh/ui.md)</sub>
 

@@ -6,6 +6,8 @@
 - <img src="../../images/concepts/nightlight.png" width="22" align="center"> [夜灯](nightlight.md)
 - <img src="../../images/concepts/segment.png" width="22" align="center"> [段](segment.md)
 - <img src="../../images/concepts/buttons.png" width="22" align="center"> [按钮](buttons.md)
+- <img src="../../images/concepts/button-events.png" width="22" align="center"> [按钮事件](button-events.md)
+- <img src="../../images/concepts/presets.png" width="22" align="center"> [预设](presets.md)
 - <img src="../../images/concepts/fxdata.png" width="22" align="center"> [滑块](fxdata.md)
 - <img src="../../images/concepts/info.png" width="22" align="center"> [信息字段](info.md)
 - <img src="../../images/concepts/ui.png" width="22" align="center"> [界面标签](ui.md)

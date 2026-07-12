@@ -6,6 +6,8 @@
 - <img src="../../images/concepts/nightlight.png" width="22" align="center"> [ナイトライト](nightlight.md)
 - <img src="../../images/concepts/segment.png" width="22" align="center"> [セグメント](segment.md)
 - <img src="../../images/concepts/buttons.png" width="22" align="center"> [ボタン](buttons.md)
+- <img src="../../images/concepts/button-events.png" width="22" align="center"> [ボタンイベント](button-events.md)
+- <img src="../../images/concepts/presets.png" width="22" align="center"> [プリセット](presets.md)
 - <img src="../../images/concepts/fxdata.png" width="22" align="center"> [スライダー](fxdata.md)
 - <img src="../../images/concepts/info.png" width="22" align="center"> [情報項目](info.md)
 - <img src="../../images/concepts/ui.png" width="22" align="center"> [UIラベル](ui.md)

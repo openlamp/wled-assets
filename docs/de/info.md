@@ -1,6 +1,6 @@
 # WLED Info-Felder
 
-[Paletten](palettes.md) · [Effekte](effects.md) · [Regler](controls.md) · [Nachtlicht](nightlight.md) · [Segment](segment.md) · [Tasten](buttons.md) · [Effektregler](fxdata.md) · **Info-Felder** · [UI-Texte](ui.md) &nbsp;•&nbsp; [Referenz auf Deutsch](README.md)
+[Paletten](palettes.md) · [Effekte](effects.md) · [Regler](controls.md) · [Nachtlicht](nightlight.md) · [Segment](segment.md) · [Tasten](buttons.md) · [Tastenereignisse](button-events.md) · [Presets](presets.md) · [Effektregler](fxdata.md) · **Info-Felder** · [UI-Texte](ui.md) &nbsp;•&nbsp; [Referenz auf Deutsch](README.md)
 
 <sub>Andere Sprachen: [EN](../en/info.md) · [FR](../fr/info.md) · [ES](../es/info.md) · [IT](../it/info.md) · [JA](../ja/info.md) · [KO](../ko/info.md) · [ZH](../zh/info.md)</sub>
 

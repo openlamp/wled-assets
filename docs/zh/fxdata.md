@@ -1,6 +1,6 @@
 # WLED 滑块
 
-[调色板](palettes.md) · [效果](effects.md) · [控件](controls.md) · [夜灯](nightlight.md) · [段](segment.md) · [按钮](buttons.md) · **滑块** · [信息字段](info.md) · [界面标签](ui.md) &nbsp;•&nbsp; [中文参考](README.md)
+[调色板](palettes.md) · [效果](effects.md) · [控件](controls.md) · [夜灯](nightlight.md) · [段](segment.md) · [按钮](buttons.md) · [按钮事件](button-events.md) · [预设](presets.md) · **滑块** · [信息字段](info.md) · [界面标签](ui.md) &nbsp;•&nbsp; [中文参考](README.md)
 
 <sub>其他语言: [EN](../en/fxdata.md) · [FR](../fr/fxdata.md) · [DE](../de/fxdata.md) · [ES](../es/fxdata.md) · [IT](../it/fxdata.md) · [JA](../ja/fxdata.md) · [KO](../ko/fxdata.md)</sub>
 

@@ -1,6 +1,6 @@
 # WLED セグメント
 
-[パレット](palettes.md) · [エフェクト](effects.md) · [コントロール](controls.md) · [ナイトライト](nightlight.md) · **セグメント** · [ボタン](buttons.md) · [スライダー](fxdata.md) · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
+[パレット](palettes.md) · [エフェクト](effects.md) · [コントロール](controls.md) · [ナイトライト](nightlight.md) · **セグメント** · [ボタン](buttons.md) · [ボタンイベント](button-events.md) · [プリセット](presets.md) · [スライダー](fxdata.md) · [情報項目](info.md) · [UIラベル](ui.md) &nbsp;•&nbsp; [日本語リファレンス](README.md)
 
 <sub>他の言語: [EN](../en/segment.md) · [FR](../fr/segment.md) · [DE](../de/segment.md) · [ES](../es/segment.md) · [IT](../it/segment.md) · [KO](../ko/segment.md) · [ZH](../zh/segment.md)</sub>
 

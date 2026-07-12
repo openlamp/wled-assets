@@ -88,5 +88,25 @@
   "ja": "**UIラベル**はWLEDのWeb/モバイルアプリ自体の要素——タブ名・ボタン・操作(色、エフェクト、セグメント、プリセット、設定、保存、同期、ライブ…)。",
   "ko": "**UI 라벨**은 WLED 웹/모바일 앱 자체의 요소——탭 이름, 버튼, 동작(색, 효과, 세그먼트, 프리셋, 설정, 저장, 동기화, 라이브…).",
   "zh": "**界面标签**是 WLED 网页/移动应用本身的元素——标签名、按钮和操作（颜色、效果、段、预设、设置、保存、同步、实时…）。"
+ },
+ "button-events": {
+  "en": "**Button events** are *when* a physical button fires — a short press, a long press or a double press. WLED maps each event to a **preset or action** (`btn[].macros`), set in **Settings → LED & Hardware**.",
+  "fr": "Les **événements de bouton** sont *quand* un bouton physique déclenche — appui court, long ou double. WLED associe chaque événement à un **preset ou une action** (`btn[].macros`), réglé dans **Réglages → LED & matériel**.",
+  "de": "**Tastenereignisse** sind *wann* eine Taste auslöst — kurz, lang oder doppelt. WLED ordnet jedem Ereignis ein **Preset/eine Aktion** zu (`btn[].macros`), in **Einstellungen → LED & Hardware**.",
+  "es": "Los **eventos de botón** son *cuándo* dispara un botón físico — pulsación corta, larga o doble. WLED asigna a cada evento un **preset o acción** (`btn[].macros`), en **Ajustes → LED y hardware**.",
+  "it": "Gli **eventi di pulsante** sono *quando* un pulsante fisico attiva — pressione breve, lunga o doppia. WLED associa a ogni evento un **preset o azione** (`btn[].macros`), in **Impostazioni → LED e hardware**.",
+  "ja": "**ボタンイベント**は物理ボタンが*いつ*発火するか——短押し・長押し・ダブル押し。WLEDは各イベントに**プリセット/動作**を割当(`btn[].macros`、設定→LEDとハードウェア)。",
+  "ko": "**버튼 이벤트**는 물리 버튼이 *언제* 작동하는지——짧게/길게/두 번 누름. WLED는 각 이벤트에 **프리셋/동작**을 매핑(`btn[].macros`, 설정 → LED 및 하드웨어).",
+  "zh": "**按钮事件**是物理按钮*何时*触发——短按、长按或双按。WLED 为每个事件映射一个**预设或动作**（`btn[].macros`，设置 → LED 与硬件）。"
+ },
+ "presets": {
+  "en": "**Presets** save a whole look (or a playlist of looks) to recall in one tap — from the **Presets** tab, a physical button, a timer or the API (`ps`/`/presets.json`). These are the *option labels* used when creating a preset; the preset **names** themselves are your own.",
+  "fr": "Les **presets** enregistrent tout un rendu (ou une playlist de rendus) à rappeler en un geste — depuis l'onglet **Préréglages**, un bouton physique, un minuteur ou l'API (`ps`/`/presets.json`). Voici les *libellés d'options* de création ; les **noms** des presets, eux, sont les tiens.",
+  "de": "**Presets** speichern ein ganzes Bild (oder eine Playlist) zum Abruf mit einem Tipp — aus dem Reiter **Presets**, per Taste, Timer oder API (`ps`/`/presets.json`). Dies sind die *Options-Bezeichnungen*; die **Namen** gehören dir.",
+  "es": "Los **presets** guardan todo un aspecto (o una lista) para recuperarlo con un toque — desde la pestaña **Ajustes**, un botón, un temporizador o la API (`ps`/`/presets.json`). Estas son las *etiquetas de opciones*; los **nombres** son tuyos.",
+  "it": "I **preset** salvano un intero aspetto (o una playlist) da richiamare con un tocco — dalla scheda **Preset**, un pulsante, un timer o l'API (`ps`/`/presets.json`). Queste sono le *etichette delle opzioni*; i **nomi** sono i tuoi.",
+  "ja": "**プリセット**は見た目(やプレイリスト)を丸ごと保存して一発呼出——**プリセット**タブ・物理ボタン・タイマー・API(`ps`/`/presets.json`)から。ここは作成時の*オプション名*で、プリセット**名**はあなたのもの。",
+  "ko": "**프리셋**은 전체 룩(또는 플레이리스트)을 저장해 한 번에 불러옴——**프리셋** 탭, 물리 버튼, 타이머, API(`ps`/`/presets.json`). 여기는 생성 시 *옵션 라벨*이며, 프리셋 **이름**은 사용자 것.",
+  "zh": "**预设**保存整个效果（或播放列表），一键调用——来自**预设**标签、物理按钮、定时器或 API（`ps`/`/presets.json`）。这里是创建时的*选项标签*；预设**名称**是你自己的。"
  }
 }

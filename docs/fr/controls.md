@@ -1,6 +1,6 @@
 # WLED Contrôles
 
-[Palettes](palettes.md) · [Effets](effects.md) · **Contrôles** · [Veilleuse](nightlight.md) · [Segment](segment.md) · [Boutons](buttons.md) · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
+[Palettes](palettes.md) · [Effets](effects.md) · **Contrôles** · [Veilleuse](nightlight.md) · [Segment](segment.md) · [Boutons](buttons.md) · [Événements bouton](button-events.md) · [Préréglages](presets.md) · [Curseurs d'effet](fxdata.md) · [Champs Info](info.md) · [Libellés d'UI](ui.md) &nbsp;•&nbsp; [Référence en français](README.md)
 
 <sub>Autres langues: [EN](../en/controls.md) · [DE](../de/controls.md) · [ES](../es/controls.md) · [IT](../it/controls.md) · [JA](../ja/controls.md) · [KO](../ko/controls.md) · [ZH](../zh/controls.md)</sub>
 

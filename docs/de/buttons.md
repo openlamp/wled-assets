@@ -1,6 +1,6 @@
 # WLED Tasten
 
-[Paletten](palettes.md) · [Effekte](effects.md) · [Regler](controls.md) · [Nachtlicht](nightlight.md) · [Segment](segment.md) · **Tasten** · [Effektregler](fxdata.md) · [Info-Felder](info.md) · [UI-Texte](ui.md) &nbsp;•&nbsp; [Referenz auf Deutsch](README.md)
+[Paletten](palettes.md) · [Effekte](effects.md) · [Regler](controls.md) · [Nachtlicht](nightlight.md) · [Segment](segment.md) · **Tasten** · [Tastenereignisse](button-events.md) · [Presets](presets.md) · [Effektregler](fxdata.md) · [Info-Felder](info.md) · [UI-Texte](ui.md) &nbsp;•&nbsp; [Referenz auf Deutsch](README.md)
 
 <sub>Andere Sprachen: [EN](../en/buttons.md) · [FR](../fr/buttons.md) · [ES](../es/buttons.md) · [IT](../it/buttons.md) · [JA](../ja/buttons.md) · [KO](../ko/buttons.md) · [ZH](../zh/buttons.md)</sub>
 

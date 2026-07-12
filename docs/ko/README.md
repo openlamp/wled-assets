@@ -6,6 +6,8 @@
 - <img src="../../images/concepts/nightlight.png" width="22" align="center"> [야간등](nightlight.md)
 - <img src="../../images/concepts/segment.png" width="22" align="center"> [세그먼트](segment.md)
 - <img src="../../images/concepts/buttons.png" width="22" align="center"> [버튼](buttons.md)
+- <img src="../../images/concepts/button-events.png" width="22" align="center"> [버튼 이벤트](button-events.md)
+- <img src="../../images/concepts/presets.png" width="22" align="center"> [프리셋](presets.md)
 - <img src="../../images/concepts/fxdata.png" width="22" align="center"> [슬라이더](fxdata.md)
 - <img src="../../images/concepts/info.png" width="22" align="center"> [정보 항목](info.md)
 - <img src="../../images/concepts/ui.png" width="22" align="center"> [UI 라벨](ui.md)
