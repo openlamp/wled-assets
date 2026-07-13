@@ -16,8 +16,13 @@
     Refait en vraies étoiles qui scintillent (dots + croix d'étincelle 4 branches qui flashent/s'éteignent,
     points ternes au repos). Synchro 3 copies (motions.py, anim.js, plugin.py) + 6 GIF régénérés
     (Colortwinkles/Pixels/Twinkle/Twinklecat/Twinklefox/Twinkleup, seed canonique = index effet).
-  - ☐ `bees` `glitter` `fade` `randcolor` `lissajous` : lisibles et corrects au rendu, juste
-    « peu distinctifs ». À affiner avec l'œil de Benoît (shortlist) — pas objectivement faux.
+  - ✅ `fade` `bees` `glitter` (2026-07-13) : `fade` ne pulsait que la luminosité (≈ breathe) → vrai
+    crossfade de couleur ; `bees` = cercles peu lisibles → abeilles rayées (corps + bande horizontale +
+    aile qui bat, bourdonnement erratique) ; `glitter` trop épars → paillettes fines denses (cœur blanc +
+    halo, fondu). 3 copies synchro + 7 GIF régénérés (fade/tri-fade/slow-transition, crazy-bees,
+    glitter/solid-glitter/shimmer). Revue avant/après validée par Benoît.
+  - ☐ `randcolor` `lissajous` : **corrects et distinctifs** au rendu — laissés (refonte = pur goût,
+    rien à gagner). Rouvrir seulement si Benoît le demande explicitement.
 - ☐ **Repasser les animations `pas terribles` restantes** (Benoît, 2026-07-13). Certaines des 217 motions
   ne représentent pas bien l'effet / ne sont pas jolies. Méthode : rejouer nom → symbole →
   mouvement, une par une, comme la passe initiale — repérer les faibles et les refaire.
