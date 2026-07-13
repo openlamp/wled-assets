@@ -24,7 +24,7 @@ function motion(name){
  if(h('scrolling text','text'))return'text';if(h('black hole','blackhole'))return'blackhole';
  if(h('galaxy','vortex','swirl','drift rose','spiral'))return'galaxy';
  if(h('hourglass'))return'hourglass';if(h('tv sim','tv '))return'tv';
- if(h('bpm'))return'beat';if(h('impact','sonic boom','colored burst'))return'impact';
+ if(h('bpm'))return'beat';if(h('impact','sonic boom','colored burst'))return'impact';if(h('perlin','waving cell'))return'plasma';if(h('funky plank','blurz'))return'geq';if(h('distortion','waverly'))return'ripple';if(h('ps box','ps 1d balance'))return'bounce';if(h('copy segment'))return'wipe';
  if(h('akemi'))return'akemi';if(h('halloween'))return'halloween';if(h('candle'))return'candle';
  if(h('fairy'))return'fairy';if(h('spot'))return'spots';if(h('plasma'))return'plasma';
  if(h('aurora','polar'))return'aurora';if(h('stream','flow','river'))return'stream';
