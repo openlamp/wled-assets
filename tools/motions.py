@@ -249,10 +249,11 @@ def anim(ph,m,seed=0):
     if m=="dj":
         a=p*0.8
         return '<circle cx="72" cy="72" r="46" fill="#222"/><circle cx="72" cy="72" r="46" fill="none" stroke="%s" stroke-width="4"/><circle cx="72" cy="72" r="14" fill="%s"/><rect x="70" y="30" width="4" height="42" fill="#fff" transform="rotate(%.0f 72 72)"/>'%(_rgb(h0,.7,1),_rgb(h0+0.3,.7,1),a*57.3)
-    if m=="text":
-        o="";off=(int(ph*7*spd))%40
-        for i in range(5): o+='<rect x="%.0f" y="52" width="20" height="40" rx="3" fill="%s"/>'%(140-i*32-off,_rgb(h0+i*0.1,.7,1))
-        return o
+    if m=="text":                                  # scrolling letters (reads as "text")
+        off=(int(ph*6*spd)+70)%150                 # start with the word on-screen (good thumbnail)
+        return ('<clipPath id="tc"><rect x="8" y="16" width="128" height="112" rx="10"/></clipPath>'
+                '<g clip-path="url(#tc)"><text x="%d" y="96" font-family="Helvetica" font-size="56" '
+                'font-weight="bold" fill="%s">WLED</text></g>'%(132-off,_rgb(h0,.7,1)))
     if m=="blackhole":
         o='<circle cx="72" cy="72" r="16" fill="#000"/>'
         for k in range(3): o+='<circle cx="72" cy="72" r="%.0f" fill="none" stroke="%s" stroke-width="5"/>'%(max(2,48-((ph*3*spd+k*16)%44)),_rgb(h0+k*0.1,.7,1))
@@ -583,9 +584,10 @@ def anim(ph,m,seed=0):
         for x in range(-off,144,36):
             o+='<rect x="%d" y="30" width="18" height="84" rx="4" fill="%s"/>'%(x,_rgb(h0,sat,0.85))
         return o
-    if m=="strobe":
-        c=_rgb(h0,sat,1) if ph%2==0 else "#272c36"
-        return "".join('<circle cx="%d" cy="%d" r="16" fill="%s"/>'%(x,y,c) for x,y in ((48,48),(96,48),(48,96),(96,96)))
+    if m=="strobe":                                # full-frame flash: bright ↔ dark
+        if ph%2==0:
+            return '<rect x="18" y="18" width="108" height="108" rx="14" fill="%s"/>'%_rgb(h0,0.45,1)
+        return '<rect x="18" y="18" width="108" height="108" rx="14" fill="#14171c" stroke="#3a4048" stroke-width="4"/>'
     if m=="chase":
         pos=int(ph*spd+seed)%7; o="";base=colorsys.hsv_to_rgb(h0,.75,1)
         for i in range(7):
@@ -596,17 +598,21 @@ def anim(ph,m,seed=0):
         o=""
         for k in range(6): o+='<path d="M18 128 A%d %d 0 0 1 126 128" fill="none" stroke="%s" stroke-width="9"/>'%(54-k*8,54-k*8,_rgb((k/6.0+ph*0.03*spd)%1.0,.9,1))
         return o
-    if m=="colorloop":
-        return '<rect x="20" y="20" width="104" height="104" rx="16" fill="%s"/>'%_rgb(h0+ph*0.03*spd,.8,1)
+    if m=="colorloop":                             # rotating ring of the whole hue wheel
+        o=""
+        for k in range(12):
+            a=(k/12.0)*2*M.pi+ph*0.05*spd
+            o+='<circle cx="%.0f" cy="%.0f" r="10" fill="%s"/>'%(72+42*M.cos(a),72+42*M.sin(a),_rgb(h0+k/12.0,.85,1))
+        return o
     if m=="lissajous":                             # a real Lissajous curve, morphing
         o=""; N=54; dphi=p*0.25
         for i in range(N):
             t=i/N*2*M.pi; x=72+54*M.sin(3*t+dphi); y=72+50*M.sin(2*t)
             o+='<circle cx="%.0f" cy="%.0f" r="3.4" fill="%s"/>'%(x,y,_rgb(h0+i/N*0.14,sat,0.9))
         return o
-    wd=120//n; o=""                                # wave (default)
-    for i in range(n):
-        br=0.30+0.70*(0.5+0.5*M.sin(p*0.6-i*0.95)); hh=22+96*br
-        o+='<rect x="%d" y="%.0f" width="%d" height="%.0f" rx="3" fill="%s"/>'%(12+i*wd,128-hh,wd-3,hh,_rgb(h0+i*0.012,sat,br))
+    o=""                                           # wave (default) — travelling sine wave
+    for lay,(amp,wdt,val,dph) in enumerate(((30,9,1.0,0.0),(22,6,0.62,1.7))):
+        pts=" ".join("%d %.0f"%(x,72+amp*M.sin((x-12)*0.09+p*0.5+dph)) for x in range(12,134,5))
+        o+='<polyline points="%s" fill="none" stroke="%s" stroke-width="%d" stroke-linecap="round" stroke-linejoin="round"/>'%(pts,_rgb(h0+lay*0.12,sat,val),wdt)
     return o
 def wrap(i): return '<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144"><rect width="144" height="144" fill="#1a1a1a"/>%s</svg>'%i
