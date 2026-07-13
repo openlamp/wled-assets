@@ -149,8 +149,8 @@ def anim(ph,m,seed=0):
     h0=_mhue(m); sat=0.58  # fixed deliberate colour PER MOTION; moderate sat = refined, not neon
     if m=="solid":
         return '<rect x="24" y="24" width="96" height="96" rx="16" fill="%s"/><rect x="40" y="40" width="48" height="30" rx="14" fill="%s"/>'%(_rgb(h0,sat,.85),_rgb(h0,sat*0.5,1))
-    if m=="fade":
-        v=0.15+0.85*(0.5+0.5*M.sin(p*0.7)); return '<rect x="24" y="34" width="96" height="76" rx="14" fill="%s"/>'%_rgb(h0,sat,v)
+    if m=="fade":                                   # slow COLOUR crossfade (not a brightness pulse — that's breathe)
+        hue=(p*0.09)%1.0; return '<rect x="24" y="34" width="96" height="76" rx="14" fill="%s"/>'%_rgb(hue,sat,0.88)
     if m=="breathe":
         br=0.5+0.5*M.sin(p*0.6); r=26+30*br
         return '<circle cx="72" cy="72" r="%.0f" fill="none" stroke="%s" stroke-width="4"/><circle cx="72" cy="72" r="%.0f" fill="%s"/>'%(r+14,_rgb(h0,.5,br),r,_rgb(h0,sat*0.85,0.5+0.5*br))
@@ -227,11 +227,15 @@ def anim(ph,m,seed=0):
     if m=="spaceship":
         x=(int(ph*6*spd))%180-18
         return '<g transform="translate(%.0f 72)"><ellipse cx="0" cy="0" rx="34" ry="12" fill="%s"/><ellipse cx="0" cy="-8" rx="16" ry="12" fill="%s"/><circle cx="-16" cy="2" r="3" fill="#fff"/><circle cx="0" cy="4" r="3" fill="#fff"/><circle cx="16" cy="2" r="3" fill="#fff"/></g>'%(x,_rgb(h0,.5,.9),_rgb(h0+0.1,.3,1))
-    if m=="bees":
+    if m=="bees":                                   # buzzing bees: striped body + fluttering wing + erratic jitter
         o=""
         for i in range(5):
-            x=72+M.sin(p*1.3+i*2.1)*50; y=72+M.cos(p*1.7+i*1.3)*46
-            o+='<circle cx="%.0f" cy="%.0f" r="8" fill="%s"/><ellipse cx="%.0f" cy="%.0f" rx="10" ry="5" fill="none" stroke="#ffffff44" stroke-width="1"/>'%(x,y,_rgb(0.14,.9,1),x,y-2)
+            x=72+M.sin(p*1.3+i*2.1)*46+M.sin(p*7+i)*4   # slow orbit + fast buzz jitter
+            y=72+M.cos(p*1.7+i*1.3)*42+M.cos(p*6+i)*4
+            wf=2.6+abs(M.sin(p*9+i))*5                    # wing flap
+            o+='<ellipse cx="%.1f" cy="%.1f" rx="%.1f" ry="2.6" fill="#ffffff66"/>'%(x,y-6,wf)   # wing (fluttering)
+            o+='<ellipse cx="%.1f" cy="%.1f" rx="9" ry="6.5" fill="%s"/>'%(x,y,_rgb(0.13,.95,1))  # yellow abdomen
+            o+='<rect x="%.1f" y="%.1f" width="12" height="2.2" rx="1" fill="#20160a"/>'%(x-6,y-1.1)  # HORIZONTAL stripe
         return o
     if m=="octopus":
         o='<circle cx="72" cy="60" r="24" fill="%s"/>'%_rgb(h0,.6,1)
@@ -295,11 +299,14 @@ def anim(ph,m,seed=0):
         o+='<line x1="72" y1="64" x2="72" y2="72" stroke="#333" stroke-width="3"/>'
         o+='<g transform="translate(72 62) scale(%.2f) translate(-72 -62)">%s%s</g>'%(fl,_flame(72,44,_rgb(0.09,1,1),base=64),_flame(72,26,_rgb(0.14,.7,1),base=60))
         return o
-    if m=="glitter":                               # fine sparse bright flecks
+    if m=="glitter":                               # dense fine shimmer: many small flecks fading in and out
         o=""
-        for i in range(16):
-            x=(i*53+ph*7)%140+2; y=(i*89+ph*3)%128+2; on=((i*3+int(ph*4*spd))%16)<3
-            if on: o+='<circle cx="%.0f" cy="%.0f" r="3" fill="#ffffff"/><circle cx="%.0f" cy="%.0f" r="6" fill="%s"/>'%(x,y,x,y,_rgb(h0+i*0.06,.4,1))
+        for i in range(26):
+            x=(i*53+ph*7)%140+2; y=(i*89+ph*3)%128+2; t=(i*3+int(ph*5*spd))%12
+            if t<4:                                 # a fleck's brief sparkle, brightest on the first frame
+                b=1-t*0.22; r=1.6+b*2.4
+                o+='<circle cx="%.0f" cy="%.0f" r="%.1f" fill="%s" opacity="%.2f"/>'%(x,y,r,_rgb(h0+i*0.06,.35,1),b)
+                o+='<circle cx="%.0f" cy="%.0f" r="%.1f" fill="#ffffff" opacity="%.2f"/>'%(x,y,r*0.5,b)
         return o
     if m=="fairy":                                 # fairy dust trail along a curve
         o=""
