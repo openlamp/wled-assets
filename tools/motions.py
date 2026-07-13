@@ -66,6 +66,14 @@ def motion(name):
     if h("tv sim","tv "): return "tv"
     if h("bpm"): return "beat"
     if h("impact","sonic boom","colored burst"): return "impact"
+    # salvage effects that used to fall to the generic "wave" fallback — give each a
+    # more telling existing motion (Benoit 2026-07-13, animation review pass 1).
+    if h("perlin","waving cell"): return "plasma"       # smooth noise field, not a flat wave
+    if h("funky plank","blurz"): return "geq"           # audio bar-graph effects
+    if h("distortion","waverly"): return "ripple"       # distorted / audio water waves
+    if h("ps box","ps 1d balance"): return "bounce"     # particle-system gravity/bounce
+    if h("copy segment"): return "wipe"                 # pattern copied across the strip
+    # (Oscillate + Wavesins stay on "wave" — an oscillating/sine waveform genuinely fits.)
     if h("akemi"): return "akemi"
     if h("halloween"): return "halloween"
     if h("candle"): return "candle"
