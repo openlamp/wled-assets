@@ -10,9 +10,14 @@
   `wave` (fallback, rendait des barres → vraie sinusoïde), `strobe` (4 points → flash plein on/off),
   `colorloop` (carré plein → anneau de teintes tournant), `text` (blocs → « WLED » défilant).
   Synchro 3 copies + 8 GIF régénérés.
-- ☐ **Passe 3 (affinage, optionnel)** : candidats encore perfectibles repérés à l'audit —
-  `bees` `glitter` `fade` `randcolor` `lissajous` `twinkle` (corrects mais peu distinctifs).
-  À faire avec l'œil de Benoît (shortlist) si besoin.
+- ⏳ **Passe 3 (affinage, optionnel)** : candidats repérés à l'audit —
+  `bees` `glitter` `fade` `randcolor` `lissajous` `twinkle`.
+  - ✅ `twinkle` (2026-07-13) : rendait des **nœuds papillon/sabliers** (path sablier), pas des étoiles.
+    Refait en vraies étoiles qui scintillent (dots + croix d'étincelle 4 branches qui flashent/s'éteignent,
+    points ternes au repos). Synchro 3 copies (motions.py, anim.js, plugin.py) + 6 GIF régénérés
+    (Colortwinkles/Pixels/Twinkle/Twinklecat/Twinklefox/Twinkleup, seed canonique = index effet).
+  - ☐ `bees` `glitter` `fade` `randcolor` `lissajous` : lisibles et corrects au rendu, juste
+    « peu distinctifs ». À affiner avec l'œil de Benoît (shortlist) — pas objectivement faux.
 - ☐ **Repasser les animations `pas terribles` restantes** (Benoît, 2026-07-13). Certaines des 217 motions
   ne représentent pas bien l'effet / ne sont pas jolies. Méthode : rejouer nom → symbole →
   mouvement, une par une, comme la passe initiale — repérer les faibles et les refaire.
