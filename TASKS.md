@@ -23,9 +23,18 @@
     glitter/solid-glitter/shimmer). Revue avant/après validée par Benoît.
   - ☐ `randcolor` `lissajous` : **corrects et distinctifs** au rendu — laissés (refonte = pur goût,
     rien à gagner). Rouvrir seulement si Benoît le demande explicitement.
-- ☐ **Repasser les animations `pas terribles` restantes** (Benoît, 2026-07-13). Certaines des 217 motions
-  ne représentent pas bien l'effet / ne sont pas jolies. Méthode : rejouer nom → symbole →
-  mouvement, une par une, comme la passe initiale — repérer les faibles et les refaire.
+- ⏳ **Passe 4 — revue à l'œil de Benoît (2026-07-14)** : 14 critiques traitées + 3 collisions séparées.
+  - ✅ Redesignés (moins abstraits) : `breathe` (glow qui respire), `strobe` (éclat + rayons),
+    `scan`/Android (scanner KITT + traîne), `chase` (poursuite sur rail), `sweep` (barre projecteur),
+    `tetris` (pièce qui tombe lentement sur la pile), `loading` (barre de progression, plus ronde),
+    `running` (lumières qui courent, plus de bonhomme), `wipe` (remplissage couleur), `comet` (tête + longue traîne).
+  - ✅ Collisions séparées en motions dédiés : `dissolve` (≠ sparkle), `meteor` (≠ comet, diagonal),
+    `triwipe` (3 couleurs, ≠ wipe monocolore), `copyseg` (segment dupliqué, ≠ wipe), `sweeprandom`
+    (position+teinte aléatoires, ≠ sweep), `lake` (eau horizontale, ≠ ripple). Classifier maj (3 copies).
+  - ✅ 3 copies synchro (motions.py ≡ plugin.py vérifié, anim.js porté+testé node) + 37 GIF régénérés.
+    Revue avant/après envoyée à Benoît (artifact). En attente validation.
+- ☐ **Repasser les autres animations `pas terribles`** si Benoît en repère d'autres. Méthode : rejouer nom → symbole →
+  mouvement, une par une, comme les passes précédentes — repérer les faibles et les refaire.
   - Source canonique : `tools/motions.py` (`motion()` classifier + `anim()` renderer).
   - 3 copies à resynchroniser après chaque changement : `tools/motions.py` (canonique),
     `tools/anim.js` (JS), et le portage `plugin.py` `_fx_*` dans **openlamp/lumideck**.

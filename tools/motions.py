@@ -40,7 +40,7 @@ def motion(name):
     if h("sindot"): return "swirl"             # revolving dots
     if h("blend"): return "gradient"           # smooth colour blend
     if h("icu"): return "eye"                  # a single looking eye (before halloween)
-    if h("lake"): return "ripple"              # water
+    if h("lake"): return "lake"                # calm horizontal water shimmer (distinct from ripple rings)
     if h("volcano"): return "fire"
     if h("solid","static","fill"): return "solid"
     if h("police"): return "police"
@@ -49,7 +49,8 @@ def motion(name):
     if h("firework"): return "fireworks"
     if h("heart"): return "heartbeat"
     if h("bounc","ball","juggle","gravcen","gravfreq","gravimeter"): return "bounce"
-    if h("comet","meteor","shooting","sinelon"): return "comet"
+    if h("meteor"): return "meteor"            # diagonal falling streak (distinct from horizontal comet)
+    if h("comet","shooting","sinelon"): return "comet"
     if h("ghost rider","ghost"): return "ghost"
     if h("two dots","two areas"): return "dots"
     if h("traffic"): return "traffic"
@@ -72,7 +73,7 @@ def motion(name):
     if h("funky plank","blurz"): return "geq"           # audio bar-graph effects
     if h("distortion","waverly"): return "ripple"       # distorted / audio water waves
     if h("ps box","ps 1d balance"): return "bounce"     # particle-system gravity/bounce
-    if h("copy segment"): return "wipe"                 # pattern copied across the strip
+    if h("copy segment"): return "copyseg"              # a pattern block duplicated across the strip
     # (Oscillate + Wavesins stay on "wave" — an oscillating/sine waveform genuinely fits.)
     if h("akemi"): return "akemi"
     if h("halloween"): return "halloween"
@@ -90,6 +91,7 @@ def motion(name):
     if h("gradient","tricolor"): return "gradient"
     if h("blob","soap","clouds","plasmoid"): return "plasma"
     if h("tetri"): return "tetris"
+    if h("tri wipe","triwipe"): return "triwipe"        # 3 colours wiping in (not the monocolour wipe)
     if h("wipe"): return "wipe"
     if h("android","larson","knight","scanner","scan"): return "scan"
     if h("saw"): return "saw"
@@ -97,6 +99,7 @@ def motion(name):
     if h("dynamic"): return "dynamic"          # each pixel a random colour (mosaic)
     if h("rainbow"): return "rainbow"
     if h("running","runner"): return "running"
+    if h("sweep random"): return "sweeprandom"          # sweeps that jump to random positions
     if h("sweep"): return "sweep"
     if h("matri","game of life","dna","pixel"): return "matrix"
     if h("snow","frost","ice"): return "snow"
@@ -105,7 +108,8 @@ def motion(name):
     if h("lighthouse","rotat"): return "lighthouse"
     if h("sunrise","sunset","sun ","day"): return "sunrise"
     if h("twinkle","star","firefl"): return "twinkle"
-    if h("sparkle","dissolve","flicker"): return "sparkle"
+    if h("dissolve"): return "dissolve"                 # progressive pixel fill/clear (distinct from sparkle)
+    if h("sparkle","flicker"): return "sparkle"
     if h("ripple","pacifica","water","liquid","fluid","freq","geq"): return "ripple"
     if h("colorful","colorwave","colortwinkle"): return "colorful"
     if h("fade"): return "fade"
@@ -151,9 +155,12 @@ def anim(ph,m,seed=0):
         return '<rect x="24" y="24" width="96" height="96" rx="16" fill="%s"/><rect x="40" y="40" width="48" height="30" rx="14" fill="%s"/>'%(_rgb(h0,sat,.85),_rgb(h0,sat*0.5,1))
     if m=="fade":                                   # slow COLOUR crossfade (not a brightness pulse — that's breathe)
         hue=(p*0.09)%1.0; return '<rect x="24" y="34" width="96" height="76" rx="14" fill="%s"/>'%_rgb(hue,sat,0.88)
-    if m=="breathe":
-        br=0.5+0.5*M.sin(p*0.6); r=26+30*br
-        return '<circle cx="72" cy="72" r="%.0f" fill="none" stroke="%s" stroke-width="4"/><circle cx="72" cy="72" r="%.0f" fill="%s"/>'%(r+14,_rgb(h0,.5,br),r,_rgb(h0,sat*0.85,0.5+0.5*br))
+    if m=="breathe":                               # a soft glow that swells + brightens, then fades (lung-like)
+        br=0.5+0.5*M.sin(p*0.55); r=30+24*br
+        o ='<circle cx="72" cy="72" r="%.0f" fill="%s" opacity="0.22"/>'%(r+24,_rgb(h0,.5,.9))   # outer halo
+        o+='<circle cx="72" cy="72" r="%.0f" fill="%s" opacity="0.5"/>'%(r+11,_rgb(h0,.55,.95))
+        o+='<circle cx="72" cy="72" r="%.0f" fill="%s"/>'%(r,_rgb(h0,sat,0.35+0.6*br))            # bright core
+        return o
     if m=="colorful":
         o=""
         for i in range(6): o+='<rect x="%d" y="34" width="18" height="76" fill="%s"/>'%(16+i*19,_rgb(h0+i/6.0+ph*0.02*spd,.55,.9))
@@ -194,9 +201,13 @@ def anim(ph,m,seed=0):
             o+='<ellipse cx="%d" cy="116" rx="%d" ry="4" fill="#00000030"/>'%(x,14-int(bph*6))
             o+='<ellipse cx="%d" cy="%.0f" rx="%.0f" ry="%.0f" fill="%s"/>'%(x,y,14/sq,14*sq,_rgb(h0+i*0.14,.85,1))
         return o
-    if m=="comet":
-        x=(int(ph*7*spd))%168-12; o=""
-        for k in range(6): o+='<circle cx="%.0f" cy="72" r="%.0f" fill="%s"/>'%(x-k*10*dr,10-k*1.4,_rgb(h0,.7,1-k*0.15))
+    if m=="comet":                                 # bright white head + a long tapering glowing tail
+        x=(ph*8*spd)%180-20; o=""
+        for k in range(14):
+            tx=x-k*7*dr
+            if -8<tx<150: o+='<circle cx="%.0f" cy="72" r="%.1f" fill="%s" opacity="%.2f"/>'%(tx,max(1,9-k*0.55),_rgb(h0,.6,1),max(0.05,1-k*0.09))
+        o+='<circle cx="%.0f" cy="72" r="10" fill="%s"/>'%(x,_rgb(h0,.4,1))
+        o+='<circle cx="%.0f" cy="72" r="5.5" fill="#ffffff"/>'%x                                # incandescent core
         return o
     if m=="drip":                                  # a fat drop swells at a tap then falls
         t=((ph*spd)%7)/7.0; col=_rgb(h0+0.55,.6,1); o='<rect x="52" y="12" width="40" height="12" rx="4" fill="%s"/>'%_rgb(h0+0.55,.3,.6)
@@ -347,11 +358,11 @@ def anim(ph,m,seed=0):
             pts=" ".join("%d,%.0f"%(x,72+M.sin(x*0.09+p+k*2.0)*(22+k*4)) for x in range(8,140,8))
             o+='<polyline points="%s" fill="none" stroke="%s" stroke-width="5" stroke-linecap="round"/>'%(pts,_rgb(h0+k*0.15,.8,1))
         return o
-    if m=="loading":                               # spinner (dots fading around)
-        o=""
-        for k in range(10):
-            a=k/10.0*2*M.pi; br=((int(ph*spd)-k)%10)/10.0
-            o+='<circle cx="%.0f" cy="%.0f" r="7" fill="%s"/>'%(72+M.cos(a)*42,72+M.sin(a)*42,_rgb(h0,.6,0.25+0.75*br))
+    if m=="loading":                               # a horizontal progress bar filling (not a round spinner)
+        o='<rect x="14" y="60" width="116" height="24" rx="12" fill="#22262d"/>'
+        prog=((int(ph*spd))%14)/13.0
+        o+='<rect x="17" y="63" width="%d" height="18" rx="9" fill="%s"/>'%(max(4,int(110*prog)),_rgb(h0,.6,1))
+        o+='<rect x="17" y="63" width="%d" height="7" rx="4" fill="#ffffff" opacity="0.25"/>'%max(4,int(110*prog))  # gloss
         return o
     if m=="dancing":                               # a dancing figure
         sw=M.sin(p*1.5); col=_rgb(h0,.7,1)
@@ -363,32 +374,30 @@ def anim(ph,m,seed=0):
         o+='<line x1="72" y1="58" x2="%.0f" y2="%.0f" stroke="%s" stroke-width="6" stroke-linecap="round"/>'%(72-34*sw,44-abs(sw)*10,_rgb(h0,.5,.9))
         return o
     if m=="gradient": pass
-    if m=="wipe":
-        ar=M.sin(p*0.6)*58*M.pi/180; x2=72+M.sin(ar)*100; y2=128-M.cos(ar)*100
-        return ('<path d="M6 116 A84 84 0 0 1 138 116" fill="none" stroke="%s" stroke-width="4"/>'
-                '<line x1="72" y1="126" x2="%.0f" y2="%.0f" stroke="%s" stroke-width="5"/>'
-                '<line x1="%.0f" y1="%.0f" x2="%.0f" y2="%.0f" stroke="%s" stroke-width="11" stroke-linecap="round"/>'
-                '<circle cx="72" cy="126" r="6" fill="%s"/>')%(_rgb(h0,.25,.5),x2,y2,_rgb(h0,.4,.6),72+M.sin(ar)*44,128-M.cos(ar)*44,x2,y2,_rgb(h0,.7,1),_rgb(h0,.5,.8))
-    if m=="sweep":
-        x=72+M.sin(p*0.5)*40; d=1 if M.cos(p*0.5)>0 else -1; o=""
-        o+='<line x1="%.0f" y1="108" x2="%.0f" y2="28" stroke="%s" stroke-width="7" stroke-linecap="round"/>'%(x,x-26,_rgb(0.08,.55,.85))
-        for k in range(-3,4): o+='<line x1="%.0f" y1="108" x2="%.0f" y2="132" stroke="%s" stroke-width="4"/>'%(x,x+k*8,_rgb(0.11,.5,1))
-        for j in range(3): o+='<circle cx="%.0f" cy="%.0f" r="%d" fill="%s"/>'%(x+d*(26+j*13),122-j*5,4-j,_rgb(h0,.25,.7))
+    if m=="wipe":                                  # one colour progressively filling the strip from the left
+        prog=M.sin(p*0.5)*0.5+0.5; w=int(120*prog)
+        o='<rect x="12" y="44" width="120" height="56" rx="10" fill="#20242b"/>'
+        o+='<rect x="12" y="44" width="%d" height="56" rx="10" fill="%s"/>'%(max(2,w),_rgb(h0,.65,1))
+        if 3<w<117: o+='<rect x="%d" y="44" width="5" height="56" fill="#ffffff" opacity="0.5"/>'%(12+w-3)  # leading edge
         return o
-    if m=="scan":
-        pos=72+M.sin(p*0.9)*54; o=""
-        for k in range(6):
-            xx=pos-k*8*(1 if M.cos(p*0.9)>0 else -1)
-            o+='<rect x="%.0f" y="30" width="9" height="84" rx="4" fill="%s"/>'%(xx,_rgb(0,0.9,1-k*0.15))
+    if m=="sweep":                                 # a bright searchlight bar sweeping across a dim panel
+        x=72+M.sin(p*0.6)*54; d=1 if M.cos(p*0.6)>0 else -1; o='<rect x="8" y="40" width="128" height="64" rx="10" fill="#20242b"/>'
+        for k in range(5,0,-1): o+='<rect x="%.0f" y="40" width="10" height="64" rx="5" fill="%s" opacity="%.2f"/>'%(x-5-d*k*12,_rgb(h0,.6,1),max(0.06,0.5-k*0.09))
+        o+='<rect x="%.0f" y="40" width="14" height="64" rx="6" fill="%s"/>'%(x-7,_rgb(h0,.7,1))
         return o
-    if m=="running":                               # runner (thick, leaning, clear stride)
-        sw=M.sin(p*1.8); col=_rgb(h0,.65,1)
-        o='<circle cx="88" cy="30" r="11" fill="%s"/>'%col
-        o+='<line x1="84" y1="41" x2="60" y2="80" stroke="%s" stroke-width="9" stroke-linecap="round"/>'%col
-        o+='<polyline points="60,80 %d,%d %d,%d" fill="none" stroke="%s" stroke-width="9" stroke-linecap="round"/>'%(84,100,92+int(sw*10),118,col)
-        o+='<polyline points="60,80 %d,%d %d,%d" fill="none" stroke="%s" stroke-width="9" stroke-linecap="round"/>'%(44,96,30-int(sw*10),112,col)
-        o+='<polyline points="70,52 %d,64 %d,58" fill="none" stroke="%s" stroke-width="7" stroke-linecap="round"/>'%(96-int(sw*8),108-int(sw*6),_rgb(h0,.5,.9))
-        o+='<polyline points="70,52 %d,66 %d,74" fill="none" stroke="%s" stroke-width="7" stroke-linecap="round"/>'%(50+int(sw*8),40+int(sw*6),_rgb(h0,.5,.9))
+    if m=="scan":                                  # KITT/Cylon: a bright bar sweeping with a fading trail
+        pos=72+M.sin(p*0.9)*52; d=1 if M.cos(p*0.9)>0 else -1; o=""
+        for k in range(7,0,-1):
+            xx=pos-d*k*11
+            if 8<xx<136: o+='<rect x="%.0f" y="34" width="10" height="76" rx="5" fill="%s"/>'%(xx-5,_rgb(h0,.85,max(0.12,1-k*0.15)))
+        o+='<rect x="%.0f" y="34" width="10" height="76" rx="5" fill="%s"/>'%(pos-5,_rgb(h0,.8,1))
+        return o
+    if m=="running":                               # running lights: glowing streaks flowing along a rail
+        o='<line x1="10" y1="72" x2="134" y2="72" stroke="#23272e" stroke-width="16" stroke-linecap="round"/>'
+        for j in range(4):
+            x=(ph*10*spd+j*40)%176-16
+            o+='<ellipse cx="%.0f" cy="72" rx="26" ry="7" fill="%s" opacity="0.28"/>'%(x-14,_rgb(h0,.5,1))    # motion blur
+            o+='<ellipse cx="%.0f" cy="72" rx="15" ry="9" fill="%s"/>'%(x,_rgb(h0+j*0.05,.6,1))                # bright head
         return o
     if m=="saw":
         x=M.sin(p*0.8)*16; by=62; o='<rect x="%.0f" y="%d" width="94" height="18" rx="3" fill="%s"/>'%(20+x,by,_rgb(h0,.2,.85))
@@ -402,12 +411,13 @@ def anim(ph,m,seed=0):
                 hue=(( (r*4+c)*67 + int(ph*2*spd)*53 + seed*29)%360)/360.0
                 o+='<rect x="%d" y="%d" width="30" height="34" rx="4" fill="%s"/>'%(10+c*32,20+r*36,_rgb(hue,.8,1))
         return o
-    if m=="tetris":                                # a fall in progress: settled stack + a falling piece
-        cell=14; o=""
-        stack=[(2,7),(3,7),(4,7),(2,8),(3,8),(5,8),(6,8),(4,9),(5,9),(1,8),(1,9),(6,9),(0,9),(7,9)]
-        for cx,cy in stack: o+='<rect x="%d" y="%d" width="%d" height="%d" rx="2" fill="%s" stroke="#1a1a1a" stroke-width="1"/>'%(8+cx*cell,20+cy*cell,cell,cell,_rgb((cx*0.13),.6,.9))
-        shp=[(0,0),(1,0),(2,0),(1,1)][:]; fy=((int(ph*4*spd))%7); col=_rgb(h0,.8,1)
-        for dx,dy in shp: o+='<rect x="%d" y="%d" width="%d" height="%d" rx="2" fill="%s" stroke="#1a1a1a" stroke-width="1"/>'%(50+dx*cell,10+(fy+dy)*cell,cell,cell,col)
+    if m=="tetris":                                # one piece falling SLOWLY onto a settled stack
+        cell=15; o=""
+        stack=[(0,9),(1,9),(2,9),(3,9),(4,9),(5,9),(6,9),(7,9),(2,8),(3,8),(5,8),(6,8),(3,7)]
+        for cx,cy in stack: o+='<rect x="%d" y="%d" width="%d" height="%d" rx="2" fill="%s" stroke="#151515" stroke-width="1"/>'%(6+cx*cell,14+cy*cell,cell,cell,_rgb((cx*0.12)%1.0,.55,.85))
+        fy=int((ph/14.0)*7); col=_rgb(h0,.8,1)     # O-piece descends across the whole loop (2 frames/row = slow)
+        for dx,dy in [(0,0),(1,0),(0,1),(1,1)]:
+            o+='<rect x="%d" y="%d" width="%d" height="%d" rx="2" fill="%s" stroke="#151515" stroke-width="1"/>'%(6+(4+dx)*cell,14+(fy+dy)*cell,cell,cell,col)
         return o
     if m=="matrix":
         o=""
@@ -597,15 +607,21 @@ def anim(ph,m,seed=0):
         for x in range(-off,144,36):
             o+='<rect x="%d" y="30" width="18" height="84" rx="4" fill="%s"/>'%(x,_rgb(h0,sat,0.85))
         return o
-    if m=="strobe":                                # full-frame flash: bright ↔ dark
+    if m=="strobe":                                # a strobe FLASH: bright burst with radiating rays, dark between
         if ph%2==0:
-            return '<rect x="18" y="18" width="108" height="108" rx="14" fill="%s"/>'%_rgb(h0,0.45,1)
-        return '<rect x="18" y="18" width="108" height="108" rx="14" fill="#14171c" stroke="#3a4048" stroke-width="4"/>'
-    if m=="chase":
-        pos=int(ph*spd+seed)%7; o="";base=colorsys.hsv_to_rgb(h0,.75,1)
-        for i in range(7):
-            br=max(0.14,1-(((pos-i*dr)%7+7)%7)*0.30); r,g,b=(int(26+(round(base[k]*255)-26)*br) for k in range(3))
-            o+='<circle cx="%d" cy="72" r="9" fill="rgb(%d,%d,%d)"/>'%(18+i*18,r,g,b)
+            o='<circle cx="72" cy="72" r="30" fill="%s"/>'%_rgb(h0,0.28,1)
+            for k in range(8):
+                a=k/8.0*2*M.pi
+                o+='<line x1="72" y1="72" x2="%.0f" y2="%.0f" stroke="%s" stroke-width="7" stroke-linecap="round"/>'%(72+M.cos(a)*58,72+M.sin(a)*58,_rgb(h0,0.35,1))
+            o+='<circle cx="72" cy="72" r="15" fill="#ffffff"/>'
+            return o
+        return '<circle cx="72" cy="72" r="7" fill="#262b32"/>'                                    # dark gap between flashes
+    if m=="chase":                                 # a bright cluster chasing along a track, fading trail
+        o='<line x1="14" y1="72" x2="130" y2="72" stroke="#2a2e35" stroke-width="2"/>'
+        pos=(ph*spd)%9
+        for i in range(9):
+            d=(i-pos)%9; br=max(0.12,1-d*0.30)
+            o+='<circle cx="%d" cy="72" r="%.1f" fill="%s"/>'%(16+i*14,5+br*4,_rgb(h0,.7,br))
         return o
     if m=="rainbow":
         o=""
@@ -622,6 +638,49 @@ def anim(ph,m,seed=0):
         for i in range(N):
             t=i/N*2*M.pi; x=72+54*M.sin(3*t+dphi); y=72+50*M.sin(2*t)
             o+='<circle cx="%.0f" cy="%.0f" r="3.4" fill="%s"/>'%(x,y,_rgb(h0+i/N*0.14,sat,0.9))
+        return o
+    if m=="dissolve":                              # pixels fill in random order, then dissolve away
+        o=""; cols,rows=8,7; tot=cols*rows
+        t=((int(ph*spd*1.2))%14)/14.0
+        frac=(t/0.5) if t<0.5 else (1-(t-0.5)/0.5)  # 0→1→0 fill then clear
+        n=int(tot*frac)
+        for i in range(tot):
+            cx,cy=i%cols,i//cols; on=((i*53+7)%tot)<n   # pseudo-random fill order
+            col=_rgb(h0+(i%5)*0.03,.55,.95) if on else "#23272e"
+            o+='<rect x="%d" y="%d" width="15" height="15" rx="2" fill="%s"/>'%(8+cx*16,14+cy*16,col)
+        return o
+    if m=="meteor":                                # a diagonal falling streak (top-left → bottom-right)
+        t=((ph*spd)%14)/14.0; hx=8+t*132; hy=4+t*122; o=""
+        for k in range(12):
+            tx=hx-k*9; ty=hy-k*8.5
+            if tx>-6 and ty>-6: o+='<circle cx="%.0f" cy="%.0f" r="%.1f" fill="%s" opacity="%.2f"/>'%(tx,ty,max(1,8-k*0.55),_rgb(h0,.55,1),max(0.05,1-k*0.1))
+        o+='<circle cx="%.0f" cy="%.0f" r="8" fill="#ffffff"/>'%(hx,hy)
+        return o
+    if m=="triwipe":                               # THREE colours wiping in one after another
+        prog=((int(ph*spd*1.0))%14)/13.0; seg=120/3.0
+        o='<rect x="12" y="44" width="120" height="56" rx="10" fill="#20242b"/>'
+        for b in range(3):
+            local=max(0.0,min(1.0,prog*3-b)); w=int(seg*local)
+            if w>0: o+='<rect x="%d" y="44" width="%d" height="56" fill="%s"/>'%(int(12+b*seg),w,_rgb(h0+b*0.33,.65,1))
+        return o
+    if m=="sweeprandom":                           # a bar that jumps to a RANDOM position + hue each step
+        step=int(ph*spd); rx=8+((step*67+seed*13)%101)/100.0*110; rh=(h0+((step*37+seed)%360)/360.0)%1.0
+        o='<rect x="8" y="40" width="128" height="64" rx="10" fill="#20242b"/>'
+        o+='<rect x="%.0f" y="40" width="16" height="64" rx="6" fill="%s"/>'%(rx,_rgb(rh,.7,1))
+        return o
+    if m=="copyseg":                               # a small source segment duplicated across the strip
+        pat=[_rgb(h0,.7,1),_rgb(h0+0.12,.7,1),_rgb(h0+0.24,.6,1)]; shift=int(ph*spd)%3; seg_w=34; o=""
+        for c in range(4):
+            for i in range(3):
+                o+='<rect x="%d" y="50" width="9" height="44" rx="2" fill="%s"/>'%(9+c*seg_w+i*10,pat[(i+shift)%3])
+        o+='<rect x="6" y="46" width="34" height="52" rx="3" fill="none" stroke="#ffffff66" stroke-width="2" stroke-dasharray="4 3"/>'  # the source block
+        return o
+    if m=="lake":                                  # calm horizontal water shimmer (distinct from ripple rings)
+        o=""
+        for lay in range(4):
+            yy=44+lay*20
+            pts=" ".join("%d %.1f"%(x,yy+M.sin((x-12)*0.06+p*0.5+lay*0.8)*5) for x in range(8,138,6))
+            o+='<polyline points="%s" fill="none" stroke="%s" stroke-width="7" stroke-linecap="round" opacity="0.85"/>'%(pts,_rgb(0.55+lay*0.02,.5,.68+lay*0.06))
         return o
     o=""                                           # wave (default) — travelling sine wave
     for lay,(amp,wdt,val,dph) in enumerate(((30,9,1.0,0.0),(22,6,0.62,1.7))):
