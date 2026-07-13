@@ -6,9 +6,13 @@
   Waving Cell/Perlin Move→plasma, Funky Plank/Blurz→geq, PS Box/PS 1D Balance→bounce.
   Oscillate + Wavesins restent en « wave » (justifié). Classifier synchronisé sur les 3 copies
   (motions.py, anim.js, plugin.py) + 9 GIF régénérés.
-- ☐ **Passe 2 (subjectif, itératif)** : parcourir visuellement les buckets pour repérer les motions
-  qui ne représentent pas bien un effet donné (ex. un effet mal rangé dans un bucket). Nécessite
-  un œil sur chaque — shortlister avec Benoît les « pas terribles » restants, puis refaire.
+- ✅ **Passe 2 (2026-07-13)** : audit visuel des 81 motions → 4 refaits car trompeurs :
+  `wave` (fallback, rendait des barres → vraie sinusoïde), `strobe` (4 points → flash plein on/off),
+  `colorloop` (carré plein → anneau de teintes tournant), `text` (blocs → « WLED » défilant).
+  Synchro 3 copies + 8 GIF régénérés.
+- ☐ **Passe 3 (affinage, optionnel)** : candidats encore perfectibles repérés à l'audit —
+  `bees` `glitter` `fade` `randcolor` `lissajous` `twinkle` (corrects mais peu distinctifs).
+  À faire avec l'œil de Benoît (shortlist) si besoin.
 - ☐ **Repasser les animations `pas terribles` restantes** (Benoît, 2026-07-13). Certaines des 217 motions
   ne représentent pas bien l'effet / ne sont pas jolies. Méthode : rejouer nom → symbole →
   mouvement, une par une, comme la passe initiale — repérer les faibles et les refaire.
