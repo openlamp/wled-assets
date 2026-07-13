@@ -14,8 +14,10 @@ def motion(name):
     if h("plasma ball"): return "plasmaball"   # electric plasma globe
     if h("spray"): return "spray"              # particle spray from a nozzle
     if h("springy","spring"): return "spring"  # spring-connected bob
+    if h("rsvd"): return "reserved"            # reserved/unused WLED slot — neutral placeholder
+    if h("solid pattern tri"): return "pattern3"  # 3-colour striped pattern
     if h("solid pattern"): return "pattern"    # on/off striped pattern
-    if h("pixelwave"): return "ripple"         # pixels rippling from centre
+    if h("pixelwave"): return "wave"           # "…wave" -> a travelling wave, not rings
     if h("pixels"): return "twinkle"           # random pixel twinkles
     if h("starburst"): return "fireworks"      # exploding star fragments
     if h("metaball"): return "plasma"          # merging blobs
@@ -46,15 +48,20 @@ def motion(name):
     if h("police"): return "police"
     if h("lightning"): return "lightning"
     if h("popcorn"): return "popcorn"
+    if h("fireworks 1d","firework 1d"): return "fireworks1d"  # bursts along a 1D strip
     if h("firework"): return "fireworks"
     if h("heart"): return "heartbeat"
     if h("bounc","ball","juggle","gravcen","gravfreq","gravimeter"): return "bounce"
     if h("meteor"): return "meteor"            # diagonal falling streak (distinct from horizontal comet)
-    if h("comet","shooting","sinelon"): return "comet"
+    if h("sinelon rainbow"): return "sinelonrainbow"
+    if h("sinelon dual"): return "sinelondual"
+    if h("sinelon"): return "sinelon"
+    if h("comet","shooting"): return "comet"
     if h("ghost rider","ghost"): return "ghost"
     if h("two dots","two areas"): return "dots"
     if h("traffic"): return "traffic"
-    if h("washing machine","rotozoom"): return "spin"
+    if h("washing machine"): return "washing"        # tumbling drum (distinct from spin/rotozoomer)
+    if h("rotozoom"): return "spin"
     if h("spaceship","ufo","saturn"): return "spaceship"
     if h("bee","crazy bees"): return "bees"
     if h("octopus"): return "octopus"
@@ -71,7 +78,7 @@ def motion(name):
     # more telling existing motion (Benoit 2026-07-13, animation review pass 1).
     if h("perlin","waving cell"): return "plasma"       # smooth noise field, not a flat wave
     if h("funky plank","blurz"): return "geq"           # audio bar-graph effects
-    if h("distortion","waverly"): return "ripple"       # distorted / audio water waves
+    if h("distortion","waverly"): return "wave"         # "…waves" -> travelling waves, not rings
     if h("ps box","ps 1d balance"): return "bounce"     # particle-system gravity/bounce
     if h("copy segment"): return "copyseg"              # a pattern block duplicated across the strip
     # (Oscillate + Wavesins stay on "wave" — an oscillating/sine waveform genuinely fits.)
@@ -110,15 +117,18 @@ def motion(name):
     if h("twinkle","star","firefl"): return "twinkle"
     if h("dissolve"): return "dissolve"                 # progressive pixel fill/clear (distinct from sparkle)
     if h("sparkle","flicker"): return "sparkle"
-    if h("ripple","pacifica","water","liquid","fluid","freq","geq"): return "ripple"
+    if h("pacifica"): return "pacifica"                 # calm layered ocean swells
+    if h("ripple","water","liquid","fluid","freq","geq"): return "ripple"
     if h("colorful","colorwave","colortwinkle"): return "colorful"
     if h("fade"): return "fade"
-    if h("breathe","breath","pulse","sine","blend"): return "breathe"
+    if h("sine"): return "wave"                         # a sine curve, not a breathing glow
+    if h("breathe","breath","pulse","blend"): return "breathe"
     if h("blink"): return "blink"   # an eyelid blink (Blink Rainbow already caught by rainbow above)
     if h("strobe","stutter","hyper"): return "strobe"
-    if h("chase","marquee","railway","theater","train"): return "chase"
+    if h("railway"): return "railway"                   # two rails with alternating lights
+    if h("chase","marquee","theater","train"): return "chase"
     if h("colorloop","pride","cycle","hue","spectrum","palette"): return "colorloop"
-    if h("noise"): return "sparkle"
+    if h("noise"): return "noise"                       # smooth shifting colour field (distinct from GEQ bars)
     if h("lissajou"): return "lissajous"
     return "wave"
 
@@ -444,9 +454,16 @@ def anim(ph,m,seed=0):
     if m=="lighthouse":
         a=p*0.5
         return '<circle cx="72" cy="72" r="12" fill="%s"/><path d="M72 72 L%.0f %.0f L%.0f %.0f Z" fill="%s"/>'%(_rgb(h0,.3,1),72+M.cos(a)*70,72+M.sin(a)*70,72+M.cos(a+0.5)*70,72+M.sin(a+0.5)*70,_rgb(h0,.6,.9))
-    if m=="sunrise":
-        y=110-(0.5+0.5*M.sin(p*0.4))*40
-        return '<circle cx="72" cy="%.0f" r="26" fill="%s"/><rect x="0" y="116" width="144" height="28" fill="%s"/>'%(y,_rgb(0.09,.85,1),_rgb(0.08,.6,.5))
+    if m=="sunrise":                               # a sun climbing over the horizon, sky warming + rays
+        prog=0.5+0.5*M.sin(p*0.35); sy=118-prog*46
+        o='<rect x="0" y="0" width="144" height="144" fill="#191233"/>'                       # night sky
+        o+='<rect x="0" y="66" width="144" height="52" fill="%s" opacity="%.2f"/>'%(_rgb(0.06,.7,1),0.25+0.55*prog)  # dawn glow
+        for k in range(12):
+            a=k/12.0*2*M.pi
+            o+='<line x1="72" y1="%.0f" x2="%.0f" y2="%.0f" stroke="%s" stroke-width="3" stroke-linecap="round" opacity="%.2f"/>'%(sy,72+M.cos(a)*40,sy+M.sin(a)*40,_rgb(0.13,.8,1),0.25+0.55*prog)
+        o+='<circle cx="72" cy="%.0f" r="24" fill="%s"/>'%(sy,_rgb(0.11,.9,1))                 # the sun
+        o+='<rect x="0" y="118" width="144" height="26" fill="#0d2a1a"/>'                      # ground
+        return o
     if m=="twinkle":                                # stars/fireflies: dots that flash + a sparkle cross, then fade
         o=""
         pts=[(28,34),(70,26),(112,40),(46,66),(96,72),(24,104),(120,100),(66,112),(90,46)]
@@ -682,6 +699,71 @@ def anim(ph,m,seed=0):
             pts=" ".join("%d %.1f"%(x,yy+M.sin((x-12)*0.06+p*0.5+lay*0.8)*5) for x in range(8,138,6))
             o+='<polyline points="%s" fill="none" stroke="%s" stroke-width="7" stroke-linecap="round" opacity="0.85"/>'%(pts,_rgb(0.55+lay*0.02,.5,.68+lay*0.06))
         return o
+    if m=="railway":                               # two rails, alternating lights running (level-crossing feel)
+        o='<rect x="10" y="52" width="124" height="4" rx="2" fill="#3a3f47"/><rect x="10" y="88" width="124" height="4" rx="2" fill="#3a3f47"/>'
+        for i in range(8):
+            on=(i+int(ph*spd))%2==0
+            o+='<circle cx="%d" cy="54" r="7" fill="%s"/>'%(18+i*15,_rgb(h0,.75,1) if on else "#2a2e35")
+            o+='<circle cx="%d" cy="90" r="7" fill="%s"/>'%(18+i*15,_rgb(h0+0.5,.75,1) if not on else "#2a2e35")
+        return o
+    if m=="pattern3":                              # Solid Pattern Tri: 3 colours in scrolling stripes
+        o=""; off=int(ph*3*spd)%54; cols=[_rgb(h0,sat,.9),_rgb(h0+0.33,sat,.9),_rgb(h0+0.66,sat,.9)]
+        for x in range(-off,150,18):
+            o+='<rect x="%d" y="30" width="18" height="84" fill="%s"/>'%(x,cols[((x+off)//18)%3])
+        return o
+    if m=="fireworks1d":                           # several small bursts along a 1D strip (vs one central starburst)
+        o='<line x1="8" y1="112" x2="136" y2="112" stroke="#2a2e35" stroke-width="3"/>'
+        for b in range(4):
+            cx=26+b*32; t=((ph*spd+b*3)%8)/8.0
+            if t<0.5:
+                rad=t*44
+                for i in range(8):
+                    a=i/8.0*2*M.pi
+                    o+='<circle cx="%.0f" cy="%.0f" r="%.1f" fill="%s" opacity="%.2f"/>'%(cx+M.cos(a)*rad,112+M.sin(a)*rad*0.55,max(1,4*(1-t*2)),_rgb(h0+b*0.15,.9,1),max(0.08,1-t*2))
+        return o
+    if m=="sinelon":                               # a dot sweeping sinusoidally, leaving a fading colour trail
+        o=""
+        for k in range(11):
+            x=72+M.sin((p-k*0.18)*0.9)*58
+            o+='<circle cx="%.0f" cy="72" r="%.1f" fill="%s" opacity="%.2f"/>'%(x,max(2,9-k*0.7),_rgb(h0,.7,1),max(0.06,1-k*0.11))
+        return o
+    if m=="sinelondual":                           # two dots in counter-phase, each on its own rail
+        o=""
+        for d,ph0 in ((0,0.0),(1,M.pi)):
+            for k in range(9):
+                x=72+M.sin((p-k*0.18)*0.9+ph0)*58
+                o+='<circle cx="%.0f" cy="%d" r="%.1f" fill="%s" opacity="%.2f"/>'%(x,56 if d==0 else 88,max(2,8-k*0.7),_rgb(h0+d*0.4,.7,1),max(0.06,1-k*0.12))
+        return o
+    if m=="sinelonrainbow":                        # a sinelon whose trail cycles through the whole spectrum
+        o=""
+        for k in range(12):
+            x=72+M.sin((p-k*0.16)*0.9)*58
+            o+='<circle cx="%.0f" cy="72" r="%.1f" fill="%s" opacity="%.2f"/>'%(x,max(2,9-k*0.6),_rgb((ph*0.05+k*0.09)%1.0,.85,1),max(0.08,1-k*0.09))
+        return o
+    if m=="pacifica":                              # calm layered ocean swells (teal/blue filled bands)
+        o='<rect x="0" y="30" width="144" height="90" fill="#08243a"/>'
+        for lay in range(4):
+            yy=50+lay*17; hue=[0.53,0.50,0.47,0.56][lay]
+            top="".join("L%d %.1f "%(x,yy+M.sin((x-12)*0.05+p*0.4+lay*1.2)*7) for x in range(0,150,6))
+            o+='<path d="M0 120 %sL144 120 Z" fill="%s" opacity="0.55"/>'%(top,_rgb(hue,.55,.62))
+        return o
+    if m=="washing":                               # washing machine: a drum tumbling clothes back and forth
+        o='<circle cx="72" cy="72" r="48" fill="#16212c"/><circle cx="72" cy="72" r="48" fill="none" stroke="%s" stroke-width="5"/>'%_rgb(h0,.4,.7)
+        a=M.sin(p*0.5)*2.2                          # oscillating tumble (not continuous like spin)
+        for k in range(3):
+            ang=a+k*2.094
+            o+='<circle cx="%.0f" cy="%.0f" r="11" fill="%s"/>'%(72+M.cos(ang)*24,72+M.sin(ang)*24,_rgb(h0+k*0.2,.7,1))
+        o+='<circle cx="72" cy="72" r="13" fill="none" stroke="#33404d" stroke-width="4"/>'
+        return o
+    if m=="noise":                                 # a smooth shifting colour field (overlapping soft blobs)
+        o='<rect x="8" y="24" width="128" height="96" rx="12" fill="#0e1420"/>'
+        for i in range(7):
+            x=72+M.sin(p*0.4+i*1.3)*44; y=72+M.cos(p*0.5+i*0.9)*34
+            o+='<circle cx="%.0f" cy="%.0f" r="30" fill="%s" opacity="0.4"/>'%(x,y,_rgb((h0+i*0.08+0.1*M.sin(p*0.3+i))%1.0,.5,.8))
+        return o
+    if m=="reserved":                              # RSVD: reserved/unused WLED slot — a neutral placeholder
+        return ('<rect x="26" y="40" width="92" height="64" rx="10" fill="none" stroke="#4a505a" stroke-width="3" stroke-dasharray="6 5"/>'
+                '<line x1="52" y1="72" x2="92" y2="72" stroke="#4a505a" stroke-width="5" stroke-linecap="round"/>')
     o=""                                           # wave (default) — travelling sine wave
     for lay,(amp,wdt,val,dph) in enumerate(((30,9,1.0,0.0),(22,6,0.62,1.7))):
         pts=" ".join("%d %.0f"%(x,72+amp*M.sin((x-12)*0.09+p*0.5+dph)) for x in range(12,134,5))

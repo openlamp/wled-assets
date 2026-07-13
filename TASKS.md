@@ -33,6 +33,13 @@
     (position+teinte aléatoires, ≠ sweep), `lake` (eau horizontale, ≠ ripple). Classifier maj (3 copies).
   - ✅ 3 copies synchro (motions.py ≡ plugin.py vérifié, anim.js porté+testé node) + 37 GIF régénérés.
     Revue avant/après envoyée à Benoît (artifact). En attente validation.
+- ✅ **Passe 5 — 2e revue à l'œil de Benoît (2026-07-14)** : 14 points, 7 nouveaux motions + 4 reroutes wave.
+  - Nouveaux motions : `railway` (2 rails alternés), `pattern3` (Solid Pattern Tri, 3 couleurs),
+    `fireworks1d` (éclats 1D ≠ Starburst), `sinelon`/`sinelondual`/`sinelonrainbow` (≠ comet, dual distinct, rainbow),
+    `pacifica` (houle océan ≠ ripple), `washing` (tambour ≠ spin/rotozoomer), `noise` (champ diffus ≠ GEQ),
+    `reserved` (RSVD ×3 = placeholder neutre). Redesign `sunrise` (soleil littéral).
+  - Reroutes vers la vraie sinusoïde `wave` : Sine, Distortion Waves, Pixelwave, Waverly.
+  - 3 copies synchro (motions.py ≡ plugin.py vérifié, anim.js porté+testé) + 24 GIF régénérés. Revue envoyée (artifact).
 - ☐ **Repasser les autres animations `pas terribles`** si Benoît en repère d'autres. Méthode : rejouer nom → symbole →
   mouvement, une par une, comme les passes précédentes — repérer les faibles et les refaire.
   - Source canonique : `tools/motions.py` (`motion()` classifier + `anim()` renderer).
