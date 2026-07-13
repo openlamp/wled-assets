@@ -1,3 +1,23 @@
+"""Per-effect animation vocabulary for the WLED effect icons (~90 motions).
+
+CANONICAL SOURCE. Two rules any editor must hold:
+
+1. THREE COPIES, KEPT IN LOCK-STEP. The same motion() classifier + anim() renderer
+   exist in three places; editing one WITHOUT the other two silently drifts the icons:
+     - tools/motions.py   (this file — canonical, generates the GIFs)
+     - tools/anim.js      (JS port — same logic, hsv()/template-literals, `M`=Math)
+     - openlamp/lumideck  plugin.py `_fx_motion` / `_fx_anim` (live deck keys; `_rgb`→`_fx_rgb`)
+   Verify after any change: motions.py ≡ plugin.py (compare each motion block, normalising
+   `_fx_rgb`→`_rgb` + stripping whitespace/comments) and `node -c tools/anim.js` + a render
+   spot-check. Then regenerate the affected GIFs (images/effects/*.gif) with the canonical
+   seed = the effect's INDEX in data/effects.json (= its WLED fx id), so GIF ≡ live key.
+
+2. classifier order = first match wins. Precise per-name routes sit ABOVE the generic
+   families; a new dedicated motion for an effect that currently collides with another
+   (e.g. Meteor≠Comet, Dissolve≠Sparkle) must be routed BEFORE the family that catches it.
+
+Motion review history (why so many were reworked) is in TASKS.md, passes 1-5.
+"""
 import math, colorsys
 def _rgb(h,s,v):
     # Refined ceilings (2026-07-12): cap saturation + value so no motion renders as neon.
