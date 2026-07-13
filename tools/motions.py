@@ -430,11 +430,17 @@ def anim(ph,m,seed=0):
     if m=="sunrise":
         y=110-(0.5+0.5*M.sin(p*0.4))*40
         return '<circle cx="72" cy="%.0f" r="26" fill="%s"/><rect x="0" y="116" width="144" height="28" fill="%s"/>'%(y,_rgb(0.09,.85,1),_rgb(0.08,.6,.5))
-    if m=="twinkle":
+    if m=="twinkle":                                # stars/fireflies: dots that flash + a sparkle cross, then fade
         o=""
-        for i in range(6):
-            x=22+(i*47)%110; yv=30+(i*53)%84; lit=((i*5+int(ph*3*spd)+seed)%6)<2; r=11 if lit else 5; col=_rgb(h0+i*0.1,.5,1) if lit else "#39414e"
-            o+='<path d="M%d %d l%.1f %.1f l%.1f %.1f l%.1f %.1f l%.1f %.1f Z" fill="%s"/>'%(x,yv-r,r*0.3,r*0.7,r*0.7,r*0.3,-r*0.7,r*0.3,-r*0.3,r*0.7,col)
+        pts=[(28,34),(70,26),(112,40),(46,66),(96,72),(24,104),(120,100),(66,112),(90,46)]
+        for i,(x,yv) in enumerate(pts):
+            tw=(int(ph*3*spd)+i*5+seed)%9           # each star has its own flash cycle
+            if tw<3:                                # lit for 3 frames, brightest on the first
+                b=1.0-tw*0.28; col=_rgb(h0+i*0.08,0.45,1); L=6+b*6
+                o+='<circle cx="%d" cy="%d" r="%.1f" fill="%s"/>'%(x,yv,3+b*2,col)
+                o+='<path d="M%d %.1f L%d %.1f M%.1f %d L%.1f %d" stroke="%s" stroke-width="%.1f" stroke-linecap="round"/>'%(x,yv-L,x,yv+L,x-L,yv,x+L,yv,col,1+b)
+            else:
+                o+='<circle cx="%d" cy="%d" r="1.6" fill="#39414e"/>'%(x,yv)   # resting star
         return o
     if m=="sparkle":
         o=""
