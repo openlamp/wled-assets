@@ -171,5 +171,5 @@ freely, no attribution required, so any client can adopt it without friction).
 ---
 
 Maintained as part of **[OpenLamp](https://github.com/openlamp)** — 100% local stage-light
-control for musicians and makers — but **vendor-neutral**: nothing here is LumiDeck- or
+control for musicians and makers — but **vendor-neutral**: nothing here is
 OpenLamp-specific. If it helps a WLED client, it's doing its job.

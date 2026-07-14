@@ -6,7 +6,7 @@ CANONICAL SOURCE. Two rules any editor must hold:
    exist in three places; editing one WITHOUT the other two silently drifts the icons:
      - tools/motions.py   (this file — canonical, generates the GIFs)
      - tools/anim.js      (JS port — same logic, hsv()/template-literals, `M`=Math)
-     - openlamp/lumideck  plugin.py `_fx_motion` / `_fx_anim` (live deck keys; `_rgb`→`_fx_rgb`)
+     - the Stream Deck plugin `_fx_motion` / `_fx_anim` (live deck keys; `_rgb`→`_fx_rgb`)
    Verify after any change: motions.py ≡ plugin.py (compare each motion block, normalising
    `_fx_rgb`→`_rgb` + stripping whitespace/comments) and `node -c tools/anim.js` + a render
    spot-check. Then regenerate the affected GIFs (images/effects/*.gif) with the canonical

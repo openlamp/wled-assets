@@ -1,8 +1,8 @@
 import json, re, html
 SP="/private/tmp/claude-501/-Users-benoitbesson-dev-music/b1b0bf2c-2a0b-4a74-83ae-5717d879ef61/scratchpad"
-REPO="/Users/benoitbesson/dev/music/lumideck"
+REPO="/Users/benoitbesson/dev/music/wled-assets"
 data=json.load(open(SP+"/wled_data.json")); pal,eff,palx=data["pal"],data["eff"],{int(k):v for k,v in data["palx"].items()}
-PT=json.load(open(REPO+"/locales/palettes.json")); ET=json.load(open(REPO+"/locales/effects.json"))
+PT=json.load(open(REPO+"/i18n/palettes.json")); ET=json.load(open(REPO+"/i18n/effects.json"))
 MEAN=json.load(open(REPO+"/docs/palette-meanings.json"))
 ns={}; exec(re.search(r'_PAL_ART = \{.*?\n\}', open(REPO+"/plugin.py").read(), re.S).group(0), ns); ART=ns["_PAL_ART"]
 
@@ -131,7 +131,7 @@ tick();if(!reduce)setInterval(tick,170);
 
 def page(L,cat,title,count,tablebody,anim):
     u=UI[L]
-    body='<title>%s</title><style>%s</style>%s<header><div class="kick">LumiDeck · WLED</div><h1>%s</h1><p class="sub">%s · openlamp/wled-assets</p></header><main class="wrap"><div class="tablewrap"><table>%s</table></div></main><footer>LumiDeck — <a href="https://github.com/openlamp/lumideck">openlamp/lumideck</a></footer>'%(title,CSS,nav_html(L,cat),title,count,tablebody)
+    body='<title>%s</title><style>%s</style>%s<header><div class="kick">OpenLamp · WLED</div><h1>%s</h1><p class="sub">%s · openlamp/wled-assets</p></header><main class="wrap"><div class="tablewrap"><table>%s</table></div></main><footer><a href="https://github.com/openlamp/wled-assets">openlamp/wled-assets</a></footer>'%(title,CSS,nav_html(L,cat),title,count,tablebody)
     if anim: body+=ANIMJS
     return "<!doctype html><meta charset=utf-8>"+body
 
