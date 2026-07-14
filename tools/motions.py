@@ -789,4 +789,4 @@ def anim(ph,m,seed=0):
         pts=" ".join("%d %.0f"%(x,72+amp*M.sin((x-12)*0.09+p*0.5+dph)) for x in range(12,134,5))
         o+='<polyline points="%s" fill="none" stroke="%s" stroke-width="%d" stroke-linecap="round" stroke-linejoin="round"/>'%(pts,_rgb(h0+lay*0.12,sat,val),wdt)
     return o
-def wrap(i): return '<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144"><rect width="144" height="144" fill="#1a1a1a"/>%s</svg>'%i
+def wrap(i): return '<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144">%s</svg>'%i  # transparent bg — icons blend on any surface (deck, PI, GitHub light/dark)
