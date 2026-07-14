@@ -63,6 +63,6 @@ for name,rgb,rank,tr in COLORS:
          '<rect x="2" y="2" width="116" height="116" rx="15" fill="rgb(%d,%d,%d)"'
          ' stroke="#ffffff" stroke-opacity="0.25" stroke-width="3"/></svg>')%rgb
     subprocess.run(["rsvg-convert","-o","%s/images/colors/%s.png"%(DST,slug(name)),"-"],input=svg.encode())
-json.dump({"_note":"OpenLamp's stage colours = Kelly's 8 maximum-contrast hues (prefix-optimal order) PLUS 2 achromatics (White, Black) added 2026-07-14 for utility (white light, instant blackout). Key = English name; each has rgb, rank, achromatic flag, and per-language {name, desc}. See _rationale.","_rationale":RAT,"entries":entries},
+json.dump({"_note":"The named COLOURS are Kelly's 8 maximum-contrast HUES (prefix-optimal order) — that set is unchanged. White and Black are NOT colours: they are 2 achromatic controls (achromatic:true), added 2026-07-14 for utility (plain white light, instant blackout), so they do not contradict the 8-hue rationale. Key = English name; each has rgb, rank, achromatic flag, and per-language {name, desc}. See _rationale for why only 8 hues.","_rationale":RAT,"entries":entries},
           open(DST+"/i18n/colors.json","w"),ensure_ascii=False,indent=1)
 print("colors.json + %d swatches"%len(COLORS))
