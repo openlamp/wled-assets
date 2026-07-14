@@ -1,0 +1,425 @@
+{
+ "_note": "OpenLamp's stage colours = Kelly's 8 maximum-contrast hues (prefix-optimal order) PLUS 2 achromatics (White, Black) added 2026-07-14 for utility (white light, instant blackout). Key = English name; each has rgb, rank, achromatic flag, and per-language {name, desc}. See _rationale.",
+ "_rationale": {
+  "en": "**Why only 8 named colours?** Naming hundreds of colours is pointless: on a saturated stage LED, most would be indistinguishable and no one remembers 300 names. Instead we take the set of colours the eye can actually tell apart at a glance — **Kelly's colours of maximum contrast** (Kelly 1965), minus the achromatics, in Kelly's *prefix-optimal* order (the first N are the N most distinguishable). **5** is colour-blind-safe; **8** is the sweet spot (it overlaps Wong 2011's palette); beyond ~7–12, at-a-glance discrimination degrades (Healey 1996) — more so on a bright physical LED. So: 8 short, memorable, unmistakable names — not a wall of near-identical ones.",
+  "fr": "**Pourquoi seulement 8 couleurs nommées ?** Nommer des centaines de couleurs ne sert à rien : sur une LED de scène saturée, la plupart seraient indistinguables et personne ne retient 300 noms. On prend donc l'ensemble des couleurs que l'œil sait vraiment séparer d'un coup d'œil — **les couleurs de contraste maximal de Kelly** (Kelly 1965), sans les achromatiques, dans l'ordre *préfixe-optimal* de Kelly (les N premières sont les N plus distinguables). **5** est sûr pour les daltoniens ; **8** est le point idéal (recoupe la palette de Wong 2011) ; au-delà de ~7–12, la discrimination au premier coup d'œil se dégrade (Healey 1996) — encore plus sur une LED physique vive. Donc : 8 noms courts, mémorisables, sans ambiguïté — pas un mur de couleurs quasi identiques.",
+  "de": "**Warum nur 8 benannte Farben?** Hunderte Farben zu benennen ist sinnlos: Auf einer gesättigten Bühnen-LED wären die meisten ununterscheidbar. Wir nehmen die Farben, die das Auge auf einen Blick wirklich trennt — **Kellys Farben maximalen Kontrasts** (Kelly 1965), ohne Achromatische, in Kellys präfix-optimaler Reihenfolge. **5** ist farbenblind-sicher; **8** ist der Sweet Spot (überschneidet Wong 2011); jenseits von ~7–12 sinkt die Unterscheidbarkeit (Healey 1996).",
+  "es": "**¿Por qué solo 8 colores con nombre?** Nombrar cientos de colores es inútil: en un LED de escena saturado la mayoría serían indistinguibles. Tomamos los colores que el ojo distingue de un vistazo — **los colores de máximo contraste de Kelly** (Kelly 1965), sin los acromáticos, en orden prefijo-óptimo. **5** es seguro para daltónicos; **8** es el punto ideal (coincide con Wong 2011); más allá de ~7–12 la distinción se degrada (Healey 1996).",
+  "it": "**Perché solo 8 colori con nome?** Dare un nome a centinaia di colori è inutile: su un LED da palco saturo la maggior parte sarebbe indistinguibile. Prendiamo i colori che l'occhio separa a colpo d'occhio — **i colori a massimo contrasto di Kelly** (Kelly 1965), senza gli acromatici, in ordine prefisso-ottimale. **5** è sicuro per i daltonici; **8** è il punto ideale (coincide con Wong 2011); oltre ~7–12 la distinzione peggiora (Healey 1996).",
+  "ja": "**なぜ名前付きは8色だけ？** 何百もの色に名前を付けても無意味です。飽和したステージLEDでは大半が見分けられません。そこで一目で識別できる色 —**ケリーの最大コントラスト色**(Kelly 1965)から無彩色を除き、ケリーの接頭辞最適順に採用。**5**色は色覚多様性に安全、**8**色が最適点(Wong 2011と重なる)。約7〜12を超えると識別性が低下(Healey 1996)。",
+  "ko": "**왜 이름 붙인 색이 8개뿐인가?** 수백 개 색에 이름을 붙이는 것은 무의미합니다. 포화된 무대 LED에서는 대부분 구별되지 않습니다. 그래서 한눈에 구별되는 색 —**켈리의 최대 대비 색**(Kelly 1965)에서 무채색을 빼고 접두사 최적 순으로 사용. **5**색은 색맹 안전, **8**색이 최적점(Wong 2011과 겹침). 약 7~12를 넘으면 식별성이 떨어짐(Healey 1996).",
+  "zh": "**为何只命名 8 种颜色？** 给数百种颜色命名毫无意义：在饱和的舞台 LED 上大多无法区分。我们只取肉眼一眼可辨的颜色 —**Kelly 最大对比色**(Kelly 1965)去掉无彩色，按 Kelly 前缀最优顺序排列。**5** 色对色盲友好，**8** 色是最佳点（与 Wong 2011 重合）；超过约 7–12，可辨性下降(Healey 1996)。"
+ },
+ "entries": {
+  "Yellow": {
+   "rgb": [
+    255,
+    210,
+    0
+   ],
+   "rank": 1,
+   "achromatic": false,
+   "en": {
+    "name": "Yellow",
+    "desc": "Stage colour #1 — one of the 8 maximum-contrast hues, ranked by at-a-glance distinguishability."
+   },
+   "fr": {
+    "name": "Jaune",
+    "desc": "Couleur scène n°1 — l'une des 8 teintes de contraste maximal, classées par lisibilité au premier coup d'œil."
+   },
+   "de": {
+    "name": "Gelb",
+    "desc": "Bühnenfarbe Nr. 1 — eine der 8 kontraststärksten Farbtöne, nach Auf-einen-Blick-Unterscheidbarkeit gereiht."
+   },
+   "es": {
+    "name": "Amarillo",
+    "desc": "Color de escena n.º 1 — uno de los 8 tonos de máximo contraste, ordenados por distinguibilidad a simple vista."
+   },
+   "it": {
+    "name": "Giallo",
+    "desc": "Colore scena n.1 — una delle 8 tinte a massimo contrasto, ordinate per distinguibilità a colpo d'occhio."
+   },
+   "ja": {
+    "name": "黄",
+    "desc": "ステージ色 第1位 — 一目での識別性で並べた最大コントラストの8色の一つ。"
+   },
+   "ko": {
+    "name": "노랑",
+    "desc": "무대 색 1위 — 한눈에 구별되는 순으로 정렬한 최대 대비 8색 중 하나."
+   },
+   "zh": {
+    "name": "黄色",
+    "desc": "舞台色第 1 位 — 按一眼可辨性排序的 8 种最大对比色之一。"
+   }
+  },
+  "Violet": {
+   "rgb": [
+    150,
+    70,
+    170
+   ],
+   "rank": 2,
+   "achromatic": false,
+   "en": {
+    "name": "Violet",
+    "desc": "Stage colour #2 — one of the 8 maximum-contrast hues, ranked by at-a-glance distinguishability."
+   },
+   "fr": {
+    "name": "Violet",
+    "desc": "Couleur scène n°2 — l'une des 8 teintes de contraste maximal, classées par lisibilité au premier coup d'œil."
+   },
+   "de": {
+    "name": "Violett",
+    "desc": "Bühnenfarbe Nr. 2 — eine der 8 kontraststärksten Farbtöne, nach Auf-einen-Blick-Unterscheidbarkeit gereiht."
+   },
+   "es": {
+    "name": "Violeta",
+    "desc": "Color de escena n.º 2 — uno de los 8 tonos de máximo contraste, ordenados por distinguibilidad a simple vista."
+   },
+   "it": {
+    "name": "Viola",
+    "desc": "Colore scena n.2 — una delle 8 tinte a massimo contrasto, ordinate per distinguibilità a colpo d'occhio."
+   },
+   "ja": {
+    "name": "紫",
+    "desc": "ステージ色 第2位 — 一目での識別性で並べた最大コントラストの8色の一つ。"
+   },
+   "ko": {
+    "name": "보라",
+    "desc": "무대 색 2위 — 한눈에 구별되는 순으로 정렬한 최대 대비 8색 중 하나."
+   },
+   "zh": {
+    "name": "紫色",
+    "desc": "舞台色第 2 位 — 按一眼可辨性排序的 8 种最大对比色之一。"
+   }
+  },
+  "Orange": {
+   "rgb": [
+    255,
+    125,
+    0
+   ],
+   "rank": 3,
+   "achromatic": false,
+   "en": {
+    "name": "Orange",
+    "desc": "Stage colour #3 — one of the 8 maximum-contrast hues, ranked by at-a-glance distinguishability."
+   },
+   "fr": {
+    "name": "Orange",
+    "desc": "Couleur scène n°3 — l'une des 8 teintes de contraste maximal, classées par lisibilité au premier coup d'œil."
+   },
+   "de": {
+    "name": "Orange",
+    "desc": "Bühnenfarbe Nr. 3 — eine der 8 kontraststärksten Farbtöne, nach Auf-einen-Blick-Unterscheidbarkeit gereiht."
+   },
+   "es": {
+    "name": "Naranja",
+    "desc": "Color de escena n.º 3 — uno de los 8 tonos de máximo contraste, ordenados por distinguibilidad a simple vista."
+   },
+   "it": {
+    "name": "Arancione",
+    "desc": "Colore scena n.3 — una delle 8 tinte a massimo contrasto, ordinate per distinguibilità a colpo d'occhio."
+   },
+   "ja": {
+    "name": "オレンジ",
+    "desc": "ステージ色 第3位 — 一目での識別性で並べた最大コントラストの8色の一つ。"
+   },
+   "ko": {
+    "name": "주황",
+    "desc": "무대 색 3위 — 한눈에 구별되는 순으로 정렬한 최대 대비 8색 중 하나."
+   },
+   "zh": {
+    "name": "橙色",
+    "desc": "舞台色第 3 位 — 按一眼可辨性排序的 8 种最大对比色之一。"
+   }
+  },
+  "Light Blue": {
+   "rgb": [
+    130,
+    195,
+    255
+   ],
+   "rank": 4,
+   "achromatic": false,
+   "en": {
+    "name": "Light Blue",
+    "desc": "Stage colour #4 — one of the 8 maximum-contrast hues, ranked by at-a-glance distinguishability."
+   },
+   "fr": {
+    "name": "Bleu clair",
+    "desc": "Couleur scène n°4 — l'une des 8 teintes de contraste maximal, classées par lisibilité au premier coup d'œil."
+   },
+   "de": {
+    "name": "Hellblau",
+    "desc": "Bühnenfarbe Nr. 4 — eine der 8 kontraststärksten Farbtöne, nach Auf-einen-Blick-Unterscheidbarkeit gereiht."
+   },
+   "es": {
+    "name": "Azul claro",
+    "desc": "Color de escena n.º 4 — uno de los 8 tonos de máximo contraste, ordenados por distinguibilidad a simple vista."
+   },
+   "it": {
+    "name": "Azzurro",
+    "desc": "Colore scena n.4 — una delle 8 tinte a massimo contrasto, ordinate per distinguibilità a colpo d'occhio."
+   },
+   "ja": {
+    "name": "水色",
+    "desc": "ステージ色 第4位 — 一目での識別性で並べた最大コントラストの8色の一つ。"
+   },
+   "ko": {
+    "name": "하늘색",
+    "desc": "무대 색 4위 — 한눈에 구별되는 순으로 정렬한 최대 대비 8색 중 하나."
+   },
+   "zh": {
+    "name": "浅蓝",
+    "desc": "舞台色第 4 位 — 按一眼可辨性排序的 8 种最大对比色之一。"
+   }
+  },
+  "Red": {
+   "rgb": [
+    230,
+    0,
+    40
+   ],
+   "rank": 5,
+   "achromatic": false,
+   "en": {
+    "name": "Red",
+    "desc": "Stage colour #5 — one of the 8 maximum-contrast hues, ranked by at-a-glance distinguishability."
+   },
+   "fr": {
+    "name": "Rouge",
+    "desc": "Couleur scène n°5 — l'une des 8 teintes de contraste maximal, classées par lisibilité au premier coup d'œil."
+   },
+   "de": {
+    "name": "Rot",
+    "desc": "Bühnenfarbe Nr. 5 — eine der 8 kontraststärksten Farbtöne, nach Auf-einen-Blick-Unterscheidbarkeit gereiht."
+   },
+   "es": {
+    "name": "Rojo",
+    "desc": "Color de escena n.º 5 — uno de los 8 tonos de máximo contraste, ordenados por distinguibilidad a simple vista."
+   },
+   "it": {
+    "name": "Rosso",
+    "desc": "Colore scena n.5 — una delle 8 tinte a massimo contrasto, ordinate per distinguibilità a colpo d'occhio."
+   },
+   "ja": {
+    "name": "赤",
+    "desc": "ステージ色 第5位 — 一目での識別性で並べた最大コントラストの8色の一つ。"
+   },
+   "ko": {
+    "name": "빨강",
+    "desc": "무대 색 5위 — 한눈에 구별되는 순으로 정렬한 최대 대비 8색 중 하나."
+   },
+   "zh": {
+    "name": "红色",
+    "desc": "舞台色第 5 位 — 按一眼可辨性排序的 8 种最大对比色之一。"
+   }
+  },
+  "Green": {
+   "rgb": [
+    0,
+    200,
+    80
+   ],
+   "rank": 6,
+   "achromatic": false,
+   "en": {
+    "name": "Green",
+    "desc": "Stage colour #6 — one of the 8 maximum-contrast hues, ranked by at-a-glance distinguishability."
+   },
+   "fr": {
+    "name": "Vert",
+    "desc": "Couleur scène n°6 — l'une des 8 teintes de contraste maximal, classées par lisibilité au premier coup d'œil."
+   },
+   "de": {
+    "name": "Grün",
+    "desc": "Bühnenfarbe Nr. 6 — eine der 8 kontraststärksten Farbtöne, nach Auf-einen-Blick-Unterscheidbarkeit gereiht."
+   },
+   "es": {
+    "name": "Verde",
+    "desc": "Color de escena n.º 6 — uno de los 8 tonos de máximo contraste, ordenados por distinguibilidad a simple vista."
+   },
+   "it": {
+    "name": "Verde",
+    "desc": "Colore scena n.6 — una delle 8 tinte a massimo contrasto, ordinate per distinguibilità a colpo d'occhio."
+   },
+   "ja": {
+    "name": "緑",
+    "desc": "ステージ色 第6位 — 一目での識別性で並べた最大コントラストの8色の一つ。"
+   },
+   "ko": {
+    "name": "초록",
+    "desc": "무대 색 6위 — 한눈에 구별되는 순으로 정렬한 최대 대비 8색 중 하나."
+   },
+   "zh": {
+    "name": "绿色",
+    "desc": "舞台色第 6 位 — 按一眼可辨性排序的 8 种最大对比色之一。"
+   }
+  },
+  "Pink": {
+   "rgb": [
+    255,
+    130,
+    170
+   ],
+   "rank": 7,
+   "achromatic": false,
+   "en": {
+    "name": "Pink",
+    "desc": "Stage colour #7 — one of the 8 maximum-contrast hues, ranked by at-a-glance distinguishability."
+   },
+   "fr": {
+    "name": "Rose",
+    "desc": "Couleur scène n°7 — l'une des 8 teintes de contraste maximal, classées par lisibilité au premier coup d'œil."
+   },
+   "de": {
+    "name": "Rosa",
+    "desc": "Bühnenfarbe Nr. 7 — eine der 8 kontraststärksten Farbtöne, nach Auf-einen-Blick-Unterscheidbarkeit gereiht."
+   },
+   "es": {
+    "name": "Rosa",
+    "desc": "Color de escena n.º 7 — uno de los 8 tonos de máximo contraste, ordenados por distinguibilidad a simple vista."
+   },
+   "it": {
+    "name": "Rosa",
+    "desc": "Colore scena n.7 — una delle 8 tinte a massimo contrasto, ordinate per distinguibilità a colpo d'occhio."
+   },
+   "ja": {
+    "name": "ピンク",
+    "desc": "ステージ色 第7位 — 一目での識別性で並べた最大コントラストの8色の一つ。"
+   },
+   "ko": {
+    "name": "분홍",
+    "desc": "무대 색 7위 — 한눈에 구별되는 순으로 정렬한 최대 대비 8색 중 하나."
+   },
+   "zh": {
+    "name": "粉色",
+    "desc": "舞台色第 7 位 — 按一眼可辨性排序的 8 种最大对比色之一。"
+   }
+  },
+  "Blue": {
+   "rgb": [
+    0,
+    100,
+    200
+   ],
+   "rank": 8,
+   "achromatic": false,
+   "en": {
+    "name": "Blue",
+    "desc": "Stage colour #8 — one of the 8 maximum-contrast hues, ranked by at-a-glance distinguishability."
+   },
+   "fr": {
+    "name": "Bleu",
+    "desc": "Couleur scène n°8 — l'une des 8 teintes de contraste maximal, classées par lisibilité au premier coup d'œil."
+   },
+   "de": {
+    "name": "Blau",
+    "desc": "Bühnenfarbe Nr. 8 — eine der 8 kontraststärksten Farbtöne, nach Auf-einen-Blick-Unterscheidbarkeit gereiht."
+   },
+   "es": {
+    "name": "Azul",
+    "desc": "Color de escena n.º 8 — uno de los 8 tonos de máximo contraste, ordenados por distinguibilidad a simple vista."
+   },
+   "it": {
+    "name": "Blu",
+    "desc": "Colore scena n.8 — una delle 8 tinte a massimo contrasto, ordinate per distinguibilità a colpo d'occhio."
+   },
+   "ja": {
+    "name": "青",
+    "desc": "ステージ色 第8位 — 一目での識別性で並べた最大コントラストの8色の一つ。"
+   },
+   "ko": {
+    "name": "파랑",
+    "desc": "무대 색 8위 — 한눈에 구별되는 순으로 정렬한 최대 대비 8색 중 하나."
+   },
+   "zh": {
+    "name": "蓝色",
+    "desc": "舞台色第 8 位 — 按一眼可辨性排序的 8 种最大对比色之一。"
+   }
+  },
+  "White": {
+   "rgb": [
+    255,
+    255,
+    255
+   ],
+   "rank": 9,
+   "achromatic": true,
+   "en": {
+    "name": "White",
+    "desc": "Achromatic — added for white light (not one of the 8 maximum-contrast hues)."
+   },
+   "fr": {
+    "name": "Blanc",
+    "desc": "Achromatique — ajoutée pour la lumière blanche (pas l'une des 8 teintes de contraste maximal)."
+   },
+   "de": {
+    "name": "Weiß",
+    "desc": "Achromatisch — hinzugefügt für weißes Licht (keine der 8 kontraststärksten Farben)."
+   },
+   "es": {
+    "name": "Blanco",
+    "desc": "Acromático — añadido para la luz blanca (no es uno de los 8 tonos de máximo contraste)."
+   },
+   "it": {
+    "name": "Bianco",
+    "desc": "Acromatico — aggiunto per la luce bianca (non è una delle 8 tinte a massimo contrasto)."
+   },
+   "ja": {
+    "name": "白",
+    "desc": "無彩色 — 白色光のために追加（最大コントラストの8色ではない）。"
+   },
+   "ko": {
+    "name": "흰색",
+    "desc": "무채색 — 백색광을 위해 추가(최대 대비 8색이 아님)."
+   },
+   "zh": {
+    "name": "白色",
+    "desc": "无彩色 — 为白光而加入（非 8 种最大对比色之一）。"
+   }
+  },
+  "Black": {
+   "rgb": [
+    0,
+    0,
+    0
+   ],
+   "rank": 10,
+   "achromatic": true,
+   "en": {
+    "name": "Black",
+    "desc": "Achromatic — added for an instant blackout (not one of the 8 maximum-contrast hues)."
+   },
+   "fr": {
+    "name": "Noir",
+    "desc": "Achromatique — ajoutée pour une extinction instantanée (pas l'une des 8 teintes de contraste maximal)."
+   },
+   "de": {
+    "name": "Schwarz",
+    "desc": "Achromatisch — hinzugefügt für eine sofortige Verdunkelung (keine der 8 kontraststärksten Farben)."
+   },
+   "es": {
+    "name": "Negro",
+    "desc": "Acromático — añadido para un apagón instantáneo (no es uno de los 8 tonos de máximo contraste)."
+   },
+   "it": {
+    "name": "Nero",
+    "desc": "Acromatico — aggiunto per un blackout istantaneo (non è una delle 8 tinte a massimo contrasto)."
+   },
+   "ja": {
+    "name": "黒",
+    "desc": "無彩色 — 即時の消灯のために追加（最大コントラストの8色ではない）。"
+   },
+   "ko": {
+    "name": "검정",
+    "desc": "무채색 — 즉각적인 소등을 위해 추가(최대 대비 8색이 아님)."
+   },
+   "zh": {
+    "name": "黑色",
+    "desc": "无彩色 — 为瞬间熄灭而加入（非 8 种最大对比色之一）。"
+   }
+  }
+ }
+}

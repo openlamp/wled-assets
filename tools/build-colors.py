@@ -9,7 +9,26 @@ COLORS=[  # English key, rgb, rank(1=most distinguishable), per-lang name
  ("Green",      (0,200,80),   6, {"fr":"Vert","de":"Grün","es":"Verde","it":"Verde","ja":"緑","ko":"초록","zh":"绿色"}),
  ("Pink",       (255,130,170),7, {"fr":"Rose","de":"Rosa","es":"Rosa","it":"Rosa","ja":"ピンク","ko":"분홍","zh":"粉色"}),
  ("Blue",       (0,100,200),  8, {"fr":"Bleu","de":"Blau","es":"Azul","it":"Blu","ja":"青","ko":"파랑","zh":"蓝色"}),
+ # 2 ACHROMATICS (added 2026-07-14) — not Kelly contrast hues, added for their utility:
+ # White = plain white light, Black = an instant blackout you can drop on a colour key.
+ ("White",      (255,255,255),9, {"fr":"Blanc","de":"Weiß","es":"Blanco","it":"Bianco","ja":"白","ko":"흰색","zh":"白色"}),
+ ("Black",      (0,0,0),      10,{"fr":"Noir","de":"Schwarz","es":"Negro","it":"Nero","ja":"黒","ko":"검정","zh":"黑色"}),
 ]
+ACHROMATIC = {"White", "Black"}
+def achrodesc(name):
+    util = {"en":"white light","fr":"la lumière blanche","de":"weißes Licht","es":"la luz blanca",
+            "it":"la luce bianca","ja":"白色光","ko":"백색광","zh":"白光"} if name=="White" else \
+           {"en":"an instant blackout","fr":"une extinction instantanée","de":"eine sofortige Verdunkelung",
+            "es":"un apagón instantáneo","it":"un blackout istantaneo","ja":"即時の消灯","ko":"즉각적인 소등","zh":"瞬间熄灭"}
+    tmpl={"en":"Achromatic — added for %s (not one of the 8 maximum-contrast hues).",
+          "fr":"Achromatique — ajoutée pour %s (pas l'une des 8 teintes de contraste maximal).",
+          "de":"Achromatisch — hinzugefügt für %s (keine der 8 kontraststärksten Farben).",
+          "es":"Acromático — añadido para %s (no es uno de los 8 tonos de máximo contraste).",
+          "it":"Acromatico — aggiunto per %s (non è una delle 8 tinte a massimo contrasto).",
+          "ja":"無彩色 — %sのために追加（最大コントラストの8色ではない）。",
+          "ko":"무채색 — %s을 위해 추가(최대 대비 8색이 아님).",
+          "zh":"无彩色 — 为%s而加入（非 8 种最大对比色之一）。"}
+    return {lc: tmpl[lc] % util[lc] for lc in tmpl}
 def rankdesc(r):
     return {"en":"Stage colour #%d — one of the 8 maximum-contrast hues, ranked by at-a-glance distinguishability."%r,
      "fr":"Couleur scène n°%d — l'une des 8 teintes de contraste maximal, classées par lisibilité au premier coup d'œil."%r,
@@ -33,13 +52,17 @@ entries={}
 os.makedirs(DST+"/images/colors",exist_ok=True)
 def slug(n): return re.sub(r'[^a-z0-9]+','-',n.lower()).strip('-')
 for name,rgb,rank,tr in COLORS:
-    e={"rgb":list(rgb),"rank":rank,"en":{"name":name,"desc":rankdesc(rank)["en"]}}
+    dsc = achrodesc(name) if name in ACHROMATIC else rankdesc(rank)
+    e={"rgb":list(rgb),"rank":rank,"achromatic":name in ACHROMATIC,
+       "en":{"name":name,"desc":dsc["en"]}}
     for lc in ("fr","de","es","it","ja","ko","zh"):
-        e[lc]={"name":tr[lc],"desc":rankdesc(rank)[lc]}
+        e[lc]={"name":tr[lc],"desc":dsc[lc]}
     entries[name]=e
-    # swatch
-    svg='<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120"><rect width="120" height="120" rx="16" fill="rgb(%d,%d,%d)"/></svg>'%rgb
+    # swatch — a light hairline so pure black stays visible on a dark UI
+    svg=('<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120">'
+         '<rect x="2" y="2" width="116" height="116" rx="15" fill="rgb(%d,%d,%d)"'
+         ' stroke="#ffffff" stroke-opacity="0.25" stroke-width="3"/></svg>')%rgb
     subprocess.run(["rsvg-convert","-o","%s/images/colors/%s.png"%(DST,slug(name)),"-"],input=svg.encode())
-json.dump({"_note":"OpenLamp's 8 stage colours = Kelly's maximum-contrast palette (minus achromatics), prefix-optimal order. Key = English name; each has rgb, rank, and per-language {name, desc}. See _rationale.","_rationale":RAT,"entries":entries},
+json.dump({"_note":"OpenLamp's stage colours = Kelly's 8 maximum-contrast hues (prefix-optimal order) PLUS 2 achromatics (White, Black) added 2026-07-14 for utility (white light, instant blackout). Key = English name; each has rgb, rank, achromatic flag, and per-language {name, desc}. See _rationale.","_rationale":RAT,"entries":entries},
           open(DST+"/i18n/colors.json","w"),ensure_ascii=False,indent=1)
-print("colors.json + 8 swatches")
+print("colors.json + %d swatches"%len(COLORS))
