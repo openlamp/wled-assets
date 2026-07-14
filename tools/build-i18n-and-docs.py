@@ -1,6 +1,6 @@
 import json, re, html, os
 SP="/private/tmp/claude-501/-Users-benoitbesson-dev-music/b1b0bf2c-2a0b-4a74-83ae-5717d879ef61/scratchpad"
-DST="/Users/benoitbesson/dev/music/wled-assets"; LUM="/Users/benoitbesson/dev/music/lumideck"
+DST="/Users/benoitbesson/dev/music/wled-assets"; LUM="/Users/benoitbesson/dev/music/wled-assets"
 data=json.load(open(SP+"/wled_data.json")); pal,eff=data["pal"],data["eff"]
 PT=json.load(open(LUM+"/locales/palettes.json")); ET=json.load(open(LUM+"/locales/effects.json"))
 MEAN=json.load(open(DST+"/meanings/palette-meanings.json"))

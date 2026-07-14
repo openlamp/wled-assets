@@ -44,7 +44,7 @@
   mouvement, une par une, comme les passes précédentes — repérer les faibles et les refaire.
   - Source canonique : `tools/motions.py` (`motion()` classifier + `anim()` renderer).
   - 3 copies à resynchroniser après chaque changement : `tools/motions.py` (canonique),
-    `tools/anim.js` (JS), et le portage `plugin.py` `_fx_*` dans **openlamp/lumideck**.
+    `tools/anim.js` (JS), et le portage `plugin.py` `_fx_*` dans le plugin Stream Deck (privé).
   - Régénérer les GIF (`images/effects/*.gif`) + vérifier le rendu sur fond sombre (deck + sélecteur PI).
   - Candidates faibles à shortlister d'abord : celles qui tombent sur une motion générique
     (sparkle/fallback) plutôt qu'un mouvement dédié.
