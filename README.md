@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/banner.svg" alt="wled-assets" width="100%"></p>
+
 # wled-assets
 
 **A shared, client-side asset layer for [WLED](https://github.com/wled/WLED)'s standard
