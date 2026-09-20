@@ -1,5 +1,6 @@
+import os
 import json, re, os, subprocess
-DST="/Users/benoitbesson/dev/music/wled-assets"
+DST=os.environ.get("WLED_ASSETS_DIR") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 COLORS=[  # English key, rgb, rank(1=most distinguishable), per-lang name
  ("Yellow",     (255,210,0),  1, {"fr":"Jaune","de":"Gelb","es":"Amarillo","it":"Giallo","ja":"黄","ko":"노랑","zh":"黄色"}),
  ("Violet",     (150,70,170), 2, {"fr":"Violet","de":"Violett","es":"Violeta","it":"Viola","ja":"紫","ko":"보라","zh":"紫色"}),

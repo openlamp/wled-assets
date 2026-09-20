@@ -1,5 +1,6 @@
+import os
 import json
-DST="/Users/benoitbesson/dev/music/wled-assets"
+DST=os.environ.get("WLED_ASSETS_DIR") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Where each concept lives in WLED (short intro, per language). Colours removed (not a WLED enum).
 I={
 "palettes":{"en":"In WLED, a **palette** is the set of colours an effect draws from. You pick it in the **Effects** tab (the *Palette* dropdown); it maps to `seg.pal` and the list comes from `/json/pal`.","fr":"Dans WLED, une **palette** est l'ensemble de couleurs dans lequel un effet puise. On la choisit dans l'onglet **Effets** (menu *Palette*) ; elle correspond à `seg.pal` et la liste vient de `/json/pal`.","de":"In WLED ist eine **Palette** die Farbmenge, aus der ein Effekt schöpft. Auswahl im Reiter **Effekte** (*Palette*-Dropdown); entspricht `seg.pal`, Liste aus `/json/pal`.","es":"En WLED, una **paleta** es el conjunto de colores del que toma un efecto. Se elige en la pestaña **Efectos** (menú *Paleta*); corresponde a `seg.pal` y la lista viene de `/json/pal`.","it":"In WLED una **tavolozza** è l'insieme di colori da cui attinge un effetto. Si sceglie nella scheda **Effetti** (menu *Tavolozza*); corrisponde a `seg.pal`, elenco da `/json/pal`.","ja":"WLEDでは**パレット**はエフェクトが使う色の集合。**エフェクト**タブの*パレット*で選択（`seg.pal`、一覧は`/json/pal`）。","ko":"WLED에서 **팔레트**는 효과가 사용하는 색 집합. **효과** 탭의 *팔레트*에서 선택(`seg.pal`, 목록은 `/json/pal`).","zh":"在 WLED 中，**调色板**是效果所用的一组颜色。在**效果**标签的*调色板*下拉框选择（对应 `seg.pal`，列表来自 `/json/pal`）。"},
