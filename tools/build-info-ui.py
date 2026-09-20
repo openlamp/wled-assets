@@ -1,5 +1,6 @@
+import os
 import json
-DST="/Users/benoitbesson/dev/music/wled-assets"
+DST=os.environ.get("WLED_ASSETS_DIR") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LANGS=["en","fr","de","es","it","ja","ko","zh"]
 def mk(items):  # items: {en_name:{lang:name, "_d":{lang:desc}}}
     out={}

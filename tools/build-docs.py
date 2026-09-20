@@ -1,5 +1,6 @@
+import os
 import json, os
-DST="/Users/benoitbesson/dev/music/wled-assets"
+DST=os.environ.get("WLED_ASSETS_DIR") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SP="/private/tmp/claude-501/-Users-benoitbesson-dev-music/b1b0bf2c-2a0b-4a74-83ae-5717d879ef61/scratchpad"
 def slug(n):
     import re; return re.sub(r'[^a-z0-9]+','-',n.lower()).strip('-')

@@ -1,6 +1,7 @@
+import os
 import json, re
 SP="/private/tmp/claude-501/-Users-benoitbesson-dev-music/b1b0bf2c-2a0b-4a74-83ae-5717d879ef61/scratchpad"
-DST="/Users/benoitbesson/dev/music/wled-assets"
+DST=os.environ.get("WLED_ASSETS_DIR") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LANGS=["en","fr","de","es","it","ja","ko","zh"]
 def entry(name,desc_map,tr):
     e={"en":{"name":name,"desc":desc_map["en"]}}
