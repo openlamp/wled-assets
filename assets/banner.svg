@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="wled-assets — a vendor-neutral, CC0 client-side asset layer for WLED&#x27;s standard palettes and effects">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#141a35"/>
+      <stop offset="1" stop-color="#1c1030"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#dfe4f7"/>
+      <stop offset="0.5" stop-color="#97a1c8"/>
+      <stop offset="1" stop-color="#626d9c"/>
+    </linearGradient>
+    <linearGradient id="accentV" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#dfe4f7"/>
+      <stop offset="1" stop-color="#626d9c"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+
+  <!-- Motif: an asset layer — palette swatches and their names, no runtime -->
+  <g transform="translate(160,180)">
+    <rect x="-84" y="-64" width="168" height="128" rx="14" fill="#0e1430" stroke="url(#accent)" stroke-width="2.5"/>
+    <g>
+      <rect x="-64" y="-46" width="36" height="36" rx="8" fill="url(#accentV)"/>
+      <rect x="-20" y="-46" width="36" height="36" rx="8" fill="url(#accentV)" opacity="0.72"/>
+      <rect x="24"  y="-46" width="40" height="36" rx="8" fill="url(#accentV)" opacity="0.5"/>
+    </g>
+    <g stroke="#7f8bb5" stroke-width="3.5" stroke-linecap="round">
+      <path d="M-64 4 H28"/><path d="M-64 22 H8"/><path d="M-64 40 H44"/>
+    </g>
+    <circle cx="52" cy="26" r="16" fill="url(#accent)" filter="url(#glow)"/>
+  </g>
+
+  <!-- Title -->
+  <g transform="translate(300,116)">
+    <text x="4" y="-34" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="url(#accent)" letter-spacing="5">CC0 · VENDOR-NEUTRAL</text>
+    <text x="0" y="44" font-family="-apple-system, Segoe UI, sans-serif" font-size="76" font-weight="700" fill="#ffffff" letter-spacing="-1">WLED Assets</text>
+    <rect x="4" y="62" width="434" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="4" y="108" font-family="-apple-system, Segoe UI, sans-serif" font-size="23" fill="#aab4d8">Client-side asset layer for WLED&#x27;s standard palettes and effects.</text>
+    <text x="4" y="146" font-family="Menlo, Consolas, monospace" font-size="17" fill="#7f8bb5">wled-assets  ·  72 palette illustrations · 216 previews · 8 languages  ·  CC0</text>
+  </g>
+
+  <!-- Lamp line (shared family strip) -->
+  <g transform="translate(300,286)" opacity="0.9">
+    <rect x="0" y="0" width="910" height="46" rx="8" fill="#0e1430" stroke="#2a3358" stroke-width="1.5"/>
+    <path d="M 26 23 H 910" stroke="#2a3358" stroke-width="2"/>
+    <path d="M 26 23 H 336" stroke="url(#accent)" stroke-width="2.5"/>
+    <g><circle cx="26" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/><circle cx="88" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/><circle cx="150" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/><circle cx="212" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/><circle cx="274" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/><circle cx="336" cy="23" r="11" fill="url(#accent)" filter="url(#glow)"/><circle cx="398" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/><circle cx="460" cy="23" r="8" fill="none" stroke="#3a4472" stroke-width="2"/></g>
+  </g>
+</svg>
